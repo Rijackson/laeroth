@@ -234,6 +234,10 @@
     <map id="brimhaven7" x="457" y="259"/>
     <map id="brimhaven8" x="426" y="290"/>
     <map id="laerothcave0" x="787" y="125"/>
+    <map id="laerothisland0" x="749" y="53"/>
+    <map id="laerothisland1" x="743" y="74"/>
+    <map id="laerothisland2" x="712" y="69"/>
+    <map id="laerothisland3" x="712" y="100"/>
     <namedarea id="crossglen" name="Crossglen" type="settlement"/>
     <namedarea id="crossroads" name="Crossroads Guardhouse" type="other"/>
   </segment>
