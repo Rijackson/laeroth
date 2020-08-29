@@ -83,7 +83,7 @@
     <map id="mountainlake8" x="779" y="31"/>
     <map id="mountainlake9" x="763" y="0"/>
     <map id="lakecave1" x="695" y="-52"/>
-    <map area="remgard" id="remgard0" x="642" y="76"/>
+    <map area="remgard" id="remgard0" x="640" y="76"/>
     <map area="remgard" id="remgard1" x="673" y="83"/>
     <map area="remgard" id="remgard2" x="673" y="114"/>
     <map area="remgard" id="remgard3" x="652" y="107"/>
@@ -238,6 +238,10 @@
     <map id="laerothisland1" x="743" y="74"/>
     <map id="laerothisland2" x="712" y="69"/>
     <map id="laerothisland3" x="712" y="100"/>
+    <map id="island 3" x="609" y="76"/>
+    <map id="island 2" x="609" y="45"/>
+    <map id="island 1" x="578" y="45"/>
+    <map id="island 4" x="578" y="76"/>
     <namedarea id="crossglen" name="Crossglen" type="settlement"/>
     <namedarea id="crossroads" name="Crossroads Guardhouse" type="other"/>
   </segment>
