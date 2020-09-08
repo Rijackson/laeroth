@@ -122,7 +122,7 @@
  </tileset>
  <layer id="1" name="Ground" width="34" height="16">
   <data encoding="base64" compression="zlib">
-   eAGtkjFOQ0EMRJeC0MIlcpVcnYKCjoqCA6TgBuQVTxpZzmJFv1iNPbZnZ/3/+WWt8/B8Pq/1ceoPtZ3O5XWt3WH2/W1/1Kfvu/Hyc+OoZV9qwu88UKPn66axO+qD18bHb9lF1Zr6uLdreXSIeeNT813gqNnjnHi0D96pdkVrYtbxMTk508Xuo6tNOObzf6mxHv/TOsJH/Wcy10dFfVXe3Loov0N7O3Su7sneypMzY12E63qTs1f07sTcUf5nlSe/56PrTc77xfSoF2sTrDM1n2jQkx4f0fAd3ldz+UTuybzGj/jwHWrVXD5x6kM/YmocEasromksulcRfnd3V++41KCuPkgtc+ruVZxo5h3Ekxn1QWYyZ/4PxGlmMQ==
+   eAGtkjEOAkEMA5cCaOET9xW+TkFBR0XBAyj4AbgYybLCEqErVt44TtbJ3bIfY2me63aMy64+ys36nA5jzI5qz8f5ob9098LL48Mp5zrvKX7mQTlpbp8es0N/4bPw8YpdZK+uj2+7hlcf3TXjpvgu4pRDQx24tg/NSe9EcqDn5aNzvKa6s48q1+FU7/9L3vH4q9caPvKf8RgfifhKnpg8CD9DtBVSl3tCm7xi1ZAHxVVa59CCvO3oO/L/LHnF33xUWud4H3SPeCHXwazJuNNDGvf4Tw/m4L2M4R31jsd5/8cHc9ArY3jHrg/8gN5jjXvHB3sFOzXprVPDjGg91p29gujyLeIqX3Hohcozp1Ccx8q/AbIZZa0=
   </data>
  </layer>
  <layer id="2" name="Objects" width="34" height="16">
@@ -132,7 +132,7 @@
  </layer>
  <layer id="3" name="Above" width="34" height="16">
   <data encoding="base64" compression="zlib">
-   eAGdUsENAjEM64c/27EBrAsMAIzCVdRSZBnZzUmH28R23B5j7D330xgPep/Hfj6X8w+7v7cN/eS+jrnv9X5Whjn7unx2/GrmnXMk3IRT52Od6HDGhJtwMLtiogMHd1/1vE44rJl7zFA91BIOuApxn6qHWjIj4cBPYUfvsrt+Nwf7uuyqzx6cRWkcx/3PlKeq1TnOc3KdR/XDms/f8YAXsOPBGt7DG8i5Ua/oPCoXa75n3oMH7MxIssO/g6m/y658VO1fRucPneOpvqrBj1F9wy9c6yCF
+   eAGdUkEOwjAM64U7v9sP4LvAAwZPYdFqKbI8xc2kzW1iO261Mdae122MN72fYx/Pdj+x+30u6IO7H3O/8/3NDDH7MX1W/HLmlXM4XIeT52Pt6HBGh+twMDujowMHd5/1vHY4rIk9Zqgeag4HXIW4T9VDzZnhcOCnsKOvslf9bg72rbKrPntwFqWpONV/pjxVLc+pPINbeWQ/rPn8HQ94ATserOE9vIGcG/WMlUfmYs33zHvwgJ0ZTnb4u9jJUWlUTlW7yuhyqxyqr2pXORT3D1gTIHY=
   </data>
  </layer>
  <layer id="4" name="Walkable" width="34" height="16">
@@ -140,7 +140,7 @@
    eAFjYBgFoyEwGgKjITAaAqMhMBoCoyFA3xAAAAiAAAE=
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents">
+ <objectgroup id="5" name="Mapevents" visible="0">
   <object id="1" name="north" type="mapchange" x="416" y="0" width="128" height="32">
    <properties>
     <property name="map" value="laerothisland2"/>
