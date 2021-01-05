@@ -217,6 +217,18 @@
     <property name="place" value="west"/>
    </properties>
   </object>
+  <object name="south_up" type="mapchange" x="320" y="480" width="320" height="32">
+   <properties>
+    <property name="map" value="mountainlake3"/>
+    <property name="place" value="north_up"/>
+   </properties>
+  </object>
+  <object name="east_up" type="mapchange" x="768" y="384" width="32" height="32">
+   <properties>
+    <property name="map" value="mountainlake5"/>
+    <property name="place" value="west_up"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Spawn">
   <object name="maonit_3" type="spawn" x="608" y="160" width="32" height="32">
@@ -251,6 +263,12 @@
    </properties>
   </object>
   <object name="maonit_2_2" type="spawn" x="64" y="64" width="224" height="352">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="maonit_2"/>
+   </properties>
+  </object>
+  <object name="maonit_up" type="spawn" x="352" y="384" width="384" height="64">
    <properties>
     <property name="quantity" value="2"/>
     <property name="spawngroup" value="maonit_2"/>
