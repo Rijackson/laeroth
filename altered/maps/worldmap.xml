@@ -238,10 +238,10 @@
     <map id="laerothisland1" x="743" y="73"/>
     <map id="laerothisland2" x="710" y="68"/>
     <map id="laerothisland3" x="710" y="99"/>
-    <map id="island 3" x="609" y="76"/>
-    <map id="island 2" x="609" y="45"/>
-    <map id="island 1" x="578" y="45"/>
-    <map id="island 4" x="578" y="76"/>
+    <map id="island3" x="609" y="76"/>
+    <map id="island2" x="609" y="45"/>
+    <map id="island1" x="578" y="45"/>
+    <map id="island4" x="578" y="76"/>
     <namedarea id="crossglen" name="Crossglen" type="settlement"/>
     <namedarea id="crossroads" name="Crossroads Guardhouse" type="other"/>
   </segment>
