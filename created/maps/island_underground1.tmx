@@ -183,22 +183,22 @@
  </tileset>
  <layer name="Ground" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJy1lUFuwkAMRaOBTVYpm9ygSMm+SPSMPULPAIt2n2bBAQBxgmaXcgSaZoQtjGObmShdfA3JGD/b80fZuCTZTKwvQyExY1X3OiiqIGZrxIzVEdZG0B72tsr+FNqlSXJKrytVA9yPdFoVeZKU+T3rxH5z7rubTgc37HUHDMqd2teNUAvu/SfX0hhuzJ0K4aLHJdH4mDtVKTVQ7rfT74QUHyLeS2weLf5n9lhvIK3fWC569GkeLsrmXg/h0mepR8+Q3lt+rRmbegP3KvBMrXA10Vz8W3JkXOoN3PPv9vDs851n9nxb4Gp3hjNDhFyrT+Reev0qknJrsd0sjpsZM+E1dcYMF/N7rlQb5Vq+4zUtFG9SnY0zbmG+GIt9XJRc2l2Q1AH3Mx2qZb0sYM3YjLW8ll99Ls8tel8uez3DWrrhjKW+tHMPnfWLvw/5TSsn94JnclHqiJGfCWe+umEvLeFmxoxjZo39IhPP2O/T86ZesO4W5pV841krYKzd9XnphnEFOW/NgzQfzStpzXpDdunumei1Fman5bNUsLyhtaDPtNk9Es8b859sfqud+tAL+6Erjxkrz/wDysBpvw==
+   eJy1VUFug0AMRJtcckq59AeNFO5FSt/YJ+QN5NDeaZ6Q5gvcKE9IKVbXijG2d5fSw4gstjwe75hULsuqhfFhICZnDs4DPg3UPu8UyEvFlfxuBFx87KTE5+JtE0bjeWNylwbnPbplUPl5SpxHpndpXzdKP9U/81qYw5uyVzG86HEJND9lr2qlB+4rbT+0/BC4ltQ6Wv7XKsu+A3j1sPSm8II/u6HewzoelJt7PYaXnkEzB3BI7y2/nhk39QbGanKW6mugtfj/yZXxUm9g7ELOUC8079bzajvDOUPoVndeSyfy3gz/QZzX13L7RN6tMRPeU2/MMF+PeTUdLetD8h3vKVe8SdEZd9z6+WJuH6il7YKE3vO+b6ZomZZcmbFW1/Ir1ALe/eDL3YAn/yzcdMZUF2rT7j121s+wD493lE7WQu+kJX2kfAvoTDjnixtruQm82oxTZo16kRPvGOLw3Hp91AvWbmFdyTfAVXqOg/s979w0b0/uW/MgrUfrSjgwbchduDEnei3E+xdovZTE33NqFob+UC/UMzyGd0GfmpbQewrk+gGedmkP
   </data>
  </layer>
  <layer name="Objects" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBi+gJ1poF1AWyApxsAgJYYpvoiVgeExHr9vEaTMXnGg2bOBeC6B8PWGys8mMR4IqV8PlM8B+nExK/F6qAHWDeL09EZooF0weMFeJuIxOaCYiLC/BcynPwhgXO64RkZ+JZQf/MnwK3J+92YibIcSCyaOZ8IuTgh8IiF9I4fXIzz68MkNJHiKFq6PkdIFTO4xGh/kF2zhih6+q4Hq92FJ92twxCWutPoTqd7hE8auVwaHODr4hsVsJQJ6/xAZd4pEhAkywKVWGYd6dSzuxJauLiOJKSLZDzP7IRY92MzB5w9CYYbNDmKBJjB9aDFB6DfiwPJMHCKuiBZGIFoRzW0BONIWvvQKC29VoF41JggNAq+g9mILG0F2CL1REOKGBCxlDXI84sv/m8UQ2AzJ/blQNnK8K7LjNodUYMqEsNMKahfIL7VM2NOtIiwdEYh7QmFtyQSxGxTWWzixm4Ge5/DlLXhY43HXEUGIXTC7tQjUJyI45C2hYYVMw4AmDnNB9sLstiJgLwxcF8RtHggcFETYCUu3yACXXn4sYQQKO+Q8BzMPxsdGw8LRigm7Xlz6XotDMCg+AWzbcQE=
+   eJxjYBi+gJ1poF1AO7AGj98WsTIwPMYjv0WQcvtnA82fSyB8vZkQakk1Gx9YD5TPAfpxMSvxeqgB1g3i9PRGaKBdQH+AL40jg71MxGNyQDERYX9LjIHhBwGMyx3XyMivsPxwQgy7vD8ZfkXO76C8TSjPKbFg4ngm7OKEwCcS0jdyeD3Cow+f3EAC9LL9MVK6gMnBxGDxC/ILtnBFD9/VQD37sKR7kLnHsaQVXGn1J5JaPmHs/pDBIY4OvmExW4mA3j9Exp0iEWGCDHCpVcahXh2LO7Glq8tIYopI9sPMfohFDzZz8PkDW5ghy2Ozg1igCUwfWkwQ+o04sDwTR/ULzB/Y3BaAo5zAl15h4a0K1KvGBKFB4BXUXmxhI8gO0btREOKuBCxlDXI84sv/m8UQ2AzJ/blY/KLITlwZRgwwZULYaQW1C+SXWib8dhDKL4TC2pIJYjcorLdwYuoHuQE9z+HLW/CwxuOuI4IQu2B2axGoT0RwyFtCwwqZJgRA9sLstiKg/jC0rLsuiMgH2MBBaL2DSw0ucX6kMLrJjGDfYqYvfgPEAGMChu8=
   </data>
  </layer>
  <layer name="Above" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBhe4LAY8Wq4mFDFOZkw1bJjEcMGLpFgrxSamZJE2kEuICZMhpq9l/GYPRz9O9TsxZaXqOVObOaIQ+3jp7O91FL/GE8ZQKm9uMo7EMAWT+QCXPail3cgQGqZR0p+p2Z+wGcWLnupYT+++gRdjpC9zsKofH+0sPdhImwnNkDI3mA0e+Oh9vBB6RgS0gByOgW501iY9HCWIyOtY0unIHtBGDk/cRMw20QYvzwxAGYvcn6SpkL+JVQGXBKjTR1DTBlAir30yvfUtpcLLW1jAzIk1GuE4lMWKo+tXCYG4LJ3sLRj94gPjL3UBIfEBgYDAFSiTIA=
+   eJxjYBg+4LIYceoOQ9VxMaGKczJhqmXHIoYOLpForxSamZJE2EEJOEyk+4aSvfjiejj6d6jZiy0vUcud2MwRh9rHT2d7qaX+MZ4ygBJ75zLhLu9AAFs8kQvQ3YmrvAMBUss8UvI7teIbZCe+sh1dDmYvpfYTW5+AwBomwvY6C6Py/dHC3ofMNEDI3mA0e+Oh9vBB6Rg89qLHN3I6BYWPsTDp4SxHRl2OLZ2C7AVh5PzETcBsE2H88sQAmL3I+UmaCvmXULvpkhht6hhi0jkp9lLTjbSyF1tYc6GlbWxAhoR6DVuZjmyuLFQeW7lMDMBl72Bpx+4Rp669t5mpa95gBgCf6zkW
   </data>
  </layer>
  <layer name="Walkable" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJztU1sOgCAM4xTe/wrc0F9CoGsLuBglWfxg9LVZr1LqX68sdNg+90TY7f0T3kd3WfPI4M3cv6/xMv8F2894cXhP7QzSe5IXcZ/KvcdieXfsrsq7Mjc3t/Y762H0obdoh1h9uyrC7XXN/DnZM7zubFnfDu/KHJSs1DkxeUeaep4VXGXnIn879hxpVrygDEY4TP6svhGXosXBm/lRtGTWDcNa8+U=
+   eJztU0EKwDAI6yv2/y/0h7tKqZqk7WRsggyqJhpdv1rrv7/SI0PzVMuwbfyJ2Wexqn1U8Fbe39d4kf8CzUdmUXhP3UzU70neiPuU7iMWyrvjdlnelb2putmvl4P0F9VGN4T2t8sz3LEvbz5Fe4RX3S06t8K7sgdGq9V6VBMbm+1FxWVuzr6p2jK34sUVrJlWDDaiKWMsL8KR6ZjVVfoN91PzHg==
   </data>
  </layer>
  <objectgroup name="Mapevents">
@@ -206,6 +206,12 @@
    <properties>
     <property name="map" value="remgard_church_basement"/>
     <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object name="down" type="mapchange" x="32" y="768" width="32" height="32">
+   <properties>
+    <property name="map" value="island_underground2_1"/>
+    <property name="place" value="up"/>
    </properties>
   </object>
  </objectgroup>
