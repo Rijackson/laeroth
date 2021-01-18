@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.0.3" orientation="orthogonal" renderorder="right-down" width="20" height="15" tilewidth="32" tileheight="32" nextobjectid="1">
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="20" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="3">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -180,27 +180,40 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <layer name="Ground" width="20" height="15">
+ <layer id="1" name="Ground" width="20" height="15">
   <data encoding="base64" compression="zlib">
    eJytksENgCAMRUlv7n91BdDEAQQ3EB2BQcQEk1otUPTwTpSX8j8GlDIJK8QUcBEvRDOuIbJFgpCcb+rk1Pp6yCPx6YoeXJqfmX6wbyzkf2V9zq5MN9SXy59m89YN9eXy57rjfAs8e/ni2+F+blH+LT66i0f5/+ELDe8tQe+8/fFaF96/tMMBqPvbQg==
   </data>
  </layer>
- <layer name="Objects" width="20" height="15">
+ <layer id="2" name="Objects" width="20" height="15">
   <data encoding="base64" compression="zlib">
    eJxjYKAP4GLCLs6JQ5wQkMKhT5IE856iqX0khMq/LojKf4PGRwcHofKziXDDXDL9TSl4g+RHYsNei584dbCwl8ViLiysHxNp5zNoWCLHyTU84b8Fi9wntPhEjhds4Y8e/9QAAsIQ+rcodvl/QDufkZAWbuEJAz087kdP6wZIasnxNyj88LmFVgAAuOwYLQ==
   </data>
  </layer>
- <layer name="Above" width="20" height="15">
+ <layer id="3" name="Above" width="20" height="15">
   <data encoding="base64" compression="zlib">
    eJxjYKA9UBdmYGBnwi6HLK4kTL4d4jjMJwQuiZFvJzo4TEWzyDHvMgH1IPMMhCBsbPGBHv4w+3HFHT73YYsPQmGNbB4hvxMTNvQ27zIeeWzhgawGOWxg4U2K+4lRc4lE8+gNCKVfEAAALaQX1Q==
   </data>
  </layer>
- <layer name="Walkable" width="20" height="15" visible="0">
+ <layer id="4" name="Walkable" width="20" height="15">
   <data encoding="base64" compression="zlib">
    eJzbKMbAsHEEY1IBMWaRYje9zSM1bAbKv4TCn9i4QTYPn3uIMQ/dfYPVPHzypIYfNdMTNcwDAOnJr68=
   </data>
  </layer>
- <objectgroup name="Mapevents"/>
- <objectgroup name="Spawn"/>
- <objectgroup name="Keys"/>
+ <objectgroup id="5" name="Mapevents">
+  <object id="1" name="south" type="mapchange" x="352" y="448" width="32" height="32">
+   <properties>
+    <property name="map" value="island2"/>
+    <property name="place" value="cave"/>
+   </properties>
+  </object>
+  <object id="2" name="up" type="mapchange" x="576" y="320" width="32" height="32">
+   <properties>
+    <property name="map" value="island4"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="6" name="Spawn"/>
+ <objectgroup id="7" name="Keys"/>
 </map>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.2" tiledversion="1.3.0" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="5">
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="9">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -195,12 +195,37 @@
    eAHtlU0KwjAQhYNXEASvIV7LI/QaeiBvoCtFqWvFlR7AGexAmrw0MylFhARKfud9fZOQOFdLzUDNQM3A/2fgtIw9HBfx2Hbu3I6+KcsecKfknTvvWq52Xe6f7yDnQzHMRXuCYl6k/U7oi18Uh/SZm/PcEuuW4AnnQfMpNtLXcEW7tP4V9wDOuNXvZqZzjVh+pJXbKLg5JvOtXKSJxnxvqG3lIo2SscqNs1ayf7FKf8SqeaF76Zq5u/qEb4/jwrKitxHdoeE6v1/C9uO5vSYun68xRfIQ1qKJ/PKclSt+NW+GsFFt3ednt19juENePyBZQI0=
   </data>
  </layer>
- <layer id="4" name="Walkable" width="30" height="30" visible="0">
+ <layer id="4" name="Walkable" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eAHtlGGugzAMgznFjrj7ccPNY59khSakUvlHJJ5TJ7b7NrT9tW378zyfwfMOPO/AonfgvZ1/U8R1ntnfIvf8Rpy+Q5/Ta0/FWTiT29Gx8wv6/yFjxDGrEM+Z+3qW91WOzzxzlOue9Og5OzLL0PPQdXPZcx19lgcvLeUcnnDsOLIj5GGObhbxiTr3XZFLjmPM1EwFT+7BHv8zPTsZZjl4Zjr8M8x0GX+VJ12nMv+Mr3L5bFbk4hVxdC/tdEp7I71znR3fJ5d7cgbhXXNXvzJLXl7Vne/M1R3wB/1e6qu7dWfRU2fyImrmvjqrnIs9HpHXuVPSU3jEM7wjuULn0YI+q3r2hdXeVW6ljTPPvMr9AKQGJlw=
+   eAHtlGsOgzAMgznFjrj7ccPNY59mmaa0UvePSOA8HLtjiP2xbft93c/gfgfud2DRO/Dczt8U9Uau2W+Ra74tTv+hz8nFU1ALZ3xH9uB8jL43PFo9Zj1Ec+a87uV5z8dn7ln5uq5y9rPvMziJ7sd+y5eZIzx6qon0ybrFVQ9N+Og5woEvJNibRbRyz3VX+OLjmJ6aKejje3SPZ0QOp8LKB81qD/0Kq72qf+WnvZGo9Kt+z5dns8IXrcTWucQZCfFa+94b4TgfX85JDdL3nX/lq734DcLemVf6SisDfTDnvbONzlJTNX6JmrmuaoX3Mkcj+6pHQvsEGlnTd8RX6H12QZ/1cvjCHq/y1c7VbuoeG797zr1+AQlEKEs=
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents"/>
+ <objectgroup id="8" name="Mapevents">
+  <object id="5" name="west" type="mapchange" x="0" y="448" width="32" height="288">
+   <properties>
+    <property name="map" value="island1"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object id="6" name="south" type="mapchange" x="224" y="928" width="512" height="32">
+   <properties>
+    <property name="map" value="island3"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object id="7" name="down" type="mapchange" x="352" y="448" width="32" height="32">
+   <properties>
+    <property name="map" value="island2_cave"/>
+    <property name="place" value="up"/>
+   </properties>
+  </object>
+  <object id="8" name="cave" type="mapchange" x="128" y="608" width="32" height="32">
+   <properties>
+    <property name="map" value="island2_cave"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup id="6" name="Spawn"/>
  <objectgroup id="7" name="Keys"/>
 </map>

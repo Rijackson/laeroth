@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.2" tiledversion="1.3.0" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="32" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="9">
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="32" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="9">
  <properties>
   <property name="colorfilter" value="none"/>
   <property name="outdoors" value="1"/>
@@ -150,7 +150,7 @@
   </data>
  </layer>
  <objectgroup id="6" name="Mapevents" visible="0">
-  <object id="1" name="east" type="mapchange" x="960" y="672" width="32" height="32">
+  <object id="1" name="east" type="mapchange" x="992" y="672" width="32" height="32">
    <properties>
     <property name="map" value="laerothisland1"/>
     <property name="place" value="west"/>
