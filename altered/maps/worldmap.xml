@@ -236,7 +236,7 @@
     <map id="laerothcave0" x="787" y="125"/>
     <map id="laerothisland0" x="743" y="52"/>
     <map id="laerothisland1" x="743" y="73"/>
-    <map id="laerothisland2" x="710" y="68"/>
+    <map area="laeroth_area" id="laerothisland2" x="710" y="68"/>
     <map id="laerothisland3" x="710" y="99"/>
     <map id="island3" x="609" y="76"/>
     <map id="island2" x="609" y="45"/>
@@ -244,5 +244,17 @@
     <map id="island4" x="578" y="76"/>
     <namedarea id="crossglen" name="Crossglen" type="settlement"/>
     <namedarea id="crossroads" name="Crossroads Guardhouse" type="other"/>
+    <namedarea id="charwoodh" name="Charwood" type="settlement"/>
+    <namedarea id="fallhaven" name="Fallhaven" type="settlement"/>
+    <namedarea id="flagstone" name="Flagstone Prison" type="other"/>
+    <namedarea id="fflask" name="Foaming Flask Tavern" type="other"/>
+    <namedarea id="loneford" name="Loneford" type="settlement"/>
+    <namedarea id="remgard" name="Remgard" type="settlement"/>
+    <namedarea id="vilegard" name="Vilegard" type="settlement"/>
+    <namedarea id="prim" name="Prim" type="settlement"/>
+    <namedarea id="stoutford" name="Stoutford" type="settlement"/>
+    <namedarea id="guynmart_area" name="Guynmart Castle" type="other"/>
+    <namedarea id="brimhaven_area" name="Brimhaven" type="settlement"/>
+    <namedarea id="laeroth_area" name="Laeroth island" type="settlement"/>
   </segment>
 </worldmap>

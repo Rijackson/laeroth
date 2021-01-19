@@ -187,7 +187,7 @@
  </layer>
  <layer id="2" name="Objects" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztlb1KA0EQgJdolxReosQL+gYaEcXG2h9QBI22amMKG21EH0DQ17ERRMQihVpFLFT8C1iIRUQRK7FwxrvhxmFvby8eRMGB4fbuduebmZ2dVepf/pqkcs3hZg3cejZ53mvCNn+at7MG/cG8JR2LSX5DfSzAeLEJfqwAc9XATWIf4tR6f9r8f0D8p/nyexxBG8PCxwM3GBdD/N91vOeeq/9v4km5byDPJ5bcwbxSS/l4tud8fyp+jFdOvPUoo3l9XG9tSnU7399Jugqe6oT7YKpL5BY6lVqHORtiXi/YKIL2iXgunIC7DGtaYNwKego5vrHIM+a4DPoBugXrtxmXx0fvRz6f4sXYsOZyMG4H7QCt+1xTH6VY06CbhnnXIt5j9l5z4+0vjxXlUqx9DLFVCjmj+H0qFc3lsaJMw7qawW+sPR0T19H3eUsuxqrr0SVNziXzUNRPzYLJuaYebdq3KuNy5kPEXhO3opk3AXU5GXI+kbHTQJ+QXJTzEDt4HseAP14ImFzuYN2tZX51XClYXzzHuLfInLHY9ygpCy76jWf+yY2+U3T7no55huheXst6Z3jf9e6UZ9AXxuc9nI8p9+9gswfsDRnuGMqxvA+wZ9n0HsrLF9efnwHmLNgcseBKkf2QhNdT3Q36Mgn6n2GxfgKfUXK/
+   eJztlT8vBUEQwDeP7hB3jzz3wjfgiRCN2p+ESHi0aLxCQyN8AAlfRyMREcUrUBEF4t9LFKI4IaIShRl3mxuTvb29c8kjMcnk9u525zczOzsrxL/8Ncnl68N1NFzPyZ73mrHNn+btLKU/mLesY9HJb6iPeRgv1MGPZWCuaLhZ7EOSWu+z9P/72X85n39PImhjiPm474bjUoT/O7b/3HXV/3U8Lvcp8nxsyB0oCLFYSGZ7NvCnGsR4ZSdbjzJSUMf11ipEl/39XUpn0VeVUB90dYncYocQazBnnc3rARsl0F4Wz4UdcpdgTQOMG0FPIcc3BnnGHFdAP0A3Yf0W4dL45PthwJfxYmxYc3kYt4G2g3oBV9dHZawW6IZm3jWL94i819xk+0tjRblkax8jbJUjzih+n8zFc2msKFOwrqbxG2tPxcR18vucIRdjVfXosiLnnHnA6qdmwKRcXY/W7dsJ4VLmQ8xeS25VMW8c6nIi4nwiYztFn+BclPMIO3geR4E/VgyZVO5g3a1hflVcLlhfNMe4t8icNtj3OKkwLvqNZ/7Jjb9TVPtuJTxD8l5edfwzvOf6d8oz6Avh0x5OxzL372CzG+wNau4YmWN+H2DPMuk9Mi9f3GB+EzBnwOawAZcL74dSaD15btiXUZrB1xbH58pYPwGUa3IK
   </data>
  </layer>
  <layer id="3" name="Above" width="30" height="30">
@@ -197,10 +197,10 @@
  </layer>
  <layer id="4" name="Walkable" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztk8sNACAIQ53C/VdwQxfg0xZMPEDSg4n2AcLZa53RaDQatQsJ736FaXmh8aLGn7ks23obnbu42Yx0MjImUm+Fo/5x9EdqfQjP20F2jhA2svtMj6tMz7PKVfcA6XOUi8JguZEn2we2XsvbiypX2TGVmc0/wkXzQD0y75fcbK4t7gVmLetY
+   eJztk0sOACEIQz3F3P8K3nD2hk9bMHEBSRcm2gcI+1trj0aj0ahdSHj3K0zLC40bNb7MZdnW2+jcxc1mpJORMZF6Kxz1j6M/UutDeN4OsnOEsJHdZ3pcZXqeVa66B0ifo1wUBsuNPNk+sPVa3l5UucqOqcxs/hEumgfqkXnf5J4MqxfnbPyRiezm
   </data>
  </layer>
- <objectgroup id="8" name="Mapevents">
+ <objectgroup id="8" name="Mapevents" visible="0">
   <object id="1" name="south" type="mapchange" x="224" y="928" width="704" height="32">
    <properties>
     <property name="map" value="island4"/>
