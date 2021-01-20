@@ -3,7 +3,6 @@
   <segment id="laeroth_caves" x="100" y="100">
     <map id="secretpassage0" x="200" y="200"/>
     <map id="secretpassage1" x="200" y="221"/>
-    <map id="laerothcave0" x="200" y="252"/>
     <map id="laerothcave1" x="787" y="125"/>
     <map id="laerothcave2" x="787" y="125"/>
     <map id="laerothcave3" x="787" y="125"/>
