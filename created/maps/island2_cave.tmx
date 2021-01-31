@@ -195,7 +195,7 @@
    eJxjYKAtuCzGwKAuzMDAzoRdHllcSZiwWYfFsMuJ4zAfHwCZdQmHeeQAXG6jl3mXCagHmWcghNts5PBHDmtccYdsBrp56PFBTFjjMw+f2sFi3mUSwgNdzSUseklxPz41MHFsdgwmQCj9ggAAaPAgbQ==
   </data>
  </layer>
- <layer id="4" name="Walkable" width="20" height="15">
+ <layer id="4" name="Walkable" width="20" height="15" visible="0">
   <data encoding="base64" compression="zlib">
    eJzbKMbAsHEEY1IBMWaRYje9zSM1bAbKv4TCn9i4QTYPn3uIMQ/dfYPVPHzypIYfNdMTNcwDAOnJr68=
   </data>
@@ -210,7 +210,7 @@
   <object id="2" name="up" type="mapchange" x="576" y="320" width="32" height="32">
    <properties>
     <property name="map" value="island2"/>
-    <property name="place" value="north"/>
+    <property name="place" value="down"/>
    </properties>
   </object>
  </objectgroup>

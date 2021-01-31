@@ -1,0 +1,22 @@
+[
+    {
+        "id":"island_underground2_set1",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"laeroth_nondisplay",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"island_underground2_set2",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"laeroth_nondisplay",
+                "value":2
+            }
+        ]
+    }
+]

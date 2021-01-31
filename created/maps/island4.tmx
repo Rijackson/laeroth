@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="3">
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="7">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -200,20 +200,26 @@
  </layer>
  <layer id="4" name="Walkable" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztkksOwCAIRD1F738Fb9itITN8Rmy6kITUVOQxwHzGmMCZobv1DcpjcyKex2V3LC+rt8KN4jxtWa6nNeJa9hdcpBn1u5NrtbE9i/4zrj0jLtKZ0RHFMY43w4ibrS+qqfKmws3uWbfe7J517ZWqV6k7k6caq3AzttOPKrfSS7XfKnN31uv3FLuTq8wEcdX6d3VX4ru4inXN+hTn+vXr//UXHq/wAg==
+   eJztklEOwCAIQz3F7n8Fb7hfQwqWgvuZJCSLIo+yzmeM6SQKdL7Wox62n8fzuOw5qlO5u5pIW4bradpxLfsLLtLM7k3lWm2ez6Jz1rOoBn2jqHg58rCyP2Y+7055k+GyPuvWy/qsy1eqXmVupk+2VunFRHUfGW5ml6pXVGblf68zn2Z3cZUZEbcy+6m3KDr2zcQpv928efN/+QJE5wzU
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
-  <object id="1" name="north" type="mapchange" x="224" y="0" width="704" height="32">
+  <object id="4" name="north" type="mapchange" x="224" y="0" width="704" height="32">
    <properties>
     <property name="map" value="island1"/>
     <property name="place" value="south"/>
    </properties>
   </object>
-  <object id="2" name="east" type="mapchange" x="928" y="160" width="32" height="448">
+  <object id="5" name="east" type="mapchange" x="928" y="160" width="32" height="448">
    <properties>
     <property name="map" value="island3"/>
     <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object id="6" name="cave" type="mapchange" x="384" y="192" width="32" height="32">
+   <properties>
+    <property name="map" value="final_cave_labyrinth"/>
+    <property name="place" value="up"/>
    </properties>
   </object>
  </objectgroup>

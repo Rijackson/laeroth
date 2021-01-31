@@ -182,25 +182,25 @@
  </tileset>
  <layer id="1" name="Ground" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJy9VstuwjAQtBwunKAX/qBIrXotEnwrv5BwoPeWW68tv9CeoJ8QqFd4pc3W67VdxSuNLMWPGY8nToy51Zuth863B4fPimh9e3T4qojWt98O+2k9tJ7vaWHMe+bcrc0D54VnuZxtQZYOdji/88jRvivI0lHgzcGuIEs5fsV4/5urmDevCWdVkrFO8eZjxLP6aYyZT4zpXXshOHtoZyV5ogF5Z5Nbi+A6uCbklTzRgLwn3+I+uQ6KUzPcc8ldGfL5rICOvTayPo47oht4X6bD/Wkez9hamk4KzkuheRxaT9JJcRV4H5zvj/avDoqQF6legzewBuddO86NwhvyAteTMGf9ks9jA3lT/B2D995xLhk3aoExUKH5ml6pH3n37n9jRc4WxqOW3vOGCsbG8sDzgoW8z2y/MB6egRbIEVTfxDVIukKFvMiztLJWzHJo7RBifTTPyF0jX9r7O1bOU97fWG5KdeFdW6ob/aH3dMq8nO8IXzd1PPrJvye/wt9nAA==
+   eJy9VjFuAjEQtHw0VJCGH4CUKG0ihbfmC3cU0Cd0aRO+QCrgCRfwCq+0LF6v7ei80sgS3vOMx3M+jLnWp62Hzo9bh5+KaP24c9hXROvHX4f1uB5az/c8M+Yr89l3mwfOC2ecy9kWZGlr73m7TO2rgiztBN4crAqylONXjPe/uYp585FwViUZ6xRvvgc8q1NjzHRkTO/GP4Kjh3ZWkicakHcyuo4IroNrQl7JEw3Ie/Aj7pProDg0t3suuStDPh8V0N5zI+vjeCC6gXczvt2f5vGEraXppOC8FJrHofUknRRngffR+f5k73VQhLxI9Rq8gTU475vjXCq8IS9wPQlTNi/5PDSQN8XfIXjnjnPBuFEL9ECFntf0SvPIu3b/N17J2UI/auk9b6igN5YHnhcs5H1h+4V++A20QI6g+iauQdIVKuRFnoWVtWKWQ2uHEJujeUbuGvnS3t+hcp7y/sZyU6oL79pS3egPvadTnsv5jvB1U/vRT/49uQCV3mcS
   </data>
  </layer>
  <layer id="2" name="Objects" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztVj1PAkEQ3bDXaCEeEIgfDWijltJorXbGRu2MjfqnjK12JEb/gDEG/QMYwM6YaEBLo4XgTNjNze3N7h14drzkhWN2d2Z35s3e1TJC1IBj/C/mikLMAzdKQuyXBrYj+D0GnpTCc9/84LnriwgaxHbLjGvfiBWIWYL6buaF2CJxGsy6gtLB6Qh6OIM1d1NRW5U5n8Yu2PdUPi4t5xgjjJeUetVWE8SroxZXKdVpFI0lxSTju5ByPKrXZ+V71ohRL6YbcyfhGTDuTUp1KntCHELcijdgXFwNnROuFhPExo3b9lGx8BPifil+qz2YtUDMEBs3Hne+ONj2Z3LBiIPapOeLQ9nhy4YkenDlGHE9pKa2SY7puXo5+xrap6t5+zxXfg8yQW6qDh8IW164XKC/JfC9rPZI3830PnDdNThG371NKUQL2JaB7ZHZ0xqsWyd+n2R0zjDoyoAtg23Gt97zBzN2Djm+iMkzRU8O2DX4DqwD7xnquHr8QYZrEYdpL+CPDPaA7MvwOKWOm1X/fS9aCxNUF1RHpm/f1W9e+F7g+jybIOeob1PL6IvTGGo4p+L0HT3KoUl0w31bmnNNnS0mvMfoHYTfmx2lGxOcNjpEZzafXF7M/mhZegfPo7XRJHaXL50D2/yk+Mtail8C5384
+   eJztVj1PAkEQ3bDXaCEeEC5+NKCNWkqjtdoZG7UzNuqfMrbamRj9A8YYtDbBAHbGRANaGi0EZ8Jubm6Z3Tvw7HjJC8fs7szuzJu9O88IcQ4c4X8xUxRiFrgWCLEb9GwH8HsIPAqic9/88Lntiz7UiO2GGde+EUsQM4D6rueF2CBxasy6gtLB8RB6OIE1txNR2wPErjDn09gG+47Kx4XlHCNE8ZJSr9pqgnh11OIypToNo7GkGGd8F1KOR/X6rHxPGzGqxXRjbiU8A8a9TqlOJU+IfYhb9nqMi6uhc8LVYozYuHHbPsoWfkLcL8VvtQezFogpYuPG484XB9v+TM4ZcVCb9HxxKDl82ZBED64cI64G1NQmyTE9VydnX0P7dDlvn+fK714mzE3F4QNhywuXC/S3AL4X1R7pu5neB667Bsfou7cuhWgAmzK0PTJ7WoF1q8Tvk+yfMwjaMmTDYJPxrff8wYydQo7PYvJM0ZE9tg2+A6vAO4Y6rh6/l9FaxGHSC/kjwz0guzI6TqnjZtV/3+uvhQmqC6oj07fv6jcvei9wfZ5NkHPUt6ll9MVpDDWcU3G6jh7lUCe64b4tzbmmzuYT3mP0DsLvzZbSjQlOGy2iM5tPLi9mfzQsvYPn0dqoE7vLl86BbX5S/GUtxS9lCH+C
   </data>
  </layer>
  <layer id="3" name="Above" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBgcQF0YU4ydCUIrYZHDBWB6aAnEaWDHGyHqmwkCc+kQHuSATzTyLzUArjSELR3S0h+0SGe0APTIc4MdYIurpzQKF3kamUtqPMLyAzeR+vClZ04y/CRNhB5s9QpyPpYkIa9TA8jgcbMsmhw5YUINgCtMcAEuJPW0SpvYgBSN7UKPj8EOpgHT7HQapdvhAAiVb6A8T4s8h5yO1HHYActz2MpIWJmhCaS1KHAfqfkaZqcqEKvROS9YAu0zBWKzAciDILuthljepxYAAIQvDDY=
+   eJzFVksKwjAQLd1IdafQUj8IghbdK+hBdeVpvEF7BHHnyhOYUAJDzCQz+dQHJYvpzEsz702aZf9FV/ZrM/uNjfJ+3RhiGFSOC4+SXlNHReQwoUV431P/mjbcA/aakvsT8Xu7gF4qQD1gGtJ1KHNCv8OmQ0xnmIZi8XJB9VxsXg5i8HJ79crT9GqdyNN6H11npvwwIe7HNjcLEKP2aoHUg/mmewX6uEZ4OXeOKR/D0rBnlbfSYkWCPsNZie23Zvp5DN7HtNkSeDmQ9ebM8+Hy6v3wxVAz7yo0ewO6TcXrum9DeG21XXVdcds9JXOl502e0+s+S3tcB9RRo3EoXyjPVYZ5pGbGXqwHjzmpQPU19Krk3IpnF8Drg7PgO4rnROTl/gPa3pfclz/+Nw8F0xl8AXX9NbU=
   </data>
  </layer>
- <layer id="4" name="Walkable" width="30" height="30">
+ <layer id="4" name="Walkable" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
    eJztU1sOwCAI8xS7/xW8oV8mC0FsEfBjIzFZfLSldP1prf8rfc2S39qdqGJx593TPld7mjbrncfb6pneztIphqdua789L8aPyH7fOBWzYn3L4GU8js5WhbcRs2DKm02PB6tz+Vbinfq742V9YrEsDVauET2SA9WO9rXTw2KynJn/SRVvFTeaH3S2Wq6QHlEdGqaHd4dlaUM0fimrcm8AopoJuA==
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents">
+ <objectgroup id="5" name="Mapevents" visible="0">
   <object id="4" name="up" type="mapchange" x="0" y="96" width="32" height="32">
    <properties>
     <property name="map" value="island3"/>

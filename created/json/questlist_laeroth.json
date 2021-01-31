@@ -1,0 +1,16 @@
+[
+    {
+        "id":"laeroth_nondisplay",
+        "name":"laeroth_nondisplay",
+        "stages":[
+            {
+                "progress":1,
+                "logText":"island_underground2_set1"
+            },
+            {
+                "progress":2,
+                "logText":"island_underground2_set2"
+            }
+        ]
+    }
+]
