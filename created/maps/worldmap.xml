@@ -12,7 +12,6 @@
   </segment>
   <segment id="island_caves" x="24" y="100">
     <map id="island_underground1" x="100" y="100"/>
-    <map id="island_underground2_1" x="76" y="131"/>
     <map id="island_underground3" x="45" y="131"/>
     <map id="island_underground4" x="23" y="100"/>
   </segment>
