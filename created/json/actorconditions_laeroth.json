@@ -1,0 +1,11 @@
+[
+    {
+        "id":"swift_attack",
+        "iconID":"actorconditions_1:79",
+        "name":"Swift attack",
+        "isPositive":1,
+        "abilityEffect":{
+            "increaseAttackCost":-1
+        }
+    }
+]
