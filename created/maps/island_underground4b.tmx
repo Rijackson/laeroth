@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
-<map version="1.0" orientation="orthogonal" width="30" height="30" tilewidth="32" tileheight="32">
+<map version="1.0" orientation="orthogonal" width="20" height="30" tilewidth="32" tileheight="32">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -181,37 +181,37 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <layer name="Ground" width="30" height="30">
+ <layer name="Ground" width="20" height="30">
   <data encoding="base64" compression="zlib">
-   eJy1lTFuwkAQRVe2GwpEaHKDICV9kJKz5go4BekJXVrgCnQ4RyBkN+yXxqMZewbHK31Zxut9f/9+mboIf+OzGE/bqPUkhE2+r7Peo/Yj6pC5u3y/ItzjiEpM6Mi49NnYotwv57tvhU8St3ZyVwO6xbm1w/stPTx0cK26pYeevLq4Q3vVlc1G8bNlXG/H6p5sdoKXoWeFHL/LEO6qEM7x+kPUZPWdlZaJlhNyBHdWXa8Q98E9gatlouW0zzmCe8pX7JP7oDqV7T1bOz0n70s5Nz2icy+l7o9L4s4cGc/YWn0+qSj3Y9Jeqy9jaT3NJ9VF4CZNq6u6uFIW1qx5zuC+xLN/LdoeuCRPcwMT86YC1yKNq/mkwhrgPsY9PhV2traeVeA+ROaCsb1eJGlrgLu+D2FJzjbNh5fUIwwPM3Wc9iUJA9xntt80P/2WvKTzTONctj1YBmXRAS44C+KNe0WnpLUldT2jfQZ76Jl6eqXt8T+6ZeFK4llb+mrhNs7vBhXyod9pa9e98r6LPPn/yS951ksd
+   eJxjYICAA0zUwweB+BIV8WUgfkJF/BSIN3NSD+uIMTCcIFHPHCYERhZfx0S6WWvRwh/dvHVMqPYRwuvRwh+beaTg9Wjhj2wevnSEzzxcYYEvHZETt/jSETXT0CgexaN4FI/i4YUB1qC8gQ==
   </data>
  </layer>
- <layer name="Objects" width="30" height="30">
+ <layer name="Objects" width="20" height="30">
   <data encoding="base64" compression="zlib">
-   eJztVr1OAkEQ3njXaCEeEIh2oI2+gdZqZ2zUztioL2VstSMx+gKGGPQFMKCdIRFBS6OF4ExuNzfsze4tsCVf8oVjd+fnZr7d29qcEDXgDP7QkfV8Y+q6XRbiqBw/n8LvGfC8PLqmGyXP/Uik0CRjdWZe+abYKQixS8aajF1R5nsxgR4uweZhMT1eL6XfT+EAxg9lPW4M7zHDKDqe9qqpJ4h3Sy9uPfVpEo25YoHxXfQcj+pV7fMVLUaj5DfmvuM7YNx7T32qhEKcQNxqGDMrroKqCdeLeTKG87bzkuZRNfAb4v5I/soc9F4glskYNz8tTPnpXA3TduOgYvFlgkkP3SDxVcnwdTempvYMNR7kzTnonAQ0bpaPcfeJra/Hcp98BGZ7PIe4b68CVwv0twl2Wx412wKfbeCLJVcKlfMrs/4K7hbXBffYgyBmWyPm0gA+MvyUcdX8E3Ad6rHhWJOlMOFfkOSAHAaj85RfMm5O/o/C7F7QOxvdq7rvyKIlEcZaUfbcPs851Bz1rZ+d6OuZ0SB+0/IyzjCfnrehRbRk07daq2tvzXGv0zMI75s9og0KThu4ts+spz65uug6bUs/fUa/ShstMm7zpWpgWu+KaWwp/gGw/3of
+   eJxbx8TAsA6IRwqQFmNgkAFiF3EGhjBxiFgKkE4F4jRxVLUvBRHsN4IMGOAaUEwbaJY4MPxchRkY3MRR5dCBCDScZxMI78tAM02wuAcGQoDioVD3b8Riz0gAuMJmFIyCUTAKRsEoGAwAAKqPDbs=
   </data>
  </layer>
- <layer name="Above" width="30" height="30">
+ <layer name="Above" width="20" height="30">
   <data encoding="base64" compression="zlib">
-   eJzNVksKwkAMlW5E3SlU/CEIWnSvoAfVlafpDewRxJ0rT+AMGhjiZCaZT/FBKcwnr0leknY67aAu7evNd70a/e51i897ZdmjAHd8vNQ6B+PCf+Ym5H0Ow7+Hgxh/Y3AlYvVK6G+TwDczPlhDAKxDfSfWD1deKJ1R2krFKwUVr9y8EqTglebqUYTnytQ05l0K4s0F5LB28GJAPQyY3+PqmxJewIywZ8bONlfMOqZ4JTPHdp/C3BHnBfKnlyHPnDhPBLw61n3jPKXNkPy6oG1MhXNYyovzge1x0VbPOyvNXghtt4lcvL457+N1zSltW9e8reaw3Xvp3scwdVQhDtAT1JzZI8Eu9Iyteu8s+1xw69rUuOZcq2cTwRuCo+Lbq+fA5JX+A7rOa+5Tht77b7DF4A27Mzyx
+   eJxjYKANuCwGodWFMeXYmSC0EhY5XOCwGPluEWfCFLuEw7w3QqSZPReL2ZQCfGZ+ItF95AJKwnuwmMdOg7gZBaNgFIyCUTAKiAEAMdwJEA==
   </data>
  </layer>
- <layer name="Walkable" width="30" height="30" visible="0">
+ <layer name="Walkable" width="20" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzlkl0OgCAMgzmF978CNzQ+mBgiox3d8GeJLwT61XZ1K6UmfMdkcN7APad3rhpWX5EXylX21NP88m4pevLOau+r+2LyUP7vVSejKza3CC6qp2YjGas4s10w4+nVYnj2Jjq/EZfNaZbL+Ih6a93x5oJyo3p+KjeL3esD2QvrLvqW9XGn6eGOtCxviMc/7Wp7tgMFRhMM
+   eJzlklEKACAIQztF979CN+wrCDFxbtCHghD10C1dc4zVKE/Ys8dkAuEPi2i19V9Mt4z+mN0LpUbEA6vvfkd2sqrf66XgGBb1qJip7YX0zGhW+0BCXb9aq+qjutPMPihmo9SEzMJjLJ+tH80gYrx79k9+5QaOmFxQ
   </data>
  </layer>
  <objectgroup name="Mapevents">
-  <object name="north" type="mapchange" x="832" y="0" width="32" height="32">
+  <object name="up" type="mapchange" x="0" y="96" width="32" height="32">
    <properties>
-    <property name="map" value="island_underground4a"/>
-    <property name="place" value="south"/>
+    <property name="map" value="island_underground5"/>
+    <property name="place" value="east"/>
    </properties>
   </object>
-  <object name="south" type="mapchange" x="800" y="928" width="32" height="32">
+  <object name="south" type="mapchange" x="64" y="864" width="32" height="32">
    <properties>
-    <property name="map" value="island_underground3"/>
-    <property name="place" value="cave"/>
+    <property name="map" value="island_underground4a"/>
+    <property name="place" value="north"/>
    </properties>
   </object>
  </objectgroup>
