@@ -238,10 +238,10 @@
     <map id="laerothisland1" x="743" y="73"/>
     <map area="laeroth_area" id="laerothisland2" x="710" y="68"/>
     <map id="laerothisland3" x="710" y="99"/>
-    <map id="island3" x="500" y="91"/>
-    <map id="island2" x="500" y="60"/>
-    <map id="island1" x="469" y="60"/>
-    <map id="island4" x="469" y="91"/>
+    <map id="island3" x="546" y="32"/>
+    <map id="island2" x="546" y="1"/>
+    <map id="island1" x="515" y="1"/>
+    <map id="island4" x="515" y="32"/>
     <namedarea id="crossglen" name="Crossglen" type="settlement"/>
     <namedarea id="crossroads" name="Crossroads Guardhouse" type="other"/>
   </segment>
