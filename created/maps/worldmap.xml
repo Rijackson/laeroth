@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <worldmap>
-  <segment id="laeroth_caves" x="100" y="100">
-    <map id="secretpassage0" x="200" y="200"/>
-    <map id="secretpassage1" x="200" y="221"/>
-    <map id="laerothcave1" x="787" y="125"/>
-    <map id="laerothcave2" x="787" y="125"/>
-    <map id="laerothcave3" x="787" y="125"/>
-    <map id="laerothcave4" x="787" y="125"/>
-    <map id="laerothtomb0" x="787" y="125"/>
-    <map id="laerothtomb1" x="787" y="125"/>
+  <segment id="laeroth_caves" x="260" y="144">
+    <map id="laerothcave1" x="281" y="219"/>
+    <map id="laerothcave2" x="281" y="198"/>
+    <map id="laerothcave3" x="275" y="177"/>
+    <map id="laerothcave4" x="271" y="171"/>
+    <map id="laerothtomb0" x="268" y="160"/>
+    <map id="laerothtomb1" x="260" y="144"/>
   </segment>
   <segment id="island_caves" x="23" y="35">
     <map id="island_underground1" x="100" y="100"/>
