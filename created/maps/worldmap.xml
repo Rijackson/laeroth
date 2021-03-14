@@ -10,9 +10,13 @@
     <map id="laerothtomb0" x="787" y="125"/>
     <map id="laerothtomb1" x="787" y="125"/>
   </segment>
-  <segment id="island_caves" x="24" y="100">
+  <segment id="island_caves" x="23" y="35">
     <map id="island_underground1" x="100" y="100"/>
     <map id="island_underground3" x="45" y="131"/>
     <map id="island_underground4" x="23" y="100"/>
+    <map id="island_underground2" x="76" y="131"/>
+    <map id="island_underground4a" x="47" y="67"/>
+    <map id="island_underground4b" x="71" y="36"/>
+    <map id="island_underground5" x="50" y="34"/>
   </segment>
 </worldmap>
