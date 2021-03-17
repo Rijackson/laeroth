@@ -1,0 +1,39 @@
+[
+    {
+        "id":"beach_crawler_1",
+        "name":"Venomous beach crawler",
+        "iconID":"monsters_redshrike1:6",
+        "maxHP":70,
+        "monsterClass":"animal",
+        "attackDamage":{
+            "min":2,
+            "max":8
+        },
+        "attackCost":5,
+        "attackChance":70,
+        "blockChance":35,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"poison_weak",
+                    "magnitude":3,
+                    "duration":4,
+                    "chance":"45"
+                }
+            ]
+        }
+    },
+    {
+        "id":"centaur",
+        "name":"Centaur",
+        "iconID":"monsters_ld2:195",
+        "monsterClass":"humanoid"
+    },
+    {
+        "id":"centaur_leader",
+        "name":"Centaur leader",
+        "iconID":"monsters_ld2:194",
+        "unique":1,
+        "monsterClass":"humanoid"
+    }
+]
