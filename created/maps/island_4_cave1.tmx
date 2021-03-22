@@ -198,7 +198,7 @@
  </layer>
  <layer name="Walkable" width="6" height="6" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzbKMaAAjaKITAucXQ5ZHlC4rjMgfEBz4kN/w==
+   eJzbKMbAsJFKGBngEkeWQ1cHwgD6ZhXF
   </data>
  </layer>
  <objectgroup name="Mapevents">
@@ -208,7 +208,12 @@
     <property name="place" value="cave"/>
    </properties>
   </object>
-  <object name="down" type="mapchange" x="32" y="96" width="32" height="32"/>
+  <object name="down" type="mapchange" x="32" y="96" width="32" height="32">
+   <properties>
+    <property name="map" value="island_4_cave2"/>
+    <property name="place" value="up"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Spawn"/>
  <objectgroup name="Keys"/>
