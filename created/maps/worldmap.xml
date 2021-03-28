@@ -17,4 +17,10 @@
     <map id="island_underground4b" x="71" y="36"/>
     <map id="island_underground5" x="50" y="34"/>
   </segment>
+  <segment id="island_cave_2" x="-20" y="-43">
+    <map id="island_4_cave1" x="11" y="3"/>
+    <map id="island_4_cave2" x="18" y="-1"/>
+    <map id="final_cave_labyrinth" x="-20" y="-16"/>
+    <map id="final_cave1" x="-19" y="-47"/>
+  </segment>
 </worldmap>
