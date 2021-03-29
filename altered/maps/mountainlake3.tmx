@@ -229,7 +229,10 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Spawn">
+ <objectgroup name="Spawn" visible="0">
+  <properties>
+   <property name="active" value="false"/>
+  </properties>
   <object name="maonit_2" type="spawn" x="224" y="640" width="32" height="64">
    <properties>
     <property name="quantity" value="2"/>
