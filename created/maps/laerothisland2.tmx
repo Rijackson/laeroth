@@ -130,7 +130,7 @@
  </tileset>
  <layer name="Ground" width="32" height="30">
   <data encoding="base64" compression="zlib">
-   eJy1l7FOwzAQhoOrki6hCnOkbmxpBh4gDYxMSdhY+wrwFognQTwFUl8AwdAZMbEgxFhiNb9yPZ8dJ4jhV6SL7e8uPt852+Mg2ApKlGz/iz6bNYNJJ2nMWWhK211ztK/LVgkRH7cj/FNhLT1f4ifMb+oL5S0FcT+0DxI7VXa+tmeN7mdB8DDr+KmFyZV57KVeK3XwtR4b9hPhbyI/we8+vmZsYlNL9g5+vUV+gt9j+fNwL+OdZ/wYb8tfX/5rvNemffrGj3mJI/fAx1gqzofeG314PHkeS/yc5Ct4ffpu1v6Ju+ftNAjupqa9j6/ZZevDisjly8LTx7lwjjm/VJ0qopz5gnWG+sTPsS+/ZL5IfJ/v0MfHHqxIzAXjlx7x+/Jt9XDdci4a1f/Mrx01+Vod+rQewEetlWzgFz18myjftu+otZKNsqU9QF+x9QspNp6HvGZSG747/LDdDWi/oL1dio2L10xqyxzff6c6Fu9zEOzPkSmea1L8hWPvkRsp6QGcD/tLZMqW67Sn1BY2zjzGY42vSNZVbMrFx5krjkyh/lXKvINNTmTdxKYkPu0lPN94/a2E+IfWGcrPWC2ves57OoIv1QDMLRi7Vu679xi+5Afm1qx3FQ5+rg7vHzY+6s9CsEl8cEuS91Ls6L25wKcsV22V+ENqO3yg/wAzJtSR87ATbBhD/5lsGstHHbkMO8HG+b7/Q7+okaVG
+   eJy1l7FOwzAQho2r0i6hCnOkbmxpHiENK1MSNta+ArwF4kkQT4HUF0AwdEZMLAgxlljNr1zPZ8cJYvgV6WL7u4vPd87uVKmdoETL9r/os1lTTTpJYy5mtozdN8f4umqVEPFxe8I/F9Yy8yV+wvymvlDeShD3w/ggsVPt5ht71uh+rtTDvOOnDiZXFrCXZq3Uwzd6bNhPhL+NwgS/+/iGsY1trdg7+PUWhQl+j+UvZgdZ7wLjx3hX/obyX+ODtu0zNH7MSzy5Bz7GUnE+9N7oI+DJ81ji5yRfwevTd7P2T9w9b6dK3U1tex/fsMvWhzWRz5dloI8L4Rxzfqk7VUQ58wXrDPWJn+NQfsl8kfgh36GPjz1Yk5gLxi8D4g/lu+rhpuVcNqr/mV97avK1PvZpM4CPWivZwC96+C5RvmvfUWslG2VLe4C+4uoXUmw8D3nNpDZ8d/jhuhvQfkF7uxQbF6+Z1JZ5vv9edyze5yDYnyNbPNek+AvP3iM3UtIDOB/2l8iWK9dpT6kdbJx5jMcaX5Gsq9iWj48zV5zYQv2rtH0Hm5zJuoltSXzaS3i+8fpbCfEPrTOUn7FaXvWc93QEX6oBmFswdq39d+8xfMkPzK1Z7yo8/Fwf3z9cfNSfpWCT+OCWJO+l2NF7c4FPWb7aKvGH1Hb4QP8B5kyoIz4b/WdyaSwfdcRnc51/1//QLxIBpBQ=
   </data>
  </layer>
  <layer name="Objects" width="32" height="30">
@@ -148,7 +148,7 @@
    eJztzgENAAAIA6BHsJ39mxhD5yABCQAA8FHX9gBuGUwLAGg=
   </data>
  </layer>
- <layer name="Walkable" width="32" height="30">
+ <layer name="Walkable" width="32" height="30" visible="0">
   <data encoding="base64" compression="zlib">
    eJztkssRwCAIRC0hTdl/S7mSBPkork6QGW7gW9atVyn19KNpZeSf/v5HNj5lorNordYeStPbK00f2p9ZOrLzuaztwuf0IP3PwJf0rOBzvAh+y1sE37vH8bWsSAwLn85I9/f4MMqPyJP0do+nI9nz1Cy+1Y+/87X5CD6nwTLrZdzI6va0
   </data>
