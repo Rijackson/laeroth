@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
-<map version="1.0" orientation="orthogonal" width="30" height="24" tilewidth="32" tileheight="32">
+<map version="1.0" orientation="orthogonal" width="13" height="19" tilewidth="32" tileheight="32">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -121,67 +121,37 @@
  <tileset firstgid="4917" name="map_window_2" tilewidth="32" tileheight="32">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <layer name="Ground" width="30" height="24">
+ <layer name="Ground" width="13" height="19">
   <data encoding="base64" compression="zlib">
-   eJy1lLENwzAMBFXFbbKEV8kOmdhFeq8TqBDAEHz+U4KKLySbOoJ88jxa+z6wzuB7dGd1vVq7jfqdPfd49sYMd7CyN5Xcq9yMZVXNPYpnb/b8hxQuqoEVuvP5+/5Wc7+Jb9T+ZrnP1EPtNfO86iv0LxLLbYXr+676apXr+75jb6heWOGyOVDjs3MUl82wyo3mZ5xRXDbDmYetovkZZ+RR1pvIx5W9gHYe40Y+ZnuhwkDc9zPXrj24ylXyijyjcFV1xuf4F/IR4zLfXc4HiOt9w7jMd+pMMs6sWE12cVk9qu/9AHIUzYo=
+   eJxTY2dgUCMDnxBkYDiJBZ8C4ih2VAzTc10QN6amnjNsuDE5etDxqJ7hqwebXnz5ADntI+vBljdgGDkNI+vBl9bJwQCx16Zm
   </data>
  </layer>
- <layer name="Objects" width="30" height="24">
+ <layer name="Objects" width="13" height="19">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjAIImMBPuRn9VDBjFIyCUTAKBgIs4SFObBSMAgC25wKe
+   eJxjYBiaoJSHdD2tZOgZBaNgqAIAQwUBEw==
   </data>
  </layer>
- <layer name="Above" width="30" height="24">
+ <layer name="Above" width="13" height="19">
   <data encoding="base64" compression="zlib">
-   eJztlLsNgDAMRD0ABduxQViIgREFEgrnz5lYosh1iXN+jk0QEdlWMYXijKcpZyu4GquaG9HX2ncQR3ssN+Nnc2ZqR/1g51s1S4+L6kRcrQeRuVp5vbjmYXozuXyufq7PtTVzyxe5r7W2esP6+r3Ie0U5el8juRll5pu5H8sdwchwq+Rx72/7WN4xtDdaF5/5/44Sem9T/9YJWp0iKA==
+   eJxjYCAPhAuQLodPTxoZeki1f1TPqB5iQfoQcCMhAADEAAfF
   </data>
  </layer>
- <layer name="Walkable" width="30" height="24" visible="0">
+ <layer name="Walkable" width="13" height="19" visible="0">
   <data encoding="base64" compression="zlib">
-   eJztk1EOwCAIQ3cEL+X9r7Rfs2CpLXFbYhM+BOUBwd4uqB7EI98zPlrkY3IoXKauai5iuf1mc3S5TO0q183BvGF6d+eRyel3lo9hVO/z4c7vVfzfaC/Y9+j8Jy5rq1ykFSbK8RVupgquol39Kvuk7N9u5pvcY5rd1WR82Q==
+   eJxzFWBgcKUyRgf01oMLkKMHlzmjeoanHmx6yUn3tNRDLAYAPFUjMw==
   </data>
  </layer>
  <objectgroup name="Mapevents">
-  <object name="up1" type="mapchange" x="224" y="288" width="32" height="32">
+  <object name="up" type="mapchange" x="256" y="32" width="128" height="32">
    <properties>
-    <property name="map" value="laerothmanor0"/>
-    <property name="place" value="down1"/>
+    <property name="map" value="laerothbasement0"/>
+    <property name="place" value="down"/>
    </properties>
   </object>
-  <object name="up2" type="mapchange" x="640" y="256" width="32" height="32">
+  <object name="south" type="mapchange" x="96" y="544" width="96" height="32">
    <properties>
-    <property name="map" value="laerothmanor0"/>
-    <property name="place" value="down2"/>
-   </properties>
-  </object>
-  <object name="north1" type="mapchange" x="32" y="0" width="224" height="32">
-   <properties>
-    <property name="map" value="laerothbasement1"/>
-    <property name="place" value="south1"/>
-   </properties>
-  </object>
-  <object name="north2" type="mapchange" x="288" y="0" width="128" height="32">
-   <properties>
-    <property name="map" value="laerothbasement1"/>
-    <property name="place" value="south2"/>
-   </properties>
-  </object>
-  <object name="north3" type="mapchange" x="448" y="0" width="224" height="32">
-   <properties>
-    <property name="map" value="laerothbasement1"/>
-    <property name="place" value="south3"/>
-   </properties>
-  </object>
-  <object name="north4" type="mapchange" x="800" y="0" width="32" height="32">
-   <properties>
-    <property name="map" value="laerothbasement1"/>
-    <property name="place" value="south4"/>
-   </properties>
-  </object>
-  <object name="down" type="mapchange" x="384" y="640" width="128" height="32">
-   <properties>
-    <property name="map" value="laerothbasement2"/>
-    <property name="place" value="up"/>
+    <property name="map" value="laerothisland3"/>
+    <property name="place" value="arch"/>
    </properties>
   </object>
  </objectgroup>
