@@ -123,34 +123,34 @@
  </tileset>
  <layer name="Ground" width="34" height="16">
   <data encoding="base64" compression="zlib">
-   eJy9VDEOgzAMDAN0LZ/IV/g6Q4ZuTB36gA78AEXCUuSewzlEHU5AbCfny5n4CCGSeI0hpAkjx2q1y7OOnLPOdche+f0NuHzG3zxdz/DY5jrKvr6Ax660QPUMD0trgeTk3gYQH85YKp66viePDZwhkBjKYf3H8mjFlQf/yYP1H9KH1e+u5tacSdzS0Ku75V0NrVPpPaShV3fk3RZ/oD6sbxbIH5566+7u+LyFh3V3PXh4/ydeMDyYebja09svWmPmoQcPPcO69wOyGWWt
+   eJy9VLsOwkAMuw4tK/2J/kp/naEDWycGPoCBP0AnEelknOCcCoPV6vKo4/qynEpZRFzHUraJo8ai2vUco+Zc5hjWq77fCJf7+JmH9QqPfY7RzvUgPJ6gBatXeHhaGyynzjaQ+PCObc0T64/ksZNvGCzGclT/qTx68c2D/+Sh+o/po+h2hObePbM4atejOfaM+KNOrfda7Xo0x57ejOq/93J7vcP8odR5+rKzLNcMD0/faKdkeWT3SRYKD7ZTsj2z87IztlN+wQPvMM7+AtgfZr0=
   </data>
  </layer>
  <layer name="Objects" width="34" height="16">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFQxk8ZaGOGkrBVyLsIEbNKBgFo2AUjALsoJ9/oF1AXQAAqNEEYw==
+   eJxjYBgFQxk8ZaGOGkrBVyLsIEbNKBgFIxX08w+0C0bBKKAvAAD7GARj
   </data>
  </layer>
  <layer name="Above" width="34" height="16">
   <data encoding="base64" compression="zlib">
-   eJy9U8kNgDAMy6d/tusG7brAAMAoVAKEFFVK7B6W8oqdujlEMKxBZFOxhycXF7CYAqLPhXuUd883rvDn0tLmB9F5uCN9ROCvM3wkB9fDafXBotcbM2/hQzY0Vp71oTmWppZnNBbH2jPGh2d3e8yudX/YGugsPTvF+NB9ZmZpgbkHCz16rlHziXj3ckffbY17AyUFIH0=
+   eJy9lNENgCAMRPvDP9uxAayrDqCOIokSDSmhRyuX8EPv4EEKRJgWR7RWY3N3LXhwsUpIPmXvnvc9nnG6txa9jgfJSbx/cgTgrDM4osAr8Wg5RmW1x8y3UJQamda8FUftaWXQea2n1WcaDknvov+YJm/FwXkleUlvIRzc/VrfeZHmXVhy9DIcJ8Iu9fY4RnrkW+e8F0IVIH0=
   </data>
  </layer>
- <layer name="Walkable" width="34" height="16" visible="0">
+ <layer name="Walkable" width="34" height="16">
   <data encoding="base64" compression="zlib">
-   eJxzFWBgcCURowNS9VMLD3d3EAKkuoNcd5LiDnLUUNMdlICh5g5c7qJmOiXHnfRwx2AJD3LSBzb9uPikmkNPdxCbPgaLOygJH2IALdyBK82RYg8+uwfaHQAHultQ
+   eJxzFWBgcCURowNS9VMLD3d3EAKkuoNcd5LiDnLUUNMdlICh5g5c7iLGvdTw60C6Y7CEBznpA1kfNnFywEC4g9j0MVjcQU74kAJo4Q5ywgSb+dTI67RwBwCWKVlS
   </data>
  </layer>
- <objectgroup name="Mapevents" visible="0">
+ <objectgroup name="Mapevents">
   <object name="north" type="mapchange" x="416" y="0" width="128" height="32">
    <properties>
     <property name="map" value="laerothisland2"/>
     <property name="place" value="south2"/>
    </properties>
   </object>
-  <object name="up" type="mapchange" x="512" y="448" width="32" height="32">
+  <object name="up" type="mapchange" x="480" y="320" width="32" height="32">
    <properties>
-    <property name="map" value="laerothamnor0"/>
+    <property name="map" value="laerothmanor0"/>
     <property name="place" value="down3"/>
    </properties>
   </object>
