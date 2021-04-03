@@ -18,5 +18,9 @@
                 "value":2
             }
         ]
+    },
+    {
+        "id":"bridge_key",
+        "message":"The bridge is no longer passable."
     }
 ]
