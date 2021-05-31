@@ -148,12 +148,12 @@
    eJztzgENAAAIA6BHsJ39mxhD5yABCQAA8FHX9gBuGUwLAGg=
   </data>
  </layer>
- <layer name="Walkable" width="32" height="30" visible="0">
+ <layer name="Walkable" width="32" height="30">
   <data encoding="base64" compression="zlib">
    eJztkssRwCAIRC0hTdl/S7mSBPkork6QGW7gW9atVyn19KNpZeSf/v5HNj5lorNordYeStPbK00f2p9ZOrLzuaztwuf0IP3PwJf0rOBzvAh+y1sE37vH8bWsSAwLn85I9/f4MMqPyJP0do+nI9nz1Cy+1Y+/87X5CD6nwTLrZdzI6va0
   </data>
  </layer>
- <objectgroup name="Mapevents" visible="0">
+ <objectgroup name="Mapevents">
   <object name="east" type="mapchange" x="992" y="672" width="32" height="32">
    <properties>
     <property name="map" value="laerothisland1"/>
@@ -203,6 +203,13 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Spawn"/>
+ <objectgroup name="Spawn">
+  <object name="spawn_1" type="spawn" x="704" y="608" width="256" height="128">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="serpent_1"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup name="Keys"/>
 </map>

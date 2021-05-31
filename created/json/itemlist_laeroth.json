@@ -1,0 +1,37 @@
+[
+    {
+        "id":"serpent_meat",
+        "iconID":"items_misc_6:25",
+        "name":"Serpent meat",
+        "displaytype":"ordinary",
+        "category":"food",
+        "useEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"blindness",
+                    "chance":"100"
+                },
+                {
+                    "condition":"food",
+                    "magnitude":2,
+                    "duration":5,
+                    "chance":"100"
+                },
+                {
+                    "condition":"foodp",
+                    "magnitude":2,
+                    "duration":8,
+                    "chance":"8"
+                }
+            ]
+        }
+    },
+    {
+        "id":"lizard_skin",
+        "iconID":"items_misc_2:88",
+        "name":"Lizard skin",
+        "hasManualPrice":1,
+        "baseMarketCost":10,
+        "category":"animal"
+    }
+]

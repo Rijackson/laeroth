@@ -7,5 +7,14 @@
         "abilityEffect":{
             "increaseAttackCost":-1
         }
+    },
+    {
+        "id":"blindness",
+        "iconID":"actorconditions_1:27",
+        "name":"Blindness",
+        "abilityEffect":{
+            "increaseAttackChance":-5,
+            "increaseBlockChance":-5
+        }
     }
 ]
