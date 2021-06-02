@@ -22,5 +22,8 @@
     {
         "id":"bridge_key",
         "message":"The bridge is no longer passable."
+    },
+    {
+        "id":"vine_0"
     }
 ]

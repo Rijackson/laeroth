@@ -139,5 +139,37 @@
         "attackChance":150,
         "blockChance":90,
         "damageResistance":2
+    },
+    {
+        "id":"poison_vine",
+        "name":"Poisonous vine",
+        "iconID":"monsters_guynmart:8",
+        "maxHP":90,
+        "monsterClass":"construct",
+        "attackDamage":{
+            "min":1,
+            "max":3
+        },
+        "spawnGroup":"vine_1",
+        "attackCost":5,
+        "attackChance":350,
+        "blockChance":50,
+        "damageResistance":2,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"poison_weak",
+                    "magnitude":3,
+                    "duration":5,
+                    "chance":"90"
+                },
+                {
+                    "condition":"blister",
+                    "magnitude":3,
+                    "duration":4,
+                    "chance":"80"
+                }
+            ]
+        }
     }
 ]
