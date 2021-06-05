@@ -33,5 +33,28 @@
         "hasManualPrice":1,
         "baseMarketCost":10,
         "category":"animal"
+    },
+    {
+        "id":"shield_dark_ref",
+        "iconID":"items_armours_3:24",
+        "name":"Shield of dark reflections",
+        "displaytype":"extraordinary",
+        "category":"shld_mtl_hv",
+        "description":"When you look into the polished surface, you see a terrifying reflection of yourself.",
+        "equipEffect":{
+            "increaseAttackChance":-8,
+            "increaseBlockChance":17,
+            "increaseDamageResistance":1
+        },
+        "hitReceivedEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"fear",
+                    "magnitude":1,
+                    "duration":4,
+                    "chance":"18"
+                }
+            ]
+        }
     }
 ]
