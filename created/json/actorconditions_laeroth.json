@@ -12,6 +12,8 @@
         "id":"blindness",
         "iconID":"actorconditions_1:27",
         "name":"Blindness",
+        "category":"physical",
+        "isStacking":1,
         "abilityEffect":{
             "increaseAttackChance":-5,
             "increaseBlockChance":-5
