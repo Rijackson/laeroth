@@ -56,5 +56,33 @@
                 }
             ]
         }
+    },
+    {
+        "id":"bloodseeker",
+        "iconID":"items_weapons_3:30",
+        "name":"Blood seeker",
+        "displaytype":"extraordinary",
+        "category":"lsword",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":3,
+                "max":9
+            },
+            "increaseAttackCost":5,
+            "increaseAttackChance":20,
+            "increaseCriticalSkill":1,
+            "setCriticalMultiplier":1.5,
+            "setNonWeaponDamageModifier":121
+        },
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"bleeding_wound",
+                    "magnitude":5,
+                    "duration":5,
+                    "chance":"25"
+                }
+            ]
+        }
     }
 ]
