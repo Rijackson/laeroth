@@ -26,7 +26,7 @@
     {
         "id":"centaur",
         "name":"Centaur",
-        "iconID":"monsters_ld2:195",
+        "iconID":"monsters_ld1:42",
         "monsterClass":"humanoid"
     },
     {
