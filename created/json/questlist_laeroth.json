@@ -12,5 +12,10 @@
                 "logText":"island_underground2_set2"
             }
         ]
+    },
+    {
+        "id":"odd_coin_collector",
+        "name":"The odd coin collector",
+        "showInLog":1
     }
 ]

@@ -203,5 +203,25 @@
                 }
             ]
         }
+    },
+    {
+        "id":"forenza",
+        "name":"Forenza",
+        "iconID":"monsters_tometik7:22",
+        "maxHP":215,
+        "moveCost":5,
+        "unique":1,
+        "monsterClass":"humanoid",
+        "movementAggressionType":"none",
+        "attackDamage":{
+            "min":10,
+            "max":22
+        },
+        "droplistID":"forenza_dl",
+        "attackCost":4,
+        "attackChance":70,
+        "criticalSkill":30,
+        "criticalMultiplier":2.0,
+        "blockChance":50
     }
 ]

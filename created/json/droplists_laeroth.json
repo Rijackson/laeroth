@@ -82,5 +82,63 @@
                 }
             }
         ]
+    },
+    {
+        "id":"forenza_dl",
+        "items":[
+            {
+                "itemID":"health",
+                "chance":"100",
+                "quantity":{
+                    "min":3,
+                    "max":3
+                }
+            },
+            {
+                "itemID":"forenza_key",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"gylew_dl",
+        "items":[
+            {
+                "itemID":"pot_courage",
+                "chance":"10",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gold",
+                "chance":"100",
+                "quantity":{
+                    "min":20,
+                    "max":50
+                }
+            },
+            {
+                "itemID":"health",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gylew_key",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
     }
 ]

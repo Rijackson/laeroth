@@ -84,5 +84,80 @@
                 }
             ]
         }
+    },
+    {
+        "id":"shield_of_brave",
+        "iconID":"items_tometik2:97",
+        "name":"Shield of the brave",
+        "displaytype":"extraordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":3000,
+        "category":"shld_mtl_hv",
+        "description":"Provides to it's possessor, a level of fearlessness and courage.",
+        "equipEffect":{
+            "increaseAttackChance":-4,
+            "increaseBlockChance":20,
+            "increaseDamageResistance":1,
+            "addedConditions":[
+                {
+                    
+                }
+            ]
+        },
+        "killEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"courage",
+                    "chance":"25"
+                }
+            ]
+        }
+    },
+    {
+        "id":"shield_of_brave_upg",
+        "iconID":"items_tometik2:97",
+        "name":"Shield of the brave",
+        "displaytype":"extraordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":3800,
+        "category":"shld_mtl_hv",
+        "description":"Provides to it's possessor, a level of fearlessness and courage.",
+        "equipEffect":{
+            "increaseAttackChance":-3,
+            "increaseBlockChance":23,
+            "increaseDamageResistance":1
+        },
+        "killEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"courage",
+                    "chance":"27"
+                }
+            ]
+        }
+    },
+    {
+        "id":"korhald_coins",
+        "iconID":"items_misc:10",
+        "name":"Korhald coins",
+        "displaytype":"quest",
+        "category":"money",
+        "description":"A set of magnificent coins commissioned by the great Korhald during the Noble Wars."
+    },
+    {
+        "id":"gylew_key",
+        "iconID":"items_japozero:396",
+        "name":"Gylew's key",
+        "displaytype":"quest",
+        "category":"other",
+        "description":"A key to open the chest that houses Korhald coins."
+    },
+    {
+        "id":"forenza_key",
+        "iconID":"items_japozero:398",
+        "name":"Forenza's key",
+        "displaytype":"quest",
+        "category":"other",
+        "description":"A key to open the chest that houses Korhald coins."
     }
 ]
