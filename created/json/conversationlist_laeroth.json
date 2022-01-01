@@ -25,5 +25,59 @@
     },
     {
         "id":"vine_0"
+    },
+    {
+        "id":"arulir_secret_room_loot_0",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"arulir_secret_room_loot_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nondisplay_2",
+                        "value":250,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"arulir_secret_room_loot_3"
+            }
+        ]
+    },
+    {
+        "id":"arulir_secret_room_loot_1",
+        "message":"You found a corpse with a loot bag.",
+        "replies":[
+            {
+                "text":"[Plunder the loot]",
+                "nextPhraseID":"arulir_secret_room_loot_2"
+            },
+            {
+                "text":"[Leave the loot alone]",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"arulir_secret_room_loot_2",
+        "message":"You have 'acquired' some gold and other valuable gems!",
+        "rewards":[
+            {
+                "rewardType":"dropList",
+                "rewardID":"arulircave_secretloot"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"nondisplay_2",
+                "value":250
+            }
+        ]
+    },
+    {
+        "id":"arulir_secret_room_loot_3",
+        "message":"You've been here before and have already plundered the man's valuables."
     }
 ]
