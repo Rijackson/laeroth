@@ -1,6 +1,48 @@
 [
     {
         "id":"gylew",
-        "message":"Hey kid, show me your gold."
+        "message":"Hey kid",
+        "replies":[
+            {
+                "text":"Bye.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"gylew1a",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":20,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"gylew1b",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"korhald_coins",
+                        "value":1,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"forenza_key",
+                        "value":1,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":100,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
     }
 ]

@@ -16,6 +16,37 @@
     {
         "id":"odd_coin_collector",
         "name":"The odd coin collector",
-        "showInLog":1
+        "showInLog":1,
+        "stages":[
+            {
+                "progress":10,
+                "logText":"I traded 5 of my 'mermaid coins' to Gylew for 500 gold.",
+                "rewardExperience":500
+            },
+            {
+                "progress":11,
+                "logText":"I foolishly gave 5 of my 'mermaid coins' to Gylew.",
+                "rewardExperience":100
+            },
+            {
+                "progress":20,
+                "logText":"I have agreed to set off to Laeroth Manor in persuit of the Korhald coins and to bring them back to Gylew."
+            },
+            {
+                "progress":12,
+                "logText":"I  sold the 10 coins that I looted from the Arulir secret room to Gylew.",
+                "rewardExperience":750
+            },
+            {
+                "progress":13,
+                "logText":"I gave Gylew the 10 coins that I looted from the Arulir secret room.",
+                "rewardExperience":1000
+            },
+            {
+                "progress":100,
+                "logText":"[COMPLETED - PLACEHOLDER]",
+                "finishesQuest":1
+            }
+        ]
     }
 ]

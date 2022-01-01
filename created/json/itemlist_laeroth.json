@@ -142,8 +142,8 @@
     },
     {
         "id":"korhald_coins",
-        "iconID":"items_misc:10",
-        "name":"Korhald coins",
+        "iconID":"items_japozero:469",
+        "name":"Korhald coin chest",
         "displaytype":"quest",
         "category":"money",
         "description":"A set of magnificent coins commissioned by the great Korhald during the Noble Wars."

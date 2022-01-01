@@ -79,5 +79,478 @@
     {
         "id":"arulir_secret_room_loot_3",
         "message":"You've been here before and have already plundered the man's valuables."
+    },
+    {
+        "id":"gylew2",
+        "message":"Great! Let me see.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"gylew3"
+            }
+        ]
+    },
+    {
+        "id":"gylew3",
+        "message":"I am a rare coin collector. Have you ever noticed how some of your gold is more unique or older looking than others?",
+        "replies":[
+            {
+                "text":"Yes, I have.",
+                "nextPhraseID":"gylew4"
+            },
+            {
+                "text":"[Lie] Yes, yes I have.",
+                "nextPhraseID":"gylew4"
+            },
+            {
+                "text":"No and I don't care.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"gylew4",
+        "message":"Great. Please let me see...agh, interesting.",
+        "replies":[
+            {
+                "text":"What? What do you see?",
+                "nextPhraseID":"gylew5"
+            }
+        ]
+    },
+    {
+        "id":"gylew5",
+        "message":"This one here was cut during the rise of Elytharan and is quite rare and valuable. But this other one here is a more common coin as it was cut during Geomyr's rule. While this one here is from a far off land and is a part of a larger collection that has long been broken up by past pirates and thieves.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"gylew6",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mermaid_scale",
+                        "value":220
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gold",
+                        "value":5
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":10,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"gylew7",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mermaid_scale",
+                        "value":220,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"gylew6",
+        "message":"Where did you get these coins?! [Gylew shows you a set of identical coins]",
+        "replies":[
+            {
+                "text":"None of your business. Now get to the point.",
+                "nextPhraseID":"gylew7"
+            },
+            {
+                "text":"It was a gift from a friend. Can we get right to what you want?",
+                "nextPhraseID":"gylew7"
+            },
+            {
+                "text":"With all of my coins, do you actually think I can remember?",
+                "nextPhraseID":"gylew7"
+            },
+            {
+                "text":"It was a reward for helping a mermaid.",
+                "nextPhraseID":"gylew7a"
+            }
+        ]
+    },
+    {
+        "id":"gylew7",
+        "message":"OK, I will get back to my ask of you now.",
+        "replies":[
+            {
+                "text":"Um, is this going to take long? I have to find my brother.",
+                "nextPhraseID":"gylew9"
+            },
+            {
+                "text":"Interesting, it really is, but I'm leaving.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Interesting. Please enlighten me some more.",
+                "nextPhraseID":"gylew9"
+            }
+        ]
+    },
+    {
+        "id":"gylew7a",
+        "message":"What?! Seriously?",
+        "replies":[
+            {
+                "text":"Yes.",
+                "nextPhraseID":"gylew7a_1"
+            },
+            {
+                "text":"No.",
+                "nextPhraseID":"gylew7"
+            }
+        ]
+    },
+    {
+        "id":"gylew7a_1",
+        "message":"I must have one.",
+        "replies":[
+            {
+                "text":"OK. What do you have of value?",
+                "nextPhraseID":"gylew7a_2"
+            },
+            {
+                "text":"Here, take it.",
+                "nextPhraseID":"gylew7a_3"
+            },
+            {
+                "text":"Nope, they are mine.",
+                "nextPhraseID":"gylew7"
+            }
+        ]
+    },
+    {
+        "id":"gylew7a_2",
+        "message":"Here is 500 gold.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"gylew8",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nondisplay_2",
+                        "value":250
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":12,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gold",
+                        "value":10
+                    }
+                ]
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"gold",
+                "value":500
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"odd_coin_collector",
+                "value":10
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"gold",
+                "value":-5
+            }
+        ]
+    },
+    {
+        "id":"gylew7a_3",
+        "message":"That was foolish of you. This is very valuable and you just gave it to me.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"gylew8",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nondisplay_2",
+                        "value":250
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":12,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gold",
+                        "value":10
+                    }
+                ]
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"odd_coin_collector",
+                "value":11
+            }
+        ]
+    },
+    {
+        "id":"gylew8",
+        "message":"Where did you get these coins?! [Gylew shows you a collection of identical coins]",
+        "replies":[
+            {
+                "text":"I took them off of a dead guy.",
+                "nextPhraseID":"gylew8a_1"
+            },
+            {
+                "text":"I got them from a friend",
+                "nextPhraseID":"gylew8a_2"
+            },
+            {
+                "text":"That's none of your business.",
+                "nextPhraseID":"gylew7"
+            },
+            {
+                "text":"I don't know. After all, I have looted many a gold coin in my travels.",
+                "nextPhraseID":"gylew8a_2"
+            }
+        ]
+    },
+    {
+        "id":"gylew9",
+        "message":"You see, I was raised in Feygard by my father who was commissioned to create gold coins. All he ever talked about was coins and we shared this common love.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"gylew10"
+            }
+        ]
+    },
+    {
+        "id":"gylew10",
+        "message":"He once told me this story when I was very young about this magnificent coin collection called the 'Korhald coins'. So from a very young age I was fascinated.",
+        "replies":[
+            {
+                "text":"You mentioned 'Korhald coins'. Who or what is 'Korhald'?",
+                "nextPhraseID":"gylew10_1"
+            }
+        ]
+    },
+    {
+        "id":"gylew10_1",
+        "message":"You never heard of Korhald? He was the founder of Remgard. Anyways, back to my story...",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"gylew10_2"
+            }
+        ]
+    },
+    {
+        "id":"gylew10_2",
+        "message":"My father never mentioned the exact location to me, but from my efforts, I've ascertained a location near Remgard.",
+        "replies":[
+            {
+                "text":"Remgard? Where's that?",
+                "nextPhraseID":"gylew10_2_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nondisplay_2",
+                        "value":170,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Great, I see where this is going. I need to go back to Remgard.",
+                "nextPhraseID":"gylew11",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nondisplay_2",
+                        "value":170
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"gylew10_2_1",
+        "message":"It is far east of here in a place called Laeroth Manor.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"gylew12"
+            }
+        ]
+    },
+    {
+        "id":"gylew12",
+        "message":"We have failed to retrieve it as the monsters are too strong. That's where you come in. What do you say? Will you help me?",
+        "replies":[
+            {
+                "text":"Yes, of course, you you need my help.",
+                "nextPhraseID":"gylew13"
+            },
+            {
+                "text":"Pathetic creatures you two are. Needing the help of a child. I will do it.",
+                "nextPhraseID":"gylew13"
+            },
+            {
+                "text":"Depends. What is the reward?",
+                "nextPhraseID":"gylew14"
+            },
+            {
+                "text":"No",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"gylew11",
+        "message":"Yes, a place called Laeroth Manor.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"gylew12"
+            }
+        ]
+    },
+    {
+        "id":"gylew13",
+        "message":"Then please head to the east and return to me when you find the Korhald coins.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"odd_coin_collector",
+                "value":20
+            }
+        ]
+    },
+    {
+        "id":"gylew14",
+        "message":"We will discuss this after you have completed the job. But remember, I am from Remgard and can reward you handsomly.",
+        "replies":[
+            {
+                "text":"Sounds good.",
+                "nextPhraseID":"gylew13"
+            },
+            {
+                "text":"OK, but I have high expectations. Please be prepared to pay up.",
+                "nextPhraseID":"gylew13"
+            }
+        ]
+    },
+    {
+        "id":"gylew1a",
+        "message":"Show me your gold.",
+        "replies":[
+            {
+                "text":"No way. I'm out of here.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Um...sure, I guess",
+                "nextPhraseID":"gylew2"
+            }
+        ]
+    },
+    {
+        "id":"gylew8a_1",
+        "message":"What?! You went digging through his corpse?",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"gylew8a_2"
+            }
+        ]
+    },
+    {
+        "id":"gylew8a_2",
+        "message":"I must have them. All 10 of them!",
+        "replies":[
+            {
+                "text":"OK. What do you have of value?",
+                "nextPhraseID":"gylew8a_3"
+            },
+            {
+                "text":"Here, take it.",
+                "nextPhraseID":"gylew8a_4"
+            },
+            {
+                "text":"Nope. You can not have them.",
+                "nextPhraseID":"gylew7"
+            }
+        ]
+    },
+    {
+        "id":"gylew8a_3",
+        "message":"Here is 550 gold",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"gylew7"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"gold",
+                "value":550
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"odd_coin_collector",
+                "value":12
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"gold",
+                "value":-10
+            }
+        ]
+    },
+    {
+        "id":"gylew8a_4",
+        "message":"Much appreciated. Thank you.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"gylew7"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"odd_coin_collector",
+                "value":13
+            }
+        ]
+    },
+    {
+        "id":"gylew1b",
+        "message":"What are you waiting for? Go find those coins!",
+        "replies":[
+            {
+                "text":"Sorry. I forgot. I will be back when I find the coins."
+            }
+        ]
     }
 ]
