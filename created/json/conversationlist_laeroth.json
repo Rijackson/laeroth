@@ -552,5 +552,19 @@
                 "text":"Sorry. I forgot. I will be back when I find the coins."
             }
         ]
+    },
+    {
+        "id":"moriath_0",
+        "message":"Hello. It's so very long since I have seen another person. Who are you, and why are you here?",
+        "replies":[
+            {
+                "text":"I'm $playername. I'm looking for my Brother, Andor. Have you seen him?",
+                "nextPhraseID":"moriath_1"
+            }
+        ]
+    },
+    {
+        "id":"moriath_1",
+        "message":"No. I just told you that you are the first person I have seen here in a very long time. Getting to the old manor is difficult and dangerous, and there is nothing here. So why would anyone come here?"
     }
 ]

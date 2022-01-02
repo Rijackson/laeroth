@@ -48,5 +48,9 @@
                 "finishesQuest":1
             }
         ]
+    },
+    {
+        "id":"laeorth_caretaker",
+        "name":"Take care of the caretaker"
     }
 ]

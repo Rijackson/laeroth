@@ -223,5 +223,14 @@
         "criticalSkill":30,
         "criticalMultiplier":2.0,
         "blockChance":50
+    },
+    {
+        "id":"moriath",
+        "name":"Moriath",
+        "iconID":"monsters_rltiles1:74",
+        "unique":1,
+        "monsterClass":"humanoid",
+        "movementAggressionType":"none",
+        "phraseID":"moriath_0"
     }
 ]
