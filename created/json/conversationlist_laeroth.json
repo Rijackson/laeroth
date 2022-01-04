@@ -255,6 +255,18 @@
                         "value":10
                     }
                 ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"gylew7",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nondisplay_2",
+                        "value":250,
+                        "negate":true
+                    }
+                ]
             }
         ],
         "rewards":[
@@ -298,6 +310,18 @@
                         "requireType":"inventoryKeep",
                         "requireID":"gold",
                         "value":10
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"gylew7",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nondisplay_2",
+                        "value":250,
+                        "negate":true
                     }
                 ]
             }
