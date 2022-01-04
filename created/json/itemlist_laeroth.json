@@ -163,5 +163,29 @@
         "displaytype":"quest",
         "category":"other",
         "description":"A key to open the chest that houses Korhald coins."
+    },
+    {
+        "id":"feygard_plated_gloves",
+        "iconID":"items_tometik2:26",
+        "name":"Feygard plated gloves",
+        "displaytype":"rare",
+        "hasManualPrice":1,
+        "baseMarketCost":755,
+        "category":"hnd_mtl_hv",
+        "equipEffect":{
+            "increaseAttackChance":-3,
+            "increaseBlockChance":8,
+            "increaseDamageResistance":1
+        },
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"dazed",
+                    "magnitude":1,
+                    "duration":4,
+                    "chance":"20"
+                }
+            ]
+        }
     }
 ]

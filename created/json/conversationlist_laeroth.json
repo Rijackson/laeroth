@@ -565,6 +565,16 @@
                 "rewardType":"questProgress",
                 "rewardID":"odd_coin_collector",
                 "value":13
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"gold",
+                "value":-10
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"feygard_plated_gloves",
+                "value":1
             }
         ]
     },

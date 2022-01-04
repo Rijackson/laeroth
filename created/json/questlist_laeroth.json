@@ -40,7 +40,7 @@
             {
                 "progress":13,
                 "logText":"I gave Gylew the 10 coins that I looted from the Arulir secret room.",
-                "rewardExperience":1000
+                "rewardExperience":950
             },
             {
                 "progress":100,
@@ -51,6 +51,9 @@
     },
     {
         "id":"laeorth_caretaker",
-        "name":"Take care of the caretaker"
+        "name":"Take care of the caretaker",
+        "stages":[
+            
+        ]
     }
 ]

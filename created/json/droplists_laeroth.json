@@ -140,5 +140,18 @@
                 }
             }
         ]
+    },
+    {
+        "id":"feygard_plated_gloves_dl",
+        "items":[
+            {
+                "itemID":"feygard_plated_gloves",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
     }
 ]
