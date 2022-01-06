@@ -600,5 +600,101 @@
     {
         "id":"moriath_1",
         "message":"No. I just told you that you are the first person I have seen here in a very long time. Getting to the old manor is difficult and dangerous, and there is nothing here. So why would anyone come here?"
+    },
+    {
+        "id":"laerothbasement2_korhald_sign",
+        "message":"",
+        "replies":[
+            {
+                "nextPhraseID":"laerothbasement2_korhald_sign_30",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":30,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"laerothbasement2_korhald_sign_40",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":30
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"laerothbasement2_korhald_sign_30",
+        "message":"As you approach the crates, You notice an almost illegible sign hanging on the wall. Upon further examination you can make out the word 'Korhald'.",
+        "replies":[
+            {
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"odd_coin_collector",
+                "value":30
+            }
+        ]
+    },
+    {
+        "id":"laerothbasement2_korhald_sign_40",
+        "message":"The sign has not changed since the last time you read it.",
+        "replies":[
+            {
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"laerothbasement2_chest_examine",
+        "replies":[
+            {
+                "nextPhraseID":"laerothbasement2_chest_examine_40",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":40,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"laerothbasement2_chest_examine_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"laeroth_nondisplay",
+                        "value":100
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"laerothbasement2_chest_examine_40",
+        "message":"[TODO: Add dialogue prompting the player to examine the container.]",
+        "replies":[
+            {
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"laerothbasement2_chest_examine_2",
+        "message":"The cobwebs must have been holding this extremely old container together.",
+        "replies":[
+            {
+                "nextPhraseID":"X"
+            }
+        ]
     }
 ]

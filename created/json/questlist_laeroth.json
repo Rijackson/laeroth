@@ -10,6 +10,10 @@
             {
                 "progress":2,
                 "logText":"island_underground2_set2"
+            },
+            {
+                "progress":100,
+                "logText":"laerothbasement2_chest_looted"
             }
         ]
     },
@@ -46,6 +50,15 @@
                 "progress":100,
                 "logText":"[COMPLETED - PLACEHOLDER]",
                 "finishesQuest":1
+            },
+            {
+                "progress":30,
+                "logText":"In the Laeroth basement, I noticted a sign on the wall that i could not read in it's entirety, but I was able make out the name 'Korhald'. This makes me wonder if this is a clue?"
+            },
+            {
+                "progress":40,
+                "logText":"In the Laeroth basement, I discovered and looted the chest containing the 'Korhald coins'.",
+                "rewardExperience":1000
             }
         ]
     },
