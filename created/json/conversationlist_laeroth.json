@@ -611,8 +611,8 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"odd_coin_collector",
-                        "value":30,
-                        "negate":true
+                        "value":20,
+                        "negate":false
                     }
                 ]
             },
@@ -662,8 +662,8 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"odd_coin_collector",
-                        "value":40,
-                        "negate":true
+                        "value":30,
+                        "negate":false
                     }
                 ]
             },
@@ -681,10 +681,15 @@
     },
     {
         "id":"laerothbasement2_chest_examine_40",
-        "message":"[TODO: Add dialogue prompting the player to examine the container.]",
+        "message":"As you approach these crates, you quickly develop an appreciation for their age. You also notice the vast amount of the nasty cobwebs surrounding them. Yet something compels you to look further.",
         "replies":[
             {
+                "text":"[I better not. There could be danger lurking inside.]",
                 "nextPhraseID":"X"
+            },
+            {
+                "text":"[Examine the crate.]",
+                "nextPhraseID":"laerothbasement2_chest_examine_50"
             }
         ]
     },
@@ -694,6 +699,26 @@
         "replies":[
             {
                 "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"laerothbasement2_chest_examine_50",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"odd_coin_collector",
+                "value":40
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"laeroth_basement_spiders",
+                "mapName":"laerothbasement2"
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"korhald_coins",
+                "value":1
             }
         ]
     }

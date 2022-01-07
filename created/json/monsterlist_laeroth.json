@@ -232,5 +232,41 @@
         "monsterClass":"humanoid",
         "movementAggressionType":"none",
         "phraseID":"moriath_0"
+    },
+    {
+        "id":"laerothbasement_spider",
+        "name":"Mountain lake spider",
+        "iconID":"monsters_tometik10:54",
+        "maxHP":90,
+        "moveCost":4,
+        "unique":1,
+        "monsterClass":"insect",
+        "movementAggressionType":"helpOthers",
+        "attackDamage":{
+            "min":10,
+            "max":20
+        },
+        "spawnGroup":"laeroth_basement_spiders",
+        "attackCost":3,
+        "attackChance":100,
+        "criticalSkill":90,
+        "criticalMultiplier":3.0,
+        "blockChance":190,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"contagion",
+                    "magnitude":6,
+                    "duration":6,
+                    "chance":"80"
+                },
+                {
+                    "condition":"blister",
+                    "magnitude":5,
+                    "duration":5,
+                    "chance":"60"
+                }
+            ]
+        }
     }
 ]

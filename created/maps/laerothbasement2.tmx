@@ -165,6 +165,13 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Spawn"/>
+ <objectgroup name="Spawn">
+  <object name="laeroth_basement_spiders" type="spawn" x="32" y="160" width="192" height="96">
+   <properties>
+    <property name="quantity" value="5"/>
+    <property name="spawngroup" value="laeroth_basement_spiders"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup name="Keys"/>
 </map>
