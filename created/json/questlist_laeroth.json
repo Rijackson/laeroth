@@ -59,6 +59,19 @@
                 "progress":40,
                 "logText":"In the Laeroth basement, I discovered and looted the chest containing the 'Korhald coins'.",
                 "rewardExperience":1000
+            },
+            {
+                "progress":50,
+                "logText":"I've decided to help Forenza by agreeing to get the second key from Gylew. I should go back to Gylew now."
+            },
+            {
+                "progress":45,
+                "logText":"I have decided to attack Forenza. I should return to Gylew with the key once he is dead."
+            },
+            {
+                "progress":60,
+                "logText":"We discovered a mysterious map inside the Korhald chest and I need to follow the river going east.",
+                "rewardExperience":500
             }
         ]
     },

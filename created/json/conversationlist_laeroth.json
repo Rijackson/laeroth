@@ -719,6 +719,415 @@
                 "rewardType":"giveItem",
                 "rewardID":"korhald_coins",
                 "value":1
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"forenza_laerothisland2",
+                "mapName":"laerothisland2"
+            }
+        ]
+    },
+    {
+        "id":"laerothbasement1_chest_examine",
+        "message":"Examine the chest?",
+        "replies":[
+            {
+                "text":"Go for it! This could be the 'Korhald coins'.",
+                "nextPhraseID":"laerothbasement1_chest_examine_locked",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":20
+                    }
+                ]
+            },
+            {
+                "text":"No! This may be a trap.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"laerothbasement1_chest_examine_locked",
+        "message":"[The chest is locked.]",
+        "replies":[
+            {
+                "text":"[I should look some where else.]",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"forenza_island_initial_phrase",
+        "message":"Hey! What do you think you are doing?",
+        "replies":[
+            {
+                "text":"I am working a job for a man name Gylew.",
+                "nextPhraseID":"forenza_island_10"
+            },
+            {
+                "text":"Um...I am returning something to a man name Gylew.",
+                "nextPhraseID":"forenza_island_10"
+            }
+        ]
+    },
+    {
+        "id":"forenza_island_10",
+        "message":"I don't think you want to do that.",
+        "replies":[
+            {
+                "text":"And why is that?",
+                "nextPhraseID":"forenza_island_20"
+            }
+        ]
+    },
+    {
+        "id":"forenza_island_20",
+        "message":"Well, for starters, that chest that you are carrying belongs to me.",
+        "replies":[
+            {
+                "text":"How do you figure?",
+                "nextPhraseID":"forenza_island_30"
+            }
+        ]
+    },
+    {
+        "id":"forenza_island_30",
+        "message":"Because I said it is! Now give me that chest before you get hurt.",
+        "replies":[
+            {
+                "text":"Don't make me laugh. You hurt me? Do you know who I am? Explain yourself now.",
+                "nextPhraseID":"forenza_island_40"
+            },
+            {
+                "text":"Explain yourself now or Gylew gets his treasure.",
+                "nextPhraseID":"forenza_island_40"
+            }
+        ]
+    },
+    {
+        "id":"forenza_island_40",
+        "message":"The story starts many many years ago.",
+        "replies":[
+            {
+                "text":"[You rudely interrupt] Oh great, please spare me the grandpa story.",
+                "nextPhraseID":"forenza_island_50"
+            }
+        ]
+    },
+    {
+        "id":"forenza_island_50",
+        "message":"Anyways...it was back when we were kids. You see, Gylew and I are half-brothers.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"forenza_island_60"
+            }
+        ]
+    },
+    {
+        "id":"forenza_island_60",
+        "message":"We have the same father. After Gylew's mom died of the Great Plague, father traveled to Brightport in search of a new wife.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"forenza_island_70"
+            }
+        ]
+    },
+    {
+        "id":"forenza_island_70",
+        "message":"To \" spare you of the grandpa story\" as you called it, I will skip details.",
+        "replies":[
+            {
+                "text":"Thank you very much.",
+                "nextPhraseID":"forenza_island_80"
+            }
+        ]
+    },
+    {
+        "id":"forenza_island_80",
+        "message":"Eventually, they were married and I was soon born. Gylew and I were close in age and often got along great.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"forenza_island_90"
+            }
+        ]
+    },
+    {
+        "id":"forenza_island_90",
+        "message":"But father always favored Gylew. They often took long trips in search of exotic and unique coins. I was left out of these adventures most of the time.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"forenza_island_100"
+            }
+        ]
+    },
+    {
+        "id":"forenza_island_100",
+        "message":"I was only allowed to go after mother instisted to father that I go too.",
+        "replies":[
+            {
+                "text":"What happened to skipping the details?",
+                "nextPhraseID":"forenza_island_110"
+            },
+            {
+                "text":"Please continue.",
+                "nextPhraseID":"forenza_island_110"
+            }
+        ]
+    },
+    {
+        "id":"forenza_island_110",
+        "message":"OK...Gylew and father discovered this story of looted gold coins that was rumored to be hidden here in the Laeroth Manor. But neither was strong enough to dare try to retrieve it.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"forenza_island_120"
+            }
+        ]
+    },
+    {
+        "id":"forenza_island_120",
+        "message":"For many years afterwards, this is all the family ever talked about. During this time, my father and I grew a part and eventually, my mother and I left him and returned to her hometown of Brightport.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"forenza_island_130"
+            }
+        ]
+    },
+    {
+        "id":"forenza_island_130",
+        "message":"I was able to make it back to him shortly before his death in an attempt to repair our broken relationship.",
+        "replies":[
+            {
+                "text":"What happened to skipping the details?",
+                "nextPhraseID":"forenza_island_140"
+            },
+            {
+                "text":"Please, continue.",
+                "nextPhraseID":"forenza_island_140"
+            }
+        ]
+    },
+    {
+        "id":"forenza_island_140",
+        "message":"Angry with him, I was able to steal this key [Forenza shows you what you suspect is the key to the chest] from his estate before it was given to Gylew.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"forenza_island_150"
+            }
+        ]
+    },
+    {
+        "id":"forenza_island_150",
+        "message":"A few years later I learnt what this key opened and this is why I am here. To my disappointment, I quickly realized I was missing the second key.",
+        "replies":[
+            {
+                "text":"Where do you think the other key is?",
+                "nextPhraseID":"forenza_island_160"
+            },
+            {
+                "text":"[Sarcasm] I like the 'stories with Grandpa hour'. But seriously, skip the details and tell me where the the other key is.",
+                "nextPhraseID":"forenza_island_160"
+            }
+        ]
+    },
+    {
+        "id":"forenza_island_160",
+        "message":"Isn't it obvious? Gylew must have it.",
+        "replies":[
+            {
+                "text":"You have been wronged by your family and deserve this treasure. I can get Gylew's key for you.",
+                "nextPhraseID":"forenza_island_170"
+            },
+            {
+                "text":"Gylew is the rightful owner of his father's estate and that key belongs to the estate.",
+                "nextPhraseID":"forenza_island_170_attack"
+            }
+        ]
+    },
+    {
+        "id":"forenza_island_170",
+        "message":"You will do this for me?",
+        "replies":[
+            {
+                "text":"Yes",
+                "nextPhraseID":"forenza_island_180"
+            },
+            {
+                "text":"On second thought...",
+                "nextPhraseID":"forenza_island_170_attack"
+            }
+        ]
+    },
+    {
+        "id":"forenza_island_170_attack",
+        "message":"What are you going to do about it?",
+        "replies":[
+            {
+                "text":"Kill you and take that key!",
+                "nextPhraseID":"F"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"odd_coin_collector",
+                "value":45
+            }
+        ]
+    },
+    {
+        "id":"forenza_island_180",
+        "message":"Great. Go to Gylew and get his key. Then bring it and the chest to me. I will meet you outside of Brimhaven.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"odd_coin_collector",
+                "value":50
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"forenza_laerothisland2",
+                "mapName":"laerothisland2"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"forenza_waytobrimhaven3",
+                "mapName":"waytobrimhaven3"
+            }
+        ]
+    },
+    {
+        "id":"forenza_waytobrimhaven3_initial_phrase",
+        "message":"Hey, kid, nice to see you again. Do you have Gylew's key?",
+        "replies":[
+            {
+                "text":"Yes, and I also have the chest. Here, take them. [You give both items to Forenza]",
+                "nextPhraseID":"forenza_brimhaven_10",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"korhald_coins",
+                        "value":1
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gylew_key",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"Yes, but I don't have the chest.",
+                "nextPhraseID":"forenza_brimhaven_15",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gylew_key",
+                        "value":1
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"korhald_coins",
+                        "value":1,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"No.",
+                "nextPhraseID":"forenza_brimhaven_15",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gylew_key",
+                        "value":1,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"forenza_brimhaven_10",
+        "message":"[With an ever growing smile upon his face, Forenza inserts the first key and then the second. He then proceeds to slowly open the chest.]",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"korhald_chest_examine_10"
+            }
+        ]
+    },
+    {
+        "id":"forenza_brimhaven_15",
+        "message":"Well, go get it and bring me back both the key and the chest.",
+        "replies":[
+            {
+                "text":"Yes sir!",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"korhald_chest_examine_10",
+        "message":"[He then begins to sift through the coins, transferring each one to his bag. When to his surpirse, he finds something...]",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"korhald_chest_examine_20"
+            }
+        ]
+    },
+    {
+        "id":"korhald_chest_examine_20",
+        "message":"Look at what I found at the bottom of the chest. A map. [Shows item to player]",
+        "replies":[
+            {
+                "text":"A map? Really? Where does it point to?",
+                "nextPhraseID":"korhald_chest_examine_30"
+            }
+        ]
+    },
+    {
+        "id":"korhald_chest_examine_30",
+        "message":"Well, that is really hard to say. You see [he shows you the map], it is really old and a lot of the landmarks no longer exisit in Dhayaver.",
+        "replies":[
+            {
+                "text":"Yeah, I can see what you mean.",
+                "nextPhraseID":"korhald_chest_examine_40"
+            }
+        ]
+    },
+    {
+        "id":"korhald_chest_examine_40",
+        "message":"But not all hope is lost. You see this may shows the great river that is just right over there [points northeast] behind those trees.Anyone who follows the map going east, should have no problem reaching wherever this map is leading to.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"korhald_chest_examine_50"
+            }
+        ]
+    },
+    {
+        "id":"korhald_chest_examine_50",
+        "message":"Here, take the map. If you need me, I'll be here for a little bit longer.",
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"korhald_map",
+                "value":1
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"odd_coin_collector",
+                "value":60
             }
         ]
     }

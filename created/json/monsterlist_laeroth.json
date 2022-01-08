@@ -217,6 +217,8 @@
             "min":10,
             "max":22
         },
+        "spawnGroup":"forenza_laerothisland2",
+        "phraseID":"forenza_island_initial_phrase",
         "droplistID":"forenza_dl",
         "attackCost":4,
         "attackChance":70,
@@ -268,5 +270,15 @@
                 }
             ]
         }
+    },
+    {
+        "id":"forenza_waytobrimhaven3",
+        "name":"Forenza",
+        "iconID":"monsters_tometik1:86",
+        "unique":1,
+        "monsterClass":"humanoid",
+        "movementAggressionType":"none",
+        "spawnGroup":"forenza_waytobrimhaven3",
+        "phraseID":"forenza_waytobrimhaven3_initial_phrase"
     }
 ]

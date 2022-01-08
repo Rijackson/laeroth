@@ -123,7 +123,7 @@
  </tileset>
  <layer name="Ground" width="34" height="16">
   <data encoding="base64" compression="zlib">
-   eJy9VLsOwkAMuw4tK/2J/kp/naEDWycGPoCBP0AnEelknOCcCoPV6vKo4/qynEpZRFzHUraJo8ai2vUco+Zc5hjWq77fCJf7+JmH9QqPfY7RzvUgPJ6gBatXeHhaGyynzjaQ+PCObc0T64/ksZNvGCzGclT/qTx68c2D/+Sh+o/po+h2hObePbM4atejOfaM+KNOrfda7Xo0x57ejOq/93J7vcP8odR5+rKzLNcMD0/faKdkeWT3SRYKD7ZTsj2z87IztlN+wQPvMM7+AtgfZr0=
+   eJy9lDEOwjAMRVNVhZVeolfh6gwd2CqGDhyAoWsnZIlIlvk230EwfKVKbPf51810LGUidR1KmQ9Ychblnk+xJOYyxqq15HkFLPfhPc7mMxzLGEv39QAcm/EC5TMce+/7LZIYWaW3Dpx3r7NZrTaf4YgYNMcC3lFVz1AMO38sR6s+zeA/Odj5Q/4wvn3r+a33/7MaY71r8dzWjPitT3r2tHctntuaXo/st/diW2cHzQeT5/mL9rKsGQ7P3+hOyXJk75OsGA50p2RrZvtFe+hO+QWH/Ydt708rX2by
   </data>
  </layer>
  <layer name="Objects" width="34" height="16">
@@ -178,6 +178,8 @@
     <property name="place" value="north1"/>
    </properties>
   </object>
+  <object name="gold100" type="container" x="32" y="96" width="32" height="32"/>
+  <object name="laerothbasement1_chest_examine" type="script" x="0" y="0" width="32" height="32"/>
  </objectgroup>
  <objectgroup name="Spawn"/>
  <objectgroup name="Keys"/>

@@ -187,5 +187,13 @@
                 }
             ]
         }
+    },
+    {
+        "id":"korhald_map",
+        "iconID":"items_japozero:587",
+        "name":"Mysterious Korhald map",
+        "displaytype":"quest",
+        "category":"other",
+        "description":"A mysterious looking map found inside the Korhald chest."
     }
 ]
