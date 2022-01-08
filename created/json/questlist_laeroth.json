@@ -14,6 +14,10 @@
             {
                 "progress":100,
                 "logText":"laerothbasement2_chest_looted"
+            },
+            {
+                "progress":105,
+                "logText":"I gave Gylew the Korhald chest."
             }
         ]
     },
@@ -72,6 +76,10 @@
                 "progress":60,
                 "logText":"We discovered a mysterious map inside the Korhald chest and I need to follow the river going east.",
                 "rewardExperience":500
+            },
+            {
+                "progress":55,
+                "logText":"I have decided to attack Gylew. I should return to Forenza with the key once he is dead."
             }
         ]
     },

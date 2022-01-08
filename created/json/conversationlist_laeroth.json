@@ -583,7 +583,7 @@
         "message":"What are you waiting for? Go find those coins!",
         "replies":[
             {
-                "text":"Sorry. I forgot. I will be back when I find the coins."
+                "text":"N"
             }
         ]
     },
@@ -1077,7 +1077,7 @@
     },
     {
         "id":"korhald_chest_examine_10",
-        "message":"[He then begins to sift through the coins, transferring each one to his bag. When to his surpirse, he finds something...]",
+        "message":"[He then begins to feverlessly sift through the coins, transferring each one to his bag. When to his surpirse, he finds something...]",
         "replies":[
             {
                 "text":"N",
@@ -1087,7 +1087,7 @@
     },
     {
         "id":"korhald_chest_examine_20",
-        "message":"Look at what I found at the bottom of the chest. A map. [Shows item to player]",
+        "message":"Look at what I found at the bottom of the chest. A map. [Shows item to you]",
         "replies":[
             {
                 "text":"A map? Really? Where does it point to?",
@@ -1128,6 +1128,164 @@
                 "rewardType":"questProgress",
                 "rewardID":"odd_coin_collector",
                 "value":60
+            }
+        ]
+    },
+    {
+        "id":"gylew_attack",
+        "message":"What? Why? My trust henchman will take care of you.",
+        "replies":[
+            {
+                "nextPhraseID":"F"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"odd_coin_collector",
+                "value":55
+            }
+        ]
+    },
+    {
+        "id":"gylew_korhald_10",
+        "message":"Did you find them?",
+        "replies":[
+            {
+                "text":"Yes, but I don't have them on me. I will go get them.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"korhald_coins",
+                        "value":1,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Yes.",
+                "nextPhraseID":"gylew_korhald_20",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"korhald_coins",
+                        "value":1
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"forenza_key",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"Yes.",
+                "nextPhraseID":"gylew_korhald_20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"laeroth_nondisplay",
+                        "value":105
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"gylew_korhald_20",
+        "message":"Great! Let me have it.",
+        "replies":[
+            {
+                "text":"Here you go.",
+                "nextPhraseID":"gylew_korhald_30"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"korhald_coins",
+                "value":1
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"laeroth_nondisplay",
+                "value":105
+            }
+        ]
+    },
+    {
+        "id":"gylew_korhald_30",
+        "message":"[Gylew examines the chest]\nWhat?! There are two locks! How can this be? Do you know anything about a second key?",
+        "replies":[
+            {
+                "text":"Yes. In fact, I met a 'friend' of yours who told me all about it.",
+                "nextPhraseID":"gylew_korhald_40"
+            }
+        ]
+    },
+    {
+        "id":"gylew_korhald_40",
+        "message":"And whom may that be?",
+        "replies":[
+            {
+                "text":"Your half-brother, Forenza. What a story he had to tell.",
+                "nextPhraseID":"gylew_korhald_50"
+            }
+        ]
+    },
+    {
+        "id":"gylew_korhald_50",
+        "message":"But I see that you did not listen to those 'stories' as you would not be here if you had. What did he tell you about the second key?",
+        "replies":[
+            {
+                "text":"Well, for starters, he told me that he had and he would not give it to me without a fight. Which of course, we did fight to the death for.",
+                "nextPhraseID":"gylew_korhald_60"
+            }
+        ]
+    },
+    {
+        "id":"gylew_korhald_60",
+        "message":"You killed my brother?",
+        "replies":[
+            {
+                "text":"YES, and I loved doing so. Pathetic creature he was.",
+                "nextPhraseID":"gylew_korhald_70"
+            },
+            {
+                "text":"I was forced to. He gave me no choice.",
+                "nextPhraseID":"gylew_korhald_70"
+            },
+            {
+                "text":"[Lie] No, but I beat him up good and took his key.",
+                "nextPhraseID":"gylew_korhald_70"
+            }
+        ]
+    },
+    {
+        "id":"gylew_korhald_70",
+        "message":"I guess I should be saddened, but I am not. Can I have my brother's key now? I've waited a long time for these coins.",
+        "replies":[
+            {
+                "text":"Of course.",
+                "nextPhraseID":"gylew_korhald_80",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"forenza_key",
+                        "value":1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"gylew_korhald_80",
+        "message":"Thank you? It is so nice to finally be this close to my life's dream.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"korhald_chest_examine_10"
             }
         ]
     }
