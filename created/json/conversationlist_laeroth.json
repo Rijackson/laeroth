@@ -1087,7 +1087,7 @@
     },
     {
         "id":"korhald_chest_examine_20",
-        "message":"Look at what I found at the bottom of the chest. A map. [Shows item to you]",
+        "message":"Look at what I found at the bottom of the chest. A pendant and a map. [Shows item to you]",
         "replies":[
             {
                 "text":"A map? Really? Where does it point to?",
@@ -1117,7 +1117,7 @@
     },
     {
         "id":"korhald_chest_examine_50",
-        "message":"Here, take the map. If you need me, I'll be here for a little bit longer.",
+        "message":"Here, take the map and the pendant. If you need me, I'll be here for a little bit longer.",
         "rewards":[
             {
                 "rewardType":"giveItem",
@@ -1128,12 +1128,17 @@
                 "rewardType":"questProgress",
                 "rewardID":"odd_coin_collector",
                 "value":60
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"korhald_chamber_key",
+                "value":1
             }
         ]
     },
     {
         "id":"gylew_attack",
-        "message":"What? Why? My trust henchman will take care of you.",
+        "message":"What? Why? My trusty henchman will take care of you.",
         "replies":[
             {
                 "nextPhraseID":"F"

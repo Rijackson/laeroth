@@ -195,5 +195,13 @@
         "displaytype":"quest",
         "category":"other",
         "description":"A mysterious looking map found inside the Korhald chest."
+    },
+    {
+        "id":"korhald_chamber_key",
+        "iconID":"items_jewelry:13",
+        "name":"Mysterious Korhald pendant",
+        "displaytype":"quest",
+        "category":"other",
+        "description":"Found in the Korhald coin chest, this is a mysterous item indeed."
     }
 ]
