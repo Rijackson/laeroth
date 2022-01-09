@@ -212,6 +212,7 @@
   </object>
   <object name="forenza_laerothisland2" type="spawn" x="864" y="672" width="32" height="32">
    <properties>
+	<property name="active" value="false"/>
     <property name="spawngroup" value="forenza_laerothisland2"/>
    </properties>
   </object>
