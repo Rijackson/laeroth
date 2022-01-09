@@ -87,7 +87,10 @@
         "id":"laeorth_caretaker",
         "name":"Take care of the caretaker",
         "stages":[
-            
+             {
+                "progress":1,
+                "logText":"[PLACEHOLDER]"
+            }
         ]
     }
 ]
