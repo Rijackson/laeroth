@@ -97,12 +97,7 @@
         "equipEffect":{
             "increaseAttackChance":-4,
             "increaseBlockChance":20,
-            "increaseDamageResistance":1,
-            "addedConditions":[
-                {
-                    
-                }
-            ]
+            "increaseDamageResistance":1
         },
         "killEffect":{
             "conditionsSource":[
