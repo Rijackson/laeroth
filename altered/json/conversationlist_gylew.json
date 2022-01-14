@@ -4,29 +4,6 @@
         "message":"Hey kid.",
         "replies":[
             {
-                "text":"N",
-                "nextPhraseID":"gylew1a",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"odd_coin_collector",
-                        "value":20,
-                        "negate":true
-                    }
-                ]
-            },
-            {
-                "text":"N",
-                "nextPhraseID":"gylew1b",
-                "requires":[
-                    {
-                        "requireType":"questLatestProgress",
-                        "requireID":"odd_coin_collector",
-                        "value":20
-                    }
-                ]
-            },
-            {
                 "text":"Yes, I found the Korhald coins, but you are not getting it...[Attack]",
                 "nextPhraseID":"gylew_attack",
                 "requires":[
@@ -47,6 +24,10 @@
                         "value":45
                     }
                 ]
+            },
+            {
+                "text":"Hey old man.",
+                "nextPhraseID":"gylew_old_man"
             }
         ]
     }

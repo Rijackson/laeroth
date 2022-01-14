@@ -483,7 +483,7 @@
         ]
     },
     {
-        "id":"gylew1a",
+        "id":"gylew_old_man_10a",
         "message":"Show me your gold.",
         "replies":[
             {
@@ -579,7 +579,7 @@
         ]
     },
     {
-        "id":"gylew1b",
+        "id":"gylew_old_man_10b",
         "message":"What are you waiting for? Go find those coins!"
     },
     {
@@ -1286,6 +1286,35 @@
             {
                 "text":"N",
                 "nextPhraseID":"korhald_chest_examine_10"
+            }
+        ]
+    },
+    {
+        "id":"gylew_old_man",
+        "message":"Oh, you think you are a funny kid? I see.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"gylew_old_man_10a",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":20,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"gylew_old_man_10b",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":20
+                    }
+                ]
             }
         ]
     }
