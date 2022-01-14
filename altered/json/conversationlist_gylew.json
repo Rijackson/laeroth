@@ -20,22 +20,9 @@
                 "nextPhraseID":"gylew1b",
                 "requires":[
                     {
-                        "requireType":"inventoryKeep",
-                        "requireID":"korhald_coins",
-                        "value":1,
-                        "negate":true
-                    },
-                    {
-                        "requireType":"inventoryKeep",
-                        "requireID":"forenza_key",
-                        "value":1,
-                        "negate":true
-                    },
-                    {
-                        "requireType":"questProgress",
+                        "requireType":"questLatestProgress",
                         "requireID":"odd_coin_collector",
-                        "value":100,
-                        "negate":true
+                        "value":20
                     }
                 ]
             },
