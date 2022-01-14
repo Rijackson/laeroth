@@ -4,10 +4,6 @@
         "message":"Hey kid.",
         "replies":[
             {
-                "text":"Bye.",
-                "nextPhraseID":"X"
-            },
-            {
                 "text":"N",
                 "nextPhraseID":"gylew1a",
                 "requires":[

@@ -150,7 +150,7 @@
   <properties>
    <property name="active" value="false"/>
   </properties>
-  <object name="laerothbasement2_chest_examine40" type="replace" x="0" y="0" width="32" height="32">
+  <object name="laerothbasement2_chest_examine40" type="replace" x="32" y="160" width="192" height="128">
    <properties>
     <property name="Objects" value="Objects_crumbled_crate"/>
     <property name="requireId" value="odd_coin_collector"/>
@@ -159,7 +159,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Mapevents" visible="0">
+ <objectgroup name="Mapevents">
   <object name="up" type="mapchange" x="256" y="32" width="128" height="32">
    <properties>
     <property name="map" value="laerothbasement0"/>

@@ -179,7 +179,7 @@
    </properties>
   </object>
   <object name="gold100" type="container" x="32" y="96" width="32" height="32"/>
-  <object name="laerothbasement1_chest_examine" type="script" x="0" y="0" width="32" height="32"/>
+  <object name="laerothbasement1_chest_examine" type="script" x="32" y="96" width="32" height="32"/>
  </objectgroup>
  <objectgroup name="Spawn"/>
  <objectgroup name="Keys"/>

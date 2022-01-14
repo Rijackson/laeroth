@@ -598,7 +598,7 @@
     },
     {
         "id":"laerothbasement2_korhald_sign",
-        "message":"",
+        "message":"[Not paying attention, you almost fall.] Oops, I should be more careful.",
         "replies":[
             {
                 "nextPhraseID":"laerothbasement2_korhald_sign_30",
@@ -625,7 +625,7 @@
     },
     {
         "id":"laerothbasement2_korhald_sign_30",
-        "message":"As you approach the crates, You notice an almost illegible sign hanging on the wall. Upon further examination you can make out the word 'Korhald'.",
+        "message":"As you approach the crates, you notice an almost illegible sign hanging on the wall. Upon further examination, you can make out the word 'Korhald'.",
         "replies":[
             {
                 "nextPhraseID":"X"
