@@ -184,22 +184,19 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="7577" name="map_ground_1" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_ground_1.png" width="512" height="256"/>
- </tileset>
  <layer name="Ground" width="30" height="18">
   <data encoding="base64" compression="zlib">
-   eJzF1DEOwjAMQNEqOUUHzsZtwhVaiZ1KlWCGqVwBdiZG1DNgFKxaqeNAnMLwVYaKhx1aZ6vKkbareJ/cQ2uF9sbnvvBLugczfcbf8Q9Xaz9q2R2M78y4GlsyX12M7xpxcRel570bX8zMdVNzS94S7g32MNay11hfq/h/UYteY+YarB3UQb3Ne29goSnNu4HvP0In4uS61MR9c8+tdrcpE93OzusVLnee4w9czpzZ7zMMK7Xb2FUzV2penI2zS5vUpucZ2ku5nE17AiwVjbk=
+   eJyt1E0OgjAQBeDSrjgC19GDeAnPAFeQE2hCAjFhoyvZsZa9K9eewSGlSZl0psPP4qXGar/0tdBopWpIM43uc5/Gc0jouTvkmNgxNN8F3HoHt59cam4gXIm9xa0ZN2ZvcV/apiNcaedL3be2GRhXes+kbgv5ahvKdG6b0pG4+D+cJ3WpjC7+7pMp9ct472JsSrPOxZY/UuYJrCvkBqkmNzc2S11scvstYP0H5Ok5a13fHN9fY0LP7R7dciZ2z8bu0+92r/P8Ea7rsEDd4rjfcX2HTGyXZr5WrF+JS5n+WJn5XmP9Su4WPs+QnSM3dnbSO43PE9tLXEnHnO3nD7wjk8U=
   </data>
  </layer>
  <layer name="Objects" width="30" height="18">
   <data encoding="base64" compression="zlib">
-   eJydlb1KA0EQgJe7IlheioMLgj6AkLyFPo0g0dYqL6DWKdTW2oCdWigGq0BOLwb/IPiToJXEzhluhszN7eYuDgzZ2x322/mNMcasVY1VetFsfRUak4BOQa9Du21H7I9ofRu4743hrO2l/Jjsdvys7Q8xUX8tXBTJHUfZM/yeqD0t9w52kTD3HO6/IEavgBWreGz5i7OZ+wisJwtvvWbMRi2/3yd2neKNbFwXsZ+B8SLy+wXrb+KWie88eQvd+k68jsq75HHspc9LUFMn3iyvKLFaT0O7DkA/iM9c9rGMr3XRS33BxLc0/XRP1gu/R9Y5ctnmEjQJ5rP7lh5D1jYpykjFtSfydwbfp6Bd8jcR9706mOgP+6prGmXTS395bgzU3MA367xK0X3M0vbye02qY8z7LmjLT7mYx0/BXQGb1epifct51342Vc9wzGzzqkFxmuevZv5HOI9auyW5w2gWE54JexVj9kEPKnl7ti3jlyufkv0gbA6BdwR6DLpMOeV7JtQTNi6fNxz/aWWkyB/XuexR6a+sIS0tUUfyXj0jbP6yje4/Zg0tb7HJjaNuZP0wi3uI6/0uyL7Fxpaz8w+Z270U
+   eJydVDtOw0AQteOK0i4sWUICCegihStwBETOQRNoqbgGN6AmEh1QGIkykp0PtFaApLWcjh15HhlvZuPASKNdr2f3zXszu3no/dpEzF12FLXHpLHnfcX1/NuMr7Eel4eb8xdHrMtORD6l2VvxfhpXPD9uyRm87zr6+TbnXTSw87vns3OHxhq2zPvMd/uulil605qGTXZuzu779Xjh11z6Yk2zwmg+/0MN57HbP5VzpPaFiKU+m3L8XqfWe6LwxbyKdZ9x72r5IF9gYc/KwTez7tYgqNeeEs97Tpr5lI58ZD+7sDKlpwjrit3WinQdMf7CjEvjY3HGlOfDLXV0aQu75J5KWauZ9Q5oOcMId5Ho/7ReJa69qK77jfHbYP0GyffnwMQciv6RdSA9NL6kDXKRPAdBMw6alUpfnEbNuEez/iD8zcJdKtwJr9vy7sgaa/dnWz3JPpK1JtfBJsd91haGWNS4UuoMXFc9Jfa7iOkJrlQb9Av6lXRMGasQdcZ/0ryN738NuOBt30mbr+wh26SexBnf9hshOQIfMbl1X4FFmo4c2NC3a/UmGfp1HDY5pqK2iKWYochFYiMX8KfxB+4zx2E=
   </data>
  </layer>
  <layer name="Above" width="30" height="18">
   <data encoding="base64" compression="zlib">
-   eJy9lEsOgzAMRH2KSuEi7bWBI3AC6LYsYM8dCAtLaWRP7DZhJCR+8vP4E6I2+gSiNejPLdTH+EO8DiNnetRjS/6eHdGrq8edY/xF8Hb5tdS3pV+uveR5Ady3Iydm1pilqxacMxL/M4bvHPKcPFxJljipf69Q79G+/MJKe4p6z7L0waIa8438arNq5eb7i/qZ1kSLz+9L9dvitz2ZX6sQtzSv/+yoxrXMUs72+JXie86IO1Ri3ZkLYmv3J690VM0=
+   eJzFVMENgCAMrA5hwlzO5xC6ghvAF3dRTIgNgaMFEu8jxvauvRaJiM6FXsRnekaQxqFczrHNY3Qd+G4zulLUciScPZ79qbtObZwWxKA5IfT2EvJ3Q3QYXV7ai3/yLwVHqe4ajzNfjFfWjHRraNHiM0Wzj2iZQw4j7hXqt7SrPd6W5sk9SfljHdFbjX+aeaa6/L22r9p7IdXVQtMv39XgsRX+I0btb0DvDrfWMuLucO3S+QZgKkWj
   </data>
  </layer>
  <layer name="Walkable" width="30" height="18" visible="0">
@@ -208,15 +205,27 @@
   </data>
  </layer>
  <objectgroup name="Mapevents">
-  <object name="north1" type="mapchange" x="128" y="0" width="224" height="32">
+  <object name="north1" type="mapchange" x="480" y="0" width="32" height="32">
    <properties>
-    <property name="map" value="waterway10"/>
+    <property name="map" value="waterway9"/>
+    <property name="place" value="south1"/>
+   </properties>
+  </object>
+  <object name="north2" type="mapchange" x="704" y="0" width="96" height="32">
+   <properties>
+    <property name="map" value="waterway9"/>
+    <property name="place" value="south2"/>
+   </properties>
+  </object>
+  <object name="south1" type="mapchange" x="128" y="544" width="256" height="32">
+   <properties>
+    <property name="map" value="korhald_cave_outdoor1"/>
     <property name="place" value="north1"/>
    </properties>
   </object>
-  <object name="north2" type="mapchange" x="448" y="0" width="256" height="32">
+  <object name="south2" type="mapchange" x="448" y="544" width="192" height="32">
    <properties>
-    <property name="map" value="waterway10"/>
+    <property name="map" value="korhald_cave_outdoor1"/>
     <property name="place" value="north2"/>
    </properties>
   </object>
@@ -249,5 +258,5 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Keys" visible="0"/>
+ <objectgroup name="Keys"/>
 </map>
