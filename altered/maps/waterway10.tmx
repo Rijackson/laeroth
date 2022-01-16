@@ -186,12 +186,12 @@
  </tileset>
  <layer name="Ground" width="30" height="18">
   <data encoding="base64" compression="zlib">
-   eJyt1E0OgjAQBeDSrjgC19GDeAnPAFeQE2hCAjFhoyvZsZa9K9eewSGlSZl0psPP4qXGar/0tdBopWpIM43uc5/Gc0jouTvkmNgxNN8F3HoHt59cam4gXIm9xa0ZN2ZvcV/apiNcaedL3be2GRhXes+kbgv5ahvKdG6b0pG4+D+cJ3WpjC7+7pMp9ct472JsSrPOxZY/UuYJrCvkBqkmNzc2S11scvstYP0H5Ok5a13fHN9fY0LP7R7dciZ2z8bu0+92r/P8Ea7rsEDd4rjfcX2HTGyXZr5WrF+JS5n+WJn5XmP9Su4WPs+QnSM3dnbSO43PE9tLXEnHnO3nD7wjk8U=
+   eJyt1E0OgjAQBeBSVhyB6+hBvA29gp5AExKICRtdyY617F259gxOU5pMJp1h+Fm81NjQL7ypttaYBtJOa/w8FPM5ZPzeHXLMwpra7xNus4M7TC63NzKuxt7iNoI7Z29xXzakZ1xt50vdtw0ZBVd7z7RuB/naEM6Mblfw0bj0GcnTuly8S7/7lMb8StnDs1/jUguvnHnKjblCbpA6D89XechSl5rS+zo4/wF5Imeti03//+WT+t2e4ezLivO1Zsp1pNu95vkTXN+hI93SxK6lvlMmtX2f0awU/WpczsRrjc5xin41d4vOM2VXxJ2bnfZO03lSe4mr6Viycf4SjZTB
   </data>
  </layer>
  <layer name="Objects" width="30" height="18">
   <data encoding="base64" compression="zlib">
-   eJydVDtOw0AQteOK0i4sWUICCegihStwBETOQRNoqbgGN6AmEh1QGIkykp0PtFaApLWcjh15HhlvZuPASKNdr2f3zXszu3no/dpEzF12FLXHpLHnfcX1/NuMr7Eel4eb8xdHrMtORD6l2VvxfhpXPD9uyRm87zr6+TbnXTSw87vns3OHxhq2zPvMd/uulil605qGTXZuzu779Xjh11z6Yk2zwmg+/0MN57HbP5VzpPaFiKU+m3L8XqfWe6LwxbyKdZ9x72r5IF9gYc/KwTez7tYgqNeeEs97Tpr5lI58ZD+7sDKlpwjrit3WinQdMf7CjEvjY3HGlOfDLXV0aQu75J5KWauZ9Q5oOcMId5Ho/7ReJa69qK77jfHbYP0GyffnwMQciv6RdSA9NL6kDXKRPAdBMw6alUpfnEbNuEez/iD8zcJdKtwJr9vy7sgaa/dnWz3JPpK1JtfBJsd91haGWNS4UuoMXFc9Jfa7iOkJrlQb9Av6lXRMGasQdcZ/0ryN738NuOBt30mbr+wh26SexBnf9hshOQIfMbl1X4FFmo4c2NC3a/UmGfp1HDY5pqK2iKWYochFYiMX8KfxB+4zx2E=
+   eJydVM1Kw0AQTtqTx0SICQgK6k3QV/ARxD6Hj+DJl/DgG3i24E09RPBYSPqj11C1PQmlvbnD7mcm09m2+sGym81kv/m+mWwZBb8YsLUPB/H6mDwJgs/Err/M/JLocWW0vH72xPpwxPKZmW/n7nuaF259uCZn6L5t6edLzZt4IPO7c2eXHo81bp73Wegfm6JQ/KY9jZtwbs7uhHa+CK2WDtvTUBnPx3+o4Tjxjw/lHO59xWKpz4Yufqtl/R4oeglRavtDGyPXu1o+yBdc+Gbh0VsIzlZq9x6zIHjKmrnNPPnwfvZxFaKniCt2gzhv2k2vyNee45+YeWpGn50xdOvuijpq3n7v1HuXrqdy59VI3AMyZw7inWT6O9mr8PUktnW/MuO6Xd9B/P7ZMzH7rH94HcgPTS95g1ygE5wc8Gym9MVp3Ix7MPv3bLwK3inTvp36OSV4jbX/Z1U9Ce9Z7UmYLnPuOm8BxKLGc6XO4PXVk3O/uRjUE6DaoF/Qr+Rj7rgqVme8J8/X6f0vwAvd8p+UenkPSXA/STOe5R3BNYIfMaX4X8FFnvY83PD3WPQmAf3aj5oac1ZbxFJMl+XCuZEL9NP8A2GVxTo=
   </data>
  </layer>
  <layer name="Above" width="30" height="18">
@@ -217,7 +217,7 @@
     <property name="place" value="south2"/>
    </properties>
   </object>
-  <object name="south1" type="mapchange" x="128" y="544" width="256" height="32">
+  <object name="south1" type="mapchange" x="128" y="544" width="224" height="32">
    <properties>
     <property name="map" value="korhald_cave_outdoor1"/>
     <property name="place" value="north1"/>
