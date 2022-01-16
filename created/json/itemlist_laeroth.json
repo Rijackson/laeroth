@@ -198,5 +198,33 @@
         "displaytype":"quest",
         "category":"other",
         "description":"Found in the Korhald coin chest, this is a mysterous item indeed."
+    },
+    {
+        "id":"qtrstaff_2",
+        "iconID":"items_weapons_3:18",
+        "name":"Superior quarterstaff",
+        "displaytype":"rare",
+        "category":"staff",
+        "description":"This quarterstaff is made of very dense wood, and has metal endcaps with intricate engravings. ",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":5,
+                "max":11
+            },
+            "increaseAttackCost":5,
+            "increaseAttackChance":9,
+            "increaseBlockChance":4,
+            "setNonWeaponDamageModifier":129
+        },
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"stunned",
+                    "magnitude":1,
+                    "duration":2,
+                    "chance":"2"
+                }
+            ]
+        }
     }
 ]
