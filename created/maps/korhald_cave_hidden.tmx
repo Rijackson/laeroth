@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
-<map version="1.0" orientation="orthogonal" width="9" height="5" tilewidth="32" tileheight="32">
- <properties>
-  <property name="colorfilter" value="none"/>
- </properties>
+<map version="1.0" orientation="orthogonal" width="19" height="15" tilewidth="32" tileheight="32">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -184,44 +181,35 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="7577" name="map_cavewall_1" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_cavewall_1.png" width="576" height="192"/>
- </tileset>
- <layer name="Ground" width="9" height="5">
+ <layer name="Ground" width="19" height="15">
   <data encoding="base64" compression="zlib">
-   eJw7LsvAcJATgi9C6etAsS1QvBWIjyOpwYaPQ9VcJEINMeZgk4O55yYQAwBI9iTt
+   eJxbx8TAsA4NH0DCuMSxyaOrPQjEl5DwfqgcujiyPLqZMLWXgfgJEt7PiUqj44tQfWuh5qxHMgOkh1T8BM0scsxAxqNmkYbXUcksmJsGyqw5WNSh5x1izEJWj8scapuFD5OiDwBAhtgY
   </data>
  </layer>
- <layer name="Objects" width="9" height="5">
+ <layer name="Objects" width="19" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYBh4sJyVgWEFK275zbKofABLiQIq
+   eJxjYKAPOCzGwLCfiTIznjBBMMisJ1CznkLpR/wITAisQXPHGlYGhrWsEPZxPgaGT0AzPvJDaBB/NRZ3r2Ml3x/0AEqCqDSlQBnJHHUgWwOINaFiukBaD4j1ibALZo4iCe6aTWG6oQWoJiP+Yf6Yy4Qphg5OC5FuPjWABz/t0zYA53EYQg==
   </data>
  </layer>
- <layer name="Above" width="9" height="5">
+ <layer name="Above" width="19" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYKAtmM7KwDCDlbpmAgBk6gE6
+   eJxjYKAtuCzGwCDLz8BgyI9DAS5xJMALVXNJDEI7AvlzWBkY5rJC+Nv5GBiagWLXgPRkfggfBP7yYboFZgal4DCVzKGXWeKCDAwSQCwpCOHLAmk5IJYXHFh3jZpFuVkWBPIQNd1FDQAAri8UQw==
   </data>
  </layer>
- <layer name="Walkable" width="9" height="5" visible="0">
+ <layer name="Walkable" width="19" height="15" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzbKMaAATaK4efTUg0xAADRggY5
+   eJzbKMbAsHGEYhigVD86IKSGkFnEmI/LTGLsIsf9xIYHLr8Q8iMpbsKnDpfZ+MwiRh6b/4gJC2ql0+FkFgAs76M/
   </data>
  </layer>
  <objectgroup name="Mapevents">
-  <object name="south" type="mapchange" x="32" y="128" width="128" height="32">
+  <object name="entrance" type="mapchange" x="256" y="448" width="64" height="32">
    <properties>
-    <property name="map" value="korhald_cave1"/>
-    <property name="place" value="north"/>
+    <property name="map" value="korhald_cave2"/>
+    <property name="place" value="hidden_entrance"/>
    </properties>
   </object>
-  <object name="hidden_entrance" type="mapchange" x="64" y="0" width="32" height="32">
-   <properties>
-    <property name="map" value="korhald_cave_hidden"/>
-    <property name="place" value="entrance"/>
-   </properties>
-  </object>
+  <object name="korhald_gems" type="container" x="64" y="384" width="32" height="32"/>
  </objectgroup>
- <objectgroup name="Spawn" visible="0"/>
- <objectgroup name="Keys" visible="0"/>
- <objectgroup name="Replace" visible="0"/>
+ <objectgroup name="Spawn"/>
+ <objectgroup name="Keys"/>
 </map>

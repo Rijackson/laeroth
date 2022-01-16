@@ -153,5 +153,42 @@
                 }
             }
         ]
+    },
+    {
+        "id":"korhald_gems",
+        "items":[
+            {
+                "itemID":"gem2",
+                "chance":"100",
+                "quantity":{
+                    "min":3,
+                    "max":6
+                }
+            },
+            {
+                "itemID":"gem3",
+                "chance":"100",
+                "quantity":{
+                    "min":10,
+                    "max":12
+                }
+            },
+            {
+                "itemID":"gem1",
+                "chance":"100",
+                "quantity":{
+                    "min":5,
+                    "max":7
+                }
+            },
+            {
+                "itemID":"gem4",
+                "chance":"100",
+                "quantity":{
+                    "min":5,
+                    "max":8
+                }
+            }
+        ]
     }
 ]
