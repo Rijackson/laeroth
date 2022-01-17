@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
-<map version="1.0" orientation="orthogonal" width="9" height="5" tilewidth="32" tileheight="32">
+<map version="1.0" orientation="orthogonal" width="9" height="6" tilewidth="32" tileheight="32">
  <properties>
   <property name="colorfilter" value="none"/>
  </properties>
@@ -187,34 +187,34 @@
  <tileset firstgid="7577" name="map_cavewall_1" tilewidth="32" tileheight="32">
   <image source="../drawable/map_cavewall_1.png" width="576" height="192"/>
  </tileset>
- <layer name="Ground" width="9" height="5">
+ <layer name="Ground" width="9" height="6">
   <data encoding="base64" compression="zlib">
-   eJw7LsvAcJATgi9C6etAsS1QvBWIjyOpwYaPQ9VcJEINMeZgk4O55yYQAwBI9iTt
+   eJw7LsvAcJATgrfIYsfHkdSA8CtZTAxSc5ETVR0yBsmhm4OOj2GxaxkrpprrQHwDD74JxACiNy4w
   </data>
  </layer>
- <layer name="Objects" width="9" height="5">
+ <layer name="Objects" width="9" height="6">
   <data encoding="base64" compression="zlib">
-   eJxjYBh4sJyVgWEFK275zbKofABLiQIq
+   eJxjYECA67IMBMFLItQMNLgJdCMAcsgC8Q==
   </data>
  </layer>
- <layer name="Above" width="9" height="5">
+ <layer name="Above" width="9" height="6">
   <data encoding="base64" compression="zlib">
-   eJxjYKAtmM7KwDCDlbpmAgBk6gE6
+   eJxjYBg4MI2VdmYDADiHAJw=
   </data>
  </layer>
- <layer name="Walkable" width="9" height="5" visible="0">
+ <layer name="Walkable" width="9" height="6" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzbKMaAATaK4efTUg0xAADRggY5
+   eJzbKMaAATaK4efTUg21AACxlQY5
   </data>
  </layer>
  <objectgroup name="Mapevents">
-  <object name="south" type="mapchange" x="32" y="128" width="128" height="32">
+  <object name="south" type="mapchange" x="256" y="64" width="32" height="32">
    <properties>
     <property name="map" value="korhald_cave1"/>
     <property name="place" value="north"/>
    </properties>
   </object>
-  <object name="hidden_entrance" type="mapchange" x="64" y="0" width="32" height="32">
+  <object name="hidden_entrance" type="mapchange" x="32" y="0" width="32" height="32">
    <properties>
     <property name="map" value="korhald_cave_hidden"/>
     <property name="place" value="entrance"/>

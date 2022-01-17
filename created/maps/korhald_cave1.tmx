@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
-<map version="1.0" orientation="orthogonal" width="6" height="6" tilewidth="32" tileheight="32">
+<map version="1.0" orientation="orthogonal" width="8" height="9" tilewidth="32" tileheight="32">
  <properties>
   <property name="colorfilter" value="none"/>
  </properties>
@@ -187,34 +187,34 @@
  <tileset firstgid="7577" name="map_cavewall_1" tilewidth="32" tileheight="32">
   <image source="../drawable/map_cavewall_1.png" width="576" height="192"/>
  </tileset>
- <layer name="Ground" width="6" height="6">
+ <layer name="Ground" width="8" height="9">
   <data encoding="base64" compression="zlib">
-   eJw7LsvAcJATgi9yItjHkcSRxUD4Ig5xXOqxiV8H4htQs25A2TeBGACZ1B5a
+   eJxjYGBguCGLHW8F4ld4MEjNQU4GhoucEBodH5XFLo4sfxyPGmR5bHaQoh+X/HWoP0Dmo/v/JhADAPSXPTw=
   </data>
  </layer>
- <layer name="Objects" width="6" height="6">
+ <layer name="Objects" width="8" height="9">
   <data encoding="base64" compression="zlib">
-   eJxjYMAEm2URbG5+LAooAPms+OUBfv8BXw==
+   eJzbLMtAE5DPCqG30sh8egEA4xACFw==
   </data>
  </layer>
- <layer name="Above" width="6" height="6">
+ <layer name="Above" width="8" height="9">
   <data encoding="base64" compression="zlib">
-   eJxjYBhcAAAAkAAB
+   eJxjYBgF+AAAASAAAQ==
   </data>
  </layer>
- <layer name="Walkable" width="6" height="6" visible="0">
+ <layer name="Walkable" width="8" height="9" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzbKMaAATaKQTCtxWFyyHwA0MQLqg==
+   eJzbKMaAATaKYWcPlDyMD2Nj00MrAABI5guq
   </data>
  </layer>
  <objectgroup name="Mapevents">
-  <object name="cave_exit" type="mapchange" x="64" y="160" width="32" height="32">
+  <object name="cave_exit" type="mapchange" x="64" y="256" width="32" height="32">
    <properties>
     <property name="map" value="korhald_cave_outdoor1"/>
     <property name="place" value="cave_enter"/>
    </properties>
   </object>
-  <object name="north" type="mapchange" x="32" y="0" width="128" height="32">
+  <object name="north" type="mapchange" x="0" y="64" width="32" height="32">
    <properties>
     <property name="map" value="korhald_cave2"/>
     <property name="place" value="south"/>
