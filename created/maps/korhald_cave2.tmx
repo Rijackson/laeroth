@@ -189,12 +189,12 @@
  </tileset>
  <layer name="Ground" width="9" height="6">
   <data encoding="base64" compression="zlib">
-   eJw7LsvAcJATgrfIYsfHkdSA8CtZTAxSc5ETVR0yBsmhm4OOj2GxaxkrpprrQHwDD74JxACiNy4w
+   eJw7LsvAcJATgrfIYsfHkdSA8CtZTAxSc5ETVR0yBsmhm4OOj2KxC5ua6zjcCcM3gRgAlNctUQ==
   </data>
  </layer>
  <layer name="Objects" width="9" height="6">
   <data encoding="base64" compression="zlib">
-   eJxjYECA67IMBMFLItQMNLgJdCMAcsgC8Q==
+   eJxjYECA67IMBMFLItRQEyxjJV3PTaAbAZgrA5w=
   </data>
  </layer>
  <layer name="Above" width="9" height="6">
@@ -223,5 +223,4 @@
  </objectgroup>
  <objectgroup name="Spawn" visible="0"/>
  <objectgroup name="Keys" visible="0"/>
- <objectgroup name="Replace" visible="0"/>
 </map>
