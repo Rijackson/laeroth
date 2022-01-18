@@ -80,6 +80,15 @@
             {
                 "progress":55,
                 "logText":"I have decided to attack Gylew. I should return to Forenza with the key once he is dead."
+            },
+            {
+                "progress":65,
+                "logText":"Inside the Korhald cave, I found the Coin of prestige and the Shield of the brave. I should return to Forenza and show him the coin.",
+                "rewardExperience":0
+            },
+            {
+                "progress":66,
+                "logText":"Inside the Korhald cave, I found the Coin of prestige and the Shield of the brave. I should return to Gylew and show him the coin."
             }
         ]
     },
@@ -87,7 +96,7 @@
         "id":"laeorth_caretaker",
         "name":"Take care of the caretaker",
         "stages":[
-             {
+            {
                 "progress":1,
                 "logText":"[PLACEHOLDER]"
             }

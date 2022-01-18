@@ -226,5 +226,13 @@
                 }
             ]
         }
+    },
+    {
+        "id":"hero_coin",
+        "iconID":"items_japozero:362",
+        "name":"Coin of prestige",
+        "displaytype":"quest",
+        "category":"money",
+        "description":"A gift from the people of Remgard to the Korhald family after Korhald's death to honor and respect the great man that was Korhald."
     }
 ]

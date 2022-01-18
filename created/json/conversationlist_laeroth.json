@@ -1317,5 +1317,101 @@
                 ]
             }
         ]
+    },
+    {
+        "id":"korhald_cave_hidden_basket_examine",
+        "replies":[
+            {
+                "nextPhraseID":"korhald_cave_hidden_basket_examine_looted",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":65,
+                        "negate":false
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":66
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"korhald_cave_hidden_basket_examine_loot_f",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":55
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"korhald_cave_hidden_basket_examine_loot_g",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":45
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"korhald_cave_hidden_basket_examine_looted",
+        "message":"The chest is now empty.",
+        "replies":[
+            {
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"korhald_cave_hidden_basket_examine_loot_f",
+        "message":"You have just found a coin and a shield.",
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"hero_coin",
+                "value":1
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"shield_of_brave",
+                "value":1
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"odd_coin_collector",
+                "value":65
+            }
+        ]
+    },
+    {
+        "id":"korhald_cave_hidden_basket_examine_loot_g",
+        "message":"You have just found a coin and a shield.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"odd_coin_collector",
+                "value":66
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"shield_of_brave",
+                "value":1
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"hero_coin",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"korhald_cave_hidden_locked_chest",
+        "message":"[The chest is locked.]"
     }
 ]
