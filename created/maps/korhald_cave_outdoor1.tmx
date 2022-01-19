@@ -281,20 +281,5 @@
   </object>
  </objectgroup>
  <objectgroup name="Keys" visible="0"/>
- <objectgroup name="Replace" visible="0">
-  <object name="DoorOpened" type="replace" x="64" y="384" width="96" height="64">
-   <properties>
-    <property name="Objects" value="Objects_doorOpened"/>
-    <property name="Walkable" value="Walkable_doorOpened"/>
-    <property name="requireType" value="questProgress"/>
-   </properties>
-  </object>
-  <object name="DoorClosed" type="replace" x="64" y="384" width="96" height="64">
-   <properties>
-    <property name="Objects" value="Objects_doorClosed"/>
-    <property name="Walkable" value="Walkable_doorClosed"/>
-    <property name="requireType" value="questProgress"/>
-   </properties>
-  </object>
- </objectgroup>
+ <objectgroup name="Replace" visible="0"/>
 </map>
