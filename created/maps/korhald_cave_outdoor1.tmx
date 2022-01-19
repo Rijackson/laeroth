@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.2" tiledversion="1.3.0" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="30" height="18" tilewidth="32" tileheight="32" infinite="0" nextlayerid="14" nextobjectid="29">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="30" height="18" tilewidth="32" tileheight="32" infinite="0" nextlayerid="15" nextobjectid="42">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -208,12 +208,12 @@
  </layer>
  <layer id="5" name="Walkable" width="30" height="18" visible="0">
   <data encoding="base64" compression="zlib">
-   eAGljoENgEAIA38K91/BDQ0xF5vKG0ASLQXa/nmsdcq3Pqpyx43aMKuiart9ZERVs/zuVr//+L43T1bs3K/DM+/qrJOT3WoOe2bBtXRPP0X1rfS8ZZqHzrN287jTHf0U3c/fAVd/1ei80+MLhjYKj5vlf24mWM3w5EmWarJc9mQpj55iXkV0f7CapXfTPPWY9OSihX8ht1PEGz3cMdsz66J7O8ePuXL6CYYfOrwz3N0w72DmrzP30l30vt/xC/AM9/o=
+   eAGljokNwzAMAz1F918hGxZCcCjB2A6tCkioh4+vzxiXfGNTCQ+O2rBLUbWnfWVUpVnOu9XPP77Pyy+rbu53Ms+8091JzoyrOdzZ1ayld/ouqm/S85ZuHjrPWu2Lpzf6Lrqfv4NZ/VWj+5MeX7C0VXjc0/wPp4Nphid3slQzy+VOls7VU+xTRPcPplnK6+apR6cnFy3zDuEmmPisOPjrnd0bqibp8YOrM32C6BXR6c77FYf9Dt3rbXYv5/t9NX8BZ73qww==
   </data>
  </layer>
  <layer id="6" name="Objects_doorOpened" width="30" height="18" visible="0">
   <data encoding="base64" compression="zlib">
-   eAFjYBgFoyEwGgKjITAaAqMhMBoCoyFA2xAAAAhwAAE=
+   eAFjYBgFoyEwGgKjITAaAoM5BKawMzBMBeJpQExPsARo31IgXkZne+npx1G76BcCALg9A9k=
   </data>
  </layer>
  <layer id="7" name="Objects_doorClosed" width="30" height="18" visible="0">
@@ -223,14 +223,17 @@
  </layer>
  <layer id="8" name="Walkable_doorClosed" width="30" height="18" visible="0">
   <data encoding="base64" compression="zlib">
-   eAFjYBgFoyEwGgKjITAaAqMhMBoCoyFA2xAAAAhwAAE=
+   eAFjYBgFoyEwGgKjITAaAoM5BDaKMTDAMD3dCbMTRI+C0RCgNAQA1uEEqw==
   </data>
  </layer>
  <layer id="9" name="Walkable_doorOpened" width="30" height="18" visible="0">
   <data encoding="base64" compression="zlib">
-   eAFjYBgFoyEwGgKjITAaAqMhMBoCoyFA2xAAAAhwAAE=
+   eAFjYBgFoyEwGgKjITAaAoM5BDaKMTDAMD3dCbITBGA0hDdKjoYAeSEAAA3UA+Q=
   </data>
  </layer>
+ <objectgroup id="14" name="Replace">
+
+ </objectgroup>
  <objectgroup id="10" name="Mapevents" visible="0">
   <object id="1" name="north1" type="mapchange" x="128" y="0" width="224" height="32">
    <properties>
