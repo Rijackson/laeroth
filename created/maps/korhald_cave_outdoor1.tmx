@@ -236,12 +236,18 @@
    <properties>
     <property name="Objects" value="Objects_doorOpened"/>
     <property name="Walkable" value="Walkable_doorOpened"/>
+    <property name="requireId" value="nondisplay"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="26"/>
    </properties>
   </object>
   <object id="16" name="DoorClosed" type="replace" x="64" y="384" width="96" height="64">
    <properties>
     <property name="Objects" value="Objects_doorClosed"/>
     <property name="Walkable" value="Walkable_doorClosed"/>
+    <property name="requireId" value="nondisplay"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="26"/>
    </properties>
   </object>
  </objectgroup>
