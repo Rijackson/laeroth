@@ -232,7 +232,18 @@
   </data>
  </layer>
  <objectgroup id="14" name="Replace">
-
+    <object id="15" name="DoorOpened" type="replace" x="64" y="384" width="96" height="64">
+   <properties>
+    <property name="Objects" value="Objects_doorOpened"/>
+    <property name="Walkable" value="Walkable_doorOpened"/>
+   </properties>
+  </object>
+  <object id="16" name="DoorClosed" type="replace" x="64" y="384" width="96" height="64">
+   <properties>
+    <property name="Objects" value="Objects_doorClosed"/>
+    <property name="Walkable" value="Walkable_doorClosed"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup id="10" name="Mapevents" visible="0">
   <object id="1" name="north1" type="mapchange" x="128" y="0" width="224" height="32">
