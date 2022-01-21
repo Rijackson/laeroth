@@ -189,32 +189,53 @@
  </tileset>
  <layer name="Ground" width="9" height="6">
   <data encoding="base64" compression="zlib">
-   eJw7LsvAcJATgrfIYsfHkdSA8CtZTAxSc5ETVR0yBsmhm4OOj2KxC5ua6zjcCcM3gRgAlNctUQ==
+   eJxjYGBgOCaLHx8H4lcEMLFqLnIyMBzEgUFyIDW45GH4OlDNFjwY5GYAqhsvZw==
   </data>
  </layer>
  <layer name="Objects" width="9" height="6">
   <data encoding="base64" compression="zlib">
-   eJxjYECA67IMBMFLItRQEyxjJV3PTaAbAZgrA5w=
+   eJzbLMtANLjPRljNeyLUkAKWsaLyNxPpXgASFwQm
   </data>
  </layer>
  <layer name="Above" width="9" height="6">
   <data encoding="base64" compression="zlib">
-   eJxjYBg4MI2VdmYDADiHAJw=
+   eJxjYCAOHBajvppprOSbQwgAANXmBAA=
   </data>
  </layer>
  <layer name="Walkable" width="9" height="6" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzbKMaAATaK4efTUg21AACxlQY5
+   eJzbKMbAsJFIDAKUqiEE0NVg4xODAeN3HYs=
   </data>
  </layer>
+ <layer name="Objects_doorOpened" width="9" height="6" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAePGAjrOYDEWroAQAeEwHd
+  </data>
+ </layer>
+ <layer name="Objects_doorClosed" width="9" height="6" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBieAAAA2AAB
+  </data>
+ </layer>
+ <layer name="Walkable_doorClosed" width="9" height="6" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAebBSjjhp6AADwGAGP
+  </data>
+ </layer>
+ <layer name="Walkable_doorOpened" width="9" height="6">
+  <data encoding="base64" compression="zlib">
+   eJxjYBieAAAA2AAB
+  </data>
+ </layer>
+ <objectgroup name="Replace"/>
  <objectgroup name="Mapevents">
-  <object name="south" type="mapchange" x="256" y="64" width="32" height="32">
+  <object name="south" type="mapchange" x="256" y="96" width="32" height="32">
    <properties>
     <property name="map" value="korhald_cave1"/>
     <property name="place" value="north"/>
    </properties>
   </object>
-  <object name="hidden_entrance" type="mapchange" x="32" y="0" width="32" height="32">
+  <object name="hidden_entrance" type="mapchange" x="64" y="64" width="32" height="32">
    <properties>
     <property name="map" value="korhald_cave_hidden"/>
     <property name="place" value="entrance"/>
