@@ -189,12 +189,12 @@
  </tileset>
  <layer name="Ground" width="9" height="6">
   <data encoding="base64" compression="zlib">
-   eJxjYGBgOCaLHx8H4lcEMLFqLnIyMBzEgUFyIDW45GH4OlDNFjwY5GYAqhsvZw==
+   eJw7JsvAcIMAPg7ErwhgYtVc5GRgOIgDg+RAanDJw/AxoJoteDBIHgDWkTDJ
   </data>
  </layer>
  <layer name="Objects" width="9" height="6">
   <data encoding="base64" compression="zlib">
-   eJzbLMtANLjPRljNeyLUkAKWsaLyNxPpXgASFwQm
+   eJxjYMANbsii8u+z4VEMBe+JUEMKWMaKyt8si10dOgAAFoMESw==
   </data>
  </layer>
  <layer name="Above" width="9" height="6">
@@ -227,7 +227,7 @@
    eJxjYBieAAAA2AAB
   </data>
  </layer>
- <objectgroup name="Replace">
+ <objectgroup name="Replace" visible="0">
   <object name="DoorOpened" type="replace" x="64" y="32" width="32" height="64">
    <properties>
     <property name="Objects" value="Objects_doorOpened"/>
@@ -247,7 +247,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Mapevents">
+ <objectgroup name="Mapevents" visible="0">
   <object name="south" type="mapchange" x="256" y="96" width="32" height="32">
    <properties>
     <property name="map" value="korhald_cave1"/>
