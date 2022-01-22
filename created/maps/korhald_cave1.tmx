@@ -189,17 +189,17 @@
  </tileset>
  <layer name="Ground" width="8" height="9">
   <data encoding="base64" compression="zlib">
-   eJxjYGBguCGLHW8F4ld4MEjNQU4GhoucEBodH5XFLo4sfxyPGmR5bHaQoh+X/HWoP0Dmo/v/JhADAPSXPTw=
+   eJy7IcvAcAMHPgbEr/Dgo0D8Bw8GyR/kxI2xyV9Ekz8uiymOTR6X+YTkj6GZv0UWgUFyAK23P1g=
   </data>
  </layer>
  <layer name="Objects" width="8" height="9">
   <data encoding="base64" compression="zlib">
-   eJzbLMtAE5DPCqG30sh8egEA4xACFw==
+   eJxjYBgYkM8KobfKDpADkMBhMQi9GYtbAPgnAvA=
   </data>
  </layer>
  <layer name="Above" width="8" height="9">
   <data encoding="base64" compression="zlib">
-   eJxjYBgF+AAAASAAAQ==
+   eJxjYBj84LIYfvnDFMpvlcUtBwAJfANu
   </data>
  </layer>
  <layer name="Walkable" width="8" height="9" visible="0">
@@ -214,7 +214,7 @@
     <property name="place" value="cave_enter"/>
    </properties>
   </object>
-  <object name="north" type="mapchange" x="0" y="64" width="32" height="32">
+  <object name="north" type="mapchange" x="0" y="96" width="32" height="32">
    <properties>
     <property name="map" value="korhald_cave2"/>
     <property name="place" value="south"/>
