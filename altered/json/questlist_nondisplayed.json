@@ -115,6 +115,18 @@
             {
                 "progress":43,
                 "logText":"Closed tomb door in korhald_cave2"
+            },
+            {
+                "progress":44,
+                "logText":"Mysterious Korhald map head east in waterway6"
+            },
+            {
+                "progress":45,
+                "logText":"Mysterious Korhald map head south in waterway9"
+            },
+            {
+                "progress":46,
+                "logText":"I have the Korhald cave - thanks to my map."
             }
         ]
     }
