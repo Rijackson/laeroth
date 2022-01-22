@@ -227,7 +227,26 @@
    eJxjYBieAAAA2AAB
   </data>
  </layer>
- <objectgroup name="Replace"/>
+ <objectgroup name="Replace">
+  <object name="DoorOpened" type="replace" x="64" y="32" width="32" height="64">
+   <properties>
+    <property name="Objects" value="Objects_doorOpened"/>
+    <property name="Walkable" value="Walkable_doorOpened"/>
+    <property name="requireId" value="nondisplay"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="42"/>
+   </properties>
+  </object>
+  <object name="DoorClosed" type="replace" x="64" y="32" width="32" height="64">
+   <properties>
+    <property name="Objects" value="Objects_doorClosed"/>
+    <property name="Walkable" value="Walkable_doorClosed"/>
+    <property name="requireId" value="nondisplay"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="43"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup name="Mapevents">
   <object name="south" type="mapchange" x="256" y="96" width="32" height="32">
    <properties>
@@ -239,6 +258,21 @@
    <properties>
     <property name="map" value="korhald_cave_hidden"/>
     <property name="place" value="entrance"/>
+   </properties>
+  </object>
+  <object name="script_open_korhald_tomb_door_has_key" type="script" x="32" y="96" width="96" height="32">
+   <properties>
+    <property name="when" value="step"/>
+   </properties>
+  </object>
+  <object name="script_open_korhald_tomb_door_no_key_1" type="script" x="32" y="96" width="96" height="32">
+   <properties>
+    <property name="when" value="step"/>
+   </properties>
+  </object>
+  <object name="script_close_korhald_tomb_door_0" type="script" x="128" y="96" width="32" height="32">
+   <properties>
+    <property name="when" value="enter"/>
    </properties>
   </object>
  </objectgroup>
