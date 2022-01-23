@@ -281,11 +281,5 @@
         "movementAggressionType":"none",
         "spawnGroup":"forenza_waytobrimhaven3",
         "phraseID":"forenza_waytobrimhaven3_initial_phrase"
-    },
-    {
-        "id":"caretaker",
-        "name":"Camryn",
-        "iconID":"monsters_ld1:20",
-        "unique":1
     }
 ]
