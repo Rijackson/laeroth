@@ -245,5 +245,16 @@
     <map id="korhald_cave_outdoor1" x="550" y="278"/>
     <namedarea id="crossglen" name="Crossglen" type="settlement"/>
     <namedarea id="crossroads" name="Crossroads Guardhouse" type="other"/>
+    <namedarea id="charwoodh" name="Charwood" type="settlement"/>
+    <namedarea id="fallhaven" name="Fallhaven" type="settlement"/>
+    <namedarea id="flagstone" name="Flagstone Prison" type="other"/>
+    <namedarea id="fflask" name="Foaming Flask Tavern" type="other"/>
+    <namedarea id="loneford" name="Loneford" type="settlement"/>
+    <namedarea id="remgard" name="Remgard" type="settlement"/>
+    <namedarea id="vilegard" name="Vilegard" type="settlement"/>
+    <namedarea id="prim" name="Prim" type="settlement"/>
+    <namedarea id="stoutford" name="Stoutford" type="settlement"/>
+    <namedarea id="guynmart_area" name="Guynmart Castle" type="other"/>
+    <namedarea id="brimhaven_area" name="Brimhaven" type="settlement"/>
   </segment>
 </worldmap>
