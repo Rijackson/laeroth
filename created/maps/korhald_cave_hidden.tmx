@@ -201,12 +201,12 @@
    eJxjYBgYcFmMemovkWDWKBgFww2QkpcIgcN0yEsAacsEfQ==
   </data>
  </layer>
- <layer name="Walkable" width="19" height="15" visible="0">
+ <layer name="Walkable" width="19" height="15">
   <data encoding="base64" compression="zlib">
    eJzbKMbAsHEEYmRADTPQzSIEiDGLWIDNHBibVLPxhREuNcSEKyXuolVY0dssXOFBbNqih1mU5gVi1AIAqx160w==
   </data>
  </layer>
- <objectgroup name="Mapevents" visible="0">
+ <objectgroup name="Mapevents">
   <object name="entrance" type="mapchange" x="256" y="448" width="64" height="32">
    <properties>
     <property name="map" value="korhald_cave2"/>
@@ -224,6 +224,7 @@
     <property name="when" value="enter"/>
    </properties>
   </object>
+  <object name="korhald_cave_hidden_war_book" type="sign" x="384" y="128" width="32" height="32"/>
  </objectgroup>
  <objectgroup name="Spawn" visible="0"/>
  <objectgroup name="Keys" visible="0"/>

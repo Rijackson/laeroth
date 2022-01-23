@@ -1681,5 +1681,9 @@
                 "value":46
             }
         ]
+    },
+    {
+        "id":"korhald_cave_hidden_war_book",
+        "message":"[At a quick glance, you notice a couple of books on the strategy of war.]"
     }
 ]
