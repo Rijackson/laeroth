@@ -4,7 +4,7 @@
         "message":"Hey kid.",
         "replies":[
             {
-                "text":"Yes, I found the Korhald coins, but you are not getting it...[Attack]",
+                "text":"Yes, I found the Korhald coins, but you are not getting them...[Attack]",
                 "nextPhraseID":"gylew_attack",
                 "requires":[
                     {
@@ -30,7 +30,7 @@
                 "nextPhraseID":"gylew_old_man"
             },
             {
-                "text":"Hey. I found the Korhald tomb and it had to items that I think might interest you.",
+                "text":"Hey. I found the Korhald tomb and it had two items that I think might interest you.",
                 "nextPhraseID":"gylew_korhald_cop_0",
                 "requires":[
                     {
