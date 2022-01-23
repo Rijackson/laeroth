@@ -120,7 +120,7 @@
     },
     {
         "id":"gylew5",
-        "message":"This one here was cut during the rise of Elytharan and is quite rare and valuable. But this other one here is a more common coin as it was cut during Geomyr's rule. While this one here is from a far off land and is a part of a larger collection that has long been broken up by past pirates and thieves.",
+        "message":"This one here was cut during the rise of Elythara and is quite rare and valuable. But this other one here is a more common coin as it was cut during Geomyr's rule. While this one here is from a far off land and is a part of a larger collection that has long been broken up by past pirates and thieves.",
         "replies":[
             {
                 "text":"N",
@@ -417,7 +417,7 @@
     },
     {
         "id":"gylew10_2_1",
-        "message":"It is far east of here in a place called Laeroth Manor.",
+        "message":"It is far east of here near a place called Laeroth Manor.",
         "replies":[
             {
                 "text":"N",
@@ -1760,7 +1760,7 @@
     },
     {
         "id":"gylew_korhald_cop_50",
-        "message":"Excellant. Come see me if you ever find any more interesting coins.",
+        "message":"Excellent. Come see me if you ever find any more interesting coins.",
         "rewards":[
             {
                 "rewardType":"dropList",
