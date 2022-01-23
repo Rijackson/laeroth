@@ -28,6 +28,60 @@
             {
                 "text":"Hey old man.",
                 "nextPhraseID":"gylew_old_man"
+            },
+            {
+                "text":"Hey. I found the Korhald tomb and it had to items that I think might interest you.",
+                "nextPhraseID":"gylew_korhald_cop_0",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":66
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"shield_of_brave",
+                        "value":1
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"hero_coin",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"Hey. I need to go now and find this map.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":60
+                    }
+                ]
+            },
+            {
+                "text":"We have no more business to discuss. I'll see you later.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":100
+                    }
+                ]
+            },
+            {
+                "text":"I was glad to help fulfill you and your father's dream, but I need to go now.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":105
+                    }
+                ]
             }
         ]
     }

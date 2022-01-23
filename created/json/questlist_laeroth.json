@@ -51,11 +51,6 @@
                 "rewardExperience":950
             },
             {
-                "progress":100,
-                "logText":"[COMPLETED - PLACEHOLDER]",
-                "finishesQuest":1
-            },
-            {
                 "progress":30,
                 "logText":"In the Laeroth basement, I noticted a sign on the wall that i could not read in it's entirety, but I was able make out the name 'Korhald'. This makes me wonder if this is a clue?"
             },
@@ -89,6 +84,18 @@
             {
                 "progress":66,
                 "logText":"Inside the Korhald cave, I found the Coin of prestige and the Shield of the brave. I should return to Gylew and show him the coin."
+            },
+            {
+                "progress":100,
+                "logText":"I sold Gylew the Coin of prestige and he rewarded me handsomely for it.",
+                "rewardExperience":5000,
+                "finishesQuest":1
+            },
+            {
+                "progress":105,
+                "logText":"I gave Gylew the Coin of prestige and he told me that if I ever make my way to Feygrad, to seek out his family and they will 'make that shield a little bit better\". Whatever that means.",
+                "rewardExperience":6000,
+                "finishesQuest":1
             }
         ]
     },

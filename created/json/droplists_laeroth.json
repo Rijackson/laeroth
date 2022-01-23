@@ -190,5 +190,18 @@
                 }
             }
         ]
+    },
+    {
+        "id":"odd_coin_collector_sale_of_cop",
+        "items":[
+            {
+                "itemID":"gold",
+                "chance":"100",
+                "quantity":{
+                    "min":7000,
+                    "max":7000
+                }
+            }
+        ]
     }
 ]
