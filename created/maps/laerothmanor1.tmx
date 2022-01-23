@@ -167,6 +167,12 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Spawn"/>
+ <objectgroup name="Spawn">
+  <object name="caretaker" type="spawn" x="320" y="128" width="160" height="160">
+   <properties>
+    <property name="spawngroup" value="caretaker"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup name="Keys"/>
 </map>

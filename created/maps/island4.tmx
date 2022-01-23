@@ -199,7 +199,7 @@
    eJztlb8OgjAQxhsW44iDyb2Ej+Ij+JBuxD8xYdQ44OCi6OSE8gZGLhQ5jwNJPZz4JQQo7X18115rzO9cfGPCcf6cgDGn7DpD+X3rK4gI0LgnkPvEWZ/DWF/7aeMmTBfzUOiFirrUQxGX5hnbItseKemi5lsr87sAWVeDgVc+Uy/IGkr/gdW92bmfjNw1+ToN2FzuoZprPsaVe0OM2K/Pq6v2kdTKSogRsjWLPq8KPr/BdVP4rGX0e+ngXyS/HI15rtPVqtG21Onx3DatS1do7RRI79qacXY97J373EC+d3fhlyL5vDXUd1twP0yFc3Up+Cl80v3cFRw/F3R3kJ8PR+tt2LCfu8DHT71qH9QB0t5Fjc0E3X/Xck9PT08XvAA9YmdJ
   </data>
  </layer>
- <layer name="Walkable" width="30" height="30" visible="0">
+ <layer name="Walkable" width="30" height="30">
   <data encoding="base64" compression="zlib">
    eJztksERACEIA63i+m/BDu/rMAFDwPuczPBRZAlmPmNMJ1Gg87Ue9YjuGS57jurQPcPd1SBt9pzhepp2XMv+guv9J9NH5VptkY/YfpEexEU6FR0eK/Kwsj9mPu9OeZPhsj7r1sv6rMtXql5lbqZPtlbpxUR1HxluZpeqV1Rm5b/XmU+zu7jKjIhbmf3UWxQd+2bilN9u3rz5v3wB3McNmw==
   </data>
@@ -243,6 +243,19 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Spawn"/>
+ <objectgroup name="Spawn">
+  <object name="beach_crawler_1" type="spawn" x="256" y="448" width="160" height="224">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="beach_crawler_1"/>
+   </properties>
+  </object>
+  <object name="beach_crawler_2" type="spawn" x="416" y="608" width="480" height="64">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="beach_crawler_1"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup name="Keys"/>
 </map>

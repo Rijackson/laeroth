@@ -234,5 +234,15 @@
         "displaytype":"quest",
         "category":"money",
         "description":"A gift from the people of Remgard to the Korhald family after Korhald's death to honor and respect the great man that was Korhald."
+    },
+    {
+        "id":"stinging_gland",
+        "iconID":"items_misc:33",
+        "name":"Stinging gland",
+        "displaytype":"ordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":86,
+        "category":"animal",
+        "description":"You should handle this very carefully!"
     }
 ]
