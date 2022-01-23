@@ -128,17 +128,17 @@
  </layer>
  <layer name="Objects" width="8" height="9">
   <data encoding="base64" compression="zlib">
-   eJxjYBgF+AAAASAAAQ==
+   eJxjYKAcTOBGsMuA7FJuCA0DC5DYbUB2KzeEJhZcZsYUC0ISe4xFPglJ7BsW+SIsYtgAAKDOCF8=
   </data>
  </layer>
  <layer name="Above" width="8" height="9">
   <data encoding="base64" compression="zlib">
-   eJxjYCAMwgUok08jIE8IpFNoPyF5fAAAjCsCig==
+   eJxjYCAMwgWIlw/ihtBu3AixNAL6CYF0EuwnRx4fAAAW/AM4
   </data>
  </layer>
  <layer name="Walkable" width="8" height="9" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxzFWBgcKUxxgXwycHkCemnhjw298LYAPjADUk=
+   eJxzFWBgcKUDhgFc4tgAPnWEzCFVHl0tjA0AhVoQmw==
   </data>
  </layer>
  <objectgroup name="Mapevents">

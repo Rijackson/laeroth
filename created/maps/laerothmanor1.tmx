@@ -123,22 +123,22 @@
  </tileset>
  <layer name="Ground" width="16" height="21">
   <data encoding="base64" compression="zlib">
-   eJxTY2dgUKMQuwlCMC5xXBimLkwQgtHlYOK4MEz/GTYIRpeDiePC6PrR5QaTfnzhj00/KAzR+bjCH5v+MEFMPqHwJxUPF/2E4oXY/IOO8cUdtvyDjvHFHa3jD93/uNSgp1Ns6RefGvR0ii394lPzlQ0Tn8EihgsDAC2axFA=
+   eJxTY2dgUKMQuwnix7jUwPSHCeLHuNTA9J9hw49xqcGnH92P5OhH9is5+pH9So5+YsKFHvoJpR9s+pHDDF+6wqUfOczwpSti/EnI/4T8RW7+Idb/uPxHL/8TE//48ggx8Y9LDa68ge5/XGq+slGGAUpXvk0=
   </data>
  </layer>
  <layer name="Objects" width="16" height="21">
   <data encoding="base64" compression="zlib">
-   eJxjYBh8YDY/ZfpXI+lfQKFZo2AUDHdATh6ZP0jzVTQvA0MML/3sAwA5EARC
+   eJxjYKAcfGSBYBiYzQ+hDbmxq1fBIb6CGUKv5ifNfmsgtgHiHcyYcgugZmUD5XYD8QcuBgZvIK2GpMYbiH1Is5LBjEh1gjj8igzcsLibEAhH0hNLhv5cMvQMBvANGH9Hgfg3F/XMjCEjLKYNwvDLYYFgUgEsj9SwQDAxYD6JeZRYcAYYrmcpCNs7QL136Rg3AN23FaM=
   </data>
  </layer>
  <layer name="Above" width="16" height="21">
   <data encoding="base64" compression="zlib">
-   eJxjYKAchAuQJj6qf2joT6NQP7FgqOvHBdJHePwh+x9fWCDr9+ZlYPDhxRTH50Ziwo8UPybwEq8WAI4cD4I=
+   eJxjYKAchAtQpma46kcWp1R/GoX68YHhqh9fmJFjD6kgfYT4H5d+ZP/jCwt65B9axTEASKEQdg==
   </data>
  </layer>
  <layer name="Walkable" width="16" height="21" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxzFWBgcB1kGARIVY+sB8YmBND1o8sNJv3E+H8w6ScGDBf9xKZLcvIBPfRT6n9cctjYhPTjcj8t9VOCAWLQNx8=
+   eJxzFWBgcKUyBoGB0o8NkKOXkLmk2klIDan6iZHHB4hxGyFArH5y44xe+onxKzbziTWT0rRMa/3o6kgNA1xy2NiE9ONyFy31U4IBf3VBag==
   </data>
  </layer>
  <objectgroup name="Mapevents">
@@ -160,7 +160,7 @@
     <property name="place" value="up2"/>
    </properties>
   </object>
-  <object name="up" type="mapchange" x="160" y="64" width="32" height="32">
+  <object name="up" type="mapchange" x="160" y="32" width="32" height="32">
    <properties>
     <property name="map" value="laerothmanor2"/>
     <property name="place" value="down"/>
