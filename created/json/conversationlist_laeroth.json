@@ -1787,5 +1787,21 @@
                 "value":105
             }
         ]
+    },
+    {
+        "id":"laeroth_tower_north",
+        "message":"Looking to the north, you see more of the manor, the lake, and cliffs beyond that."
+    },
+    {
+        "id":"laeroth_tower_east",
+        "message":"You gaze to the east, but there is not much to see. The lake, the shore, but you think you recognize some of the cliffs you had to scale to get here."
+    },
+    {
+        "id":"laeroth_tower_south",
+        "message":"Looking to the south, you see the lakeshore you walked along. There is also a tower in the distance. You wonder if at one time the that tower and this one sent signals to each other."
+    },
+    {
+        "id":"laeroth_tower_west",
+        "message":"To the west, you see a town on an island. It looks prosperous. In the far disatnce, somewhat to the north, it looks like there is another island, but you can't make out any details. "
     }
 ]
