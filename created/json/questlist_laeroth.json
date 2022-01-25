@@ -96,6 +96,17 @@
                 "logText":"I gave Gylew the Coin of prestige and he told me that if I ever make my way to Feygrad, to seek out his family and they will 'make that shield a little bit better\". Whatever that means.",
                 "rewardExperience":6000,
                 "finishesQuest":1
+            },
+            {
+                "progress":110,
+                "logText":"I sold Forenza the Coin of prestige and he rewarded me handsomely for it.",
+                "rewardExperience":5000,
+                "finishesQuest":1
+            },
+            {
+                "progress":115,
+                "logText":"I gave Forenza the Coin of prestige and he told me that if I ever make my way to Brightport, to seek out his family and they will 'reward\" me. Whatever that means.",
+                "rewardExperience":6000
             }
         ]
     },

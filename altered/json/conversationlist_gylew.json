@@ -4,17 +4,6 @@
         "message":"Hey kid.",
         "replies":[
             {
-                "text":"Yes, I found the Korhald coins, but you are not getting them...[Attack]",
-                "nextPhraseID":"gylew_attack",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"odd_coin_collector",
-                        "value":50
-                    }
-                ]
-            },
-            {
                 "text":"I'm not a kid anymore. Let's talk about the Korhald coins.",
                 "nextPhraseID":"gylew_korhald_10",
                 "requires":[
