@@ -10,7 +10,7 @@
     <map area="prim" id="blackwater_mountain11" x="33" y="337"/>
     <map id="blackwater_mountain12" x="4" y="358"/>
     <map id="blackwater_mountain14" x="54" y="368"/>
-    <map id="blackwater_mountain15" x="75" y="336"/>
+    <map id="blackwater_mountain15" x="75" y="337"/>
     <map id="blackwater_mountain16" x="91" y="337"/>
     <map id="blackwater_mountain30" x="114" y="407"/>
     <map id="blackwater_mountain32" x="83" y="409"/>
@@ -245,16 +245,5 @@
     <map id="korhald_cave_outdoor1" x="550" y="278"/>
     <namedarea id="crossglen" name="Crossglen" type="settlement"/>
     <namedarea id="crossroads" name="Crossroads Guardhouse" type="other"/>
-    <namedarea id="charwoodh" name="Charwood" type="settlement"/>
-    <namedarea id="fallhaven" name="Fallhaven" type="settlement"/>
-    <namedarea id="flagstone" name="Flagstone Prison" type="other"/>
-    <namedarea id="fflask" name="Foaming Flask Tavern" type="other"/>
-    <namedarea id="loneford" name="Loneford" type="settlement"/>
-    <namedarea id="remgard" name="Remgard" type="settlement"/>
-    <namedarea id="vilegard" name="Vilegard" type="settlement"/>
-    <namedarea id="prim" name="Prim" type="settlement"/>
-    <namedarea id="stoutford" name="Stoutford" type="settlement"/>
-    <namedarea id="guynmart_area" name="Guynmart Castle" type="other"/>
-    <namedarea id="brimhaven_area" name="Brimhaven" type="settlement"/>
   </segment>
 </worldmap>
