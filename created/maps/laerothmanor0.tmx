@@ -123,25 +123,30 @@
  </tileset>
  <layer name="Ground" width="16" height="21">
   <data encoding="base64" compression="zlib">
-   eJylk7ENwDAIBF05tZfwKB6Bqb1O+sgFEoqe8ITiG/hTdBaZV2uzmDVw7A71lJeBY3eop/zuOHZ3vof2LC9F3tuzPOrpG/7lpchbB5vs/H0X6hbNvftRt2gevX+Ur38iw3uuLO+5snzVP3v3todcWf/luLL+p3d3LtuZP92fxTY=
+   eJzVkjEOgCAMRZlwUsFdjA5u6hWcPAKn9jrulqFJQyhFnRxeUvrzQlqYK6Xmjxw2TS7DPOBtmlzmiX/qNLkM8z/7uMO3vv/o0xkoT/vxv8DZpD73f3A2qS/tv3R2PNdGqUagNbzfQ2aBDnBMPQj+CEzAztSSj/fsTF16v2Pq2Md3DSyQrQIb8Q/yrm8I7qXLOJn+DWFcq10=
   </data>
  </layer>
  <layer name="Objects" width="16" height="21">
   <data encoding="base64" compression="zlib">
-   eJxjYBieYD4/hJ7AP7DuGAWjYDCCfqR8QU4eWYCkZ/4IzmMAqiID6A==
+   eJxjYKAOYBRmYLjIxcBwiQvCRgbG3BAxP2YGBn9mCFuRG1WNoDB2Ngg4c0PE4oB645kx5WOZMd0znx9CT+BHiOUB1eVjURuARSwQTSwMyD8KNOs4EIejySVA+YYCDAxGQJwL5CdCxTgEEPqvAvVex6EfpMcRqNYJqh6mXwJJ/1Og3udY9BdgcX8hVExDAFNusAFYukEHflj8BQLMwPTAwo0p7saCygell1QgTgPidBxmgUAuVC4MTT8ovZQCcRkQlzNj10MuQI7DMDSz3JmxY2qCfqR8gZxHiAULkPTMR2LPwONOfHJDFQAAZukhtw==
   </data>
  </layer>
  <layer name="Above" width="16" height="21">
   <data encoding="base64" compression="zlib">
-   eJxjYKAchAsQJ4dL3VDRn0ahfnLUIMulD9LwQwekuhNdnFR3oovjiidy4o9cgCsMiLWfFDdhU4vLr8TqJwVg0z/Q/qdFnGIDAEtnEjE=
+   eJxjYKAchAuQJzfU9Mdwk64/G02PHxYz8Ol3w2EnsfrpEX7oIB2HHlzi6HbgspNY8TQc6nCJk+PHUf3DRz8lAAB0rg3Y
+  </data>
+ </layer>
+ <layer name="Top" width="16" height="21">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFtAThAgOrfxSMglFAOwAACc0Azw==
   </data>
  </layer>
  <layer name="Walkable" width="16" height="21" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxzFWBgcB3iGBdAlsOmjp76cckPpPsJuZFY/djigxTxgdZPLiAnTQ5G/eQCXPoptZ/e+ilJUwCY6zUh
+   eJxzFWBgcB0GGBtAF0dXi08/PrUwcVz6CanFJ4bLbaTYT0gOlx+xyRMCuOKCFPHBoB+bf0mJH1IBsWaTkkbJdQM19ZOSngaL+ylJUwA9lzzE
   </data>
  </layer>
- <objectgroup name="Mapevents">
+ <objectgroup name="Mapevents" visible="0">
   <object name="south" type="mapchange" x="320" y="640" width="32" height="32">
    <properties>
     <property name="map" value="laerothisland3"/>
