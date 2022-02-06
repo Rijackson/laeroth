@@ -594,7 +594,21 @@
     },
     {
         "id":"moriath_1",
-        "message":"No. I just told you that you are the first person I have seen here in a very long time. Getting to the old manor is difficult and dangerous, and there is nothing here. So why would anyone come here?"
+        "message":"No. I just told you that you are the first person I have seen here in a very long time. Getting to the old manor is difficult and dangerous, and there is nothing here. So why would anyone come here?",
+        "replies":[
+            {
+                "text":"So why are you here?",
+                "nextPhraseID":"moriath_caretaker_1"
+            },
+            {
+                "text":"What is this place?",
+                "nextPhraseID":"moriath_history_1"
+            },
+            {
+                "text":"I guess I'll be going then.",
+                "nextPhraseID":"X"
+            }
+        ]
     },
     {
         "id":"laerothbasement2_korhald_sign",
@@ -1983,5 +1997,93 @@
                 "value":110
             }
         ]
+    },
+    {
+        "id":"moriath_caretaker_1",
+        "message":"I am Moriath, the caretaker for this manor. ",
+        "replies":[
+            {
+                "text":"What is this place?",
+                "nextPhraseID":"moriath_history_1"
+            },
+            {
+                "text":"Can you tell me more about this place?",
+                "nextPhraseID":"moriath_history_2"
+            },
+            {
+                "text":"If there is nobody else here, why do you stay?",
+                "nextPhraseID":"moriath_caretaker_2"
+            }
+        ]
+    },
+    {
+        "id":"moriath_history_1",
+        "message":"This is Laeroth manor. Or what is left of it, anyway.",
+        "replies":[
+            {
+                "text":"What are you doing here?",
+                "nextPhraseID":"moriath_caretaker_1"
+            },
+            {
+                "text":"Can you tell me more about this place?",
+                "nextPhraseID":"moriath_history_2"
+            }
+        ]
+    },
+    {
+        "id":"moriath_history_2",
+        "message":"Laeroth manor? Yes, of course.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moriath_history_3"
+            }
+        ]
+    },
+    {
+        "id":"moriath_caretaker_2",
+        "message":"I am bound by an oath to take care of the manor. It is not an oath I ever gave though. ",
+        "replies":[
+            {
+                "text":"How can you be bound by an oath you never gave?",
+                "nextPhraseID":"moriath_caretaker_3"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"laeroth_caretaker",
+                "value":10
+            }
+        ]
+    },
+    {
+        "id":"moriath_caretaker_3",
+        "message":"It is a matter of honor. The Lord of the manor saved my great-great grandfather from certain death many years ago. In return my great-great grandfather vowed that his family would always look after the manor. ",
+        "replies":[
+            {
+                "text":"He should not have made a vow that bound his family for generations!",
+                "nextPhraseID":"moriath_caretaker_4"
+            },
+            {
+                "text":"Well, that's too bad for you. I need to get going. I have to find my brother.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"laeroth_caretaker",
+                "value":15
+            }
+        ]
+    },
+    {
+        "id":"moriath_caretaker_4",
+        "message":"I do not disagree, but he did."
+    },
+    {
+        "id":"moriath_history_3",
+        "message":"Blah blah Lots of history"
     }
 ]

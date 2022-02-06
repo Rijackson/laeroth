@@ -111,12 +111,16 @@
         ]
     },
     {
-        "id":"laeorth_caretaker",
+        "id":"laeroth_caretaker",
         "name":"Take care of the caretaker",
         "stages":[
             {
-                "progress":1,
-                "logText":"[PLACEHOLDER]"
+                "progress":10,
+                "logText":"I met a caretaker at Laeroth manor. He said he cannot leave because he is bound by an oath, but not one he ever gave."
+            },
+            {
+                "progress":15,
+                "logText":"The caretaker said that he feels honor bound by a pledge that his great-great grandfather made many years ago. "
             }
         ]
     }
