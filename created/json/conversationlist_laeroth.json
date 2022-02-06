@@ -676,7 +676,7 @@
     },
     {
         "id":"laerothbasement2_chest_examine_40",
-        "message":"As you approach these crates, you quickly develop an appreciation for their age. You also notice the vast amount of the nasty cobwebs surrounding them. Yet something compels you to look further.",
+        "message":"As you approach these crates, you quickly develop an appreciation for their age. You also notice the vast amount of nasty cobwebs surrounding them. Yet something compels you to look further.",
         "replies":[
             {
                 "text":"[I better not. There could be danger lurking inside.]",

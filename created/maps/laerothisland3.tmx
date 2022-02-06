@@ -131,12 +131,12 @@
  </layer>
  <layer name="Objects" width="32" height="28">
   <data encoding="base64" compression="zlib">
-   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
+   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
   </data>
  </layer>
  <layer name="Above" width="32" height="28">
   <data encoding="base64" compression="zlib">
-   eJy1VjFOxTAMjb7UTvDVhb8gJgYGuE9O8JsjIE7GjBDcADYuwA4jIpFq/Vd/O06a9kmRWtfxsx3bjXNzXO9Oz2Fwi+HZXm6Lfy+xkXAEWbJ5HOYyba/1ngP5/tPZNn67cxnpYg5q+En3qrf5D/25jHRvdvP30vP1SvyjsL8H/g6eyUaYeP1QngMtfgkHg98Dt+Q/x/OlHr8EjD/tRf4wcZZyc99r4+c2iLOGG/k5MD5Lt6berb13Mcb7uB56ea7k5sGSmZbzPeUS86DZx/pr5b/dn5ali3Lqu1b+El3pXGrrPsev5XlU8kx9hzOwFDU+B4U/QOwt/1ULxDuy+Y4xtPRiAu97PucSQuasW/klHwgUt8aNPaCdw1uUvxv3Fw3WOVtz+PvCuY8o/1x4X8HYpBok2aNibx/z+hd9+IrrCXJc2gP8P8u/Len/UmDuJa416i5XB7ncJ7TGbs3vXO7XQLL5Mt2BXoW7kM/kfi3+nF2cfVvAsrtlbW+FfyD7UWE=
+   eJy1VjtOxDAQtVaKq91VGrZBVFtQwH18go2PgDgZ9QrBDaDjAvRQImwpo5145+c4eVKkZGK/53n2TOLcFLeby33s3WyEYm7JVb63cGScUCxznvppjJurPUuAtf90Osdvdx2DsdiDGn0Ye+N1/YO/jsHYu8302bq/gcl/IOZ7pN+he+CIo27o7R5w+VM4KPoBaVPrL/Gy4/On4AX/46hp1cZzM2rzLzlAs0Yb67eMreHQ5t6nHB/S9ejpviL1gzk9TVp76SXHj89fq/5xf7m0sTgOddeqbxlL7UvtuZf0OZ8HxmeoO9wDrahZc2T0I8q95buqAXSHor/jHFpqMSP3RO4Z7z/nW6s+tQYA5M1p4xrg9uEtxd+NdU3xS/us9eHvrXMfKf45838F50adQYg9MXz75OtfWsNXup6Rx9YaKL+z5bs59W8F9p7SWuLcSedA8j6jNXetf0veL4HMeR7/gV6Jf6EgeL+UvsSLe98a0HjXPNtr4R/QOU8V
   </data>
  </layer>
  <layer name="Top" width="32" height="28">
@@ -149,7 +149,7 @@
    eJztklEOwCAIQz3CLuX9r7RfQyyMrdLFSMIPUV4p9Ku1DtLGWEdvUa9szsLWI51sPtJk/7E8QLN5c6724s3fw+dpyHK/8p/cnOfXDvxMr1mwdj/rZWuse4tmQjNW89ms6A49PVV8RSr4yn1He6/y+Q++q3SMWhTsk/5tKDWoPdjF/xuHk/xZ
   </data>
  </layer>
- <objectgroup name="Mapevents">
+ <objectgroup name="Mapevents" visible="0">
   <object name="north1" type="mapchange" x="224" y="0" width="128" height="32">
    <properties>
     <property name="map" value="laerothisland2"/>
@@ -187,8 +187,8 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Spawn"/>
- <objectgroup name="Keys">
+ <objectgroup name="Spawn" visible="0"/>
+ <objectgroup name="Keys" visible="0">
   <object name="bridge" type="key" x="384" y="864" width="96" height="32">
    <properties>
     <property name="phrase" value="bridge_key"/>
