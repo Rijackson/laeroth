@@ -748,7 +748,7 @@
         "message":"[The chest is locked.]",
         "replies":[
             {
-                "text":"[I should look some where else.]",
+                "text":"[I should look somewhere else.]",
                 "nextPhraseID":"X"
             }
         ]
