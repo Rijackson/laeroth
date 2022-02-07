@@ -2084,6 +2084,40 @@
     },
     {
         "id":"moriath_history_3",
-        "message":"Blah blah Lots of history"
+        "message":"Many years ago, this island was used as a refuge in times of danger by communities that lived on the lakeshore. There was little here other than a small fortification, but being an island, that was enough for protection. ",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moriath_history_4"
+            }
+        ]
+    },
+    {
+        "id":"moriath_history_4",
+        "message":"Then a man by the name of Laeroth, along with a group of followers, declared himself the Lord of Laeroth, and took the fortifications and the island as his own.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moriath_history_5"
+            }
+        ]
+    },
+    {
+        "id":"moriath_history_5",
+        "message":"For many years his family continued to provide refuge to those that lived on the shore, and they even built a watchtower on the mountain to the south, as a lookout for approaching enemies.",
+        "replies":[
+            {
+                "text":"Interesting. Please continue.",
+                "nextPhraseID":"moriath_history_6"
+            },
+            {
+                "text":"Maybe I shouldn't have asked. This is getting boring. I need to leave, and look for my brother.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"moriath_history_6",
+        "message":"xxxxxxxxxx"
     }
 ]
