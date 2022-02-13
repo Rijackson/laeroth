@@ -131,7 +131,7 @@
  </layer>
  <layer name="Objects" width="27" height="20">
   <data encoding="base64" compression="zlib">
-   eJydVM1Kw0AQTtJrSnMv+gL2KcRrb4JPYPDi0VAEr0UDXktbPJfii/gIPXospK19A3E/NtN8mW7+/GDJZnf+duab8bx2mPXPz+Z09uq474phYL8rY+siKN+tzdl9VPwfzP0xsDrT3LfWqfIhck+5Xuzwx36AiZHZkn9XjC69Q1gtA3tsA/l8UHmUGF35FyA2vCEx64rs7Wt8n/LZs7osu2pRy43R7Rm5N9/zns3+JTrXvYvKOkOKLQutbhcsjHxqbL6bNSbb4/z/S50BSb/QHbXghysm1Ak5Ep7BNt5/Gdg9arwLyzEBxxp/qNPCL/YcM++Zr0CsaoM3ac5U+YPshDi/o5rr2L/pTnKi61kHxMT1/iF7U4o3Dop7cLxNjTTET0Y+EvIhb2cwTzct3sXzjfnOPjT+8xYB5gdqJHyHfeYm+xsF5ZwCy5zvTTPxoO6lTmJ/ObC2Tve0l/fhi9o9NvAQ3JsrmT35+xzYPfriw6xf9LvqW9QYtaubq4K1I54ZxQ9bMdlGP9zkOpLrbQfOiw5yJL3NfST9lqoZI7Jd5qHoIEeZIxdiC7W7VtxJ/fbzEGCuNcV4S3NN5g16B7zCPPwDH09jRQ==
+   eJydVMtqwkAUjeM2YvbS/kD9itKtu0K/oKGbLhuk0K20gltR6VqkP9JPcNmloKb+gXQOk2tOrpOY9EDIJHNfc8+ZGwT1MO2c/5vRv3fPflP0jHsvbawrU9xb2X+PUf6d2v2DcT6jLLf2Kcshdi+ZX+zJx3mAobXZUH5fjT6/NCy3QTyOgX4+qT5Kjb7+C1AbzpDY54bi7Styn/rZdr5su6zB5dr6tq3dRysIXu36LTr3fYiKPj2qbRs63yaYW/uxjTmxz4BiD7Lvb/UPSDq5b7+GPnw1gSf0SHSG2Dj/tXFrcLwLizUBh4p84GneytdcM69Zr0CsuMGZtGbK8sF2SJrfEee69h/ak55oPquAmpjvX4o3onpjk+9D43U40pA8W8qRUA45O4N1uq5xLp5vrHfOofGfswgwP8CR6B3xWZucr2+KPQUWmd4vzcRU7QtPEn/RdbFO+7SW8+EN7p4v6BDamymbPeX76ro17sWnfY647+regmNwVzVXBStPPVOqH7Fiio37cJf5SK83DTQvPtIjxOd7JPdtrGaMzIEm81B8jiU+Egvc3SrtIH/deQj4tF2Ge5prMm9wd6ArzMM/uEJiIQ==
   </data>
  </layer>
  <layer name="Above" width="27" height="20">
@@ -139,7 +139,7 @@
    eJzdlEEOgzAMBFHPReKO+i5e0PhH/RJP6al/qCLF0rJyII4MB/ZCUCJPvJtkGO6jz3gtT6brWMt0zFsr8+hLy54zawno7fXYn5fCSY0s3PsMtTNnJhazvT3trWU2jz09ZelarKvjRNmhBxKUU9bvuf1Hv6T0c5Rnj96ltrL0uzac9x4JZIPeRfmISkZ9cZ4Nr7T+GRzOw/IxKrNaHmdkZvnEdyvyfLBH/Db15MbvAtb+wl3yvk2War7wHbY4f1w+I9c=
   </data>
  </layer>
- <layer name="Walkable" width="27" height="20">
+ <layer name="Walkable" width="27" height="20" visible="0">
   <data encoding="base64" compression="zlib">
    eJzNk8ENwCAMAxmBpbr/Sn31E8XBDjUiEg/AzimSM0Zez/z3VBV13f4Kqztr1YdhsdxMy7AUHfKoPZCX4XRZ6O5kOXKIfCdYynynWdG3YmUe9y67WWreUX7UueK7m/X9VaxsbobF6FZ+NfMd/S6L2asbWC8x+2BL
   </data>
