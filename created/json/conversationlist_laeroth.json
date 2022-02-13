@@ -2042,7 +2042,7 @@
     },
     {
         "id":"moriath_caretaker_2",
-        "message":"I am bound by an oath to take care of the manor. It is not an oath I ever gave though. ",
+        "message":"I am bound by an oath to take care of the manor. It is not an oath I ever gave though. \n\nI cannot care for everything of course. I take care of the main house, the bridges, and tend to the graves as best I can. Everything else has gradually fallen to ruin.",
         "replies":[
             {
                 "text":"How can you be bound by an oath you never gave?",
@@ -2080,7 +2080,17 @@
     },
     {
         "id":"moriath_caretaker_4",
-        "message":"I do not disagree, but he did."
+        "message":"I do not disagree, but he did.",
+        "replies":[
+            {
+                "text":"Is there something I can do to help?",
+                "nextPhraseID":"moriath_caretaker_5"
+            },
+            {
+                "text":"Too bad. Look on the bright side though. You have an entire manor to yourself. Bye.",
+                "nextPhraseID":"X"
+            }
+        ]
     },
     {
         "id":"moriath_history_3",
@@ -2104,7 +2114,7 @@
     },
     {
         "id":"moriath_history_5",
-        "message":"For many years his family continued to provide refuge to those that lived on the shore, and they even built a watchtower on the mountain to the south, as a lookout for approaching enemies.",
+        "message":"For many years his family continued to provide refuge to those that lived on the shore, and they even built a watchtower on the mountain to the south, as a lookout for approaching enemies.\nIn return, the manor was provided with supplies.",
         "replies":[
             {
                 "text":"Interesting. Please continue.",
@@ -2118,6 +2128,59 @@
     },
     {
         "id":"moriath_history_6",
-        "message":"xxxxxxxxxx"
+        "message":"The fall of the manor began when the shore folk built a bridge to an island, and founded the city of Remgard.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moriath_history_7"
+            }
+        ]
+    },
+    {
+        "id":"moriath_history_7",
+        "message":"Remgard was far from any enemies, and easily defended, so the islands in the lake were no longer important, and the supplies stopped coming.",
+        "replies":[
+            {
+                "nextPhraseID":"moriath_history_8"
+            }
+        ]
+    },
+    {
+        "id":"moriath_history_8",
+        "message":"With no place to grow food on the islands most of the staff left. The last lord that resided here had only one son, and when the lord died his son abandoned the manor and left to look for other opportunities.",
+        "replies":[
+            {
+                "text":"So if the son has left, why do you stay here?",
+                "nextPhraseID":"moriath_caretaker_2"
+            },
+            {
+                "text":"Thanks for the history lesson. I need to leave, and look for my brother.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"moriath_caretaker_5",
+        "message":"The only thing that would help is for me to be released from the oath. ",
+        "replies":[
+            {
+                "text":"Who can do that?",
+                "nextPhraseID":"moriath_caretaker_6"
+            }
+        ]
+    },
+    {
+        "id":"moriath_caretaker_6",
+        "message":"The current lord, of course. But he has gone. I do not know his whereabouts, or even if he is still alive. If I knew he was deceased I would consider the oath void, but I do not know that. ",
+        "replies":[
+            {
+                "text":"There is nobody else?",
+                "nextPhraseID":"moriath_caretaker_7"
+            }
+        ]
+    },
+    {
+        "id":"moriath_caretaker_7",
+        "message":"The only other person is the lord that my great great grandfather made the oath to. But, like my great great grandfather, he is long dead. His grave is in the tomb on the far island. So unless you can raise the dead, he will be of no help."
     }
 ]
