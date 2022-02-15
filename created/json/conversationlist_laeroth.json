@@ -2184,11 +2184,41 @@
         "message":"Any of the past lords Laeroth could release me from the oath. But, like my great great grandfather, they are long dead. Their graves are in the tomb on the far island. So unless you can raise the dead, they will be of no help."
     },
     {
-        "id":"book_found",
-        "message":"found book"
+        "id":"book_not_found_1",
+        "message":"You look through the shelves, but there does not seem to be anything that would help you here."
     },
     {
         "id":"book_not_found",
-        "message":"book not found"
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"book_not_found_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"laeroth_caretaker"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"book_found",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"book_found_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"laeroth_caretaker"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"book_found_1",
+        "message":"You look through the shelves, and one book catches your eye. \"A Treatise on Ghosts and Other Undead\". Maybe this has the information you seek. "
     }
 ]
