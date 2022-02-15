@@ -128,7 +128,7 @@
  </layer>
  <layer name="Objects" width="16" height="21">
   <data encoding="base64" compression="zlib">
-   eJxjYKAOYBRmYLjIxcBwiQvCRgbG3BAxP2YGBn9mCFuRGyHvxsLAICgMoWFsZODMDRGLA+qNZ8aUD2NB0DD2fH4IPYEfoS4PqDefGdPtAVjEAtHEwoD8o0CzjgNxOJpcApRvKMDAYATEuUB+IlSMQwCh/ypQ73Uc+kF6HIFqnaDqYfolkPQ/Bep9jkV/ARb3F0LFNAQw5QYbgKUbdOCHxV8gwAxMDyzcmOKw9AMDoPSSCsRpQJyOwywQyIXKIacfEACll1IgLgPicmbsesgFyHEYhmaWOzN2TE3Qj5QvkPMIsWABkp75SOwZeNyJT26oAgD7BCPn
+   eJxjYKAOYBRmYLjIxcBwiQvCRgbG3BAxP2YGBn9mCFuRGyHvxsLAICgMoWFsZODMDRGLA+qNZ8aUD2NB0DD2fH4IPYEfoS4PqDefmTz/hQH1HQWadRyIw9HMCMBiZiBUjEMAof8qUO91LPoToHxDoFojIM4F8hOhYhJI+p8C9T7HoR+kxxGo1gmqHqZfQ4Cw3wqwuL+QzHAiB8DSDTrww+EGZmB6YOHGFIelHxgApZdUIE4D4nQ8/smFyiGnHxAApZdSIC4D4nJm7HrIBchxGIZmljszdkxN0I+UL5DzCLFgAZKe+UjsGXjciU9uqAIAsnUj5w==
   </data>
  </layer>
  <layer name="Above" width="16" height="21">
@@ -143,10 +143,10 @@
  </layer>
  <layer name="Walkable" width="16" height="21" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxzFWBgcB0GGBtAF0dXi08/PrUwcVz6CanFJ4bLbaTYT0gOlx+xyRMCuOKCFPHBoB+bf0mJH1IBsWaTkkbJdQM19ZOSngaL+ylJUwA9lzzE
+   eJxzFWBgcB0GGASQ2TA+MsAmj64GXT26Wmz2YTMDn1pC+gmpxSeGy35c/iPkfkKAUFwQIz4Y9GPzM6XhS0q4EQpTSuKIkBuoqZ/Y/EQr+8nRT0maAgAWuD3D
   </data>
  </layer>
- <objectgroup name="Mapevents" visible="0">
+ <objectgroup name="Mapevents">
   <object name="south" type="mapchange" x="320" y="640" width="32" height="32">
    <properties>
     <property name="map" value="laerothisland3"/>
@@ -195,6 +195,19 @@
     <property name="place" value="down3"/>
    </properties>
   </object>
+  <object name="book_found" type="script" x="32" y="128" width="32" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object name="book_not_found" type="script" x="96" y="128" width="32" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object name="book_not_found" type="script" x="128" y="128" width="32" height="32"/>
+  <object name="book_not_found" type="script" x="96" y="416" width="32" height="32"/>
+  <object name="book_not_found" type="script" x="128" y="416" width="32" height="32"/>
  </objectgroup>
  <objectgroup name="Spawn"/>
  <objectgroup name="Keys"/>
