@@ -2219,6 +2219,26 @@
     },
     {
         "id":"book_found_1",
-        "message":"You look through the shelves, and one book catches your eye. \"A Treatise on Ghosts and Other Undead\". Maybe this has the information you seek. "
+        "message":"You look through the shelves, and one book catches your eye. \"A Treatise on Ghosts and Other Undead\". Maybe this has the information you seek. ",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"book_found_2"
+            }
+        ]
+    },
+    {
+        "id":"book_found_2",
+        "message":"You look at the contents page. There are chapters on zombies, liches, ... wait, what's this?\n\nThere is a chapter on spirits of the dead, with a section on raising them! This looks like what you need! ",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"book_found_3"
+            }
+        ]
+    },
+    {
+        "id":"book_found_3",
+        "message":"You flip to the section on raising spirits, and start reading."
     }
 ]
