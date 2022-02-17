@@ -121,6 +121,10 @@
             {
                 "progress":15,
                 "logText":"The caretaker said that he feels honor bound by a pledge that his great-great grandfather made many years ago. "
+            },
+            {
+                "progress":20,
+                "logText":"I have learned the chant needed to send spirits back to their rest on the other side."
             }
         ]
     }
