@@ -125,6 +125,10 @@
             {
                 "progress":20,
                 "logText":"I have learned the chant needed to send spirits back to their rest on the other side."
+            },
+            {
+                "progress":30,
+                "logText":"I have learned how to raise the spirits of the dead. But it sounds dangerous! "
             }
         ]
     }

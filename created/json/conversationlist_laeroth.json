@@ -2276,7 +2276,7 @@
     },
     {
         "id":"book_found_6",
-        "message":"The raising of the spirits of the dead is best left to priests that have been trained in how to both raise them, and send them back. Preists of The Shadow can do this with ease, but they are sworn to secrecy about their methods. ",
+        "message":"\"The raising of the spirits of the dead is best left to priests that have been trained in how to both raise them, and send them back. Preists of The Shadow can do this with ease, but they are sworn to secrecy about their methods.\"",
         "replies":[
             {
                 "text":"N",
@@ -2286,7 +2286,7 @@
     },
     {
         "id":"book_found_7",
-        "message":"It is known that they invoke The Shadow to do this, but no other information is available at the time of writing.",
+        "message":"\"It is known that they invoke The Shadow to do this, but no other information is available at the time of writing.\"",
         "replies":[
             {
                 "text":"N",
@@ -2296,6 +2296,33 @@
     },
     {
         "id":"book_found_8",
-        "message":"However, there is another way. It requires a rare and valuable crystal, an oegyth crystal, and a personal item that belonged to the deceased. \n\nIt must be said that using an oegyth crystal in this way will permanently diminish it's power, so the cost is significant. "
+        "message":"\"However, there is another way. It requires a rare and valuable crystal, an oegyth crystal, and a personal item that belonged to the deceased. \n\nIt must be said that using an oegyth crystal in this way will permanently diminish it's power, so the cost is significant.\"",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"Book_found_9"
+            }
+        ]
+    },
+    {
+        "id":"Book_found_9",
+        "message":"\"The oegyth crystal and the personal item must be placed on the grave or tomb of the deceased.\n\nThen utter the chant \"iseray iritspay\".\" ",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"book_found_10"
+            }
+        ]
+    },
+    {
+        "id":"book_found_10",
+        "message":"It looks like I have the information I need, although it sounds dangerous.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"laeroth_caretaker",
+                "value":30
+            }
+        ]
     }
 ]
