@@ -12,6 +12,10 @@
                 "logText":"island_underground2_set2"
             },
             {
+                "progress":3,
+                "logText":"Got Verigil ring"
+            },
+            {
                 "progress":100,
                 "logText":"laerothbasement2_chest_looted"
             },
@@ -133,6 +137,10 @@
             {
                 "progress":30,
                 "logText":"I have learned how to raise the spirits of the dead. But I need a personal item. I should talk to Moriath again."
+            },
+            {
+                "progress":35,
+                "logText":"Moriath suggested I search the master bedroom for a personal item from the last lord, Veregil."
             }
         ]
     }

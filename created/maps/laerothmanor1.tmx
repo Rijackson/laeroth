@@ -166,6 +166,11 @@
     <property name="place" value="down"/>
    </properties>
   </object>
+  <object name="nightstand_search" type="script" x="96" y="128" width="32" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Spawn">
   <object name="moriath" type="spawn" x="320" y="128" width="160" height="160">

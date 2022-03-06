@@ -2364,7 +2364,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"laeroth_caretaker",
-                        "value":30
+                        "value":10
                     }
                 ]
             },
@@ -2380,7 +2380,14 @@
         "replies":[
             {
                 "text":"I have found how to raise a spirit and talk to it. However, I need a personal item from the deceased. ",
-                "nextPhraseID":"moriath_1_1"
+                "nextPhraseID":"moriath_1_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"laeroth_caretaker",
+                        "value":30
+                    }
+                ]
             },
             {
                 "text":"Can you tell me about this place?",
@@ -2389,10 +2396,65 @@
             {
                 "text":"Can you tell me again why you are still here?",
                 "nextPhraseID":"moriath_caretaker_2"
+            },
+            {
+                "text":"I have to leave to look for my brother.",
+                "nextPhraseID":"X"
             }
         ]
     },
     {
-        "id":"moriath_1_1"
+        "id":"moriath_1_1",
+        "message":"Well, the last lord was Veregil. His son, Simaca, did not take any of his fathers possetions when he left. You might find something in the master bedroom.",
+        "replies":[
+            {
+                "text":"Thanks!",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"laeroth_caretaker",
+                "value":35
+            }
+        ]
+    },
+    {
+        "id":"nightstand_search",
+        "replies":[
+            {
+                "nextPhraseID":"nightstand_search_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"laeroth_caretaker",
+                        "value":35
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"laeroth_nondisplay",
+                        "value":3,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"nightstand_search_1",
+        "message":"You found a ring with \"V\" engraved on it. This should work.",
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"verigil_ring",
+                "value":1
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"laeroth_nondisplay",
+                "value":3
+            }
+        ]
     }
 ]

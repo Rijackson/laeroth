@@ -244,5 +244,18 @@
         "baseMarketCost":86,
         "category":"animal",
         "description":"You should handle this very carefully!"
+    },
+    {
+        "id":"verigil_ring",
+        "iconID":"items_rings_1:19",
+        "name":"Verigil's signet ring",
+        "displaytype":"quest",
+        "category":"ring",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":1,
+                "max":1
+            }
+        }
     }
 ]
