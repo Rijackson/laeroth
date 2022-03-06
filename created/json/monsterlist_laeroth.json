@@ -234,7 +234,7 @@
         "unique":1,
         "monsterClass":"humanoid",
         "movementAggressionType":"none",
-        "phraseID":"moriath_0"
+        "phraseID":"moriath_selector"
     },
     {
         "id":"laerothbasement_spider",

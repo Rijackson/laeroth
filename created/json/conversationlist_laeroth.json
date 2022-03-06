@@ -2202,7 +2202,8 @@
                 "requires":[
                     {
                         "requireType":"questProgress",
-                        "requireID":"laeroth_caretaker"
+                        "requireID":"laeroth_caretaker",
+                        "value":17
                     }
                 ]
             }
@@ -2217,7 +2218,8 @@
                 "requires":[
                     {
                         "requireType":"questProgress",
-                        "requireID":"laeroth_caretaker"
+                        "requireID":"laeroth_caretaker",
+                        "value":17
                     }
                 ]
             }
@@ -2351,5 +2353,46 @@
                 "value":17
             }
         ]
+    },
+    {
+        "id":"moriath_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moriath_1_0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"laeroth_caretaker",
+                        "value":30
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"moriath_0"
+            }
+        ]
+    },
+    {
+        "id":"moriath_1_0",
+        "message":"Hello again.",
+        "replies":[
+            {
+                "text":"I have found how to raise a spirit and talk to it. However, I need a personal item from the deceased. ",
+                "nextPhraseID":"moriath_1_1"
+            },
+            {
+                "text":"Can you tell me about this place?",
+                "nextPhraseID":"moriath_history_2"
+            },
+            {
+                "text":"Can you tell me again why you are still here?",
+                "nextPhraseID":"moriath_caretaker_2"
+            }
+        ]
+    },
+    {
+        "id":"moriath_1_1"
     }
 ]
