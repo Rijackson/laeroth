@@ -16,6 +16,10 @@
                 "logText":"Got Verigil ring"
             },
             {
+                "progress":4,
+                "logText":"placed ring on tomb"
+            },
+            {
                 "progress":100,
                 "logText":"laerothbasement2_chest_looted"
             },
@@ -141,6 +145,10 @@
             {
                 "progress":35,
                 "logText":"Moriath suggested I search the master bedroom for a personal item from the last lord, Veregil."
+            },
+            {
+                "progress":40,
+                "logText":"Verigil told me he could not release the Caretaker from his oath, because he is from the wrong branch of the family. You must talk to his uncle, Eyvipa.He has gone back to his rest."
             }
         ]
     }

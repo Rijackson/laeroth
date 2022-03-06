@@ -2456,5 +2456,120 @@
                 "value":3
             }
         ]
+    },
+    {
+        "id":"verigil_0",
+        "message":"Who dares to disturb my rest?",
+        "switchToNPC":"verigil",
+        "replies":[
+            {
+                "text":"I am $playername. Sorry to disturb you, but I need some help.",
+                "nextPhraseID":"verigil_1"
+            }
+        ]
+    },
+    {
+        "id":"verigil_script_0",
+        "message":"Here lies Verigil, Ninth Lord of Laeroth.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"verigil_script_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"laeroth_nondisplay",
+                        "value":3
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"verigil_script_1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"verigil_script_2a",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"verigil_ring",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"laeroth_caretaker",
+                        "value":40,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"verigil_0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"laeroth_nondisplay",
+                        "value":4
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"laeroth_caretaker",
+                        "value":40,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"verigil_script_2a",
+        "message":"[You place Verigil's signet ring on the tomb, and chant \"iseray iritspay\"]",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"verigil_0"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"verigil",
+                "mapName":"laerothtomb1"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"laeroth_nondisplay",
+                "value":4
+            }
+        ]
+    },
+    {
+        "id":"verigil_1",
+        "message":"With what?",
+        "replies":[
+            {
+                "text":"Your son has left Laeroth, and his whereabouts are unknown. However, the caretaker remains, bound by an oath to look after the manor. I ask that you release him from the oath.",
+                "nextPhraseID":"verigil_2"
+            }
+        ]
+    },
+    {
+        "id":"verigil_2",
+        "message":"I cannot. It is not my branch of the family that bound him. You must talk to my uncle, Eyvipa. Now let me rest.",
+        "replies":[
+            {
+                "nextPhraseID":"R"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"laeroth_caretaker",
+                "value":40
+            }
+        ]
     }
 ]

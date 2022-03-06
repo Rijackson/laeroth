@@ -281,5 +281,14 @@
         "movementAggressionType":"none",
         "spawnGroup":"forenza_waytobrimhaven3",
         "phraseID":"forenza_waytobrimhaven3_initial_phrase"
+    },
+    {
+        "id":"verigil",
+        "name":"Verigil",
+        "iconID":"monsters_gisons:13",
+        "monsterClass":"undead",
+        "movementAggressionType":"none",
+        "spawnGroup":"verigil",
+        "phraseID":"verigil_0"
     }
 ]
