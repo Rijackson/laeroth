@@ -123,12 +123,16 @@
                 "logText":"The caretaker said that he feels honor bound by a pledge that his great-great grandfather made many years ago. "
             },
             {
+                "progress":17,
+                "logText":"Moriath told me only the past lords can release him from the oath, but they are dead. He suggested I look in the library for information about how to talk to them."
+            },
+            {
                 "progress":20,
                 "logText":"I have learned the chant needed to send spirits back to their rest on the other side."
             },
             {
                 "progress":30,
-                "logText":"I have learned how to raise the spirits of the dead. But it sounds dangerous! "
+                "logText":"I have learned how to raise the spirits of the dead. But I need a personal item. I should talk to Moriath again."
             }
         ]
     }
