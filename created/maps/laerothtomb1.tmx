@@ -128,17 +128,32 @@
  </layer>
  <layer name="Objects" width="20" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYKA+sOVmYLDnRvBB7JmMCH4bKwTD1MLUiwlD2J1AtXZI+jfyMDBsAuLNPBD+OiC9Hog3AHEFEE9jhWAQG1lOTRhTLwgcBLIPAfFhqNg+IL0fiA8AcQdUrEqAgaFWAFUOm15iQRfQrF4B1HCgNpiGZPYMHO5bjiaOLXzQ1YLiYwWS/EwkNnJ4gwB6+HTxMzBMZkRVBwqD2UhmrERiI4c3SB8sHtABerwQC2DxAALhePSqsWCKTSMi7nrIiN+tQHdsA+LtSO7p4CGshhp2YwOzcdjRzIPKLuPFbcYUGqVzAI2WP5Y=
+   eJxjYKA+sOVmYLDnRvBB7JmMCH4bKwTD1MLUiwlD2J1AtXZI+jfyMDBsAuLNQLwOiNcD8QYeiFwFkJ7GCsEVaPJqwqh6YeAgkH0IiA8D8T4g3g/EB6DyHVC6SoCBoVYAUx5ZLymgC2hWrwBqOFAbTEMyewYO9y0nwd0wtaD4WEGkPvTw6eJnYJiM5mdQGMzGYR5yeIP0weIBnzpSACweQCAcj141FkyxaUTEXQ+J8bsN6IatPBB6O5J7OtDcRky6I9VuXABX3CCDZqCaMl7c8lNolM4BBPA39w==
+  </data>
+ </layer>
+ <layer name="Objects2" width="20" height="15" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBhaIEYQgakBrrIh8CgYBdjAPh4Ghv1AfIBnoF0yCgAtJQY6
   </data>
  </layer>
  <layer name="Above" width="20" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYKA+CBdgYGhlxC3/kwWCQQBdHTZ9IPOoCYg1r4OHuuYRC5DNm06kG/CpHajwo7Z57oMgPnCBChLiabjEx0AAADumC3k=
+   eJxjYKA+CBdgYGhlxC3/kwWCQQBdHTZ9IPOoCYg1r4OHuuYRC5DNm06kG/Cpxee+jUA9m4B4Mwn2IJu3DqhvPRBvIKAfnzpiw899EMQHLlCB5jZ84TpQ6XmgzKMmAABpwxRP
+  </data>
+ </layer>
+ <layer name="Above2" width="20" height="15" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2B4gXU8DAzrgXgDz0C7ZBRQGwAADxgCMg==
   </data>
  </layer>
  <layer name="Walkable" width="20" height="15" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxzFWBgcB3iGAbI1UusebjsoBagpnm43IeNj8teQmGBTT8+e0kNc1L9R2r44VNLz/jF5Rdi1FDDfcSmaXzuI2QetTAAun4zeA==
+   eJxzFWBgcB3iGAaoYQ4+83DZQS1ATfNwuY8U83GFBTn2kuI+cvWTGn741NIrfvGlZULuoZb7yEnTxIYdtTEAF2Iv0Q==
+  </data>
+ </layer>
+ <layer name="Walkable2" width="20" height="15" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBhawFUAgUfBKKAHGE1zgwcAAIMXAf8=
   </data>
  </layer>
  <objectgroup name="Mapevents">
@@ -157,4 +172,24 @@
  </objectgroup>
  <objectgroup name="Spawn"/>
  <objectgroup name="Keys"/>
+ <objectgroup name="Replace">
+  <object name="move_grave" type="replace" x="128" y="64" width="96" height="64">
+   <properties>
+    <property name="Above" value="Above2"/>
+    <property name="Objects" value="Objects2"/>
+    <property name="Walkable" value="Walkable2"/>
+    <property name="requireId" value="laeroth_caretaker"/>
+    <property name="requireType" value="questProgress"/>
+   </properties>
+  </object>
+  <object name="move_grave2" type="replace" x="32" y="288" width="96" height="64">
+   <properties>
+    <property name="Above" value="Above2"/>
+    <property name="Objects" value="Objects2"/>
+    <property name="Walkable" value="Walkable2"/>
+    <property name="requireId" value="laeroth_caretaker"/>
+    <property name="requireType" value="questProgress"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>
