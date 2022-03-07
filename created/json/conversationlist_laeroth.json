@@ -2571,5 +2571,21 @@
                 "value":40
             }
         ]
+    },
+    {
+        "id":"caretaker_grave_1",
+        "message":"Here lies Gormelyn, caretaker of Laeroth."
+    },
+    {
+        "id":"caretaker_grave_2",
+        "message":"Here lies Thond, caretaker of Laeroth, son of Gormelyn."
+    },
+    {
+        "id":"caretaker_grave_3",
+        "message":"Here lies Gauron, caretaker of Laeroth, son of Thond."
+    },
+    {
+        "id":"caretaker_grave_4",
+        "message":"Here lies Farpith, caretaker of Laeroth, son of Gauron."
     }
 ]
