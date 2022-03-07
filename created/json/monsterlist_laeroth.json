@@ -286,9 +286,48 @@
         "id":"verigil",
         "name":"Verigil",
         "iconID":"monsters_gisons:13",
+        "unique":1,
         "monsterClass":"undead",
         "movementAggressionType":"none",
         "spawnGroup":"verigil",
         "phraseID":"verigil_0"
+    },
+    {
+        "id":"eyvipa",
+        "name":"Eyvipa",
+        "iconID":"monsters_gisons:11",
+        "unique":1,
+        "monsterClass":"undead",
+        "movementAggressionType":"none",
+        "spawnGroup":"eyvipa",
+        "phraseID":"eyvipa_0"
+    },
+    {
+        "id":"cuned",
+        "name":"Cuned",
+        "iconID":"monsters_gisons:9",
+        "unique":1,
+        "monsterClass":"undead",
+        "movementAggressionType":"none",
+        "spawnGroup":"cuned",
+        "phraseID":"cuned_0"
+    },
+    {
+        "id":"jerelin",
+        "name":"Jerelin",
+        "iconID":"monsters_gisons:10",
+        "unique":1,
+        "monsterClass":"undead",
+        "spawnGroup":"jerelin",
+        "phraseID":"jerelin_0"
+    },
+    {
+        "id":"audela",
+        "name":"Audela",
+        "iconID":"monsters_gisons:15",
+        "unique":1,
+        "monsterClass":"undead",
+        "spawnGroup":"audela",
+        "phraseID":"audela_0"
     }
 ]

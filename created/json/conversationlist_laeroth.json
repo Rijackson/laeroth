@@ -2405,7 +2405,7 @@
     },
     {
         "id":"moriath_1_1",
-        "message":"Well, the last lord was Veregil. His son, Simaca, did not take any of his fathers possetions when he left. You might find something in the master bedroom.",
+        "message":"Well, the last lord was Verigil. His son, Simaca, did not take any of his fathers possesions when he left. You might find something in the master bedroom.",
         "replies":[
             {
                 "text":"Thanks!",
@@ -2587,5 +2587,21 @@
     {
         "id":"caretaker_grave_4",
         "message":"Here lies Farpith, caretaker of Laeroth, son of Gauron."
+    },
+    {
+        "id":"eyvipa_0",
+        "message":"I hope you disturbed my rest for a good reason!"
+    },
+    {
+        "id":"cuned_0",
+        "message":"What do you want? I was at peace until you brought me back!"
+    },
+    {
+        "id":"jerelin_0",
+        "message":"I dislike being disturbed. I disliked it when I was alive, and I dislike it even more now!"
+    },
+    {
+        "id":"audela_0",
+        "message":"Why did you summon me?  I was finally at rest, after spending years directing my husband about what he needed to do each day."
     }
 ]
