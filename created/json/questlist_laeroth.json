@@ -151,5 +151,9 @@
                 "logText":"Verigil told me he could not release the Caretaker from his oath, because he is from the wrong branch of the family. You must talk to his uncle, Eyvipa.He has gone back to his rest."
             }
         ]
+    },
+    {
+        "id":"last_lord",
+        "name":"The last lord of Laeroth"
     }
 ]
