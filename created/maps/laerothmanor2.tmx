@@ -128,7 +128,7 @@
  </layer>
  <layer name="Objects" width="5" height="6">
   <data encoding="base64" compression="zlib">
-   eJxjYMAOGIUh9Gx+hJggVGw1P6b6biSxD8w4DEUCAL02Ayo=
+   eJxjYMAOGIUh9Gx+hJggVGw1kthNZgjdjSRGDAAAyyoDEw==
   </data>
  </layer>
  <layer name="Above" width="5" height="6">
@@ -138,7 +138,7 @@
  </layer>
  <layer name="Walkable" width="5" height="6" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxzFWBgcMWDQQCfGDJAV4NNLwwDAO0nB6Q=
+   eJxzFWBgcMWDQYCQGAyg87HphWEA88sHpA==
   </data>
  </layer>
  <objectgroup name="Mapevents">
@@ -152,6 +152,11 @@
    <properties>
     <property name="map" value="laerothisland3"/>
     <property name="place" value="down"/>
+   </properties>
+  </object>
+  <object name="chest_search" type="script" x="32" y="96" width="64" height="64">
+   <properties>
+    <property name="when" value="enter"/>
    </properties>
   </object>
  </objectgroup>

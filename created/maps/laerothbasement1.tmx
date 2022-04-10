@@ -136,7 +136,7 @@
    eJy9lNENgCAMRPvDP9uxAayrDqCOIokSDSmhRyuX8EPv4EEKRJgWR7RWY3N3LXhwsUpIPmXvnvc9nnG6txa9jgfJSbx/cgTgrDM4osAr8Wg5RmW1x8y3UJQamda8FUftaWXQea2n1WcaDknvov+YJm/FwXkleUlvIRzc/VrfeZHmXVhy9DIcJ8Iu9fY4RnrkW+e8F0IVIH0=
   </data>
  </layer>
- <layer name="Walkable" width="34" height="16" visible="0">
+ <layer name="Walkable" width="34" height="16">
   <data encoding="base64" compression="zlib">
    eJzdk8ENACAIAxnBpdx/Jf9GpdSi0Sb8aHNAqMWsBqtX1K+q3zk8MRwMY4SD6VGxIKzoHK9wILfNmPU0B+O7ybGSlzfrRzMVf4v6kXxEuxzMbdXK4GB2Mspn/zybowE4k15N
   </data>
@@ -179,7 +179,11 @@
    </properties>
   </object>
   <object name="gold100" type="container" x="32" y="96" width="32" height="32"/>
-  <object name="laerothbasement1_chest_examine" type="script" x="32" y="96" width="32" height="32"/>
+  <object name="laerothbasement1_chest_examine" type="script" x="32" y="96" width="32" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Spawn"/>
  <objectgroup name="Keys"/>

@@ -327,5 +327,12 @@
         "baseMarketCost":100,
         "category":"gem",
         "description":"You can no longer sense any power radiating from the crystal."
+    },
+    {
+        "id":"eyvipa_candlestick",
+        "iconID":"items_misc_2:230",
+        "name":"Eyvipa's candlestick",
+        "displaytype":"quest",
+        "category":"other"
     }
 ]

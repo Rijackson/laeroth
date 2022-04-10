@@ -26,6 +26,10 @@
             {
                 "progress":105,
                 "logText":"I gave Gylew the Korhald chest."
+            },
+            {
+                "progress":110,
+                "logText":"Got Eyvipa candlestick"
             }
         ]
     },
@@ -148,12 +152,23 @@
             },
             {
                 "progress":40,
-                "logText":"Verigil told me he could not release the Caretaker from his oath, because he is from the wrong branch of the family. You must talk to his uncle, Eyvipa.He has gone back to his rest."
+                "logText":"Verigil told me he could not release the Caretaker from his oath, because he is from the wrong branch of the family. I must talk to his uncle, Eyvipa. He has gone back to his rest."
+            },
+            {
+                "progress":50,
+                "logText":"Moriath suggested I look for an item with \"E\" engraved on it. This would have belonged to Eyvipa."
+            },
+            {
+                "progress":60,
+                "logText":"I have found an expensive looking candlestick with \"E\" engraved on it. This must have belonged to Eyvipa."
             }
         ]
     },
     {
         "id":"last_lord",
-        "name":"The last lord of Laeroth"
+        "name":"The last lord of Laeroth",
+        "stages":[
+            
+        ]
     }
 ]

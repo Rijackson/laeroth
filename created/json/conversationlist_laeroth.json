@@ -2379,6 +2379,17 @@
         "message":"Hello again.",
         "replies":[
             {
+                "text":"I spoke to the spirit of Verigil, but he told me he cannot help. I must speak to his uncle, Eyvipa. So I need a personal item of his. Do you know where I might find one?",
+                "nextPhraseID":"moriath_2_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"laeroth_caretaker",
+                        "value":40
+                    }
+                ]
+            },
+            {
                 "text":"I have found how to raise a spirit and talk to it. However, I need a personal item from the deceased. ",
                 "nextPhraseID":"moriath_1_1",
                 "requires":[
@@ -2386,6 +2397,12 @@
                         "requireType":"questProgress",
                         "requireID":"laeroth_caretaker",
                         "value":30
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"laeroth_caretaker",
+                        "value":40,
+                        "negate":true
                     }
                 ]
             },
@@ -2613,5 +2630,79 @@
     {
         "id":"audela_0",
         "message":"Why did you summon me?  I was finally at rest, after spending years directing my husband about what he needed to do each day."
+    },
+    {
+        "id":"moriath_2_1",
+        "message":"There are items from all the generations scattered around. They were fond of putting their intials on them. A mixture of vanity and possiveness I think. So see if you can find something with \"E\" engraved on it. ",
+        "replies":[
+            {
+                "text":"Thanks. Will do!",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"laeroth_caretaker",
+                "value":50
+            }
+        ]
+    },
+    {
+        "id":"chest_search",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"chest_search_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"laeroth_caretaker",
+                        "value":50
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"laeroth_nondisplay",
+                        "value":110,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"chest_search_1",
+        "message":"This chest looks like it is used to strore important items. ",
+        "replies":[
+            {
+                "text":"Take a look in the chest.",
+                "nextPhraseID":"chest_search_2"
+            },
+            {
+                "text":"Leave.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"chest_search_2",
+        "message":"[You rummage around in the contents. Then a high quality candlestick catches your eye. It has \"E\" engraved on it! This should work!]",
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"eyvipa_candlestick",
+                "value":1
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"laeroth_caretaker",
+                "value":60
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"laeroth_nondisplay",
+                "value":110
+            }
+        ]
     }
 ]
