@@ -265,6 +265,67 @@
         "displaytype":"quest",
         "hasManualPrice":1,
         "baseMarketCost":0,
-        "category":"gem"
+        "category":"gem",
+        "description":"The power radiating from the crystal seems somewhat less than it was."
+    },
+    {
+        "id":"oegyth2",
+        "iconID":"items_misc:35",
+        "name":"Diminished oegyth crystal",
+        "displaytype":"quest",
+        "hasManualPrice":1,
+        "baseMarketCost":0,
+        "category":"gem",
+        "description":"The power radiating from the crystal seems less than it was."
+    },
+    {
+        "id":"oegyth3",
+        "iconID":"items_misc:35",
+        "name":"Very diminished oegyth crystal",
+        "displaytype":"quest",
+        "hasManualPrice":1,
+        "baseMarketCost":0,
+        "category":"gem",
+        "description":"The power radiating from the crystal seems a lot less than it was."
+    },
+    {
+        "id":"oegyth4",
+        "iconID":"items_misc:35",
+        "name":"Heavily diminished oegyth crystal",
+        "displaytype":"quest",
+        "hasManualPrice":1,
+        "baseMarketCost":0,
+        "category":"gem",
+        "description":"The power radiating from the crystal seems much less than it was."
+    },
+    {
+        "id":"oegyth5",
+        "iconID":"items_misc:35",
+        "name":"Very heavily diminished oegyth crystal",
+        "displaytype":"quest",
+        "hasManualPrice":1,
+        "baseMarketCost":0,
+        "category":"gem",
+        "description":"The power radiating from the crystal seems to be weak now."
+    },
+    {
+        "id":"oegyth6",
+        "iconID":"items_misc:35",
+        "name":"Nearly depleted oegyth crystal",
+        "displaytype":"quest",
+        "hasManualPrice":1,
+        "baseMarketCost":0,
+        "category":"gem",
+        "description":"The power radiating from the crystal seems to be very weak now."
+    },
+    {
+        "id":"oegyth7",
+        "iconID":"items_misc:35",
+        "name":"Depleted oegyth crystal",
+        "displaytype":"rare",
+        "hasManualPrice":1,
+        "baseMarketCost":100,
+        "category":"gem",
+        "description":"You can no longer sense any power radiating from the crystal."
     }
 ]
