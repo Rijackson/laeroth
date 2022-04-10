@@ -2257,7 +2257,7 @@
     },
     {
         "id":"book_found_4",
-        "message":"\"To start, it must be stressed that raising the spirits of the dead is dangerous. They do not like to be disturbed. \n\nAlways remember the chant \"estray inyay eacepay\". This chant will only work if you are the one that raised the spirit, but then it is very effective. Unless it is especially angry this will send it back to it's rest on the other side.\"",
+        "message":"\"To start, it must be stressed that raising the spirits of the dead is dangerous. They do not like to be disturbed. \n\nAlways remember the chant \"estray inyay eacepay\". This chant will only work if you are the one that raised the spirit, but then it is very effective. Unless it is especially angry this will send it back to its rest on the other side.\"",
         "replies":[
             {
                 "text":"N",
@@ -2274,7 +2274,7 @@
     },
     {
         "id":"book_found_5",
-        "message":"\"The spirit's natural state is one of rest, therefore raising a spirit is much more difficult than sending one back to it's rest on the other side.\"",
+        "message":"\"The spirit's natural state is one of rest, therefore raising a spirit is much more difficult than sending one back to its rest on the other side.\"",
         "replies":[
             {
                 "text":"N",
@@ -2405,7 +2405,7 @@
     },
     {
         "id":"moriath_1_1",
-        "message":"Well, the last lord was Verigil. His son, Simaca, did not take any of his fathers possesions when he left. You might find something in the master bedroom.",
+        "message":"Well, the previous lord was Verigil. His son, Simaca, did not take any of his fathers possesions when he left. You might find something in the master bedroom.",
         "replies":[
             {
                 "text":"Thanks!",
@@ -2502,6 +2502,11 @@
                         "requireID":"laeroth_caretaker",
                         "value":40,
                         "negate":true
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"oegyth",
+                        "value":1
                     }
                 ]
             },
@@ -2526,7 +2531,7 @@
     },
     {
         "id":"verigil_script_2a",
-        "message":"[You place Verigil's signet ring on the tomb, and chant \"iseray iritspay\"]",
+        "message":"[You place an oegyth crystal and Verigil's signet ring on the tomb, and chant \"iseray iritspay\"]",
         "replies":[
             {
                 "text":"N",
@@ -2558,7 +2563,7 @@
     },
     {
         "id":"verigil_2",
-        "message":"I cannot. It is not my branch of the family that bound him. You must talk to my uncle, Eyvipa. Now let me rest.",
+        "message":"I cannot. It is not my branch of the family that bound him. You must talk to my uncle, Eyvipa. Now let me rest.\n\n[You take the oegyth crystal, but decide to leave the ring.]",
         "replies":[
             {
                 "nextPhraseID":"R"
@@ -2569,6 +2574,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"laeroth_caretaker",
                 "value":40
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"oegyth1",
+                "value":1
             }
         ]
     },
