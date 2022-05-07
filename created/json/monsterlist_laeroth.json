@@ -329,5 +329,20 @@
         "monsterClass":"undead",
         "spawnGroup":"audela",
         "phraseID":"audela_0"
+    },
+    {
+        "id":"vahram",
+        "name":"Vahram the butcher",
+        "iconID":"monsters_tometik5:9",
+        "unique":1,
+        "monsterClass":"ghost",
+        "attackDamage":{
+            "min":5,
+            "max":10
+        },
+        "attackCost":3,
+        "attackChance":120,
+        "blockChance":160,
+        "damageResistance":2
     }
 ]
