@@ -2704,5 +2704,70 @@
                 "value":110
             }
         ]
+    },
+    {
+        "id":"cuned_script_0",
+        "message":"Here lies Cuned, Eighth Lord of Laeroth."
+    },
+    {
+        "id":"audela_script_0",
+        "message":"Here lies Audela, wife of Jerelin."
+    },
+    {
+        "id":"jerelin_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"jerelin_script_0a",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"laeroth_nondisplay",
+                        "value":120,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"jerelin_script_0a",
+        "message":"Here lies Jerelin, Seventh Lord of Laeroth."
+    },
+    {
+        "id":"jerelin_selector_1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"jerelin_script_0b",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"laeroth_nondisplay",
+                        "value":120
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"jerelin_script_0b",
+        "message":"Here lies Jerelin, Seventh Lord of Laeroth."
+    },
+    {
+        "id":"eyvipa_script_0",
+        "message":"Here lies Eyvipa, oldest son of Jerelin."
+    },
+    {
+        "id":"lewan_script_0",
+        "message":"Here lies Lewan, Fourth Lord of Laeroth."
+    },
+    {
+        "id":"thond_script_0",
+        "message":"Here lies Thond, Fifth Lord of Laeroth."
+    },
+    {
+        "id":"beconnon_script_0",
+        "message":"Here lies Beconnon, Sixth Lord of Laeroth."
     }
 ]

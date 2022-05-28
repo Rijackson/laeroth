@@ -30,6 +30,10 @@
             {
                 "progress":110,
                 "logText":"Got Eyvipa candlestick"
+            },
+            {
+                "progress":120,
+                "logText":"Jerelin grave moved"
             }
         ]
     },

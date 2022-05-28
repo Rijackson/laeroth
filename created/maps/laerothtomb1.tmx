@@ -11,7 +11,7 @@
   <image source="../drawable/map_bridge_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="385" name="map_broken_1" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_broken_1.png" width="512" height="256"/>
+  <image source="../../altered/spritesheets/map_broken_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="513" name="map_cavewall_1" tilewidth="32" tileheight="32">
   <image source="../drawable/map_cavewall_1.png" width="576" height="192"/>
@@ -178,6 +178,46 @@
   <object name="caretaker_grave_2" type="sign" x="192" y="384" width="32" height="32"/>
   <object name="caretaker_grave_3" type="sign" x="160" y="384" width="32" height="32"/>
   <object name="caretaker_grave_4" type="sign" x="128" y="384" width="32" height="32"/>
+  <object name="cuned_script_0" type="script" x="512" y="128" width="96" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object name="audela_script_0" type="script" x="32" y="128" width="96" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object name="jerelin_selector" type="script" x="128" y="128" width="96" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object name="jerelin_selector_1" type="script" x="32" y="352" width="96" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object name="eyvipa_script_0" type="script" x="256" y="256" width="96" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object name="lewan_script_0" type="script" x="288" y="384" width="96" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object name="thond_script_0" type="script" x="448" y="288" width="96" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object name="beconnon_script_0" type="script" x="448" y="384" width="96" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Spawn">
   <object name="verigil" type="spawn" x="384" y="128" width="96" height="32">
