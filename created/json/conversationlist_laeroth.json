@@ -2701,7 +2701,7 @@
             {
                 "rewardType":"questProgress",
                 "rewardID":"laeroth_nondisplay",
-                "value":110
+                "value":5
             }
         ]
     },
@@ -2756,7 +2756,20 @@
     },
     {
         "id":"eyvipa_script_0",
-        "message":"Here lies Eyvipa, oldest son of Jerelin."
+        "message":"Here lies Eyvipa, oldest son of Jerelin.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"eyvipa_script_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"laeroth_nondisplay",
+                        "value":5
+                    }
+                ]
+            }
+        ]
     },
     {
         "id":"lewan_script_0",
@@ -2769,5 +2782,71 @@
     {
         "id":"beconnon_script_0",
         "message":"Here lies Beconnon, Sixth Lord of Laeroth."
+    },
+    {
+        "id":"eyvipa_script_1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"evipa_script_2a",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"eyvipa_candlestick",
+                        "value":1
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"oegyth1",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"laeroth_caretaker",
+                        "value":70,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"eyvipa_0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"laeroth_nondisplay",
+                        "value":6
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"laeroth_caretaker",
+                        "value":70,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"evipa_script_2a",
+        "message":"[You place the slightly diminished oegyth crystal and Eyvipa's candlestick on the tomb, and chant \"iseray iritspay\"]",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"eyvipa_0"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"evipa",
+                "mapName":"laerothtomb1"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"laeroth_nondisplay",
+                "value":6
+            }
+        ]
     }
 ]

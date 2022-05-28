@@ -220,11 +220,21 @@
   </object>
  </objectgroup>
  <objectgroup name="Spawn">
+  <properties>
+   <property name="active" value="false"/>
+  </properties>
   <object name="verigil" type="spawn" x="384" y="128" width="96" height="32">
    <properties>
     <property name="active" value="false"/>
     <property name="ignoreAreas" value="true"/>
     <property name="spawngroup" value="verigil"/>
+   </properties>
+  </object>
+  <object name="eyvipa" type="spawn" x="256" y="256" width="96" height="32">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="ignoreAreas" value="true"/>
+    <property name="spawngroup" value="eyvipa"/>
    </properties>
   </object>
  </objectgroup>

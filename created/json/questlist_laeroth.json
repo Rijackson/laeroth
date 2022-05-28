@@ -20,16 +20,20 @@
                 "logText":"placed ring on tomb"
             },
             {
+                "progress":5,
+                "logText":"Got Eyvipa candlestick"
+            },
+            {
+                "progress":6,
+                "logText":"placed candlestick on tomb"
+            },
+            {
                 "progress":100,
                 "logText":"laerothbasement2_chest_looted"
             },
             {
                 "progress":105,
                 "logText":"I gave Gylew the Korhald chest."
-            },
-            {
-                "progress":110,
-                "logText":"Got Eyvipa candlestick"
             },
             {
                 "progress":120,
@@ -165,6 +169,10 @@
             {
                 "progress":60,
                 "logText":"I have found an expensive looking candlestick with \"E\" engraved on it. This must have belonged to Eyvipa."
+            },
+            {
+                "progress":70,
+                "logText":"Eyvipa was angry that I woke him from his rest. He refused to help me because his father passed him over, and made his younger brother lord. I had to send him back to his rest with the chant \"estray inyay eacepay\"."
             }
         ]
     },
