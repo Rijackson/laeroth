@@ -2617,7 +2617,13 @@
     },
     {
         "id":"eyvipa_0",
-        "message":"I hope you disturbed my rest for a good reason!"
+        "message":"I hope you disturbed my rest for a good reason!",
+        "replies":[
+            {
+                "text":"I am $playername. Apologies for distubing you, but I need some help.",
+                "nextPhraseID":"eyvipa_1"
+            }
+        ]
     },
     {
         "id":"cuned_0",
@@ -2846,6 +2852,72 @@
                 "rewardType":"questProgress",
                 "rewardID":"laeroth_nondisplay",
                 "value":6
+            }
+        ]
+    },
+    {
+        "id":"eyvipa_1",
+        "message":"What help do you need?",
+        "replies":[
+            {
+                "text":"Your family has left Laeroth, and it is now abandoned. But the caretaker is still here. He is bound by an oath his great great grandfather made. With nobody living here any more other than him I ask you to release him from the oath.",
+                "nextPhraseID":"eyvipa_2"
+            }
+        ]
+    },
+    {
+        "id":"eyvipa_2",
+        "message":"Why ask me? I was not the last lord. Or in fact lord at all.",
+        "replies":[
+            {
+                "text":"I talked to the last lord that is buried here, Verigil. He said he cannot release him because the oath was not made by his branch of the family.",
+                "nextPhraseID":"eyvipa_3"
+            }
+        ]
+    },
+    {
+        "id":"eyvipa_3",
+        "message":"Ah. The son of the usurper. I will not help you, or the caretaker, or anyone else. I should have been Lord. My father passed me over for the usurper, Cuned, my younger brother. Ask him for help. But before you go, since you disturbed me, you owe me your life force! ",
+        "replies":[
+            {
+                "text":"[You feel your life being drained from you].",
+                "nextPhraseID":"eyvipa_4a"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"life_drain"
+            }
+        ]
+    },
+    {
+        "id":"eyvipa_4a",
+        "message":"I feel stronger already! Soon I will rise again, and then I will be Lord. A terrible lord, for those that wronged me!",
+        "replies":[
+            {
+                "text":"I'm leaving!",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Estray inyay eacepay!",
+                "nextPhraseID":"eyvipa_4b"
+            }
+        ]
+    },
+    {
+        "id":"eyvipa_4b",
+        "message":"[The ghost of Eyvipa vanishes. You feel great relief that the chant worked].",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"laeroth_caretaker",
+                "value":70
+            },
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"life_drain",
+                "value":-99
             }
         ]
     }

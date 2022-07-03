@@ -19,5 +19,17 @@
             "increaseAttackChance":-5,
             "increaseBlockChance":-5
         }
+    },
+    {
+        "id":"life_drain",
+        "iconID":"actorconditions_1:82",
+        "name":"Life drain",
+        "category":"spiritual",
+        "roundEffect":{
+            "increaseCurrentHP":{
+                "min":-2,
+                "max":-2
+            }
+        }
     }
 ]
