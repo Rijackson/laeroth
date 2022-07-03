@@ -2669,7 +2669,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"laeroth_nondisplay",
-                        "value":110,
+                        "value":5,
                         "negate":true
                     }
                 ]
@@ -2762,7 +2762,7 @@
     },
     {
         "id":"eyvipa_script_0",
-        "message":"Here lies Eyvipa, oldest son of Jerelin.",
+        "message":"Here lies Eyvipa, eldest son of Jerelin.",
         "replies":[
             {
                 "text":"N",
@@ -2907,7 +2907,7 @@
     },
     {
         "id":"eyvipa_4b",
-        "message":"[The ghost of Eyvipa vanishes. You feel great relief that the chant worked].",
+        "message":"[The ghost of Eyvipa vanishes. You feel great relief that the chant worked. You take back the oegyth crystal, although it seems to be losing some of its luster].",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -2918,6 +2918,11 @@
                 "rewardType":"actorCondition",
                 "rewardID":"life_drain",
                 "value":-99
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"oegyth2",
+                "value":1
             }
         ]
     }
