@@ -16,7 +16,7 @@
   <image source="../drawable/map_bridge_2.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="513" name="map_broken_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../drawable/map_broken_1.png" width="512" height="256"/>
+  <image source="../spritesheets/map_broken_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="641" name="map_cavewall_1" tilewidth="32" tileheight="32" tilecount="108" columns="18">
   <image source="../drawable/map_cavewall_1.png" width="576" height="192"/>
@@ -200,7 +200,7 @@
  </layer>
  <layer id="4" name="Walkable" width="32" height="25">
   <data encoding="base64" compression="zlib">
-   eAHtkt0JwDAIhDNF918hG4aDHohYoomRPkQo5kfv09T+tNadX3vNG58d9xc+66DP7nOmR670s5zse7CzNSN6l3/fv3r+JY9rzCwtMr8rseRoX1GDZJJHr+9WeovmgBnN2Y2XfVrrXX1vvsXGmTc/I86qIUPXq1Hdr67r8mvnDe9vmf4vJ/cWH2cnmdQmG3uaXjP2hCfzy68yB17xI18=
+   eAHtk9sJwDAIRZ2i+6+QDYvQC7eSYgzG5iNC0eDjqNh2ibTBTx4Zjc+O24WPPqCz5/Tqgcvay8n2Kzu7ZqTe4Z/9V98/82DrzUIi9zsTC47VFT0wEzxo65uZLZqjTM6xb/Zl2Txnz87ieHV67Ir5ua9eD+xfbVfPa+c5/Pf/Z/ez4r3Dzf3VA7i6V4i1V+wcNcH80oiL6hvstCKY
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
