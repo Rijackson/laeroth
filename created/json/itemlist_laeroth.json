@@ -373,5 +373,23 @@
                 }
             ]
         }
+    },
+    {
+        "id":"pink_potion",
+        "iconID":"items_reterski_1:6",
+        "name":"Pink potion of stomach calming",
+        "displaytype":"ordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":65,
+        "category":"pot",
+        "description":"A thick, pink liquid",
+        "useEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"nausea",
+                    "chance":"100"
+                }
+            ]
+        }
     }
 ]
