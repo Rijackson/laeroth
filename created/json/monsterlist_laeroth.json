@@ -338,5 +338,13 @@
         "attackChance":120,
         "blockChance":160,
         "damageResistance":2
+    },
+    {
+        "id":"eraepsekahs",
+        "name":"Eraepsekahs",
+        "iconID":"monsters_rltiles1:74",
+        "unique":1,
+        "monsterClass":"humanoid",
+        "phraseID":"eraep_0"
     }
 ]

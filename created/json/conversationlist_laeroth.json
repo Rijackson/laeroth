@@ -2925,5 +2925,77 @@
                 "value":1
             }
         ]
+    },
+    {
+        "id":"eraep_0",
+        "message":"Hello. Can I help you?",
+        "replies":[
+            {
+                "text":"I am looking for my brother, Andor. He looks a bit like me. Have you seen him?",
+                "nextPhraseID":"eraep_1"
+            }
+        ]
+    },
+    {
+        "id":"eraep_1",
+        "message":"There was someone that came here recently that looked somewhat like you, but I didn't speak to him. Sorry, that's all the information I can give you.",
+        "replies":[
+            {
+                "text":"OK. Thanks. Bye.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Thanks. What do you do around here?",
+                "nextPhraseID":"eraep_2"
+            }
+        ]
+    },
+    {
+        "id":"eraep_2",
+        "message":"I came here for the solitude. I wish to be a playwright. So I am writing my first play. I hope that someday I will be famous. ",
+        "replies":[
+            {
+                "text":"Best of luck. Sounds like a boring thing to do to me. ",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"What is the play about?",
+                "nextPhraseID":"eraep_3"
+            }
+        ]
+    },
+    {
+        "id":"eraep_3",
+        "message":"It is set in a very small village. So I called it \"Hamlet\". An old Dhayavarian word for a very small village.  ",
+        "replies":[
+            {
+                "text":"Life in a small village? I come from one. It must be a very boring play. ",
+                "nextPhraseID":"eraep_4"
+            }
+        ]
+    },
+    {
+        "id":"eraep_4",
+        "message":"Not at all. It involves murder, revenge for the murder, but the murderer knows the avenger is coming, so plots to kill him. There's ghosts too.",
+        "replies":[
+            {
+                "text":"OK. Sounds more exciting than I thought. If you finish it and I happen to be close to a showing, perhaps I will watch.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Sounds exciting! But if you really want to get the audience's attention you need to add some s...",
+                "nextPhraseID":"eraep_5"
+            }
+        ]
+    },
+    {
+        "id":"eraep_5",
+        "message":"Enough! It is my play. I do not need your advice!",
+        "replies":[
+            {
+                "text":"OK. I was only going to make a suggestion. Bye.",
+                "nextPhraseID":"X"
+            }
+        ]
     }
 ]
