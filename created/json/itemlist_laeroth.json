@@ -333,7 +333,8 @@
         "iconID":"items_misc_2:230",
         "name":"Eyvipa's candlestick",
         "displaytype":"quest",
-        "category":"other"
+        "category":"other",
+        "description":"Looks expensive!"
     },
     {
         "id":"obsidian",
@@ -380,7 +381,7 @@
         "name":"Pink potion of stomach calming",
         "displaytype":"ordinary",
         "hasManualPrice":1,
-        "baseMarketCost":65,
+        "baseMarketCost":265,
         "category":"pot",
         "description":"A thick, pink liquid",
         "useEffect":{
