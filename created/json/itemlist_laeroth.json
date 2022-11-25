@@ -333,8 +333,7 @@
         "iconID":"items_misc_2:230",
         "name":"Eyvipa's candlestick",
         "displaytype":"quest",
-        "category":"other",
-        "description":"Looks expensive!"
+        "category":"other"
     },
     {
         "id":"obsidian",
@@ -343,7 +342,8 @@
         "displaytype":"quest",
         "hasManualPrice":1,
         "baseMarketCost":1000,
-        "category":"gem"
+        "category":"gem",
+        "description":"It looks like black glass. "
     },
     {
         "id":"obsidian_dagger",
@@ -392,5 +392,29 @@
                 }
             ]
         }
+    },
+    {
+        "id":"audela_necklace",
+        "iconID":"items_necklaces_1:24",
+        "name":"Audela's necklace",
+        "displaytype":"quest",
+        "category":"neck",
+        "description":"A very pretty necklace."
+    },
+    {
+        "id":"diary_cuned",
+        "iconID":"items_misc_5:6",
+        "name":"Cuned's diary",
+        "displaytype":"quest",
+        "category":"other",
+        "description":"This is private, so you decide not to read it."
+    },
+    {
+        "id":"seal_jerelin",
+        "iconID":"items_misc_3:72",
+        "name":"Jerelin's seal",
+        "displaytype":"quest",
+        "category":"other",
+        "description":"You can see some old ink still on the seal."
     }
 ]

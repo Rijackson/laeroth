@@ -28,6 +28,30 @@
                 "logText":"placed candlestick on tomb"
             },
             {
+                "progress":7,
+                "logText":"Got Cuned's diary"
+            },
+            {
+                "progress":8,
+                "logText":"Placed diary on tomb"
+            },
+            {
+                "progress":9,
+                "logText":"Got Jerelin's seal"
+            },
+            {
+                "progress":10,
+                "logText":"Placed seal on tomb"
+            },
+            {
+                "progress":11,
+                "logText":"Got Audela's necklace"
+            },
+            {
+                "progress":12,
+                "logText":"Placed necklace on tomb"
+            },
+            {
                 "progress":100,
                 "logText":"laerothbasement2_chest_looted"
             },
