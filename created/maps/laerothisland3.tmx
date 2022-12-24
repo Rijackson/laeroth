@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
 <map version="1.0" orientation="orthogonal" width="32" height="28" tilewidth="32" tileheight="32">
  <properties>
   <property name="outdoors" value="1"/>
@@ -14,7 +14,7 @@
   <image source="../drawable/map_bridge_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="385" name="map_broken_1" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_broken_1.png" width="512" height="256"/>
+  <image source="../../altered/spritesheets/map_broken_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="513" name="map_cavewall_1" tilewidth="32" tileheight="32">
   <image source="../drawable/map_cavewall_1.png" width="576" height="192"/>
@@ -149,7 +149,7 @@
    eJztklEOwCAIQz3CLuX9r7RfQyyMrdLFSMIPUV4p9Ku1DtLGWEdvUa9szsLWI51sPtJk/7E8QLN5c6724s3fw+dpyHK/8p/cnOfXDvxMr1mwdj/rZWuse4tmQjNW89ms6A49PVV8RSr4yn1He6/y+Q++q3SMWhTsk/5tKDWoPdjF/xuHk/xZ
   </data>
  </layer>
- <objectgroup name="Mapevents" visible="0">
+ <objectgroup name="Mapevents">
   <object name="north1" type="mapchange" x="224" y="0" width="128" height="32">
    <properties>
     <property name="map" value="laerothisland2"/>
