@@ -416,5 +416,13 @@
         "displaytype":"quest",
         "category":"other",
         "description":"You can see some old ink still on the seal."
+    },
+    {
+        "id":"laeroth_box_key",
+        "iconID":"items_japozero:395",
+        "name":"Fancy looking key",
+        "displaytype":"quest",
+        "category":"other",
+        "description":"A small, very ornate key"
     }
 ]

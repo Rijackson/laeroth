@@ -204,7 +204,50 @@
             },
             {
                 "progress":90,
-                "logText":"Cuned told me his uncle is correct, and he cannot release the caretaker from his oath because he is from the wrong branch of the family. I must talk to his father, Jerelin."
+                "logText":"Cuned told me that Verigil is correct, and he cannot release the caretaker from his oath because he is from the wrong branch of the family. I must talk to his father, Jerelin."
+            },
+            {
+                "progress":100,
+                "logText":"After much searching I found a seal for Jerelin in an old chest. I must go back to the tomb again."
+            },
+            {
+                "progress":110,
+                "logText":"Jerelin ignored me, ans went back to his resting place. I will have to ask Cuned again what to do."
+            },
+            {
+                "progress":120,
+                "logText":"Cuned told me to speak to his mother, Audela. Jerelin didn't listen to many people, but he listed to her."
+            },
+            {
+                "progress":130,
+                "logText":"I have found what appears to be a jewelry box, with \"A\" inscribed on it. It is locked though, and too heavy to move to the tomb."
+            },
+            {
+                "progress":140,
+                "logText":"I have found a key in the bedroom. "
+            },
+            {
+                "progress":150,
+                "logText":"The key fitted the jewelry box! Inside I found a necklace \"With love to Audela\" written on the back."
+            },
+            {
+                "progress":160,
+                "logText":"Audela told me to talk to Jerelin again, but tell him Audela wants this done."
+            },
+            {
+                "progress":170,
+                "logText":"I spoke to Jerelin again, and told him of Audela's wishes. He told me he will reease the caretaker, but with a condition. The caretakers last act must be to move his grave away from that of his sharp tounged wife."
+            },
+            {
+                "progress":180,
+                "logText":"I told the caretaker what he has to do to be released from the oath. He thanked me, and agreed to do it.",
+                "rewardExperience":18000,
+                "finishesQuest":1
+            },
+            {
+                "progress":190,
+                "logText":"I noticed that Audela had reappeared in the tomb. I spoke to her, and she was annoyed that even in death her husband had disappeared again, but she would find him, and give him a good talking to. I sent her back to her rest with the chant \"estray inyay eacepay\"",
+                "rewardExperience":2000
             }
         ]
     },
