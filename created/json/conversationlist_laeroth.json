@@ -2997,5 +2997,51 @@
                 "nextPhraseID":"X"
             }
         ]
+    },
+    {
+        "id":"cupboard_search_0",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"cupboard_search_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"laeroth_caretaker",
+                        "value":70
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"cupboard_search_1",
+        "message":"Maybe there is something in these cupboards that would be useful.",
+        "replies":[
+            {
+                "text":"Too much clutter in here. Not worth the effort.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"You rummage around in the clutter in the cupboards.",
+                "nextPhraseID":"cupboard_search_2"
+            }
+        ]
+    },
+    {
+        "id":"cupboard_search_2",
+        "message":"You find a book, that says \"My Diary\" on the cover, with an ornate \"C\" embossed in the cover. This must surely have belonged to Cuned! You take the book.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"laeroth_caretaker",
+                "value":80
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"diary_cuned",
+                "value":1
+            }
+        ]
     }
 ]
