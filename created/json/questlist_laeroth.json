@@ -201,6 +201,10 @@
             {
                 "progress":80,
                 "logText":"I found a diary that must have belonged to Cuned."
+            },
+            {
+                "progress":90,
+                "logText":"Cuned told me his uncle is correct, and he cannot release the caretaker from his oath because he is from the wrong branch of the family. I must talk to his father, Jerelin."
             }
         ]
     },

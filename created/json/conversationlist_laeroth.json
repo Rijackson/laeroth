@@ -2626,7 +2626,7 @@
         ]
     },
     {
-        "id":"cuned_0",
+        "id":"cuned_2a",
         "message":"What do you want? I was at peace until you brought me back!"
     },
     {
@@ -2713,7 +2713,19 @@
     },
     {
         "id":"cuned_script_0",
-        "message":"Here lies Cuned, Eighth Lord of Laeroth."
+        "message":"Here lies Cuned, Eighth Lord of Laeroth.",
+        "replies":[
+            {
+                "nextPhraseID":"cuned_script_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"laeroth_nondisplay",
+                        "value":7
+                    }
+                ]
+            }
+        ]
     },
     {
         "id":"audela_script_0",
@@ -3041,6 +3053,74 @@
                 "rewardType":"giveItem",
                 "rewardID":"diary_cuned",
                 "value":1
+            }
+        ]
+    },
+    {
+        "id":"cuned_script_1",
+        "replies":[
+            {
+                "nextPhraseID":"cuned_script_2a",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"diary_cuned",
+                        "value":1
+                    },
+                    {
+                        
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"oegyth2",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"laeroth_caretaker",
+                        "value":90,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"cuned_2a",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"laeroth_nondisplay",
+                        "value":8
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"laeroth_caretaker",
+                        "value":90
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"cuned_2"
+    },
+    {
+        "id":"cuned_script_2a",
+        "message":"[You place the diminished oegyth crystal and Cuned's diary on the tomb, and chant \"iseray iritspay\"]",
+        "replies":[
+            {
+                "nextPhraseID":"cuned_2a"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"cuned",
+                "mapName":"laerothtomb1"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"laeroth_nondisplay",
+                "value":8
             }
         ]
     }
