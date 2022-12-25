@@ -244,6 +244,20 @@
     <property name="spawngroup" value="cuned"/>
    </properties>
   </object>
+  <object name="jerelin" type="spawn" x="128" y="128" width="96" height="32">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="ignoreAreas" value="true"/>
+    <property name="spawngroup" value="jerelin"/>
+   </properties>
+  </object>
+  <object name="audela" type="spawn" x="32" y="128" width="96" height="32">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="ignoreAreas" value="true"/>
+    <property name="spawngroup" value="audela"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Keys"/>
  <objectgroup name="Replace">

@@ -2618,6 +2618,7 @@
     {
         "id":"eyvipa_0",
         "message":"I hope you disturbed my rest for a good reason!",
+        "switchToNPC":"eyvipa",
         "replies":[
             {
                 "text":"I am $playername. Apologies for distubing you, but I need some help.",
@@ -2627,7 +2628,14 @@
     },
     {
         "id":"cuned_2a",
-        "message":"What do you want? I was at peace until you brought me back!"
+        "message":"What do you want? I was at peace until you brought me back!",
+        "switchToNPC":"cuned",
+        "replies":[
+            {
+                "text":"I am $playername. Apologies for distubing you, but I need some help.",
+                "nextPhraseID":"cuned_3"
+            }
+        ]
     },
     {
         "id":"jerelin_0",
@@ -3121,6 +3129,37 @@
                 "rewardType":"questProgress",
                 "rewardID":"laeroth_nondisplay",
                 "value":8
+            }
+        ]
+    },
+    {
+        "id":"cuned_3",
+        "message":"What do you want?",
+        "replies":[
+            {
+                "text":"Your family has left Laeroth, and it is now abandoned. But the caretaker is still here. He is bound by an oath his great great grandfather made. With nobody living here any more other than him I ask you to release him from the oath. Verigil said he cannot, because it is not his branch of the family. Eyvipa refused, because he was not made Lord.",
+                "nextPhraseID":"cuned_4"
+            }
+        ]
+    },
+    {
+        "id":"cuned_4",
+        "message":"Eyvipa was not made Lord because he was lazy and irresponsible. If he chose to he could release the caretaker, but he is obviously still irresponsible. I am afraid Verigil is correct. I cannot release him either. You will have to talk to my father, Jerelin. Goodbye. \n\n[You take the oegyth crystal. It's gleam is fading.]",
+        "replies":[
+            {
+                "nextPhraseID":"R"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"laeroth_caretaker",
+                "value":90
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"oegyth3",
+                "value":1
             }
         ]
     }
