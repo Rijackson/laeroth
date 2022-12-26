@@ -237,36 +237,36 @@
     },
     {
         "id":"laerothbasement_spider",
-        "name":"Mountain lake spider",
+        "name":"Basement spider",
         "iconID":"monsters_tometik10:54",
         "maxHP":90,
         "moveCost":4,
-        "unique":1,
         "monsterClass":"insect",
         "movementAggressionType":"helpOthers",
         "attackDamage":{
-            "min":10,
-            "max":20
+            "min":6,
+            "max":14
         },
         "spawnGroup":"laeroth_basement_spiders",
+        "droplistID":"spider",
         "attackCost":3,
         "attackChance":100,
         "criticalSkill":90,
-        "criticalMultiplier":3.0,
-        "blockChance":190,
+        "criticalMultiplier":1.0,
+        "blockChance":170,
         "hitEffect":{
             "conditionsTarget":[
                 {
                     "condition":"contagion",
-                    "magnitude":6,
+                    "magnitude":4,
                     "duration":6,
-                    "chance":"80"
+                    "chance":"40"
                 },
                 {
-                    "condition":"blister",
-                    "magnitude":5,
-                    "duration":5,
-                    "chance":"60"
+                    "condition":"spider_bite",
+                    "magnitude":1,
+                    "duration":4,
+                    "chance":"15"
                 }
             ]
         }
@@ -382,21 +382,23 @@
         "maxHP":104,
         "monsterClass":"insect",
         "attackDamage":{
-            "min":3,
-            "max":12
+            "min":8,
+            "max":15
         },
         "droplistID":"spider",
         "attackCost":5,
         "attackChance":120,
+        "criticalSkill":60,
+        "criticalMultiplier":2.0,
         "blockChance":145,
         "damageResistance":4,
         "hitEffect":{
             "conditionsTarget":[
                 {
                     "condition":"spider_bite",
-                    "magnitude":1,
+                    "magnitude":2,
                     "duration":4,
-                    "chance":"20"
+                    "chance":"30"
                 }
             ]
         }
