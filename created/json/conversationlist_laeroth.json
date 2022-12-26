@@ -2639,11 +2639,13 @@
     },
     {
         "id":"jerelin_0",
-        "message":"I dislike being disturbed. I disliked it when I was alive, and I dislike it even more now!"
+        "message":"I dislike being disturbed. I disliked it when I was alive, and I dislike it even more now!",
+        "switchToNPC":"jerelin"
     },
     {
         "id":"audela_0",
-        "message":"Why did you summon me?  I was finally at rest, after spending years directing my husband about what he needed to do each day."
+        "message":"Why did you summon me?  I was finally at rest, after spending years directing my husband about what he needed to do each day.",
+        "switchToNPC":"audela"
     },
     {
         "id":"moriath_2_1",
@@ -3104,9 +3106,6 @@
                 ]
             }
         ]
-    },
-    {
-        "id":"cuned_2"
     },
     {
         "id":"cuned_script_2a",
