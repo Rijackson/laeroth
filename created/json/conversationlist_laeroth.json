@@ -3076,9 +3076,6 @@
                         "value":1
                     },
                     {
-                        
-                    },
-                    {
                         "requireType":"inventoryRemove",
                         "requireID":"oegyth2",
                         "value":1
