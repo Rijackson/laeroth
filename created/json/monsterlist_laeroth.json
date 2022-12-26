@@ -374,5 +374,31 @@
                 }
             ]
         }
+    },
+    {
+        "id":"spider_massive",
+        "name":"Massive spider",
+        "iconID":"monsters_rltiles4:45",
+        "maxHP":104,
+        "monsterClass":"insect",
+        "attackDamage":{
+            "min":3,
+            "max":12
+        },
+        "droplistID":"spider",
+        "attackCost":5,
+        "attackChance":120,
+        "blockChance":145,
+        "damageResistance":4,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"spider_bite",
+                    "magnitude":1,
+                    "duration":4,
+                    "chance":"20"
+                }
+            ]
+        }
     }
 ]

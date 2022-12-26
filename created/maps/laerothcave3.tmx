@@ -136,7 +136,7 @@
    eJxjYKA+CBdgYEgXwBTDBrbzEmdeGpHmIYOfLLjNI0YMGUzBYRYp5qGHCS5xYs2DiWXw4FdLqnnEihPyD7HmgfigdECq/bgATD16moEBXOKEzCMVeAP95IMlfRMyD1e4RgPNioGah5xvCMUltjyGyw585v1BygPpONJcJ5H+BYkl4Mn7+MKInPxLbhyiA3zhRg6glrtggNS0TSkAAHHJHR4=
   </data>
  </layer>
- <layer name="Walkable" width="20" height="20">
+ <layer name="Walkable" width="20" height="20" visible="0">
   <data encoding="base64" compression="zlib">
    eJxzFWBgcB2hGAZwsZEBujgus3CZQYy52MxCF0enCbGx+RWXmwmJY/MzseLUNo8Yc6hpHiFAiXnE2kdM+OLzM7I8IfOJ8Rs284hNz5S4gxi12OzDZR45aYtaeKibBwDF+ln8
   </data>
@@ -179,10 +179,15 @@
     <property name="spawngroup" value="cave_jelly"/>
    </properties>
   </object>
-  <object name="scorpion_3" type="spawn" x="160" y="96" width="160" height="256">
+  <object name="scorpion_3" type="spawn" x="192" y="96" width="128" height="256">
    <properties>
     <property name="quantity" value="4"/>
     <property name="spawngroup" value="scorpion_1"/>
+   </properties>
+  </object>
+  <object name="spider" type="spawn" x="160" y="320" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="spider_massive"/>
    </properties>
   </object>
  </objectgroup>

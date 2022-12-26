@@ -245,5 +245,26 @@
                 }
             }
         ]
+    },
+    {
+        "id":"spider",
+        "items":[
+            {
+                "itemID":"spider_fang",
+                "chance":"34",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"shell",
+                "chance":"10",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
     }
 ]

@@ -44,5 +44,17 @@
                 "max":-2
             }
         }
+    },
+    {
+        "id":"spider_bite",
+        "iconID":"actorconditions_omi2:3",
+        "name":"Spider bite",
+        "category":"blood",
+        "roundEffect":{
+            "increaseCurrentHP":{
+                "min":-1,
+                "max":-4
+            }
+        }
     }
 ]
