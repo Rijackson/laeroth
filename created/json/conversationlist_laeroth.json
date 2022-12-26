@@ -2640,7 +2640,13 @@
     {
         "id":"jerelin_0",
         "message":"I dislike being disturbed. I disliked it when I was alive, and I dislike it even more now!",
-        "switchToNPC":"jerelin"
+        "switchToNPC":"jerelin",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"jerelin_1"
+            }
+        ]
     },
     {
         "id":"audela_0",
@@ -2739,7 +2745,13 @@
     },
     {
         "id":"audela_script_0",
-        "message":"Here lies Audela, wife of Jerelin."
+        "message":"Here lies Audela, wife of Jerelin.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"audela_script_1"
+            }
+        ]
     },
     {
         "id":"jerelin_selector",
@@ -2760,7 +2772,13 @@
     },
     {
         "id":"jerelin_script_0a",
-        "message":"Here lies Jerelin, Seventh Lord of Laeroth."
+        "message":"Here lies Jerelin, Seventh Lord of Laeroth.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"jerelin_script_1"
+            }
+        ]
     },
     {
         "id":"jerelin_selector_1",
@@ -3101,7 +3119,8 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"laeroth_caretaker",
-                        "value":90
+                        "value":90,
+                        "negate":true
                     }
                 ]
             }
@@ -3156,6 +3175,153 @@
                 "rewardType":"giveItem",
                 "rewardID":"oegyth3",
                 "value":1
+            }
+        ]
+    },
+    {
+        "id":"jerelin_script_1",
+        "replies":[
+            {
+                "nextPhraseID":"jerelin_script_2a",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"seal_jerelin",
+                        "value":1
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"oegyth3",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"laeroth_caretaker",
+                        "value":110,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"jerelin_0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"laeroth_nondisplay",
+                        "value":10
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"laeroth_caretaker",
+                        "value":110,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"jerelin_script_2a",
+        "message":"[You place the very diminished oegyth crystal and Jerelin's seal on the tomb, and chant \"iseray iritspay\"]",
+        "replies":[
+            {
+                "nextPhraseID":"jerelin_0"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"jerelin",
+                "mapName":"laerothtomb1"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"laeroth_nondisplay",
+                "value":10
+            }
+        ]
+    },
+    {
+        "id":"audela_script_1",
+        "replies":[
+            {
+                "nextPhraseID":"audela_script_2a",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"audela_necklace",
+                        "value":1
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"oegyth5",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"laeroth_caretaker",
+                        "value":160,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"audela_0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"laeroth_nondisplay",
+                        "value":12
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"laeroth_caretaker",
+                        "value":160,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"audela_script_2a",
+        "message":"[You place the very heavily diminished oegyth crystal and Audela's necklace on the tomb, and chant \"iseray iritspay\"]",
+        "replies":[
+            {
+                "nextPhraseID":"audela_0"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"audela",
+                "mapName":"laerothtomb1"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"laeroth_nondisplay",
+                "value":12
+            }
+        ]
+    },
+    {
+        "id":"jerelin_1",
+        "message":"Hmpff. Go away! \n\n[You take the rather dull looking oegyth crystal.]",
+        "replies":[
+            {
+                "nextPhraseID":"R"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"oegyth4",
+                "value":1
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"laeroth_caretaker",
+                "value":110
             }
         ]
     }
