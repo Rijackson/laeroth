@@ -30,6 +30,7 @@
         "id":"lizard_skin",
         "iconID":"items_misc_2:88",
         "name":"Lizard skin",
+        "displaytype":"ordinary",
         "hasManualPrice":1,
         "baseMarketCost":10,
         "category":"animal"
@@ -424,5 +425,14 @@
         "displaytype":"quest",
         "category":"other",
         "description":"A small, very ornate key"
+    },
+    {
+        "id":"jelly_blob",
+        "iconID":"items_japozero:565",
+        "name":"Gelatinous blob",
+        "hasManualPrice":1,
+        "baseMarketCost":4,
+        "category":"animal",
+        "description":"This looks and feels disgusting."
     }
 ]

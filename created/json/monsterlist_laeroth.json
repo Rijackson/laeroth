@@ -346,5 +346,33 @@
         "unique":1,
         "monsterClass":"humanoid",
         "phraseID":"eraep_0"
+    },
+    {
+        "id":"cave_jelly",
+        "name":"Cave jelly",
+        "iconID":"monsters_rltiles1:150",
+        "maxHP":30,
+        "moveCost":4,
+        "monsterClass":"animal",
+        "movementAggressionType":"protectSpawn",
+        "attackDamage":{
+            "min":4,
+            "max":9
+        },
+        "spawnGroup":"cave_jelly_1",
+        "droplistID":"jelly_drop",
+        "attackCost":3,
+        "attackChance":125,
+        "blockChance":70,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"sting_major",
+                    "magnitude":1,
+                    "duration":5,
+                    "chance":"25"
+                }
+            ]
+        }
     }
 ]
