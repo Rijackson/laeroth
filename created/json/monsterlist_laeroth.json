@@ -402,5 +402,35 @@
                 }
             ]
         }
+    },
+    {
+        "id":"spider_queen",
+        "name":"Queen spider",
+        "iconID":"monsters_redshrike1:4",
+        "maxHP":135,
+        "moveCost":5,
+        "monsterClass":"insect",
+        "attackDamage":{
+            "min":8,
+            "max":19
+        },
+        "spawnGroup":"spider_queen",
+        "droplistID":"spider_2",
+        "attackCost":5,
+        "attackChance":135,
+        "criticalSkill":70,
+        "criticalMultiplier":2.0,
+        "blockChance":150,
+        "damageResistance":5,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"spider_bite",
+                    "magnitude":3,
+                    "duration":5,
+                    "chance":"70"
+                }
+            ]
+        }
     }
 ]
