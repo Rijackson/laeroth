@@ -2651,7 +2651,13 @@
     {
         "id":"audela_0",
         "message":"Why did you summon me?  I was finally at rest, after spending years directing my husband about what he needed to do each day.",
-        "switchToNPC":"audela"
+        "switchToNPC":"audela",
+        "replies":[
+            {
+                "text":"I am $playername. Apologies for distubing you, but I need some help.",
+                "nextPhraseID":"audela_1"
+            }
+        ]
     },
     {
         "id":"moriath_2_1",
@@ -3408,6 +3414,144 @@
                 "rewardType":"questProgress",
                 "rewardID":"laeroth_caretaker",
                 "value":120
+            }
+        ]
+    },
+    {
+        "id":"dresser_0",
+        "replies":[
+            {
+                "nextPhraseID":"dresser_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"laeroth_caretaker",
+                        "value":130
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"laeroth_caretaker",
+                        "value":140,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"dresser_1",
+        "message":"You rummage around in the dresser. You have fouund a fancy looking key!",
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"laeroth_box_key",
+                "value":1
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"laeroth_caretaker",
+                "value":140
+            }
+        ]
+    },
+    {
+        "id":"jewelry_box",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"jewelry_box_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"laeroth_caretaker",
+                        "value":130,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"jewelry_box_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"laeroth_caretaker",
+                        "value":140
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"laeroth_caretaker",
+                        "value":150,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"laeroth_box_key",
+                        "value":1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"jewelry_box_1",
+        "message":"This looks interesting. Could be a jewelry box. I has \"A\" inscribed on it. It is locked though, and too heavy to move to the tomb.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"laeroth_caretaker",
+                "value":130
+            }
+        ]
+    },
+    {
+        "id":"jewelry_box_2",
+        "message":"The key fits the box! You turn it, and the lid springs open. It appears to be mainly full of trinkets and keepsakes. You rummage around inside, and find a necklace with \"With love to Audela\" written on the back. This should work!",
+        "rewards":[
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"Replace",
+                "mapName":"laerothmanor1"
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"audela_necklace",
+                "value":1
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"laeroth_caretaker",
+                "value":150
+            }
+        ]
+    },
+    {
+        "id":"audela_1",
+        "message":"What sort of help?",
+        "replies":[
+            {
+                "text":"Your family has left Laeroth, and it is now abandoned. But the caretaker is still here. He is bound by an oath his great great grandfather made. With nobody living here any more other than him I asked Jerelin to release him from the oath. Verigil and Cuned cannot, because it is not their branch of the family. Eyvipa refused, because he was not made Lord. Jerelin just ignored me. Cuned suggested I talk to you about that.",
+                "nextPhraseID":"audela_2"
+            }
+        ]
+    },
+    {
+        "id":"audela_2",
+        "message":"So typical of my husband! He always found excuses to do something other than what I asked him to do. Either that, or he just hid somewhere in the manor so that I couldn't even find him. Always gave the excuse that he was doing \"something important\". What is more important than doing what your wife tells you to do? This needs to be done, and you tell him that I am telling him to do it. If he doesn't, he will feel my presence in his grave! \n\n[You take the oegyth crystal. There is almost no gleam left in it.]",
+        "replies":[
+            {
+                "nextPhraseID":"R"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"laeroth_caretaker",
+                "value":160
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"oegyth6",
+                "value":1
             }
         ]
     }

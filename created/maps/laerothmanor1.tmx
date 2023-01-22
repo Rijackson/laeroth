@@ -181,6 +181,16 @@
     <property name="when" value="enter"/>
    </properties>
   </object>
+  <object name="dresser_0" type="script" x="128" y="192" width="32" height="96">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object name="jewelry_box" type="script" x="384" y="544" width="32" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Spawn">
   <object name="moriath" type="spawn" x="320" y="128" width="160" height="160">
@@ -190,4 +200,14 @@
   </object>
  </objectgroup>
  <objectgroup name="Keys"/>
+ <objectgroup name="Replace">
+  <object name="Box" type="replace" x="384" y="512" width="32" height="32">
+   <properties>
+    <property name="Objects" value="Objects2"/>
+    <property name="requireId" value="laeroth_caretaker"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="140"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>
