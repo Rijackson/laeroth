@@ -3123,6 +3123,38 @@
                         "negate":true
                     }
                 ]
+            },
+            {
+                "nextPhraseID":"cuned_script_b_2a",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"laeroth_caretaker",
+                        "value":120,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"oegyth4",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"cuned_b_2a",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"laeroth_nondisplay",
+                        "value":13
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"laeroth_caretaker",
+                        "value":120,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },
@@ -3322,6 +3354,60 @@
                 "rewardType":"questProgress",
                 "rewardID":"laeroth_caretaker",
                 "value":110
+            }
+        ]
+    },
+    {
+        "id":"cuned_script_b_2a",
+        "message":"[You place the heavily diminished oegyth crystal on the tomb, and chant \"iseray iritspay\"]",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"cuned_b_2a"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"cuned",
+                "mapName":"laerothtomb1"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"laeroth_nondisplay",
+                "value":13
+            }
+        ]
+    },
+    {
+        "id":"cuned_b_2a",
+        "message":"You again! I told you to talk to Jerelin.",
+        "switchToNPC":"cuned",
+        "replies":[
+            {
+                "text":"Sorry. Jerelin refused to talk to me or help me.",
+                "nextPhraseID":"cuned_b_3"
+            }
+        ]
+    },
+    {
+        "id":"cuned_b_3",
+        "message":"He always was stubborn. You should talk to my mother, Audela. He didn't listen to most people, but he listened to her. Goodbye. \n\n[You take the oegyth crystal. It looks even duller.]",
+        "replies":[
+            {
+                "nextPhraseID":"R"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"oegyth5",
+                "value":1
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"laeroth_caretaker",
+                "value":120
             }
         ]
     }

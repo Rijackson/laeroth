@@ -52,6 +52,10 @@
                 "logText":"Placed necklace on tomb"
             },
             {
+                "progress":13,
+                "logText":"Raised the spirit of cuned again"
+            },
+            {
                 "progress":100,
                 "logText":"laerothbasement2_chest_looted"
             },
