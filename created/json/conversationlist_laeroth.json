@@ -2379,6 +2379,17 @@
         "message":"Hello again.",
         "replies":[
             {
+                "text":"Finally, success. I had to raise the spirits of many family members, but Jerelin said he would release you from the oath. There is one condition though. You must move his grave away from that of his wife. They don't seem to get along very well. ",
+                "nextPhraseID":"moriath_3_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"laeroth_caretaker",
+                        "value":170
+                    }
+                ]
+            },
+            {
                 "text":"I spoke to the spirit of Verigil, but he told me he cannot help. I must speak to his uncle, Eyvipa. So I need a personal item of his. Do you know where I might find one?",
                 "nextPhraseID":"moriath_2_1",
                 "requires":[
@@ -3637,6 +3648,27 @@
                 "rewardType":"questProgress",
                 "rewardID":"laeroth_caretaker",
                 "value":170
+            }
+        ]
+    },
+    {
+        "id":"moriath_3_1",
+        "message":"Thank you. I will do that if it releases me from the oath. I will do it immediately. Farewell, and thanks again.",
+        "replies":[
+            {
+                "nextPhraseID":"R"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"laeroth_caretaker",
+                "value":180
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"laeroth_nondisplay",
+                "value":120
             }
         ]
     }
