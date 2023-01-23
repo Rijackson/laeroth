@@ -3255,6 +3255,43 @@
                         "negate":true
                     }
                 ]
+            },
+            {
+                "nextPhraseID":"jerelin_script_b_2a",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"laeroth_caretaker",
+                        "value":160
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"laeroth_caretaker",
+                        "value":170,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"oegyth6",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"jerelin_b_2a",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"laeroth_nondisplay",
+                        "value":14
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"laeroth_caretaker",
+                        "value":170,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },
@@ -3552,6 +3589,54 @@
                 "rewardType":"giveItem",
                 "rewardID":"oegyth6",
                 "value":1
+            }
+        ]
+    },
+    {
+        "id":"jerelin_script_b_2a",
+        "message":"[You place the nearly depleted oegyth crystal on the tomb, and chant \"iseray iritspay\"]",
+        "replies":[
+            {
+                "nextPhraseID":"jerelin_b_2a"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"jerelin",
+                "mapName":"laerothtomb1"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"laeroth_nondisplay",
+                "value":14
+            }
+        ]
+    },
+    {
+        "id":"jerelin_b_2a",
+        "message":"Again? I told you I don't like being disturbed!",
+        "switchToNPC":"jerelin",
+        "replies":[
+            {
+                "text":"I spoke to Audela. She said to tell you that she insists you do this. She even made some kind of threat about reaching into your grave if you don't. ",
+                "nextPhraseID":"jerelin_b_3"
+            }
+        ]
+    },
+    {
+        "id":"jerelin_b_3",
+        "message":"It seems I can't escape my nagging wife even in death! OK, I release the caretaker from the oath. But there is a condition. He needs to do one more thing, which is to move my grave away from my wife's grave so that I can rest in peace. Now leave!",
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"oegyth7",
+                "value":1
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"laeroth_caretaker",
+                "value":170
             }
         ]
     }

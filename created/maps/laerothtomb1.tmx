@@ -268,6 +268,7 @@
     <property name="Walkable" value="Walkable2"/>
     <property name="requireId" value="laeroth_caretaker"/>
     <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="180"/>
    </properties>
   </object>
   <object name="move_grave2" type="replace" x="32" y="288" width="96" height="64">
@@ -277,6 +278,7 @@
     <property name="Walkable" value="Walkable2"/>
     <property name="requireId" value="laeroth_caretaker"/>
     <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="180"/>
    </properties>
   </object>
  </objectgroup>

@@ -56,6 +56,10 @@
                 "logText":"Raised the spirit of cuned again"
             },
             {
+                "progress":14,
+                "logText":"Raised Jerelin again"
+            },
+            {
                 "progress":100,
                 "logText":"laerothbasement2_chest_looted"
             },
@@ -240,18 +244,13 @@
             },
             {
                 "progress":170,
-                "logText":"I spoke to Jerelin again, and told him of Audela's wishes. He told me he will reease the caretaker, but with a condition. The caretakers last act must be to move his grave away from that of his sharp tounged wife."
+                "logText":"I spoke to Jerelin again, and told him of Audela's wishes. He told me he will reease the caretaker, but with a condition. The caretakers last act must be to move his grave away from that of his nagging wife."
             },
             {
                 "progress":180,
                 "logText":"I told the caretaker what he has to do to be released from the oath. He thanked me, and agreed to do it.",
                 "rewardExperience":18000,
                 "finishesQuest":1
-            },
-            {
-                "progress":190,
-                "logText":"I noticed that Audela had reappeared in the tomb. I spoke to her, and she was annoyed that even in death her husband had disappeared again, but she would find him, and give him a good talking to. I sent her back to her rest with the chant \"estray inyay eacepay\"",
-                "rewardExperience":2000
             }
         ]
     },
