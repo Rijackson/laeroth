@@ -355,5 +355,6 @@
     <namedarea id="brimhaven_area" name="Brimhaven" type="settlement"/>
     <namedarea id="sullengard" name="Sullengard" type="settlement"/>
     <namedarea id="deebo_orchard" name="Deebo's Orchard" type="other"/>
+    <namedarea id="laeroth_area" name="Lake Laeroth" type="other"/>
   </segment>
 </worldmap>

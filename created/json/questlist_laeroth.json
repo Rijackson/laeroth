@@ -258,7 +258,10 @@
         "id":"last_lord",
         "name":"The last lord of Laeroth",
         "stages":[
-            
-        ]
+            {
+                "progress":10,
+                "logText":"Dummy - no empty quests allowed :("
+            }
+       ]
     }
 ]
