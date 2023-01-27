@@ -165,6 +165,7 @@
     {
         "id":"laeroth_caretaker",
         "name":"Take care of the caretaker",
+        "showInLog":1,
         "stages":[
             {
                 "progress":10,
@@ -257,11 +258,12 @@
     {
         "id":"last_lord",
         "name":"The last lord of Laeroth",
+        "showInLog":1,
         "stages":[
             {
                 "progress":10,
                 "logText":"Dummy - no empty quests allowed :("
             }
-       ]
+        ]
     }
 ]
