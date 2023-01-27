@@ -123,7 +123,6 @@
         "message":"This one here was cut during the rise of Elythara and is quite rare and valuable. But this other one here is a more common coin as it was cut during Geomyr's rule. While this one here is from a far off land and is a part of a larger collection that has long been broken up by past pirates and thieves.",
         "replies":[
             {
-                "text":"N",
                 "nextPhraseID":"gylew6",
                 "requires":[
                     {
@@ -145,7 +144,6 @@
                 ]
             },
             {
-                "text":"N",
                 "nextPhraseID":"gylew7",
                 "requires":[
                     {
@@ -1339,7 +1337,7 @@
         "message":"Oh, you think you are a funny kid? I see.",
         "replies":[
             {
-                "text":"N",
+                "text":"Yeah, actually, I do think so.",
                 "nextPhraseID":"gylew_old_man_10a",
                 "requires":[
                     {
@@ -1351,13 +1349,12 @@
                 ]
             },
             {
-                "text":"N",
+                "text":"Umm...",
                 "nextPhraseID":"gylew_old_man_10b",
                 "requires":[
                     {
-                        "requireType":"questLatestProgress",
-                        "requireID":"odd_coin_collector",
-                        "value":20
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector"
                     }
                 ]
             }
