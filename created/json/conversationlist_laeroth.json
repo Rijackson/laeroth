@@ -30,7 +30,7 @@
         "id":"arulir_secret_room_loot_0",
         "replies":[
             {
-                "text":"N",
+                
                 "nextPhraseID":"arulir_secret_room_loot_1",
                 "requires":[
                     {
@@ -42,7 +42,7 @@
                 ]
             },
             {
-                "text":"N",
+                
                 "nextPhraseID":"arulir_secret_room_loot_3"
             }
         ]
@@ -85,7 +85,7 @@
         "message":"Great! Let me see.",
         "replies":[
             {
-                "text":"N",
+                
                 "nextPhraseID":"gylew3"
             }
         ]
@@ -123,6 +123,7 @@
         "message":"This one here was cut during the rise of Elythara and is quite rare and valuable. But this other one here is a more common coin as it was cut during Geomyr's rule. While this one here is from a far off land and is a part of a larger collection that has long been broken up by past pirates and thieves.",
         "replies":[
             {
+                
                 "nextPhraseID":"gylew6",
                 "requires":[
                     {
@@ -144,6 +145,7 @@
                 ]
             },
             {
+                
                 "nextPhraseID":"gylew7",
                 "requires":[
                     {
@@ -233,7 +235,7 @@
         "message":"Here is 500 gold.",
         "replies":[
             {
-                "text":"N",
+                
                 "nextPhraseID":"gylew8",
                 "requires":[
                     {
@@ -255,7 +257,7 @@
                 ]
             },
             {
-                "text":"N",
+                
                 "nextPhraseID":"gylew7",
                 "requires":[
                     {
@@ -290,7 +292,6 @@
         "message":"That was foolish of you. This is very valuable and you just gave it to me.",
         "replies":[
             {
-                "text":"N",
                 "nextPhraseID":"gylew8",
                 "requires":[
                     {
@@ -312,7 +313,6 @@
                 ]
             },
             {
-                "text":"N",
                 "nextPhraseID":"gylew7",
                 "requires":[
                     {
@@ -359,7 +359,7 @@
         "message":"You see, I was raised in Feygard by my father who was commissioned to create gold coins. All he ever talked about was coins and we shared this common love.",
         "replies":[
             {
-                "text":"N",
+                
                 "nextPhraseID":"gylew10"
             }
         ]
@@ -379,7 +379,7 @@
         "message":"You never heard of Korhald? He was the founder of Remgard. Anyways, back to my story...",
         "replies":[
             {
-                "text":"N",
+                
                 "nextPhraseID":"gylew10_2"
             }
         ]
@@ -418,7 +418,6 @@
         "message":"It is far east of here near a place called Laeroth Manor.",
         "replies":[
             {
-                "text":"N",
                 "nextPhraseID":"gylew12"
             }
         ]
@@ -428,7 +427,7 @@
         "message":"We have failed to retrieve it as the monsters are too strong. That's where you come in. What do you say? Will you help me?",
         "replies":[
             {
-                "text":"Yes, of course, you you need my help.",
+                "text":"Yes, of course, you need my help.",
                 "nextPhraseID":"gylew13"
             },
             {
@@ -450,7 +449,6 @@
         "message":"Yes, a place called Laeroth Manor.",
         "replies":[
             {
-                "text":"N",
                 "nextPhraseID":"gylew12"
             }
         ]
@@ -468,7 +466,7 @@
     },
     {
         "id":"gylew14",
-        "message":"We will discuss this after you have completed the job. But remember, I am from Remgard and can reward you handsomly.",
+        "message":"We will discuss this after you have completed the job. But remember, I am from Feygard and can reward you handsomly.",
         "replies":[
             {
                 "text":"Sounds good.",
@@ -499,7 +497,6 @@
         "message":"What?! You went digging through his corpse?",
         "replies":[
             {
-                "text":"N",
                 "nextPhraseID":"gylew8a_2"
             }
         ]
@@ -527,7 +524,6 @@
         "message":"Here is 550 gold",
         "replies":[
             {
-                "text":"N",
                 "nextPhraseID":"gylew7"
             }
         ],
@@ -554,7 +550,6 @@
         "message":"Much appreciated. Thank you.",
         "replies":[
             {
-                "text":"N",
                 "nextPhraseID":"gylew7"
             }
         ],
@@ -833,7 +828,6 @@
         "message":"Anyways...it was back when we were kids. You see, Gylew and I are half-brothers.",
         "replies":[
             {
-                "text":"N",
                 "nextPhraseID":"forenza_island_60"
             }
         ]
@@ -843,7 +837,6 @@
         "message":"We have the same father. After Gylew's mom died of the Great Plague, father traveled to Brightport in search of a new wife.",
         "replies":[
             {
-                "text":"N",
                 "nextPhraseID":"forenza_island_70"
             }
         ]
@@ -863,7 +856,6 @@
         "message":"Eventually, they were married and I was soon born. Gylew and I were close in age and often got along great.",
         "replies":[
             {
-                "text":"N",
                 "nextPhraseID":"forenza_island_90"
             }
         ]
@@ -873,7 +865,6 @@
         "message":"But father always favored Gylew. They often took long trips in search of exotic and unique coins. I was left out of these adventures most of the time.",
         "replies":[
             {
-                "text":"N",
                 "nextPhraseID":"forenza_island_100"
             }
         ]
@@ -897,7 +888,6 @@
         "message":"OK...Gylew and father discovered this story of looted gold coins that was rumored to be hidden here in the Laeroth Manor. But neither was strong enough to dare try to retrieve it.",
         "replies":[
             {
-                "text":"N",
                 "nextPhraseID":"forenza_island_120"
             }
         ]
@@ -907,7 +897,6 @@
         "message":"For many years afterwards, this is all the family ever talked about. During this time, my father and I grew a part and eventually, my mother and I left him and returned to her hometown of Brightport.",
         "replies":[
             {
-                "text":"N",
                 "nextPhraseID":"forenza_island_130"
             }
         ]
@@ -931,7 +920,6 @@
         "message":"Angry with him, I was able to steal this key [Forenza shows you what you suspect is the key to the chest] from his estate before it was given to Gylew.",
         "replies":[
             {
-                "text":"N",
                 "nextPhraseID":"forenza_island_150"
             }
         ]
@@ -1103,7 +1091,6 @@
         "message":"[With an ever growing smile upon his face, Forenza inserts the first key and then the second. He then proceeds to slowly open the chest.]",
         "replies":[
             {
-                "text":"N",
                 "nextPhraseID":"korhald_chest_examine_10"
             }
         ]
@@ -1123,7 +1110,6 @@
         "message":"[He then begins to feverlessly sift through the coins, transferring each one to his bag. When to his surpirse, he finds something...]",
         "replies":[
             {
-                "text":"N",
                 "nextPhraseID":"korhald_chest_examine_20"
             }
         ]
@@ -1153,7 +1139,6 @@
         "message":"But not all hope is lost. You see this may shows the great river that is just right over there [points northeast] behind those trees.Anyone who follows the map going east, should have no problem reaching wherever this map is leading to.",
         "replies":[
             {
-                "text":"N",
                 "nextPhraseID":"korhald_chest_examine_50"
             }
         ]
@@ -1343,7 +1328,6 @@
         "message":"Thank you? It is so nice to finally be this close to my life's dream.",
         "replies":[
             {
-                "text":"N",
                 "nextPhraseID":"korhald_chest_examine_10"
             }
         ]
@@ -1476,7 +1460,6 @@
         "id":"script_close_cave_door_0",
         "replies":[
             {
-                "text":"N",
                 "nextPhraseID":"script_close_cave_door_1",
                 "requires":[
                     {
@@ -1507,7 +1490,6 @@
         "id":"script_open_cave_door_0",
         "replies":[
             {
-                "text":"N",
                 "nextPhraseID":"script_open_cave_door_1",
                 "requires":[
                     {
@@ -1540,7 +1522,7 @@
         "message":"[The door is looked, but before dispair sets in, you notice that the keyhole is oddly shaped. You decide to use the Mysterious Korhald 'pendant' as a key.]",
         "replies":[
             {
-                "text":"N",
+                
                 "nextPhraseID":"script_open_korhald_tomb_door_1",
                 "requires":[
                     {
@@ -1578,7 +1560,7 @@
         "message":"[The door is looked! I should go find a key.]",
         "replies":[
             {
-                "text":"N",
+                
                 "nextPhraseID":"script_open_korhald_tomb_door_no_key_2",
                 "requires":[
                     {
@@ -1604,7 +1586,7 @@
         "id":"script_close_korhald_tomb_door_0",
         "replies":[
             {
-                "text":"N",
+                
                 "nextPhraseID":"script_close_korhald_tomb_door_1",
                 "requires":[
                     {
@@ -1639,7 +1621,7 @@
         "message":"[Let's stop for a second and look at the 'Mysterious Korhald map']",
         "replies":[
             {
-                "text":"N",
+                
                 "nextPhraseID":"mysterious_map_waterway7_0",
                 "requires":[
                     {
@@ -1662,7 +1644,7 @@
                 ]
             },
             {
-                "text":"N",
+                
                 "nextPhraseID":"mysterious_map_missing",
                 "requires":[
                     {
@@ -1680,7 +1662,7 @@
                 ]
             },
             {
-                "text":"N",
+                
                 "nextPhraseID":"mysterious_map_waterway9_0",
                 "requires":[
                     {
@@ -1769,7 +1751,7 @@
         "message":"Well, for starters, this shield has Korhald family crest engraved on it's front side and clearly belonged to Korhald himself, but I have no use for such an item. Here take it.",
         "replies":[
             {
-                "text":"N",
+                
                 "nextPhraseID":"gylew_korhald_cop_30"
             }
         ]
@@ -1938,7 +1920,7 @@
         "message":"Well, for obvious reasons. Didn't you notice that the shield has Korhald family crest engraved on it's front side? This clearly belonged to Korhald himself. You should keep this item as i could aid you in your adventures.",
         "replies":[
             {
-                "text":"N",
+                
                 "nextPhraseID":"forenza_korhald_cop_30"
             }
         ]
@@ -2048,7 +2030,7 @@
         "message":"Laeroth manor? Yes, of course.",
         "replies":[
             {
-                "text":"N",
+                
                 "nextPhraseID":"moriath_history_3"
             }
         ]
@@ -2110,7 +2092,7 @@
         "message":"Many years ago, this island was used as a refuge in times of danger by communities that lived on the lakeshore. There was little here other than a small fortification, but being an island, that was enough for protection. ",
         "replies":[
             {
-                "text":"N",
+                
                 "nextPhraseID":"moriath_history_4"
             }
         ]
@@ -2120,7 +2102,7 @@
         "message":"Then a man by the name of Laeroth, along with a group of followers, declared himself the Lord of Laeroth, and took the fortifications and the island as his own.",
         "replies":[
             {
-                "text":"N",
+                
                 "nextPhraseID":"moriath_history_5"
             }
         ]
@@ -2144,7 +2126,7 @@
         "message":"The fall of the manor began when the shore folk built a bridge to an island, and founded the city of Remgard.",
         "replies":[
             {
-                "text":"N",
+                
                 "nextPhraseID":"moriath_history_7"
             }
         ]
@@ -2210,7 +2192,7 @@
         "id":"book_not_found",
         "replies":[
             {
-                "text":"N",
+                
                 "nextPhraseID":"book_not_found_1",
                 "requires":[
                     {
@@ -2226,7 +2208,7 @@
         "id":"book_found",
         "replies":[
             {
-                "text":"N",
+                
                 "nextPhraseID":"book_found_1",
                 "requires":[
                     {
@@ -2243,7 +2225,7 @@
         "message":"You look through the shelves, and one book catches your eye. \"A Treatise on Ghosts and Other Undead\". Maybe this has the information you seek. ",
         "replies":[
             {
-                "text":"N",
+                
                 "nextPhraseID":"book_found_2"
             }
         ]
@@ -2253,7 +2235,7 @@
         "message":"You look at the contents page. There are chapters on zombies, liches, ... wait, what's this?\n\nThere is a chapter on spirits of the dead, with a section on raising them! This looks like what you need! ",
         "replies":[
             {
-                "text":"N",
+                
                 "nextPhraseID":"book_found_3"
             }
         ]
@@ -2263,7 +2245,7 @@
         "message":"You flip to the section on raising spirits, and start reading.",
         "replies":[
             {
-                "text":"N",
+                
                 "nextPhraseID":"book_found_4"
             }
         ]
@@ -2273,7 +2255,7 @@
         "message":"\"To start, it must be stressed that raising the spirits of the dead is dangerous. They do not like to be disturbed. \n\nAlways remember the chant \"estray inyay eacepay\". This chant will only work if you are the one that raised the spirit, but then it is very effective. Unless it is especially angry this will send it back to its rest on the other side.\"",
         "replies":[
             {
-                "text":"N",
+                
                 "nextPhraseID":"book_found_5"
             }
         ],
@@ -2290,7 +2272,7 @@
         "message":"\"The spirit's natural state is one of rest, therefore raising a spirit is much more difficult than sending one back to its rest on the other side.\"",
         "replies":[
             {
-                "text":"N",
+                
                 "nextPhraseID":"book_found_6"
             }
         ]
@@ -2300,7 +2282,7 @@
         "message":"\"The raising of the spirits of the dead is best left to priests that have been trained in how to both raise them, and send them back. Preists of The Shadow can do this with ease, but they are sworn to secrecy about their methods.\"",
         "replies":[
             {
-                "text":"N",
+                
                 "nextPhraseID":"book_found_7"
             }
         ]
@@ -2310,7 +2292,7 @@
         "message":"\"It is known that they invoke The Shadow to do this, but no other information is available at the time of writing.\"",
         "replies":[
             {
-                "text":"N",
+                
                 "nextPhraseID":"book_found_8"
             }
         ]
@@ -2320,7 +2302,7 @@
         "message":"\"However, there is another way. It requires a rare and valuable crystal, an oegyth crystal, and a personal item that belonged to the deceased. \n\nIt must be said that using an oegyth crystal in this way will permanently diminish it's power, so the cost is significant.\"",
         "replies":[
             {
-                "text":"N",
+                
                 "nextPhraseID":"Book_found_9"
             }
         ]
@@ -2330,7 +2312,7 @@
         "message":"\"The oegyth crystal and the personal item must be placed on the grave or tomb of the deceased.\n\nThen utter the chant \"iseray iritspay\".\" ",
         "replies":[
             {
-                "text":"N",
+                
                 "nextPhraseID":"book_found_10"
             }
         ]
@@ -2371,7 +2353,7 @@
         "id":"moriath_selector",
         "replies":[
             {
-                "text":"N",
+                
                 "nextPhraseID":"moriath_1_0",
                 "requires":[
                     {
@@ -2382,7 +2364,7 @@
                 ]
             },
             {
-                "text":"N",
+                
                 "nextPhraseID":"moriath_0"
             }
         ]
@@ -2514,7 +2496,7 @@
         "message":"Here lies Verigil, Ninth Lord of Laeroth.",
         "replies":[
             {
-                "text":"N",
+                
                 "nextPhraseID":"verigil_script_1",
                 "requires":[
                     {
@@ -2530,7 +2512,7 @@
         "id":"verigil_script_1",
         "replies":[
             {
-                "text":"N",
+                
                 "nextPhraseID":"verigil_script_2a",
                 "requires":[
                     {
@@ -2552,7 +2534,7 @@
                 ]
             },
             {
-                "text":"N",
+                
                 "nextPhraseID":"verigil_0",
                 "requires":[
                     {
@@ -2575,7 +2557,7 @@
         "message":"[You place an oegyth crystal and Verigil's signet ring on the tomb, and chant \"iseray iritspay\"]",
         "replies":[
             {
-                "text":"N",
+                
                 "nextPhraseID":"verigil_0"
             }
         ],
@@ -2667,7 +2649,7 @@
         "switchToNPC":"jerelin",
         "replies":[
             {
-                "text":"N",
+                
                 "nextPhraseID":"jerelin_1"
             }
         ]
@@ -2704,7 +2686,7 @@
         "id":"chest_search",
         "replies":[
             {
-                "text":"N",
+                
                 "nextPhraseID":"chest_search_1",
                 "requires":[
                     {
@@ -2778,7 +2760,7 @@
         "message":"Here lies Audela, wife of Jerelin.",
         "replies":[
             {
-                "text":"N",
+                
                 "nextPhraseID":"audela_script_1"
             }
         ]
@@ -2787,7 +2769,7 @@
         "id":"jerelin_selector",
         "replies":[
             {
-                "text":"N",
+                
                 "nextPhraseID":"jerelin_script_0a",
                 "requires":[
                     {
@@ -2805,7 +2787,7 @@
         "message":"Here lies Jerelin, Seventh Lord of Laeroth.",
         "replies":[
             {
-                "text":"N",
+                
                 "nextPhraseID":"jerelin_script_1"
             }
         ]
@@ -2814,7 +2796,7 @@
         "id":"jerelin_selector_1",
         "replies":[
             {
-                "text":"N",
+                
                 "nextPhraseID":"jerelin_script_0b",
                 "requires":[
                     {
@@ -2835,7 +2817,7 @@
         "message":"Here lies Eyvipa, eldest son of Jerelin.",
         "replies":[
             {
-                "text":"N",
+                
                 "nextPhraseID":"eyvipa_script_1",
                 "requires":[
                     {
@@ -2863,7 +2845,7 @@
         "id":"eyvipa_script_1",
         "replies":[
             {
-                "text":"N",
+                
                 "nextPhraseID":"evipa_script_2a",
                 "requires":[
                     {
@@ -2885,7 +2867,7 @@
                 ]
             },
             {
-                "text":"N",
+                
                 "nextPhraseID":"eyvipa_0",
                 "requires":[
                     {
@@ -2908,7 +2890,7 @@
         "message":"[You place the slightly diminished oegyth crystal and Eyvipa's candlestick on the tomb, and chant \"iseray iritspay\"]",
         "replies":[
             {
-                "text":"N",
+                
                 "nextPhraseID":"eyvipa_0"
             }
         ],
@@ -3072,7 +3054,7 @@
         "id":"cupboard_search_0",
         "replies":[
             {
-                "text":"N",
+                
                 "nextPhraseID":"cupboard_search_1",
                 "requires":[
                     {
@@ -3429,7 +3411,7 @@
         "message":"[You place the heavily diminished oegyth crystal on the tomb, and chant \"iseray iritspay\"]",
         "replies":[
             {
-                "text":"N",
+                
                 "nextPhraseID":"cuned_b_2a"
             }
         ],
@@ -3519,7 +3501,7 @@
         "id":"jewelry_box",
         "replies":[
             {
-                "text":"N",
+                
                 "nextPhraseID":"jewelry_box_1",
                 "requires":[
                     {
