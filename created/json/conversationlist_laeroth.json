@@ -610,8 +610,18 @@
     },
     {
         "id":"laerothbasement2_korhald_sign",
-        "message":"[Not paying attention, you almost fall.] Oops, I should be more careful.",
+        "message":"[Not paying attention, you almost fall.]",
         "replies":[
+            {
+                "text":"Oops, I should be more careful.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector"
+                    }
+                ]
+            },
             {
                 "nextPhraseID":"laerothbasement2_korhald_sign_30",
                 "requires":[
@@ -638,11 +648,6 @@
     {
         "id":"laerothbasement2_korhald_sign_30",
         "message":"As you approach the crates, you notice an almost illegible sign hanging on the wall. Upon further examination, you can make out the word 'Korhald'.",
-        "replies":[
-            {
-                "nextPhraseID":"X"
-            }
-        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -845,7 +850,7 @@
     },
     {
         "id":"forenza_island_70",
-        "message":"To \" spare you of the grandpa story\" as you called it, I will skip details.",
+        "message":"To \"spare you of the grandpa story\" as you called it, I will skip details.",
         "replies":[
             {
                 "text":"Thank you very much.",
@@ -933,7 +938,7 @@
     },
     {
         "id":"forenza_island_150",
-        "message":"A few years later I learnt what this key opened and this is why I am here. To my disappointment, I quickly realized I was missing the second key.",
+        "message":"A few years later I learned what this key opened and this is why I am here. To my disappointment, I quickly realized I was missing the second key.",
         "replies":[
             {
                 "text":"Where do you think the other key is?",
@@ -1044,6 +1049,17 @@
                         "requireType":"inventoryKeep",
                         "requireID":"hero_coin",
                         "value":1
+                    }
+                ]
+            },
+            {
+                "text":"I have not gone back to see Gylew since our last encounter. Why am I wasting time talking to you when the job is not done yet?",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":50
                     }
                 ]
             },
