@@ -258,6 +258,107 @@
    </properties>
   </object>
  </objectgroup>
+ <objectgroup id="8" name="Mapevents_prison">
+  <properties>
+   <property name="active" value="false"/>
+  </properties>
+  <object id="17" name="remgard_cell" type="mapchange" x="480" y="384" width="32" height="32">
+   <properties>
+    <property name="map" value="remgard_prison"/>
+    <property name="place" value="cell"/>
+   </properties>
+  </object>
+  <object id="19" name="remgard_cell" type="mapchange" x="480" y="416" width="32" height="32">
+   <properties>
+    <property name="map" value="remgard_prison"/>
+    <property name="place" value="cell"/>
+   </properties>
+  </object>
+  <object id="20" name="remgard_cell" type="mapchange" x="480" y="448" width="32" height="32">
+   <properties>
+    <property name="map" value="remgard_prison"/>
+    <property name="place" value="cell"/>
+   </properties>
+  </object>
+  <object id="21" name="remgard_cell" type="mapchange" x="480" y="480" width="64" height="32">
+   <properties>
+    <property name="map" value="remgard_prison"/>
+    <property name="place" value="cell"/>
+   </properties>
+  </object>
+  <object id="22" name="remgard_cell" type="mapchange" x="480" y="480" width="32" height="32">
+   <properties>
+    <property name="map" value="remgard_prison"/>
+    <property name="place" value="cell"/>
+   </properties>
+  </object>
+  <object id="23" name="remgard_cell" type="mapchange" x="448" y="448" width="64" height="32">
+   <properties>
+    <property name="map" value="remgard_prison"/>
+    <property name="place" value="cell"/>
+   </properties>
+  </object>
+  <object id="24" name="remgard_cell" type="mapchange" x="480" y="512" width="32" height="32">
+   <properties>
+    <property name="map" value="remgard_prison"/>
+    <property name="place" value="cell"/>
+   </properties>
+  </object>
+  <object id="25" name="remgard_cell" type="mapchange" x="384" y="544" width="128" height="32">
+   <properties>
+    <property name="map" value="remgard_prison"/>
+    <property name="place" value="cell"/>
+   </properties>
+  </object>
+  <object id="26" name="remgard_cell" type="mapchange" x="416" y="576" width="96" height="32">
+   <properties>
+    <property name="map" value="remgard_prison"/>
+    <property name="place" value="cell"/>
+   </properties>
+  </object>
+  <object id="27" name="remgard_cell" type="mapchange" x="416" y="608" width="96" height="32">
+   <properties>
+    <property name="map" value="remgard_prison"/>
+    <property name="place" value="cell"/>
+   </properties>
+  </object>
+  <object id="28" name="remgard_cell" type="mapchange" x="544" y="480" width="32" height="96">
+   <properties>
+    <property name="map" value="remgard_prison"/>
+    <property name="place" value="cell"/>
+   </properties>
+  </object>
+  <object id="29" name="remgard_cell" type="mapchange" x="576" y="480" width="32" height="96">
+   <properties>
+    <property name="map" value="remgard_prison"/>
+    <property name="place" value="cell"/>
+   </properties>
+  </object>
+  <object id="30" name="remgard_cell" type="mapchange" x="608" y="480" width="32" height="96">
+   <properties>
+    <property name="map" value="remgard_prison"/>
+    <property name="place" value="cell"/>
+   </properties>
+  </object>
+  <object id="31" name="remgard_cell" type="mapchange" x="512" y="480" width="32" height="32">
+   <properties>
+    <property name="map" value="remgard_prison"/>
+    <property name="place" value="cell"/>
+   </properties>
+  </object>
+  <object id="32" name="remgard_cell" type="mapchange" x="512" y="512" width="32" height="32">
+   <properties>
+    <property name="map" value="remgard_prison"/>
+    <property name="place" value="cell"/>
+   </properties>
+  </object>
+  <object id="33" name="remgard_cell" type="mapchange" x="512" y="544" width="32" height="32">
+   <properties>
+    <property name="map" value="remgard_prison"/>
+    <property name="place" value="cell"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup id="6" name="Spawn">
   <object id="11" name="ingus" type="spawn" x="512" y="480" width="256" height="128">
    <properties>
@@ -286,6 +387,22 @@
     <property name="ignoreAreas" value="true"/>
     <property name="quantity" value="6"/>
     <property name="spawngroup" value="patrol_roaming"/>
+   </properties>
+  </object>
+  <object id="15" name="patrol2_roaming" type="spawn" x="448" y="416" width="192" height="192">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="ignoreAreas" value="true"/>
+    <property name="quantity" value="6"/>
+    <property name="spawngroup" value="patrol2_roaming"/>
+   </properties>
+  </object>
+  <object id="18" name="patrol2_captain" type="spawn" x="448" y="448" width="192" height="192">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="ignoreAreas" value="true"/>
+    <property name="quantity" value="1"/>
+    <property name="spawngroup" value="patrol2_captain"/>
    </properties>
   </object>
  </objectgroup>
