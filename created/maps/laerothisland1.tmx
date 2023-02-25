@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
 <map version="1.0" orientation="orthogonal" width="27" height="23" tilewidth="32" tileheight="32">
  <properties>
   <property name="outdoors" value="1"/>
@@ -14,7 +14,7 @@
   <image source="../drawable/map_bridge_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="385" name="map_broken_1" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_broken_1.png" width="512" height="256"/>
+  <image source="../../altered/spritesheets/map_broken_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="513" name="map_cavewall_1" tilewidth="32" tileheight="32">
   <image source="../drawable/map_cavewall_1.png" width="576" height="192"/>
@@ -131,7 +131,7 @@
  </layer>
  <layer name="Objects" width="27" height="23">
   <data encoding="base64" compression="zlib">
-   eJzFVkEKwjAQbHtupXfRi0f9jz+IvkD6AUWvFqR+QPyJT/APSvULZkgCMW7SNCk4F7UNO5ndmcUk6cY8+/59TOlzTJ5bZPR7HU3hQUzw+9Q2cSW4Wl5nzZ+/A+r1QSvrj/lnLfs24d9vpeAPrUnduyoED/DIk+TE+TaF4AvlAcw+tZZ6zzyMB6gsM1KaWPHrQ+q87zxd/oOOnYNP74vPDOE/6NgHznsIQIvKLZUn826h3tT5QrLqgjlf2x1Z5P4BDzxH5UZ5catledrBR+0fnQdZXRHZWebiHTIcky0F1jHT2rLX+wKaDqnwPHTNRqJHjcyy0voaQBNwlve+lyK36Jfe80sPL7syCh2Afm9XT+F/Hy9SsO2eithLsTlzaTYzFrsXFBixgwClTX8Wsze7/juEzuef+AB70TsU
+   eJzFVlsOATEUneF3KhO/wo9P9mMHZQUyGyD8kggbEDuxBHvAsAU9aZtU3T6mJM7PjJn2nntu77kjy8IYtd5/b3J6HVfrxi36vYk9iyAm+GNi2zgRXLWIMxPPnwnxmqBW8XviulV164v7cyn5U2NSeVdM8gDXIst2gm/OJF8qD2DXqXbEuxVpPEDlOCOtibPPPqTWx56nr/+gY+nhc9XFBfQfdORtFV/s6bbj8jSRB/aYce9WXtCifUv5acXkfg17f1OAI8WrPtjn6/IPj+D1nT940HOUb3QvLgwvDwJ81PwxeeDVKeGdSSHfwcPfeEuDB+bN1jHXmwKa1rnseegadmSN9srLWuvjB5qAg8r7Ukrfol5mzY8N5uzKsxY6ADNvX03R/zG9SME1eypiLn3rM59m22Op3ywbnJhBgNZmPvPlF0Lov0Pq+fwTL7xTP1s=
   </data>
  </layer>
  <layer name="Above" width="27" height="23">
