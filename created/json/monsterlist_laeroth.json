@@ -432,5 +432,59 @@
                 }
             ]
         }
+    },
+    {
+        "id":"centipede",
+        "name":"Giant centipede",
+        "iconID":"monsters_rltiles2:149",
+        "maxHP":90,
+        "monsterClass":"insect",
+        "attackDamage":{
+            "min":3,
+            "max":9
+        },
+        "spawnGroup":"centipedes",
+        "droplistID":"centipede",
+        "attackCost":3,
+        "attackChance":70,
+        "blockChance":35,
+        "damageResistance":1,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"poison_weak",
+                    "magnitude":2,
+                    "duration":3,
+                    "chance":"25"
+                }
+            ]
+        }
+    },
+    {
+        "id":"centipede_aggressive",
+        "name":"Aggressive giant centipede",
+        "iconID":"monsters_rltiles2:149",
+        "maxHP":100,
+        "monsterClass":"insect",
+        "attackDamage":{
+            "min":5,
+            "max":11
+        },
+        "spawnGroup":"centipedes",
+        "droplistID":"centipede_2",
+        "attackCost":3,
+        "attackChance":80,
+        "blockChance":40,
+        "damageResistance":2,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"poison_weak",
+                    "magnitude":3,
+                    "duration":4,
+                    "chance":"35"
+                }
+            ]
+        }
     }
 ]

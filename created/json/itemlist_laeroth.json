@@ -43,7 +43,7 @@
         "category":"shld_mtl_hv",
         "description":"When you look into the polished surface, you see a terrifying reflection of yourself.",
         "equipEffect":{
-            "increaseAttackChance":-8,
+            "increaseAttackChance":-3,
             "increaseBlockChance":17,
             "increaseDamageResistance":1
         },
@@ -443,5 +443,10 @@
         "baseMarketCost":22,
         "category":"animal",
         "description":"It's sharp!"
+    },
+    {
+        "id":"centipede_skin",
+        "iconID":"items_misc_3:216",
+        "name":"Centipede skin"
     }
 ]

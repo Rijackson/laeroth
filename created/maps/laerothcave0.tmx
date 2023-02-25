@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
 <map version="1.0" orientation="orthogonal" width="29" height="20" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="outdoors" value="1"/>
+ </properties>
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -11,7 +14,7 @@
   <image source="../drawable/map_bridge_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="385" name="map_broken_1" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_broken_1.png" width="512" height="256"/>
+  <image source="../../altered/spritesheets/map_broken_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="513" name="map_cavewall_1" tilewidth="32" tileheight="32">
   <image source="../drawable/map_cavewall_1.png" width="576" height="192"/>
@@ -148,7 +151,7 @@
  </layer>
  <layer name="Objects" width="29" height="20">
   <data encoding="base64" compression="zlib">
-   eJytVr1KA0EQzh3Y3eLBFRaS1kbxGQJGrUU0RexEMY1W4g8aC7EwooWFkmCbwhfQlxCfIFikTHLBB9DgDLvjzc3tnhocOG5vd2e+b76ZvbttVSgcRIV/sUsvO/dhmfuLvYH/EK7YxBmIeJ0gHxP3c16NHD489gjGn+a584scOCaOm+y55fBHXjz206R9n4sz97VpT/bC1ojXzoS+vzr8Wp47JsVo5mDaNDsUmHN+ssa15/Nos76uM9US9eiHUJ/QjU82D76bvu4jiot6PCs7x5oSuGaPrKFNGz5X8vUl7Z7x2FfZdcK9gn23AkPqjZrk1QANsU7C5DqF65iNuT06+Pxk1Eu8bn1zLodwrwPOmcHacNRsxqIV39uA8V6otUHDXiK8MvA+Nzq8B2l81Lguco3N2oIjX+r9Hnu3yHoPzNqdmfdUOuYu4F0zzJrAmgLuXROD+K1CrBUvyRVrO21yLJr7kYlTUpof58X1GjDu6BsH2TXCbZuY1TDthzY0z9hrD57Wcw2+F+tREoP3Uixw0SpmrayyPKtsvAgxl6Jkf1dwoVxLKo1t6+Ui6yfUmjC3VKIvGs9F+iLfppc+p6NA6446UUz5/ewJfckalt7nPXahst+3Nqs3mjw/y1GaM/Yjx522nCtp+I7D89NnXGx+VNuKyBfrdaOy3KQu3/5h0leEM+4/iOt9Mq59AZRye7Q=
+   eJytVr1KA0EQzh3Y3eJBCouQ1kbxGQJGrUU0RexEMY1W4g8aBbEwooWFkmCbwhfQlxCfIFikTHLBB9DgDLvjzc3tnhocOG5vd2e+b76Zvbstlcvt53P/Ypdeeu7DMvcXewP/IVyRiTMQ8TpBNibu57waGXx47BGMP81z5xc5cEwcN9lzy+GPvHjsp0n7Phdn7mvTnuyFrRGv7Ql9f3X4tTx3TIrRzMC0aXYgMGf9eI1rz+fRZnxdZ6ol6tEPoT6hGx/tDHp7Dnw3fN1HFBf1eFZ2jjUlcM0eWUObNnyu5OtL2j3jsafS64R7BftuBYbUGzXJqgEaYh2H8XUC1xEbc3t08PnJqJd43frmXA7hXgecU4O17qjZtEUrvrcB491Qa4OGvUR4ZeB9bnR4D5L4qHFd5BqZtXlHvtT7PfZukfUemLU7M++pZMwdwLtmmDWBNQXcuyYG8VuBWMtenCvWtmByLJr7oYlTUpof58X1GjDu6BsF6TXCbZuY1TDphzY0z9hrD57WcxW+F2v5OAbvpUjgolXMWlmleVbZeAFiLubj/V3BhXItqSS2rZeLrJ9Qa8LcVLG+aDwX6Yt8m17ynI4CrTvqRDHl97Mn9CVrWHqf99iFSn/f2qzeaPL8LOWTnLEfOW7Bcq6k4TsOz0+fcbH5UW0rIl+s141Kc5O6fPuHcV8Rzrj/IK73ybj2Bf82fEE=
   </data>
  </layer>
  <layer name="Above" width="29" height="20">
@@ -156,7 +159,7 @@
    eJxjYCAfpAug8sMFUGlS9BIL0M0mxU5i1AwGO0FhQ287QXrScNiJLo4NEKMGGbxlRNWTToL/QECHiTT7QOAvI3a7SHE7OekWOT6JtWsmL4JNrfgkBZCjlxL7aA0qeQmrGSgQCUyXIdC0ORXoziBGVHkZPGndVZiBwU2YeLtITb/kltPIQJzEvCoLVb99kMXZVBLdQ42wJjUMSC0ryK0TkQG58UspoEbaRAcAmywbTw==
   </data>
  </layer>
- <layer name="Walkable" width="29" height="20" visible="0">
+ <layer name="Walkable" width="29" height="20">
   <data encoding="base64" compression="zlib">
    eJxzFWAgC7gK0A+PJDvpaR+97YTZRc+wHSg7ByL9EOMeWruNkrIDn1psfGx6SPEvPQCx6ROX2/ClK3Ltw6WHkJ241BNjNyl24otffIDYcCbHveTaiW4vqfGDLSyI1U9JfqWkDCDFXlrbQyoGAE/ticw=
   </data>
@@ -210,6 +213,35 @@
    <properties>
     <property name="ignoreAreas" value="true"/>
     <property name="spawngroup" value="vine_2"/>
+   </properties>
+  </object>
+  <object name="beach_crawler_1" type="spawn" x="512" y="256" width="256" height="96">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="beach_crawler_1"/>
+   </properties>
+  </object>
+  <object name="beach_crawler_2" type="spawn" x="736" y="352" width="192" height="192">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="beach_crawler_1"/>
+   </properties>
+  </object>
+  <object name="centipede_1" type="spawn" x="192" y="352" width="64" height="32">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="centipedes"/>
+   </properties>
+  </object>
+  <object name="centipede_2" type="spawn" x="128" y="384" width="608" height="192">
+   <properties>
+    <property name="quantity" value="6"/>
+    <property name="spawngroup" value="centipedes"/>
+   </properties>
+  </object>
+  <object name="centipede_3" type="spawn" x="352" y="224" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="centipedes"/>
    </properties>
   </object>
  </objectgroup>
