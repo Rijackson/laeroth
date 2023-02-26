@@ -447,7 +447,7 @@
         "droplistID":"centipede",
         "attackCost":3,
         "attackChance":70,
-        "blockChance":35,
+        "blockChance":90,
         "damageResistance":1,
         "hitEffect":{
             "conditionsTarget":[
@@ -474,7 +474,7 @@
         "droplistID":"centipede_2",
         "attackCost":3,
         "attackChance":80,
-        "blockChance":40,
+        "blockChance":100,
         "damageResistance":2,
         "hitEffect":{
             "conditionsTarget":[
@@ -501,7 +501,7 @@
         "droplistID":"cave_worm",
         "attackCost":5,
         "attackChance":80,
-        "blockChance":35
+        "blockChance":75
     },
     {
         "id":"cave_worm_vicious",
@@ -517,6 +517,6 @@
         "droplistID":"cave_worm",
         "attackCost":5,
         "attackChance":90,
-        "blockChance":40
+        "blockChance":110
     }
 ]
