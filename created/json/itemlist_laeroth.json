@@ -340,7 +340,7 @@
         "id":"obsidian",
         "iconID":"items_misc:13",
         "name":"Obsidian",
-        "displaytype":"quest",
+        "displaytype":"rare",
         "hasManualPrice":1,
         "baseMarketCost":1000,
         "category":"gem",

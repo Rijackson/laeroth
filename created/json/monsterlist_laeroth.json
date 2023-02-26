@@ -463,7 +463,7 @@
     {
         "id":"centipede_aggressive",
         "name":"Aggressive giant centipede",
-        "iconID":"monsters_rltiles2:149",
+        "iconID":"monsters_gisons:2",
         "maxHP":100,
         "monsterClass":"insect",
         "attackDamage":{
@@ -482,9 +482,41 @@
                     "condition":"poison_weak",
                     "magnitude":3,
                     "duration":4,
-                    "chance":"35"
+                    "chance":"50"
                 }
             ]
         }
+    },
+    {
+        "id":"cave_worm",
+        "name":"Cave worm",
+        "iconID":"monsters_ld2:134",
+        "maxHP":80,
+        "monsterClass":"reptile",
+        "attackDamage":{
+            "min":1,
+            "max":11
+        },
+        "spawnGroup":"cave_worms",
+        "droplistID":"cave_worm",
+        "attackCost":5,
+        "attackChance":80,
+        "blockChance":35
+    },
+    {
+        "id":"cave_worm_vicious",
+        "name":"Vicious cave worm",
+        "iconID":"monsters_ld2:135",
+        "maxHP":90,
+        "monsterClass":"reptile",
+        "attackDamage":{
+            "min":3,
+            "max":12
+        },
+        "spawnGroup":"cave_worms",
+        "droplistID":"cave_worm",
+        "attackCost":5,
+        "attackChance":90,
+        "blockChance":40
     }
 ]

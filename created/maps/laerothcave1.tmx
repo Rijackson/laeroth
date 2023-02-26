@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
 <map version="1.0" orientation="orthogonal" width="20" height="25" tilewidth="32" tileheight="32">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
@@ -11,7 +11,7 @@
   <image source="../drawable/map_bridge_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="385" name="map_broken_1" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_broken_1.png" width="512" height="256"/>
+  <image source="../../altered/spritesheets/map_broken_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="513" name="map_cavewall_1" tilewidth="32" tileheight="32">
   <image source="../drawable/map_cavewall_1.png" width="576" height="192"/>
@@ -155,6 +155,37 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Spawn"/>
+ <objectgroup name="Spawn">
+  <object name="cave_jelly_1" type="spawn" x="64" y="0" width="160" height="224">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="cave_jelly"/>
+   </properties>
+  </object>
+  <object name="centipedes" type="spawn" x="416" y="576" width="160" height="160">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="centipedes"/>
+   </properties>
+  </object>
+  <object name="cave_jelly_2" type="spawn" x="224" y="64" width="320" height="128">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="cave_jelly"/>
+   </properties>
+  </object>
+  <object name="cave_bats" type="spawn" x="32" y="224" width="416" height="512">
+   <properties>
+    <property name="quantity" value="5"/>
+    <property name="spawngroup" value="cavebat1"/>
+   </properties>
+  </object>
+  <object name="cave_worm" type="spawn" x="448" y="192" width="160" height="384">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="cave_worms"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup name="Keys"/>
 </map>
