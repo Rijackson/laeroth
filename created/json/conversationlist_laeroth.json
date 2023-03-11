@@ -3627,5 +3627,21 @@
                 "value":120
             }
         ]
+    },
+    {
+        "id":"laearothtomb0_1",
+        "message":"Here lies Breen, a loyal sevant."
+    },
+    {
+        "id":"laerothtomb0_2",
+        "message":"Interred here is Snuffy. A loyal dog."
+    },
+    {
+        "id":"laerothtomb0_3",
+        "message":"There is no epitaph on this grave. Strange. "
+    },
+    {
+        "id":"laerothtomb0_4",
+        "message":"Here lies Athonnaith. "
     }
 ]

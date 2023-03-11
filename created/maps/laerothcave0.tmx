@@ -189,6 +189,7 @@
     <property name="place" value="south"/>
    </properties>
   </object>
+  <object name="laerothcave0" type="container" x="800" y="512" width="32" height="32"/>
  </objectgroup>
  <objectgroup name="Spawn">
   <object name="vine_top" type="spawn" x="416" y="32" width="32" height="32">

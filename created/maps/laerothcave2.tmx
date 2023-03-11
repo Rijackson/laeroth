@@ -154,6 +154,7 @@
     <property name="place" value="south"/>
    </properties>
   </object>
+  <object name="laerothvave2" type="container" x="512" y="480" width="32" height="32"/>
  </objectgroup>
  <objectgroup name="Spawn">
   <object name="queen_spider" type="spawn" x="160" y="288" width="32" height="32">
