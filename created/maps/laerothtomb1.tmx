@@ -218,6 +218,7 @@
     <property name="when" value="enter"/>
    </properties>
   </object>
+  <object name="Jenoel_grave" type="sign" x="128" y="288" width="96" height="32"/>
  </objectgroup>
  <objectgroup name="Spawn">
   <properties>
@@ -256,6 +257,26 @@
     <property name="active" value="false"/>
     <property name="ignoreAreas" value="true"/>
     <property name="spawngroup" value="audela"/>
+   </properties>
+  </object>
+  <object name="laerothtomb1_1" type="spawn" x="32" y="160" width="320" height="128">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="centipedes"/>
+   </properties>
+  </object>
+  <object name="learothtomb1_2" type="spawn" x="448" y="128" width="160" height="320">
+   <properties>
+    <property name="ignoreAreas" value="true"/>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="centipedes"/>
+   </properties>
+  </object>
+  <object name="laerothtomb1_3" type="spawn" x="32" y="384" width="416" height="64">
+   <properties>
+    <property name="ignoreAreas" value="true"/>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="centipedes"/>
    </properties>
   </object>
  </objectgroup>

@@ -3643,5 +3643,9 @@
     {
         "id":"laerothtomb0_4",
         "message":"Here lies Athonnaith. "
+    },
+    {
+        "id":"Jenoel_grave",
+        "message":"Here lies Jenoel, a great friend of the Laeroth family."
     }
 ]

@@ -135,7 +135,7 @@
  </layer>
  <layer name="Objects" width="32" height="30">
   <data encoding="base64" compression="zlib">
-   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
+   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
   </data>
  </layer>
  <layer name="Above" width="32" height="30">
@@ -148,9 +148,9 @@
    eJztzgENAAAIA6BHsJ39mxhD5yABCQAA8FHX9gBuGUwLAGg=
   </data>
  </layer>
- <layer name="Walkable" width="32" height="30" visible="0">
+ <layer name="Walkable" width="32" height="30">
   <data encoding="base64" compression="zlib">
-   eJztktENwCAIRB2hS7n/Sv2lFRAUr0nhEj5MwHee9Ku1XvUoqoz8qvE/svEpE72LVklzKE/vrFA5eVX8cx4svhB86YzOPwNf8/MFn+NF8KVsEXzvHMef7YrGsPBpj/b+lRx2+RH7pN29kunO7nl0im/N4+/8WX8En/Ng6fUybsQ997M=
+   eJztkskNwCAMBCkhTdF/S3xJAB9JdhGyLfnBw5o9qFcpNfe2/UTk5459ROP3TPZftM7qjqXpmRUrJ+8kH6fBoovBX73Z+UfgS3p28Nn9n8LX/spXbTO/M/+oHCQ+IlvN39/8N4NkW/JAdOvtA+1fu0F1gGA3EjX/AQ==
   </data>
  </layer>
  <objectgroup name="Mapevents">
@@ -204,7 +204,7 @@
   </object>
  </objectgroup>
  <objectgroup name="Spawn">
-  <object name="spawn_1" type="spawn" x="704" y="608" width="256" height="128">
+  <object name="ss_spawn_1" type="spawn" x="704" y="608" width="160" height="128">
    <properties>
     <property name="quantity" value="3"/>
     <property name="spawngroup" value="serpent_1"/>
@@ -214,6 +214,24 @@
    <properties>
     <property name="active" value="false"/>
     <property name="spawngroup" value="forenza_laerothisland2"/>
+   </properties>
+  </object>
+  <object name="ss_spawn_2" type="spawn" x="416" y="352" width="384" height="256">
+   <properties>
+    <property name="quantity" value="4"/>
+    <property name="spawngroup" value="serpent_1"/>
+   </properties>
+  </object>
+  <object name="lizard_spawn_1" type="spawn" x="256" y="192" width="224" height="384">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="island_lizard"/>
+   </properties>
+  </object>
+  <object name="ss_spawn_3" type="spawn" x="224" y="608" width="416" height="224">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="serpent_1"/>
    </properties>
   </object>
  </objectgroup>
