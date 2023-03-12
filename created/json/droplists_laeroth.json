@@ -360,7 +360,7 @@
         ]
     },
     {
-        "id":"laerothcave0",
+        "id":"laerothisland",
         "items":[
             {
                 "itemID":"gold",
@@ -397,6 +397,48 @@
                 "quantity":{
                     "min":1,
                     "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"laerothisland3_drop1",
+        "items":[
+            {
+                "itemID":"gem5",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gold",
+                "chance":"100",
+                "quantity":{
+                    "min":50,
+                    "max":100
+                }
+            }
+        ]
+    },
+    {
+        "id":"laerothisland3_1",
+        "items":[
+            {
+                "itemID":"gem5",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gold",
+                "chance":"100",
+                "quantity":{
+                    "min":50,
+                    "max":90
                 }
             }
         ]
