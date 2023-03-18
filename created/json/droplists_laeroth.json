@@ -442,5 +442,63 @@
                 }
             }
         ]
+    },
+    {
+        "id":"laerothbarn_drop",
+        "items":[
+            {
+                "itemID":"gold",
+                "chance":"100",
+                "quantity":{
+                    "min":10,
+                    "max":50
+                }
+            },
+            {
+                "itemID":"axe_lightblack",
+                "chance":"80",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem6",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"laerothprison_drop",
+        "items":[
+            {
+                "itemID":"gold",
+                "chance":"100",
+                "quantity":{
+                    "min":50,
+                    "max":200
+                }
+            },
+            {
+                "itemID":"gem5",
+                "chance":"70",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"pot_bleeding_ointment",
+                "chance":"80",
+                "quantity":{
+                    "min":1,
+                    "max":2
+                }
+            }
+        ]
     }
 ]

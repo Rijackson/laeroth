@@ -467,6 +467,7 @@
         "iconID":"monsters_gisons:2",
         "maxHP":100,
         "monsterClass":"insect",
+        "movementAggressionType":"protectSpawn",
         "attackDamage":{
             "min":5,
             "max":11
