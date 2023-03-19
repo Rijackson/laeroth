@@ -136,13 +136,13 @@
    eJy9lNENgCAMRPvDP9uxAayrDqCOIokSDSmhRyuX8EPv4EEKRJgWR7RWY3N3LXhwsUpIPmXvnvc9nnG6txa9jgfJSbx/cgTgrDM4osAr8Wg5RmW1x8y3UJQamda8FUftaWXQea2n1WcaDknvov+YJm/FwXkleUlvIRzc/VrfeZHmXVhy9DIcJ8Iu9fY4RnrkW+e8F0IVIH0=
   </data>
  </layer>
- <layer name="Walkable" width="34" height="16">
+ <layer name="Walkable" width="34" height="16" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzdk8ENACAIAxnBpdx/Jf9GpdSi0Sb8aHNAqMWsBqtX1K+q3zk8MRwMY4SD6VGxIKzoHK9wILfNmPU0B+O7ybGSlzfrRzMVf4v6kXxEuxzMbdXK4GB2Mspn/zybowE4k15N
+   eJxzFWBgcB3FgxITAoTU4zOTVu4gRw213EKMW4n1x1BxBzFxSwu/0tsd5OgbSHfgA4TMw6WeWDOpkW+J1U+M+cQASt1BTtxSG9DCHeSECTbzyc3ntHYHABKsYkk=
   </data>
  </layer>
  <objectgroup name="Mapevents">
-  <object name="north" type="mapchange" x="416" y="0" width="128" height="32">
+  <object name="north" type="mapchange" x="416" y="96" width="128" height="32">
    <properties>
     <property name="map" value="laerothisland2"/>
     <property name="place" value="south2"/>
@@ -190,6 +190,29 @@
    <properties>
     <property name="quantity" value="4"/>
     <property name="spawngroup" value="laerothbasement_spider"/>
+   </properties>
+  </object>
+  <object name="bats_1" type="spawn" x="32" y="160" width="768" height="128">
+   <properties>
+    <property name="quantity" value="4"/>
+    <property name="spawngroup" value="cavebat2"/>
+   </properties>
+  </object>
+  <object name="spider_2" type="spawn" x="64" y="96" width="224" height="160">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="spider_massive"/>
+   </properties>
+  </object>
+  <object name="spider_3" type="spawn" x="32" y="288" width="416" height="160">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="laerothbasement_spider"/>
+   </properties>
+  </object>
+  <object name="spider_4" type="spawn" x="448" y="384" width="64" height="64">
+   <properties>
+    <property name="spawngroup" value="spider_massive"/>
    </properties>
   </object>
  </objectgroup>

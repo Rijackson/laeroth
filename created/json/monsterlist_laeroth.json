@@ -378,7 +378,7 @@
     },
     {
         "id":"spider_massive",
-        "name":"Massive spider",
+        "name":"Giant spider",
         "iconID":"monsters_rltiles4:45",
         "maxHP":104,
         "monsterClass":"insect",
