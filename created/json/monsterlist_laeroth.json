@@ -335,6 +335,7 @@
             "min":5,
             "max":10
         },
+        "droplistID":"vahram",
         "attackCost":3,
         "attackChance":120,
         "blockChance":160,
