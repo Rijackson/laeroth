@@ -521,5 +521,11 @@
         "attackCost":5,
         "attackChance":90,
         "blockChance":110
+    },
+    {
+        "id":"laeroth_last_lord",
+        "name":"Adakin",
+        "iconID":"monsters_tometik1:2",
+        "unique":1
     }
 ]

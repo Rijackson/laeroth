@@ -262,7 +262,39 @@
         "stages":[
             {
                 "progress":10,
-                "logText":"Dummy - no empty quests allowed :("
+                "logText":"Before I leave Laeroth, Perhaps I should try to find out where the last Lord went. Maybe there are clues somewhere in the manor."
+            },
+            {
+                "progress":15,
+                "logText":"Perhaps I don't really care about where the last lord went. I'm leaving this place, and whatever happened to him doesn't make any difference to me.",
+                "rewardExperience":1,
+                "finishesQuest":1
+            },
+            {
+                "progress":20,
+                "logText":"I searched the caretakers room, and found a letter from \"Adakin\". It says he is leaving to explore his future, but little more than that except that it mentions a chest that contains a diary and other treasures he could not take with him. I should look for this chest."
+            },
+            {
+                "progress":30,
+                "logText":"I have found a chest, with an inscription \"Adakin\" on the top. It is locked though, so I need to find the key. Hopefully he did not take it with him."
+            },
+            {
+                "progress":40,
+                "logText":"I have found a key that looks like it should fit Adakin's chest."
+            },
+            {
+                "progress":50,
+                "logText":"I have opened Adakin's chest. There are some useful items in here, as well as his diary. The diary has a lock though, so it seems I must find a small key that fits this lock."
+            },
+            {
+                "progress":60,
+                "logText":"I have found a jeweled key that looks like it might be for the diary. Time to try it."
+            },
+            {
+                "progress":70,
+                "logText":"The key unlocked the diary. The final entry did not really give an answer, except that he went to either Nor City or Feygard. Assuming he didn't die on the way.",
+                "rewardExperience":1000,
+                "finishesQuest":1
             }
         ]
     }
