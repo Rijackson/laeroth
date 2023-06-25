@@ -3647,5 +3647,88 @@
     {
         "id":"Jenoel_grave",
         "message":"Here lies Jenoel, a great friend of the Laeroth family."
+    },
+    {
+        "id":"laeroth_exit_1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"laeroth_exit_1a",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"last_lord",
+                        "value":10,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"laeroth_exit_1a",
+        "message":"Before I leave Laeroth, Perhaps I should try to find out where the last Lord went. Maybe there are clues somewhere in the manor.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"laeroth_exit_1b",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"last_lord",
+                        "value":15,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"laeroth_exit_1c"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"last_lord",
+                "value":10
+            }
+        ]
+    },
+    {
+        "id":"laeroth_exit_1b",
+        "message":"I am just wasting time here. It doesn't matter where the last lord went. Time to leave.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"last_lord",
+                "value":15
+            }
+        ]
+    },
+    {
+        "id":"laeroth_exit_1c",
+        "message":"I will look around. The main quarters are probably a good place to start."
+    },
+    {
+        "id":"learoth_exit_2",
+        "replies":[
+            {
+                "nextPhraseID":"laeroth_exit_1a",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"last_lord",
+                        "value":10,
+                        "negate":true
+                    }
+                ]
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"last_lord",
+                "value":10
+            }
+        ]
     }
 ]

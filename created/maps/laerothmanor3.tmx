@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
 <map version="1.0" orientation="orthogonal" width="8" height="9" tilewidth="32" tileheight="32">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
@@ -11,7 +11,7 @@
   <image source="../drawable/map_bridge_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="385" name="map_broken_1" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_broken_1.png" width="512" height="256"/>
+  <image source="../../altered/spritesheets/map_broken_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="513" name="map_cavewall_1" tilewidth="32" tileheight="32">
   <image source="../drawable/map_cavewall_1.png" width="576" height="192"/>
@@ -136,7 +136,7 @@
    eJxjYCAMwgWIlw/ihtBu3AixNAL6CYF0EuwnRx4fAAAW/AM4
   </data>
  </layer>
- <layer name="Walkable" width="8" height="9" visible="0">
+ <layer name="Walkable" width="8" height="9">
   <data encoding="base64" compression="zlib">
    eJxzFWBgcKUDhgFc4tgAPnWEzCFVHl0tjA0AhVoQmw==
   </data>
@@ -152,6 +152,11 @@
    <properties>
     <property name="map" value="laerothisland3"/>
     <property name="place" value="north4"/>
+   </properties>
+  </object>
+  <object name="learoth_exit_2" type="script" x="128" y="224" width="64" height="32">
+   <properties>
+    <property name="when" value="step"/>
    </properties>
   </object>
  </objectgroup>
