@@ -3730,5 +3730,38 @@
                 "value":10
             }
         ]
+    },
+    {
+        "id":"caretaker_chest_0",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"caretaker_chest_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"last_lord",
+                        "value":10
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"last_lord",
+                        "value":20,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"caretaker_chest_1",
+        "message":"There is a chest here that contains what the caretaker left behind. Maybe there is something here about the last lord. \n\nThere is a letter that says\n\"Dear Moriath. \nThank you so much for your service over the years. Sadly, I have decided it is time for me to leave the manor. I need to find my future, and I do not believe it is here. I will go to the south, and see what fate brings me. I know the road will be hard, but I was trained well in weapon skills. I cannot take everything with me, so I have put things that matter to me, including my diary, in a chest downstairs. I will return for them if and when I can. \nI wish you the best,\nAdakin.\"",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"last_lord",
+                "value":20
+            }
+        ]
     }
 ]
