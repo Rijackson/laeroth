@@ -133,7 +133,7 @@
  </layer>
  <layer name="Above" width="16" height="21">
   <data encoding="base64" compression="zlib">
-   eJxjYKAchAuQJzfU9Mdwk64/G02PHxYz8Ol3w2EnsfrpEX7oIB2HHlzi6HbgspNY8TQc6nCJk+PHUf3DRz8lAAB0rg3Y
+   eJxjYKAchAuQJzeQ+j9wka4/hpt0+7PR9PhhMQOffjccdhKrnx7hjw7ScejBJY5uBy47iRVPw6EOlzg5fhzVP3z0UwIAozAO0g==
   </data>
  </layer>
  <layer name="Top" width="16" height="21">
@@ -143,7 +143,7 @@
  </layer>
  <layer name="Walkable" width="16" height="21" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxzFWBgcB0GGASQ2TA+MsAmj64GXT26Wmz2YTMDn1pC+gmpxSeGy35c/iPkfkKAUFwQIz4Y9GPzM6XhS0q4EQpTSuKIkBuoqZ/Y/EQr+8nRT0maAgAWuD3D
+   eJxzFWBgcB0GGASQ2TA+MsCnFxtANwuXfdjMwKeWkH5CavGJ4bIfl/8IuZ8QIBQXxIgPBv3Y/Exp+JISboTClJI4IuQGauonNj/Ryn5y9FOSpgDv2j5t
   </data>
  </layer>
  <objectgroup name="Mapevents">
@@ -209,6 +209,11 @@
   <object name="book_not_found" type="script" x="96" y="416" width="32" height="32"/>
   <object name="book_not_found" type="script" x="128" y="416" width="32" height="32"/>
   <object name="laeroth_exit_1" type="script" x="288" y="608" width="96" height="32">
+   <properties>
+    <property name="when" value="step"/>
+   </properties>
+  </object>
+  <object name="adakin_key_search_0" type="script" x="448" y="128" width="32" height="32">
    <properties>
     <property name="when" value="step"/>
    </properties>

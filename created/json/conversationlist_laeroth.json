@@ -2425,6 +2425,7 @@
         "id":"nightstand_search",
         "replies":[
             {
+                "text":"N",
                 "nextPhraseID":"nightstand_search_1",
                 "requires":[
                     {
@@ -2436,6 +2437,23 @@
                         "requireType":"questProgress",
                         "requireID":"laeroth_nondisplay",
                         "value":3,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"nightstand_search_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"last_lord",
+                        "value":50
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"last_lord",
+                        "value":60,
                         "negate":true
                     }
                 ]
@@ -3660,6 +3678,11 @@
                         "requireID":"last_lord",
                         "value":10,
                         "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"laeroth_caretaker",
+                        "value":180
                     }
                 ]
             }
@@ -3712,6 +3735,7 @@
         "id":"learoth_exit_2",
         "replies":[
             {
+                "text":"N",
                 "nextPhraseID":"laeroth_exit_1a",
                 "requires":[
                     {
@@ -3719,15 +3743,13 @@
                         "requireID":"last_lord",
                         "value":10,
                         "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"laeroth_caretaker",
+                        "value":180
                     }
                 ]
-            }
-        ],
-        "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"last_lord",
-                "value":10
             }
         ]
     },
@@ -3761,6 +3783,204 @@
                 "rewardType":"questProgress",
                 "rewardID":"last_lord",
                 "value":20
+            }
+        ]
+    },
+    {
+        "id":"adakin_chest_0",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"adakin_chest_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"last_lord",
+                        "value":20
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"last_lord",
+                        "value":30,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"adakin_chest_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"last_lord",
+                        "value":40
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"adakin_chest_key",
+                        "value":1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"adakin_chest_1",
+        "message":"There is a chest here with \"Adakin\" written on the top. It is locked though. I need the key.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"last_lord",
+                "value":30
+            }
+        ]
+    },
+    {
+        "id":"adakin_key_search_0",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"adakin_key_search_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"last_lord",
+                        "value":30
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"last_lord",
+                        "value":40,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"adakin_key_search_1",
+        "message":"This small chest looks like it might contain something useful. Yes! A key that looks about the right size for Adakin's chest!",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"last_lord",
+                "value":40
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"adakin_chest_key",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"adakin_chest_2",
+        "message":"The key works, and the chest is open! Here is his diary. It has its own lock though, so now I need a key for this!\n\nThere's some other nice looking stuff in here too. ",
+        "replies":[
+            {
+                "text":"Maybe I should loot the chest. After all, Adakin is not here anymore.",
+                "nextPhraseID":"adakin_chest_3a"
+            },
+            {
+                "text":"It's tempting to loot the chest, but Adakin said he may return for his things. I should leave them.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"adakin_diary",
+                "value":1
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"last_lord",
+                "value":50
+            }
+        ]
+    },
+    {
+        "id":"adakin_chest_3a",
+        "message":"There are some nice items here. I'll just help myself to a few of them.",
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"health_major2",
+                "value":3
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"sword_balanced_steel",
+                "value":1
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"ring_dmg6",
+                "value":1
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"laeroth_nondisplay",
+                "value":140
+            }
+        ]
+    },
+    {
+        "id":"nightstand_search_2",
+        "message":"I have found a smalled jeweled key that looks like it will fit Adakin's diary. ",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"last_lord",
+                "value":60
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"adakin_diary_key",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"last_lord_final_0",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"last_lord_final_0a",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"last_lord",
+                        "value":60
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"adakin_diary_key",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"last_lord",
+                        "value":70,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"last_lord_final_0a",
+        "message":"You open the diary and go to the last pages. It reads: \n\n\"I need to go and find my destiny. It is not here at the manor, so I must strike out and find what lays ahead for me. I will go south to the fabled Duleian road. What then? I will make a decision when I get there. North west to Feygard, or south east to Nor city? Perhaps I will visit both, and make a final decision only then. I hope fate will show me the right way. Farewell Laeroth.\" \n\nI will return the diary to the chest before I leave here.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"last_lord",
+                "value":70
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"adakin_diary",
+                "value":-1
             }
         ]
     }

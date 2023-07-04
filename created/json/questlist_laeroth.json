@@ -70,6 +70,10 @@
             {
                 "progress":120,
                 "logText":"Jerelin grave moved"
+            },
+            {
+                "progress":140,
+                "logText":"Looted Adakin's chest."
             }
         ]
     },
@@ -292,7 +296,7 @@
             },
             {
                 "progress":70,
-                "logText":"The key unlocked the diary. The final entry did not really give an answer, except that he intended to go to either Nor City or Feygard, but had yet to decide which.",
+                "logText":"The key unlocked the diary. The final entry did not really give an answer, except that he intended to go to either Nor City or Feygard, but had yet to decide which. Perhaps I will meet him some day. ",
                 "rewardExperience":1000,
                 "finishesQuest":1
             }

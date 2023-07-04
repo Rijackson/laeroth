@@ -196,6 +196,16 @@
     <property name="when" value="step"/>
    </properties>
   </object>
+  <object name="last_lord_final_0" type="script" x="32" y="320" width="160" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object name="last_lord_final_0" type="script" x="224" y="96" width="32" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Spawn">
   <object name="moriath" type="spawn" x="320" y="128" width="160" height="160">

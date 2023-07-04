@@ -136,7 +136,7 @@
    eJztlLsNgDAMRD0ABduxQViIgREFEgrnz5lYosh1iXN+jk0QEdlWMYXijKcpZyu4GquaG9HX2ncQR3ssN+Nnc2ZqR/1g51s1S4+L6kRcrQeRuVp5vbjmYXozuXyufq7PtTVzyxe5r7W2esP6+r3Ie0U5el8juRll5pu5H8sdwchwq+Rx72/7WN4xtDdaF5/5/44Sem9T/9YJWp0iKA==
   </data>
  </layer>
- <layer name="Walkable" width="30" height="24" visible="0">
+ <layer name="Walkable" width="30" height="24">
   <data encoding="base64" compression="zlib">
    eJztkssJwDAMQztCl8r+K/Vaij+yJFIKFfgQh/jJQes8Sq3gPuo97+8V9ZAZDBfx5eZWLHTvjNv9o8pFvKtcdsbkTeYBmaFK2TebhzCUPKN+3Nypxylb3bfzwHCrXKDvq/OXuGix3EgTZiZXfhzcTg4uo137Mnli8reb+Sb3L64u9ZaBfw==
   </data>
@@ -182,6 +182,11 @@
    <properties>
     <property name="map" value="laerothbasement2"/>
     <property name="place" value="up"/>
+   </properties>
+  </object>
+  <object name="adakin_chest_0" type="script" x="32" y="320" width="64" height="64">
+   <properties>
+    <property name="when" value="step"/>
    </properties>
   </object>
  </objectgroup>
