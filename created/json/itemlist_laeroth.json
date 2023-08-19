@@ -509,5 +509,24 @@
         "iconID":"items_books:6",
         "name":"Adakin's diary",
         "description":"An ornate diary."
+    },
+    {
+        "id":"durian",
+        "iconID":"items_misc_6:35",
+        "name":"Durian fruit",
+        "hasManualPrice":1,
+        "baseMarketCost":110,
+        "category":"food",
+        "description":"Wow! The smell is almost overpowering. It's a mixture of old socks and sewage! It does taste good though!",
+        "useEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"food",
+                    "magnitude":5,
+                    "duration":6,
+                    "chance":"100"
+                }
+            ]
+        }
     }
 ]
