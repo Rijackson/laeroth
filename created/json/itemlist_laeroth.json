@@ -429,6 +429,7 @@
     {
         "id":"jelly_blob",
         "iconID":"items_japozero:565",
+        "displaytype":"ordinary",
         "name":"Gelatinous blob",
         "hasManualPrice":1,
         "baseMarketCost":4,
@@ -439,6 +440,7 @@
         "id":"spider_fang",
         "iconID":"items_japozero:580",
         "name":"Spider fang",
+        "displaytype":"ordinary",
         "hasManualPrice":1,
         "baseMarketCost":22,
         "category":"animal",
@@ -447,7 +449,9 @@
     {
         "id":"centipede_skin",
         "iconID":"items_misc_3:216",
-        "name":"Centipede skin"
+        "name":"Centipede skin",
+        "displaytype":"ordinary",
+        "category":"animal"
     },
     {
         "id":"glaive_butcher",
@@ -490,30 +494,36 @@
         "iconID":"items_misc_3:135",
         "name":"Letter from Adakin",
         "displaytype":"quest",
-        "description":"My dear Moriath. I wish to thank you for your service over the years. However, I realize there is no future for me here at the manor, so I must leave to find my path in life. I wish you all the best, and perhaps we will meet again somewhere. I have secured the things that are valuable to me but I cannot carry, including my diary, in a chest downstairs. Perhaps one day I will be able to collect them. Signed, Adakin. "
+        "description":"My dear Moriath. I wish to thank you for your service over the years. However, I realize there is no future for me here at the manor, so I must leave to find my path in life. I wish you all the best, and perhaps we will meet again somewhere. I have secured the things that are valuable to me but I cannot carry, including my diary, in a chest downstairs. Perhaps one day I will be able to collect them. Signed, Adakin. ",
+        "category":"other"
     },
     {
         "id":"adakin_chest_key",
         "iconID":"items_japozero:387",
         "name":"Key for Adakin's chest",
-        "displaytype":"quest"
+        "displaytype":"quest",
+        "category":"other"
     },
     {
         "id":"adakin_diary_key",
         "iconID":"items_misc:25",
         "name":"Key for Adakin's diary",
-        "displaytype":"quest"
+        "displaytype":"quest",
+        "category":"other"
     },
     {
         "id":"adakin_diary",
         "iconID":"items_books:6",
         "name":"Adakin's diary",
-        "description":"An ornate diary."
+        "displaytype":"ordinary",
+        "description":"An ornate diary.",
+        "category":"other"
     },
     {
         "id":"durian",
         "iconID":"items_misc_6:35",
         "name":"Durian fruit",
+        "displaytype":"ordinary",
         "hasManualPrice":1,
         "baseMarketCost":110,
         "category":"food",
