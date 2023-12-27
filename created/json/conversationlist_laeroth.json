@@ -2027,6 +2027,7 @@
         "message":"Laeroth manor? Yes, of course.",
         "replies":[
             {
+				"text":"N",
                 "nextPhraseID":"moriath_history_3"
             }
         ]
@@ -2088,6 +2089,7 @@
         "message":"Many years ago, this island was used as a refuge in times of danger by communities that lived on the lakeshore. There was little here other than a small fortification, but being an island, that was enough for protection. ",
         "replies":[
             {
+				"text":"N",
                 "nextPhraseID":"moriath_history_4"
             }
         ]
@@ -2097,6 +2099,7 @@
         "message":"Then a man by the name of Laeroth, along with a group of followers, declared himself the Lord of Laeroth, and took the fortifications and the island as his own.",
         "replies":[
             {
+				"text":"N",
                 "nextPhraseID":"moriath_history_5"
             }
         ]
@@ -2120,6 +2123,7 @@
         "message":"The fall of the manor began when the shore folk built a bridge to an island, and founded the city of Remgard.",
         "replies":[
             {
+				"text":"N",
                 "nextPhraseID":"moriath_history_7"
             }
         ]
@@ -2129,6 +2133,7 @@
         "message":"Remgard was far from any enemies, and easily defended, so the islands in the lake were no longer important, and the supplies stopped coming.",
         "replies":[
             {
+				"text":"N",
                 "nextPhraseID":"moriath_history_8"
             }
         ]
@@ -2216,6 +2221,7 @@
         "message":"You look through the shelves, and one book catches your eye. \"A Treatise on Ghosts and Other Undead\". Maybe this has the information you seek. ",
         "replies":[
             {
+				"text":"N",
                 "nextPhraseID":"book_found_2"
             }
         ]
@@ -2225,6 +2231,7 @@
         "message":"You look at the contents page. There are chapters on zombies, liches, ... wait, what's this?\n\nThere is a chapter on spirits of the dead, with a section on raising them! This looks like what you need! ",
         "replies":[
             {
+				"text":"N",
                 "nextPhraseID":"book_found_3"
             }
         ]
@@ -2234,6 +2241,7 @@
         "message":"You flip to the section on raising spirits, and start reading.",
         "replies":[
             {
+				"text":"N",
                 "nextPhraseID":"book_found_4"
             }
         ]
@@ -2243,6 +2251,7 @@
         "message":"\"To start, it must be stressed that raising the spirits of the dead is dangerous. They do not like to be disturbed. \n\nAlways remember the chant \"estray inyay eacepay\". This chant will only work if you are the one that raised the spirit, but then it is very effective. Unless it is especially angry this will send it back to its rest on the other side.\"",
         "replies":[
             {
+				"text":"N",
                 "nextPhraseID":"book_found_5"
             }
         ],
@@ -2259,6 +2268,7 @@
         "message":"\"The spirit's natural state is one of rest, therefore raising a spirit is much more difficult than sending one back to its rest on the other side.\"",
         "replies":[
             {
+				"text":"N",
                 "nextPhraseID":"book_found_6"
             }
         ]
@@ -2268,6 +2278,7 @@
         "message":"\"The raising of the spirits of the dead is best left to priests that have been trained in how to both raise them, and send them back. Preists of The Shadow can do this with ease, but they are sworn to secrecy about their methods.\"",
         "replies":[
             {
+				"text":"N",
                 "nextPhraseID":"book_found_7"
             }
         ]
@@ -2277,6 +2288,7 @@
         "message":"\"It is known that they invoke The Shadow to do this, but no other information is available at the time of writing.\"",
         "replies":[
             {
+				"text":"N",
                 "nextPhraseID":"book_found_8"
             }
         ]
@@ -2286,6 +2298,7 @@
         "message":"\"However, there is another way. It requires a rare and valuable crystal, an oegyth crystal, and a personal item that belonged to the deceased. \n\nIt must be said that using an oegyth crystal in this way will permanently diminish it's power, so the cost is significant.\"",
         "replies":[
             {
+				"text":"N",
                 "nextPhraseID":"Book_found_9"
             }
         ]
@@ -2295,6 +2308,7 @@
         "message":"\"The oegyth crystal and the personal item must be placed on the grave or tomb of the deceased.\n\nThen utter the chant \"iseray iritspay\".\" ",
         "replies":[
             {
+				"text":"N",
                 "nextPhraseID":"book_found_10"
             }
         ]
@@ -2494,6 +2508,7 @@
         "message":"Here lies Verigil, Ninth Lord of Laeroth.",
         "replies":[
             {
+				"text":"N",
                 "nextPhraseID":"verigil_script_1",
                 "requires":[
                     {
@@ -2552,6 +2567,7 @@
         "message":"[You place an oegyth crystal and Verigil's signet ring on the tomb, and chant \"iseray iritspay\"]",
         "replies":[
             {
+				"text":"N",
                 "nextPhraseID":"verigil_0"
             }
         ],
@@ -2583,6 +2599,7 @@
         "message":"I cannot. It is not my branch of the family that bound him. You must talk to my uncle, Eyvipa. Now let me rest.\n\n[You take the oegyth crystal, but decide to leave the ring.]",
         "replies":[
             {
+				"text":"N",
                 "nextPhraseID":"R"
             }
         ],
@@ -2643,6 +2660,7 @@
         "switchToNPC":"jerelin",
         "replies":[
             {
+				"text":"N",
                 "nextPhraseID":"jerelin_1"
             }
         ]
@@ -2736,6 +2754,7 @@
         "message":"Here lies Cuned, Eighth Lord of Laeroth.",
         "replies":[
             {
+				"text":"N",
                 "nextPhraseID":"cuned_script_1",
                 "requires":[
                     {
@@ -2752,6 +2771,7 @@
         "message":"Here lies Audela, wife of Jerelin.",
         "replies":[
             {
+				"text":"N",
                 "nextPhraseID":"audela_script_1"
             }
         ]
@@ -2777,6 +2797,7 @@
         "message":"Here lies Jerelin, Seventh Lord of Laeroth.",
         "replies":[
             {
+				"text":"N",
                 "nextPhraseID":"jerelin_script_1"
             }
         ]
@@ -2805,6 +2826,7 @@
         "message":"Here lies Eyvipa, eldest son of Jerelin.",
         "replies":[
             {
+				"text":"N",
                 "nextPhraseID":"eyvipa_script_1",
                 "requires":[
                     {
@@ -2875,6 +2897,7 @@
         "message":"[You place the slightly diminished oegyth crystal and Eyvipa's candlestick on the tomb, and chant \"iseray iritspay\"]",
         "replies":[
             {
+				"text":"N",
                 "nextPhraseID":"eyvipa_0"
             }
         ],
@@ -3158,6 +3181,7 @@
         "message":"[You place the diminished oegyth crystal and Cuned's diary on the tomb, and chant \"iseray iritspay\"]",
         "replies":[
             {
+				"text":"N",
                 "nextPhraseID":"cuned_2a"
             }
         ],
@@ -3189,6 +3213,7 @@
         "message":"Eyvipa was not made Lord because he was lazy and irresponsible. If he chose to he could release the caretaker, but he is obviously still irresponsible. I am afraid Verigil is correct. I cannot release him either. You will have to talk to my father, Jerelin. Goodbye. \n\n[You take the oegyth crystal. It's gleam is fading.]",
         "replies":[
             {
+				"text":"N",
                 "nextPhraseID":"R"
             }
         ],
@@ -3289,6 +3314,7 @@
         "message":"[You place the very diminished oegyth crystal and Jerelin's seal on the tomb, and chant \"iseray iritspay\"]",
         "replies":[
             {
+				"text":"N",
                 "nextPhraseID":"jerelin_0"
             }
         ],
@@ -3352,6 +3378,7 @@
         "message":"[You place the very heavily diminished oegyth crystal and Audela's necklace on the tomb, and chant \"iseray iritspay\"]",
         "replies":[
             {
+				"text":"N",
                 "nextPhraseID":"audela_0"
             }
         ],
@@ -3373,6 +3400,7 @@
         "message":"Hmpff. Go away! \n\n[You take the rather dull looking oegyth crystal.]",
         "replies":[
             {
+				"text":"N",
                 "nextPhraseID":"R"
             }
         ],
@@ -3394,6 +3422,7 @@
         "message":"[You place the heavily diminished oegyth crystal on the tomb, and chant \"iseray iritspay\"]",
         "replies":[
             {
+				"text":"N",
                 "nextPhraseID":"cuned_b_2a"
             }
         ],
@@ -3426,6 +3455,7 @@
         "message":"He always was stubborn. You should talk to my mother, Audela. He didn't listen to most people, but he listened to her. Goodbye. \n\n[You take the oegyth crystal. It looks even duller.]",
         "replies":[
             {
+				"text":"N",
                 "nextPhraseID":"R"
             }
         ],
@@ -3563,6 +3593,7 @@
         "message":"So typical of my husband! He always found excuses to do something other than what I asked him to do. Either that, or he just hid somewhere in the manor so that I couldn't even find him. Always gave the excuse that he was doing \"something important\". What is more important than doing what your wife tells you to do? This needs to be done, and you tell him that I am telling him to do it. If he doesn't, he will feel my presence in his grave! \n\n[You take the oegyth crystal. There is almost no gleam left in it.]",
         "replies":[
             {
+				"text":"N",
                 "nextPhraseID":"R"
             }
         ],
@@ -3584,6 +3615,7 @@
         "message":"[You place the nearly depleted oegyth crystal on the tomb, and chant \"iseray iritspay\"]",
         "replies":[
             {
+				"text":"N",
                 "nextPhraseID":"jerelin_b_2a"
             }
         ],
@@ -3632,6 +3664,7 @@
         "message":"Thank you. I will do that if it releases me from the oath. I will do it immediately. Farewell, and thanks again.",
         "replies":[
             {
+				"text":"N",
                 "nextPhraseID":"R"
             }
         ],
