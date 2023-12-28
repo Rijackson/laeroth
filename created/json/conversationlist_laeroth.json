@@ -2758,9 +2758,9 @@
                 "nextPhraseID":"cuned_script_1",
                 "requires":[
                     {
-                        "requireType":"questProgress",
-                        "requireID":"laeroth_nondisplay",
-                        "value":7
+                        "requireType":"inventoryKeep",
+                        "requireID":"diary_cuned",
+                        "value":1
                     }
                 ]
             }
