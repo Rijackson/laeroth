@@ -4018,5 +4018,136 @@
                 "value":-1
             }
         ]
+    },
+    { "id":"brute_creator_1i", "message":"Test subject in" },
+    { "id":"brute_creator_1o", "message":"Minor Brute out" },
+    { "id":"brute_creator_2i", "message":"Minor Brute in" },
+    { "id":"brute_creator_2o", "message":"Major Brute out" },
+    { "id":"brute_creator_3i", "message":"Major Brute in" },
+    { "id":"brute_creator_3o", "message":"Brute complete" },
+    {
+        "id":"brute_creator_key",
+		"switchToNPC":"brute_creator",
+        "message":"Stop! You must not go in there!"
+    },
+    {
+        "id":"brute_creator_chair",
+		"switchToNPC":"brute_creator",
+        "message":"This is my chair if you please."
+    },
+    {
+        "id":"brute_creator_flash",
+        "replies":[
+            { 	"nextPhraseID":"brute_creator_flash_1", "requires":[{"requireType":"random", "requireID":"3" }] },
+            { 	"nextPhraseID":"brute_creator_flash_2", "requires":[{"requireType":"random", "requireID":"5" }] },
+            {	"nextPhraseID":"brute_creator_flash_0" }]
+    },
+    {
+        "id":"brute_creator_flash_0",
+        "rewards":[{ "rewardType":"alignmentSet", "rewardID":"brute_creator_flash", "value":0 }]
+    },
+    {
+        "id":"brute_creator_flash_1",
+        "rewards":[{ "rewardType":"alignmentSet", "rewardID":"brute_creator_flash", "value":1 }]
+    },
+    {
+        "id":"brute_creator_flash_2",
+        "rewards":[{ "rewardType":"alignmentSet", "rewardID":"brute_creator_flash", "value":2 }]
+    },
+    {
+        "id":"brute_creator",
+        "message":"Oh, a visitor. How unusual.\nCome in, come in. I am Servelath.",
+        "replies":[
+            {
+                "text":"Hi, I am $playername.",
+                "nextPhraseID":"brute_creator_2"
+            }
+        ]
+    },
+    {
+        "id":"brute_creator_2",
+        "message":"You certainly want to know everything about these brutes outside.",
+        "replies":[
+            {
+                "text":"Do I?",
+                "nextPhraseID":"brute_creator_10"
+            },
+            {
+                "text":"Well, if you say so.",
+                "nextPhraseID":"brute_creator_10"
+            },
+            {
+                "text":"Yes. Fascinating beings they are.",
+                "nextPhraseID":"brute_creator_4"
+            }
+        ]
+    },
+    {
+        "id":"brute_creator_4",
+        "message":"Indeed. And you are talking to the leading expert in these matters.",
+        "replies":[
+            {
+                "text":"These 'matters' tend to get in my way outside.",
+                "nextPhraseID":"brute_creator_10"
+            }
+        ]
+    },
+    {
+        "id":"brute_creator_10",
+        "message":"Here you can see the latest research on brutes.",
+        "replies":[
+            {
+                "text":"You are exploring Brutes?",
+                "nextPhraseID":"brute_creator_20"
+            }
+        ]
+    },
+    {
+        "id":"brute_creator_20",
+        "message":"Exploring? Well, no. I am far more gone already.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brute_creator_22"
+            }
+        ]
+	},
+    {
+        "id":"brute_creator_22",
+        "message":"'Creating' fits better. Best I'll show you.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brute_creator_24"
+            }
+        ]
+	},
+    {
+        "id":"brute_creator_24",
+        "message":"Of course I can't explain too much to you. Otherwise my ideas would soon be stolen.",
+        "replies":[
+            {
+                "text":"That is understandable.",
+                "nextPhraseID":"brute_creator_30"
+            },
+            {
+                "text":"Do I look like a thief?",
+                "nextPhraseID":"brute_creator_30"
+            }
+        ]
+	},
+    {
+        "id":"brute_creator_30",
+        "message":"I'll just say that my Brutes evolve from rats. There are too many of them anyway.",
+        "replies":[
+            {
+                "text":"I know. We had problems with rats too.",
+                "nextPhraseID":"brute_creator_40"
+            }
+        ]
+    },
+    {
+        "id":"brute_creator_40",
+        "message":"You're welcome to look around a little. But don't enter the Brute bake rooms."
     }
 ]

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="20" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="12" nextobjectid="9">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="21" nextobjectid="28">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -183,120 +183,179 @@
  <tileset firstgid="7577" name="map_ratdom" tilewidth="32" tileheight="32" tilecount="108" columns="18">
   <image source="../drawable/map_ratdom.png" width="576" height="192"/>
  </tileset>
- <layer id="1" name="Ground" width="20" height="20">
+ <layer id="1" name="Ground" width="30" height="20">
   <data encoding="base64" compression="zlib">
-   eJyllD0OgzAMRlG23H/NFQId2Gl6g5Yeob1HQcWq9eE/NcOTGL68EMfxmIZhBK4OmLfWt42Hw2K4J8iuGy+HO7jRx7NzjsHdC/iiDo3dWZmzHPQ4a5JryTMlndF8WEf0VaNHJC+eGX03o0cI78yNZZ5Gj/A9NF87ei/SI3yPSzr7poBLQ/K1P11UZ+7r+TeqM/q8NSWY83wF7t/zSTl6B9psk94Mz1Mv7S5v7kXgc8qbexHe+cucf989fADhyTAn
+   eJy9lUESgjAMRRl23H/LFagsHLdVb4C4dYf3EMZm/Mb8tKPg4k0dEvOT0k9DXVVBcSQEWC2sXKuGlX+auRD6tEZVZ+fkajryn3FmIpzTOkB+TL3q3J7UQF18fms4V4hP0MPS66F5pye1UNfTKkFrlugutIk1ddk8qBt+nF1ryju3cmOhbpvZD4kF0JLzKTm450P9ObPWFb/k4uK/kfSm37XW1XsjfolQ24rr+TTB0WX9ol9Z3POf1TN6yetX6n9z5qyeu9re37XRPXeFs66N6ObyWicPfVb6/cnpii8F65wyvF6sevgd8OqxO9oD64r/Fk12724B+o/du1twb57sm9fvf/AA46Pw3Q==
   </data>
  </layer>
- <layer id="8" name="ratdom_Ground" width="20" height="20" visible="0">
+ <layer id="2" name="Objects" width="30" height="20">
   <data encoding="base64" compression="zlib">
-   eJxjYKAuOMAEwdQCl5ggmFrgCRMEUwts4YRgaoE5TBA8CkbBKBgFgx0AAADpB68=
+   eJxjYBgaQJsfv/wuPsrMF2eCYGQ+CMggiXExoerhBPJPkWnvGibCalZD3SSFptadhYGhCYidWcizGxd4BrTHGcmuOxwQNxDjVnxgLoX6YWA2lczBBfZwoNqFy93zSHTHITFUPrq5ZzgYsAJOGvsXF3iMJ84fE+Gmi0SoCUZSA7JLEk0PLK7xpR308EF2G7awe4xmJ7mAUNiQa3YwHn2U5kEYcMYSZrc5yDcflBf24Ei/pABOHHGDHo/IZQAs38DSDq7yAT0NkeJebGae4cAvjw/MxeLWw2LkmTWUwTExwmpoAbbT2V4AX7Uo8A==
   </data>
  </layer>
- <layer id="2" name="Objects" width="20" height="20">
+ <layer id="4" name="Above" width="30" height="20" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYBiaQJwJgpH56IALixg6WANUs5gVu9xUoHgOEK+G2iWFwzwDIeziHwQJ278ajxvnEuF+bPbhMxMGZuNQQ6qdxAJyzdXiJ85MYvwMAqB4lKFCmD8DqkuEppsbghD7YelNCIsZ2NLCGiLtAqXPNFb8fgSZdZ2I9IYMpkLdf5pEfSAwj4T4RPYnejjgSocwdc+ItAebOYfFiFMPU4fLLYMBHMPjF3LAdiqZBwCYXR+U
+   eJxjYMANDjDhkaQzOCxGmjgpYLMYdkyqvbjMIGQPOg6WZGC4hKR3DweCDRMX5ae+vZdEiQsvYu0l1n5SASlmDBZ78YHZWPLZZSQ91HA7NnOxycHSF3paOIxDHF0eF8AlHyiJP93hMxfZvbjchi5PShhiCyt0O7EB5PwKA6TYi818css5StIMMX6lhb3E+hVfWiYHEGsvNeocZDB3AOtZaochsYDaYThY7QUA/BtpiQ==
   </data>
  </layer>
- <layer id="4" name="Above" width="20" height="20">
+ <layer id="14" name="Above0" width="30" height="20" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYMANDjDhkSQBHBajrv5LVDaPUkBt82gJLg9yvyObRw2zkc2gNN2Awo4cM7CFOblmgQC2cKEkrND1UuI2EEDXS6zbiE2bxJo3l8jyi1h1pIChlM8oAQA5VhqH
+   eJxjYMANDjDhkaQzOCxGmjgpYLMYdkyqvbjMIGQPOg6WZGC4hKR3DweCDRMX5ae+vZdEiQsvYu0l1n5SASlmDBZ78YHZWPLZZSQ91HA7NnOxycHSF3paOIxDHF0eF8AlHyiJP93hMxfZvbjchi5PShhiCyt0O7EB5PwKA6TYi818css5StIMMX6lhb3E+hVfWiYHEGsvNeocZDB3AOtZaochsYDaYThY7QUA/BtpiQ==
   </data>
  </layer>
- <layer id="9" name="Top" width="20" height="20" visible="0">
+ <layer id="15" name="Above1" width="30" height="20">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMApIBwAGQAAB
+   eJxjYMANDjDhkaQzOCxGmjgpYLMYdkyqvbjMIGQPOg6WZGC4hKR3DweCDRMX5ae+vZdEiQsvYu0l1n5SASlmDBZ78YHZWPLZZSQ91HA7NnOxycHSF3paOIxDHF0eF8AlHyiJP93hMxfZvbjchi5PShhiCyt0O7EB5PwKA6TYi818css5StIMMX6lhb3E+hVfWiYHEGsvNeocZDB3AOtZaochsYDaYThY7QUA/BtpiQ==
   </data>
  </layer>
- <layer id="10" name="Top0" width="20" height="20" visible="0">
+ <layer id="9" name="Top" width="30" height="20" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMApIBwAGQAAB
+   eJxjYBh+4LAYZfKj9lLHXhiYyzQw9oLAZSr6HWbvPCL8g+zG2WjqSQ2PS1CzNjAR9g+t4pqW4BIeN1M77YyC4QvQ8xmtACVpcjQ9jywAAOdqEp0=
   </data>
  </layer>
- <layer id="11" name="ratdom_Top" width="20" height="20" visible="0">
+ <layer id="18" name="Top0" width="30" height="20" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYBg+QFyCgUECiCUlqGOeOtAcDSDWJMI8ats9WOwaygA9nAIlGRiCgDhYkjzz0NNDItCcJCBORjMP3V5CcUXIXej2EkqTIHcZAbEjmpnE+h9b+sLmV1z+J+R+egOYf0bzDPUBAFkQEaQ=
+   eJxjYBh+4LAYZfKj9lLHXhiYyzQw9oLAZSr6HWbvPCL8g+zG2WjqSQ2PS1CzNjAR9g+t4pqW4BIeN1M77YyC4QvQ8xmtACVpcjQ9jywAAOdqEp0=
   </data>
  </layer>
- <layer id="8" name="Walkable" width="20" height="20" visible="0">
+ <layer id="19" name="Top1" width="30" height="20">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsBEHBgFccsMNYwOU6CUW0MKOgQwLYs2ldrzRIi1QSy0+NeTEJyFxYgG6XlLMwpdOcJlPjBuIMY+QOaTai83/1EhDI8E8ADfj3Yw=
+   eJxjYBh+4LAYefJbgOJbCeilhb1HgOJHqWAvLvcj20upH7GZS8j9c5mwqyHXLaTqQ1dPbnjD9M1jIqwWFDYw9bPR1M8lQj8yuAR16wagvstkprHBDC4RSDvUBNRM/6QASvM4JWCk+Bk9n9EKUJImqZ2eR8HgBgBCuipS
   </data>
  </layer>
- <layer id="9" name="ratdom_Walkable" width="20" height="20" visible="0">
+ <layer id="20" name="Top2" width="30" height="20" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYKAu2CgGwSPFPGqDwe6+UTAKRsEogAEAgO8GOQ==
+   eJxjYBh+4LAYZfJbgPJbCaihlr3Idh0B0kfJtBefm7HZS65d6OYSY85cJsrsGWxgHon+mY2mntTwuAQN3w1AfZcpTNuDEVzC4+bhlHbILVcoBdTI60MBoOczWgFK0uRwSs+jgDAAANaIHFE=
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents">
+ <layer id="8" name="Walkable" width="30" height="20" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJztk8ENACAIA53C/VdgQ/8GSiXUj5Lw0dJDCTbHsMczig4fhuPVRHxP081lPBhupYesPyV3/999DkiHuNX717iRpsu3uq/KXT/hKiLjsvWqXpCGmX+kY9+Q+SEmqmXObuTnanMB3wYdWQ==
+  </data>
+ </layer>
+ <objectgroup id="5" name="Mapevents" visible="0">
   <object id="1" name="exit" type="mapchange" x="64" y="608" width="32" height="32">
    <properties>
     <property name="map" value="mountainlake8"/>
     <property name="place" value="cave"/>
    </properties>
   </object>
-  <object id="2" name="sign_crossglen_cave" type="sign" x="256" y="320" width="64" height="32"/>
+  <object id="21" name="brute_creator_3o" type="script" x="224" y="352" width="32" height="32"/>
+  <object id="22" name="brute_creator_3i" type="script" x="352" y="160" width="32" height="32"/>
+  <object id="15" name="brute_creator_2o" type="script" x="480" y="352" width="32" height="32"/>
+  <object id="17" name="brute_creator_2i" type="script" x="608" y="320" width="32" height="32"/>
+  <object id="18" name="brute_creator_1o" type="script" x="704" y="288" width="32" height="32"/>
+  <object id="20" name="brute_creator_1i" type="script" x="896" y="288" width="32" height="32"/>
+  <object id="19" name="brute_creator_chair" type="script" x="672" y="96" width="32" height="32"/>
+  <object id="26" name="brute_creator_flash" type="script" x="32" y="96" width="896" height="480">
+   <properties>
+    <property name="when" value="always"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup id="6" name="Spawn" visible="0">
-  <object id="3" name="crossglen_caverat" type="spawn" x="128" y="352" width="384" height="160">
+  <object id="6" name="brute_origin1" type="spawn" x="832" y="96" width="96" height="416">
    <properties>
-    <property name="quantity" value="4"/>
-    <property name="spawngroup" value="crossglen_caverat"/>
+    <property name="ignoreAreas" value="true"/>
+    <property name="quantity" value="10"/>
+    <property name="spawngroup" value="brute_origin1"/>
    </properties>
   </object>
-  <object id="4" name="crossglen_caverat2" type="spawn" x="544" y="288" width="64" height="160">
+  <object id="27" name="brute_origin2b" type="spawn" x="544" y="288" width="224" height="160">
    <properties>
-    <property name="quantity" value="2"/>
-    <property name="spawngroup" value="crossglen_caverat2"/>
+    <property name="ignoreAreas" value="true"/>
+    <property name="quantity" value="5"/>
+    <property name="spawngroup" value="tough_cave_rat"/>
    </properties>
   </object>
-  <object id="5" name="crossglen_caveboss" type="spawn" x="64" y="128" width="32" height="32">
+  <object id="4" name="brute_origin2" type="spawn" x="704" y="96" width="128" height="320">
    <properties>
-    <property name="spawngroup" value="crossglen_caveboss"/>
+    <property name="ignoreAreas" value="true"/>
+    <property name="quantity" value="5"/>
+    <property name="spawngroup" value="tough_cave_rat"/>
    </properties>
   </object>
-  <object id="6" name="crossglen_caverat_1" type="spawn" x="224" y="96" width="352" height="128">
+  <object id="9" name="brute_origin3b" type="spawn" x="384" y="288" width="192" height="224">
    <properties>
-    <property name="quantity" value="4"/>
-    <property name="spawngroup" value="crossglen_caverat"/>
+    <property name="ignoreAreas" value="true"/>
+    <property name="quantity" value="5"/>
+    <property name="spawngroup" value="primwolf1"/>
    </properties>
   </object>
-  <object id="8" name="ratdom_rat" type="spawn" x="224" y="0" width="32" height="32"/>
-  <object id="10" name="ratdom_rat_statue" type="spawn" x="64" y="128" width="32" height="32">
+  <object id="10" name="brute_origin3" type="spawn" x="256" y="64" width="192" height="288">
    <properties>
-    <property name="active" value="false"/>
+    <property name="ignoreAreas" value="true"/>
+    <property name="quantity" value="5"/>
+    <property name="spawngroup" value="primwolf1"/>
+   </properties>
+  </object>
+  <object id="11" name="brute_origin4" type="spawn" x="32" y="64" width="192" height="448">
+   <properties>
+    <property name="ignoreAreas" value="true"/>
+    <property name="quantity" value="8"/>
+    <property name="spawngroup" value="mbrute_4"/>
+   </properties>
+  </object>
+  <object id="12" name="brute_creator" type="spawn" x="608" y="128" width="96" height="64">
+   <properties>
+    <property name="quantity" value="1"/>
+    <property name="spawngroup" value="brute_creator"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="12" name="keys"/>
- <objectgroup id="13" name="Replace" visible="0">
-  <object id="11" name="ratdom_nondisplay_1" type="replace" x="0" y="0" width="640" height="608">
+ <objectgroup id="12" name="Keys" visible="0">
+  <object id="51" name="brute_creator_3" type="key" x="128" y="128" width="224" height="96">
    <properties>
-    <property name="Top" value="ratdom_Top"/>
-    <property name="requireId" value="ratdom_nondisplay"/>
-    <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="1"/>
-   </properties>
-  </object>
-  <object id="12" name="ratdom_nondisplay_not_1" type="replace" x="0" y="0" width="640" height="608">
-   <properties>
-    <property name="Top" value="Top0"/>
-    <property name="requireId" value="ratdom_nondisplay"/>
+    <property name="phrase" value="brute_creator_key"/>
+    <property name="requireId" value="andor"/>
     <property name="requireNegation" value="true"/>
     <property name="requireType" value="questProgress"/>
     <property name="requireValue" value="1"/>
    </properties>
   </object>
-  <object id="9" name="ratdom_nondisplay_3" type="replace" x="0" y="32" width="64" height="160">
+  <object id="23" name="brute_creator_2" type="key" x="512" y="352" width="96" height="96">
    <properties>
-    <property name="Above" value="Top0"/>
-    <property name="Ground" value="ratdom_Ground"/>
-    <property name="Walkable" value="ratdom_Walkable"/>
-    <property name="requireId" value="ratdom_nondisplay"/>
+    <property name="phrase" value="brute_creator_key"/>
+    <property name="requireId" value="andor"/>
+    <property name="requireNegation" value="true"/>
     <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="3"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+  <object id="14" name="brute_creator_1" type="key" x="736" y="192" width="160" height="32">
+   <properties>
+    <property name="phrase" value="brute_creator_key"/>
+    <property name="requireId" value="andor"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="7" name="Keys"/>
+ <objectgroup id="13" name="Replace" visible="0">
+  <object id="24" name="flash2" type="replace" x="32" y="32" width="864" height="416">
+   <properties>
+    <property name="Top" value="Top2"/>
+    <property name="requireId" value="brute_creator_flash"/>
+    <property name="requireType" value="factionScoreEquals"/>
+    <property name="requireValue" value="2"/>
+   </properties>
+  </object>
+  <object id="24" name="flash1" type="replace" x="32" y="32" width="864" height="416">
+   <properties>
+    <property name="Top" value="Top1"/>
+    <property name="requireId" value="brute_creator_flash"/>
+    <property name="requireType" value="factionScoreEquals"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+  <object id="25" name="flash0" type="replace" x="32" y="32" width="864" height="416">
+   <properties>
+    <property name="Top" value="Top0"/>
+    <property name="requireId" value="brute_creator_flash"/>
+    <property name="requireType" value="factionScoreEquals"/>
+    <property name="requireValue" value="0"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

@@ -527,5 +527,26 @@
         "name":"Adakin",
         "iconID":"monsters_tometik1:2",
         "unique":1
+    },
+    {
+        "id":"brute_creator",
+        "name":"Servelath",
+        "iconID":"monsters_ld1:113",
+        "spawnGroup":"brute_creator",
+        "phraseID":"brute_creator"
+    },
+    {
+        "id":"brute_origin1",
+        "name":"Tiny rat",
+        "iconID":"monsters_rats:0",
+        "maxHP":2,
+        "monsterClass":"animal",
+        "attackDamage":{
+            "min":1,
+            "max":1
+        },
+        "spawnGroup":"brute_origin1",
+        "attackCost":9,
+        "attackChance":50
     }
 ]
