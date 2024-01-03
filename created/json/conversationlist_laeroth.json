@@ -843,6 +843,7 @@
         "message":"Anyways...it was back when we were kids. You see, Gylew and I are half-brothers.",
         "replies":[
             {
+                "text":"N",
                 "nextPhraseID":"forenza_island_60"
             }
         ]
@@ -852,6 +853,7 @@
         "message":"We have the same father. After Gylew's mom died of the Great Plague, father traveled to Brightport in search of a new wife.",
         "replies":[
             {
+                "text":"N",
                 "nextPhraseID":"forenza_island_70"
             }
         ]
@@ -871,6 +873,7 @@
         "message":"Eventually, they were married and I was soon born. Gylew and I were close in age and often got along great.",
         "replies":[
             {
+                "text":"N",
                 "nextPhraseID":"forenza_island_90"
             }
         ]
@@ -880,6 +883,7 @@
         "message":"But father always favored Gylew. They often took long trips in search of exotic and unique coins. I was left out of these adventures most of the time.",
         "replies":[
             {
+                "text":"N",
                 "nextPhraseID":"forenza_island_100"
             }
         ]
@@ -900,18 +904,20 @@
     },
     {
         "id":"forenza_island_110",
-        "message":"OK...Gylew and father discovered this story of looted gold coins that was rumored to be hidden here in the Laeroth Manor. But neither was strong enough to dare try to retrieve it.",
+        "message":"OK...Gylew and father discovered this story of looted gold coins that were rumored to be hidden here in the Laeroth Manor. But neither was strong enough to dare try to retrieve it.",
         "replies":[
             {
+                "text":"N",
                 "nextPhraseID":"forenza_island_120"
             }
         ]
     },
     {
         "id":"forenza_island_120",
-        "message":"For many years afterwards, this is all the family ever talked about. During this time, my father and I grew a part and eventually, my mother and I left him and returned to her hometown of Brightport.",
+        "message":"For many years afterwards, this is all the family ever talked about. During this time, my father and I grew apart and eventually, my mother and I left him and returned to her hometown of Brightport.",
         "replies":[
             {
+                "text":"N",
                 "nextPhraseID":"forenza_island_130"
             }
         ]
@@ -935,6 +941,7 @@
         "message":"Angry with him, I was able to steal this key [Forenza shows you what you suspect is the key to the chest] from his estate before it was given to Gylew.",
         "replies":[
             {
+                "text":"N",
                 "nextPhraseID":"forenza_island_150"
             }
         ]
