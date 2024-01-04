@@ -4757,6 +4757,22 @@
         "message":"You're welcome to look around a little. But don't enter the Brute Bake rooms."
     },
     {
+        "id":"verigil_seal_found_test_nut",
+        "message":"You found a seal with \"V\" engraved on it. This should work.\nBut it still must be coded properly (nut).",
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"seal_jerelin",
+                "value":1
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"laeroth_nondisplay",
+                "value":9
+            }
+        ]
+    },
+    {
         "id":"gylew4a",
         "message":"You know that stuff is illegal and that you can get in serious trouble just for possessing it?",
         "replies":[
