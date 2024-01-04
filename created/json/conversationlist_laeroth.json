@@ -620,7 +620,7 @@
     },
     {
         "id":"laerothbasement2_korhald_sign",
-        "message":"[Not paying attention, you almost fall.]",
+        "message":"Not paying attention, you almost fall.",
         "replies":[
             {
                 "text":"Oops, I should be more careful.",
@@ -633,6 +633,7 @@
                 ]
             },
             {
+                "text":"N",
                 "nextPhraseID":"laerothbasement2_korhald_sign_30",
                 "requires":[
                     {
@@ -644,6 +645,7 @@
                 ]
             },
             {
+                "text":"N",
                 "nextPhraseID":"laerothbasement2_korhald_sign_40",
                 "requires":[
                     {
@@ -706,7 +708,7 @@
         "message":"As you approach these crates, you quickly develop an appreciation for their age. You also notice the vast amount of nasty cobwebs surrounding them. Yet something compels you to look further.",
         "replies":[
             {
-                "text":"[I better not. There could be danger lurking inside.]",
+                "text":"I better not. There could be danger lurking inside.",
                 "nextPhraseID":"X"
             },
             {
@@ -772,7 +774,7 @@
     },
     {
         "id":"laerothbasement1_chest_examine_locked",
-        "message":"[The chest is locked.]",
+        "message":"The chest is locked.",
         "replies":[
             {
                 "text":"[I should look somewhere else.]",
