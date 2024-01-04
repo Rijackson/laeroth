@@ -1113,6 +1113,7 @@
         "message":"[With an ever growing smile upon his face, Forenza inserts the first key and then the second. He then proceeds to slowly open the chest.]",
         "replies":[
             {
+                "text":"N",
                 "nextPhraseID":"korhald_chest_examine_10"
             }
         ]
@@ -1132,6 +1133,7 @@
         "message":"[He then begins to feverlessly sift through the coins, transferring each one to his bag. When to his surpirse, he finds something...]",
         "replies":[
             {
+                "text":"N",
                 "nextPhraseID":"korhald_chest_examine_20"
             }
         ]
@@ -1161,6 +1163,7 @@
         "message":"But not all hope is lost. You see this may shows the great river that is just right over there [points northeast] behind those trees.Anyone who follows the map going east, should have no problem reaching wherever this map is leading to.",
         "replies":[
             {
+                "text":"N",
                 "nextPhraseID":"korhald_chest_examine_50"
             }
         ]
@@ -1350,6 +1353,7 @@
         "message":"Thank you? It is so nice to finally be this close to my life's dream.",
         "replies":[
             {
+                "text":"N",
                 "nextPhraseID":"korhald_chest_examine_10"
             }
         ]
