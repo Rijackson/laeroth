@@ -301,5 +301,38 @@
                 "finishesQuest":1
             }
         ]
+    },
+    {
+        "id":"brute_creator",
+        "name":"Brutes",
+        "showInLog":1,
+        "stages":[
+            {
+                "progress":10,
+                "logText":"I have met Birgo, a fisherman on the long way to Remgard. He wondered why only few people come along nowadays."
+            },
+            {
+                "progress":20,
+                "logText":"I told Birgo about the many nasty monsters along the way."
+            },
+            {
+                "progress":30,
+                "logText":"I have discovered a cave where brutes seem to pour out."
+            },
+            {
+                "progress":35,
+                "logText":"Then I have told Birgo about this cave full of brutes."
+            },
+            {
+                "progress":40,
+                "logText":"I have talked to Servelath, a scientist about brute matters. He has built up a brute production facility."
+            },
+            {
+                "progress":90,
+                "logText":"I told Birgo what I have learned from Servelath. He thanked me for this new story he could tell his wife.",
+                "rewardExperience":2000,
+                "finishesQuest":1
+            }
+        ]
     }
 ]

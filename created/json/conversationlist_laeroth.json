@@ -4059,28 +4059,464 @@
         ]
     },
     {
+        "id":"brute_fisherman",
+        "message":"Hush.",
+        "replies":[
+            {
+                "text":"[low voice] Oh hi, cought anything already?",
+                "nextPhraseID":"brute_fisherman"
+            },
+            {
+                "text":"You don't seem to be used to people coming over here.",
+                "nextPhraseID":"brute_fisherman_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brute_creator",
+						"value":10,
+						"negate":true
+                    }
+                ]
+            },
+            {
+                "text":"About the few people who come this way ...",
+                "nextPhraseID":"brute_fisherman_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brute_creator",
+						"value":10
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brute_creator",
+						"value":30,
+						"negate":true
+                    }
+                ]
+            },
+            {
+                "text":"About the monsters along the way here ...",
+                "nextPhraseID":"brute_fisherman_20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brute_creator",
+						"value":20
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brute_creator",
+						"value":30,
+						"negate":true
+                    }
+                ]
+            },
+            {
+                "text":"I saw something extremely strange.",
+                "nextPhraseID":"brute_fisherman_30",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brute_creator",
+						"value":30
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brute_creator",
+						"value":35,
+						"negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Hi again. Any news?",
+                "nextPhraseID":"brute_fisherman_35",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brute_creator",
+						"value":35
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brute_creator",
+						"value":40,
+						"negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Hi again. Any news?",
+                "nextPhraseID":"brute_fisherman_40",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brute_creator",
+						"value":35
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brute_creator",
+						"value":40
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brute_creator",
+						"value":90,
+						"negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Hi Bidro.",
+                "nextPhraseID":"brute_fisherman_90",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brute_creator",
+						"value":90
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brute_fisherman_2",
+        "message":"Sigh. OK, let's talk. The fish have already fled anyway.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brute_fisherman_4"
+            }
+        ]
+    },
+    {
+        "id":"brute_fisherman_4",
+        "message":"Well yes, you're right. There was a time when this path was almost crowded.",
+        "replies":[
+            {
+                "text":"Really?",
+                "nextPhraseID":"brute_fisherman_5"
+            }
+        ]
+    },
+    {
+        "id":"brute_fisherman_5",
+        "message":"It's hard to imagine now. I'm not used to people coming here anymore.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brute_fisherman_6"
+            }
+        ]
+    },
+    {
+        "id":"brute_fisherman_6",
+        "message":"But I want to introduce myself first. My name is Bidro, I live in Remgard.",
+        "replies":[
+            {
+                "text":"Nice to meet you. I am $playername.\nEhm, may I ask you a question?",
+                "nextPhraseID":"brute_fisherman_7"
+            }
+        ]
+    },
+    {
+        "id":"brute_fisherman_7",
+        "message":"Sure, just ask.",
+        "replies":[
+            {
+                "text":"From a distance I would have thought you were a woman. Why are you wearing women's clothes?",
+                "nextPhraseID":"brute_fisherman_7b"
+            }
+        ]
+    },
+    {
+        "id":"brute_fisherman_7b",
+        "message":"Because I can. Period, no discussion.",
+        "replies":[
+            {
+                "text":"Oh, your sensitive spot, sorry. Let us talk about something else.",
+                "nextPhraseID":"brute_fisherman_8"
+            }
+        ]
+    },
+    {
+        "id":"brute_fisherman_8",
+        "message":"You just came this way. Do you know why it's been used so little lately?",
+        "replies":[
+            {
+                "text":"Well, I think so.",
+                "nextPhraseID":"brute_fisherman_10"
+            }
+        ]
+    },
+    {
+        "id":"brute_fisherman_10",
+        "message":"So what's stopping people from using the route?",
+        "replies":[
+            {
+                "text":"I will find out and tell you.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"That's easy to say. I went that route recently after all.",
+                "nextPhraseID":"brute_fisherman_20"
+            },
+            {
+                "text":"That's none of my concern.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Did you see my brother Andor lately? He looks a bit like me.",
+                "nextPhraseID":"brute_fisherman_12"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brute_creator",
+                "value":10
+            }
+        ]
+    },
+    {
+        "id":"brute_fisherman_12",
+        "message":"Well, yes indeed.",
+        "replies":[
+            {
+                "text":"Great - when was it?",
+                "nextPhraseID":"brute_fisherman_14"
+            }
+        ]
+    },
+    {
+        "id":"brute_fisherman_14",
+        "message":"I don't know. Here it is one day like another.",
+        "replies":[
+            {
+                "text":"Doesn't help me much.",
+                "nextPhraseID":"brute_fisherman_16"
+            }
+        ]
+    },
+    {
+        "id":"brute_fisherman_16",
+        "message":"If he comes by again, I'll tell him that you asked about him.",
+        "replies":[
+            {
+                "text":"Fine.",
+                "nextPhraseID":"brute_fisherman_10"
+            }
+        ]
+    },
+    {
+        "id":"brute_fisherman_20",
+        "message":"Have you been able to find out why the path is rarely used anymore?",
+        "replies":[
+            {
+                "text":"Yes. There are many vicious monsters such as wolves or poisonous spiders. But Arulir and different brutes in particular haunt the area.",
+                "nextPhraseID":"brute_fisherman_24"
+            },
+            {
+                "text":"It's a long and boring road. Simply because of that.",
+                "nextPhraseID":"brute_fisherman_22"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brute_creator",
+                "value":20
+            }
+        ]
+    },
+    {
+        "id":"brute_fisherman_22",
+        "message":"Yes, it always was long.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brute_fisherman_24"
+            }
+        ]
+    },
+    {
+        "id":"brute_fisherman_24",
+        "message":"Please go and take a closer look. There must be more to it."
+    },
+    {
+        "id":"brute_fisherman_30",
+        "message":"Ohh! Do not keep me in suspense.",
+        "replies":[
+            {
+                "text":"I have discovered a cave where brutes seem to pour out.",
+                "nextPhraseID":"brute_fisherman_32"
+            },
+            {
+                "text":"I have discovered a cave, but I don't know what's inside.",
+                "nextPhraseID":"brute_fisherman_24"
+            }
+        ]
+    },
+    {
+        "id":"brute_fisherman_32",
+        "message":"Oh interesting. What did you find in the cave?",
+        "replies":[
+            {
+                "text":"It was full of monsters. I didn't dare go in deeper.",
+                "nextPhraseID":"brute_fisherman_35",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brute_creator",
+						"value":40,
+						"negate":true
+                    }
+                ]
+            },
+            {
+                "text":"It was full of monsters. But that wasn't everything.",
+                "nextPhraseID":"brute_fisherman_40",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brute_creator",
+						"value":40
+                    }
+                ]
+            },
+            {
+                "text":"Nothing special, why?",
+                "nextPhraseID":"brute_fisherman_24"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brute_creator",
+                "value":35
+            }
+        ]
+    },
+    {
+        "id":"brute_fisherman_35",
+        "message":"Please find out what's in the cave. Then I can tell my wife a good story in the evening."
+    },
+    {
+        "id":"brute_fisherman_40",
+        "message":"Finally tell - what was so exciting in the cave?",
+        "replies":[
+            {
+                "text":"All the brutes along the coast actually come from this cave.",
+                "nextPhraseID":"brute_fisherman_41"
+            }
+        ]
+    },
+    {
+        "id":"brute_fisherman_41",
+        "message":"No!",
+        "replies":[
+            {
+                "text":"Yes, I saw it with my own eyes.",
+                "nextPhraseID":"brute_fisherman_42"
+            }
+        ]
+    },
+    {
+        "id":"brute_fisherman_42",
+        "message":"But how can that be?",
+        "replies":[
+            {
+                "text":"I have talked to Severath. He claims to be a researcher who turns rats into these brutes to study them.",
+                "nextPhraseID":"brute_fisherman_44"
+            }
+        ]
+    },
+    {
+        "id":"brute_fisherman_44",
+        "message":"Really? Very amazing!",
+        "replies":[
+            {
+                "text":"I don't understand how he does it exactly, but the rats become these brutes in several stages.",
+                "nextPhraseID":"brute_fisherman_46"
+            }
+        ]
+    },
+    {
+        "id":"brute_fisherman_46",
+        "message":"Stages? What do you mean?",
+        "replies":[
+            {
+                "text":"There are several bake rooms where the animals take on an even more hideous appearance. Until they finally come out of the cave as brutes.",
+                "nextPhraseID":"brute_fisherman_50"
+            }
+        ]
+    },
+    {
+        "id":"brute_fisherman_50",
+        "message":"Wow, what a great story!",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brute_fisherman_90"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brute_creator",
+                "value":90
+            }
+        ]
+    },
+    {
+        "id":"brute_fisherman_90",
+        "message":"Now I know where these brutes suddenly come from.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brute_fisherman_92"
+            }
+        ]
+    },
+    {
+        "id":"brute_fisherman_92",
+        "message":"My wife will love this story!",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brute_fisherman_94"
+            }
+        ]
+    },
+    {
+        "id":"brute_fisherman_94",
+        "message":"... and won't believe a word I say."
+    },
+    {
         "id":"brute_creator_1i",
-        "message":"Test subject in"
+        "message":"Test subject - input"
     },
     {
         "id":"brute_creator_1o",
-        "message":"Minor Brute out"
+        "message":"Minor Brute - output"
     },
     {
         "id":"brute_creator_2i",
-        "message":"Minor Brute in"
+        "message":"Minor Brute - input"
     },
     {
         "id":"brute_creator_2o",
-        "message":"Major Brute out"
+        "message":"Major Brute - output"
     },
     {
         "id":"brute_creator_3i",
-        "message":"Major Brute in"
+        "message":"Major Brute - input"
     },
     {
         "id":"brute_creator_3o",
-        "message":"Brute complete"
+        "message":"Brute complete - output"
     },
     {
         "id":"brute_creator_key",
@@ -4135,6 +4571,11 @@
                 "rewardType":"alignmentSet",
                 "rewardID":"brute_creator_flash",
                 "value":1
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brute_creator",
+                "value":30
             }
         ]
     },
@@ -4145,6 +4586,11 @@
                 "rewardType":"alignmentSet",
                 "rewardID":"brute_creator_flash",
                 "value":2
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brute_creator",
+                "value":30
             }
         ]
     },
@@ -4167,7 +4613,7 @@
                 "nextPhraseID":"brute_creator_10"
             },
             {
-                "text":"Well, if you say so.",
+                "text":"Well, if you say so ...",
                 "nextPhraseID":"brute_creator_10"
             },
             {
@@ -4181,17 +4627,27 @@
         "message":"Indeed. And you are talking to the leading expert in these matters.",
         "replies":[
             {
-                "text":"These 'matters' tend to get in my way outside.",
+                "text":"These 'matters' tend to run around and get in my way.",
+                "nextPhraseID":"brute_creator_6"
+            }
+        ]
+    },
+    {
+        "id":"brute_creator_6",
+        "message":"Yes, they love to do so. Aren't they adorable?",
+        "replies":[
+            {
+                "text":"Ehh ...",
                 "nextPhraseID":"brute_creator_10"
             }
         ]
     },
     {
         "id":"brute_creator_10",
-        "message":"Here you can see the latest research on brutes.",
+        "message":"Here in my laboratory you can see the latest research on brutes.",
         "replies":[
             {
-                "text":"You are exploring Brutes?",
+                "text":"You are exploring brutes?",
                 "nextPhraseID":"brute_creator_20"
             }
         ]
@@ -4211,7 +4667,7 @@
         "message":"'Creating' fits better. Best I'll show you.",
         "replies":[
             {
-                "text":"N",
+                "text":"Oh dear!",
                 "nextPhraseID":"brute_creator_24"
             }
         ]
@@ -4226,30 +4682,86 @@
             },
             {
                 "text":"Do I look like a thief?",
+                "nextPhraseID":"brute_creator_26",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"farrik",
+						"value":40,
+						"negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Do I look like a thief?",
+                "nextPhraseID":"brute_creator_28",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"farrik",
+						"value":40
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brute_creator_26",
+        "message":"Honestly? Yes you do.",
+        "replies":[
+            {
+                "text":"Hmph.",
+                "nextPhraseID":"brute_creator_30"
+            }
+        ]
+    },
+    {
+        "id":"brute_creator_28",
+        "message":"Indeed no. But better safe than sorry.",
+        "replies":[
+            {
+                "text":"Right.",
                 "nextPhraseID":"brute_creator_30"
             }
         ]
     },
     {
         "id":"brute_creator_30",
-        "message":"I'll just say that my Brutes evolve from rats. There are too many of them anyway.",
+        "message":"I'll just say that my brutes evolve from rats. There are too many of them anyway.",
         "replies":[
             {
-                "text":"I know. We had problems with rats too.",
+                "text":"I know. We had problems with rats in my village too.",
                 "nextPhraseID":"brute_creator_40"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brute_creator",
+                "value":40
             }
         ]
     },
     {
         "id":"brute_creator_40",
-        "message":"You're welcome to look around a little. But don't enter the Brute bake rooms."
+        "message":"Now I have to work again.",
+        "replies":[
+            {
+                "text":"Thank you.",
+                "nextPhraseID":"brute_creator_42"
+            }
+        ]
+    },
+    {
+        "id":"brute_creator_42",
+        "message":"You're welcome to look around a little. But don't enter the Brute Bake rooms."
     },
     {
         "id":"gylew4a",
         "message":"You know that stuff is illegal and that you can get in serious trouble just for possessing it?",
         "replies":[
             {
-                "text":"What can I say? I like to to go rogue.",
+                "text":"What can I say? I like to go rogue.",
                 "nextPhraseID":"X"
             }
         ]

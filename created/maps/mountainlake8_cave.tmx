@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="21" nextobjectid="28">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="21" nextobjectid="29">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -190,22 +190,22 @@
  </layer>
  <layer id="2" name="Objects" width="30" height="20">
   <data encoding="base64" compression="zlib">
-   eJxjYBgaQJsfv/wuPsrMF2eCYGQ+CMggiXExoerhBPJPkWnvGibCalZD3SSFptadhYGhCYidWcizGxd4BrTHGcmuOxwQNxDjVnxgLoX6YWA2lczBBfZwoNqFy93zSHTHITFUPrq5ZzgYsAJOGvsXF3iMJ84fE+Gmi0SoCUZSA7JLEk0PLK7xpR308EF2G7awe4xmJ7mAUNiQa3YwHn2U5kEYcMYSZrc5yDcflBf24Ei/pABOHHGDHo/IZQAs38DSDq7yAT0NkeJebGae4cAvjw/MxeLWw2LkmTWUwTExwmpoAbbT2V4AX7Uo8A==
+   eJxjYBgaQJsfv/wuPsrMF2eCYGQ+CMggiXEhsR8D3cMJ5J8i0941TPjlfwPNXQ11kxRU7WOg2Gegve4sDAxNQOzMQp7duMAzoD3OSO66wwFxAyG3EgJzKdQPA7OpZA4usIcD1S5c7p5HojsOiaHy0c09w8GAFXDS2L+4wGM8cf6YCDddJEJNMJIakF2SaHpgcY0v7aCHD7LbsIXdYzQ7yQXY9D7lQ5hPrtnBePRRmgdhwBlLmN3mIN98UF7YgyP9kgI4ccQNejwilwGwfANLO7jKB/Q0hMu9i1kxxbCZeYYDvzw+MBeLWw+LkWfWUAbHxAiroQXYTmd7AY8YLnk=
   </data>
  </layer>
  <layer id="4" name="Above" width="30" height="20" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYMANDjDhkaQzOCxGmjgpYLMYdkyqvbjMIGQPOg6WZGC4hKR3DweCDRMX5ae+vZdEiQsvYu0l1n5SASlmDBZ78YHZWPLZZSQ91HA7NnOxycHSF3paOIxDHF0eF8AlHyiJP93hMxfZvbjchi5PShhiCyt0O7EB5PwKA6TYi818css5StIMMX6lhb3E+hVfWiYHEGsvNeocZDB3AOtZaochsYDaYThY7QUA/BtpiQ==
+   eJzNlTEKgDAMAIuTm1MFnyW+wHeJr3B1EPxB/ZBTMYQkTTSoBwVpaK4NqQ2BZ6uE4MvsrW3ewtLSw+rlcpQ8eAxdCAmsXevrO8/Hxt+boq5eWq/Wb8WS4y9eiYm4ZwdY47F3Ki8Vy/2Fe2Fn5nGcg4v3ndx3Ul64X25vOG6pIVUr7KSA9zVj8VL57/7ntN6R6cHSWZ96KbRnlXr5Dlqvx5sDmT98Z71rqMW7hn/1nkc/aew=
   </data>
  </layer>
  <layer id="14" name="Above0" width="30" height="20" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYMANDjDhkaQzOCxGmjgpYLMYdkyqvbjMIGQPOg6WZGC4hKR3DweCDRMX5ae+vZdEiQsvYu0l1n5SASlmDBZ78YHZWPLZZSQ91HA7NnOxycHSF3paOIxDHF0eF8AlHyiJP93hMxfZvbjchi5PShhiCyt0O7EB5PwKA6TYi818css5StIMMX6lhb3E+hVfWiYHEGsvNeocZDB3AOtZaochsYDaYThY7QUA/BtpiQ==
+   eJzNlTEKgDAMAIuTm1MFnyW+wHeJr3B1EPxB/ZBTMYQkTTSoBwVpaK4NqQ2BZ6uE4MvsrW3ewtLSw+rlcpQ8eAxdCAmsXevrO8/Hxt+boq5eWq/Wb8WS4y9eiYm4ZwdY47F3Ki8Vy/2Fe2Fn5nGcg4v3ndx3Ul64X25vOG6pIVUr7KSA9zVj8VL57/7ntN6R6cHSWZ96KbRnlXr5Dlqvx5sDmT98Z71rqMW7hn/1nkc/aew=
   </data>
  </layer>
  <layer id="15" name="Above1" width="30" height="20">
   <data encoding="base64" compression="zlib">
-   eJxjYMANDjDhkaQzOCxGmjgpYLMYdkyqvbjMIGQPOg6WZGC4hKR3DweCDRMX5ae+vZdEiQsvYu0l1n5SASlmDBZ78YHZWPLZZSQ91HA7NnOxycHSF3paOIxDHF0eF8AlHyiJP93hMxfZvbjchi5PShhiCyt0O7EB5PwKA6TYi818css5StIMMX6lhb3E+hVfWiYHEGsvNeocZDB3AOtZaochsYDaYThY7QUA/BtpiQ==
+   eJzNlTEKgDAMAIuTm1MFnyW+wHeJr3B1EPxB/ZBTMYQkTTSoBwVpaK4NqQ2BZ6uE4MvsrW3ewtLSw+rlcpQ8eAxdCAmsXevrO8/Hxt+boq5eWq/Wb8WS4y9eiYm4ZwdY47F3Ki8Vy/2Fe2Fn5nGcg4v3ndx3Ul64X25vOG6pIVUr7KSA9zVj8VL57/7ntN6R6cHSWZ96KbRnlXr5Dlqvx5sDmT98Z71rqMW7hn/1nkc/aew=
   </data>
  </layer>
  <layer id="9" name="Top" width="30" height="20" visible="0">
@@ -230,7 +230,7 @@
  </layer>
  <layer id="8" name="Walkable" width="30" height="20" visible="0">
   <data encoding="base64" compression="zlib">
-   eJztk8ENACAIA53C/VdgQ/8GSiXUj5Lw0dJDCTbHsMczig4fhuPVRHxP081lPBhupYesPyV3/999DkiHuNX717iRpsu3uq/KXT/hKiLjsvWqXpCGmX+kY9+Q+SEmqmXObuTnanMB3wYdWQ==
+   eJztk8ENACAIA5nC/VdgQ7+GCFRC/SgJHyk91KBDRB9PLzp8EM6uJ+JbTTcX8UC4lRmy+ZjcVW/f2tZOuNX6a1xP0+Vb3Vfmrp9wGZFx0X7WLJEG+X9Ph94h84uYUS9ydiM/l5sT2RoeIA==
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents" visible="0">
@@ -289,11 +289,18 @@
     <property name="spawngroup" value="primwolf1"/>
    </properties>
   </object>
-  <object id="11" name="brute_origin4" type="spawn" x="32" y="64" width="192" height="448">
+  <object id="11" name="mbrute_4" type="spawn" x="32" y="64" width="192" height="448">
    <properties>
     <property name="ignoreAreas" value="true"/>
-    <property name="quantity" value="8"/>
+    <property name="quantity" value="4"/>
     <property name="spawngroup" value="mbrute_4"/>
+   </properties>
+  </object>
+  <object id="28" name="mbrute_1" type="spawn" x="32" y="64" width="192" height="448">
+   <properties>
+    <property name="ignoreAreas" value="true"/>
+    <property name="quantity" value="4"/>
+    <property name="spawngroup" value="mbrute_1"/>
    </properties>
   </object>
   <object id="12" name="brute_creator" type="spawn" x="608" y="128" width="96" height="64">

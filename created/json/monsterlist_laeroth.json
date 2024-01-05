@@ -548,5 +548,13 @@
         "spawnGroup":"brute_origin1",
         "attackCost":9,
         "attackChance":50
+    },
+    {
+        "id":"brute_fisherman",
+        "name":"Fisherman",
+        "iconID":"monsters_phoenix01:3",
+        "spawnGroup":"brute_fisherman",
+        "monsterClass":"humanoid",
+        "phraseID":"brute_fisherman"
     }
 ]
