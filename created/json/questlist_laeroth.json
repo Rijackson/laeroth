@@ -2,6 +2,7 @@
     {
         "id":"laeroth_nondisplay",
         "name":"laeroth_nondisplay",
+        "showInLog":0,
         "stages":[
             {
                 "progress":1,
@@ -193,7 +194,7 @@
             },
             {
                 "progress":35,
-                "logText":"Moriath suggested I search the master bedroom for a personal item from the last lord, Veregil."
+                "logText":"Moriath suggested I search the master bedroom for a personal item from the last lord, Verigil."
             },
             {
                 "progress":40,

@@ -318,6 +318,14 @@
         "phraseID":"jerelin_0"
     },
     {
+        "id":"jerelin_b",
+        "name":"Jerelin",
+        "iconID":"monsters_gisons:10",
+        "monsterClass":"undead",
+        "spawnGroup":"jerelin_b",
+        "phraseID":"jerelin_b_2a"
+    },
+    {
         "id":"audela",
         "name":"Audela",
         "iconID":"monsters_gisons:15",
