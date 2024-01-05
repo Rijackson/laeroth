@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="7">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="7">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -183,19 +183,29 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
+ <layer id="8" name="Base" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt1DENAEAIBEFa/Cv5YBAL311IZgxst1UAwI/pTPeFugCXpF55vbtfQAOl
+  </data>
+ </layer>
  <layer id="1" name="Ground" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztklEKwjAMhsvexm4j6LvIPMBuOnwSLzCoXmFnsYEGQ2iyFK0o5OGDkWb/1zZd+hAWx3Ecpwm7QUbqf9d5ThlzLzOyfWD/qOxr64xbTgsW1yVz/IDPvbrzH7z71DcRSnWrczZ6IfvWhXAnwH+8XuO9pv6D4sbsB/PCf1hfMxYv5sZOPjN10nwg5pp1vjXe0/BylrwTm3kLL1+L7N6t863xSrNv4cXZWt+35uVvGSl5tbPi2sr4hhe/aab1jn/VK72nkhfyn9evpKQ=
+   eJztlF0KgzAMgItv4m0EfR9DD+BNZU+yCwi6K3gWLTQYsv4kzIKDPHwgaZovNdW5NGZWFEVRslBXYUL5vzr7o8ZYhulIH5DfRfpKnTHl5MBxvRyPC3zqjTv/wdsceQOirb7jXOfI9Nra78KYlUDjEu9UnL3HnB/itPsgvjk4Xqi7uDopJ65vWVyMO1+Jd0VOn3cgM8/hpWuwD3O1NzT7HF6YreR+c+8y7ltyVljbCFKv7xtOeeEZ1+S+4zt6n5F/ic9r6+9Pway5
   </data>
  </layer>
  <layer id="2" name="Objects" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztlb1KA0EQx49odyrmosQEH0EjothY+wGKoNFWbbSw0Ub0AQR9HRtBRCxSaCrFQkXRgIVYRBRJJRbOcLdkHHYnu+dBFPzDkM3d7vx2ZmfnPO9ff02pTHO4gcCtBsnz3hP2+dO8XcbcD+Yt6Vgk/Yb6WILxchP2sQ7MDYGbxDm41PqgL78fYu/VfP7cRehjlO3xOFcfFwz7P0iHv4c5/XuJx/UYI89lS+5w1vNWsm6+F6L9lKIYb9Nu61HjWX1ctU7z/958aDrRPUh1idx8j+dtwZxtNq8ffBTABlg81+k6dw3WtMC4FezCIcerYJ9gu7B+j3B18Z5GfBUvxoY1l4FxF1g3WDViS31UxeqD7Qjz7li8Z+y/y/nSWFE3bO2zwVfRcEfx+UyqMZfGipqFdRVh31h7OiauU88XLbkYq65HFzU558wTVkMVCyblSj1aOrdzwqXMpwZnrbglzbwpqMtpw/1Exn6MPsG5qCuDH7yPE8CfzNeZVA+w7t4yvzouF9YXzTGeLTLnLM5dEr9DKNw33vkXQ8+h/V537r7jHVLf5c0gvMNHuZDxCvZGWLSH07HK/Qf47AN/I8I3RuWYfw+wZ9n0HpoXdefbgDkPPscsuFy8H6Jqwfd6Qqbqy6h2eN8RhFwV6xc0rHFQ
+   eJztlT8vBFEQwDdHt4jdI2c3PgInQjSqywUFkfjXoqHQ0AgfQMLX0UhERHEFKqJACJcoRHEXIleJwkx2x85N3r3bdzY5EpNM9u2+9+Y3M2/erGX9y1+TVLo5XFfDLbnJ894TtvnTvF016A/mLelYdPIb6mMJxstN8GMdmBsabhLnYFLrg7Z+fkjM03r53UTQxqjw8diLxtka/h84wfPQU8/reFKeGsjzeUzucMayVjJmthdCfwphjHeO2X6U8Yw6rkpn7fdeP1CVcB90dYlcv8eytmDNtljXDzayoAMinhsn4q7BnhYYt4JeGuR4FfQTdBf27zGuKt7TkE/xYmxYc2kYd4F2g5ZCtq6PUqw26I5m3b2I90y8m5wvjxXlVux9qWFrTtR9zo6+T6fqc3msKDOwr6jxG2tPMmkffV+MycVYeY/+9l2Rc8k8ETVUjMHkXN6jc8I2nVteEecF43Lmc52zJm6BrSPuJNTlFLufnIuM/Qb6hOSiXDvVXBK8jxN+xJW5fIR9DzHzq+KSEBfri98NPFtkzsY4d53IO4SCfiO3LOqFYuX9XnXutuEdov/yphvc4SMvYLyCvnmRbd7DaZy3o9x/gM0+sDei+cdQjuX/AHuW7D2qWsZeWA59ojvfBsx5sDkWgytF9kOUiltdT8ikvozcdpjvcAMuxfoFx7R1CQ==
   </data>
  </layer>
  <layer id="3" name="Above" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMAqGNngigJ9PK8DJxMAgK8jAIAfE8kAsDuRfFMOu9rMkA8MXID4gSbm9IP/JMEHsk2Ui3r93iLRbVgjoJyFMcXT/ceLxL7lARZB8vfeB/ntAhfAlBhxG8vd7oJ0fJDHFqQ0ui6GaLySEXZwWdmIzHyR2iQR7RZgwxaylGBhspHDbic1emJ0LWYm3GxcA5UdzoP0WUqh2ovvLB4vbqQVw2QkCMVB7ncm0H5Tn7+LIEzslCcdfMIX+BtmBni9xpVVQvIMwO4l2ihOpHtle5HAhNR2TCmD2oscFLcsKEAD5CWbnWwL2AgAO/j5/
+   eJxjYBgFo2AUjIJRMAqGNngigJ9PK8DJxMAgK8jAIAfE8kAsDuRfFMOu9rMkA8MXID4gSbm9IP/JMEHsk2Ui3r93iLRbVgjoJyFMcXT/ceLxL7lARZB8vfeB/ntAhfAlBhxG8vd7oJ0fJDHFqQ0ui6GaLySEXZwWdmIzHyR2iQR7RZgwxaylGBhspHDbic1emJ0LWYm3GxcA5UdzoP0WUqh2ovvLB4vbqQE8pHDbCQIxUHudybQflOfv4sgTOyUJx18wmfa+kUTYgZ4vcaVVULyDMDuJdooTqR7ZXuRwITUdkwpg9qLHBS3LChAA+Qlm51sC9gIAv2k/5g==
+  </data>
+ </layer>
+ <layer id="9" name="Top" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztzgENAAAIA6CnsH8XixlDNyEBCQAA8EnX9oArBso1ANo=
   </data>
  </layer>
  <layer id="4" name="Walkable" width="30" height="30" visible="0">
