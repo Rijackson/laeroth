@@ -132,7 +132,7 @@
         "message":"This one here was cut during the rise of Elythara and is quite rare and valuable. But this other one here is a more common coin as it was cut during Geomyr's rule. While this one here is from a far off land and is a part of a larger collection that has long been broken up by past pirates and thieves.",
         "replies":[
             {
-                "text":"N",
+                "text":"Oh, I see.",
                 "nextPhraseID":"gylew6",
                 "requires":[
                     {
@@ -154,7 +154,7 @@
                 ]
             },
             {
-                "text":"N",
+                "text":"I am so not interested.",
                 "nextPhraseID":"gylew7",
                 "requires":[
                     {
@@ -227,11 +227,25 @@
         "replies":[
             {
                 "text":"OK. What do you have of value?",
-                "nextPhraseID":"gylew7a_2"
+                "nextPhraseID":"gylew7a_2",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":5
+                    }
+                ]
             },
             {
                 "text":"Here, take it.",
-                "nextPhraseID":"gylew7a_3"
+                "nextPhraseID":"gylew7a_3",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":5
+                    }
+                ]
             },
             {
                 "text":"Nope, they are mine.",
@@ -244,7 +258,7 @@
         "message":"Here is 500 gold.",
         "replies":[
             {
-                "text":"N",
+                "text":"Now that's funny. I coin collector traded me his gold coins for my coins.",
                 "nextPhraseID":"gylew8",
                 "requires":[
                     {
@@ -266,7 +280,7 @@
                 ]
             },
             {
-                "text":"N",
+                "text":"Now that's funny. I coin collector traded me his gold coins for my coins.",
                 "nextPhraseID":"gylew7",
                 "requires":[
                     {
@@ -288,11 +302,6 @@
                 "rewardType":"questProgress",
                 "rewardID":"odd_coin_collector",
                 "value":10
-            },
-            {
-                "rewardType":"giveItem",
-                "rewardID":"gold",
-                "value":-5
             }
         ]
     },
@@ -520,7 +529,14 @@
         "replies":[
             {
                 "text":"OK. What do you have of value?",
-                "nextPhraseID":"gylew8a_3"
+                "nextPhraseID":"gylew8a_3",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":10
+                    }
+                ]
             },
             {
                 "text":"Here, take it.",
@@ -537,7 +553,7 @@
         "message":"Here is 550 gold",
         "replies":[
             {
-                "text":"N",
+                "text":"Wow! I get 550 gold for the 10 I gave you?",
                 "nextPhraseID":"gylew7"
             }
         ],
@@ -551,11 +567,6 @@
                 "rewardType":"questProgress",
                 "rewardID":"odd_coin_collector",
                 "value":12
-            },
-            {
-                "rewardType":"giveItem",
-                "rewardID":"gold",
-                "value":-10
             }
         ]
     },
@@ -2642,11 +2653,11 @@
     },
     {
         "id":"verigil_script_1",
-		"message":"Here lies Verigil, Ninth Lord of Laeroth.",
+        "message":"Here lies Verigil, Ninth Lord of Laeroth.",
         "replies":[
             {
-				"text":"Place Verigil's ring on the tomb.",
-				"nextPhraseID":"verigil_script_2a",
+                "text":"Place Verigil's ring on the tomb.",
+                "nextPhraseID":"verigil_script_2a",
                 "requires":[
                     {
                         "requireType":"inventoryRemove",
@@ -2855,7 +2866,7 @@
         "message":"Here lies Eyvipa, eldest son of Jerelin.",
         "replies":[
             {
-				"text":"Place candlestick on the tomb.",
+                "text":"Place candlestick on the tomb.",
                 "nextPhraseID":"eyvipa_script_2a",
                 "requires":[
                     {
@@ -2877,7 +2888,7 @@
                 ]
             },
             {
-				"text":"Call for Eyvipa.",
+                "text":"Call for Eyvipa.",
                 "nextPhraseID":"eyvipa_0",
                 "requires":[
                     {
@@ -3026,7 +3037,7 @@
                         "requireType":"questProgress",
                         "requireID":"laeroth_caretaker",
                         "value":80,
-						"negate":true
+                        "negate":true
                     }
                 ]
             }
@@ -3148,7 +3159,7 @@
         "message":"Here lies Cuned, Eighth Lord of Laeroth.",
         "replies":[
             {
-				"text":"Place diary on the tomb.",
+                "text":"Place diary on the tomb.",
                 "nextPhraseID":"cuned_script_2a",
                 "requires":[
                     {
@@ -3170,7 +3181,7 @@
                 ]
             },
             {
-				"text":"Call for Cuned.",
+                "text":"Call for Cuned.",
                 "nextPhraseID":"cuned_script_b_2a",
                 "requires":[
                     {
@@ -3432,7 +3443,7 @@
         "message":"Here lies Jerelin, Seventh Lord of Laeroth.",
         "replies":[
             {
-				"text":"Place seal on the tomb.",
+                "text":"Place seal on the tomb.",
                 "nextPhraseID":"jerelin_script_2a",
                 "requires":[
                     {
@@ -3454,7 +3465,7 @@
                 ]
             },
             {
-				"text":"Call for Jerelin.",
+                "text":"Call for Jerelin.",
                 "nextPhraseID":"jerelin_script_b_2a",
                 "requires":[
                     {
@@ -3770,7 +3781,7 @@
         "message":"Here lies Audela, wife of Jerelin.",
         "replies":[
             {
-				"text":"Place Audela's necklace on the tomb.",
+                "text":"Place Audela's necklace on the tomb.",
                 "nextPhraseID":"audela_script_2a",
                 "requires":[
                     {
@@ -4300,8 +4311,8 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"brute_creator",
-						"value":10,
-						"negate":true
+                        "value":10,
+                        "negate":true
                     }
                 ]
             },
@@ -4312,13 +4323,13 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"brute_creator",
-						"value":10
+                        "value":10
                     },
                     {
                         "requireType":"questProgress",
                         "requireID":"brute_creator",
-						"value":30,
-						"negate":true
+                        "value":30,
+                        "negate":true
                     }
                 ]
             },
@@ -4329,13 +4340,13 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"brute_creator",
-						"value":20
+                        "value":20
                     },
                     {
                         "requireType":"questProgress",
                         "requireID":"brute_creator",
-						"value":30,
-						"negate":true
+                        "value":30,
+                        "negate":true
                     }
                 ]
             },
@@ -4346,13 +4357,13 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"brute_creator",
-						"value":30
+                        "value":30
                     },
                     {
                         "requireType":"questProgress",
                         "requireID":"brute_creator",
-						"value":35,
-						"negate":true
+                        "value":35,
+                        "negate":true
                     }
                 ]
             },
@@ -4363,13 +4374,13 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"brute_creator",
-						"value":35
+                        "value":35
                     },
                     {
                         "requireType":"questProgress",
                         "requireID":"brute_creator",
-						"value":40,
-						"negate":true
+                        "value":40,
+                        "negate":true
                     }
                 ]
             },
@@ -4380,18 +4391,18 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"brute_creator",
-						"value":35
+                        "value":35
                     },
                     {
                         "requireType":"questProgress",
                         "requireID":"brute_creator",
-						"value":40
+                        "value":40
                     },
                     {
                         "requireType":"questProgress",
                         "requireID":"brute_creator",
-						"value":90,
-						"negate":true
+                        "value":90,
+                        "negate":true
                     }
                 ]
             },
@@ -4402,7 +4413,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"brute_creator",
-						"value":90
+                        "value":90
                     }
                 ]
             }
@@ -4597,8 +4608,8 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"brute_creator",
-						"value":40,
-						"negate":true
+                        "value":40,
+                        "negate":true
                     }
                 ]
             },
@@ -4609,7 +4620,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"brute_creator",
-						"value":40
+                        "value":40
                     }
                 ]
             },
@@ -4914,8 +4925,8 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"farrik",
-						"value":40,
-						"negate":true
+                        "value":40,
+                        "negate":true
                     }
                 ]
             },
@@ -4926,7 +4937,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"farrik",
-						"value":40
+                        "value":40
                     }
                 ]
             }
