@@ -3995,7 +3995,7 @@
         "message":"Before I leave Laeroth, Perhaps I should try to find out where the last Lord went. Maybe there are clues somewhere in the manor.",
         "replies":[
             {
-                "text":"N",
+                "text":"I am just wasting time here. It doesn't matter where the last lord went. Time to leave.",
                 "nextPhraseID":"laeroth_exit_1b",
                 "requires":[
                     {
@@ -4006,7 +4006,7 @@
                     }
                 ]
             },
-            {
+            {	"text":"I will look around. The main quarters are probably a good place to start.",
                 "nextPhraseID":"laeroth_exit_1c"
             }
         ],
@@ -4020,7 +4020,6 @@
     },
     {
         "id":"laeroth_exit_1b",
-        "message":"I am just wasting time here. It doesn't matter where the last lord went. Time to leave.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -4030,26 +4029,15 @@
         ]
     },
     {
-        "id":"laeroth_exit_1c",
-        "message":"I will look around. The main quarters are probably a good place to start."
-    },
-    {
-        "id":"learoth_exit_2",
+        "id":"laeroth_exit_2",
         "replies":[
             {
-                "text":"N",
                 "nextPhraseID":"laeroth_exit_1a",
                 "requires":[
                     {
-                        "requireType":"questProgress",
+                        "requireType":"latestQuestProgress",
                         "requireID":"last_lord",
-                        "value":10,
-                        "negate":true
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"laeroth_caretaker",
-                        "value":180
+                        "value":10
                     }
                 ]
             }
@@ -4545,7 +4533,7 @@
     },
     {
         "id":"brute_fisherman_22",
-        "message":"Yes, it always was long.",
+        "message":"Yes, it has always been long.",
         "replies":[
             {
                 "text":"N",
@@ -4640,7 +4628,7 @@
         "message":"But how can that be?",
         "replies":[
             {
-                "text":"I have talked to Servelath. He claims to be a researcher who turns rats into these brutes to study them.",
+                "text":"I have talked to Os. He claims to be a researcher who turns rats into these brutes to study them.",
                 "nextPhraseID":"brute_fisherman_44"
             }
         ]
@@ -4795,7 +4783,7 @@
     },
     {
         "id":"brute_creator_sign_1",
-        "message":"Science isn't about ""why"", it's about ""why not"""
+        "message":"Science isn't about \"why\", it's about \"why not\""
     },
     {
         "id":"brute_creator_sign_2",
@@ -4819,7 +4807,7 @@
     },
     {
         "id":"brute_creator_papers",
-        "message":"The note says: ""In the end there will be cake"""
+        "message":"The note says: \"C.A.K.E.\""
     },
     {
         "id":"brute_origin1a",
@@ -4940,10 +4928,10 @@
     },
     {
         "id":"brute_creator",
-        "message":"Oh, a visitor. How unusual.\nCome in, come in. I am Servelath.",
+        "message":"Oh, a visitor. How unusual.\nCome in, come in. I am Os.",
         "replies":[
             {
-                "text":"Hi, I am $playername.",
+                "text":"Hi, I am $playername. Glad to meet you.",
                 "nextPhraseID":"brute_creator_2"
             }
         ]
@@ -5074,8 +5062,8 @@
         "message":"I'll just say that my brutes evolve from rats. There are too many of them anyway.",
         "replies":[
             {
-                "text":"I know. We had problems with rats in my village too.",
-                "nextPhraseID":"brute_creator_40"
+                "text":"Oh yes.",
+                "nextPhraseID":"brute_creator_32"
             }
         ],
         "rewards":[
@@ -5101,14 +5089,20 @@
         "message":"Now I have to work again.",
         "replies":[
             {
-                "text":"N",
+                "text":"Be glad. May I visit your laboratory?",
                 "nextPhraseID":"brute_creator_42"
             }
         ]
     },
     {
         "id":"brute_creator_42",
-        "message":"You're welcome to look around a little. But don't enter the Brute Bake rooms."
+        "message":"You're welcome to look around a little. But don't enter the Brute Bake rooms.",
+        "replies":[
+            {
+                "text":"Sure, I want to stay alive after all.",
+                "nextPhraseID":"X"
+            }
+        ]
     },
     {
         "id":"verigil_seal_found_test_nut",

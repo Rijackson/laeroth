@@ -15,7 +15,7 @@
   <image source="../drawable/map_bridge_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="385" name="map_broken_1" tilewidth="32" tileheight="32">
-  <image source="../../altered/spritesheets/map_broken_1.png" width="512" height="256"/>
+  <image source="../drawable/map_broken_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="513" name="map_cavewall_1" tilewidth="32" tileheight="32">
   <image source="../drawable/map_cavewall_1.png" width="576" height="192"/>
