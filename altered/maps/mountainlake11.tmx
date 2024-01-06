@@ -183,9 +183,6 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="7577" name="map_broken_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../../created/drawable/map_broken_1.png" width="512" height="256"/>
- </tileset>
  <layer id="1" name="Ground" width="30" height="26">
   <data encoding="base64" compression="zlib">
    eJzdkkESgjAMRYEdB9PbiuN4AOzOLXAFDwIZzcjEtPwUWkYWb9f2Jf+3qYqiOTAPQQ6nm+gFOZzDxEuQcufrx3mrf6Gd28ieEK/mJGjnDnTLntqFGUJeZsnNmc076jwzMA7wsvtinF2bgfF1q2H1ajMwT9BJ+LJGMrvXb5cEzVp25QyZhbyn8ntGuyO7Gip8ds3LkFd7Z35G9pTLGyLGGfKuda/xou4tcybOJU7M3T32lffRs8iftr61lTflHBbvnu7Ueafs9t8ZAVL8RC4=
