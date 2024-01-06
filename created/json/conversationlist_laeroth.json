@@ -1119,7 +1119,7 @@
     },
     {
         "id":"korhald_chest_examine_40",
-        "message":"But not all hope is lost. You see this may shows the great river that is just right over there [points northeast] behind those trees.Anyone who follows the map going east, should have no problem reaching wherever this map is leading to.",
+        "message":"But not all hope is lost. You see this map shows the great river that is just right over there [points northeast] behind those trees. Anyone who follows the map going east, should have no problem reaching wherever this map is leading to.",
         "replies":[
             {
                 "text":"N",
@@ -1267,7 +1267,7 @@
         "message":"But I see that you did not listen to those 'stories' as you would not be here if you had. What did he tell you about the second key?",
         "replies":[
             {
-                "text":"Well, for starters, he told me that he had and he would not give it to me without a fight. Which of course, we did fight to the death for.",
+                "text":"Well, for starters, he told me that he had it and he would not give it to me without a fight. Which of course, we did fight to the death for.",
                 "nextPhraseID":"gylew_korhald_60"
             }
         ]
@@ -1309,7 +1309,7 @@
     },
     {
         "id":"gylew_korhald_80",
-        "message":"Thank you? It is so nice to finally be this close to my life's dream.",
+        "message":"Thank you! It is so nice to finally be this close to my life's dream.",
         "replies":[
             {
                 "text":"N",
@@ -1991,7 +1991,7 @@
         "message":"Hello. It's so very long since I have seen another person. Who are you, and why are you here?",
         "replies":[
             {
-                "text":"I'm $playername. I'm looking for my Brother, Andor. Have you seen him?",
+                "text":"I'm $playername. I'm looking for my brother, Andor. Have you seen him?",
                 "nextPhraseID":"moriath_1"
             }
         ]
