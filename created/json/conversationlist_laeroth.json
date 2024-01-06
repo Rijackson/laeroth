@@ -607,20 +607,10 @@
         "replies":[
             {
                 "text":"Oops, I should be more careful.",
-                "nextPhraseID":"X",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"odd_coin_collector"
-                    }
-                ]
-            },
-            {
-                "text":"N",
                 "nextPhraseID":"laerothbasement2_korhald_sign_30",
                 "requires":[
                     {
-                        "requireType":"questProgress",
+                        "requireType":"questLatestProgress",
                         "requireID":"odd_coin_collector",
                         "value":20,
                         "negate":false
@@ -628,15 +618,8 @@
                 ]
             },
             {
-                "text":"N",
-                "nextPhraseID":"laerothbasement2_korhald_sign_40",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"odd_coin_collector",
-                        "value":30
-                    }
-                ]
+                "text":"Oops, I should be more careful.",
+                "nextPhraseID":"X"
             }
         ]
     },
@@ -648,15 +631,6 @@
                 "rewardType":"questProgress",
                 "rewardID":"odd_coin_collector",
                 "value":30
-            }
-        ]
-    },
-    {
-        "id":"laerothbasement2_korhald_sign_40",
-        "message":"The sign has not changed since the last time you read it.",
-        "replies":[
-            {
-                "nextPhraseID":"X"
             }
         ]
     },
@@ -760,7 +734,7 @@
         "message":"The chest is locked.",
         "replies":[
             {
-                "text":"[I should look somewhere else.]",
+                "text":"I should look somewhere else.",
                 "nextPhraseID":"X"
             }
         ]
