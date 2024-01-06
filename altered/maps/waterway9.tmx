@@ -17,7 +17,7 @@
   <image source="../drawable/map_bridge_2.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="513" name="map_broken_1" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_broken_1.png" width="512" height="256"/>
+  <image source="../spritesheets/map_broken_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="641" name="map_cavewall_1" tilewidth="32" tileheight="32">
   <image source="../drawable/map_cavewall_1.png" width="576" height="192"/>
@@ -158,7 +158,7 @@
   <image source="../drawable/map_transition_4.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="6449" name="map_transition_5" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_transition_5.png" width="512" height="256"/>
+  <image source="../spritesheets/map_transition_5.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="6577" name="map_tree_1" tilewidth="32" tileheight="32">
   <image source="../drawable/map_tree_1.png" width="512" height="256"/>
@@ -199,7 +199,7 @@
    eJztlM0NgCAMRotDmDCWxovDOY0b6FV3UQ4kPRjpD9IQeWfal9L0A2jUwN7beNfmVXF4gNOX91L5m/cLnnY8O4DJ0Xvg+x7uupFRq6HW/UvzUOuV1lt5NyOvltq81JyvBXxfpbIowP1/bs5KvdS84eZSykv9j6Wz8QY4M+fwRh9n5hxe/IY6c6rvWz5HB+5B3Ys0xy49ai2u
   </data>
  </layer>
- <layer name="Walkable" width="30" height="30" visible="0">
+ <layer name="Walkable" width="30" height="30">
   <data encoding="base64" compression="zlib">
    eJzt0ssNwCAMA1Cm6P4rsCHXChWoY4efYoljeWlwflLKcdwPm1Uz3+D+3aPSRd6Rcd/ffjk92+pawrqnRdH3+q6W4eEi78B0lu18uHu6jG3tFNNJ1O2FnR2JauejPaDzzHK9/re2FQ7at3DDVbujThfnrSgJ
   </data>
@@ -312,6 +312,7 @@
    <properties>
     <property name="phrase" value="mysterious_mapstop_stop_and_review"/>
     <property name="requireId" value="odd_coin_collector"/>
+    <property name="requireNegation" value="true"/>
     <property name="requireType" value="questLatestProgress"/>
     <property name="requireValue" value="60"/>
    </properties>
@@ -320,6 +321,7 @@
    <properties>
     <property name="phrase" value="mysterious_mapstop_stop_and_review"/>
     <property name="requireId" value="odd_coin_collector"/>
+    <property name="requireNegation" value="true"/>
     <property name="requireType" value="questLatestProgress"/>
     <property name="requireValue" value="60"/>
    </properties>
