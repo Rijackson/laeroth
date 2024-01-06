@@ -185,7 +185,7 @@
  </tileset>
  <layer id="8" name="Base" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYKAc/BHHLbeRE4GHOzgoRrkZnuIQjAtgC2tq2buTCb8a9DjEF++k2EsIYLOH0jRFrr3IYDMZ9hNjLy0AobgdBaOAUnBmgNLYQNlLTv4fBaNgFIyCUTAKBiMAAI7DEjQ=
+   eJxjYCANbOTEFPsjjl89DA9FgOx+Qn44KEa5fZ7iEIwLYAtratm7kwm/GnT/44t3UuwlBLDZQ2maItdeZLCZDPuJsZcWgFDcjoJRQCk4M0BpbKDsJSf/j4JRMApGwSgYBYMRAAAuNhXW
   </data>
  </layer>
  <layer id="1" name="Ground" width="30" height="30">
@@ -208,7 +208,7 @@
    eJztk1EOgDAIQ3cK73+F3dDfhRQoHfPHkTQmG/Ko4HzGmI5QoPM1H9WI7hkue47y0D3DzXKQN3vOcD1PGdeyv+B682TqqFzrLdojtl7kB3GRT8WHx6rsLMP1+ou8MP+AymXU6Zdlsrub3XX6ZZgK1+Z2sbP5s31WfTDcyizUXVGZVVnG+jzJ7uIqPSLuTu+n3vVi93uzcWrnrq6u/qUXaZkIKg==
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents">
+ <objectgroup id="5" name="Mapevents" visible="0">
   <object id="1" name="north1" type="mapchange" x="224" y="0" width="160" height="32">
    <properties>
     <property name="map" value="island1"/>
