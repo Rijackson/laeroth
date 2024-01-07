@@ -3394,21 +3394,6 @@
         ]
     },
     {
-        "id":"jerelin_selector_1",
-        "replies":[
-            {
-                "nextPhraseID":"jerelin_script_0",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"laeroth_nondisplay",
-                        "value":120
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "id":"jerelin_script_0",
         "message":"Here lies Jerelin, Seventh Lord of Laeroth."
     },
@@ -3514,7 +3499,7 @@
         "rewards":[
             {
                 "rewardType":"removeSpawnArea",
-                "rewardID":"cuned",
+                "rewardID":"jerelin",
                 "mapName":"laerothtomb1"
             },
             {
@@ -3589,6 +3574,25 @@
                 "mapName":"laerothtomb1"
             }
         ]
+    },
+    {
+        "id":"jerelin_selector_1",
+        "replies":[
+            {
+                "nextPhraseID":"jerelin_script_0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"laeroth_nondisplay",
+                        "value":120
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"jerelin_script_b_0",
+        "message":"Here lies Jerelin, Seventh Lord of Laeroth.\nIn peace at last."
     },
     {
         "id":"dresser_0",
@@ -3713,7 +3717,7 @@
                         "value":1
                     },
                     {
-                        "requireType":"inventoryRemove",
+                        "requireType":"inventoryKeep",
                         "requireID":"oegyth5",
                         "value":1
                     },
@@ -4817,7 +4821,7 @@
                 "requires":[
                     {
                         "requireType":"random",
-                        "requireID":"25"
+                        "requireID":"10"
                     }
                 ]
             },
@@ -4846,7 +4850,7 @@
     },
     {
         "id":"brute_origin1a_1",
-        "message":"The cake is a lie."
+        "message":"Well, you found me. Congratulations. Was it worth it?"
     },
     {
         "id":"brute_origin1a_2",
@@ -4858,7 +4862,7 @@
     },
     {
         "id":"brute_origin1a_4",
-        "message":"Well, you found me. Congratulations. Was it worth it?"
+        "message":"The cake is a lie."
     },
     {
         "id":"brute_creator_flash",
