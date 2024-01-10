@@ -538,7 +538,7 @@
     },
     {
         "id":"brute_creator",
-        "name":"Servelath",
+        "name":"Os",
         "iconID":"monsters_ld1:113",
         "spawnGroup":"brute_creator",
         "phraseID":"brute_creator"
@@ -558,8 +558,16 @@
         "attackChance":50
     },
     {
+        "id":"brute_origin1a",
+        "name":"Tiny rat",
+        "iconID":"monsters_rats:0",
+        "monsterClass":"animal",
+        "spawnGroup":"brute_origin1a",
+        "phraseID":"brute_origin1a"
+    },
+    {
         "id":"brute_fisherman",
-        "name":"Fisherman",
+        "name":"Bidro",
         "iconID":"monsters_phoenix01:3",
         "spawnGroup":"brute_fisherman",
         "monsterClass":"humanoid",
