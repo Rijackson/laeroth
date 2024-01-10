@@ -3506,7 +3506,7 @@
         "rewards":[
             {
                 "rewardType":"removeSpawnArea",
-                "rewardID":"cuned",
+                "rewardID":"jerelin",
                 "mapName":"laerothtomb1"
             },
             {
@@ -3724,7 +3724,7 @@
                         "value":1
                     },
                     {
-                        "requireType":"inventoryRemove",
+                        "requireType":"inventoryKeep",
                         "requireID":"oegyth5",
                         "value":1
                     },
@@ -4466,10 +4466,10 @@
     },
     {
         "id":"brute_fisherman_8",
-        "message":"You just came this way. Do you know why it's been used so little lately?",
+        "message":"You just came this path. Do you know why it's been used so little lately?",
         "replies":[
             {
-                "text":"Well, I think so.",
+                "text":"Well, yes,  I think so.",
                 "nextPhraseID":"brute_fisherman_10"
             }
         ]
@@ -4556,7 +4556,7 @@
     },
     {
         "id":"brute_fisherman_22",
-        "message":"Yes, it always was long.",
+        "message":"Yes, it has always been long.",
         "replies":[
             {
                 "text":"N",
@@ -4651,7 +4651,7 @@
         "message":"But how can that be?",
         "replies":[
             {
-                "text":"I have talked to Severath. He claims to be a researcher who turns rats into these brutes to study them.",
+                "text":"I have talked to Os. He claims to be a researcher who turns rats into these brutes to study them.",
                 "nextPhraseID":"brute_fisherman_44"
             }
         ]
@@ -4752,6 +4752,138 @@
         "switchToNPC":"brute_creator"
     },
     {
+        "id":"brute_creator_sign",
+        "replies":[
+            {
+                "nextPhraseID":"brute_creator_sign_6",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"12"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brute_creator_sign_5",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"20"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brute_creator_sign_4",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"25"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brute_creator_sign_3",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"33"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brute_creator_sign_2",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"50"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brute_creator_sign_1"
+			}
+        ]		
+    },
+    {
+        "id":"brute_creator_sign_1",
+        "message":"Science isn't about \"why\", it's about \"why not\""
+    },
+    {
+        "id":"brute_creator_sign_2",
+        "message":"Praise is the portal to the presence of Alythara"
+    },
+    {
+        "id":"brute_creator_sign_3",
+        "message":"Your dream is a portal to your destiny."
+    },
+    {
+        "id":"brute_creator_sign_4",
+        "message":"The bonemeal potion is a lie."
+    },
+    {
+        "id":"brute_creator_sign_5",
+        "message":"We do what we must because we can."
+    },
+    {
+        "id":"brute_creator_sign_6",
+        "message":"Black Water won't steal our research results."
+    },
+    {
+        "id":"brute_creator_papers",
+        "message":"The note says: \"C.A.K.E.\""
+    },
+    {
+        "id":"brute_origin1a",
+        "replies":[
+            {
+                "nextPhraseID":"brute_origin1a_4",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"10"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brute_origin1a_3",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"33"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brute_origin1a_2",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"50"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brute_origin1a_1"
+			}
+        ]		
+    },
+    {
+        "id":"brute_origin1a_1",
+        "message":"Well, you found me. Congratulations. Was it worth it?"
+    },
+    {
+        "id":"brute_origin1a_2",
+        "message":"Oh, you are still alive?"
+    },
+    {
+        "id":"brute_origin1a_3",
+        "message":"I was told here would be cake."
+    },
+    {
+        "id":"brute_origin1a_4",
+        "message":"The cake is a lie."
+    },
+    {
         "id":"brute_creator_flash",
         "replies":[
             {
@@ -4819,10 +4951,10 @@
     },
     {
         "id":"brute_creator",
-        "message":"Oh, a visitor. How unusual.\nCome in, come in. I am Servelath.",
+        "message":"Oh, a visitor. How unusual.\nCome in, come in. I am Os.",
         "replies":[
             {
-                "text":"Hi, I am $playername.",
+                "text":"Hi, I am $playername. Glad to meet you.",
                 "nextPhraseID":"brute_creator_2"
             }
         ]
@@ -4847,7 +4979,7 @@
     },
     {
         "id":"brute_creator_4",
-        "message":"Indeed. And you are talking to the leading expert in these matters.",
+        "message":"Indeed. And you are talking to the leading expert in these matters who is still alive.",
         "replies":[
             {
                 "text":"These 'matters' tend to run around and get in my way.",
@@ -4953,8 +5085,8 @@
         "message":"I'll just say that my brutes evolve from rats. There are too many of them anyway.",
         "replies":[
             {
-                "text":"I know. We had problems with rats in my village too.",
-                "nextPhraseID":"brute_creator_40"
+                "text":"Oh yes.",
+                "nextPhraseID":"brute_creator_32"
             }
         ],
         "rewards":[
@@ -4966,18 +5098,34 @@
         ]
     },
     {
+        "id":"brute_creator_32",
+        "message":"This was a triumph, a huge success!",
+        "replies":[
+            {
+                "text":"Thank you for telling me all this.",
+                "nextPhraseID":"brute_creator_42"
+            }
+        ]
+    },
+    {
         "id":"brute_creator_40",
         "message":"Now I have to work again.",
         "replies":[
             {
-                "text":"Thank you.",
+                "text":"Be glad. May I visit your laboratory?",
                 "nextPhraseID":"brute_creator_42"
             }
         ]
     },
     {
         "id":"brute_creator_42",
-        "message":"You're welcome to look around a little. But don't enter the Brute Bake rooms."
+        "message":"You're welcome to look around a little. But don't enter the Brute Bake rooms.",
+        "replies":[
+            {
+                "text":"Sure, I want to stay alive after all.",
+                "nextPhraseID":"X"
+            }
+        ]
     },
     {
         "id":"verigil_seal_found_test_nut",
