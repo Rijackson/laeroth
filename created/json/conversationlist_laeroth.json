@@ -1471,7 +1471,7 @@
         "id":"script_close_cave_door_1",
         "rewards":[
             {
-                "rewardType":"questProgress",
+                "rewardType":"removeQuestProgress",
                 "rewardID":"nondisplay",
                 "value":40
             },
