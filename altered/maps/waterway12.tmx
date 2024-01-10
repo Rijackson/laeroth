@@ -186,135 +186,93 @@
  </tileset>
  <layer name="Ground" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJzt1VEKgCAMBmD1rWu1jukZEm/hsSIiGFG6za0gfPgf9eN3ZmVyroyM/DgZ5QvT0s8EU9tuORa2xFy8Xiz7zr7emXMGWi5lDuBls31yqQHh+uG+5/Z88xI3I1dqc1zNtw4U36Jzzxj6Zs/pi901HLFw4ab71bWwa/cCu0n5zKmuZueWu9+raNSZ0jcZdOa6Wp1rbjJyW//tDc4Nsp4=
+   eJztlTEOgzAMRVE27r9yhYIiDkDHrnCGHgQqFGFZteOf4nTJ8AakyM/fIUnsuy4KvByo6dL8tXyNRuNkNnK3R7pzOCW9WD1DsPcRBT+S6eMbCUPAeiiZ34M5KROYH0HzjmBuhOWo+yTUyr0eNTeClN8j8ztcSF7Pvdb2+19er1kntH/bK3PuTHmdq5zTI7eWld+jd3l5XclHv39xWX08K5I5eTSX5kO8uVpW1zcvnXUuk2WOKJZaaY329pT4dpdXntI=
   </data>
  </layer>
  <layer name="Objects" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJy9VstOwzAQdPgDKlGJc5IPoX+A4Pf4DcIdiYQjl6LAveJ5ReGGV/VIo5Xt2InFSKu0luPx7K4nNuZ/0W78440drzfxOblo3Dp1wnpNIU4fRM9FtTx21XLuK/vutY3L6vg7538Kb6xWnPfD1pg3ivdteB0fb6yGodoJ56eNFxuTjVcbHx5+vK95Yz2hexVrMuevjeHUmB/Fr7X79Ia4wYd8Yk3mFHydG/Nt49HxM3er9LaJ5461QdNEnMIleHDPnrgH0qz1zvH2pO02Ie7csyS4f1G/3ukc3LOz409nx/1CL5+r0FnjefKfc4Z8c+9iD6hxR303rNTdOx7Uleus9yDQfbcU4AG4J3gPmDMV4Iwh59shKPHNyl0j9r08uNz4vLYEfP6EHhSEvG4NtE6cSfSgQHtdCR4N+BF6sFvAveauwz4HD9A+u7eedHPifx+coTvATo3Bz8TvxNvhrwi+qwCau0nQK7ySF8zpPbnkOwT73bPz4DGiO8bL4DrC51Bv/c1jYA+5vE3A6wQhj9srrvuMXk+9T9YBD4z11hJeX0+E+kVyPDrtc5r1PWcOPq8XnaPKtc69bw3Zv/CGvBl9pf0Z7+teSumtOb3wLYG+kwF//gXgOw==
+   eJztVctOwzAQtDggccwlUr4d5SP4hl5ipOaEKKGSL6AK2nsFh0h4qRdG2/VLhFtHWuVhZ2d2bG/GzpihMd/Ytca8hTj4ePbx2ZpFcPR5tj72IT9x7gTXR4ilOJGbc0u+pbli+K/aLrigBnjGc/H+h70qeQ4VufaVWmTfksDeEottJD9rKeGSPHTWne9zt1fGTP7a+6vtTnPvbk7XY0ZLCRfxzD7/GHITXwx9GLOh57MeqSXFxXBNnOcxMYaYxTzpnwTrpv+HzXBsYJzqjumlXKzjSZmDHjHulXcp8D92zHyXG0ctD9fn4xPoXyn+SQ+YD+t2ita1v38Je+cVeDeJNZBrWwvymDSsgw7b6muR2mtDo98jsE66J17X6N5oIM/Za00fwSnnTea13fn6p87yz3eQhz2PeY/vUQvVzM+oAb3V1roHfbHzmPLddr/elNSKOrTzrPlvYT9Lz/l5qtyr6FGuD7GuMURpnRKrSO+dlfM6VHpKyPXs2DryP24JyHXg2pCbuXA/lvxvUr1KzmOva/dFCTStWq9OzUfIukq80OqiPF+mVNSs
   </data>
  </layer>
  <layer name="Above" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztlM0NgCAMRotDmDCWxovDOY0b6FV3UQ4kPRjpD9IQeWfal9L0A2jUwN7beNfmVXF4gNOX91L5m/cLnnY8O4DJ0Xvg+x7uupFRq6HW/UvzUOuV1lt5NyOvltq81JyvBXxfpbIowP1/bs5KvdS84eZSykv9j6Wz8QY4M+fwRh9n5hxe/IY6c6rvWz5HB+5B3Ys0xy49ai2u
+   eJztlD0KgDAMRsVDCJ5dPIhLFydnLyRCA6E0//Vn6Fu1fcmX6DC8zzF/IO10Op3M9uA/KDnufrKev3BOsfO1jLy5STPyzJBC0zfnw88sda2j/l0OyBi7pdw9s/b2idmzV6pPem71R7LeilxreXNEv6uWuw5w+bby3X1b77rrSrPu3JJnWs52F/L29rcQO7QSdUShfBjYreiOaVwYyFjKuoWr5rVkHfEBb/so/wUrJS2z
   </data>
  </layer>
  <layer name="Walkable" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJzt0ssNwCAMA1Cm6P4rsCHXChWoY4efYoljeWlwflLKcdwPm1Uz3+D+3aPSRd6Rcd/ffjk92+pawrqnRdH3+q6W4eEi78B0lu18uHu6jG3tFNNJ1O2FnR2JauejPaDzzHK9/re2FQ7at3DDVbujThfnrSgJ
+   eJztk8ENwCAMA5mi+6/Ahv2iKoAdjNVHkPwK5AwO/Wmtl0ql0mWhy8VReMn0yPKRvaxn5Xs5c2G4p/zobHYedz6QuvIvrPaMtW9PR9ZRvxvcVf+Znxn7JN8MUzXXTLZKPpMtwkXnOfLBcNl7s4zMW0d1B1fJQTN2yMn6i149Atfp
   </data>
  </layer>
  <objectgroup name="Mapevents">
-  <object name="west" type="mapchange" x="0" y="256" width="32" height="160">
+  <object name="west" type="mapchange" x="0" y="416" width="32" height="480">
    <properties>
-    <property name="map" value="waterway8"/>
+    <property name="map" value="waterway7"/>
     <property name="place" value="east"/>
    </properties>
   </object>
-  <object name="north" type="mapchange" x="0" y="96" width="32" height="32">
+  <object name="east" type="mapchange" x="928" y="352" width="32" height="544">
    <properties>
-    <property name="map" value="waterway8"/>
+    <property name="map" value="waterway13"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object name="entrance" type="mapchange" x="480" y="544" width="32" height="32">
+   <properties>
+    <property name="map" value="brimhaven6"/>
     <property name="place" value="north"/>
    </properties>
   </object>
-  <object name="east1" type="mapchange" x="928" y="256" width="32" height="160">
+  <object name="release_mouse0" type="script" x="384" y="576" width="160" height="192">
    <properties>
-    <property name="map" value="waterway11"/>
-    <property name="place" value="west1"/>
+    <property name="when" value="step"/>
    </properties>
   </object>
-  <object name="east2" type="mapchange" x="928" y="672" width="32" height="32">
-   <properties>
-    <property name="map" value="waterway11"/>
-    <property name="place" value="west2"/>
-   </properties>
-  </object>
-  <object name="south1" type="mapchange" x="480" y="928" width="32" height="32">
-   <properties>
-    <property name="map" value="waterway10"/>
-    <property name="place" value="north1"/>
-   </properties>
-  </object>
-  <object name="south2" type="mapchange" x="704" y="928" width="96" height="32">
-   <properties>
-    <property name="map" value="waterway10"/>
-    <property name="place" value="north2"/>
-   </properties>
-  </object>
-  <object name="sign_waterway9" type="sign" x="320" y="352" width="32" height="32"/>
  </objectgroup>
  <objectgroup name="Spawn">
-  <object name="erumen_3" type="spawn" x="96" y="224" width="288" height="224">
+  <object name="izthiel_2" type="spawn" x="64" y="320" width="256" height="160">
+   <properties>
+    <property name="spawngroup" value="izthiel_2"/>
+   </properties>
+  </object>
+  <object name="izthiel_3" type="spawn" x="512" y="288" width="32" height="64">
    <properties>
     <property name="quantity" value="2"/>
-    <property name="spawngroup" value="erumen_3"/>
-   </properties>
-  </object>
-  <object name="izthiel_4" type="spawn" x="416" y="320" width="32" height="32">
-   <properties>
-    <property name="spawngroup" value="izthiel_4"/>
-   </properties>
-  </object>
-  <object name="izthiel_4_1" type="spawn" x="288" y="480" width="32" height="128">
-   <properties>
-    <property name="spawngroup" value="izthiel_4"/>
-   </properties>
-  </object>
-  <object name="izthiel_3" type="spawn" x="320" y="640" width="128" height="32">
-   <properties>
     <property name="spawngroup" value="izthiel_3"/>
    </properties>
   </object>
-  <object name="erumen_4" type="spawn" x="544" y="640" width="64" height="32">
-   <properties>
-    <property name="spawngroup" value="erumen_4"/>
-   </properties>
-  </object>
-  <object name="izthiel_3_1" type="spawn" x="736" y="416" width="32" height="96">
-   <properties>
-    <property name="spawngroup" value="izthiel_3"/>
-   </properties>
-  </object>
-  <object name="izthiel_2" type="spawn" x="736" y="768" width="32" height="96">
+  <object name="izthiel_2_1" type="spawn" x="576" y="256" width="320" height="160">
    <properties>
     <property name="spawngroup" value="izthiel_2"/>
    </properties>
   </object>
-  <object name="izthiel_2_1" type="spawn" x="480" y="736" width="32" height="96">
-   <properties>
-    <property name="spawngroup" value="izthiel_2"/>
-   </properties>
-  </object>
-  <object name="erumen_4_1" type="spawn" x="128" y="96" width="160" height="32">
-   <properties>
-    <property name="spawngroup" value="erumen_4"/>
-   </properties>
-  </object>
-  <object name="erumen_2" type="spawn" x="672" y="576" width="224" height="192">
+  <object name="erumen_2" type="spawn" x="64" y="448" width="352" height="160">
    <properties>
     <property name="quantity" value="2"/>
     <property name="spawngroup" value="erumen_2"/>
    </properties>
   </object>
-  <object name="erumen_4_2" type="spawn" x="800" y="320" width="64" height="32">
+  <object name="erumen_1" type="spawn" x="64" y="608" width="288" height="288">
    <properties>
-    <property name="spawngroup" value="erumen_4"/>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="erumen_1"/>
    </properties>
   </object>
-  <object name="izthiel_4_2" type="spawn" x="288" y="96" width="160" height="32">
+  <object name="erumen_1_1" type="spawn" x="672" y="416" width="224" height="256">
    <properties>
-    <property name="spawngroup" value="izthiel_4"/>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="erumen_1"/>
    </properties>
   </object>
  </objectgroup>
  <objectgroup name="Keys">
-  <object name="mysterious_map_waterway9" type="key" x="896" y="288" width="32" height="416">
+  <object name="mysterious_map_waterway12" type="key" x="352" y="736" width="32" height="32">
    <properties>
-    <property name="phrase" value="mysterious_mapstop_stop_and_review_south"/>
+    <property name="phrase" value="mysterious_map_stop_and_review"/>
     <property name="requireId" value="nondisplay"/>
     <property name="requireNegation" value="true"/>
     <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="45"/>
+    <property name="requireValue" value="44"/>
    </properties>
   </object>
  </objectgroup>

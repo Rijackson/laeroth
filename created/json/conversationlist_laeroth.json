@@ -1145,6 +1145,16 @@
                 "rewardType":"giveItem",
                 "rewardID":"korhald_chamber_key",
                 "value":1
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"nondisplay",
+                "value":44
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"nondisplay",
+                "value":45
             }
         ]
     },
@@ -1602,38 +1612,36 @@
         ]
     },
     {
-        "id":"mysterious_mapstop_stop_and_review",
+        "id":"mysterious_map_stop_and_review_south",
         "message":"Let's stop for a second and look at the 'Mysterious Korhald map'.",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"mysterious_mapstop_stop_and_review_1"
+                "nextPhraseID":"mysterious_map_stop_and_review_south_1"
             }
         ]
     },
     {
-        "id":"mysterious_mapstop_stop_and_review_1",
+        "id":"mysterious_map_stop_and_review",
+        "message":"Let's stop for a second and look at the 'Mysterious Korhald map'.",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"mysterious_map_waterway7_0",
+                "nextPhraseID":"mysterious_map_stop_and_review_1"
+            }
+        ]
+    },
+    {
+        "id":"mysterious_map_stop_and_review_south_1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mysterious_map_waterway9_0",
                 "requires":[
                     {
                         "requireType":"inventoryKeep",
                         "requireID":"korhald_map",
                         "value":1
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"nondisplay",
-                        "value":46,
-                        "negate":true
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"nondisplay",
-                        "value":45,
-                        "negate":true
                     }
                 ]
             },
@@ -1646,34 +1654,33 @@
                         "requireID":"korhald_map",
                         "value":1,
                         "negate":true
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"nondisplay",
-                        "value":46,
-                        "negate":true
                     }
                 ]
-            },
+            }
+        ]
+    },
+    {
+        "id":"mysterious_map_stop_and_review_1",
+        "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"mysterious_map_waterway9_0",
+                "nextPhraseID":"mysterious_map_waterway7_0",
                 "requires":[
                     {
                         "requireType":"inventoryKeep",
                         "requireID":"korhald_map",
                         "value":1
-                    },
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"mysterious_map_missing",
+                "requires":[
                     {
-                        "requireType":"questProgress",
-                        "requireID":"nondisplay",
-                        "value":46,
-                        "negate":true
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"nondisplay",
-                        "value":44,
+                        "requireType":"inventoryKeep",
+                        "requireID":"korhald_map",
+                        "value":1,
                         "negate":true
                     }
                 ]
@@ -1685,7 +1692,7 @@
         "message":"According to the map, I should continue heading east.",
         "rewards":[
             {
-                "rewardType":"questProgress",
+                "rewardType":"removeQuestProgress",
                 "rewardID":"nondisplay",
                 "value":44
             }
@@ -1693,14 +1700,14 @@
     },
     {
         "id":"mysterious_map_missing",
-        "message":"I don't have the map. I should go back and get it so that i don't get lost."
+        "message":"I don't have the map. I should go back and get it so that I don't get lost."
     },
     {
         "id":"mysterious_map_waterway9_0",
         "message":"According to the map, I should continue heading south.",
         "rewards":[
             {
-                "rewardType":"questProgress",
+                "rewardType":"removeQuestProgress",
                 "rewardID":"nondisplay",
                 "value":45
             }
