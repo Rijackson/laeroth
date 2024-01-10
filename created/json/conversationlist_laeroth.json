@@ -1381,7 +1381,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"odd_coin_collector",
-                        "value":55
+                        "value":62
                     }
                 ]
             },
@@ -1409,6 +1409,12 @@
     {
         "id":"korhald_cave_hidden_basket_examine_loot_f",
         "message":"You have just found a coin and a shield.",
+        "replies":[
+            {
+                "text":"I should go back and talk to Forenza.",
+                "nextPhraseID":"X"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"giveItem",
@@ -1430,6 +1436,12 @@
     {
         "id":"korhald_cave_hidden_basket_examine_loot_g",
         "message":"You have just found a coin and a shield.",
+        "replies":[
+            {
+                "text":"I should go back and talk to Gylew.",
+                "nextPhraseID":"X"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -1450,7 +1462,7 @@
     },
     {
         "id":"korhald_cave_hidden_locked_chest",
-        "message":"[The chest is locked.]"
+        "message":"This chest is locked."
     },
     {
         "id":"script_close_cave_door_0",
@@ -1515,9 +1527,10 @@
     },
     {
         "id":"script_open_korhald_tomb_door_has_key",
-        "message":"[The door is locked, but before dispair sets in, you notice that the keyhole is oddly shaped. You decide to use the Mysterious Korhald 'pendant' as a key.]",
+        "message":"The door is locked, but before dispair sets in, you notice that the keyhole is oddly shaped.",
         "replies":[
             {
+                "text":"Use the Mysterious Korhald 'pendant' as a key.",
                 "nextPhraseID":"script_open_korhald_tomb_door_1",
                 "requires":[
                     {
@@ -1541,21 +1554,22 @@
             {
                 "rewardType":"removeQuestProgress",
                 "rewardID":"nondisplay",
-                "value":42
+                "value":43
             },
             {
                 "rewardType":"questProgress",
                 "rewardID":"nondisplay",
-                "value":43
+                "value":42
             }
         ]
     },
     {
-        "id":"script_open_korhald_tomb_door_no_key_1",
-        "message":"[The door is locked! I should go find a key.]",
+        "id":"korhald_tomb_door_no_pendant",
+        "message":"The door is locked!",
         "replies":[
             {
-                "nextPhraseID":"script_open_korhald_tomb_door_no_key_2",
+                "text":"I should go find the key.",
+                "nextPhraseID":"X",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -1572,9 +1586,6 @@
                 ]
             }
         ]
-    },
-    {
-        "id":"script_open_korhald_tomb_door_no_key_2"
     },
     {
         "id":"script_close_korhald_tomb_door_0",
@@ -1725,7 +1736,7 @@
     },
     {
         "id":"korhald_cave_hidden_war_book",
-        "message":"[At a quick glance, you notice a couple of books on the strategy of war.]"
+        "message":"At a quick glance, you notice a couple of books on the strategy of war."
     },
     {
         "id":"gylew_korhald_cop_0",
@@ -3401,6 +3412,21 @@
         ]
     },
     {
+        "id":"jerelin_selector_1",
+        "replies":[
+            {
+                "nextPhraseID":"jerelin_script_0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"laeroth_nondisplay",
+                        "value":120
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "id":"jerelin_script_0",
         "message":"Here lies Jerelin, Seventh Lord of Laeroth."
     },
@@ -3506,7 +3532,7 @@
         "rewards":[
             {
                 "rewardType":"removeSpawnArea",
-                "rewardID":"jerelin",
+                "rewardID":"cuned",
                 "mapName":"laerothtomb1"
             },
             {
@@ -3581,25 +3607,6 @@
                 "mapName":"laerothtomb1"
             }
         ]
-    },
-    {
-        "id":"jerelin_selector_1",
-        "replies":[
-            {
-                "nextPhraseID":"jerelin_script_b_0",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"laeroth_nondisplay",
-                        "value":120
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id":"jerelin_script_b_0",
-        "message":"Here lies Jerelin, Seventh Lord of Laeroth.\nIn peace at last."
     },
     {
         "id":"dresser_0",
@@ -3724,7 +3731,7 @@
                         "value":1
                     },
                     {
-                        "requireType":"inventoryKeep",
+                        "requireType":"inventoryRemove",
                         "requireID":"oegyth5",
                         "value":1
                     },
@@ -4466,10 +4473,10 @@
     },
     {
         "id":"brute_fisherman_8",
-        "message":"You just came this path. Do you know why it's been used so little lately?",
+        "message":"You just came this way. Do you know why it's been used so little lately?",
         "replies":[
             {
-                "text":"Well, yes,  I think so.",
+                "text":"Well, I think so.",
                 "nextPhraseID":"brute_fisherman_10"
             }
         ]
@@ -4556,7 +4563,7 @@
     },
     {
         "id":"brute_fisherman_22",
-        "message":"Yes, it has always been long.",
+        "message":"Yes, it always was long.",
         "replies":[
             {
                 "text":"N",
@@ -4651,7 +4658,7 @@
         "message":"But how can that be?",
         "replies":[
             {
-                "text":"I have talked to Os. He claims to be a researcher who turns rats into these brutes to study them.",
+                "text":"I have talked to Severath. He claims to be a researcher who turns rats into these brutes to study them.",
                 "nextPhraseID":"brute_fisherman_44"
             }
         ]
@@ -4752,138 +4759,6 @@
         "switchToNPC":"brute_creator"
     },
     {
-        "id":"brute_creator_sign",
-        "replies":[
-            {
-                "nextPhraseID":"brute_creator_sign_6",
-                "requires":[
-                    {
-                        "requireType":"random",
-                        "requireID":"12"
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"brute_creator_sign_5",
-                "requires":[
-                    {
-                        "requireType":"random",
-                        "requireID":"20"
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"brute_creator_sign_4",
-                "requires":[
-                    {
-                        "requireType":"random",
-                        "requireID":"25"
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"brute_creator_sign_3",
-                "requires":[
-                    {
-                        "requireType":"random",
-                        "requireID":"33"
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"brute_creator_sign_2",
-                "requires":[
-                    {
-                        "requireType":"random",
-                        "requireID":"50"
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"brute_creator_sign_1"
-			}
-        ]		
-    },
-    {
-        "id":"brute_creator_sign_1",
-        "message":"Science isn't about \"why\", it's about \"why not\""
-    },
-    {
-        "id":"brute_creator_sign_2",
-        "message":"Praise is the portal to the presence of Alythara"
-    },
-    {
-        "id":"brute_creator_sign_3",
-        "message":"Your dream is a portal to your destiny."
-    },
-    {
-        "id":"brute_creator_sign_4",
-        "message":"The bonemeal potion is a lie."
-    },
-    {
-        "id":"brute_creator_sign_5",
-        "message":"We do what we must because we can."
-    },
-    {
-        "id":"brute_creator_sign_6",
-        "message":"Black Water won't steal our research results."
-    },
-    {
-        "id":"brute_creator_papers",
-        "message":"The note says: \"C.A.K.E.\""
-    },
-    {
-        "id":"brute_origin1a",
-        "replies":[
-            {
-                "nextPhraseID":"brute_origin1a_4",
-                "requires":[
-                    {
-                        "requireType":"random",
-                        "requireID":"10"
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"brute_origin1a_3",
-                "requires":[
-                    {
-                        "requireType":"random",
-                        "requireID":"33"
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"brute_origin1a_2",
-                "requires":[
-                    {
-                        "requireType":"random",
-                        "requireID":"50"
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"brute_origin1a_1"
-			}
-        ]		
-    },
-    {
-        "id":"brute_origin1a_1",
-        "message":"Well, you found me. Congratulations. Was it worth it?"
-    },
-    {
-        "id":"brute_origin1a_2",
-        "message":"Oh, you are still alive?"
-    },
-    {
-        "id":"brute_origin1a_3",
-        "message":"I was told here would be cake."
-    },
-    {
-        "id":"brute_origin1a_4",
-        "message":"The cake is a lie."
-    },
-    {
         "id":"brute_creator_flash",
         "replies":[
             {
@@ -4951,10 +4826,10 @@
     },
     {
         "id":"brute_creator",
-        "message":"Oh, a visitor. How unusual.\nCome in, come in. I am Os.",
+        "message":"Oh, a visitor. How unusual.\nCome in, come in. I am Servelath.",
         "replies":[
             {
-                "text":"Hi, I am $playername. Glad to meet you.",
+                "text":"Hi, I am $playername.",
                 "nextPhraseID":"brute_creator_2"
             }
         ]
@@ -4979,7 +4854,7 @@
     },
     {
         "id":"brute_creator_4",
-        "message":"Indeed. And you are talking to the leading expert in these matters who is still alive.",
+        "message":"Indeed. And you are talking to the leading expert in these matters.",
         "replies":[
             {
                 "text":"These 'matters' tend to run around and get in my way.",
@@ -5085,8 +4960,8 @@
         "message":"I'll just say that my brutes evolve from rats. There are too many of them anyway.",
         "replies":[
             {
-                "text":"Oh yes.",
-                "nextPhraseID":"brute_creator_32"
+                "text":"I know. We had problems with rats in my village too.",
+                "nextPhraseID":"brute_creator_40"
             }
         ],
         "rewards":[
@@ -5098,34 +4973,18 @@
         ]
     },
     {
-        "id":"brute_creator_32",
-        "message":"This was a triumph, a huge success!",
-        "replies":[
-            {
-                "text":"Thank you for telling me all this.",
-                "nextPhraseID":"brute_creator_42"
-            }
-        ]
-    },
-    {
         "id":"brute_creator_40",
         "message":"Now I have to work again.",
         "replies":[
             {
-                "text":"Be glad. May I visit your laboratory?",
+                "text":"Thank you.",
                 "nextPhraseID":"brute_creator_42"
             }
         ]
     },
     {
         "id":"brute_creator_42",
-        "message":"You're welcome to look around a little. But don't enter the Brute Bake rooms.",
-        "replies":[
-            {
-                "text":"Sure, I want to stay alive after all.",
-                "nextPhraseID":"X"
-            }
-        ]
+        "message":"You're welcome to look around a little. But don't enter the Brute Bake rooms."
     },
     {
         "id":"verigil_seal_found_test_nut",

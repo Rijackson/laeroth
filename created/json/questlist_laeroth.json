@@ -135,34 +135,33 @@
             },
             {
                 "progress":65,
-                "logText":"Inside the Korhald cave, I found the Coin of prestige and the Shield of the brave. I should return to Forenza and show him the coin.",
-                "rewardExperience":0
+                "logText":"Inside the Korhald cave, I found the Coin of Prestige and the Shield of the Brave. I should return to Forenza and show him the coin."
             },
             {
                 "progress":66,
-                "logText":"Inside the Korhald cave, I found the Coin of prestige and the Shield of the brave. I should return to Gylew and show him the coin."
+                "logText":"Inside the Korhald cave, I found the Coin of Prestige and the Shield of the Brave. I should return to Gylew and show him the coin."
             },
             {
                 "progress":100,
-                "logText":"I sold Gylew the Coin of prestige and he rewarded me handsomely for it.",
+                "logText":"I sold Gylew the Coin of Prestige and he rewarded me handsomely for it.",
                 "rewardExperience":5000,
                 "finishesQuest":1
             },
             {
                 "progress":105,
-                "logText":"I gave Gylew the Coin of prestige and he told me that if I ever make my way to Feygrad, to seek out his family and they will 'make that shield a little bit better\". Whatever that means.",
+                "logText":"I gave Gylew the Coin of Prestige and he told me that if I ever make my way to Feygrad, to seek out his family and they will 'make that shield a little bit better\". Whatever that means.",
                 "rewardExperience":6000,
                 "finishesQuest":1
             },
             {
                 "progress":110,
-                "logText":"I sold Forenza the Coin of prestige and he rewarded me handsomely for it.",
+                "logText":"I sold Forenza the Coin of Prestige and he rewarded me handsomely for it.",
                 "rewardExperience":5000,
                 "finishesQuest":1
             },
             {
                 "progress":115,
-                "logText":"I gave Forenza the Coin of prestige and he told me that if I ever make my way to Brightport, to seek out his family and they will 'reward\" me. Whatever that means.",
+                "logText":"I gave Forenza the Coin of Prestige and he told me that if I ever make my way to Brightport, to seek out his family and they will 'reward\" me. Whatever that means.",
                 "rewardExperience":6000
             }
         ]
@@ -326,11 +325,11 @@
             },
             {
                 "progress":40,
-                "logText":"I have talked to Os, a scientist about brute matters. He has built up a brute production facility."
+                "logText":"I have talked to Servelath, a scientist about brute matters. He has built up a brute production facility."
             },
             {
                 "progress":90,
-                "logText":"I told Birgo what I have learned from Os. He thanked me for this new story he could tell his wife.",
+                "logText":"I told Birgo what I have learned from Servelath. He thanked me for this new story he could tell his wife.",
                 "rewardExperience":2000,
                 "finishesQuest":1
             }
