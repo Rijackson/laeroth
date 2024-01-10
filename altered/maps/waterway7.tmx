@@ -217,6 +217,16 @@
     <property name="place" value="west"/>
    </properties>
   </object>
+  <object name="mysterious_map_44_reset" type="script" x="64" y="544" width="32" height="384">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object name="mysterious_map_44_reset" type="script" x="864" y="416" width="32" height="512">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Spawn" visible="0">
   <object name="erumen_1" type="spawn" x="64" y="480" width="384" height="448">

@@ -242,6 +242,11 @@
    </properties>
   </object>
   <object name="sign_waterway9" type="sign" x="320" y="352" width="32" height="32"/>
+  <object name="mysterious_map_45_reset" type="script" x="768" y="320" width="32" height="416">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Spawn">
   <object name="erumen_3" type="spawn" x="96" y="224" width="288" height="224">
@@ -310,7 +315,7 @@
  <objectgroup name="Keys">
   <object name="mysterious_map_waterway9" type="key" x="896" y="288" width="32" height="416">
    <properties>
-    <property name="phrase" value="mysterious_mapstop_stop_and_review_south"/>
+    <property name="phrase" value="mysterious_map_stop_and_review_south"/>
     <property name="requireId" value="nondisplay"/>
     <property name="requireNegation" value="true"/>
     <property name="requireType" value="questProgress"/>
