@@ -3401,21 +3401,6 @@
         ]
     },
     {
-        "id":"jerelin_selector_1",
-        "replies":[
-            {
-                "nextPhraseID":"jerelin_script_0",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"laeroth_nondisplay",
-                        "value":120
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "id":"jerelin_script_0",
         "message":"Here lies Jerelin, Seventh Lord of Laeroth."
     },
@@ -3596,6 +3581,25 @@
                 "mapName":"laerothtomb1"
             }
         ]
+    },
+    {
+        "id":"jerelin_selector_1",
+        "replies":[
+            {
+                "nextPhraseID":"jerelin_script_b_0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"laeroth_nondisplay",
+                        "value":120
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"jerelin_script_b_0",
+        "message":"Here lies Jerelin, Seventh Lord of Laeroth.\nIn peace at last."
     },
     {
         "id":"dresser_0",
