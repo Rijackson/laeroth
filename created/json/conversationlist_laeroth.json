@@ -1748,7 +1748,7 @@
     },
     {
         "id":"gylew_korhald_cop_20",
-        "message":"Well, for starters, this shield has Korhald family crest engraved on it's front side and clearly belonged to Korhald himself, but I have no use for such an item. Here take it.",
+        "message":"Well, for starters, this shield has the Korhald family crest engraved on its front side and clearly belonged to Korhald himself, but I have no use for such an item. Here take it.",
         "replies":[
             {
                 "text":"N",
@@ -1761,7 +1761,7 @@
         "message":"But this coin you have here is a completely different story. I don't know anything about it. Which makes me want it even more. Can I have it? I will reward you handsomely for it.",
         "replies":[
             {
-                "text":"Reward?! I always love the sound of that. What are we talking here? 10000 godl? 20000 gold?",
+                "text":"Reward?! I always love the sound of that. What are we talking here? 10000 gold? 20000 gold?",
                 "nextPhraseID":"gylew_korhald_cop_40"
             },
             {
@@ -1810,12 +1810,24 @@
                 "rewardType":"questProgress",
                 "rewardID":"odd_coin_collector",
                 "value":100
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"nondisplay",
+                "value":47
             }
         ]
     },
     {
         "id":"gylew_korhald_cop_45",
-        "message":"OK, but don't keep an old man waiting too long. I want that coin."
+        "message":"OK, but don't keep an old man waiting too long. I want that coin.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"nondisplay",
+                "value":47
+            }
+        ]
     },
     {
         "id":"gylew_korhald_cop_35",
@@ -1825,6 +1837,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"odd_coin_collector",
                 "value":105
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"nondisplay",
+                "value":47
             }
         ]
     },
@@ -1910,14 +1927,14 @@
         "message":"Hmm...these are indeed interesting. Very interesting in fact.",
         "replies":[
             {
-                "text":"[While trying to hold back the giant smile that you can feel growing upon your face, you ask 'why is that?']",
+                "text":"[While trying to hold back the giant smile that you can feel growing upon your face, you ask]'why is that'?",
                 "nextPhraseID":"forenza_korhald_cop_20"
             }
         ]
     },
     {
         "id":"forenza_korhald_cop_20",
-        "message":"Well, for obvious reasons. Didn't you notice that the shield has Korhald family crest engraved on it's front side? This clearly belonged to Korhald himself. You should keep this item as i could aid you in your adventures.",
+        "message":"Well, for obvious reasons. Didn't you notice that the shield has the Korhald family crest engraved on its front side? This clearly belonged to Korhald himself. You should keep this item as i could aid you in your adventures.",
         "replies":[
             {
                 "nextPhraseID":"forenza_korhald_cop_30"
@@ -1926,7 +1943,7 @@
     },
     {
         "id":"forenza_korhald_cop_30",
-        "message":"But this coin you have here really gives my pause as I never thought the stories of it's existance was true.  I don't know much about it, but I do know that has great value. Can I have it? I will reward you for it of course.",
+        "message":"But this coin you have here really gives my pause as I never thought the stories of it's existance was true.  I don't know much about it, but I do know that it has great value. Can I have it? I will reward you for it of course.",
         "replies":[
             {
                 "text":"Reward?! I always love the sound of that. What are we talking here? 10000 godl? 20000 gold?",
@@ -1962,18 +1979,23 @@
             },
             {
                 "text":"Let me think about it. I will be back shortly.",
-                "nextPhraseID":"X"
+                "nextPhraseID":"forenza_korhald_41"
             }
         ]
     },
     {
         "id":"forenza_korhald_cop_35",
-        "message":"Oh, how very generous of you to just hand it over for free. I'll tell you what once you find your way to Brightport, seek out my family. They will help you reward you for all of your generosity  and hard work.",
+        "message":"Oh, how very generous of you to just hand it over for free. I'll tell you what once you find your way to Brightport, seek out my family. They will help you reward you for all of your generosity and hard work.",
         "rewards":[
             {
                 "rewardType":"questProgress",
                 "rewardID":"odd_coin_collector",
                 "value":115
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"nondisplay",
+                "value":47
             }
         ]
     },
@@ -1989,6 +2011,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"odd_coin_collector",
                 "value":110
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"nondisplay",
+                "value":47
             }
         ]
     },
@@ -5225,6 +5252,38 @@
                 "rewardType":"questProgress",
                 "rewardID":"nondisplay",
                 "value":45
+            }
+        ]
+    },
+    {
+        "id":"gylew_korhald_cop_30a",
+        "message":"I don't know anything about it. Which makes me want it even more. Can I have it? I will reward you handsomely for it.",
+        "replies":[
+            {
+                "text":"Reward?! I always love the sound of that. What are we talking here? 10000 gold? 20000 gold?",
+                "nextPhraseID":"gylew_korhald_cop_40"
+            },
+            {
+                "text":"Here, take it. I have enough coins.",
+                "nextPhraseID":"gylew_korhald_cop_35",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"hero_coin",
+                        "value":1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"forenza_korhald_41",
+        "message":"OK, but don't keep this coin collector waiting too long. I want that coin.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"nondisplay",
+                "value":47
             }
         ]
     }

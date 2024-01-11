@@ -40,6 +40,17 @@
                 ]
             },
             {
+                "text":"About that \"Coin of Prestige\"...",
+                "nextPhraseID":"gylew_korhald_cop_30a",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nondisplay",
+                        "value":47
+                    }
+                ]
+            },
+            {
                 "text":"Hey. I need to go now and find this map.",
                 "nextPhraseID":"X",
                 "requires":[
