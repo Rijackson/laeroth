@@ -521,5 +521,26 @@
                 }
             }
         ]
+    },
+    {
+        "id":"korhald_cave_hidden_basket_dl",
+        "items":[
+            {
+                "itemID":"shield_of_brave",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"hero_coin",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
     }
 ]

@@ -1360,22 +1360,6 @@
         "id":"korhald_cave_hidden_basket_examine",
         "replies":[
             {
-                "nextPhraseID":"korhald_cave_hidden_basket_examine_looted",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"odd_coin_collector",
-                        "value":65,
-                        "negate":false
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"odd_coin_collector",
-                        "value":66
-                    }
-                ]
-            },
-            {
                 "nextPhraseID":"korhald_cave_hidden_basket_examine_loot_f",
                 "requires":[
                     {
@@ -1394,15 +1378,39 @@
                         "value":45
                     }
                 ]
-            }
-        ]
-    },
-    {
-        "id":"korhald_cave_hidden_basket_examine_looted",
-        "message":"The chest is now empty.",
-        "replies":[
+            },
             {
-                "nextPhraseID":"X"
+                "text":"I should bring this coin back to Forenza.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":62
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":65,
+                        "negate":false
+                    }
+                ]
+            },
+            {
+                "text":"I should bring this coin back to Gylew.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":45
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":66
+                    }
+                ]
             }
         ]
     },
@@ -1416,16 +1424,6 @@
             }
         ],
         "rewards":[
-            {
-                "rewardType":"giveItem",
-                "rewardID":"hero_coin",
-                "value":1
-            },
-            {
-                "rewardType":"giveItem",
-                "rewardID":"shield_of_brave",
-                "value":1
-            },
             {
                 "rewardType":"questProgress",
                 "rewardID":"odd_coin_collector",
@@ -1447,16 +1445,6 @@
                 "rewardType":"questProgress",
                 "rewardID":"odd_coin_collector",
                 "value":66
-            },
-            {
-                "rewardType":"giveItem",
-                "rewardID":"shield_of_brave",
-                "value":1
-            },
-            {
-                "rewardType":"giveItem",
-                "rewardID":"hero_coin",
-                "value":1
             }
         ]
     },
