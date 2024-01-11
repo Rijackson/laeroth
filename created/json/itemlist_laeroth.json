@@ -92,13 +92,23 @@
         "name":"Shield of the Brave",
         "displaytype":"extraordinary",
         "hasManualPrice":1,
-        "baseMarketCost":3000,
+        "baseMarketCost":0,
         "category":"shld_mtl_hv",
         "description":"Provides to its possessor, a level of fearlessness and courage.",
         "equipEffect":{
             "increaseAttackChance":-4,
-            "increaseBlockChance":20,
-            "increaseDamageResistance":1
+            "increaseBlockChance":18,
+            "increaseDamageResistance":2
+        },
+        "hitEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"fear",
+                    "magnitude":-99,
+                    "duration":3,
+                    "chance":"3"
+                }
+            ]
         },
         "killEffect":{
             "conditionsSource":[
@@ -106,32 +116,7 @@
                     "condition":"courage",
                     "magnitude":1,
                     "duration":3,
-                    "chance":"25"
-                }
-            ]
-        }
-    },
-    {
-        "id":"shield_of_brave_upg",
-        "iconID":"items_tometik2:97",
-        "name":"Shield of the Brave",
-        "displaytype":"extraordinary",
-        "hasManualPrice":1,
-        "baseMarketCost":3800,
-        "category":"shld_mtl_hv",
-        "description":"Provides to its possessor, a level of fearlessness and courage.",
-        "equipEffect":{
-            "increaseAttackChance":-3,
-            "increaseBlockChance":23,
-            "increaseDamageResistance":1
-        },
-        "killEffect":{
-            "conditionsSource":[
-                {
-                    "condition":"courage",
-                    "magnitude":1,
-                    "duration":4,
-                    "chance":"27"
+                    "chance":"20"
                 }
             ]
         }
