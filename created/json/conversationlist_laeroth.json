@@ -1599,7 +1599,7 @@
                         "value":42
                     },
                     {
-                        "requireType":"inventoryRemove",
+                        "requireType":"inventoryKeep",
                         "requireID":"korhald_chamber_key",
                         "value":1
                     }
@@ -4812,8 +4812,8 @@
             },
             {
                 "nextPhraseID":"brute_creator_sign_1"
-			}
-        ]		
+            }
+        ]
     },
     {
         "id":"brute_creator_sign_1",
@@ -4875,8 +4875,8 @@
             },
             {
                 "nextPhraseID":"brute_origin1a_1"
-			}
-        ]		
+            }
+        ]
     },
     {
         "id":"brute_origin1a_1",
