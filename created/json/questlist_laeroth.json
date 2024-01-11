@@ -325,11 +325,11 @@
             },
             {
                 "progress":40,
-                "logText":"I have talked to Servelath, a scientist about brute matters. He has built up a brute production facility."
+                "logText":"I have talked to Os, a scientist about brute matters. He has built up a brute production facility."
             },
             {
                 "progress":90,
-                "logText":"I told Birgo what I have learned from Servelath. He thanked me for this new story he could tell his wife.",
+                "logText":"I told Birgo what I have learned from Os. He thanked me for this new story he could tell his wife.",
                 "rewardExperience":2000,
                 "finishesQuest":1
             }
