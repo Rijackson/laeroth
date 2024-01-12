@@ -190,12 +190,12 @@
  </layer>
  <layer id="2" name="Objects" width="30" height="18">
   <data encoding="base64" compression="zlib">
-   eJyVVTtLA0EQXrwiWG5zIYg/QgsFO7VIMFgFLjEafBQhanygEhSCRQhYJzZaiCa2QvIv9Gc54+1wc5PZJH7wwe3t3nzz2jljjPmy5g9PgVFRgf18aMzScsJCOHluHd6VcsZsAreATeCFe0bQ+5Jbl8Hu20KsfxfExHXFJjZbYPOe8cGjSyBNRMOm1wWb/m6YTXiTjbV9IJ8J6DvqVm0Sl3YOEdn0dxyDKdorYGtVsUfxHsLekdjfBfvf8O5nih8jG/vh0+bxII7h+SSX6F7B87Xbp/xWRVyzMHB5nweoy/NG9cyz3POYF7GngHuevMsaIHhMXBdBMfJeQtQVOyP2DvPdgxj7jJGdzK/0B3XpzLbLbTub1uaIFD9u4fxLEPMVWAebDcfTMOlTjGkD1mvAoouX17LtqRHmlmIl/zHWjjt/6XoK50YVuB+mZ0Zk0/dWoumJVfYqaeLswro/ArtBrHsGPGe676D5wXRn3VsE1R3B69gReaGctZRZNXZ70+KVmnlR014GdIHPGf93VEfJ4py6NTa7+y6+AegNgZ9Ot8v+EXRW3k8Nvnpy7QPP/aP5Q3Zo3mj5pP3xP+cRojxnnbQ5yLXpmcB7SILnk+dRzggtXjojc09aNcUXDTuevuH9Q1p0h6jfK8JfTZvPzl99kno3
+   eJyVVb1OAkEQ3ngFsdzmCDE+hBaa2KkFRGJFciBKohYEFX+ihmhCLGiswUYLo2BrAi9ArS/iezjj7eTmhlnAL/mSvd29+ebv5owx5tOaPzwGRkUFzvOhMUvLCQvh5L112CvljNkEbgGbwHO3RtB+yT2Xwe7rQqx/G8TE54pNbLbA5h3jvUeXQJqIhk0/F2z6vUE24XU21vaBfCag76hbtUlc2j1EZNPvcfSnaK+ArVXFHo/3UJzvgv0v2Pue4sfQxn74tHk8iCNYH+cS3UtYX7lzym9VxDULfZf3eYC6PG9UzzzLPY95EeL5Ae558i5rgOAxcV0Exch7CVFX7AzZHua7CzH2GCM7mV/pD+rSnW2X23Y2rc0RKX7cwP3nIOYLsA42G44nYdKnGNMGPK8Biy5eXsu2p0aYW4qV/MdYO+7+hespnBtV4H6YnhmRTfexRNMTq+xV0sTZhXV/AI6DWPcUeMZ030DznenO+m4RVHcEr2NH5IVy1lJm1cidTYtXauZFTbsZ0AU+ZfzvUR0li3Pq1tjs7rn4+qA3AH443TH7R9Bd+X1q8NWTax94vj+aP2SH5o2WTzof/XMeIcpz1kmbg1yb1gTeQxI8nzyPckZo8dIdmXvSqim+aNjx9A3vH9Kib4j6vSL81bT57PwFG496ow==
   </data>
  </layer>
  <layer id="3" name="Above" width="30" height="18">
   <data encoding="base64" compression="zlib">
-   eJy9lMsNwjAMhi2xQ6uMAYzABJQrCOi5PTIQMASMh3OwlBrbsSnqL1Vq2sSfnwHw694CPPB5tvW9xwRwSvpa020VcIhpjfY3Dgbp0PyPLcX3wvVb8GfXfH/zsPdoqxPsjcmXX4nrZXNxHuVeirlTuFm8Bmc8e1HiIKa3lyzlXHj6hfZs09QH7lOEK6lmZ0jT+KPSuFmjYW8uy6o9KTq3Hu6vsuLlvRrl8vm16lnmRLNPua3l74r/+qJ/veLc0v9av86Z0Wgd+Z1RsiPxSr0auSOWUI21pC8WW3v/AC37Ldg=
+   eJytlMsNwjAMhi2xQ6uMAYzABJQriMKZHhkIGALGw5GwlJr41faXKiVp5M/PAPj1aAGe+L1a++4xAZySvJd0XwUcYlqj/Y2DQTo0y7Fr8b1x/6n4s2v+zzzsPdrqCnvn33pIvvzWuF42F+dR7msxS9wsXoMcUy/EQUxvL3UKN/vk6Re6s01jH7hPXkm5sOzc0jj+qLQaDIq9uSyNS4rOrYer1V6TFi/v1RpXE59frZ5lTiT7dG7l74L/rkX/esW55H/OrdWv0bnQuJb4m1Gy58SbFXkjpirSqxZrqVmaopItrb9/Zy+0
   </data>
  </layer>
  <layer id="4" name="Top" width="30" height="18">
@@ -278,7 +278,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="12" name="Spawn">
+ <objectgroup id="12" name="Spawn" visible="0">
   <object id="8" name="izthiel_2" type="spawn" x="544" y="96" width="160" height="32">
    <properties>
     <property name="spawngroup" value="izthiel_2"/>

@@ -207,7 +207,7 @@
   </data>
  </layer>
  <objectgroup name="Mapevents">
-  <object name="entrance" type="mapchange" x="256" y="448" width="64" height="32">
+  <object name="entrance" type="mapchange" x="288" y="448" width="32" height="32">
    <properties>
     <property name="map" value="korhald_cave2"/>
     <property name="place" value="hidden_entrance"/>

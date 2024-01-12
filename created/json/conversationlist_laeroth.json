@@ -1366,6 +1366,12 @@
                         "requireType":"questProgress",
                         "requireID":"odd_coin_collector",
                         "value":62
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"hero_coin",
+                        "value":1,
+                        "negate":true
                     }
                 ]
             },
@@ -1376,6 +1382,12 @@
                         "requireType":"questProgress",
                         "requireID":"odd_coin_collector",
                         "value":45
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"hero_coin",
+                        "value":1,
+                        "negate":true
                     }
                 ]
             },
@@ -1416,35 +1428,21 @@
     },
     {
         "id":"korhald_cave_hidden_basket_examine_loot_f",
-        "message":"You have just found a coin and a shield.",
+        "message":"Forenza would love to hear that...",
         "replies":[
             {
-                "text":"I should go back and talk to Forenza.",
-                "nextPhraseID":"X"
-            }
-        ],
-        "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"odd_coin_collector",
-                "value":65
+                "text":"N",
+                "nextPhraseID":"korhald_cave_hidden_basket_examine_loot_f2"
             }
         ]
     },
     {
         "id":"korhald_cave_hidden_basket_examine_loot_g",
-        "message":"You have just found a coin and a shield.",
+        "message":"Gylew would be very interested to hear that...",
         "replies":[
             {
-                "text":"I should go back and talk to Gylew.",
-                "nextPhraseID":"X"
-            }
-        ],
-        "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"odd_coin_collector",
-                "value":66
+                "text":"N",
+                "nextPhraseID":"korhald_cave_hidden_basket_examine_loot_g2"
             }
         ]
     },
@@ -5284,6 +5282,28 @@
                 "rewardType":"questProgress",
                 "rewardID":"nondisplay",
                 "value":47
+            }
+        ]
+    },
+    {
+        "id":"korhald_cave_hidden_basket_examine_loot_f2",
+        "message":"you have just found a coin and a shield.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"odd_coin_collector",
+                "value":65
+            }
+        ]
+    },
+    {
+        "id":"korhald_cave_hidden_basket_examine_loot_g2",
+        "message":"you have just found a coin and a shield.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"odd_coin_collector",
+                "value":66
             }
         ]
     }
