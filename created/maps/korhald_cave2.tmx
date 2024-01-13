@@ -257,7 +257,7 @@
     <property name="place" value="entrance"/>
    </properties>
   </object>
-  <object name="script_close_korhald_tomb_door_0" type="script" x="128" y="96" width="32" height="64">
+  <object name="script_close_korhald_tomb_door_0" type="script" x="32" y="128" width="96" height="32">
    <properties>
     <property name="when" value="enter"/>
    </properties>
@@ -265,7 +265,7 @@
  </objectgroup>
  <objectgroup name="Spawn" visible="0"/>
  <objectgroup name="Keys">
-  <object name="korhald_cave2_no_pendant" type="key" x="96" y="128" width="32" height="32">
+  <object name="korhald_cave2_no_pendant" type="key" x="64" y="96" width="32" height="32">
    <properties>
     <property name="phrase" value="korhald_tomb_door_no_pendant"/>
     <property name="requireId" value="korhald_chamber_key"/>
@@ -274,7 +274,7 @@
     <property name="requireValue" value="1"/>
    </properties>
   </object>
-  <object name="korhald_cave2_door" type="key" x="32" y="96" width="64" height="32">
+  <object name="korhald_cave2_door" type="key" x="64" y="64" width="32" height="32">
    <properties>
     <property name="phrase" value="script_open_korhald_tomb_door_has_key"/>
     <property name="requireId" value="nondisplay"/>
