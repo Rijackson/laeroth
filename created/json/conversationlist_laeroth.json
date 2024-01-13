@@ -1516,7 +1516,7 @@
         "message":"The door is locked.",
         "replies":[
             {
-                "text":"Use the Mysterious Korhald 'pendant' as a key.",
+                "text":"N",
                 "nextPhraseID":"script_open_korhald_tomb_door_has_pendant",
                 "requires":[
                     {
