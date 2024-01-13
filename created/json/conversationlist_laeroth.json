@@ -1543,6 +1543,17 @@
                         "negate":true
                     }
                 ]
+            },
+            {
+                "text":"Is it really? [Push it open.]",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nondisplay",
+                        "value":42
+                    }
+                ]
             }
         ]
     },
