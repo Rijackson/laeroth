@@ -105,10 +105,6 @@
                 "logText":"Opened cave door in korhald_cave_outdoor1"
             },
             {
-                "progress":41,
-                "logText":"Closed cave door in korhald_cave_outdoor1"
-            },
-            {
                 "progress":42,
                 "logText":"Opened tomb door in korhald_cave2"
             },
