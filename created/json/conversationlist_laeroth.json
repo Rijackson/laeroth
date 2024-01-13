@@ -1236,15 +1236,17 @@
         "replies":[
             {
                 "text":"Here you go.",
-                "nextPhraseID":"gylew_korhald_30"
+                "nextPhraseID":"gylew_korhald_30",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"korhald_coins",
+                        "value":1
+                    }
+                ]
             }
         ],
         "rewards":[
-            {
-                "rewardType":"giveItem",
-                "rewardID":"korhald_coins",
-                "value":1
-            },
             {
                 "rewardType":"questProgress",
                 "rewardID":"laeroth_nondisplay",
