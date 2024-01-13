@@ -1332,6 +1332,17 @@
         "message":"Oh, you think you are a funny kid? I see.",
         "replies":[
             {
+                "text":"Let's talk about the Korhald coins.",
+                "nextPhraseID":"gylew_korhald_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":40
+                    }
+                ]
+            },
+            {
                 "text":"Yeah, actually, I do think so.",
                 "nextPhraseID":"gylew_old_man_10a",
                 "requires":[
