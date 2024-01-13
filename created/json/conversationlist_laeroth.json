@@ -1513,11 +1513,11 @@
     },
     {
         "id":"script_open_korhald_tomb_door_has_key",
-        "message":"The door is locked, but before dispair sets in, you notice that the keyhole is oddly shaped.",
+        "message":"The door is locked.",
         "replies":[
             {
                 "text":"Use the Mysterious Korhald 'pendant' as a key.",
-                "nextPhraseID":"script_open_korhald_tomb_door_1",
+                "nextPhraseID":"script_open_korhald_tomb_door_has_pendant",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -1529,6 +1529,18 @@
                         "requireType":"inventoryKeep",
                         "requireID":"korhald_chamber_key",
                         "value":1
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"script_open_korhald_tomb_door_no_pendant",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"korhald_chamber_key",
+                        "value":1,
+                        "negate":true
                     }
                 ]
             }
@@ -1546,30 +1558,6 @@
                 "rewardType":"questProgress",
                 "rewardID":"nondisplay",
                 "value":42
-            }
-        ]
-    },
-    {
-        "id":"korhald_tomb_door_no_pendant",
-        "message":"The door is locked!",
-        "replies":[
-            {
-                "text":"I should go find the key.",
-                "nextPhraseID":"X",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"nondisplay",
-                        "value":42,
-                        "negate":true
-                    },
-                    {
-                        "requireType":"inventoryKeep",
-                        "requireID":"korhald_chamber_key",
-                        "value":1,
-                        "negate":true
-                    }
-                ]
             }
         ]
     },
@@ -5304,6 +5292,20 @@
                 "rewardType":"questProgress",
                 "rewardID":"odd_coin_collector",
                 "value":66
+            }
+        ]
+    },
+    {
+        "id":"script_open_korhald_tomb_door_no_pendant",
+        "message":"You do however notice that the keyhole is oddly shaped, but you have no key that will fit."
+    },
+    {
+        "id":"script_open_korhald_tomb_door_has_pendant",
+        "message":"But before dispair sets in, you notice that the keyhole is oddly shaped.",
+        "replies":[
+            {
+                "text":"Use the Mysterious Korhald 'pendant' as a key.",
+                "nextPhraseID":"script_open_korhald_tomb_door_1"
             }
         ]
     }
