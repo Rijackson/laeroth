@@ -1365,7 +1365,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"odd_coin_collector",
-                        "value":62
+                        "value":65
                     },
                     {
                         "requireType":"inventoryKeep",
@@ -1378,45 +1378,6 @@
             {
                 "nextPhraseID":"korhald_cave_hidden_basket_examine_loot_g",
                 "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"odd_coin_collector",
-                        "value":45
-                    },
-                    {
-                        "requireType":"inventoryKeep",
-                        "requireID":"hero_coin",
-                        "value":1,
-                        "negate":true
-                    }
-                ]
-            },
-            {
-                "text":"I should bring this coin back to Forenza.",
-                "nextPhraseID":"X",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"odd_coin_collector",
-                        "value":62
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"odd_coin_collector",
-                        "value":65,
-                        "negate":false
-                    }
-                ]
-            },
-            {
-                "text":"I should bring this coin back to Gylew.",
-                "nextPhraseID":"X",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"odd_coin_collector",
-                        "value":45
-                    },
                     {
                         "requireType":"questProgress",
                         "requireID":"odd_coin_collector",
@@ -5286,7 +5247,7 @@
     },
     {
         "id":"korhald_cave_hidden_basket_examine_loot_f2",
-        "message":"you have just found a coin and a shield.",
+        "message":"you have just found a coin and a shield. I should bring this coin back to Forenza.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -5297,7 +5258,7 @@
     },
     {
         "id":"korhald_cave_hidden_basket_examine_loot_g2",
-        "message":"you have just found a coin and a shield.",
+        "message":"you have just found a coin and a shield. I should bring this coin back to Gylew.",
         "rewards":[
             {
                 "rewardType":"questProgress",
