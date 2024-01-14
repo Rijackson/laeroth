@@ -2138,17 +2138,17 @@
     },
     {
         "id":"moriath_history_6",
-        "message":"The fall of the manor began when the shore folk built a bridge to an island, and founded the city of Remgard.",
+        "message":"The fall of the manor began when the shore folk, led by a man called Korhald, built a bridge to an island, and founded the city of Remgard.",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"moriath_history_7"
+                "nextPhraseID":"moriath_history_6a"
             }
         ]
     },
     {
         "id":"moriath_history_7",
-        "message":"Remgard was far from any enemies, and easily defended, so the islands in the lake were no longer important, and the supplies stopped coming.",
+        "message":"Anyway, Remgard was far from any enemies, and easily defended, so the islands in the lake were no longer important, and the supplies stopped coming.",
         "replies":[
             {
                 "text":"N",
@@ -5281,6 +5281,16 @@
             {
                 "text":"Use the Mysterious Korhald 'pendant' as a key.",
                 "nextPhraseID":"script_open_korhald_tomb_door_1"
+            }
+        ]
+    },
+    {
+        "id":"moriath_history_6a",
+        "message":"They admired Korhald because without him the city of Remgard would not exist, but he was not well liked. He ruled the city like an oppressive king. When he died the cityfolk built a tomb in his honor, but well away from Remgard. Somewhere to the south.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moriath_history_7"
             }
         ]
     }
