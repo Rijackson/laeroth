@@ -1526,8 +1526,8 @@
                 ]
             },
             {
-                "text":"Is it really? [Push it open.]",
-                "nextPhraseID":"X",
+                "text":"N",
+                "nextPhraseID":"script_open_korhald_tomb_door_unlocked",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -5308,6 +5308,16 @@
             {
                 "text":"N",
                 "nextPhraseID":"moriath_history_7"
+            }
+        ]
+    },
+    {
+        "id":"script_open_korhald_tomb_door_unlocked",
+        "message":"Is it really locked?",
+        "replies":[
+            {
+                "text":"[Push it open.]",
+                "nextPhraseID":"X"
             }
         ]
     }
