@@ -744,12 +744,39 @@
         "message":"Hey! What do you think you are doing?",
         "replies":[
             {
+                "text":"Returning the to Gylew what is rightfully his.",
+                "nextPhraseID":"F",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":45
+                    }
+                ]
+            },
+            {
                 "text":"I am working a job for a man name Gylew.",
-                "nextPhraseID":"forenza_island_10"
+                "nextPhraseID":"forenza_island_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":45,
+                        "negate":true
+                    }
+                ]
             },
             {
                 "text":"Um...I am returning something to a man name Gylew.",
-                "nextPhraseID":"forenza_island_10"
+                "nextPhraseID":"forenza_island_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":45,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },
