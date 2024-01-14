@@ -247,7 +247,7 @@
     <property name="when" value="enter"/>
    </properties>
   </object>
-  <object name="mysterious_map_stop_and_review_south" type="script" x="896" y="320" width="32" height="384">
+  <object name="mysterious_map_45_reset" type="script" x="896" y="320" width="32" height="384">
    <properties>
     <property name="when" value="enter"/>
    </properties>
