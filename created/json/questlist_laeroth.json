@@ -134,6 +134,10 @@
                 "logText":"I have decided to attack Gylew. I should return to Forenza with the key once he is dead."
             },
             {
+                "progress":63,
+                "logText":"I killed Gylew and should return to Forenza with Gylew's key."
+            },
+            {
                 "progress":65,
                 "logText":"Inside the Korhald cave, I found the Coin of Prestige and the Shield of the Brave. I should return to Forenza and show him the coin."
             },

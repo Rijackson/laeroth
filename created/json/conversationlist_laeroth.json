@@ -744,7 +744,7 @@
         "message":"Hey! What do you think you are doing?",
         "replies":[
             {
-                "text":"Returning the to Gylew what is rightfully his.",
+                "text":"Returning to Gylew what is rightfully his.",
                 "nextPhraseID":"F",
                 "requires":[
                     {
@@ -1023,7 +1023,7 @@
                     {
                         "requireType":"questLatestProgress",
                         "requireID":"odd_coin_collector",
-                        "value":55
+                        "value":63
                     }
                 ]
             },
@@ -1045,6 +1045,17 @@
                         "requireType":"inventoryKeep",
                         "requireID":"hero_coin",
                         "value":1
+                    }
+                ]
+            },
+            {
+                "text":"I tried to get Gylew's key, but...",
+                "nextPhraseID":"forenza_korhald_gylew_not_dead",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":62
                     }
                 ]
             },
@@ -1190,6 +1201,7 @@
         "message":"What? Why? My trusty henchman will take care of you.",
         "replies":[
             {
+                "text":"You are not rightful.",
                 "nextPhraseID":"F"
             }
         ],
@@ -1197,7 +1209,7 @@
             {
                 "rewardType":"questProgress",
                 "rewardID":"odd_coin_collector",
-                "value":55
+                "value":62
             }
         ]
     },
@@ -1218,6 +1230,12 @@
                         "requireType":"inventoryKeep",
                         "requireID":"forenza_key",
                         "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":62,
+                        "negate":true
                     }
                 ]
             },
@@ -1251,6 +1269,12 @@
                         "requireType":"inventoryKeep",
                         "requireID":"korhald_coins",
                         "value":1,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":62,
                         "negate":true
                     }
                 ]
@@ -5347,5 +5371,41 @@
                 "nextPhraseID":"X"
             }
         ]
+    },
+    {
+        "id":"gylew_defeated_selector",
+        "replies":[
+            {
+                "nextPhraseID":"gylew_defeated_5",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"gylew",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":63,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"gylew_defeated_5",
+        "message":"You've killed the defenseless coin collector.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"odd_coin_collector",
+                "value":63
+            }
+        ]
+    },
+    {
+        "id":"forenza_korhald_gylew_not_dead",
+        "message":"You wimp! Get me my brother's key now."
     }
 ]
