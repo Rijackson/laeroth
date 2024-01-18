@@ -614,24 +614,28 @@
         "message":"What are you waiting for? Go find those Korhald coins!"
     },
     {
-        "id":"laerothbasement2_korhald_sign",
-        "message":"Not paying attention, you almost fall.",
+        "id":"laerothbasement2_korhald_sign_selector",
         "replies":[
             {
-                "text":"Oops, I should be more careful.",
-                "nextPhraseID":"laerothbasement2_korhald_sign_30",
+                "nextPhraseID":"laerothbasement2_korhald_sign_10",
                 "requires":[
                     {
-                        "requireType":"questLatestProgress",
+                        "requireType":"questProgress",
                         "requireID":"odd_coin_collector",
-                        "value":20,
-                        "negate":false
+                        "value":30,
+                        "negate":true
                     }
                 ]
             },
             {
-                "text":"Oops, I should be more careful.",
-                "nextPhraseID":"X"
+                "nextPhraseID":"laerothbasement2_korhald_sign_read",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":30
+                    }
+                ]
             }
         ]
     },
@@ -650,6 +654,17 @@
         "id":"laerothbasement2_chest_examine",
         "replies":[
             {
+                "nextPhraseID":"laerothbasement2_korhald_notice_sign",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":30,
+                        "negate":true
+                    }
+                ]
+            },
+            {
                 "nextPhraseID":"laerothbasement2_chest_examine_40",
                 "requires":[
                     {
@@ -657,6 +672,12 @@
                         "requireID":"odd_coin_collector",
                         "value":30,
                         "negate":false
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":40,
+                        "negate":true
                     }
                 ]
             },
@@ -665,8 +686,8 @@
                 "requires":[
                     {
                         "requireType":"questProgress",
-                        "requireID":"laeroth_nondisplay",
-                        "value":100
+                        "requireID":"odd_coin_collector",
+                        "value":40
                     }
                 ]
             }
@@ -697,6 +718,7 @@
     },
     {
         "id":"laerothbasement2_chest_examine_50",
+        "message":"You pull out a small, richly covered box.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -705,7 +727,7 @@
             },
             {
                 "rewardType":"spawnAll",
-                "rewardID":"laeroth_basement_spiders",
+                "rewardID":"spider_spawn",
                 "mapName":"laerothbasement2"
             },
             {
@@ -5439,5 +5461,30 @@
                 "nextPhraseID":"gylew_korhald_40"
             }
         ]
+    },
+    {
+        "id":"laerothbasement2_korhald_notice_sign",
+        "message":"As you approach these crates, a sign on the wall catches your eye and something tells you to take a look at it first."
+    },
+    {
+        "id":"laerothbasement2_korhald_sign_10",
+        "message":"Not paying attention, you fall flat on your facel. Damaging your chin and forehead..",
+        "replies":[
+            {
+                "text":"Oops, that's really going to cost me.",
+                "nextPhraseID":"laerothbasement2_korhald_sign_30"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"bleeding_wound",
+                "value":7
+            }
+        ]
+    },
+    {
+        "id":"laerothbasement2_korhald_sign_read",
+        "message":"You have already examined the nearly illegible sign hanging on the wall."
     }
 ]

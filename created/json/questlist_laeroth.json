@@ -61,10 +61,6 @@
                 "logText":"Raised Jerelin again"
             },
             {
-                "progress":100,
-                "logText":"laerothbasement2_chest_looted"
-            },
-            {
                 "progress":105,
                 "logText":"I gave Gylew the Korhald chest."
             },
@@ -109,7 +105,7 @@
             },
             {
                 "progress":30,
-                "logText":"In the Laeroth basement, I noticted a sign on the wall that i could not read in it's entirety, but I was able make out the name 'Korhald'. This makes me wonder if this is a clue?"
+                "logText":"In the Laeroth basement, I noticted a sign on the wall that i could not read in its entirety, but I was able make out the name 'Korhald'. This makes me wonder if this is a clue?"
             },
             {
                 "progress":40,
