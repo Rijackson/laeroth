@@ -530,6 +530,7 @@
         "message":"What?! You went digging through his corpse?",
         "replies":[
             {
+                "text":"Don't judge me. I was desperate at the time.",
                 "nextPhraseID":"gylew8a_2"
             }
         ]
