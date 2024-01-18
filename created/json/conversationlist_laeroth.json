@@ -269,7 +269,7 @@
         "message":"Here is 500 gold.",
         "replies":[
             {
-                "text":"Now that's funny. I coin collector traded me his gold coins for my coins.",
+                "text":"Now that's funny. A coin collector traded me his gold coins for my coins.",
                 "nextPhraseID":"gylew8",
                 "requires":[
                     {
@@ -291,7 +291,7 @@
                 ]
             },
             {
-                "text":"Now that's funny. I coin collector traded me his gold coins for my coins.",
+                "text":"Now that's funny. A coin collector traded me his gold coins for my coins.",
                 "nextPhraseID":"gylew7",
                 "requires":[
                     {
@@ -1251,8 +1251,8 @@
                 ]
             },
             {
-                "text":"Yes.",
-                "nextPhraseID":"gylew_korhald_20",
+                "text":"Yes and I already gave it to you.",
+                "nextPhraseID":"gylew_korhald_25",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -1307,13 +1307,6 @@
                     }
                 ]
             }
-        ],
-        "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"laeroth_nondisplay",
-                "value":105
-            }
         ]
     },
     {
@@ -1323,6 +1316,13 @@
             {
                 "text":"Yes. In fact, I met a 'friend' of yours who told me all about it.",
                 "nextPhraseID":"gylew_korhald_40"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"laeroth_nondisplay",
+                "value":105
             }
         ]
     },
@@ -5418,5 +5418,25 @@
     {
         "id":"forenza_korhald_gylew_not_dead",
         "message":"You wimp! Get me my brother's key now."
+    },
+    {
+        "id":"gylew_korhald_25",
+        "message":"You did? Oh, yes, I remember now.",
+        "replies":[
+            {
+                "text":"Your a crazy old man.",
+                "nextPhraseID":"gylew_korhald_27"
+            }
+        ]
+    },
+    {
+        "id":"gylew_korhald_27",
+        "message":"There are two locks! How can this be? Do you know anything about a second key?",
+        "replies":[
+            {
+                "text":"Yes. In fact, I met a 'friend' of yours who told me all about it.",
+                "nextPhraseID":"gylew_korhald_40"
+            }
+        ]
     }
 ]
