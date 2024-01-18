@@ -154,6 +154,17 @@
                 ]
             },
             {
+                "text":"Yes, I know this already.",
+                "nextPhraseID":"gylew7",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":10
+                    }
+                ]
+            },
+            {
                 "text":"I am so not interested.",
                 "nextPhraseID":"gylew7",
                 "requires":[
