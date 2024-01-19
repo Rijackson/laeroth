@@ -186,32 +186,32 @@
  </tileset>
  <layer name="Base" width="30" height="18">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMAoGB5CRHWgXDBwY7n4HAKQSAHM=
+   eJxjYBgFo2AUjIJRQA0gI4udPQqIByM53Ia73wEFigDl
   </data>
  </layer>
  <layer name="Ground" width="30" height="18">
   <data encoding="base64" compression="zlib">
-   eJzF08EJgzAUgOHwskNBqGt0AXdzhgq9KwbMuaUHu4JdoYOY8BIaWvKaxqcefvBiPpKX1FKI2qVBiGPJV0E0AObtC2BbuRre37693CU2ZdpGwB4RN9f+5U6APQk3975R7guwmLnEpWzK43BjNuWFs9/KtXtszXvuTEri//6Nr+1ejXELHE5XB+c5OvNs1m4y1v/X7eR3isGl3lHMXdMs3MyqA9+Zppg27lmmuv3HLE8Me09x78x7TfVnBh2vlw==
+   eJzF08EJwjAUgOHwskOhoGu4QHcSXKAzKHi3WDBnxUNdQVdwEBNeQkNtnm3yGg8/5NJ8JK+ppRC1TYEQqzVfJdEFMGcfAcvlKujXrn+5KTZlmjrAHgE31v7lPgF7EW7s/0a5b8BCZopL2ZTH4YZsyvNnn8s1Zzzp99zoWonfuze+tHvVxs1zOF3l3Wdnzb3e+zDYf1v0613B4zbyuzbiXHPeUchd0iztzKqZ95ZqmsZmmcM9D2a5YTj7FPfOfNap/gcSYbBA
   </data>
  </layer>
  <layer name="Objects" width="30" height="18">
   <data encoding="base64" compression="zlib">
-   eJyNVT1PAkEQ3XgFsdzmCDH+CG2o1UTAxIoE4dRCC4KKH/GDaGIsaKzBRgujYGsCf4Ba/4Ym/g9nvJ3c3Nws8pIX7pbdefNmd+eMMebdmj/cB0ZFHf4vhcYsLCYsh9l5RRirFoxZAa4C28Bj94yg8ap734K4z3Ox/mUQE9/rNonZgZjXjDceXQJpIlo2/V626XXDfMLzfKztA+VMwNxRN7KJL20eombT6zgGU7SXINayEk/65diE+B8w9jklj5GN8/Bpcz+IPXjeLyS6p/B8Vkj0sb6R8PUfBq7uswB1qW58P0us9tzzPPj5ATY8dZd7ID1xXa7JtRFNJc6IjWG9e+Cxz1iz2frKfFD3C/7/Bq652t7m09o8l5qSxwXMfwxiPgGbELPleBAm55Sfn4rzy/cSdTX/WFvySvmj167b0xN3prBvRMDtMN0ztJw5ZK0J8qySJvYu3Pc74CSIdQ+BR0z3BTRfma7v3kq/VCO+j11xdqlmHaVXjYXXdaWH0X6TZkms6eVAF/iQy66dFXSepRb97rLe3Xf+BqA3BL453Qn7RvD6aXeK6/ruENfeceNXQTpf6j88d1+/oXhjm72/vrlt4aGo7I8G2TMot4ri15cDAbU3XJ9rhNkeofmlObL2vKZanoSJ53uvgbToDlE+9K2WZ4q0pf9fEGWO7Q==
+   eJyFVbtKA0EUHdxCLLfZEMSP0MZaBRMFKyFq1EIL8REf+EJBLGys1UYL0cRWiD+QWn9Dwf/wXncOe/ZmRg9cMjOZmXPOnZm7zjn3mrpfXCcuiEX5v5Y5NzxSRD3rnzcuY/NV5yYkJiVaEru+rcD4vO8vyL6PAzn/cZKH9hfTYs9T2fOM4jzCC4BTsZmW+/W0vK5TKeKwknPHAM3NtNCuvNqfII+Yx2gQ74LR0CbuT1n7RetHpT0W2M/6ZczJ/u8y9vGHjm6a62hHfLMfxZq016sF7760D6oFv+a3aXz9h7bPu+I1oJWhvMgbn2eNcs+eh8TPt8RSJO/2DFQ7e4Ie+AUncys2Ap67NKb5vhGPtxSNtD+/Vo/y4i5M+dxeVMrcrKUR0HEk8++TPB4kNmTPTR9bWXFP+f7MZEU+AOUN+dfcduktKNTrlT/TPX+ntG40JZazcs0IaWbYXAP2roJTa5ee+6VEL8l5tyV2iPdJOJ+JN/ZurV/kiM8RPgGuA6hV6L8Zr9OBGobzBmfNrLkZFF6Ju8FwvqyfEHCfLRd+V6l233p/beHrSLx43h59I5jP3mHLG3tDzL3ix0+Ssl7UH9YeqzfY7y3tf7+xuS3jYTxwPvxNQn3gmsHaZgJ+YxoA5Z71dW4p6z/LkF/MsbnnnIZ0Ar3I9z4EcOENQQ/yYu8UuK3/H88AlXQ=
   </data>
  </layer>
  <layer name="Above" width="30" height="18">
   <data encoding="base64" compression="zlib">
-   eJytVMkNAjEMtEQPu0oZQAlUwPJdxPFmnxQEFAFtQEU4D0vG+IpgpEi55BnbkwDkcekBrjhufXx3LADbYq8tnGcNggTmGH+R4CBsuv9xa/ndcf1Q9Ky6770M9xpjDSzeDud7HFPJ1VfjzXJLSD6qvZazxVshe0A5eZxZLw0Ob9WU8csTz184luVTg9SUhVWLKM6ptOef4a2YnFi/cnm8BKsPMt+xwd9e7z1Qv7W8pVc1Xg/y/UouzslrYsWn/cjHBzw7Cv9qPo7yIv21tqTdglY/y0tRXyPIP4Nr0zzk+Vn2OPNHRP61dHJkPRTp4Z7StEhN3juJemxpqxxcJ5+/Ac2CSFE=
+   eJylVckNwkAMXIkeEm0ZQAlUQPgGcbzJk274AEVAG1AR9sOSGexdrxgpUkKimbE9a1KK49qndKPr3te/HXNK2+w/ezjPGgwB5sS/CGgINp2t/SKOdwMPw6rvQc9Pg2fV/f4WqXtNXIPi29H9nq4px/pr6WrtS0PNqCe9t2r2dBk4A6nJ8iOa0SwNBV32FMmLZGGZvz2gpyi8XtR4Trm9/oguYypw/atV0hV4c8B6x2C+ka9lL8i8rboxq6hb08Pzi1paU3N4PfTqRRzo3RHya+W4Vpf453NV25FW/7ws1ebqQfaD3hkM7c3KUCnPOONIdmr5FaBPjcg5ifjRmbK8oKfSjmz9HxRvrKF96vsPnjVNnA==
   </data>
  </layer>
  <layer name="Top" width="30" height="18">
   <data encoding="base64" compression="zlib">
-   eJxjYKAtcJSksQWjYBSMglEwCkbBKBj0AADeFQBb
+   eJxjYKAtcJSksQWjYBSMglGABoLEBtoFo2AUjAJ0AABT3QDD
   </data>
  </layer>
  <layer name="Walkable" width="30" height="18" visible="0">
   <data encoding="base64" compression="zlib">
-   eJy1U8kNACAIcwr3YP/l/BpjoS1K4oMILeWIOUZsLzMmbv8/42Nyr2MnBvJVbkVzFnP77+jO9FW8iJvtYVZ7t6dsjjNPdQYsJrvbzq2pe1zV7Nbi8Dr73eGsenbzX/bWMYT5gpfFZLUjXEWfgqlwovwfs6z2qXuf7F2ydal6Mz0otuJelTRJOQ==
+   eJytU9sNACEIcwr3YP/l7pcYWlo4EnPhxD4Q454TabFQ6vL+Wx9XW5t4MVDucjueWU21v/HP/HW81XmGWeWKJ6Y9f5VAWp37ZHoVDoSpzvbkrblz3Gmeapnwbub6T95ujre97XLHr6IFYXT/lZ5N/Dr+HEyHE52fvhPEUXG5fZzcpVKzmSGEo+rtuD/FokxG
   </data>
  </layer>
  <layer name="Objects_doorOpened" width="30" height="18" visible="0">
@@ -284,6 +284,16 @@
     <property name="when" value="enter"/>
    </properties>
   </object>
+  <object name="mysterious_map_48_reset" type="script" x="320" y="128" width="352" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object name="mysterious_map_48_reset" type="script" x="544" y="512" width="128" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Spawn" visible="0">
   <object name="izthiel_2" type="spawn" x="544" y="96" width="160" height="32">
@@ -314,5 +324,15 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Keys" visible="0"/>
+ <objectgroup name="Keys">
+  <object name="mysterious_map_korhald_cave_outdoor1" type="key" x="320" y="320" width="480" height="32">
+   <properties>
+    <property name="phrase" value="mysterious_map_stop_and_review_west"/>
+    <property name="requireId" value="nondisplay"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="48"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

@@ -127,6 +127,10 @@
             {
                 "progress":47,
                 "logText":"I'm thinking about whether or not I want to give away or sell the \"Coin of Prestige\"."
+            },
+            {
+                "progress":48,
+                "logText":"Mysterious Korhald map head west in korhald_cave_outdoor1"
             }
         ]
     }
