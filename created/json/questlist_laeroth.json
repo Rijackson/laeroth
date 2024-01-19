@@ -69,6 +69,10 @@
                 "logText":"This is just a wrapper around the odd coin collector \"end\" steps as there are 4 of them, it is easier to check this one when looking for confirmation that the quest is complete."
             },
             {
+                "progress":107,
+                "logText":"Sold 5 bronze and 5 silver coins to the coin collector."
+            },
+            {
                 "progress":120,
                 "logText":"Jerelin grave moved"
             },

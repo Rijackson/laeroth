@@ -1182,6 +1182,12 @@
                         "requireType":"inventoryKeep",
                         "requireID":"bronze_coin",
                         "value":50
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"laeroth_nondisplay",
+                        "value":107,
+                        "negate":true
                     }
                 ]
             }
@@ -5784,6 +5790,65 @@
         ]
     },
     {
-        "id":"coin_collector_thief_coins_55"
+        "id":"coin_collector_thief_coins_55",
+        "message":"Well, yes. But not all of them. Afterall, who needs 110 of these?",
+        "replies":[
+            {
+                "text":"OK, so what do you want to buy?",
+                "nextPhraseID":"coin_collector_thief_coins_60"
+            }
+        ]
+    },
+    {
+        "id":"coin_collector_thief_coins_60",
+        "message":"Well, let's talk price first. You see, the silver coin is worth 11 gold in weight and the bronze is worth 5 gold in weight. But, to a collector they are worth more. Let's make this simple. I will pay you double those values for each coin and I'll take 5 of each.",
+        "replies":[
+            {
+                "text":"So how much total than?",
+                "nextPhraseID":"coin_collector_thief_coins_65"
+            }
+        ]
+    },
+    {
+        "id":"coin_collector_thief_coins_65",
+        "message":"110 gold for the silver and 50 for the bronze coins.",
+        "replies":[
+            {
+                "text":"That little? No, thanks",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Well, something is better than nothing.",
+                "nextPhraseID":"coin_collector_thief_coins_70",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"silver_coin",
+                        "value":5
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"bronze_coin",
+                        "value":5
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"coin_collector_thief_coins_70",
+        "message":"Thank you so much.",
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"gold",
+                "value":160
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"laeroth_nondisplay",
+                "value":107
+            }
+        ]
     }
 ]

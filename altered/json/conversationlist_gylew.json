@@ -106,6 +106,12 @@
                         "requireType":"inventoryKeep",
                         "requireID":"silver_coin",
                         "value":60
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"laeroth_nondisplay",
+                        "value":107,
+                        "negate":true
                     }
                 ]
             }
