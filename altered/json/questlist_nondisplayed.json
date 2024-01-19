@@ -105,6 +105,10 @@
                 "logText":"Opened cave door in korhald_cave_outdoor1"
             },
             {
+                "progress":41,
+                "logText":"Korhald cave door slams shut, scaring the PC."
+            },
+            {
                 "progress":42,
                 "logText":"Opened tomb door in korhald_cave2"
             },

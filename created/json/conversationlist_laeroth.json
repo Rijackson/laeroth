@@ -1543,6 +1543,30 @@
     },
     {
         "id":"script_close_cave_door_1",
+        "replies":[
+            {
+                "nextPhraseID":"script_close_cave_door_scared",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nondisplay",
+                        "value":41,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"script_close_cave_door_not_scared",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nondisplay",
+                        "value":41,
+                        "negate":false
+                    }
+                ]
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"removeQuestProgress",
@@ -5600,5 +5624,25 @@
         "id":"stop_henchman_key",
         "message":"If you come back here, I will kill you!",
         "switchToNPC":"gylew_henchman_aggresive"
+    },
+    {
+        "id":"script_close_cave_door_scared",
+        "message":"As the heavy doors of the cave swing shut with a resounding slam, a sudden wave of fear grips you as the rush of wind hits your back.\nThe echoing sound reverberates through you, sending shivers down your spine. This leaves you visibly shaken with a sense of uneasiness, casting a temporary shadow over your courage.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"nondisplay",
+                "value":41
+            },
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"fear",
+                "value":3
+            }
+        ]
+    },
+    {
+        "id":"script_close_cave_door_not_scared",
+        "message":"Oh, that was the door closing. No big deal now."
     }
 ]
