@@ -5595,5 +5595,10 @@
                 "value":48
             }
         ]
+    },
+    {
+        "id":"stop_henchman_key",
+        "message":"If you come back here, I will kill you!",
+        "switchToNPC":"gylew_henchman_aggresive"
     }
 ]
