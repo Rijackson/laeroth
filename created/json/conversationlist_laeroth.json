@@ -154,6 +154,28 @@
                 ]
             },
             {
+                "text":"[While pointing at a few of the coins in Gylew's hand, you ask:] What about those?",
+                "nextPhraseID":"gylew8",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nondisplay_2",
+                        "value":250
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":12,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gold",
+                        "value":10
+                    }
+                ]
+            },
+            {
                 "text":"Yes, I know this already.",
                 "nextPhraseID":"gylew7",
                 "requires":[
