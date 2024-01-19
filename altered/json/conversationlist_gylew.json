@@ -82,6 +82,32 @@
                         "value":105
                     }
                 ]
+            },
+            {
+                "text":"[Lie]I have these bronze and silver coins that I \"acquired\" in a game of chance. I would like to know if you are interested in them.",
+                "nextPhraseID":"coin_collector_thief_coins_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"laeroth_nondisplay",
+                        "value":106
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wanted_men",
+                        "value":80
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"bronze_coin",
+                        "value":50
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"silver_coin",
+                        "value":60
+                    }
+                ]
             }
         ]
     }

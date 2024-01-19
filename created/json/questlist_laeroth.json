@@ -65,6 +65,10 @@
                 "logText":"I gave Gylew the Korhald chest."
             },
             {
+                "progress":106,
+                "logText":"This is just a wrapper around the odd coin collector \"end\" steps as there are 4 of them, it is easier to check this one when looking for confirmation that the quest is complete."
+            },
+            {
                 "progress":120,
                 "logText":"Jerelin grave moved"
             },
@@ -162,7 +166,8 @@
             {
                 "progress":115,
                 "logText":"I gave Forenza the Coin of Prestige and he told me that if I ever make my way to Brightport, to seek out his family and they will 'reward\" me. Whatever that means.",
-                "rewardExperience":6000
+                "rewardExperience":6000,
+                "finishesQuest":1
             }
         ]
     },

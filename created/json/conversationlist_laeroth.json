@@ -1158,6 +1158,32 @@
                         "value":115
                     }
                 ]
+            },
+            {
+                "text":"[Lie]I have these bronze and silver coins that I \"acquired\" in a game of chance. I would like to know if you are interested in them.",
+                "nextPhraseID":"coin_collector_thief_coins_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"laeroth_nondisplay",
+                        "value":106
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wanted_men",
+                        "value":80
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"silver_coin",
+                        "value":60
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"bronze_coin",
+                        "value":50
+                    }
+                ]
             }
         ]
     },
@@ -1924,6 +1950,11 @@
                 "rewardType":"removeQuestProgress",
                 "rewardID":"nondisplay",
                 "value":47
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"laeroth_nondisplay",
+                "value":106
             }
         ]
     },
@@ -1951,6 +1982,11 @@
                 "rewardType":"removeQuestProgress",
                 "rewardID":"nondisplay",
                 "value":47
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"laeroth_nondisplay",
+                "value":106
             }
         ]
     },
@@ -2105,6 +2141,11 @@
                 "rewardType":"removeQuestProgress",
                 "rewardID":"nondisplay",
                 "value":47
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"laeroth_nondisplay",
+                "value":106
             }
         ]
     },
@@ -2125,6 +2166,11 @@
                 "rewardType":"removeQuestProgress",
                 "rewardID":"nondisplay",
                 "value":47
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"laeroth_nondisplay",
+                "value":106
             }
         ]
     },
@@ -5666,5 +5712,78 @@
     {
         "id":"script_close_cave_door_not_scared",
         "message":"Oh, that was the door closing. No big deal now."
+    },
+    {
+        "id":"coin_collector_thief_coins_10",
+        "message":"Sure. Let's see what you have.",
+        "replies":[
+            {
+                "text":"[Show the coins]",
+                "nextPhraseID":"coin_collector_thief_coins_20"
+            }
+        ]
+    },
+    {
+        "id":"coin_collector_thief_coins_20",
+        "message":"[The coin collector eagerly examines the pilfered coins, eyes gleaming with fascination.]...",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"coin_collector_thief_coins_30"
+            }
+        ]
+    },
+    {
+        "id":"coin_collector_thief_coins_30",
+        "message":"Ah, these coins tell a tale of clandestine dealings and shadowy alliances.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"coin_collector_thief_coins_35"
+            }
+        ]
+    },
+    {
+        "id":"coin_collector_thief_coins_35",
+        "message":"These bronze pieces bear the mark of the Lunar Whispe, an infamous thieves' guild that once ruled the underground markets. Legend has it, these coins were minted in secret, their alloy infused with fragments of moonstone to enhance the guild's stealthy endeavors",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"coin_collector_thief_coins_40"
+            }
+        ]
+    },
+    {
+        "id":"coin_collector_thief_coins_40",
+        "message":"These silver coins hold the captivating history of a nomadic people, a seafaring tribe whose exploits were as boundless as the horizon. Born from the hands of skilled minters among the maritime wanderers, these coins tell the tale of the Ocean Nomads, a group of sailors, pirates, and free-spirited adventurers.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"coin_collector_thief_coins_45"
+            }
+        ]
+    },
+    {
+        "id":"coin_collector_thief_coins_45",
+        "message":"The silver pieces depict a mighty ship sailing under the moonlit sky, capturing the essence of the Ocean Nomads' freedom and unity. Legends speak of these coins being crafted during the tribe's grand gatherings, where sailors from various corners of the seas exchanged not only goods but also these tokens, forging connections that transcended the vastness of the ocean.",
+        "replies":[
+            {
+                "text":"So they are priceless?",
+                "nextPhraseID":"coin_collector_thief_coins_50"
+            }
+        ]
+    },
+    {
+        "id":"coin_collector_thief_coins_50",
+        "message":"[The collector pauses, his gaze lingering on the coins.] These pieces are not merely currency; they are artifacts of a hidden past,\na glimpse into the umderground world where alliances were forged in secrecy. I'd be willing to make you an offer for these intriguing\ntokens of history, should you be interested in parting with them.",
+        "replies":[
+            {
+                "text":"So you want to buy them all?",
+                "nextPhraseID":"coin_collector_thief_coins_55"
+            }
+        ]
+    },
+    {
+        "id":"coin_collector_thief_coins_55"
     }
 ]
