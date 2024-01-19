@@ -288,6 +288,12 @@
     <property name="spawngroup" value="izthiel_4"/>
    </properties>
   </object>
+  <object name="gylew_henchman_aggresive_spawn" type="spawn" x="64" y="800" width="64" height="32">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="gylew_henchman_aggresive"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Keys"/>
 </map>

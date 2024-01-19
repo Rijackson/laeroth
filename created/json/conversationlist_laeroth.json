@@ -1232,11 +1232,11 @@
     },
     {
         "id":"gylew_attack",
-        "message":"What? Why? My trusty henchman will take care of you.",
+        "message":"What? Why?",
         "replies":[
             {
                 "text":"You are not rightful.",
-                "nextPhraseID":"F"
+                "nextPhraseID":"gylew_attack_2"
             }
         ],
         "rewards":[
@@ -5486,5 +5486,27 @@
     {
         "id":"laerothbasement2_korhald_sign_read",
         "message":"You have already examined the nearly illegible sign hanging on the wall."
+    },
+    {
+        "id":"gylew_attack_2",
+        "message":"My trusty henchman will take care of you.",
+        "replies":[
+            {
+                "text":"Oh, you need someone to help you?",
+                "nextPhraseID":"F"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"gylew_henchman",
+                "mapName":"waterway5"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"gylew_henchman_aggresive_spawn",
+                "mapName":"waterway5"
+            }
+        ]
     }
 ]

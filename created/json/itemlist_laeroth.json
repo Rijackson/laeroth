@@ -523,5 +523,48 @@
                 }
             ]
         }
+    },
+{
+    "id":"feline_hat",
+    "iconID":"items_newb:108",
+    "name":"Feline hat",
+    "displaytype":"rare",
+    "hasManualPrice":1,
+    "baseMarketCost":3451,
+    "category":"hd_cloth",
+    "equipEffect":{
+        "increaseMaxHP":1,
+        "increaseAttackChance":7,
+        "increaseCriticalSkill":1,
+        "increaseBlockChance":6,
+        "increaseDamageResistance":-1,
+        "setCriticalMultiplier":1.5,
+        "addedConditions":[
+            {
+                "condition":"clumsiness",
+                "magnitude":1
+            }
+        ]
+    },
+    "hitEffect":{
+        "conditionsSource":[
+            {
+                "condition":"sense_1",
+                "magnitude":1,
+                "duration":3,
+                "chance":"5"
+            }
+        ]
+    },
+    "hitReceivedEffect":{
+        "conditionsSource":[
+            {
+                "condition":"fear",
+                "magnitude":1,
+                "duration":2,
+                "chance":"5"
+            }
+        ]
     }
+}
 ]

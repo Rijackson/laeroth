@@ -569,8 +569,30 @@
         "id":"brute_fisherman",
         "name":"Bidro",
         "iconID":"monsters_phoenix01:3",
-        "spawnGroup":"brute_fisherman",
         "monsterClass":"humanoid",
+        "spawnGroup":"brute_fisherman",
         "phraseID":"brute_fisherman"
+    },
+    {
+        "id":"gylew_henchman_aggresive",
+        "name":"Gylew's henchman",
+        "iconID":"monsters_men:8",
+        "maxHP":219,
+        "moveCost":2,
+        "unique":1,
+        "monsterClass":"humanoid",
+        "movementAggressionType":"wholeMap",
+        "attackDamage":{
+            "min":14,
+            "max":19
+        },
+        "spawnGroup":"help_gylew",
+        "droplistID":"gylew_henchman_dl",
+        "attackCost":3,
+        "attackChance":85,
+        "criticalSkill":25,
+        "criticalMultiplier":2.5,
+        "blockChance":55,
+        "damageResistance":2
     }
 ]
