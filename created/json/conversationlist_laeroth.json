@@ -1678,12 +1678,33 @@
             },
             {
                 "text":"N",
+                "nextPhraseID":"script_open_korhald_tomb_door_has_pendant",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nondisplay",
+                        "value":42,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"wear",
+                        "requireID":"korhald_chamber_key"
+                    }
+                ]
+            },
+            {
+                "text":"N",
                 "nextPhraseID":"script_open_korhald_tomb_door_no_pendant",
                 "requires":[
                     {
                         "requireType":"inventoryKeep",
                         "requireID":"korhald_chamber_key",
                         "value":1,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"wear",
+                        "requireID":"korhald_chamber_key",
                         "negate":true
                     }
                 ]
@@ -1731,6 +1752,20 @@
                         "requireType":"inventoryKeep",
                         "requireID":"korhald_chamber_key",
                         "value":1
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"script_close_korhald_tomb_door_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nondisplay",
+                        "value":42
+                    },
+                    {
+                        "requireType":"wear",
+                        "requireID":"korhald_chamber_key"
                     }
                 ]
             }
