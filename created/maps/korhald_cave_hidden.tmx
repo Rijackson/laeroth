@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="19" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="7">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="19" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="7">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -180,19 +180,24 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
+ <layer id="9" name="Base" width="19" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo4CBYT/nQLtg+IDRsMQPAMngAZE=
+  </data>
+ </layer>
  <layer id="1" name="Ground" width="19" height="15">
   <data encoding="base64" compression="zlib">
-   eJxbx8TAsA4NH0DCuMSxyaOrPQjEl5DwfqgcujiyPLqZMLWXgfgJEr4IpdHFkeVB+tZCzVmPpHY/JybGJY4sj2wWPrXE4FGzSMPrqGQWzE0DZdYcLOrmoKV5YszCFrZrmTDzITXNAuE5ODA2fTA5dDMA0tPXqQ==
+   eJxbx8TAsA4NH0DCuMSxyaOrPQjEl5DwfqgcujiyPLqZMLWXgfgJEr4IpdHFkeVB+tZCzVmPpHY/JybGJY4sj2wWPrXE4MFm1muxwekuGF5HJbNgbqKlWbfEcOuZg8XOOWhpnhh3YQvbtUyY+ZCaZoHwHBwYmz6YHLoZAInU2Ao=
   </data>
  </layer>
  <layer id="2" name="Objects" width="19" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYKAf2M9Emf4nTBCMDTziR2BC4CmaGY+ZEOLH+RgYPgHN+MgPoUH81VjsRDcDBtawMjCsZSXsBmSwjkT1xAAlQVSaUqCMZI46kK0BxJpQMV0grQfE+kTYBTNHkQR3zaYw3dACnOAjXQ/MH3OZMMXQwWkh0s2nBvDgJy89ziUhjgBYwxik
+   eJxjYKAf2M+EXZwdhzg6eAJUJ46kFlnfI34ExgdA+p+i2fcYygeJH+djYPgENOMjP4QG8Vej2QtTCwLPxBgYXoohxNewMjCsZUXIvUCTxwbWQdV/A6r7iUMtSO4Hmjy63chASRCVxgdA5lwHqjuBx53KSOaoA9kaQKwJFdMF0npArC+I3Z3YzFEkwl0wMJvI9EEuQI8nfOEKAyf4sIsfB+ozEEL4H8R/BTUP5o+5SP7B5bfTQpjpAcS/LYY/nkgB2NKbBz8iPZIC5pIQRwC90DtI
   </data>
  </layer>
  <layer id="3" name="Above" width="19" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYKAtuCzGwCDLz8BgyI9DAS5xJMALVXNYDEI7ounZzsfA0AwUuwakJ/ND+CDwlw/TLZegZsBoEJjDysAwlxVTHB84LEa8WmLMohbAZZa4IAODBBBLCkL4skBaDojlBanjLhVh0tylREA9KWYRC3bwYYrRI+xpbZYFgTxETXdRAwAAS1IYHg==
+   eJxjYKAtuCzGwCDLz8BgyI9DAS5xJMALVXNYDEI7ounZzsfA0AwUuwakJ/ND+CDwlw/TLZegZsBoEJjDysAwlxVTHB84LEa8WmLMohZAN0ucCUoLMjBIALGkIIQvC6TlgFhekDruUhEmzl0w9ygRUE+MWaSCHXyYYrQMe3qZZUEgD1HTXdQAAL4mGFA=
   </data>
  </layer>
  <layer id="4" name="Top" width="19" height="15">
