@@ -199,7 +199,7 @@
    eJzFVMENgCAMrA5hwlzO5xC6ghvAF3dRTIgNgaMFEu8jxvauvRaJiM6FXsRnekaQxqFczrHNY3Qd+G4zulLUciScPZ79qbtObZwWxKA5IfT2EvJ3Q3QYXV7ai3/yLwVHqe4ajzNfjFfWjHRraNHiM0Wzj2iZQw4j7hXqt7SrPd6W5sk9SfljHdFbjX+aeaa6/L22r9p7IdXVQtMv39XgsRX+I0btb0DvDrfWMuLucO3S+QZgKkWj
   </data>
  </layer>
- <layer name="Walkable" width="30" height="18" visible="0">
+ <layer name="Walkable" width="30" height="18">
   <data encoding="base64" compression="zlib">
    eJzbKMbAsJFMDAL45GCAXPPJsZcY+aFoLyFAC3spDY/BbC85YUkte0mJV2rFLzbziHXLUPUvur34+NjEqZGWaOlfetqFzV5c+YJedmKzF5sbqJVnsJlJizDGZz4paqjtV2r4FwCyKywe
   </data>
@@ -227,6 +227,16 @@
    <properties>
     <property name="map" value="korhald_cave_outdoor1"/>
     <property name="place" value="north2"/>
+   </properties>
+  </object>
+  <object name="poisoned_ground" type="script" x="160" y="192" width="576" height="352">
+   <properties>
+    <property name="when" value="round"/>
+   </properties>
+  </object>
+  <object name="poisoned_ground" type="script" x="736" y="256" width="64" height="128">
+   <properties>
+    <property name="when" value="round"/>
    </properties>
   </object>
  </objectgroup>

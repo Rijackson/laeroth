@@ -5901,5 +5901,15 @@
                 "value":107
             }
         ]
+    },
+    {
+        "id":"poisoned_ground",
+        "rewards":[
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"environmental_poisoning",
+                "value":1
+            }
+        ]
     }
 ]

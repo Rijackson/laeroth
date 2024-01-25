@@ -209,7 +209,7 @@
    eJxjYKAtcJSksQWjYBSMglGABoLEBtoFo2AUjAJ0AABT3QDD
   </data>
  </layer>
- <layer name="Walkable" width="30" height="18" visible="0">
+ <layer name="Walkable" width="30" height="18">
   <data encoding="base64" compression="zlib">
    eJytU9sNACEIcwr3YP/l7pcYWlo4EnPhxD4Q454TabFQ6vL+Wx9XW5t4MVDucjueWU21v/HP/HW81XmGWeWKJ6Y9f5VAWp37ZHoVDoSpzvbkrblz3Gmeapnwbub6T95ujre97XLHr6IFYXT/lZ5N/Dr+HEyHE52fvhPEUXG5fZzcpVKzmSGEo+rtuD/FokxG
   </data>
@@ -292,6 +292,36 @@
   <object name="mysterious_map_48_reset" type="script" x="544" y="512" width="128" height="32">
    <properties>
     <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object name="poisoned_ground" type="script" x="224" y="32" width="480" height="96">
+   <properties>
+    <property name="when" value="round"/>
+   </properties>
+  </object>
+  <object name="poisoned_ground" type="script" x="320" y="160" width="480" height="160">
+   <properties>
+    <property name="when" value="round"/>
+   </properties>
+  </object>
+  <object name="poisoned_ground" type="script" x="224" y="352" width="544" height="160">
+   <properties>
+    <property name="when" value="round"/>
+   </properties>
+  </object>
+  <object name="poisoned_ground" type="script" x="192" y="448" width="32" height="64">
+   <properties>
+    <property name="when" value="round"/>
+   </properties>
+  </object>
+  <object name="poisoned_ground" type="script" x="64" y="512" width="480" height="64">
+   <properties>
+    <property name="when" value="round"/>
+   </properties>
+  </object>
+  <object name="poisoned_ground" type="script" x="544" y="544" width="96" height="32">
+   <properties>
+    <property name="when" value="round"/>
    </properties>
   </object>
  </objectgroup>
