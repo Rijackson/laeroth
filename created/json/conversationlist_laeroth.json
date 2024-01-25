@@ -5363,7 +5363,7 @@
                 "nextPhraseID":"mysterious_map_44_reset_reward",
                 "requires":[
                     {
-                        "requireType":"questLatestProgress",
+                        "requireType":"questProgress",
                         "requireID":"odd_coin_collector",
                         "value":60
                     },
@@ -5377,6 +5377,18 @@
                         "requireType":"questProgress",
                         "requireID":"nondisplay",
                         "value":46,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":65,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":66,
                         "negate":true
                     }
                 ]
@@ -5401,7 +5413,7 @@
                 "nextPhraseID":"mysterious_map_45_reset_reward",
                 "requires":[
                     {
-                        "requireType":"questLatestProgress",
+                        "requireType":"questProgress",
                         "requireID":"odd_coin_collector",
                         "value":60
                     },
@@ -5415,6 +5427,18 @@
                         "requireType":"questProgress",
                         "requireID":"nondisplay",
                         "value":46,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":65,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":66,
                         "negate":true
                     }
                 ]
@@ -5679,7 +5703,7 @@
                 "nextPhraseID":"mysterious_map_48_reset_reward",
                 "requires":[
                     {
-                        "requireType":"questLatestProgress",
+                        "requireType":"questProgress",
                         "requireID":"odd_coin_collector",
                         "value":60
                     },
@@ -5693,6 +5717,18 @@
                         "requireType":"questProgress",
                         "requireID":"nondisplay",
                         "value":46,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":65,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":66,
                         "negate":true
                     }
                 ]
