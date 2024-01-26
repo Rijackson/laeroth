@@ -1080,6 +1080,12 @@
                         "requireType":"questLatestProgress",
                         "requireID":"odd_coin_collector",
                         "value":63
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":60,
+                        "negate":true
                     }
                 ]
             },
@@ -1127,7 +1133,7 @@
                 ]
             },
             {
-                "text":"Hey. I need to go now and find this map.",
+                "text":"Hey. I need to go now and follow this map.",
                 "nextPhraseID":"X",
                 "requires":[
                     {
@@ -1201,6 +1207,13 @@
                 "text":"N",
                 "nextPhraseID":"korhald_chest_examine_10"
             }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"laeroth_nondisplay",
+                "value":108
+            }
         ]
     },
     {
@@ -1235,7 +1248,7 @@
     },
     {
         "id":"korhald_chest_examine_30",
-        "message":"Well, that is really hard to say. You see [he shows you the map], it is really old and a lot of the landmarks no longer exisit in Dhayaver.",
+        "message":"Well, that is really hard to say. You see [he shows you the map], it is really old and a lot of the landmarks no longer exisit in Dhayavar.",
         "replies":[
             {
                 "text":"Yeah, I can see what you mean.",
@@ -2065,6 +2078,23 @@
                 ]
             },
             {
+                "text":"What are you talking about? I already gave it to you along with the chest I found on the island.",
+                "nextPhraseID":"forenza_brimhaven_11",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"laeroth_nondisplay",
+                        "value":108
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":60,
+                        "negate":true
+                    }
+                ]
+            },
+            {
                 "text":"No",
                 "nextPhraseID":"forenza_brimhaven_15",
                 "requires":[
@@ -2103,6 +2133,7 @@
         "message":"Well, for obvious reasons. Didn't you notice that the shield has the Korhald family crest engraved on its front side? This clearly belonged to Korhald himself. You should keep this item as i could aid you in your adventures.",
         "replies":[
             {
+                "text":"N",
                 "nextPhraseID":"forenza_korhald_cop_30"
             }
         ]
@@ -2112,7 +2143,7 @@
         "message":"But this coin you have here really gives my pause as I never thought the stories of it's existance was true.  I don't know much about it, but I do know that it has great value. Can I have it? I will reward you for it of course.",
         "replies":[
             {
-                "text":"Reward?! I always love the sound of that. What are we talking here? 10000 godl? 20000 gold?",
+                "text":"Reward?! I always love the sound of that. What are we talking here? 10000 gold? 20000 gold?",
                 "nextPhraseID":"forenza_korhald_cop_40"
             },
             {
@@ -5909,6 +5940,16 @@
                 "rewardType":"actorCondition",
                 "rewardID":"environmental_poisoning",
                 "value":1
+            }
+        ]
+    },
+    {
+        "id":"forenza_brimhaven_11",
+        "message":"Oh, yeah. Let's look in that chest now.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"korhald_chest_examine_10"
             }
         ]
     }

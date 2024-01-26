@@ -73,6 +73,10 @@
                 "logText":"Sold 5 bronze and 5 silver coins to the coin collector."
             },
             {
+                "progress":108,
+                "logText":"PC gave Forenza Gylew's key."
+            },
+            {
                 "progress":120,
                 "logText":"Jerelin grave moved"
             },
