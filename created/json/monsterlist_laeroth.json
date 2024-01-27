@@ -213,13 +213,13 @@
         "moveCost":5,
         "unique":1,
         "monsterClass":"humanoid",
-        "movementAggressionType":"none",
+        "movementAggressionType":"wholeMap",
         "attackDamage":{
             "min":10,
             "max":22
         },
         "spawnGroup":"forenza_laerothisland2",
-        "phraseID":"forenza_island_initial_phrase",
+        "phraseID":"forenza_island_selector",
         "droplistID":"forenza_dl",
         "attackCost":4,
         "attackChance":70,

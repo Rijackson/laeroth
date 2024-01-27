@@ -61,6 +61,10 @@
                 "logText":"Raised Jerelin again"
             },
             {
+                "progress":104,
+                "logText":"The PC has helped heal Forenza. This is just a wrapper around the odd coin collector quest's \"aid\" Forenza steps."
+            },
+            {
                 "progress":105,
                 "logText":"I gave Gylew the Korhald chest."
             },
@@ -123,6 +127,40 @@
                 "progress":40,
                 "logText":"In the Laeroth basement, I discovered and looted the chest containing the 'Korhald coins'.",
                 "rewardExperience":1000
+            },
+            {
+                "progress":41,
+                "logText":"In the Laeroth basement, I encountered an injured man named Forenza."
+            },
+            {
+                "progress":42,
+                "logText":"I aided Forenza with an ointment for bleeding wounds.",
+                "rewardExperience":1000
+            },
+            {
+                "progress":43,
+                "logText":"In the Laeroth basement, I was able to help out Forenza by giving him a bonemeal potion.",
+                "rewardExperience":500
+            },
+            {
+                "progress":44,
+                "logText":"In the Laeroth basement, I was able to help out Forenza by giving him a major health potion.",
+                "rewardExperience":250
+            },
+            {
+                "progress":46,
+                "logText":"In the Laeroth basement, I was able to help out Forenza by giving him a potion of health from Lodar.",
+                "rewardExperience":450
+            },
+            {
+                "progress":47,
+                "logText":"In the Laeroth basement, I was able to help out Forenza by giving him a regular health potion.",
+                "rewardExperience":100
+            },
+            {
+                "progress":48,
+                "logText":"In the Laeroth basement, I was able to help out Forenza by giving him a minor health potion.",
+                "rewardExperience":50
             },
             {
                 "progress":50,

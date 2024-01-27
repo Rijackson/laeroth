@@ -166,6 +166,12 @@
     <property name="spawngroup" value="laerothbasement_spider"/>
    </properties>
   </object>
+  <object name="forenza_laerothbasement2" type="spawn" x="288" y="64" width="32" height="32">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="forenza_laerothisland2"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Mapevents">
   <object name="up" type="mapchange" x="256" y="32" width="128" height="32">

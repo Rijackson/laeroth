@@ -759,8 +759,8 @@
             },
             {
                 "rewardType":"spawnAll",
-                "rewardID":"forenza_laerothisland2",
-                "mapName":"laerothisland2"
+                "rewardID":"forenza_laerothbasement2",
+                "mapName":"laerothbasement2"
             }
         ]
     },
@@ -797,7 +797,7 @@
     },
     {
         "id":"forenza_island_initial_phrase",
-        "message":"Hey! What do you think you are doing?",
+        "message":"What do you think you are doing here?",
         "replies":[
             {
                 "text":"Returning to Gylew what is rightfully his.",
@@ -858,7 +858,7 @@
     },
     {
         "id":"forenza_island_30",
-        "message":"Because I said it is! Now give me that chest before you get hurt.",
+        "message":"Because I said it does! Now give me that chest before you get hurt.",
         "replies":[
             {
                 "text":"Don't make me laugh. You hurt me? Do you know who I am? Explain yourself now.",
@@ -5950,6 +5950,340 @@
             {
                 "text":"N",
                 "nextPhraseID":"korhald_chest_examine_10"
+            }
+        ]
+    },
+    {
+        "id":"forenza_island_selector",
+        "replies":[
+            {
+                "nextPhraseID":"forenza_island_injured",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"laeroth_nondisplay",
+                        "value":104,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"forenza_island_initial_phrase"
+            }
+        ]
+    },
+    {
+        "id":"forenza_island_injured",
+        "message":"Hey, you. I need your help!",
+        "replies":[
+            {
+                "text":"What? Who are you? How did you get in here?",
+                "nextPhraseID":"forenza_island_injured_need_help"
+            },
+            {
+                "text":"What kind of help?",
+                "nextPhraseID":"forenza_island_injured_explained"
+            }
+        ]
+    },
+    {
+        "id":"forenza_island_injured_need_help",
+        "message":"Nervermind that now. I am injured and I need your help!",
+        "replies":[
+            {
+                "text":"What kind of help?",
+                "nextPhraseID":"forenza_island_injured_explained"
+            }
+        ]
+    },
+    {
+        "id":"forenza_island_injured_explained",
+        "message":"Seriously?! Can't you see that I am bleeding and weaK?",
+        "replies":[
+            {
+                "text":"Well, I have this ointment for stopping wounds. Take it.",
+                "nextPhraseID":"forenza_island_injured_ointment",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"pot_bleeding_ointment",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"What do you want? A healing potion maybe?",
+                "nextPhraseID":"forenza_island_injured_help"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"odd_coin_collector",
+                "value":41
+            }
+        ]
+    },
+    {
+        "id":"forenza_island_injured_ointment",
+        "message":"Oh, that's wonderful. Thank you.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"forenza_island_injured_help"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"odd_coin_collector",
+                "value":42
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"laeroth_nondisplay",
+                "value":104
+            }
+        ]
+    },
+    {
+        "id":"forenza_island_injured_help",
+        "message":"Please. I'll take whatever you have.",
+        "replies":[
+            {
+                "text":"Well I have a bonemeal potion. It's yours now. Take it.",
+                "nextPhraseID":"forenza_island_injured_help_bm",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"bonemeal_potion",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"Well I have a special bonemeal potion. It's yours now. Take it.",
+                "nextPhraseID":"forenza_island_injured_help_bm",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"pot_bm_lodar",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"Here, take it. It's a really strong potion of healing.",
+                "nextPhraseID":"forenza_island_injured_help_mph",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"health_major2",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"I have this really special potion of healing that I got from a very wise old man. Take it!",
+                "nextPhraseID":"forenza_island_injured_help_lph",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"pot_healthlodar",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"I have an ordinary potion of health for you. Take it!",
+                "nextPhraseID":"forenza_island_injured_help_rph",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"health",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"I have an little health potion for you. It's all I have. Take it!",
+                "nextPhraseID":"forenza_island_injured_help_minor_ph",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"health_minor2",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"I'm so sorry, but I have nothing that can help you.",
+                "nextPhraseID":"forenza_island_injured_help_not",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"bonemeal_potion",
+                        "value":1,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"pot_bm_lodar",
+                        "value":1,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"pot_healthlodar",
+                        "value":1,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"health_major2",
+                        "value":1,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"health",
+                        "value":1,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"health_minor2",
+                        "value":1,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"forenza_island_injured_help_bm",
+        "message":"Oh, this stuff is great!",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"forenza_island_initial_phrase"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"odd_coin_collector",
+                "value":43
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"laeroth_nondisplay",
+                "value":104
+            }
+        ]
+    },
+    {
+        "id":"forenza_island_injured_help_mph",
+        "message":"This stuff tastes nasty, but I swear I can feel it helping already.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"forenza_island_initial_phrase"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"odd_coin_collector",
+                "value":44
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"laeroth_nondisplay",
+                "value":104
+            }
+        ]
+    },
+    {
+        "id":"forenza_island_injured_help_lph",
+        "message":"Oh, now this stuff feels like its healing power will last just a little bit longer.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"forenza_island_initial_phrase"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"odd_coin_collector",
+                "value":46
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"laeroth_nondisplay",
+                "value":104
+            }
+        ]
+    },
+    {
+        "id":"forenza_island_injured_help_rph",
+        "message":"Oh, this should help. Thank you.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"forenza_island_initial_phrase"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"odd_coin_collector",
+                "value":47
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"laeroth_nondisplay",
+                "value":104
+            }
+        ]
+    },
+    {
+        "id":"forenza_island_injured_help_minor_ph",
+        "message":"Oh, this should help. I guess.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"forenza_island_initial_phrase"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"odd_coin_collector",
+                "value":48
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"laeroth_nondisplay",
+                "value":104
+            }
+        ]
+    },
+    {
+        "id":"forenza_island_injured_help_not",
+        "message":"You are a disappointment. Anyways...",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"forenza_island_initial_phrase"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"laeroth_nondisplay",
+                "value":104
             }
         ]
     }
