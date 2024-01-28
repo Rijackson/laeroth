@@ -6048,7 +6048,7 @@
     },
     {
         "id":"forenza_island_injured_help",
-        "message":"Please. I'll take whatever you have.",
+        "message":"Please. I'll take whatever you have that could heal me.",
         "replies":[
             {
                 "text":"Well I have a bonemeal potion. It's yours now. Take it.",

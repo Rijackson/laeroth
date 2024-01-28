@@ -210,7 +210,7 @@
         "name":"Forenza",
         "iconID":"monsters_tometik7:22",
         "maxHP":215,
-        "moveCost":5,
+        "moveCost":2,
         "unique":1,
         "monsterClass":"humanoid",
         "movementAggressionType":"wholeMap",
