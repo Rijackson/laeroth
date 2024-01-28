@@ -5720,7 +5720,7 @@
         "message":"According to the map, I'm really close now and I should continue head west.",
         "rewards":[
             {
-                "rewardType":"questProgress",
+                "rewardType":"removeQuestProgress",
                 "rewardID":"nondisplay",
                 "value":48
             }
