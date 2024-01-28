@@ -157,6 +157,11 @@
     <property name="place" value="east"/>
    </properties>
   </object>
+  <object name="laeroth_exit_2" type="script" x="352" y="64" width="32" height="32">
+   <properties>
+    <property name="when" value="step"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Spawn">
   <object name="spawn_1" type="spawn" x="64" y="64" width="384" height="512">
