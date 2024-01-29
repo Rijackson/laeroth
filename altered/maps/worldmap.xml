@@ -331,7 +331,7 @@
     <map id="haunted_forest25" x="382" y="484"/>
     <map id="haunted_cemetery1" x="440" y="482"/>
     <map id="haunted_cemetery2" x="429" y="482"/>
-	<map id="ratdom_bwm1" x="137" y="355"/>
+    <map id="ratdom_bwm1" x="137" y="355"/>
     <map id="lake_shore_road_0" x="147" y="480"/>
     <map id="lake_shore_road_1" x="168" y="480"/>
     <map id="lake_shore_road_2" x="147" y="503"/>
@@ -375,6 +375,7 @@
     <map id="island1" x="515" y="1"/>
     <map id="island4" x="515" y="32"/>
     <map id="korhald_cave_outdoor1" x="550" y="278"/>
+    <map id="remgard2a" x="702" y="114"/>
     <namedarea id="crossglen" name="Crossglen" type="settlement"/>
     <namedarea id="crossroads" name="Crossroads Guardhouse" type="other"/>
     <namedarea id="charwoodh" name="Charwood" type="settlement"/>
