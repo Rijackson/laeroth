@@ -731,12 +731,7 @@
     },
     {
         "id":"laerothbasement2_chest_examine_2",
-        "message":"The cobwebs must have been holding this extremely old container together.",
-        "replies":[
-            {
-                "nextPhraseID":"X"
-            }
-        ]
+        "message":"The cobwebs must have been holding this extremely old container together."
     },
     {
         "id":"laerothbasement2_chest_examine_50",
@@ -1058,8 +1053,8 @@
             },
             {
                 "rewardType":"removeSpawnArea",
-                "rewardID":"forenza_laerothisland2",
-                "mapName":"laerothisland2"
+                "rewardID":"forenza_laerothbasement2",
+                "mapName":"laerothbasement2"
             },
             {
                 "rewardType":"spawnAll",
@@ -1201,7 +1196,8 @@
     },
     {
         "id":"forenza_brimhaven_10",
-        "message":"[With an ever growing smile upon his face, Forenza inserts the first key and then the second. He then proceeds to slowly open the chest.]",
+        "switchToNPC":"none",
+        "message":"With an ever growing smile upon his face, Forenza inserts the first key and then the second. He then proceeds to slowly open the chest.",
         "replies":[
             {
                 "text":"N",
@@ -1228,7 +1224,7 @@
     },
     {
         "id":"korhald_chest_examine_10",
-        "message":"[He then begins to feverlessly sift through the coins, transferring each one to his bag. When to his surpirse, he finds something...]",
+        "message":"He then begins to feverlessly sift through the coins, transferring each one to his bag. When to his surpirse, he finds something...",
         "replies":[
             {
                 "text":"N",
@@ -1238,6 +1234,7 @@
     },
     {
         "id":"korhald_chest_examine_20",
+        "switchToNPC":"forenza_waytobrimhaven3",
         "message":"Look at what I found at the bottom of the chest. A pendant and a map. [Shows item to you]",
         "replies":[
             {
