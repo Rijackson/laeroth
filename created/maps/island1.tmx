@@ -183,6 +183,9 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
+ <tileset firstgid="7577" name="map_guynmart" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_guynmart.png" width="512" height="256"/>
+ </tileset>
  <layer id="8" name="Base" width="30" height="30">
   <data encoding="base64" compression="zlib">
    eJxjYBgFo2AUjIJRQCtwghM3xqWe3u6ihln0BgNhJwhsHiB7lzON2jtq7ygYBaOAENg4QGX0YLL3DBnlCQA2fhGj
@@ -200,7 +203,7 @@
  </layer>
  <layer id="3" name="Above" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMAqGNngigJ9PK8DJxMAgK8jAIAfE8kAsDuRfFMOu9rMkA8MXID4gSbm9IP/JMEHsk2Ui3r93iLRbVgjoJyFMcXT/ceLxL7lARZB8vfeB/ntAhfAlBhxG8vd7oJ0fJDHFqQ0ui6GaLySEXZwWdmIzHyR2iQR7RZgwxaylGBhspHDbic1emJ0LWYm3GxcA5UdzoP0WUqh2ovvLB4vbqQE8pHDbCQIxUHudybQflOfv4sgTOyUJx18wmfa+kUTYgZ4vcaVVULyDMDuJdooTqR7ZXuRwITUdkwpg9qLHBS3LChAA+Qlm51sC9gIAv2k/5g==
+   eJxjYBgFo4A4ECqOW+6aLPXto4WZlIAwPP7HB0DhRq7eoQTwpQ96ugGfO0Ko4MbB4M9RgAmeCODn0wpwMjEwyAoyMMgBsTwQiwP5F8Wwq/0sycDwBYgPSKKKk5OmQP6TYYLYJ8tEvH/vSBJWAwKyQkA/CWGKo/uPE49/yQUqguTrvQ/03wMi/UgpOIzk7/dAOz9IYopTG1wWQzVfSAi7OC3sxGY+SOwSCfaKMGGKWUsxMNhI4bYTm70wOxeyEm83LgDKj+ZA+y2kUO1E95cPFrdTA3hI4bYTBGKg9jqTaT8oz9/FkSd2ShKOv2Ay7X0jibADPV/iSqugeAdhdhLtFCdSPbK9yOFCajomFcDsRY8LWpYVIADyE8zOtwTsBQC62kYF
   </data>
  </layer>
  <layer id="9" name="Top" width="30" height="30">
