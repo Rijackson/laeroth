@@ -1196,8 +1196,8 @@
     },
     {
         "id":"forenza_brimhaven_10",
-        "switchToNPC":"none",
         "message":"With an ever growing smile upon his face, Forenza inserts the first key and then the second. He then proceeds to slowly open the chest.",
+        "switchToNPC":"none",
         "replies":[
             {
                 "text":"N",
@@ -1234,8 +1234,8 @@
     },
     {
         "id":"korhald_chest_examine_20",
-        "switchToNPC":"forenza_waytobrimhaven3",
         "message":"Look at what I found at the bottom of the chest. A pendant and a map. [Shows item to you]",
+        "switchToNPC":"forenza_waytobrimhaven3",
         "replies":[
             {
                 "text":"A map? Really? Where does it point to?",
@@ -5517,7 +5517,7 @@
     },
     {
         "id":"korhald_cave_hidden_basket_examine_loot_f2",
-        "message":"you have just found a coin and a shield. I should bring this coin back to Forenza.",
+        "message":"you have just found a coin and a shield. You should bring this coin back to Forenza.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -5528,7 +5528,7 @@
     },
     {
         "id":"korhald_cave_hidden_basket_examine_loot_g2",
-        "message":"you have just found a coin and a shield. I should bring this coin back to Gylew.",
+        "message":"you have just found a coin and a shield. You should bring this coin back to Gylew.",
         "rewards":[
             {
                 "rewardType":"questProgress",
