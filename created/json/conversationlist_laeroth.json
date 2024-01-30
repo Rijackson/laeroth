@@ -1291,6 +1291,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"nondisplay",
                 "value":45
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"nondisplay",
+                "value":48
             }
         ]
     },
@@ -5409,14 +5414,8 @@
                     },
                     {
                         "requireType":"questProgress",
-                        "requireID":"odd_coin_collector",
-                        "value":65,
-                        "negate":true
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"odd_coin_collector",
-                        "value":66,
+                        "requireID":"laeroth_nondisplay",
+                        "value":103,
                         "negate":true
                     }
                 ]
@@ -5459,14 +5458,8 @@
                     },
                     {
                         "requireType":"questProgress",
-                        "requireID":"odd_coin_collector",
-                        "value":65,
-                        "negate":true
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"odd_coin_collector",
-                        "value":66,
+                        "requireID":"laeroth_nondisplay",
+                        "value":103,
                         "negate":true
                     }
                 ]
@@ -5523,6 +5516,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"odd_coin_collector",
                 "value":65
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"laeroth_nondisplay",
+                "value":103
             }
         ]
     },
@@ -5534,6 +5532,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"odd_coin_collector",
                 "value":66
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"laeroth_nondisplay",
+                "value":103
             }
         ]
     },
@@ -5749,14 +5752,8 @@
                     },
                     {
                         "requireType":"questProgress",
-                        "requireID":"odd_coin_collector",
-                        "value":65,
-                        "negate":true
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"odd_coin_collector",
-                        "value":66,
+                        "requireID":"laeroth_nondisplay",
+                        "value":103,
                         "negate":true
                     }
                 ]

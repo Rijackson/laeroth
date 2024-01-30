@@ -61,6 +61,10 @@
                 "logText":"Raised Jerelin again"
             },
             {
+                "progress":103,
+                "logText":"This is just a wrapper around the odd coin collector 65 and 66 steps, it is easier to check this one when looking for confirmation that the PC found the Coin of Prestige and the Shield of the Brave."
+            },
+            {
                 "progress":104,
                 "logText":"The PC has helped heal Forenza. This is just a wrapper around the odd coin collector quest's \"aid\" Forenza steps."
             },
