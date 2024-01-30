@@ -150,6 +150,12 @@
                         "requireID":"odd_coin_collector",
                         "value":10,
                         "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":11,
+                        "negate":true
                     }
                 ]
             },
