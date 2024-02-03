@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="20" height="8" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="2">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="20" height="8" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="2">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -127,12 +127,17 @@
  </layer>
  <layer id="2" name="Objects" width="20" height="8">
   <data encoding="base64" compression="zlib">
-   eJxjYBgF5IB+/oF2wfAAAMzhAJ8=
+   eJxjYKA+2MkLoXsYiVO/jReVfxiobxcvfjUw0I1mxzQsdl5GE7PkZmAwZWFgeAgU/8EMEZvCgqkPJqcJVH8dyL7BjJDr50ewbzEzYAdYzASBR1jciOzuO0Dz7mIxE5vf0MFMHGo+QcWn4nDrByzi/5DEzIF+6SIyPkkBAD5pFmA=
   </data>
  </layer>
  <layer id="3" name="Above" width="20" height="8">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2DgAAACgAAB
+   eJxjYBg6YBcvA8MLZgjdwgIR282LKgcDx4HsE8yYZoDAKWaE3q28uO3bhia3A4faM0DzzuKwi1ywHY+7cIF3FLgBm327yXADqQAA9qQP0A==
+  </data>
+ </layer>
+ <layer id="8" name="Top" width="20" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYKA+CBcYNW84m0dNAABdtQJr
   </data>
  </layer>
  <layer id="4" name="Walkable" width="20" height="8" visible="0">

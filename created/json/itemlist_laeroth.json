@@ -574,5 +574,13 @@
                 }
             ]
         }
+    },
+    {
+        "id":"mystery_laeroth_key",
+        "iconID":"items_japozero:396",
+        "name":"Mystery Laeroth key",
+        "displaytype":"quest",
+        "category":"other",
+        "description":"A mysterious key found in Laeroth Manor that's embossed with the letter 'K'."
     }
 ]
