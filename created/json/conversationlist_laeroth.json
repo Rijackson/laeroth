@@ -6290,5 +6290,100 @@
     {
         "id":"Remgard_jetty_sign",
         "message":"What a lot of water!"
+    },
+    {
+        "id":"laeroth_barn_basement_spider",
+        "message":"As you approach the hole, you notice something inside and are intrigued.",
+        "replies":[
+            {
+                "text":"[Bend down and take a look.]",
+                "nextPhraseID":"laeroth_barn_basement_spider_2"
+            },
+            {
+                "text":"No, I don't think so. I'm not that intrigued enough to risk my life.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"laeroth_barn_basement_spider_2",
+        "message":"Ugh, spiders!",
+        "rewards":[
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"laeroth_barn_basement_spider_hole",
+                "mapName":"laerothbarn1"
+            }
+        ]
+    },
+    {
+        "id":"laeroth_barn_basement_centipede",
+        "message":"As you approach the hole, you notice something inside and are intrigued.",
+        "replies":[
+            {
+                "text":"No, I don't think so. I'm not that intrigued enough to risk my life.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"[Bend down and take a look.]",
+                "nextPhraseID":"laeroth_barn_basement_centipede_2"
+            }
+        ]
+    },
+    {
+        "id":"laeroth_barn_basement_centipede_2",
+        "message":"Ugh, centipedes",
+        "rewards":[
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"laeroth_barn_basement_centipede_hole",
+                "mapName":"laerothbarn1"
+            }
+        ]
+    },
+    {
+        "id":"laeroth_barn_basement_selector",
+        "replies":[
+            {
+                "nextPhraseID":"laeroth_barn_basement_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"laeroth_nondisplay",
+                        "value":102,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"laeroth_barn_basement_1",
+        "message":"As you approach the hole, you notice something inside and are intrigued.",
+        "replies":[
+            {
+                "text":"[Bend down and take a look.]",
+                "nextPhraseID":"laeroth_barn_basement_2"
+            },
+            {
+                "text":"No, I don't think so. I'm not that intrigued enough to risk my life.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"laeroth_barn_basement_2",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"laeroth_nondisplay",
+                "value":102
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"mystery_laeroth_key",
+                "value":1
+            }
+        ]
     }
 ]

@@ -163,11 +163,6 @@
     <property name="when" value="enter"/>
    </properties>
   </object>
-  <object name="laeroth_barn_basement_selector" type="script" x="96" y="96" width="32" height="32">
-   <properties>
-    <property name="when" value="enter"/>
-   </properties>
-  </object>
  </objectgroup>
  <objectgroup name="Spawn">
   <object name="laeroth_barn_basement_spider_hole" type="spawn" x="384" y="96" width="96" height="96">
@@ -182,18 +177,6 @@
     <property name="active" value="false"/>
     <property name="quantity" value="2"/>
     <property name="spawngroup" value="centipedes"/>
-   </properties>
-  </object>
-  <object name="spider_massive_spawn_1" type="spawn" x="480" y="128" width="32" height="64">
-   <properties>
-    <property name="quantity" value="2"/>
-    <property name="spawngroup" value="spider_massive"/>
-   </properties>
-  </object>
-  <object name="spider_massive_spawn_2" type="spawn" x="160" y="96" width="160" height="128">
-   <properties>
-    <property name="quantity" value="3"/>
-    <property name="spawngroup" value="spider_massive"/>
    </properties>
   </object>
  </objectgroup>
