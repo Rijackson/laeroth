@@ -582,5 +582,19 @@
         "displaytype":"quest",
         "category":"other",
         "description":"A mysterious key found in Laeroth Manor that's embossed with the letter 'K'."
+    },
+    {
+        "id":"korhald_kettle",
+        "iconID":"items_newb:71",
+        "name":"Korhald's kettle",
+        "displaytype":"extraordinary",
+        "category":"hd_mtl_li",
+        "description":"Korhald's helmet, adorned with intricate engravings, offering formidable protection while symbolizing the vallor and resilience to its wearer.",
+        "equipEffect":{
+            "increaseMaxHP":10,
+            "increaseAttackChance":1,
+            "increaseBlockChance":5,
+            "increaseDamageResistance":1
+        }
     }
 ]

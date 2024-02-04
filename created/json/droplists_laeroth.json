@@ -579,5 +579,18 @@
                 }
             }
         ]
+    },
+    {
+        "id":"korhald_locked_chest_dl",
+        "items":[
+            {
+                "itemID":"korhald_kettle",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
     }
 ]
