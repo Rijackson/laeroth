@@ -1598,8 +1598,36 @@
         ]
     },
     {
-        "id":"korhald_cave_hidden_locked_chest",
-        "message":"This chest is locked."
+        "id":"korhald_cave_hidden_locked_chest_selector",
+        "replies":[
+            {
+                "nextPhraseID":"korhald_cave_hidden_locked_chest_no_key",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"mystery_laeroth_key",
+                        "value":1,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"korhald_cave_hidden_locked_chest_not_looted",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"mystery_laeroth_key",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nondisplay",
+                        "value":49,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
     },
     {
         "id":"script_close_cave_door_0",
@@ -6383,6 +6411,51 @@
                 "rewardType":"giveItem",
                 "rewardID":"mystery_laeroth_key",
                 "value":1
+            }
+        ]
+    },
+    {
+        "id":"korhald_cave_hidden_locked_chest_no_key",
+        "message":"This chest is locked and you don't seem to have the key.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"nondisplay",
+                "value":50
+            }
+        ]
+    },
+    {
+        "id":"korhald_cave_hidden_locked_chest_not_looted",
+        "message":"The chest is locked, but you can try that \"Mystery Laeroth key\" you found.",
+        "replies":[
+            {
+                "text":"Let's get this thing unlocked.",
+                "nextPhraseID":"korhald_cave_hidden_locked_chest_loot"
+            },
+            {
+                "text":"This might be a mistake. I should leave before it's too late!",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"korhald_cave_hidden_locked_chest_loot",
+        "message":"Inside the chest, you find a book with an ancient leather cover, a helmet and some valuables.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"nondisplay",
+                "value":49
+            },
+            {
+                "rewardType":"dropList",
+                "rewardID":"korhald_locked_chest_dl"
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"nondisplay",
+                "value":50
             }
         ]
     }

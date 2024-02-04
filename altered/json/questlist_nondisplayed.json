@@ -135,6 +135,14 @@
             {
                 "progress":48,
                 "logText":"Mysterious Korhald map head west in korhald_cave_outdoor1"
+            },
+            {
+                "progress":49,
+                "logText":"Looted the locked chest in Korhald's tomb."
+            },
+            {
+                "progress":50,
+                "logText":"Haven't looted the locked chest in Korhald's tomb."
             }
         ]
     }
