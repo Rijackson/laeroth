@@ -1112,6 +1112,22 @@
                 ]
             },
             {
+                "text":"Inside the  Korhald tomb, I found a locked chest. Do you know where I can find its key?",
+                "nextPhraseID":"odd_coin_collector_ask_about_locked_chest",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":65
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nondisplay",
+                        "value":50
+                    }
+                ]
+            },
+            {
                 "text":"I tried to get Gylew's key, but...",
                 "nextPhraseID":"forenza_korhald_gylew_not_dead",
                 "requires":[
@@ -6456,6 +6472,20 @@
                 "rewardType":"removeQuestProgress",
                 "rewardID":"nondisplay",
                 "value":50
+            }
+        ]
+    },
+    {
+        "id":"odd_coin_collector_ask_about_locked_chest",
+        "message":"A locked chest you say? Well, I'm not really sure, but logic tells me to look back in the Laeroth Manor.",
+        "replies":[
+            {
+                "text":"Oh, yeah. That makes sense.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Oh, come on! I don't want to go back there again.",
+                "nextPhraseID":"X"
             }
         ]
     }

@@ -40,6 +40,22 @@
                 ]
             },
             {
+                "text":"Inside the  Korhald tomb, I found a locked chest. Do you know where I can find its key?",
+                "nextPhraseID":"odd_coin_collector_ask_about_locked_chest",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":66
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nondisplay",
+                        "value":50
+                    }
+                ]
+            },
+            {
                 "text":"About that \"Coin of Prestige\"...",
                 "nextPhraseID":"gylew_korhald_cop_30a",
                 "requires":[
