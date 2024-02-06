@@ -1501,7 +1501,29 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"korhald_chest_examine_10"
+                "nextPhraseID":"korhald_chest_examine_10_gylew"
+            }
+        ]
+    },
+    {
+        "id":"korhald_chest_examine_10_gylew",
+        "message":"He opens the chest and begins to feverlessly sift through the coins, transferring each one to his bag. When to his surpirse, he finds something...",
+        "switchToNPC":"none",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"korhald_chest_examine_20_gylew"
+            }
+        ]
+    },
+    {
+        "id":"korhald_chest_examine_20_gylew",
+        "message":"Look at what I found at the bottom of the chest. A pendant and a map. [Shows item to you]",
+        "switchToNPC":"gylew",
+        "replies":[
+            {
+                "text":"A map? Really? Where does it point to?",
+                "nextPhraseID":"korhald_chest_examine_30"
             }
         ]
     },
