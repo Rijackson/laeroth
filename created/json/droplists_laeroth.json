@@ -616,5 +616,34 @@
                 }
             }
         ]
+    },
+    {
+        "id":"cave_bear_dl",
+        "items":[
+            {
+                "itemID":"bwm_fish",
+                "chance":"100",
+                "quantity":{
+                    "min":5,
+                    "max":7
+                }
+            },
+            {
+                "itemID":"claws",
+                "chance":"35",
+                "quantity":{
+                    "min":1,
+                    "max":2
+                }
+            },
+            {
+                "itemID":"wild_berry3",
+                "chance":"100",
+                "quantity":{
+                    "min":2,
+                    "max":3
+                }
+            }
+        ]
     }
 ]

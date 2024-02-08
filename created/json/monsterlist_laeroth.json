@@ -594,5 +594,25 @@
         "criticalMultiplier":2.5,
         "blockChance":55,
         "damageResistance":2
+    },
+    {
+        "id":"cave_bear",
+        "name":"Aggressive bear",
+        "iconID":"monsters_newb_1:242",
+        "maxHP":297,
+        "moveCost":3,
+        "unique":1,
+        "monsterClass":"animal",
+        "movementAggressionType":"wholeMap",
+        "attackDamage":{
+            "min":14,
+            "max":20
+        },
+        "droplistID":"cave_bear_dl",
+        "attackCost":4,
+        "attackChance":165,
+        "criticalSkill":3,
+        "criticalMultiplier":3.0,
+        "blockChance":127
     }
 ]
