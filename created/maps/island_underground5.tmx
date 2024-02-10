@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="20" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="3">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="20" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="4">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -182,22 +182,22 @@
  </tileset>
  <layer id="1" name="Ground" width="20" height="20">
   <data encoding="base64" compression="zlib">
-   eJydlEEOgyAQRQ0777/1ClKSHsDqonvwCh6kNPXHz2QcoIsfYwYffz6D3g3Dq0OepNUfWUdWatR8stabOnitms9vdoO3je3q4aWsyf2eeJdinuafeZyN5o15d/49+Vm4l4o/2RPkqR7zMxh7Mw8e0BOL9wtibylPvGTwUAdP9jEp6+HvPV6S+YO3GHdkNXjIX/KicUd2V+YpeZx5kd+fPJ7fwLNS4W1jyWJ/yN9T/lgDDv4b3E901xrmaecOgctzZPHu5oh5ch4t3rPC4zup6XBlfi08MDXx2fTw+Kw0fesfZCs1JA==
+   eJydlDEOgzAMRVE27r9yBQxSD0DpwE56BQ7SoOZLH8sxCcMTqpy+2I4TCV33bkAIKz4ljkSsZMyutRCHr5Yx/+fr+D59PS2+mBjC/4vfGvZZ+bOPe2Plxr5S/kL5LFzLTX66JiAU39N3dvZmH3JATQzvN6u9NUK+6PgQh0/XMRjrS/mtRn6Lc0dWx4f+a9/u3BGst+rVZ3/p30Mfz+/Ms3LjO9n661sxhWv/hfq/5fXw4N3gergvPJvWOQF4eY48X2mO2Kfn0fO9bnx8Jy2OvGeLD04L/ZbV+visLM74D4tVMuY=
   </data>
  </layer>
  <layer id="2" name="Objects" width="20" height="20">
   <data encoding="base64" compression="zlib">
-   eJxjYKAd4GKC0OxMCDFlYdzqVfHIgYAUE3ZxcRzi+AAnAT38BNyCDiSB5s2GmjkXzWxnPHbB3M5Ngh+CoWpjWBFiT/HoPyyGXRwUBiJI+nJYMeVnE+EumN2SBNQSkn+MRV4WSYwYtyCDw4Lk6V3HhMDUAJSYx45FD7p52OIePSyT8diNy30yaHxpYDqSgaalYhzm7QeKH4DidQTiThtolo4Yqrn8TJj+uQTk5wDxWiLDD2YuMkDOgyDzapDMe4Ejf+ADwWjmXSLBfSCAK0+C4g2U5p8gmbdFELtadAArd+B5Bq0MI8V9xAIAiU4pgg==
+   eJxjYKAd4GKC0OxMCDFlYdzqVfHIgYAUE3ZxcRzi+AAnAT38BNyCDiSB5s2GmjkXzWxnPHbB3M5Ngh+CoWpjWBFiT/HoPyyGXRwUBiJI+nJYMeVnE+EumN2SBNQSkn+MRV4WSYwYtyCDw4Lk6x0sgJ2E8EcG6GGZTIb/ZdD0SAPTkQw0LRXjMG8/DnFs4a8NNEtHDNVcfibs/skhwf0wc5EBch4UZGdgqEHiv8CRP/CBYCT9zED9l0hNmzjsBMWbMFDuCZJ5WwSxq0UHsHIHnmegZZgyGf4jFgAAABEZmw==
   </data>
  </layer>
  <layer id="3" name="Above" width="20" height="20">
   <data encoding="base64" compression="zlib">
-   eJxjYKA+OCxGnr7LOPSRYx7ILFz6yDHv8ACbhytskPVcwqFmLhOmWYTcTEge2T347CbWvMNi2Nmj5hFWgx7+1DCPWLXkmAcDc5gw0yYM4EtPhNyDy0xyzVvPRDj/kWIeCJDiRnLLU3qYBwC/Ry3x
+   eJxjYKA+OCxGnr7LOPSRYx7ILFz6yDHv8ACbhytskPVcwqFmLhOmWYTcTEge2T347CbWvMNi2NnD0Tz08KfUPPTwp4Z5xKolxzwYmMOEmTZhAF96IuQeXGaSa956JsL5jxTzQIAUN5JbntLDPABLCi7a
   </data>
  </layer>
  <layer id="4" name="Walkable" width="20" height="20" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsHGEYVIAKeYRYwc1zSPGX8hyuOzAZx8+N5LiX1LMI2QWseYh+4+cMB+p5qGHOb54INY8Qu5AV0OuefjSD7nmEZsmSTEPl5mUmEes30kxjxAGAFit2OI=
+   eJzbKMbAsHGEYVIAKeYRYwc1zSPGX8hyuOzAZx8+N5LiX1LMI2QWseYh+4+cMB+p5qGHOb54INY8Qu5AV0OuefjSD67wISW8qGUeLjMpMY8Yv5NqHiEMAA0l1o0=
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
@@ -213,6 +213,7 @@
     <property name="place" value="cave"/>
    </properties>
   </object>
+  <object id="3" name="lae_underground5_loot" type="container" x="544" y="480" width="32" height="32"/>
  </objectgroup>
  <objectgroup id="6" name="Spawn"/>
  <objectgroup id="7" name="Keys"/>
