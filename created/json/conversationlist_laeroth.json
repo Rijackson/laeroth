@@ -5435,6 +5435,38 @@
         ]
     },
     {
+        "id":"final_cave_map_hint",
+        "message":"Step forward to have a better view of the map."
+    },
+    {
+        "id":"final_cave_map_b",
+        "message":"Blue crystal"
+    },
+    {
+        "id":"final_cave_map_g",
+        "message":"Green crystal"
+    },
+    {
+        "id":"final_cave_map_r",
+        "message":"Red crystal"
+    },
+    {
+        "id":"final_cave_map_f",
+        "message":"Scroll of elements - Fire"
+    },
+    {
+        "id":"final_cave_map_w",
+        "message":"Scroll of elements - Water"
+    },
+    {
+        "id":"final_cave_map_e",
+        "message":"Scroll of elements - Earth"
+    },
+    {
+        "id":"final_cave_map_a",
+        "message":"Scroll of elements - Air"
+    },
+    {
         "id":"verigil_seal_found_test_nut",
         "message":"You found a seal with \"V\" engraved on it. This should work.\nBut it still must be coded properly (nut).",
         "rewards":[

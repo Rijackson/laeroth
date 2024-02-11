@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="8">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="15" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="12">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -180,67 +180,53 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="7577" name="map_guynmart" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../drawable/map_guynmart.png" width="512" height="256"/>
+ <tileset firstgid="7577" name="map_ratdom" tilewidth="32" tileheight="32" tilecount="108" columns="18">
+  <image source="../drawable/map_ratdom.png" width="576" height="192"/>
  </tileset>
- <layer id="9" name="Base" width="30" height="30">
+ <layer id="9" name="Base" width="15" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMAqoA7x4B9oF9Acj0c+jYGiALZwj0+5RMApGAWkAAMrCAik=
+   eJxjYCANbOJEYFzixGBKAalmIKsf1Tu89VID0CMNwwAAdOIerw==
   </data>
  </layer>
- <layer id="1" name="Ground" width="30" height="30">
+ <layer id="1" name="Ground" width="15" height="15">
   <data encoding="base64" compression="zlib">
-   eJy9VkFOw0AMjFQuHFYpHLjxkFDg3pL2DuUJfR43jjyBZ0D4QVrW0lodJt512opWGrVpdj1e2+N1N6mq6cX50SXeb/g+B5S3j9/bAnR9aY0HtKG8tRMX8Wt3Yk7QRgd+lOItfl2dmAe00VEs1B+MO+8/JcacX4X4swl/494bfh2KL4P37TIPzr349RTKeyxY5/X2zCPPAvCfvE20fZewiniIeElYB3udhVlayzpV3py2F4kTuTbw+zn5sshAY8M6HcM7Jq5o19sreVNe1XQF9bujvewTxlFrUGyWeCVWyKuavob6tfoE5uj9dmiXeZdh6J/Hy9pn7f5M9naxBpU3V4seL0Pe49kkHx83w1pSH9dGbpnX6x2smVko3yXoY0OxHsvL/YN1VUKTYo+5XoV9XY6B7j+kX3GvUwiv5n4s9Kxer0JfLV7uQcecxZpXWIMWr0A+Vh2U8oZ3unf3cd/B58+oizbYa737nOcUjxf7gpylNeKWu+97gz/HuyVe1lxraFPfTal31IWYWnOK/mfp9/WIGrN4eU7R2UXPe0gtN5l6s+o5x9snXsuWVdNaw0tjvTd/a57qxC28c7Jl9Tacdx7D8B5CbeZidR/23MrL/TM3tyyd99hDOX8tPP8CARMOXA==
+   eJwz5GVgMAJiYyDexEkEFkNgR6AeJyB2BuJrQP42PPimGKreQKCeICAOJsNeEP+YGJH6ODHVbydR7/ZRvXTXe5JEvaSqx4ZluRCYqPSMpFeXC4FJtRcAuW2g+w==
   </data>
  </layer>
- <layer id="2" name="Objects" width="30" height="30">
+ <layer id="2" name="Objects" width="15" height="15">
   <data encoding="base64" compression="zlib">
-   eJzFVt1NxDAMjtpK93ZH6QRpGYEZeIUNYAHYALZD3ASgHrzwAieOGRAEYp3r2CYpafmkqKqa+uez/SXG7FEvzOxoK2Ps4uc5x6K4r/m4ng+H7+9k34PwH8VL5L4p4WKwPvcWPTlecnDL8SzBxdVVIb9SHhSuTmADanlayDbOlG9/xXmx56LzHFj/fsH4HcPx7TK0I3G3aoYx4Lhi+xdw7G3RGvSlMRuyHss022Ox9bHQWY3B3VeMa79yxvxaDznh7F6iXqDfrTBTEjDv3/B1OmlCu9dF2mxq2Cnc05xSe+1DqGdHYk+1y2HV/L4HgHWF1mhdhisFoGFHVdgDoCs0/zHA55109mEcMPzQ+FpGX+ZEjj6IRY/m+qkcznqfUUdA23o82wpcLakWcBrE6fWGyQnOFFfrq0LXpCXpkZ1Sj7fIWjm/N4zfXPep2HvAFvnDWhebBwbcAzQuufNds0dnjs6mNI8W+Y+5e4G/qZBrhjVNi/UxRZ6aZtL74n/B+f4Ec2RrnA==
+   eJxjYEAFzkwIdroggs0OFJcE4u/iDAwaEgwMP8QZcAKYPmT9IMApAaF/4tCLrh7FfqBeCSDmkECIBTMxEATEqAEBZyLVgYC7IKYYJxb95oKoZmPThw/A9IP0oWNc6tExNiBJpF9hfsLmN0Lm4Qp3C6CbfrJBaGLMRgYeQD2c7BAaGwCZJceFwITcEgJMh6FQHIYnPWMDZkD1Jzgh2A1NryzQPnE0O2H+lAHSKUD1qVCcBsQAGYMWgg==
   </data>
  </layer>
- <layer id="3" name="Above" width="30" height="30">
+ <layer id="3" name="Above" width="15" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYCAecDHhl2fHIq8kTIIFOIAUAXuHKoCFDbZwuyxGvDmcOMKHFDNg4BIWPeI4zJfEIY7NDHLdQy5QR0p3uNwDA4eh8sjhSI10CwOyBMIJWzjKoInhioNRgAqomcZAaYhQmccClT+MxV4TItMQNjcTW+Zhs5dYQI5eWL4glKeoaS++OACFnTqR4UyqvfjiAJYf0fMpNewlFcDKLXY0N1ESR8QAXOX/cAfGaOmN2Hw+GAHILyD3hxLhB1i6SgWqTSOhbDvBjCnOQkbaKQXaWUakvUosEIzLTaSAVqCdbXjsdWZClIu3ZBHi6O06SvMjuruDmXC3C3C1OYgFIP9w4qnbaAkk6WAvLG6w1S20LjdBALluGUxtOwAy0SNH
+   eJxjYBgFo2AUDCQAAAOEAAE=
   </data>
  </layer>
- <layer id="8" name="Top" width="30" height="30">
+ <layer id="8" name="Top" width="15" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYGBgOCzGMCBg1N5Re0ftHbV31F7a2HuZQvcONf+CACV+JsXeS1QMm6EYzqP2jtpLjL0nmAfGXkrLPnLt/SIGwfS2l55g1N7hay8ARtEf8Q==
+   eJxjYBgFo2AUDCQAAAOEAAE=
   </data>
  </layer>
- <layer id="4" name="Walkable" width="30" height="30" visible="0">
+ <layer id="4" name="Walkable" width="15" height="15" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzdk1EOgDAIQz2F97/Cbmj8JXa00DkjyT5mBo8WHOdxjM3njl3ct0LtyaHra/6ib91ZRJ0zvbN8hza011VOxma8c+w+4nZ3M3u7kot8mnlWYaH+HVwUyEemvw436ny6M36xXKZfB5epj3xAb7rc6s6zM0S+MdxKv4wWd69OLVkPasSaam5nJpGr7jvDZbSzeareiqYV3Kw2und9VjQ5/keGre5mzEF1Kgx1fn85F9j8xUE=
+   eJxjYBgFo4B+YKMYApOjF5keLgAAxysD5A==
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents" visible="0">
-  <object id="1" name="east1" type="mapchange" x="928" y="64" width="32" height="32">
+  <object id="5" name="map" type="mapchange" x="224" y="352" width="32" height="32">
    <properties>
-    <property name="map" value="island_underground2"/>
-    <property name="place" value="west1"/>
+    <property name="map" value="final_cave1"/>
+    <property name="place" value="map_exit"/>
    </properties>
   </object>
-  <object id="2" name="east2" type="mapchange" x="928" y="160" width="32" height="160">
-   <properties>
-    <property name="map" value="island_underground2"/>
-    <property name="place" value="west2"/>
-   </properties>
-  </object>
-  <object id="3" name="east3" type="mapchange" x="928" y="640" width="32" height="160">
-   <properties>
-    <property name="map" value="island_underground2"/>
-    <property name="place" value="west3"/>
-   </properties>
-  </object>
-  <object id="4" name="cave" type="mapchange" x="96" y="32" width="32" height="32">
-   <properties>
-    <property name="map" value="island_underground4"/>
-    <property name="place" value="south"/>
-   </properties>
-  </object>
-  <object id="5" name="island_underground2_set1" type="script" x="864" y="192" width="64" height="128"/>
-  <object id="6" name="island_underground2_set2" type="script" x="864" y="64" width="64" height="64"/>
-  <object id="7" name="island_underground2_set2" type="script" x="864" y="640" width="64" height="160"/>
+  <object id="2" name="final_cave_map_f" type="script" x="0" y="0" width="96" height="96"/>
+  <object id="6" name="final_cave_map_a" type="script" x="384" y="0" width="96" height="96"/>
+  <object id="7" name="final_cave_map_e" type="script" x="0" y="384" width="96" height="96"/>
+  <object id="8" name="final_cave_map_w" type="script" x="384" y="384" width="96" height="96"/>
+  <object id="9" name="final_cave_map_r" type="script" x="384" y="160" width="96" height="96"/>
+  <object id="10" name="final_cave_map_g" type="script" x="0" y="160" width="96" height="96"/>
+  <object id="11" name="final_cave_map_b" type="script" x="192" y="0" width="96" height="64"/>
  </objectgroup>
  <objectgroup id="6" name="Spawn"/>
  <objectgroup id="7" name="Keys"/>
