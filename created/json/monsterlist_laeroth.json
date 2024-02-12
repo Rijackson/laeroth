@@ -574,6 +574,13 @@
         "phraseID":"brute_fisherman"
     },
     {
+        "id":"lae_andor",
+        "name":"Andor",
+        "iconID":"monsters_maksiu1:1",
+        "monsterClass":"humanoid",
+        "spawnGroup":"lae_andor"
+    },
+    {
         "id":"gylew_henchman_aggresive",
         "name":"Gylew's henchman",
         "iconID":"monsters_men:8",
