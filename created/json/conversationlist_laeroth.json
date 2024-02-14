@@ -5523,6 +5523,22 @@
                         "negate":true
                     }
                 ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"mysterious_map_44_remove_reward",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nondisplay",
+                        "value":46
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"laeroth_nondisplay",
+                        "value":103
+                    }
+                ]
             }
         ]
     },
@@ -6540,6 +6556,16 @@
             {
                 "text":"Oh, come on! I don't want to go back there again.",
                 "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"mysterious_map_44_remove_reward",
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"nondisplay",
+                "value":44
             }
         ]
     }
