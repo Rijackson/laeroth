@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="6">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="33" nextobjectid="37">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -180,33 +180,88 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
+ <layer id="22" name="Base" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJz7wsnA8GUUDwrMwjXwbhgObhwNh5GBR+NgNKxGEh7scTjY3TeKR/Eopi6mdp4nxzx8ekg1b6SXYQBaUW5u
+  </data>
+ </layer>
  <layer id="1" name="Ground" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJzNlk0PgjAMhhfchY8EPao3/7bxFwI3L2oQWcJC03R03cbi4U0WWPd09N1of1Cqn/XNpB7pqPOoA8xh1rOU66blMRKursLyiuVKxOW4Fzd0vx3hOSy8FjffrG+/g4s7Ir9TZwFzt86LGU+OfUFuC/w+RJwvGH/SPBe+j6m7K57iQi/m5GKvxHIpD25xKT9AvWql3os+NX1uoT85rn02EX6AKhulqkV1Q8+x/hwdDPzMjF08q/PMuiy6OriQ33lyQ2vKeczUIoQb+n/g9mtrEbs/nJ/1jIvb6tWHKTUBz3D3ZGr5nN899Q9cqZcexTq+F7LYmH4S3p+jMBb3A5JYeJ9JfYjrG9KTpvRVyp6VWs/HV1s5SPOz8336xNTi+s4c+gEzq+zO
+   eJzNltEOgiAUhtnkpnQzb9yqK/P9n6KL7BHMR8geoJoZbDBPxAFRZJ7t3xhBH5vfYbQRIS3LJ1BaJTsaJnfAfLCcaJio3FC1Nm7NxjdDGs0ZXfZgXDiPpVHOaVuP/T+c7xTfsX6oRGz9wsf9CG4KfH/M6C+4P6N2bgF8n9NfcH85ggt/n+M5tt/ErQ3nceGqDmJc2Q86H2A9Y0JeIu9Yvwb6CXtJx5VzvcYHWJuEkK1InOjXSD87hKHO8XFG/32AtWesg8gR4Uo/U/r7rU1cjDelCgeuz0pyO7dbgCtZvYGbCg8qz+mjwVEdt6CDhz6TAUdt96TPuNyTS9UauDznfLwnV3DOi6Nj6nvAxRF4f6aOLk59x5aKJ9xDFxfX9H2XLuwNaHqL+ojt3RkiX4diYVY=
+  </data>
+ </layer>
+ <layer id="28" name="Ground_0" width="30" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzNltEOgiAUhtnkpnQzb9yqK/P9n6KL7BHMR8geoJoZbDBPxAFRZJ7t3xhBH5vfYbQRIS3LJ1BaJTsaJnfAfLCcaJio3FC1Nm7NxjdDGs0ZXfZgXDiPpVHOaVuP/T+c7xTfsX6oRGz9wsf9CG4KfH/M6C+4P6N2bgF8n9NfcH85ggt/n+M5tt/ErQ3nceGqDmJc2Q86H2A9Y0JeIu9Yvwb6CXtJx5VzvcYHWJuEkK1InOjXSD87hKHO8XFG/32AtWesg8gR4Uo/U/r7rU1cjDelCgeuz0pyO7dbgCtZvYGbCg8qz+mjwVEdt6CDhz6TAUdt96TPuNyTS9UauDznfLwnV3DOi6Nj6nvAxRF4f6aOLk59x5aKJ9xDFxfX9H2XLuwNaHqL+ojt3RkiX4diYVY=
+  </data>
+ </layer>
+ <layer id="15" name="Ground_1" width="30" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJztlE0OgjAQhZu0G34SYGOirtT7n0M9AnoE686NGkGadkKpHZ0CcdWXfAuHmXkEX4axqKj/6MQ1Zz6s154aVq95v4cqyTVX7q8rj1uiqZHeC+/7qWqQXS+unykOBvjdIr5NgG8p9JzrWwj9zEclPn3VfOnUv0l9P5iD76nYdDu2CDsx7LXnp/qGMNZXzuArA32llRXfznvG2MPwzHRNpMMeyGBInlveZ8Xnm+SMpYYs9/dABl8BvhWSFWDZea0Ma8QXMlgE5BnzGwtV2Lz7H1LIF9N9qbjvRxXcvqOTib11H118vbCHKuz2hdxJu5cq+/bZ+nUnsd6oqKioOfQGPPfNAg==
   </data>
  </layer>
  <layer id="2" name="Objects" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJzNVjtOw0AQHSlgC2zZ4AgKqJwU1HR0tJwASk7ALVKGG8ANoIAKiQIBQvIBSOGQdJSkAyQCGHawVx423vWu7SJPGsW7OzPPn3mTAZgPHFoA+z7AgZ/v8TWeDbx8/9FKf3GPxu1as3EydBbM7dkyjxHRY3uvK/rvBX17BXma8oe2ga+AB6/chyNuAQwV9tRqJqYKaJ64oZw6SBhXlFnSIK9Y96iLbaIPes6vRZ+iXD+BnDMU6r2KvsT4rmYdvxM9Yf1/ldQlnrukz1A9vmlqEzVGa+XKQAuIPvaoxXyNNVimW64HiqiA98MBmGb26cye76z+X1fR0l6W45i8xyUXYDkzx5XHVAGvB/5tTwnvGbvecFPbLOBFiPWpg27Wq18Y501W++e+OgbRF3wwR2jAjc84YnbBOC8VmtOBu67vex2kdsvsribvvCIJ8m8xkGhWtq8TU9azwop9UWUqTqNZoCIoB/9vjgxMhEnsUOiJ4zWze7830IcKE8bbEWYpWa3ENrtnZiNmYzvd22qr444kfeePV7NOJjaJs+vNsd/Ce/ZqzJFF8Fm+k4Jnbup7qWZX2QyomkWbsHnAL3fimOc=
+   eJxjYBgcIJ6NgSGMn4EhnB8hBuOD5K7yIcSvsEFokBiyPns2TH24gBIL6fgJG+l60EELUOyLAPHhAlLbgsUcaqlnECZBLRo4ykdYzSigP0BP96B8YYiUP5DlYWx0NdjM+i9EvBvIyV/Y8gsx4BtSfgKl/z8E0iVIngepnEHOj1+JzJvoeWwHiXmhB1RGseI3kxhwAou9P7kZGH5B8W9uTHkLQdLtQQceUDN6kcKRk4eBgQuKuXlw6yEHgNKGMgsibuci2bsGyJbigWBpLPaSC5ShZfUboJ37oWl/LT9+PSDQg6aGlPIeBEB+vAPEG4F2biIhz1EKdgtB8EEgPkRHe+kJ/iH56yqOPItLnFw9IxGQ2s4hFeBq55xgpp2d+MBbUWAZhdaWIiVNqCPpxaYvF0e5A7KXmsAEqYw2xlNe/0Wzl4+CdiQIuCDZ5Qxk8wPNm4PFz7epFL9FTNQxZ7gBAC8MSPs=
+  </data>
+ </layer>
+ <layer id="29" name="Objects_0" width="30" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgcIJ6NgSGMn4EhnB8hBuOD5K7yIcSvsEFokBiyPns2TH24gBIL6fgJG+l60EELUOyLAPHhAlLbgsUcaqlnECZBLRo4ykdYzSigP0BP96B8YYiUP5DlYWx0NdjM+i9EvBvIyV/Y8gsx4BtSfgKl/z8E0iVIngepnEHOj1+JzJvoeWwHiXmhB1RGseI3kxhwAou9P7kZGH5B8W9uTHkLQdLtQQceUDN6kcKRk4eBgQuKuXlw6yEHgNKGMgsibuci2bsGyJbigWBpLPaSC5ShZfUboJ37oWl/LT9+PSDQg6aGlPIeBEB+vAPEG4F2biIhz1EKdgtB8EEgPkRHe+kJ/iH56yqOPItLnFw9IxGQ2s4hFeBq55xgpp2d+MBbUWAZhdaWIiVNqCPpxaYvF0e5A7KXmsAEqYw2xlNe/0Wzl4+CdiQIuCDZ5Qxk8wPNm4PFz7epFL9FTNQxZ7gBAC8MSPs=
+  </data>
+ </layer>
+ <layer id="14" name="Objects_1" width="30" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjALqg/9C+OUFhBkYePjp4xZcoAdo/yJWys3JIcMMC0HK7R1o0IsWf1xAP3HT0F+LoeE8l07p5osAA0Mq0M4YqL1r6WDvQlaInfQGe4Qg+CgQHyOQd0fBKBgFo2AUDC8AANZcDFk=
   </data>
  </layer>
  <layer id="3" name="Above" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBh8wJ4NgkmVY2fCLYcNPBFAsMWBev3ZIBgbIFUO2Wx6Alkm4tSJEamOXPWjYHACTmg8uvIzMLjxU9fsZ0hpHpT+QXnCkR9CS+JIP8hqkPPMUzLzj8wgTaeU5h9c+i0EGRguimGK/wCG308Sw5AaeZwD6B5OIHamcjxcwuJHZACL92A89g72MplYMFoWUxdwMUHaDtgArvYGJxXiQAqPGbjaG7ByVHwYpYE97AwMe6F4Hztt7UKOt5NAu04B8RkgPotmLxcF4YstbeCq/9ABcpp4y8fA8I6PeHvR7UBOI6CyD1RXwACITUx5WEthG+EL0A4PJHtB7C8UlMO3mXHLkVsujpanCAAAfDckOg==
+   eJxjYBh8wJ4NgkmVY2fCLYcNPBFAsMWBev3ZIBgbIFUO2Wx6Alkm4tSJEamOXPWjYHACTmg8uvIzMLjxU9fsZ0hpHpT+QXnCkR9CS+JIP8hqkPPMUzLzj8wgTaeU5h9c+i0EGRguimGK/wCG308Sw5AaeZwD6B5OIHamcjxcwuJHZACL92A89g72MplYMFoWUxdwMUHaDtgArvYGJxXiQAqPGbjaG7ByVJwE+2mZ7gcqT5ELiI03LgriF5sduOo/dICcJt7yMTC84yPeXnQ7kNMItngiJu5qKWwjfEGzw0MQU4xaYLRcpBwAADNXHek=
+  </data>
+ </layer>
+ <layer id="30" name="Above_0" width="30" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBh8wJ4NgkmVY2fCLYcNPBFAsMWBev3ZIBgbIFUO2Wx6Alkm4tSJEamOXPWjYHACTmg8uvIzMLjxU9fsZ0hpHpT+QXnCkR9CS+JIP8hqkPPMUzLzj8wgTaeU5h9c+i0EGRguimGK/wCG308Sw5AaeZwD6B5OIHamcjxcwuJHZACL92A89g72MplYMFoWUxdwMUHaDtgArvYGJxXiQAqPGbjaG7ByVJwE+2mZ7gcqT5ELiI03LgriF5sduOo/dICcJt7yMTC84yPeXnQ7kNMItngiJu5qKWwjfEGzw0MQU4xaYLRcpBwAADNXHek=
+  </data>
+ </layer>
+ <layer id="10" name="Above_1" width="30" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgF9AQL+UnXU0yiHnLsGAUjB0SzMTBoAdPIDT4Ghhg2+tmbjWRXDh3tpQUgNU/S28xfAgwMvwWoZ95Ag0tiA+0C+oOtQgwM24QG2hWjYBSQDujRBhlt54yCUUBdAAB/XguY
   </data>
  </layer>
  <layer id="8" name="Top" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBhYcFhsaNj7RGBg7KUWGLWXuuAyDvNpbS8u80kVJxVcGiB7cYFRewfGXhgfV3ogB2DLS8j2guSpVf7isgObGK3CdtRe+pTP2NIore3FV05SM8+QYu9gByeYUTElYKi0N6jlTlLNoVYaHArpahSQDgCcGzD5
+   eJxjYBhYcFhsaNj7RGBg7KUWGLWXuuAyDvNpbS8u80kVJxVcGiB7cYFRewfGXhgfV3ogB2DLS8j2guSpVf7isgObGK3CdtRe+pTP2NIore0ltZykNRhp9g4UGGnhPNLid6QAAJ4eKjw=
+  </data>
+ </layer>
+ <layer id="31" name="Top_0" width="30" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBhYcFhsaNj7RGBg7KUWGLWXuuAyDvNpbS8u80kVJxVcGiB7cYFRewfGXhgfV3ogB2DLS8j2guSpVf7isgObGK3CdtRe+pTP2NIore0ltZykNRgoe0caGGnxO5quhicAAHcPKWM=
+  </data>
+ </layer>
+ <layer id="16" name="Top_1" width="30" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2DkgMtitFFLCBwmwSxS1FLTrEtY1JIbBpT6gVz9o/bSFsDSA7a0QkvwRIC+9o2CkQUek5CeSVE7CkbBKBgFQwUAAEO7ENU=
   </data>
  </layer>
  <layer id="4" name="Walkable" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztlN0JwCAMhJ2i+6/gKk4kfRCKaLz8YiEHodCe99H0aH1KqTlh82pcEXG8X/+KG6EdF90NlUWd0XAt/dwcSX+Si3UOlTRby50zTtmnHUm5FIPyjmer3Giu5/vOOVxxuda6nev577iJ2xyZDeiupyx2ZpWTXB2X40F6gdyjzkd3WvtN/jwdl+rLuw==
+   eJztk0sKwCAMRD1F738Fb1i6EFwkMZ9JrOBAKOh0nkbtT2v9Vll9Gl+NLN7ZT3ErxHG1vZGypH8iXKTfmuO5P5eru3NaebOruaseRdgcQ/KOOSo3izvPVe7Xy9UyuDGEIvvdwUXV37iZbC6/Sqi3YuFRXFTfEGd+Ktfi0Z6TZWy1hmxlvdET6gX5dMLs
+  </data>
+ </layer>
+ <layer id="32" name="Walkable_0" width="30" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJztk0sKwCAMRD1F738Fb1i6EFwkMZ9JrOBAKOh0nkbtT2v9Vll9Gl+NLN7ZT3ErxHG1vZGypH8iXKTfmuO5P5eru3NaebOruaseRdgcQ/KOOSo3izvPVe7Xy9UyuDGEIvvdwUXV37iZbC6/Sqi3YuFRXFTfEGd+Ktfi0Z6TZWy1hmxlvdET6gX5dMLs
+  </data>
+ </layer>
+ <layer id="13" name="Walkable_1" width="30" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo4A+YKMYAmMTx6WeGDMosRdZnBS11LAXGx6q9iLro9ReUgG57h2KevGFHy3txpVfsKmhlb0wfZSEGT3tJUcPJfFKCaBGuqLUXnzuGS7l5ECWz6NgFIyCUYALAADxPXYp
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents" visible="0">
-  <object id="1" name="up" type="mapchange" x="64" y="736" width="32" height="32">
+  <object id="1" name="up" type="mapchange" x="64" y="768" width="32" height="32">
    <properties>
     <property name="map" value="final_cave_labyrinth"/>
     <property name="place" value="cave"/>
@@ -220,6 +275,9 @@
    </properties>
   </object>
   <object id="4" name="map_exit" type="mapchange" x="736" y="832" width="64" height="32"/>
+  <object id="31" name="final_cave_hf" type="container" x="864" y="832" width="32" height="32"/>
+  <object id="33" name="final_cave_s9" type="script" x="288" y="352" width="384" height="192"/>
+  <object id="36" name="final_cave_andor1" type="script" x="448" y="768" width="64" height="32"/>
  </objectgroup>
  <objectgroup id="6" name="Spawn">
   <object id="5" name="lae_andor" type="spawn" x="320" y="352" width="352" height="192">
@@ -227,6 +285,228 @@
     <property name="spawngroup" value="lae_andor"/>
    </properties>
   </object>
+  <object id="34" name="lae_algangror2" type="spawn" x="320" y="352" width="352" height="192">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="lae_algangror2"/>
+   </properties>
+  </object>
+  <object id="35" name="lae_jhaeld2" type="spawn" x="320" y="352" width="352" height="192">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="lae_jhaeld2"/>
+   </properties>
+  </object>
  </objectgroup>
- <objectgroup id="7" name="Keys"/>
+ <objectgroup id="9" name="Keys" visible="0">
+  <object id="6" name="final_cave_k1" type="key" x="64" y="704" width="32" height="32">
+   <properties>
+    <property name="phrase" value="final_cave_k1"/>
+    <property name="requireId" value="andor"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+  <object id="7" name="final_cave_k2" type="key" x="128" y="352" width="32" height="32">
+   <properties>
+    <property name="phrase" value="final_cave_k2"/>
+    <property name="requireId" value="andor"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+  <object id="8" name="final_cave_k3" type="key" x="64" y="96" width="32" height="32">
+   <properties>
+    <property name="phrase" value="final_cave_k3"/>
+    <property name="requireId" value="andor"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+  <object id="9" name="final_cave_k4" type="key" x="480" y="96" width="32" height="32">
+   <properties>
+    <property name="phrase" value="final_cave_k4"/>
+    <property name="requireId" value="andor"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+  <object id="10" name="final_cave_k5" type="key" x="864" y="96" width="32" height="32">
+   <properties>
+    <property name="phrase" value="final_cave_k5"/>
+    <property name="requireId" value="andor"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+  <object id="11" name="final_cave_k6" type="key" x="800" y="352" width="32" height="32">
+   <properties>
+    <property name="phrase" value="final_cave_k6"/>
+    <property name="requireId" value="andor"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+  <object id="12" name="final_cave_k7" type="key" x="864" y="704" width="32" height="32">
+   <properties>
+    <property name="phrase" value="final_cave_k7"/>
+    <property name="requireId" value="andor"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="12" name="Replace" visible="0">
+  <object id="15" name="final_cave:1" type="replace" x="64" y="704" width="32" height="32">
+   <properties>
+    <property name="Above" value="Above_1"/>
+    <property name="requireId" value="final_cave"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+  <object id="16" name="final_cave:1_0" type="replace" x="64" y="704" width="32" height="32">
+   <properties>
+    <property name="Above" value="Above_0"/>
+    <property name="requireId" value="final_cave"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+  <object id="17" name="final_cave:2" type="replace" x="128" y="352" width="32" height="32">
+   <properties>
+    <property name="Above" value="Above_1"/>
+    <property name="requireId" value="final_cave"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="2"/>
+   </properties>
+  </object>
+  <object id="18" name="final_cave:2_0" type="replace" x="128" y="352" width="32" height="32">
+   <properties>
+    <property name="Above" value="Above_0"/>
+    <property name="requireId" value="final_cave"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="2"/>
+   </properties>
+  </object>
+  <object id="19" name="final_cave:3" type="replace" x="64" y="96" width="32" height="32">
+   <properties>
+    <property name="Above" value="Above_1"/>
+    <property name="requireId" value="final_cave"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="3"/>
+   </properties>
+  </object>
+  <object id="20" name="final_cave:3_0" type="replace" x="64" y="96" width="32" height="32">
+   <properties>
+    <property name="Above" value="Above_0"/>
+    <property name="requireId" value="final_cave"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="3"/>
+   </properties>
+  </object>
+  <object id="21" name="final_cave:4" type="replace" x="480" y="96" width="32" height="32">
+   <properties>
+    <property name="Above" value="Above_1"/>
+    <property name="requireId" value="final_cave"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="4"/>
+   </properties>
+  </object>
+  <object id="22" name="final_cave:4_0" type="replace" x="480" y="96" width="32" height="32">
+   <properties>
+    <property name="Above" value="Above_0"/>
+    <property name="requireId" value="final_cave"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="4"/>
+   </properties>
+  </object>
+  <object id="23" name="final_cave:5" type="replace" x="864" y="96" width="32" height="32">
+   <properties>
+    <property name="Above" value="Above_1"/>
+    <property name="requireId" value="final_cave"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="5"/>
+   </properties>
+  </object>
+  <object id="24" name="final_cave:5_0" type="replace" x="864" y="96" width="32" height="32">
+   <properties>
+    <property name="Above" value="Above_0"/>
+    <property name="requireId" value="final_cave"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="5"/>
+   </properties>
+  </object>
+  <object id="25" name="final_cave:6" type="replace" x="800" y="353" width="32" height="32">
+   <properties>
+    <property name="Above" value="Above_1"/>
+    <property name="requireId" value="final_cave"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="6"/>
+   </properties>
+  </object>
+  <object id="26" name="final_cave:6_0" type="replace" x="800" y="352" width="32" height="32">
+   <properties>
+    <property name="Above" value="Above_0"/>
+    <property name="requireId" value="final_cave"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="6"/>
+   </properties>
+  </object>
+  <object id="27" name="final_cave:7" type="replace" x="864" y="704" width="32" height="32">
+   <properties>
+    <property name="Above" value="Above_1"/>
+    <property name="requireId" value="final_cave"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="7"/>
+   </properties>
+  </object>
+  <object id="28" name="final_cave:7_0" type="replace" x="864" y="704" width="32" height="32">
+   <properties>
+    <property name="Above" value="Above_0"/>
+    <property name="requireId" value="final_cave"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="7"/>
+   </properties>
+  </object>
+  <object id="29" name="final_cave:9" type="replace" x="160" y="160" width="640" height="512">
+   <properties>
+    <property name="Above" value="Above_1"/>
+    <property name="Ground" value="Ground_1"/>
+    <property name="Objects" value="Objects_1"/>
+    <property name="Top" value="Top_1"/>
+    <property name="Walkable" value="Walkable_1"/>
+    <property name="requireId" value="final_cave"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="9"/>
+   </properties>
+  </object>
+  <object id="30" name="final_cave:9_0" type="replace" x="160" y="160" width="640" height="512">
+   <properties>
+    <property name="Above" value="Above_0"/>
+    <property name="Ground" value="Ground_0"/>
+    <property name="Objects" value="Objects_0"/>
+    <property name="Top" value="Top_0"/>
+    <property name="Walkable" value="Walkable_0"/>
+    <property name="requireId" value="final_cave"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="9"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

@@ -393,5 +393,21 @@
                 "finishesQuest":1
             }
         ]
+    },
+    {
+        "id":"final_cave",
+        "name":"final_cave",
+        "showInLog":0,
+        "stages":[	{ "progress":1, "logText":"key 1 set - sw" },
+					{ "progress":2, "logText":"key 2 set - w" },
+					{ "progress":3, "logText":"key 3 set - nw" },
+					{ "progress":4, "logText":"key 4 set - n" },
+					{ "progress":5, "logText":"key 5 set - ne" },
+					{ "progress":6, "logText":"key 6 set - e" },
+					{ "progress":7, "logText":"key 7 set - se" },
+					{ "progress":9, "logText":"9: wall down" },
+					{ "progress":10, "logText":"10: 0=Algangror 1=Jhaeld" },
+					{ "progress":11, "logText":"11: Andor talk" },
+					{ "progress":99, "logText":"x" }]
     }
 ]

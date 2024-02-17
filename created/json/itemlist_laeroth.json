@@ -584,6 +584,55 @@
         "description":"A mysterious key found in Laeroth Manor that's embossed with the letter 'K'."
     },
     {
+        "id":"final_cave_f",
+        "iconID":"items_japozero:421",
+        "name":"Scroll of fire",
+        "displaytype":"quest",
+        "category":"other"
+    },
+    {
+        "id":"final_cave_w",
+        "iconID":"items_japozero:421",
+        "name":"Scroll of water",
+        "displaytype":"quest",
+        "category":"other"
+    },
+    {
+        "id":"final_cave_e",
+        "iconID":"items_japozero:421",
+        "name":"Scroll of earth",
+        "displaytype":"quest",
+        "category":"other"
+    },
+    {
+        "id":"final_cave_a",
+        "iconID":"items_japozero:421",
+        "name":"Scroll of wind",
+        "displaytype":"quest",
+        "category":"other"
+    },
+    {
+        "id":"final_cave_r",
+        "iconID":"items_japozero:359",
+        "name":"Red globe of the elements",
+        "displaytype":"quest",
+        "category":"other"
+    },
+    {
+        "id":"final_cave_b",
+        "iconID":"items_japozero:359",
+        "name":"Blue globe of the elements",
+        "displaytype":"quest",
+        "category":"other"
+    },
+    {
+        "id":"final_cave_g",
+        "iconID":"items_japozero:359",
+        "name":"Green globe of the elements",
+        "displaytype":"quest",
+        "category":"other"
+    },
+    {
         "id":"korhald_kettle",
         "iconID":"items_newb:71",
         "name":"Korhald's kettle",

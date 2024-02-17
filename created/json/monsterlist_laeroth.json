@@ -578,7 +578,40 @@
         "name":"Andor",
         "iconID":"monsters_maksiu1:1",
         "monsterClass":"humanoid",
-        "spawnGroup":"lae_andor"
+        "spawnGroup":"lae_andor",
+        "phraseID":"lae_andor"
+    },
+    {
+        "id":"lae_algangror1",
+        "name":"Algangror",
+        "iconID":"monsters_rltiles1:68",
+        "monsterClass":"humanoid",
+        "spawnGroup":"lae_algangror1",
+        "phraseID":"lae_algangror1"
+    },
+    {
+        "id":"lae_jhaeld1",
+        "name":"Jhaeld",
+        "iconID":"monsters_mage:0",
+        "monsterClass":"humanoid",
+        "spawnGroup":"lae_jhaeld1",
+        "phraseID":"lae_jhaeld1"
+    },
+    {
+        "id":"lae_algangror2",
+        "name":"Algangror",
+        "iconID":"monsters_rltiles1:68",
+        "monsterClass":"humanoid",
+        "spawnGroup":"lae_algangror2",
+        "phraseID":"lae_algangror2"
+    },
+    {
+        "id":"lae_jhaeld2",
+        "name":"Jhaeld",
+        "iconID":"monsters_mage:0",
+        "monsterClass":"humanoid",
+        "spawnGroup":"lae_jhaeld2",
+        "phraseID":"lae_jhaeld2"
     },
     {
         "id":"gylew_henchman_aggresive",

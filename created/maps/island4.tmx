@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="10">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="12">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -263,6 +263,18 @@
    <properties>
     <property name="quantity" value="2"/>
     <property name="spawngroup" value="beach_crawler_1"/>
+   </properties>
+  </object>
+  <object id="10" name="lae_algangror1" type="spawn" x="512" y="64" width="64" height="160">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="lae_algangror1"/>
+   </properties>
+  </object>
+  <object id="11" name="lae_jhaeld1" type="spawn" x="512" y="64" width="64" height="160">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="lae_jhaeld1"/>
    </properties>
   </object>
  </objectgroup>
