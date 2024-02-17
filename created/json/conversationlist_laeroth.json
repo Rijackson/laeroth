@@ -6568,5 +6568,49 @@
                 "value":44
             }
         ]
+    },
+    {
+        "id":"gwendolyn_1",
+        "message":"Hello, stranger. What are you doing down here?",
+        "replies":[
+            {
+                "text":"I'm looking for my brother Andor. Have you seen him? He kind of looks like me.",
+                "nextPhraseID":"gwendolyn_2"
+            },
+            {
+                "text":"What are you doing down here?",
+                "nextPhraseID":"gwendolyn_3"
+            }
+        ]
+    },
+    {
+        "id":"gwendolyn_2",
+        "message":"Well, unless he looks like one of these books, I will say \"no\".",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"gwendolyn_3"
+            }
+        ]
+    },
+    {
+        "id":"gwendolyn_3",
+        "message":"You see, I've been down here all day looking for a book for Skylenar as he really needs it.",
+        "replies":[
+            {
+                "text":"Well, maybe I could help you? What is the name of this book?",
+                "nextPhraseID":"gwendolyn_4"
+            }
+        ]
+    },
+    {
+        "id":"gwendolyn_4",
+        "message":"Oh, how nice of you to offer. It's called \"The Tome of Veiled Truths\", but I don't think you will have much luck finding it.",
+        "replies":[
+            {
+                "text":"Oh, OK. I will let you be then.",
+                "nextPhraseID":"X"
+            }
+        ]
     }
 ]

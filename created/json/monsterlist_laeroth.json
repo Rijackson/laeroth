@@ -614,5 +614,12 @@
         "criticalSkill":3,
         "criticalMultiplier":3.0,
         "blockChance":127
+    },
+    {
+        "id":"remgard_gwendolyn",
+        "name":"Gwendolyn",
+        "iconID":"monsters_ld1:148",
+        "unique":1,
+        "phraseID":"gwendolyn_1"
     }
 ]
