@@ -1,0 +1,23 @@
+[
+    {
+        "id":"pig",
+        "message":"[Grunt]",
+        "replies":[
+            {
+                "text":"Oh, you're hungry? Here's some rotten meat for you.",
+                "nextPhraseID":"pig",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"meat2",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"Oh, you're hungry? That's too bad for you.",
+                "nextPhraseID":"X"
+            }
+        ]
+    }
+]
