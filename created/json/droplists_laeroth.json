@@ -548,13 +548,55 @@
                     "min":1,
                     "max":1
                 }
+            },
+            {
+                "itemID":"final_cave_w",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"final_cave_e",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"final_cave_a",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"final_cave_r",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"final_cave_g",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"final_cave_b",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
             }
-, { "itemID":"final_cave_w", "chance":"100", "quantity":{ "min":1, "max":1 } }
-, { "itemID":"final_cave_e", "chance":"100", "quantity":{ "min":1, "max":1 } }
-, { "itemID":"final_cave_a", "chance":"100", "quantity":{ "min":1, "max":1 } }
-, { "itemID":"final_cave_r", "chance":"100", "quantity":{ "min":1, "max":1 } }
-, { "itemID":"final_cave_g", "chance":"100", "quantity":{ "min":1, "max":1 } }
-, { "itemID":"final_cave_b", "chance":"100", "quantity":{ "min":1, "max":1 } }
         ]
     },
     {
@@ -768,6 +810,93 @@
                 "quantity":{
                     "min":2,
                     "max":3
+                }
+            }
+        ]
+    },
+    {
+        "id":"wight1",
+        "items":[
+            {
+                "itemID":"gold",
+                "chance":"100",
+                "quantity":{
+                    "min":4,
+                    "max":10
+                }
+            },
+            {
+                "itemID":"rock",
+                "chance":"40",
+                "quantity":{
+                    "min":1,
+                    "max":2
+                }
+            },
+            {
+                "itemID":"bone",
+                "chance":"30",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"wight2",
+        "items":[
+            {
+                "itemID":"gold",
+                "chance":"100",
+                "quantity":{
+                    "min":5,
+                    "max":15
+                }
+            },
+            {
+                "itemID":"bone",
+                "chance":"70",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"shield_leather",
+                "chance":"6",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"wight_boss",
+        "items":[
+            {
+                "itemID":"gold",
+                "chance":"100",
+                "quantity":{
+                    "min":10,
+                    "max":20
+                }
+            },
+            {
+                "itemID":"obsidian_dagger",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"bone",
+                "chance":"80",
+                "quantity":{
+                    "min":1,
+                    "max":2
                 }
             }
         ]

@@ -677,6 +677,7 @@
             "max":13
         },
         "spawnGroup":"wight",
+        "droplistID":"wight1",
         "attackCost":4,
         "attackChance":65,
         "blockChance":70,
@@ -711,6 +712,7 @@
             "max":17
         },
         "spawnGroup":"wight",
+        "droplistID":"wight2",
         "attackCost":3,
         "attackChance":70,
         "criticalSkill":10,
@@ -721,6 +723,42 @@
             "increaseCurrentHP":{
                 "min":1,
                 "max":1
+            }
+        },
+        "hitReceivedEffect":{
+            "increaseCurrentHP":{
+                "min":2,
+                "max":2
+            },
+            "increaseAttackerCurrentHP":{
+                "min":-2,
+                "max":-2
+            }
+        }
+    },
+    {
+        "id":"wight_boss",
+        "name":"Kotheses",
+        "iconID":"monsters_tometik7:6",
+        "maxHP":180,
+        "moveCost":5,
+        "unique":1,
+        "monsterClass":"undead",
+        "attackDamage":{
+            "min":3,
+            "max":20
+        },
+        "droplistID":"wight_boss",
+        "attackCost":3,
+        "attackChance":90,
+        "criticalSkill":15,
+        "criticalMultiplier":1.5,
+        "blockChance":75,
+        "damageResistance":2,
+        "hitEffect":{
+            "increaseCurrentHP":{
+                "min":2,
+                "max":2
             }
         },
         "hitReceivedEffect":{
