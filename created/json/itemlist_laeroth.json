@@ -198,6 +198,8 @@
         "iconID":"items_weapons_3:18",
         "name":"Superior quarterstaff",
         "displaytype":"rare",
+        "hasManualPrice":1,
+        "baseMarketCost":1600,
         "category":"staff",
         "description":"This quarterstaff is made of very dense wood, and has metal endcaps with intricate engravings. ",
         "equipEffect":{
@@ -216,7 +218,7 @@
                     "condition":"stunned",
                     "magnitude":1,
                     "duration":2,
-                    "chance":"2"
+                    "chance":"3"
                 }
             ]
         }
