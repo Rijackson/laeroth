@@ -265,18 +265,6 @@
     <property name="spawngroup" value="beach_crawler_1"/>
    </properties>
   </object>
-  <object id="10" name="lae_algangror1" type="spawn" x="512" y="64" width="64" height="160">
-   <properties>
-    <property name="active" value="false"/>
-    <property name="spawngroup" value="lae_algangror1"/>
-   </properties>
-  </object>
-  <object id="11" name="lae_jhaeld1" type="spawn" x="512" y="64" width="64" height="160">
-   <properties>
-    <property name="active" value="false"/>
-    <property name="spawngroup" value="lae_jhaeld1"/>
-   </properties>
-  </object>
  </objectgroup>
  <objectgroup id="7" name="Keys"/>
 </map>
