@@ -176,6 +176,11 @@
     <property name="spawngroup" value="lae_prisoner3"/>
    </properties>
   </object>
+  <object name="prisoner" type="spawn" x="352" y="96" width="96" height="96">
+   <properties>
+    <property name="spawngroup" value="lae_prisoner4"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Keys"/>
 </map>

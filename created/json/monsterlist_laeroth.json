@@ -792,5 +792,12 @@
         "iconID":"monsters_rltiles2:142",
         "monsterClass":"undead",
         "phraseID":"lae_prison1"
+    },
+    {
+        "id":"lae_prisoner4",
+        "name":"Laeroth prisoner",
+        "iconID":"monsters_rltiles2:142",
+        "monsterClass":"undead",
+        "phraseID":"lae_prison_01"
     }
 ]
