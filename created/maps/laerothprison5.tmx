@@ -155,6 +155,31 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Spawn"/>
+ <objectgroup name="Spawn">
+  <object name="spawn1" type="spawn" x="128" y="96" width="480" height="256">
+   <properties>
+    <property name="quantity" value="6"/>
+    <property name="spawngroup" value="wight_lesser"/>
+   </properties>
+  </object>
+  <object name="spawn2" type="spawn" x="128" y="352" width="480" height="160">
+   <properties>
+    <property name="quantity" value="6"/>
+    <property name="spawngroup" value="wight_lesser"/>
+   </properties>
+  </object>
+  <object name="spawn3" type="spawn" x="128" y="608" width="352" height="160">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="wight_lesser"/>
+   </properties>
+  </object>
+  <object name="spawn4" type="spawn" x="352" y="512" width="256" height="96">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="wight_lesser"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup name="Keys"/>
 </map>
