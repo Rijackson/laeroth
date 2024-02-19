@@ -771,5 +771,26 @@
                 "max":-2
             }
         }
+    },
+    {
+        "id":"lae_prisoner1",
+        "name":"Laeroth prisoner",
+        "iconID":"monsters_ld2:175",
+        "monsterClass":"undead",
+        "phraseID":"lae_prison1"
+    },
+    {
+        "id":"lae_prisoner2",
+        "name":"Laeroth prisoner",
+        "iconID":"monsters_newb_1:652",
+        "monsterClass":"undead",
+        "phraseID":"lae_prison1"
+    },
+    {
+        "id":"lae_prisoner3",
+        "name":"Laeroth prisoner",
+        "iconID":"monsters_rltiles2:142",
+        "monsterClass":"undead",
+        "phraseID":"lae_prison1"
     }
 ]

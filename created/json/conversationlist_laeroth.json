@@ -5469,798 +5469,2121 @@
     {
         "id":"final_cave_k1",
         "replies":[
-			{ "nextPhraseID":"final_cave_k1_20",
-              "requires":[{ "requireType":"questProgress", "requireID":"final_cave", "value":1 }]
-			},
-			{ "nextPhraseID":"final_cave_k1_10"
-			}
-		]
+            {
+                "nextPhraseID":"final_cave_k1_20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"final_cave",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"final_cave_k1_10"
+            }
+        ]
     },
     {
         "id":"final_cave_k1_10",
         "message":"Which elemental scroll do you want to put here?",
         "replies":[
-			{ "text":"The scroll of fire",
-			  "nextPhraseID":"final_cave_k1_10_f",
-              "requires":[{ "requireType":"inventoryRemove", "requireID":"final_cave_f", "value":1 }]
-			},
-			{ "text":"The scroll of water",
-			  "nextPhraseID":"final_cave_k1_10_w",
-              "requires":[{ "requireType":"inventoryRemove", "requireID":"final_cave_w", "value":1 }]
-			},
-			{ "text":"The scroll of earth",
-			  "nextPhraseID":"final_cave_k1_10_e",
-              "requires":[{ "requireType":"inventoryRemove", "requireID":"final_cave_e", "value":1 }]
-			},
-			{ "text":"The scroll of wind",
-			  "nextPhraseID":"final_cave_k1_10_a",
-              "requires":[{ "requireType":"inventoryRemove", "requireID":"final_cave_a", "value":1 }]
-			},
-			{ "text":"None",
-			  "nextPhraseID":"X"
-			}
-		]
+            {
+                "text":"The scroll of fire",
+                "nextPhraseID":"final_cave_k1_10_f",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"final_cave_f",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"The scroll of water",
+                "nextPhraseID":"final_cave_k1_10_w",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"final_cave_w",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"The scroll of earth",
+                "nextPhraseID":"final_cave_k1_10_e",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"final_cave_e",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"The scroll of wind",
+                "nextPhraseID":"final_cave_k1_10_a",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"final_cave_a",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"None",
+                "nextPhraseID":"X"
+            }
+        ]
     },
     {
         "id":"final_cave_k1_10_f",
-        "replies":[{ "nextPhraseID":"final_cave_kx" }],
-        "rewards":[{ "rewardType":"questProgress", "rewardID":"final_cave", "value":1 },
-				   { "rewardType":"alignmentSet", "rewardID":"final_cave_f", "value":1 }]
+        "replies":[
+            {
+                "nextPhraseID":"final_cave_kx"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"final_cave",
+                "value":1
+            },
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"final_cave_f",
+                "value":1
+            }
+        ]
     },
     {
         "id":"final_cave_k1_10_w",
-        "replies":[{ "nextPhraseID":"final_cave_kx" }],
-        "rewards":[{ "rewardType":"questProgress", "rewardID":"final_cave", "value":1 },
-				   { "rewardType":"alignmentSet", "rewardID":"final_cave_w", "value":1 }]
+        "replies":[
+            {
+                "nextPhraseID":"final_cave_kx"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"final_cave",
+                "value":1
+            },
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"final_cave_w",
+                "value":1
+            }
+        ]
     },
     {
         "id":"final_cave_k1_10_e",
-        "replies":[{ "nextPhraseID":"final_cave_kx" }],
-        "rewards":[{ "rewardType":"questProgress", "rewardID":"final_cave", "value":1 },
-				   { "rewardType":"alignmentSet", "rewardID":"final_cave_e", "value":1 }]
+        "replies":[
+            {
+                "nextPhraseID":"final_cave_kx"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"final_cave",
+                "value":1
+            },
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"final_cave_e",
+                "value":1
+            }
+        ]
     },
     {
         "id":"final_cave_k1_10_a",
-        "replies":[{ "nextPhraseID":"final_cave_kx" }],
-        "rewards":[{ "rewardType":"questProgress", "rewardID":"final_cave", "value":1 },
-				   { "rewardType":"alignmentSet", "rewardID":"final_cave_a", "value":1 }]
+        "replies":[
+            {
+                "nextPhraseID":"final_cave_kx"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"final_cave",
+                "value":1
+            },
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"final_cave_a",
+                "value":1
+            }
+        ]
     },
     {
         "id":"final_cave_k1_20",
         "message":"The scroll still lies on the table.",
         "replies":[
-			{ "text":"I take back my scroll of fire.",
-			  "nextPhraseID":"final_cave_k1_20_f",
-              "requires":[{ "requireType":"factionScoreEquals", "requireID":"final_cave_f", "value":1 }]
-			},
-			{ "text":"I take back my scroll of water.",
-			  "nextPhraseID":"final_cave_k1_20_w",
-              "requires":[{ "requireType":"factionScoreEquals", "requireID":"final_cave_w", "value":1 }]
-			},
-			{ "text":"I take back my scroll of earth.",
-			  "nextPhraseID":"final_cave_k1_20_e",
-              "requires":[{ "requireType":"factionScoreEquals", "requireID":"final_cave_e", "value":1 }]
-			},
-			{ "text":"I take back my scroll of wind.",
-			  "nextPhraseID":"final_cave_k1_20_a",
-              "requires":[{ "requireType":"factionScoreEquals", "requireID":"final_cave_a", "value":1 }]
-			},
-			{ "text":"I let it be.",
-			  "nextPhraseID":"X"
-			}
-		]
+            {
+                "text":"I take back my scroll of fire.",
+                "nextPhraseID":"final_cave_k1_20_f",
+                "requires":[
+                    {
+                        "requireType":"factionScoreEquals",
+                        "requireID":"final_cave_f",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"I take back my scroll of water.",
+                "nextPhraseID":"final_cave_k1_20_w",
+                "requires":[
+                    {
+                        "requireType":"factionScoreEquals",
+                        "requireID":"final_cave_w",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"I take back my scroll of earth.",
+                "nextPhraseID":"final_cave_k1_20_e",
+                "requires":[
+                    {
+                        "requireType":"factionScoreEquals",
+                        "requireID":"final_cave_e",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"I take back my scroll of wind.",
+                "nextPhraseID":"final_cave_k1_20_a",
+                "requires":[
+                    {
+                        "requireType":"factionScoreEquals",
+                        "requireID":"final_cave_a",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"I let it be.",
+                "nextPhraseID":"X"
+            }
+        ]
     },
     {
         "id":"final_cave_k1_20_f",
-        "replies":[{ "nextPhraseID":"final_cave_kx" }],
-        "rewards":[{ "rewardType":"removeQuestProgress", "rewardID":"final_cave", "value":1 },
-				   { "rewardType":"giveItem", "rewardID":"final_cave_f", "value":1 },
-				   { "rewardType":"alignmentSet", "rewardID":"final_cave_f", "value":0 }]
+        "replies":[
+            {
+                "nextPhraseID":"final_cave_kx"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"final_cave",
+                "value":1
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"final_cave_f",
+                "value":1
+            },
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"final_cave_f",
+                "value":0
+            }
+        ]
     },
     {
         "id":"final_cave_k1_20_w",
-        "replies":[{ "nextPhraseID":"final_cave_kx" }],
-        "rewards":[{ "rewardType":"removeQuestProgress", "rewardID":"final_cave", "value":1 },
-				   { "rewardType":"giveItem", "rewardID":"final_cave_w", "value":1 },
-				   { "rewardType":"alignmentSet", "rewardID":"final_cave_w", "value":0 }]
+        "replies":[
+            {
+                "nextPhraseID":"final_cave_kx"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"final_cave",
+                "value":1
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"final_cave_w",
+                "value":1
+            },
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"final_cave_w",
+                "value":0
+            }
+        ]
     },
     {
         "id":"final_cave_k1_20_e",
-        "replies":[{ "nextPhraseID":"final_cave_kx" }],
-        "rewards":[{ "rewardType":"removeQuestProgress", "rewardID":"final_cave", "value":1 },
-				   { "rewardType":"giveItem", "rewardID":"final_cave_e", "value":1 },
-				   { "rewardType":"alignmentSet", "rewardID":"final_cave_e", "value":0 }]
+        "replies":[
+            {
+                "nextPhraseID":"final_cave_kx"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"final_cave",
+                "value":1
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"final_cave_e",
+                "value":1
+            },
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"final_cave_e",
+                "value":0
+            }
+        ]
     },
     {
         "id":"final_cave_k1_20_a",
-        "replies":[{ "nextPhraseID":"final_cave_kx" }],
-        "rewards":[{ "rewardType":"removeQuestProgress", "rewardID":"final_cave", "value":1 },
-				   { "rewardType":"giveItem", "rewardID":"final_cave_a", "value":1 },
-				   { "rewardType":"alignmentSet", "rewardID":"final_cave_a", "value":0 }]
+        "replies":[
+            {
+                "nextPhraseID":"final_cave_kx"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"final_cave",
+                "value":1
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"final_cave_a",
+                "value":1
+            },
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"final_cave_a",
+                "value":0
+            }
+        ]
     },
-
-
-
-{
-"id":"final_cave_k2",
-"replies":[
-{ "nextPhraseID":"final_cave_k2_20",
-"requires":[{ "requireType":"questProgress", "requireID":"final_cave", "value":2 }]
-},
-{ "nextPhraseID":"final_cave_k2_10"
-}
-]
-},
-{
-"id":"final_cave_k2_10",
-"message":"What do you want to put here?",
-"replies":[
-{ "text":"The red globe",
-"nextPhraseID":"final_cave_k2_10_r",
-"requires":[{ "requireType":"inventoryRemove", "requireID":"final_cave_r", "value":1 }]
-},
-{ "text":"The green globe",
-"nextPhraseID":"final_cave_k2_10_g",
-"requires":[{ "requireType":"inventoryRemove", "requireID":"final_cave_g", "value":1 }]
-},
-{ "text":"The blue globe",
-"nextPhraseID":"final_cave_k2_10_b",
-"requires":[{ "requireType":"inventoryRemove", "requireID":"final_cave_b", "value":1 }]
-},
-{ "text":"Nothing",
-"nextPhraseID":"X"
-}
-]
-},
-{
-"id":"final_cave_k2_10_r",
-"replies":[{ "nextPhraseID":"final_cave_kx" }],
-"rewards":[{ "rewardType":"questProgress", "rewardID":"final_cave", "value":2 },
-{ "rewardType":"alignmentSet", "rewardID":"final_cave_r", "value":2 }]
-},
-{
-"id":"final_cave_k2_10_g",
-"replies":[{ "nextPhraseID":"final_cave_kx" }],
-"rewards":[{ "rewardType":"questProgress", "rewardID":"final_cave", "value":2 },
-{ "rewardType":"alignmentSet", "rewardID":"final_cave_g", "value":2 }]
-},
-{
-"id":"final_cave_k2_10_b",
-"replies":[{ "nextPhraseID":"final_cave_kx" }],
-"rewards":[{ "rewardType":"questProgress", "rewardID":"final_cave", "value":2 },
-{ "rewardType":"alignmentSet", "rewardID":"final_cave_b", "value":2 }]
-},
-{
-"id":"final_cave_k2_20",
-"message":"The globe still hovers over the table.",
-"replies":[
-{ "text":"I take back my red globe.",
-"nextPhraseID":"final_cave_k2_20_r",
-"requires":[{ "requireType":"factionScoreEquals", "requireID":"final_cave_r", "value":2 }]
-},
-{ "text":"I take back my green globe.",
-"nextPhraseID":"final_cave_k2_20_g",
-"requires":[{ "requireType":"factionScoreEquals", "requireID":"final_cave_g", "value":2 }]
-},
-{ "text":"I take back my blue globe.",
-"nextPhraseID":"final_cave_k2_20_b",
-"requires":[{ "requireType":"factionScoreEquals", "requireID":"final_cave_b", "value":2 }]
-},
-{ "text":"I let it be.",
-"nextPhraseID":"X"
-}
-]
-},
-{
-"id":"final_cave_k2_20_r",
-"replies":[{ "nextPhraseID":"final_cave_kx" }],
-"rewards":[{ "rewardType":"removeQuestProgress", "rewardID":"final_cave", "value":2 },
-{ "rewardType":"giveItem", "rewardID":"final_cave_r", "value":1 },
-{ "rewardType":"alignmentSet", "rewardID":"final_cave_r", "value":0 }]
-},
-{
-"id":"final_cave_k2_20_g",
-"replies":[{ "nextPhraseID":"final_cave_kx" }],
-"rewards":[{ "rewardType":"removeQuestProgress", "rewardID":"final_cave", "value":2 },
-{ "rewardType":"giveItem", "rewardID":"final_cave_g", "value":1 },
-{ "rewardType":"alignmentSet", "rewardID":"final_cave_g", "value":0 }]
-},
-{
-"id":"final_cave_k2_20_b",
-"replies":[{ "nextPhraseID":"final_cave_kx" }],
-"rewards":[{ "rewardType":"removeQuestProgress", "rewardID":"final_cave", "value":2 },
-{ "rewardType":"giveItem", "rewardID":"final_cave_b", "value":1 },
-{ "rewardType":"alignmentSet", "rewardID":"final_cave_b", "value":0 }]
-},
-
-
-
-{
-"id":"final_cave_k3",
-"replies":[
-{ "nextPhraseID":"final_cave_k3_20",
-"requires":[{ "requireType":"questProgress", "requireID":"final_cave", "value":3 }]
-},
-{ "nextPhraseID":"final_cave_k3_10"
-}
-]
-},
-{
-"id":"final_cave_k3_10",
-"message":"Which elemental scroll do you want to put here?",
-"replies":[
-{ "text":"The scroll of fire",
-"nextPhraseID":"final_cave_k3_10_f",
-"requires":[{ "requireType":"inventoryRemove", "requireID":"final_cave_f", "value":1 }]
-},
-{ "text":"The scroll of water",
-"nextPhraseID":"final_cave_k3_10_w",
-"requires":[{ "requireType":"inventoryRemove", "requireID":"final_cave_w", "value":1 }]
-},
-{ "text":"The scroll of earth",
-"nextPhraseID":"final_cave_k3_10_e",
-"requires":[{ "requireType":"inventoryRemove", "requireID":"final_cave_e", "value":1 }]
-},
-{ "text":"The scroll of wind",
-"nextPhraseID":"final_cave_k3_10_a",
-"requires":[{ "requireType":"inventoryRemove", "requireID":"final_cave_a", "value":1 }]
-},
-{ "text":"None",
-"nextPhraseID":"X"
-}
-]
-},
-{
-"id":"final_cave_k3_10_f",
-"replies":[{ "nextPhraseID":"final_cave_kx" }],
-"rewards":[{ "rewardType":"questProgress", "rewardID":"final_cave", "value":3 },
-{ "rewardType":"alignmentSet", "rewardID":"final_cave_f", "value":3 }]
-},
-{
-"id":"final_cave_k3_10_w",
-"replies":[{ "nextPhraseID":"final_cave_kx" }],
-"rewards":[{ "rewardType":"questProgress", "rewardID":"final_cave", "value":3 },
-{ "rewardType":"alignmentSet", "rewardID":"final_cave_w", "value":3 }]
-},
-{
-"id":"final_cave_k3_10_e",
-"replies":[{ "nextPhraseID":"final_cave_kx" }],
-"rewards":[{ "rewardType":"questProgress", "rewardID":"final_cave", "value":3 },
-{ "rewardType":"alignmentSet", "rewardID":"final_cave_e", "value":3 }]
-},
-{
-"id":"final_cave_k3_10_a",
-"replies":[{ "nextPhraseID":"final_cave_kx" }],
-"rewards":[{ "rewardType":"questProgress", "rewardID":"final_cave", "value":3 },
-{ "rewardType":"alignmentSet", "rewardID":"final_cave_a", "value":3 }]
-},
-{
-"id":"final_cave_k3_20",
-"message":"The scroll still lies on the table.",
-"replies":[
-{ "text":"I take back my scroll of fire.",
-"nextPhraseID":"final_cave_k3_20_f",
-"requires":[{ "requireType":"factionScoreEquals", "requireID":"final_cave_f", "value":3 }]
-},
-{ "text":"I take back my scroll of water.",
-"nextPhraseID":"final_cave_k3_20_w",
-"requires":[{ "requireType":"factionScoreEquals", "requireID":"final_cave_w", "value":3 }]
-},
-{ "text":"I take back my scroll of earth.",
-"nextPhraseID":"final_cave_k3_20_e",
-"requires":[{ "requireType":"factionScoreEquals", "requireID":"final_cave_e", "value":3 }]
-},
-{ "text":"I take back my scroll of wind.",
-"nextPhraseID":"final_cave_k3_20_a",
-"requires":[{ "requireType":"factionScoreEquals", "requireID":"final_cave_a", "value":3 }]
-},
-{ "text":"I let it be.",
-"nextPhraseID":"X"
-}
-]
-},
-{
-"id":"final_cave_k3_20_f",
-"replies":[{ "nextPhraseID":"final_cave_kx" }],
-"rewards":[{ "rewardType":"removeQuestProgress", "rewardID":"final_cave", "value":3 },
-{ "rewardType":"giveItem", "rewardID":"final_cave_f", "value":1 },
-{ "rewardType":"alignmentSet", "rewardID":"final_cave_f", "value":0 }]
-},
-{
-"id":"final_cave_k3_20_w",
-"replies":[{ "nextPhraseID":"final_cave_kx" }],
-"rewards":[{ "rewardType":"removeQuestProgress", "rewardID":"final_cave", "value":3 },
-{ "rewardType":"giveItem", "rewardID":"final_cave_w", "value":1 },
-{ "rewardType":"alignmentSet", "rewardID":"final_cave_w", "value":0 }]
-},
-{
-"id":"final_cave_k3_20_e",
-"replies":[{ "nextPhraseID":"final_cave_kx" }],
-"rewards":[{ "rewardType":"removeQuestProgress", "rewardID":"final_cave", "value":3 },
-{ "rewardType":"giveItem", "rewardID":"final_cave_e", "value":1 },
-{ "rewardType":"alignmentSet", "rewardID":"final_cave_e", "value":0 }]
-},
-{
-"id":"final_cave_k3_20_a",
-"replies":[{ "nextPhraseID":"final_cave_kx" }],
-"rewards":[{ "rewardType":"removeQuestProgress", "rewardID":"final_cave", "value":3 },
-{ "rewardType":"giveItem", "rewardID":"final_cave_a", "value":1 },
-{ "rewardType":"alignmentSet", "rewardID":"final_cave_a", "value":0 }]
-},
-
-
-{
-"id":"final_cave_k4",
-"replies":[
-{ "nextPhraseID":"final_cave_k4_20",
-"requires":[{ "requireType":"questProgress", "requireID":"final_cave", "value":4 }]
-},
-{ "nextPhraseID":"final_cave_k4_10"
-}
-]
-},
-{
-"id":"final_cave_k4_10",
-"message":"What do you want to put here?",
-"replies":[
-{ "text":"The red globe",
-"nextPhraseID":"final_cave_k4_10_r",
-"requires":[{ "requireType":"inventoryRemove", "requireID":"final_cave_r", "value":1 }]
-},
-{ "text":"The green globe",
-"nextPhraseID":"final_cave_k4_10_g",
-"requires":[{ "requireType":"inventoryRemove", "requireID":"final_cave_g", "value":1 }]
-},
-{ "text":"The blue globe",
-"nextPhraseID":"final_cave_k4_10_b",
-"requires":[{ "requireType":"inventoryRemove", "requireID":"final_cave_b", "value":1 }]
-},
-{ "text":"Nothing",
-"nextPhraseID":"X"
-}
-]
-},
-{
-"id":"final_cave_k4_10_r",
-"replies":[{ "nextPhraseID":"final_cave_kx" }],
-"rewards":[{ "rewardType":"questProgress", "rewardID":"final_cave", "value":4 },
-{ "rewardType":"alignmentSet", "rewardID":"final_cave_r", "value":4 }]
-},
-{
-"id":"final_cave_k4_10_g",
-"replies":[{ "nextPhraseID":"final_cave_kx" }],
-"rewards":[{ "rewardType":"questProgress", "rewardID":"final_cave", "value":4 },
-{ "rewardType":"alignmentSet", "rewardID":"final_cave_g", "value":4 }]
-},
-{
-"id":"final_cave_k4_10_b",
-"replies":[{ "nextPhraseID":"final_cave_kx" }],
-"rewards":[{ "rewardType":"questProgress", "rewardID":"final_cave", "value":4 },
-{ "rewardType":"alignmentSet", "rewardID":"final_cave_b", "value":4 }]
-},
-{
-"id":"final_cave_k4_20",
-"message":"The globe still hovers over the table.",
-"replies":[
-{ "text":"I take back my red globe.",
-"nextPhraseID":"final_cave_k4_20_r",
-"requires":[{ "requireType":"factionScoreEquals", "requireID":"final_cave_r", "value":4 }]
-},
-{ "text":"I take back my green globe.",
-"nextPhraseID":"final_cave_k4_20_g",
-"requires":[{ "requireType":"factionScoreEquals", "requireID":"final_cave_g", "value":4 }]
-},
-{ "text":"I take back my blue globe.",
-"nextPhraseID":"final_cave_k4_20_b",
-"requires":[{ "requireType":"factionScoreEquals", "requireID":"final_cave_b", "value":4 }]
-},
-{ "text":"I let it be.",
-"nextPhraseID":"X"
-}
-]
-},
-{
-"id":"final_cave_k4_20_r",
-"replies":[{ "nextPhraseID":"final_cave_kx" }],
-"rewards":[{ "rewardType":"removeQuestProgress", "rewardID":"final_cave", "value":4 },
-{ "rewardType":"giveItem", "rewardID":"final_cave_r", "value":1 },
-{ "rewardType":"alignmentSet", "rewardID":"final_cave_r", "value":0 }]
-},
-{
-"id":"final_cave_k4_20_g",
-"replies":[{ "nextPhraseID":"final_cave_kx" }],
-"rewards":[{ "rewardType":"removeQuestProgress", "rewardID":"final_cave", "value":4 },
-{ "rewardType":"giveItem", "rewardID":"final_cave_g", "value":1 },
-{ "rewardType":"alignmentSet", "rewardID":"final_cave_g", "value":0 }]
-},
-{
-"id":"final_cave_k4_20_b",
-"replies":[{ "nextPhraseID":"final_cave_kx" }],
-"rewards":[{ "rewardType":"removeQuestProgress", "rewardID":"final_cave", "value":4 },
-{ "rewardType":"giveItem", "rewardID":"final_cave_b", "value":1 },
-{ "rewardType":"alignmentSet", "rewardID":"final_cave_b", "value":0 }]
-},
-
-
-
-{
-"id":"final_cave_k5",
-"replies":[
-{ "nextPhraseID":"final_cave_k5_20",
-"requires":[{ "requireType":"questProgress", "requireID":"final_cave", "value":5 }]
-},
-{ "nextPhraseID":"final_cave_k5_10"
-}
-]
-},
-{
-"id":"final_cave_k5_10",
-"message":"Which elemental scroll do you want to put here?",
-"replies":[
-{ "text":"The scroll of fire",
-"nextPhraseID":"final_cave_k5_10_f",
-"requires":[{ "requireType":"inventoryRemove", "requireID":"final_cave_f", "value":1 }]
-},
-{ "text":"The scroll of water",
-"nextPhraseID":"final_cave_k5_10_w",
-"requires":[{ "requireType":"inventoryRemove", "requireID":"final_cave_w", "value":1 }]
-},
-{ "text":"The scroll of earth",
-"nextPhraseID":"final_cave_k5_10_e",
-"requires":[{ "requireType":"inventoryRemove", "requireID":"final_cave_e", "value":1 }]
-},
-{ "text":"The scroll of wind",
-"nextPhraseID":"final_cave_k5_10_a",
-"requires":[{ "requireType":"inventoryRemove", "requireID":"final_cave_a", "value":1 }]
-},
-{ "text":"None",
-"nextPhraseID":"X"
-}
-]
-},
-{
-"id":"final_cave_k5_10_f",
-"replies":[{ "nextPhraseID":"final_cave_kx" }],
-"rewards":[{ "rewardType":"questProgress", "rewardID":"final_cave", "value":5 },
-{ "rewardType":"alignmentSet", "rewardID":"final_cave_f", "value":5 }]
-},
-{
-"id":"final_cave_k5_10_w",
-"replies":[{ "nextPhraseID":"final_cave_kx" }],
-"rewards":[{ "rewardType":"questProgress", "rewardID":"final_cave", "value":5 },
-{ "rewardType":"alignmentSet", "rewardID":"final_cave_w", "value":5 }]
-},
-{
-"id":"final_cave_k5_10_e",
-"replies":[{ "nextPhraseID":"final_cave_kx" }],
-"rewards":[{ "rewardType":"questProgress", "rewardID":"final_cave", "value":5 },
-{ "rewardType":"alignmentSet", "rewardID":"final_cave_e", "value":5 }]
-},
-{
-"id":"final_cave_k5_10_a",
-"replies":[{ "nextPhraseID":"final_cave_kx" }],
-"rewards":[{ "rewardType":"questProgress", "rewardID":"final_cave", "value":5 },
-{ "rewardType":"alignmentSet", "rewardID":"final_cave_a", "value":5 }]
-},
-{
-"id":"final_cave_k5_20",
-"message":"The scroll still lies on the table.",
-"replies":[
-{ "text":"I take back my scroll of fire.",
-"nextPhraseID":"final_cave_k5_20_f",
-"requires":[{ "requireType":"factionScoreEquals", "requireID":"final_cave_f", "value":5 }]
-},
-{ "text":"I take back my scroll of water.",
-"nextPhraseID":"final_cave_k5_20_w",
-"requires":[{ "requireType":"factionScoreEquals", "requireID":"final_cave_w", "value":5 }]
-},
-{ "text":"I take back my scroll of earth.",
-"nextPhraseID":"final_cave_k5_20_e",
-"requires":[{ "requireType":"factionScoreEquals", "requireID":"final_cave_e", "value":5 }]
-},
-{ "text":"I take back my scroll of wind.",
-"nextPhraseID":"final_cave_k5_20_a",
-"requires":[{ "requireType":"factionScoreEquals", "requireID":"final_cave_a", "value":5 }]
-},
-{ "text":"I let it be.",
-"nextPhraseID":"X"
-}
-]
-},
-{
-"id":"final_cave_k5_20_f",
-"replies":[{ "nextPhraseID":"final_cave_kx" }],
-"rewards":[{ "rewardType":"removeQuestProgress", "rewardID":"final_cave", "value":5 },
-{ "rewardType":"giveItem", "rewardID":"final_cave_f", "value":1 },
-{ "rewardType":"alignmentSet", "rewardID":"final_cave_f", "value":0 }]
-},
-{
-"id":"final_cave_k5_20_w",
-"replies":[{ "nextPhraseID":"final_cave_kx" }],
-"rewards":[{ "rewardType":"removeQuestProgress", "rewardID":"final_cave", "value":5 },
-{ "rewardType":"giveItem", "rewardID":"final_cave_w", "value":1 },
-{ "rewardType":"alignmentSet", "rewardID":"final_cave_w", "value":0 }]
-},
-{
-"id":"final_cave_k5_20_e",
-"replies":[{ "nextPhraseID":"final_cave_kx" }],
-"rewards":[{ "rewardType":"removeQuestProgress", "rewardID":"final_cave", "value":5 },
-{ "rewardType":"giveItem", "rewardID":"final_cave_e", "value":1 },
-{ "rewardType":"alignmentSet", "rewardID":"final_cave_e", "value":0 }]
-},
-{
-"id":"final_cave_k5_20_a",
-"replies":[{ "nextPhraseID":"final_cave_kx" }],
-"rewards":[{ "rewardType":"removeQuestProgress", "rewardID":"final_cave", "value":5 },
-{ "rewardType":"giveItem", "rewardID":"final_cave_a", "value":1 },
-{ "rewardType":"alignmentSet", "rewardID":"final_cave_a", "value":0 }]
-},
-
-
-{
-"id":"final_cave_k6",
-"replies":[
-{ "nextPhraseID":"final_cave_k6_20",
-"requires":[{ "requireType":"questProgress", "requireID":"final_cave", "value":6 }]
-},
-{ "nextPhraseID":"final_cave_k6_10"
-}
-]
-},
-{
-"id":"final_cave_k6_10",
-"message":"What do you want to put here?",
-"replies":[
-{ "text":"The red globe",
-"nextPhraseID":"final_cave_k6_10_r",
-"requires":[{ "requireType":"inventoryRemove", "requireID":"final_cave_r", "value":1 }]
-},
-{ "text":"The green globe",
-"nextPhraseID":"final_cave_k6_10_g",
-"requires":[{ "requireType":"inventoryRemove", "requireID":"final_cave_g", "value":1 }]
-},
-{ "text":"The blue globe",
-"nextPhraseID":"final_cave_k6_10_b",
-"requires":[{ "requireType":"inventoryRemove", "requireID":"final_cave_b", "value":1 }]
-},
-{ "text":"Nothing",
-"nextPhraseID":"X"
-}
-]
-},
-{
-"id":"final_cave_k6_10_r",
-"replies":[{ "nextPhraseID":"final_cave_kx" }],
-"rewards":[{ "rewardType":"questProgress", "rewardID":"final_cave", "value":6 },
-{ "rewardType":"alignmentSet", "rewardID":"final_cave_r", "value":6 }]
-},
-{
-"id":"final_cave_k6_10_g",
-"replies":[{ "nextPhraseID":"final_cave_kx" }],
-"rewards":[{ "rewardType":"questProgress", "rewardID":"final_cave", "value":6 },
-{ "rewardType":"alignmentSet", "rewardID":"final_cave_g", "value":6 }]
-},
-{
-"id":"final_cave_k6_10_b",
-"replies":[{ "nextPhraseID":"final_cave_kx" }],
-"rewards":[{ "rewardType":"questProgress", "rewardID":"final_cave", "value":6 },
-{ "rewardType":"alignmentSet", "rewardID":"final_cave_b", "value":6 }]
-},
-{
-"id":"final_cave_k6_20",
-"message":"The globe still hovers over the table.",
-"replies":[
-{ "text":"I take back my red globe.",
-"nextPhraseID":"final_cave_k6_20_r",
-"requires":[{ "requireType":"factionScoreEquals", "requireID":"final_cave_r", "value":6 }]
-},
-{ "text":"I take back my green globe.",
-"nextPhraseID":"final_cave_k6_20_g",
-"requires":[{ "requireType":"factionScoreEquals", "requireID":"final_cave_g", "value":6 }]
-},
-{ "text":"I take back my blue globe.",
-"nextPhraseID":"final_cave_k6_20_b",
-"requires":[{ "requireType":"factionScoreEquals", "requireID":"final_cave_b", "value":6 }]
-},
-{ "text":"I let it be.",
-"nextPhraseID":"X"
-}
-]
-},
-{
-"id":"final_cave_k6_20_r",
-"replies":[{ "nextPhraseID":"final_cave_kx" }],
-"rewards":[{ "rewardType":"removeQuestProgress", "rewardID":"final_cave", "value":6 },
-{ "rewardType":"giveItem", "rewardID":"final_cave_r", "value":1 },
-{ "rewardType":"alignmentSet", "rewardID":"final_cave_r", "value":0 }]
-},
-{
-"id":"final_cave_k6_20_g",
-"replies":[{ "nextPhraseID":"final_cave_kx" }],
-"rewards":[{ "rewardType":"removeQuestProgress", "rewardID":"final_cave", "value":6 },
-{ "rewardType":"giveItem", "rewardID":"final_cave_g", "value":1 },
-{ "rewardType":"alignmentSet", "rewardID":"final_cave_g", "value":0 }]
-},
-{
-"id":"final_cave_k6_20_b",
-"replies":[{ "nextPhraseID":"final_cave_kx" }],
-"rewards":[{ "rewardType":"removeQuestProgress", "rewardID":"final_cave", "value":6 },
-{ "rewardType":"giveItem", "rewardID":"final_cave_b", "value":1 },
-{ "rewardType":"alignmentSet", "rewardID":"final_cave_b", "value":0 }]
-},
-
-
-
-{
-"id":"final_cave_k7",
-"replies":[
-{ "nextPhraseID":"final_cave_k7_20",
-"requires":[{ "requireType":"questProgress", "requireID":"final_cave", "value":7 }]
-},
-{ "nextPhraseID":"final_cave_k7_10"
-}
-]
-},
-{
-"id":"final_cave_k7_10",
-"message":"Which elemental scroll do you want to put here?",
-"replies":[
-{ "text":"The scroll of fire",
-"nextPhraseID":"final_cave_k7_10_f",
-"requires":[{ "requireType":"inventoryRemove", "requireID":"final_cave_f", "value":1 }]
-},
-{ "text":"The scroll of water",
-"nextPhraseID":"final_cave_k7_10_w",
-"requires":[{ "requireType":"inventoryRemove", "requireID":"final_cave_w", "value":1 }]
-},
-{ "text":"The scroll of earth",
-"nextPhraseID":"final_cave_k7_10_e",
-"requires":[{ "requireType":"inventoryRemove", "requireID":"final_cave_e", "value":1 }]
-},
-{ "text":"The scroll of wind",
-"nextPhraseID":"final_cave_k7_10_a",
-"requires":[{ "requireType":"inventoryRemove", "requireID":"final_cave_a", "value":1 }]
-},
-{ "text":"None",
-"nextPhraseID":"X"
-}
-]
-},
-{
-"id":"final_cave_k7_10_f",
-"replies":[{ "nextPhraseID":"final_cave_kx" }],
-"rewards":[{ "rewardType":"questProgress", "rewardID":"final_cave", "value":7 },
-{ "rewardType":"alignmentSet", "rewardID":"final_cave_f", "value":7 }]
-},
-{
-"id":"final_cave_k7_10_w",
-"replies":[{ "nextPhraseID":"final_cave_kx" }],
-"rewards":[{ "rewardType":"questProgress", "rewardID":"final_cave", "value":7 },
-{ "rewardType":"alignmentSet", "rewardID":"final_cave_w", "value":7 }]
-},
-{
-"id":"final_cave_k7_10_e",
-"replies":[{ "nextPhraseID":"final_cave_kx" }],
-"rewards":[{ "rewardType":"questProgress", "rewardID":"final_cave", "value":7 },
-{ "rewardType":"alignmentSet", "rewardID":"final_cave_e", "value":7 }]
-},
-{
-"id":"final_cave_k7_10_a",
-"replies":[{ "nextPhraseID":"final_cave_kx" }],
-"rewards":[{ "rewardType":"questProgress", "rewardID":"final_cave", "value":7 },
-{ "rewardType":"alignmentSet", "rewardID":"final_cave_a", "value":7 }]
-},
-{
-"id":"final_cave_k7_20",
-"message":"The scroll still lies on the table.",
-"replies":[
-{ "text":"I take back my scroll of fire.",
-"nextPhraseID":"final_cave_k7_20_f",
-"requires":[{ "requireType":"factionScoreEquals", "requireID":"final_cave_f", "value":7 }]
-},
-{ "text":"I take back my scroll of water.",
-"nextPhraseID":"final_cave_k7_20_w",
-"requires":[{ "requireType":"factionScoreEquals", "requireID":"final_cave_w", "value":7 }]
-},
-{ "text":"I take back my scroll of earth.",
-"nextPhraseID":"final_cave_k7_20_e",
-"requires":[{ "requireType":"factionScoreEquals", "requireID":"final_cave_e", "value":7 }]
-},
-{ "text":"I take back my scroll of wind.",
-"nextPhraseID":"final_cave_k7_20_a",
-"requires":[{ "requireType":"factionScoreEquals", "requireID":"final_cave_a", "value":7 }]
-},
-{ "text":"I let it be.",
-"nextPhraseID":"X"
-}
-]
-},
-{
-"id":"final_cave_k7_20_f",
-"replies":[{ "nextPhraseID":"final_cave_kx" }],
-"rewards":[{ "rewardType":"removeQuestProgress", "rewardID":"final_cave", "value":7 },
-{ "rewardType":"giveItem", "rewardID":"final_cave_f", "value":1 },
-{ "rewardType":"alignmentSet", "rewardID":"final_cave_f", "value":0 }]
-},
-{
-"id":"final_cave_k7_20_w",
-"replies":[{ "nextPhraseID":"final_cave_kx" }],
-"rewards":[{ "rewardType":"removeQuestProgress", "rewardID":"final_cave", "value":7 },
-{ "rewardType":"giveItem", "rewardID":"final_cave_w", "value":1 },
-{ "rewardType":"alignmentSet", "rewardID":"final_cave_w", "value":0 }]
-},
-{
-"id":"final_cave_k7_20_e",
-"replies":[{ "nextPhraseID":"final_cave_kx" }],
-"rewards":[{ "rewardType":"removeQuestProgress", "rewardID":"final_cave", "value":7 },
-{ "rewardType":"giveItem", "rewardID":"final_cave_e", "value":1 },
-{ "rewardType":"alignmentSet", "rewardID":"final_cave_e", "value":0 }]
-},
-{
-"id":"final_cave_k7_20_a",
-"replies":[{ "nextPhraseID":"final_cave_kx" }],
-"rewards":[{ "rewardType":"removeQuestProgress", "rewardID":"final_cave", "value":7 },
-{ "rewardType":"giveItem", "rewardID":"final_cave_a", "value":1 },
-{ "rewardType":"alignmentSet", "rewardID":"final_cave_a", "value":0 }]
-},
-
-
-	
+    {
+        "id":"final_cave_k2",
+        "replies":[
+            {
+                "nextPhraseID":"final_cave_k2_20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"final_cave",
+                        "value":2
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"final_cave_k2_10"
+            }
+        ]
+    },
+    {
+        "id":"final_cave_k2_10",
+        "message":"What do you want to put here?",
+        "replies":[
+            {
+                "text":"The red globe",
+                "nextPhraseID":"final_cave_k2_10_r",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"final_cave_r",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"The green globe",
+                "nextPhraseID":"final_cave_k2_10_g",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"final_cave_g",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"The blue globe",
+                "nextPhraseID":"final_cave_k2_10_b",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"final_cave_b",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"Nothing",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"final_cave_k2_10_r",
+        "replies":[
+            {
+                "nextPhraseID":"final_cave_kx"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"final_cave",
+                "value":2
+            },
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"final_cave_r",
+                "value":2
+            }
+        ]
+    },
+    {
+        "id":"final_cave_k2_10_g",
+        "replies":[
+            {
+                "nextPhraseID":"final_cave_kx"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"final_cave",
+                "value":2
+            },
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"final_cave_g",
+                "value":2
+            }
+        ]
+    },
+    {
+        "id":"final_cave_k2_10_b",
+        "replies":[
+            {
+                "nextPhraseID":"final_cave_kx"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"final_cave",
+                "value":2
+            },
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"final_cave_b",
+                "value":2
+            }
+        ]
+    },
+    {
+        "id":"final_cave_k2_20",
+        "message":"The globe still hovers over the table.",
+        "replies":[
+            {
+                "text":"I take back my red globe.",
+                "nextPhraseID":"final_cave_k2_20_r",
+                "requires":[
+                    {
+                        "requireType":"factionScoreEquals",
+                        "requireID":"final_cave_r",
+                        "value":2
+                    }
+                ]
+            },
+            {
+                "text":"I take back my green globe.",
+                "nextPhraseID":"final_cave_k2_20_g",
+                "requires":[
+                    {
+                        "requireType":"factionScoreEquals",
+                        "requireID":"final_cave_g",
+                        "value":2
+                    }
+                ]
+            },
+            {
+                "text":"I take back my blue globe.",
+                "nextPhraseID":"final_cave_k2_20_b",
+                "requires":[
+                    {
+                        "requireType":"factionScoreEquals",
+                        "requireID":"final_cave_b",
+                        "value":2
+                    }
+                ]
+            },
+            {
+                "text":"I let it be.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"final_cave_k2_20_r",
+        "replies":[
+            {
+                "nextPhraseID":"final_cave_kx"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"final_cave",
+                "value":2
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"final_cave_r",
+                "value":1
+            },
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"final_cave_r",
+                "value":0
+            }
+        ]
+    },
+    {
+        "id":"final_cave_k2_20_g",
+        "replies":[
+            {
+                "nextPhraseID":"final_cave_kx"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"final_cave",
+                "value":2
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"final_cave_g",
+                "value":1
+            },
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"final_cave_g",
+                "value":0
+            }
+        ]
+    },
+    {
+        "id":"final_cave_k2_20_b",
+        "replies":[
+            {
+                "nextPhraseID":"final_cave_kx"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"final_cave",
+                "value":2
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"final_cave_b",
+                "value":1
+            },
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"final_cave_b",
+                "value":0
+            }
+        ]
+    },
+    {
+        "id":"final_cave_k3",
+        "replies":[
+            {
+                "nextPhraseID":"final_cave_k3_20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"final_cave",
+                        "value":3
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"final_cave_k3_10"
+            }
+        ]
+    },
+    {
+        "id":"final_cave_k3_10",
+        "message":"Which elemental scroll do you want to put here?",
+        "replies":[
+            {
+                "text":"The scroll of fire",
+                "nextPhraseID":"final_cave_k3_10_f",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"final_cave_f",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"The scroll of water",
+                "nextPhraseID":"final_cave_k3_10_w",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"final_cave_w",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"The scroll of earth",
+                "nextPhraseID":"final_cave_k3_10_e",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"final_cave_e",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"The scroll of wind",
+                "nextPhraseID":"final_cave_k3_10_a",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"final_cave_a",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"None",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"final_cave_k3_10_f",
+        "replies":[
+            {
+                "nextPhraseID":"final_cave_kx"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"final_cave",
+                "value":3
+            },
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"final_cave_f",
+                "value":3
+            }
+        ]
+    },
+    {
+        "id":"final_cave_k3_10_w",
+        "replies":[
+            {
+                "nextPhraseID":"final_cave_kx"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"final_cave",
+                "value":3
+            },
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"final_cave_w",
+                "value":3
+            }
+        ]
+    },
+    {
+        "id":"final_cave_k3_10_e",
+        "replies":[
+            {
+                "nextPhraseID":"final_cave_kx"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"final_cave",
+                "value":3
+            },
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"final_cave_e",
+                "value":3
+            }
+        ]
+    },
+    {
+        "id":"final_cave_k3_10_a",
+        "replies":[
+            {
+                "nextPhraseID":"final_cave_kx"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"final_cave",
+                "value":3
+            },
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"final_cave_a",
+                "value":3
+            }
+        ]
+    },
+    {
+        "id":"final_cave_k3_20",
+        "message":"The scroll still lies on the table.",
+        "replies":[
+            {
+                "text":"I take back my scroll of fire.",
+                "nextPhraseID":"final_cave_k3_20_f",
+                "requires":[
+                    {
+                        "requireType":"factionScoreEquals",
+                        "requireID":"final_cave_f",
+                        "value":3
+                    }
+                ]
+            },
+            {
+                "text":"I take back my scroll of water.",
+                "nextPhraseID":"final_cave_k3_20_w",
+                "requires":[
+                    {
+                        "requireType":"factionScoreEquals",
+                        "requireID":"final_cave_w",
+                        "value":3
+                    }
+                ]
+            },
+            {
+                "text":"I take back my scroll of earth.",
+                "nextPhraseID":"final_cave_k3_20_e",
+                "requires":[
+                    {
+                        "requireType":"factionScoreEquals",
+                        "requireID":"final_cave_e",
+                        "value":3
+                    }
+                ]
+            },
+            {
+                "text":"I take back my scroll of wind.",
+                "nextPhraseID":"final_cave_k3_20_a",
+                "requires":[
+                    {
+                        "requireType":"factionScoreEquals",
+                        "requireID":"final_cave_a",
+                        "value":3
+                    }
+                ]
+            },
+            {
+                "text":"I let it be.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"final_cave_k3_20_f",
+        "replies":[
+            {
+                "nextPhraseID":"final_cave_kx"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"final_cave",
+                "value":3
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"final_cave_f",
+                "value":1
+            },
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"final_cave_f",
+                "value":0
+            }
+        ]
+    },
+    {
+        "id":"final_cave_k3_20_w",
+        "replies":[
+            {
+                "nextPhraseID":"final_cave_kx"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"final_cave",
+                "value":3
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"final_cave_w",
+                "value":1
+            },
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"final_cave_w",
+                "value":0
+            }
+        ]
+    },
+    {
+        "id":"final_cave_k3_20_e",
+        "replies":[
+            {
+                "nextPhraseID":"final_cave_kx"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"final_cave",
+                "value":3
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"final_cave_e",
+                "value":1
+            },
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"final_cave_e",
+                "value":0
+            }
+        ]
+    },
+    {
+        "id":"final_cave_k3_20_a",
+        "replies":[
+            {
+                "nextPhraseID":"final_cave_kx"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"final_cave",
+                "value":3
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"final_cave_a",
+                "value":1
+            },
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"final_cave_a",
+                "value":0
+            }
+        ]
+    },
+    {
+        "id":"final_cave_k4",
+        "replies":[
+            {
+                "nextPhraseID":"final_cave_k4_20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"final_cave",
+                        "value":4
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"final_cave_k4_10"
+            }
+        ]
+    },
+    {
+        "id":"final_cave_k4_10",
+        "message":"What do you want to put here?",
+        "replies":[
+            {
+                "text":"The red globe",
+                "nextPhraseID":"final_cave_k4_10_r",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"final_cave_r",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"The green globe",
+                "nextPhraseID":"final_cave_k4_10_g",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"final_cave_g",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"The blue globe",
+                "nextPhraseID":"final_cave_k4_10_b",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"final_cave_b",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"Nothing",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"final_cave_k4_10_r",
+        "replies":[
+            {
+                "nextPhraseID":"final_cave_kx"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"final_cave",
+                "value":4
+            },
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"final_cave_r",
+                "value":4
+            }
+        ]
+    },
+    {
+        "id":"final_cave_k4_10_g",
+        "replies":[
+            {
+                "nextPhraseID":"final_cave_kx"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"final_cave",
+                "value":4
+            },
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"final_cave_g",
+                "value":4
+            }
+        ]
+    },
+    {
+        "id":"final_cave_k4_10_b",
+        "replies":[
+            {
+                "nextPhraseID":"final_cave_kx"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"final_cave",
+                "value":4
+            },
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"final_cave_b",
+                "value":4
+            }
+        ]
+    },
+    {
+        "id":"final_cave_k4_20",
+        "message":"The globe still hovers over the table.",
+        "replies":[
+            {
+                "text":"I take back my red globe.",
+                "nextPhraseID":"final_cave_k4_20_r",
+                "requires":[
+                    {
+                        "requireType":"factionScoreEquals",
+                        "requireID":"final_cave_r",
+                        "value":4
+                    }
+                ]
+            },
+            {
+                "text":"I take back my green globe.",
+                "nextPhraseID":"final_cave_k4_20_g",
+                "requires":[
+                    {
+                        "requireType":"factionScoreEquals",
+                        "requireID":"final_cave_g",
+                        "value":4
+                    }
+                ]
+            },
+            {
+                "text":"I take back my blue globe.",
+                "nextPhraseID":"final_cave_k4_20_b",
+                "requires":[
+                    {
+                        "requireType":"factionScoreEquals",
+                        "requireID":"final_cave_b",
+                        "value":4
+                    }
+                ]
+            },
+            {
+                "text":"I let it be.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"final_cave_k4_20_r",
+        "replies":[
+            {
+                "nextPhraseID":"final_cave_kx"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"final_cave",
+                "value":4
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"final_cave_r",
+                "value":1
+            },
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"final_cave_r",
+                "value":0
+            }
+        ]
+    },
+    {
+        "id":"final_cave_k4_20_g",
+        "replies":[
+            {
+                "nextPhraseID":"final_cave_kx"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"final_cave",
+                "value":4
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"final_cave_g",
+                "value":1
+            },
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"final_cave_g",
+                "value":0
+            }
+        ]
+    },
+    {
+        "id":"final_cave_k4_20_b",
+        "replies":[
+            {
+                "nextPhraseID":"final_cave_kx"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"final_cave",
+                "value":4
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"final_cave_b",
+                "value":1
+            },
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"final_cave_b",
+                "value":0
+            }
+        ]
+    },
+    {
+        "id":"final_cave_k5",
+        "replies":[
+            {
+                "nextPhraseID":"final_cave_k5_20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"final_cave",
+                        "value":5
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"final_cave_k5_10"
+            }
+        ]
+    },
+    {
+        "id":"final_cave_k5_10",
+        "message":"Which elemental scroll do you want to put here?",
+        "replies":[
+            {
+                "text":"The scroll of fire",
+                "nextPhraseID":"final_cave_k5_10_f",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"final_cave_f",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"The scroll of water",
+                "nextPhraseID":"final_cave_k5_10_w",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"final_cave_w",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"The scroll of earth",
+                "nextPhraseID":"final_cave_k5_10_e",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"final_cave_e",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"The scroll of wind",
+                "nextPhraseID":"final_cave_k5_10_a",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"final_cave_a",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"None",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"final_cave_k5_10_f",
+        "replies":[
+            {
+                "nextPhraseID":"final_cave_kx"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"final_cave",
+                "value":5
+            },
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"final_cave_f",
+                "value":5
+            }
+        ]
+    },
+    {
+        "id":"final_cave_k5_10_w",
+        "replies":[
+            {
+                "nextPhraseID":"final_cave_kx"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"final_cave",
+                "value":5
+            },
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"final_cave_w",
+                "value":5
+            }
+        ]
+    },
+    {
+        "id":"final_cave_k5_10_e",
+        "replies":[
+            {
+                "nextPhraseID":"final_cave_kx"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"final_cave",
+                "value":5
+            },
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"final_cave_e",
+                "value":5
+            }
+        ]
+    },
+    {
+        "id":"final_cave_k5_10_a",
+        "replies":[
+            {
+                "nextPhraseID":"final_cave_kx"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"final_cave",
+                "value":5
+            },
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"final_cave_a",
+                "value":5
+            }
+        ]
+    },
+    {
+        "id":"final_cave_k5_20",
+        "message":"The scroll still lies on the table.",
+        "replies":[
+            {
+                "text":"I take back my scroll of fire.",
+                "nextPhraseID":"final_cave_k5_20_f",
+                "requires":[
+                    {
+                        "requireType":"factionScoreEquals",
+                        "requireID":"final_cave_f",
+                        "value":5
+                    }
+                ]
+            },
+            {
+                "text":"I take back my scroll of water.",
+                "nextPhraseID":"final_cave_k5_20_w",
+                "requires":[
+                    {
+                        "requireType":"factionScoreEquals",
+                        "requireID":"final_cave_w",
+                        "value":5
+                    }
+                ]
+            },
+            {
+                "text":"I take back my scroll of earth.",
+                "nextPhraseID":"final_cave_k5_20_e",
+                "requires":[
+                    {
+                        "requireType":"factionScoreEquals",
+                        "requireID":"final_cave_e",
+                        "value":5
+                    }
+                ]
+            },
+            {
+                "text":"I take back my scroll of wind.",
+                "nextPhraseID":"final_cave_k5_20_a",
+                "requires":[
+                    {
+                        "requireType":"factionScoreEquals",
+                        "requireID":"final_cave_a",
+                        "value":5
+                    }
+                ]
+            },
+            {
+                "text":"I let it be.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"final_cave_k5_20_f",
+        "replies":[
+            {
+                "nextPhraseID":"final_cave_kx"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"final_cave",
+                "value":5
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"final_cave_f",
+                "value":1
+            },
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"final_cave_f",
+                "value":0
+            }
+        ]
+    },
+    {
+        "id":"final_cave_k5_20_w",
+        "replies":[
+            {
+                "nextPhraseID":"final_cave_kx"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"final_cave",
+                "value":5
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"final_cave_w",
+                "value":1
+            },
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"final_cave_w",
+                "value":0
+            }
+        ]
+    },
+    {
+        "id":"final_cave_k5_20_e",
+        "replies":[
+            {
+                "nextPhraseID":"final_cave_kx"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"final_cave",
+                "value":5
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"final_cave_e",
+                "value":1
+            },
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"final_cave_e",
+                "value":0
+            }
+        ]
+    },
+    {
+        "id":"final_cave_k5_20_a",
+        "replies":[
+            {
+                "nextPhraseID":"final_cave_kx"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"final_cave",
+                "value":5
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"final_cave_a",
+                "value":1
+            },
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"final_cave_a",
+                "value":0
+            }
+        ]
+    },
+    {
+        "id":"final_cave_k6",
+        "replies":[
+            {
+                "nextPhraseID":"final_cave_k6_20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"final_cave",
+                        "value":6
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"final_cave_k6_10"
+            }
+        ]
+    },
+    {
+        "id":"final_cave_k6_10",
+        "message":"What do you want to put here?",
+        "replies":[
+            {
+                "text":"The red globe",
+                "nextPhraseID":"final_cave_k6_10_r",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"final_cave_r",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"The green globe",
+                "nextPhraseID":"final_cave_k6_10_g",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"final_cave_g",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"The blue globe",
+                "nextPhraseID":"final_cave_k6_10_b",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"final_cave_b",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"Nothing",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"final_cave_k6_10_r",
+        "replies":[
+            {
+                "nextPhraseID":"final_cave_kx"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"final_cave",
+                "value":6
+            },
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"final_cave_r",
+                "value":6
+            }
+        ]
+    },
+    {
+        "id":"final_cave_k6_10_g",
+        "replies":[
+            {
+                "nextPhraseID":"final_cave_kx"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"final_cave",
+                "value":6
+            },
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"final_cave_g",
+                "value":6
+            }
+        ]
+    },
+    {
+        "id":"final_cave_k6_10_b",
+        "replies":[
+            {
+                "nextPhraseID":"final_cave_kx"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"final_cave",
+                "value":6
+            },
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"final_cave_b",
+                "value":6
+            }
+        ]
+    },
+    {
+        "id":"final_cave_k6_20",
+        "message":"The globe still hovers over the table.",
+        "replies":[
+            {
+                "text":"I take back my red globe.",
+                "nextPhraseID":"final_cave_k6_20_r",
+                "requires":[
+                    {
+                        "requireType":"factionScoreEquals",
+                        "requireID":"final_cave_r",
+                        "value":6
+                    }
+                ]
+            },
+            {
+                "text":"I take back my green globe.",
+                "nextPhraseID":"final_cave_k6_20_g",
+                "requires":[
+                    {
+                        "requireType":"factionScoreEquals",
+                        "requireID":"final_cave_g",
+                        "value":6
+                    }
+                ]
+            },
+            {
+                "text":"I take back my blue globe.",
+                "nextPhraseID":"final_cave_k6_20_b",
+                "requires":[
+                    {
+                        "requireType":"factionScoreEquals",
+                        "requireID":"final_cave_b",
+                        "value":6
+                    }
+                ]
+            },
+            {
+                "text":"I let it be.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"final_cave_k6_20_r",
+        "replies":[
+            {
+                "nextPhraseID":"final_cave_kx"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"final_cave",
+                "value":6
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"final_cave_r",
+                "value":1
+            },
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"final_cave_r",
+                "value":0
+            }
+        ]
+    },
+    {
+        "id":"final_cave_k6_20_g",
+        "replies":[
+            {
+                "nextPhraseID":"final_cave_kx"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"final_cave",
+                "value":6
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"final_cave_g",
+                "value":1
+            },
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"final_cave_g",
+                "value":0
+            }
+        ]
+    },
+    {
+        "id":"final_cave_k6_20_b",
+        "replies":[
+            {
+                "nextPhraseID":"final_cave_kx"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"final_cave",
+                "value":6
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"final_cave_b",
+                "value":1
+            },
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"final_cave_b",
+                "value":0
+            }
+        ]
+    },
+    {
+        "id":"final_cave_k7",
+        "replies":[
+            {
+                "nextPhraseID":"final_cave_k7_20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"final_cave",
+                        "value":7
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"final_cave_k7_10"
+            }
+        ]
+    },
+    {
+        "id":"final_cave_k7_10",
+        "message":"Which elemental scroll do you want to put here?",
+        "replies":[
+            {
+                "text":"The scroll of fire",
+                "nextPhraseID":"final_cave_k7_10_f",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"final_cave_f",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"The scroll of water",
+                "nextPhraseID":"final_cave_k7_10_w",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"final_cave_w",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"The scroll of earth",
+                "nextPhraseID":"final_cave_k7_10_e",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"final_cave_e",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"The scroll of wind",
+                "nextPhraseID":"final_cave_k7_10_a",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"final_cave_a",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"None",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"final_cave_k7_10_f",
+        "replies":[
+            {
+                "nextPhraseID":"final_cave_kx"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"final_cave",
+                "value":7
+            },
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"final_cave_f",
+                "value":7
+            }
+        ]
+    },
+    {
+        "id":"final_cave_k7_10_w",
+        "replies":[
+            {
+                "nextPhraseID":"final_cave_kx"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"final_cave",
+                "value":7
+            },
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"final_cave_w",
+                "value":7
+            }
+        ]
+    },
+    {
+        "id":"final_cave_k7_10_e",
+        "replies":[
+            {
+                "nextPhraseID":"final_cave_kx"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"final_cave",
+                "value":7
+            },
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"final_cave_e",
+                "value":7
+            }
+        ]
+    },
+    {
+        "id":"final_cave_k7_10_a",
+        "replies":[
+            {
+                "nextPhraseID":"final_cave_kx"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"final_cave",
+                "value":7
+            },
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"final_cave_a",
+                "value":7
+            }
+        ]
+    },
+    {
+        "id":"final_cave_k7_20",
+        "message":"The scroll still lies on the table.",
+        "replies":[
+            {
+                "text":"I take back my scroll of fire.",
+                "nextPhraseID":"final_cave_k7_20_f",
+                "requires":[
+                    {
+                        "requireType":"factionScoreEquals",
+                        "requireID":"final_cave_f",
+                        "value":7
+                    }
+                ]
+            },
+            {
+                "text":"I take back my scroll of water.",
+                "nextPhraseID":"final_cave_k7_20_w",
+                "requires":[
+                    {
+                        "requireType":"factionScoreEquals",
+                        "requireID":"final_cave_w",
+                        "value":7
+                    }
+                ]
+            },
+            {
+                "text":"I take back my scroll of earth.",
+                "nextPhraseID":"final_cave_k7_20_e",
+                "requires":[
+                    {
+                        "requireType":"factionScoreEquals",
+                        "requireID":"final_cave_e",
+                        "value":7
+                    }
+                ]
+            },
+            {
+                "text":"I take back my scroll of wind.",
+                "nextPhraseID":"final_cave_k7_20_a",
+                "requires":[
+                    {
+                        "requireType":"factionScoreEquals",
+                        "requireID":"final_cave_a",
+                        "value":7
+                    }
+                ]
+            },
+            {
+                "text":"I let it be.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"final_cave_k7_20_f",
+        "replies":[
+            {
+                "nextPhraseID":"final_cave_kx"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"final_cave",
+                "value":7
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"final_cave_f",
+                "value":1
+            },
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"final_cave_f",
+                "value":0
+            }
+        ]
+    },
+    {
+        "id":"final_cave_k7_20_w",
+        "replies":[
+            {
+                "nextPhraseID":"final_cave_kx"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"final_cave",
+                "value":7
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"final_cave_w",
+                "value":1
+            },
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"final_cave_w",
+                "value":0
+            }
+        ]
+    },
+    {
+        "id":"final_cave_k7_20_e",
+        "replies":[
+            {
+                "nextPhraseID":"final_cave_kx"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"final_cave",
+                "value":7
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"final_cave_e",
+                "value":1
+            },
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"final_cave_e",
+                "value":0
+            }
+        ]
+    },
+    {
+        "id":"final_cave_k7_20_a",
+        "replies":[
+            {
+                "nextPhraseID":"final_cave_kx"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"final_cave",
+                "value":7
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"final_cave_a",
+                "value":1
+            },
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"final_cave_a",
+                "value":0
+            }
+        ]
+    },
     {
         "id":"final_cave_kx",
         "replies":[
-			{ "nextPhraseID":"final_cave_kx_open",
-              "requires":[{ "requireType":"questProgress", "requireID":"final_cave", "value":9, "negate":true },
-						  { "requireType":"factionScoreEquals", "requireID":"final_cave_e", "value":1 },
-						  { "requireType":"factionScoreEquals", "requireID":"final_cave_g", "value":2 },
-						  { "requireType":"factionScoreEquals", "requireID":"final_cave_f", "value":3 },
-						  { "requireType":"factionScoreEquals", "requireID":"final_cave_b", "value":4 },
-						  { "requireType":"factionScoreEquals", "requireID":"final_cave_a", "value":5 },
-						  { "requireType":"factionScoreEquals", "requireID":"final_cave_r", "value":6 },
-						  { "requireType":"factionScoreEquals", "requireID":"final_cave_w", "value":7 }]
-			},
-			{ "nextPhraseID":"X",
-              "requires":[{ "requireType":"questProgress", "requireID":"final_cave", "value":9 },
-						  { "requireType":"factionScoreEquals", "requireID":"final_cave_e", "value":1 },
-						  { "requireType":"factionScoreEquals", "requireID":"final_cave_g", "value":2 },
-						  { "requireType":"factionScoreEquals", "requireID":"final_cave_f", "value":3 },
-						  { "requireType":"factionScoreEquals", "requireID":"final_cave_b", "value":4 },
-						  { "requireType":"factionScoreEquals", "requireID":"final_cave_a", "value":5 },
-						  { "requireType":"factionScoreEquals", "requireID":"final_cave_r", "value":6 },
-						  { "requireType":"factionScoreEquals", "requireID":"final_cave_w", "value":7 }]
-			},
-			{ "nextPhraseID":"final_cave_kx_close",
-              "requires":[{ "requireType":"questProgress", "requireID":"final_cave", "value":9 }]
-			}
-		]
+            {
+                "nextPhraseID":"final_cave_kx_open",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"final_cave",
+                        "value":9,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"factionScoreEquals",
+                        "requireID":"final_cave_e",
+                        "value":1
+                    },
+                    {
+                        "requireType":"factionScoreEquals",
+                        "requireID":"final_cave_g",
+                        "value":2
+                    },
+                    {
+                        "requireType":"factionScoreEquals",
+                        "requireID":"final_cave_f",
+                        "value":3
+                    },
+                    {
+                        "requireType":"factionScoreEquals",
+                        "requireID":"final_cave_b",
+                        "value":4
+                    },
+                    {
+                        "requireType":"factionScoreEquals",
+                        "requireID":"final_cave_a",
+                        "value":5
+                    },
+                    {
+                        "requireType":"factionScoreEquals",
+                        "requireID":"final_cave_r",
+                        "value":6
+                    },
+                    {
+                        "requireType":"factionScoreEquals",
+                        "requireID":"final_cave_w",
+                        "value":7
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"final_cave",
+                        "value":9
+                    },
+                    {
+                        "requireType":"factionScoreEquals",
+                        "requireID":"final_cave_e",
+                        "value":1
+                    },
+                    {
+                        "requireType":"factionScoreEquals",
+                        "requireID":"final_cave_g",
+                        "value":2
+                    },
+                    {
+                        "requireType":"factionScoreEquals",
+                        "requireID":"final_cave_f",
+                        "value":3
+                    },
+                    {
+                        "requireType":"factionScoreEquals",
+                        "requireID":"final_cave_b",
+                        "value":4
+                    },
+                    {
+                        "requireType":"factionScoreEquals",
+                        "requireID":"final_cave_a",
+                        "value":5
+                    },
+                    {
+                        "requireType":"factionScoreEquals",
+                        "requireID":"final_cave_r",
+                        "value":6
+                    },
+                    {
+                        "requireType":"factionScoreEquals",
+                        "requireID":"final_cave_w",
+                        "value":7
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"final_cave_kx_close",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"final_cave",
+                        "value":9
+                    }
+                ]
+            }
+        ]
     },
     {
         "id":"final_cave_kx_open",
         "message":"A loud rumbling fills the air!",
-        "rewards":[{ "rewardType":"questProgress", "rewardID":"final_cave", "value":9 }]
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"final_cave",
+                "value":9
+            }
+        ]
     },
     {
         "id":"final_cave_kx_close",
         "message":"You hear a low but intense noise.\nWhat is happening now?",
-        "rewards":[{ "rewardType":"removeQuestProgress", "rewardID":"final_cave", "value":9 }]
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"final_cave",
+                "value":9
+            }
+        ]
     },
     {
         "id":"final_cave_s9",
-		"replies":[{ "nextPhraseID":"final_cave_s9_11" }],
-					 "requires":[{ "requireType":"questProgress", "requireID":"final_cave", "value":10 },
-				   { "nextPhraseID":"final_cave_s9_10" }],
-        "rewards":[{ "rewardType":"removeQuestProgress", "rewardID":"final_cave", "value":1 },
-				   { "rewardType":"alignmentSet", "rewardID":"final_cave_e", "value":0 }]
+        "replies":[
+            {
+                "nextPhraseID":"final_cave_s9_11"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"final_cave",
+                "value":1
+            },
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"final_cave_e",
+                "value":0
+            }
+        ]
     },
     {
         "id":"final_cave_s9_10",
-		"replies":[{ "nextPhraseID":"final_cave_kx" }],
-        "rewards":[{ "rewardType":"spawnAll", "rewardID":"lae_algangror2", "mapName":"final_cave1" }]
+        "replies":[
+            {
+                "nextPhraseID":"final_cave_kx"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"lae_algangror2",
+                "mapName":"final_cave1"
+            }
+        ]
     },
     {
         "id":"final_cave_s9_11",
-		"replies":[{ "nextPhraseID":"final_cave_kx" }],
-        "rewards":[{ "rewardType":"spawnAll", "rewardID":"lae_jhael2", "mapName":"final_cave1" }]
+        "replies":[
+            {
+                "nextPhraseID":"final_cave_kx"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"lae_jhael2",
+                "mapName":"final_cave1"
+            }
+        ]
     },
     {
         "id":"lae_andor",
@@ -6278,21 +7601,43 @@
     },
     {
         "id":"final_cave_andor1",
-		"replies":[{ "nextPhraseID":"final_cave_andor1_10" }],
-					 "requires":[{ "requireType":"questProgress", "requireID":"final_cave", "value":11, "negate":true },
-				   { "nextPhraseID":"final_cave_andor1_50" }],
-        "rewards":[{ "rewardType":"removeQuestProgress", "rewardID":"final_cave", "value":1 },
-				   { "rewardType":"alignmentSet", "rewardID":"final_cave_e", "value":0 }]
+        "replies":[
+            {
+                "nextPhraseID":"final_cave_andor1_10"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"final_cave",
+                "value":1
+            },
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"final_cave_e",
+                "value":0
+            }
+        ]
     },
     {
         "id":"final_cave_init",
-        "rewards":[{ "rewardType":"removeQuestProgress", "rewardID":"final_cave", "value":10 },
-				   { "rewardType":"spawnAll", "rewardID":"lae_algangror1", "mapName":"island4" }]
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"final_cave",
+                "value":10
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"lae_algangror1",
+                "mapName":"island4"
+            }
+        ]
     },
     {
         "id":"final_cave_andor1_10",
-		"switchToNPC":"lae_andor",
         "message":"Who is there? Declare yourself!",
+        "switchToNPC":"lae_andor",
         "replies":[
             {
                 "text":"I know that voice ... Andor, is it really you?",
@@ -6319,7 +7664,13 @@
                 "nextPhraseID":"final_cave_andor1_50"
             }
         ],
-        "rewards":[{ "rewardType":"questProgress", "rewardID":"final_cave", "value":11 }]
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"final_cave",
+                "value":11
+            }
+        ]
     },
     {
         "id":"final_cave_andor1_50",
@@ -6396,7 +7747,11 @@
     },
     {
         "id":"lae_jhaeld1",
-		"replies":[{ "nextPhraseID":"lae_algangror1" }]
+        "replies":[
+            {
+                "nextPhraseID":"lae_algangror1"
+            }
+        ]
     },
     {
         "id":"lae_andor_62",
@@ -6408,11 +7763,12 @@
     },
     {
         "id":"lae_jhaeld2",
-		"replies":[{ "nextPhraseID":"lae_algangror2" }]
+        "replies":[
+            {
+                "nextPhraseID":"lae_algangror2"
+            }
+        ]
     },
-	
-	
-	
     {
         "id":"verigil_seal_found_test_nut",
         "message":"You found a seal with \"V\" engraved on it. This should work.\nBut it still must be coded properly (nut).",
@@ -7557,6 +8913,72 @@
             {
                 "text":"Oh, OK. I will let you be then.",
                 "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"lae_prison1",
+        "message":"Please help us!"
+    },
+    {
+        "id":"lae_prison_01",
+        "message":"Please, can you help us?",
+        "replies":[
+            {
+                "text":"what sort of help?",
+                "nextPhraseID":"lae_prison_02"
+            }
+        ]
+    },
+    {
+        "id":"lae_prison_02",
+        "message":"The prison torturer died, but he took the life force of the prisoners in the hope to live again. It didn't work, because we had so little life left anyway. But now we cannot rest in peace, because he is still here, somewhere in the lower caves. He needs to be destroyed, but we cannot do it because he has control over us.",
+        "replies":[
+            {
+                "text":"OK. I'll do it. I am not afraid of a few monsters!",
+                "nextPhraseID":"lae_prison_03",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lae_torturer",
+                        "value":20,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"No thanks. Seems dangerous, and there's nothing in it for me.",
+                "nextPhraseID":"lae_prison_3a",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lae_torturer",
+                        "value":10,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"lae_prison_03",
+        "message":"Thank you! But beware! He has guards that are like him. They may appear to be human at first glance, but they are not!",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"lae_torturer",
+                "value":10
+            }
+        ]
+    },
+    {
+        "id":"lae_prison_3a",
+        "message":"Ohhh! What will become of us?",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"lae_torturer",
+                "value":20
             }
         ]
     }
