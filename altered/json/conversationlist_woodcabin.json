@@ -5,7 +5,7 @@
         "replies":[
             {
                 "text":"Oh, you're hungry? Here's some rotten meat for you.",
-                "nextPhraseID":"pig",
+                "nextPhraseID":"X",
                 "requires":[
                     {
                         "requireType":"inventoryRemove",
@@ -13,10 +13,6 @@
                         "value":1
                     }
                 ]
-            },
-            {
-                "text":"Oh, you're hungry? That's too bad for you.",
-                "nextPhraseID":"X"
             }
         ]
     }
