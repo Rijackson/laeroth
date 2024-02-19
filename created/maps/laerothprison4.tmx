@@ -128,17 +128,17 @@
  </layer>
  <layer name="Objects" width="30" height="13">
   <data encoding="base64" compression="zlib">
-   eJxjYBg4EC4wgJYPI6AOpbWZGBh0mFDFaAnMCYjB3DJYwDMWBobnQPyCBcJ/ikajy6PzCYUptvScBgyDb0D934H4BwuE/xVq3lcW7PLofGzhTG+gjkYTAtJocS9LZFqQQ1NnjkbDACisWxmhHBbsdtIKgOwFYUL2IacHZLWwsCDHvdMYCauhBgAAkmId+g==
+   eJxjYBg4EC4AoTsZUcW38uLXt5MM+e1YxGYyYooNFoAeJviAOpTWZmJg0GFCFSMVkBIm5gTEYG6hJSAUTsjyz1gYGJ4D8QsWCP8pGo0uj85HDlNs4QRLz8jyacAw+AbU/x2If7BA+F+h5n1lwS6PzscWzvQG6mg0ISCNFveyRKYFOTR15mg0DIDCuhUWByzY7UQGD6mY10H2gjA++0AAOT0gq4WFBSH92MA0OpVZAN+aJn4=
   </data>
  </layer>
  <layer name="Above" width="30" height="13">
   <data encoding="base64" compression="zlib">
-   eJxjYGBgCBdgGBAgy4RdPF2AtnxcAD0cKOWnDZC96ACX/2ltLy754WovrvSMng4o5WMDxKZxaoPBVnZgA9QOG2LNI8WNxABQWLcyUtdMXAAA1vkUfw==
+   eJxjYGBgCBdgGBAgy4RdHOaeTkZUPgykA/ntjJjqieXjAjB105Hs7SLCnjk43JlGor34+I9J8C86SMchT4y9nymwF5c8qfE1VOzFlZ7R0wGlfGwAVxzTGgy2sgMboHbYEGseKW4kBoDCupWRsDpqAABa8RjZ
   </data>
  </layer>
- <layer name="Walkable" width="30" height="13">
+ <layer name="Walkable" width="30" height="13" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxzFWDAClwF6INH7aWcDxPDxqaHvdjEaWkvLoDLTmzuwhdWpMQfuv7BYi+1AbHpCpvbSHEjrvgmFI6E1BBjL6nxQUq8URr/lOojFQMAQS1OXQ==
+   eJxzFWDAClwF6IOHm72EzMJmL6V8dHuxuYGW9mITp6W9uAAuO7G5i9j4IuQfdP2DxV5qA2LTFTa3keJGXPFNKBwJqSHGXmrmc3S7KY1/SvWRigGqt04I
   </data>
  </layer>
  <objectgroup name="Mapevents">
@@ -155,7 +155,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Spawn">
+ <objectgroup name="Spawn" visible="0">
   <object name="prisoner1" type="spawn" x="768" y="64" width="32" height="32">
    <properties>
     <property name="spawngroup" value="lae_prisoner1"/>
@@ -176,9 +176,27 @@
     <property name="spawngroup" value="lae_prisoner3"/>
    </properties>
   </object>
-  <object name="prisoner" type="spawn" x="352" y="96" width="96" height="96">
+  <object name="prisoner5" type="spawn" x="352" y="96" width="96" height="96">
    <properties>
     <property name="spawngroup" value="lae_prisoner4"/>
+   </properties>
+  </object>
+  <object name="prisoner6" type="spawn" x="768" y="160" width="160" height="96">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="lae_prisoner2"/>
+   </properties>
+  </object>
+  <object name="prisoner7" type="spawn" x="160" y="256" width="736" height="64">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="lae_prisoner3"/>
+   </properties>
+  </object>
+  <object name="prisoner8" type="spawn" x="160" y="256" width="736" height="64">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="lae_prisoner2"/>
    </properties>
   </object>
  </objectgroup>
