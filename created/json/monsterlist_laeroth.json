@@ -799,5 +799,13 @@
         "iconID":"monsters_rltiles2:142",
         "monsterClass":"undead",
         "phraseID":"lae_prison_01"
+    },
+    {
+        "id":"hungry_pig",
+        "name":"Hungry pig",
+        "iconID":"monsters_rltiles2:106",
+        "monsterClass":"animal",
+        "movementAggressionType":"none",
+        "phraseID":"hungry_pig_selector"
     }
 ]
