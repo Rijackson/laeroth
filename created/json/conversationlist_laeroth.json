@@ -9036,7 +9036,7 @@
                 "nextPhraseID":"hungry_pig_feed",
                 "requires":[
                     {
-                        "requireType":"inventoryRemove",
+                        "requireType":"inventoryKeep",
                         "requireID":"meat2",
                         "value":1
                     }
@@ -9087,6 +9087,7 @@
         "message":"[Squeal]",
         "replies":[
             {
+                "text":"What?! You're going to attack me now?",
                 "nextPhraseID":"F"
             }
         ],
@@ -9103,7 +9104,7 @@
         "message":"[Grunt]",
         "replies":[
             {
-                "text":"Hungry? Here, have a  piece of rotten meat.",
+                "text":"Hungry? Here, have a piece of rotten meat.",
                 "nextPhraseID":"hungry_pig_feed_2",
                 "requires":[
                     {
