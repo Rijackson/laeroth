@@ -9037,6 +9037,7 @@
                 "requires":[
                     {
                         "requireType":"inventoryRemove",
+                        "requireID":"meat2",
                         "value":1
                     }
                 ]

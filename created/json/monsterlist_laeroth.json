@@ -804,8 +804,17 @@
         "id":"hungry_pig",
         "name":"Hungry pig",
         "iconID":"monsters_rltiles2:106",
+        "maxHP":303,
+        "moveCost":5,
         "monsterClass":"animal",
         "movementAggressionType":"none",
-        "phraseID":"hungry_pig_selector"
+        "attackDamage":{
+            "min":2,
+            "max":3
+        },
+        "phraseID":"hungry_pig_selector",
+        "attackChance":80,
+        "blockChance":90,
+        "damageResistance":9
     }
 ]
