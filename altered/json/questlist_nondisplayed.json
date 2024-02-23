@@ -143,6 +143,10 @@
             {
                 "progress":50,
                 "logText":"Haven't looted the locked chest in Korhald's tomb."
+            },
+            {
+                "progress":51,
+                "logText":"Met a talking pig at the Wood Settlement."
             }
         ]
     }

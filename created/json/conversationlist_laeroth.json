@@ -9069,6 +9069,13 @@
                     }
                 ]
             }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"nondisplay",
+                "value":51
+            }
         ]
     },
     {
@@ -9126,5 +9133,9 @@
                 "value":1
             }
         ]
+    },
+    {
+        "id":"smuggler5_pig",
+        "message":"Yeah, I'm sure you didn't. Why don't you go have another one of \"Lowyna's special brews\"?"
     }
 ]
