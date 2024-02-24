@@ -211,12 +211,12 @@
   <object name="gapfillerhole_drop" type="container" x="0" y="64" width="32" height="32"/>
  </objectgroup>
  <objectgroup name="Spawn">
-  <object name="vermin" type="spawn" x="32" y="32" width="64" height="64">
+  <object name="vermin" type="spawn" x="32" y="32" width="96" height="64">
    <properties>
     <property name="spawngroup" value="vermin"/>
    </properties>
   </object>
-  <object name="hungry_pig_spawn" type="spawn" x="96" y="32" width="32" height="32">
+  <object name="hungry_pig_spawn" type="spawn" x="64" y="32" width="32" height="32">
    <properties>
     <property name="spawngroup" value="hungry_pig"/>
    </properties>
