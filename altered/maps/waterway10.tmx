@@ -199,9 +199,9 @@
    eJzFVMENgCAMrA5hwlzO5xC6ghvAF3dRTIgNgaMFEu8jxvauvRaJiM6FXsRnekaQxqFczrHNY3Qd+G4zulLUciScPZ79qbtObZwWxKA5IfT2EvJ3Q3QYXV7ai3/yLwVHqe4ajzNfjFfWjHRraNHiM0Wzj2iZQw4j7hXqt7SrPd6W5sk9SfljHdFbjX+aeaa6/L22r9p7IdXVQtMv39XgsRX+I0btb0DvDrfWMuLucO3S+QZgKkWj
   </data>
  </layer>
- <layer name="Walkable" width="30" height="18" visible="0">
+ <layer name="Walkable" width="30" height="18">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsJFMDAL45GCAXPPJsZcY+aFoLyFAC3spDQ9S/UdPe4kNS2QxatlLSrxSK36xmUesW4aqf3GlL2x8ctIhOf6ipn/paReuPIEtX9DLTmz2YnMDtfIMNjNpEcb4zCdFDbX9Sg3/AgBAdCkC
+   eJzVk9EJACAIRJui/Vdow+gjkCjzTg0SIsroeVe2WkojxwgtN4O9n+Fa8j9yb5HBZf1A60E1yLOsD1Yv5Z6cPVzkXS01MnqRWqL+SKY+C1dbM/8w4h09el+yTj2xeu3tD4S54+5q8DI1PRkea/cjZ6K1Rujt3ZIeIA==
   </data>
  </layer>
  <objectgroup name="Mapevents">
@@ -237,6 +237,22 @@
   <object name="poisoned_ground" type="script" x="736" y="256" width="64" height="128">
    <properties>
     <property name="when" value="round"/>
+   </properties>
+  </object>
+  <object name="poisoned_ground" type="script" x="800" y="224" width="96" height="32">
+   <properties>
+    <property name="when" value="round"/>
+   </properties>
+  </object>
+  <object name="poisoned_ground" type="script" x="864" y="192" width="64" height="32">
+   <properties>
+    <property name="when" value="round"/>
+   </properties>
+  </object>
+  <object name="east" type="mapchange" x="928" y="128" width="32" height="96">
+   <properties>
+    <property name="map" value="waterway_forest1"/>
+    <property name="place" value="west"/>
    </properties>
   </object>
  </objectgroup>

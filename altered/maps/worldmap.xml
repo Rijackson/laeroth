@@ -376,6 +376,9 @@
     <map id="island4" x="515" y="32"/>
     <map id="korhald_cave_outdoor1" x="550" y="278"/>
     <map id="remgard2a" x="702" y="114"/>
+    <map id="waterway_forest1" x="581" y="259"/>
+    <map id="waterway_forest2" x="581" y="278"/>
+    <map id="waterway_forest3" x="612" y="255"/>
     <namedarea id="crossglen" name="Crossglen" type="settlement"/>
     <namedarea id="crossroads" name="Crossroads Guardhouse" type="other"/>
     <namedarea id="charwoodh" name="Charwood" type="settlement"/>
