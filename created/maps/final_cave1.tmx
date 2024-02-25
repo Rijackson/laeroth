@@ -180,6 +180,9 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
+ <tileset firstgid="7577" name="map_items_japozero" tilewidth="32" tileheight="32" tilecount="592" columns="16">
+  <image source="../drawable/map_items_japozero.png" width="512" height="1184"/>
+ </tileset>
  <layer id="22" name="Base" width="30" height="30">
   <data encoding="base64" compression="zlib">
    eJz7wsnA8GUUDwrMwjXwbhgObhwNh5GBR+NgNKxGEh7scTjY3TeKR/Eopi6mdp4nxzx8ekg1b6SXYQBaUW5u
@@ -202,17 +205,17 @@
  </layer>
  <layer id="2" name="Objects" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBgcIJ6NgSGMn4EhnB8hBuOD5K7yIcSvsEFokBiyPns2TH24gBIL6fgJG+l60EELUOyLAPHhAlLbgsUcStWLMUEZwsSZC1ePBI7yYYqNgoEH6OkelC8MkfIHsjyMja4Gm1n/hYh3Azn5C1t+IQZ8Q8pPoPT/h0C6BMnzIJUzyPnxK5F5Ez2P7SBgJ3r+6QGVUawI/mEx/PkWW/4DgRNY7P3JzcDwC4p/c+N3FzF2YAMeghC6FykcOXkYGLigmJsHtx5yAChtKLMg4nYukr1rgGwpHgiWxmIvuUAZWla/Adq5H5r21/Lj1wMCPWhqSCnvQQDkxzt40hMp8UQK2C0EwQeB+BAJeZ1SAEr79AL/kPx1FUcY4xInV89IBKS2c0gFuNo5J5hpZyc+8FYUWEahtaVISRPqSHqx6cvFUe6A7KUmMEEqo43xlNd/0ezlI7IdiQu4INnlDGTzA82bg8XPt/HELynlYhGNytChDgBHDkmF
+   eJxjYBgcIJ6NgSGMn4EhnB8hBuOD5K7yIcSvsEFokBiyPns2TH24gBIL6fgJG+l60EGGGAPDFwHiwwWkdiUWc/CpB9lBCIgxQRnCuNWsQLIXrh4JHOXDFBsFAw/Q0z0oXxgi5Q9keRgbXQ02s/4LEe8GcvIXtvxCCIDyxjek/ARK/38IpEuQPA9SOYOcH78Smd9WoKnZQcBO9PzTAyqjWBH8w2KYZuLTDwMnsNj7k5uB4RcU/+bG7y5i7MAGPAQhdC9SOHLyMDBwQTE3D2495ABQ2lBmQcTtXCR71wDZUjwQLI3FXnIByD5Q2ngDtHM/NO2v5cevBwR60NSQUt6DAMiPd/CkJ1LiiRSwWwiCDwLxIRLyOqXgMBH1FbXAPyR/XcURxrjEydUzEgGp7RxSAa52zglm2tmJD7wVBZZRaG0pUtKEOpJebPpycZQ7IHupCUyQymhjPOX1XzR7+fC0I4kBLkh2OQPZ/EDz5mDx82088UtKuVhEozJ0qAMAqttL0A==
   </data>
  </layer>
  <layer id="29" name="Objects_0" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYBgcIJ6NgSGMn4EhnB8hBuOD5K7yIcSvsEFokBiyPns2TH24gBIL6fgJG+l60EELUOyLAPHhAlLbgsUcStWLMUEZwsSZC1ePBI7yYYqNgoEH6OkelC8MkfIHsjyMja4Gm1n/hYh3Azn5C1t+IQZ8Q8pPoPT/h0C6BMnzIJUzyPnxK5F5Ez2P7SBgJ3r+6QGVUawI/mEx/PkWW/4DgRNY7P3JzcDwC4p/c+N3FzF2YAMeghC6FykcOXkYGLigmJsHtx5yAChtKLMg4nYukr1rgGwpHgiWxmIvuUAZWla/Adq5H5r21/Lj1wMCPWhqSCnvQQDkxzt40hMp8UQK2C0EwQeB+BAJeZ1SAEr79AL/kPx1FUcY4xInV89IBKS2c0gFuNo5J5hpZyc+8FYUWEahtaVISRPqSHqx6cvFUe6A7KUmMEEqo43xlNd/0ezlI7IdiQu4INnlDGTzA82bg8XPt/HELynlYhGNytChDgBHDkmF
+   eJxjYBgcIJ6NgSGMn4EhnB8hBuOD5K7yIcSvsEFokBiyPns2TH24gBIL6fgJG+l60EGGGAPDFwHiwwWkdiUWc/CpB9lBCIgxQRnCuNWsQLIXrh4JHOXDFBsFAw/Q0z0oXxgi5Q9keRgbXQ02s/4LEe8GcvIXtvxCCIDyxjek/ARK/38IpEuQPA9SOYOcH78Smd9WoKnZQcBO9PzTAyqjWBH8w2KYZuLTDwMnsNj7k5uB4RcU/+bG7y5i7MAGPAQhdC9SOHLyMDBwQTE3D2495ABQ2lBmQcTtXCR71wDZUjwQLI3FXnIByD5Q2ngDtHM/NO2v5cevBwR60NSQUt6DAMiPd/CkJ1LiiRSwWwiCDwLxIRLyOqXgMBH1FbXAPyR/XcURxrjEydUzEgGp7RxSAa52zglm2tmJD7wVBZZRaG0pUtKEOpJebPpycZQ7IHupCUyQymhjPOX1XzR7+fC0I4kBLkh2OQPZ/EDz5mDx82088UtKuVhEozJ0qAMAqttL0A==
   </data>
  </layer>
  <layer id="14" name="Objects_1" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFIxGIMdFW/SgYBf+F8MsLCDMw8PDTxy24QA/Q/kWslJuTQ8AMQvnnsBhl+qkByLGjFy3+uAQZGLgFqeMebOARNE3NpVO6+SLAwJAKjNsYaPyupYO9C1khduICtEoLe4Qg+CgQHyOQd6kJCKX9UTAKRsEoIARG26iUAwDVRQ62
+   eJxjYBgF9AQZYqTrWclCfTvEmAirWYFkLzHqR8EooDcA5Y1vAgi+syADw38h/HoEhBkYePgRfBdBBPurAHH5bQWamhxW/OrR808P0P5FSHoOi2GaiU8/DCwmYC8pgJQ8/g4a5r38qOJcwLDkFsRUj6yHEvAIGrdz+fGroxb4AnRzKjCMY6DhvJYO9i5khdiJC9CqLN4jBMFHgfgYgTxETXCYjDpxFAxuQE47ZzDaMQqGDhhto1IOAFr1GhE=
   </data>
  </layer>
  <layer id="3" name="Above" width="30" height="30">
@@ -222,12 +225,12 @@
  </layer>
  <layer id="30" name="Above_0" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYBh8wJ4NgkmVY2fCLYcNPBFAsMWBev3ZIBgbIFUO2Wx6AlmmgbF3FAwNwAlNH678DAxu/NQ1+xlSmgelf1CecOSH0JI40iWyGuQ885TM/CMzRNP/bWby9FkIMjBcFMMU/wEMv58DUAZxAN3DCcTOVI6HS1j8iAxg8R6Mx97RMnlwghNkpn1qAS4mSNsBG8DV3uCkQpxK4TEDV3sDVo6Kk2A/LdP9QOUpcgGx8cZFQfxiswNX/YcOkNPEWz4Ghnd8xNuLbgdyGsEWT8TEXS2FbYQvWOzAJjYKBgcAAB4+HpE=
+   eJxjYBh8wJ4NgkmVY2fCLYcNPBFAsMWBev3ZIBgbIFUO2Wx6AlmmgbF3FAwNwAlNH678DAxu/NQ1+xlSmgelf1CecOSH0JI40iWyGuQ885TM/CMzRNP/bWby9FkIMjBcFMMU/wEMv584whCkh1aAA2g2JxA7UzkeLmHxIzKAxXswHnuHWpm8UYiBYZMQdd0yGMEJMtM+tQAXE6TtgA3gam9wUiF9S+ExA1d7A1aOipNgPy3T/UDlKXIBsfHGRUH8YrMDV/2HDpDTxFs+BoZ3fMTbi24HchrBFk/ExF0thW2EL1jswCY2CgYHAABG1SBh
   </data>
  </layer>
  <layer id="10" name="Above_1" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYBgF9AQL+UnXU0yiHnLsGAUjB0SzMTBoAdPIDT4Ghhg2+tmbjWRXDh3tpQUgNU8SAreZqWvmLwEGht8C1DNvoMElsYF2Af3BViEGhm1CA+0K2oMTzAPtglFAbUCPNshoO2cUjALqAgBMAA1B
+   eJxjYBgF9ATtcmRokqeDHaNgxIBoNgYGLX4Ghht8DAwxbLSxw1gQUywbya4cLPaaYNFDEJCYNwbMTALgNjN1zfslwMDwW4C6Zg4kuCQ20C6gP9gqxMCwTWigXUF7cILKaX8UDDygRxtktJ0zCkYBdQEAqi4MdQ==
   </data>
  </layer>
  <layer id="8" name="Top" width="30" height="30">
@@ -247,7 +250,7 @@
  </layer>
  <layer id="4" name="Walkable" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJztk1EKACEIRDvF3v8K3XDZj4U+Mh0braABCcLmpVZ9Sqk30uLTv1qE5Lb5PW6GJK61NyOv0ZkZLjMf9fG8n8u1vTmrvN7ZXK1HM2yJoXGle1uZKLf12qFeDxvZY2im3hVcVuzGjWRL/lli/RWE1+Oy+saY+alcJMc6J2RPu0O0ov7oCfECR4vDsw==
+   eJztk1EKACEIRDvF3v8K3XDZj4U+Mh0braABCcLmqVV9Sqk30uLTv1qE5Lb5PW6GJK51NiOv0ZkZLjMf9fG8n8u1vTmrvN7ZXG1GM2yJoXGluq39otzWa4d+PWxkj6GZfldwWbEbN5It+WeJ9VcQXo/Lmhvjzk/lIjnWe0L2tBqiFfVHT4gXYzvC7A==
   </data>
  </layer>
  <layer id="32" name="Walkable_0" width="30" height="30" visible="0">
@@ -275,8 +278,7 @@
    </properties>
   </object>
   <object id="4" name="map_exit" type="mapchange" x="736" y="832" width="64" height="32"/>
-  <object id="31" name="final_cave_hf" type="container" x="864" y="832" width="32" height="32"/>
-  <object id="33" name="final_cave_s9" type="script" x="288" y="352" width="384" height="192"/>
+  <object id="33" name="final_cave_s9" type="script" x="288" y="320" width="448" height="256"/>
   <object id="36" name="final_cave_andor1" type="script" x="448" y="768" width="64" height="32"/>
  </objectgroup>
  <objectgroup id="6" name="Spawn">
@@ -308,7 +310,7 @@
     <property name="requireValue" value="1"/>
    </properties>
   </object>
-  <object id="7" name="final_cave_k2" type="key" x="128" y="352" width="32" height="32">
+  <object id="7" name="final_cave_k2" type="key" x="128" y="320" width="32" height="32">
    <properties>
     <property name="phrase" value="final_cave_k2"/>
     <property name="requireId" value="andor"/>
@@ -344,7 +346,7 @@
     <property name="requireValue" value="1"/>
    </properties>
   </object>
-  <object id="11" name="final_cave_k6" type="key" x="800" y="352" width="32" height="32">
+  <object id="11" name="final_cave_k6" type="key" x="800" y="320" width="32" height="32">
    <properties>
     <property name="phrase" value="final_cave_k6"/>
     <property name="requireId" value="andor"/>
@@ -381,7 +383,7 @@
     <property name="requireValue" value="1"/>
    </properties>
   </object>
-  <object id="17" name="final_cave:2" type="replace" x="128" y="352" width="32" height="32">
+  <object id="17" name="final_cave:2" type="replace" x="128" y="320" width="32" height="32">
    <properties>
     <property name="Above" value="Above_1"/>
     <property name="requireId" value="final_cave"/>
@@ -389,7 +391,7 @@
     <property name="requireValue" value="2"/>
    </properties>
   </object>
-  <object id="18" name="final_cave:2_0" type="replace" x="128" y="352" width="32" height="32">
+  <object id="18" name="final_cave:2_0" type="replace" x="128" y="320" width="32" height="32">
    <properties>
     <property name="Above" value="Above_0"/>
     <property name="requireId" value="final_cave"/>
@@ -449,7 +451,7 @@
     <property name="requireValue" value="5"/>
    </properties>
   </object>
-  <object id="25" name="final_cave:6" type="replace" x="800" y="353" width="32" height="32">
+  <object id="25" name="final_cave:6" type="replace" x="800" y="320" width="32" height="32">
    <properties>
     <property name="Above" value="Above_1"/>
     <property name="requireId" value="final_cave"/>
@@ -457,7 +459,7 @@
     <property name="requireValue" value="6"/>
    </properties>
   </object>
-  <object id="26" name="final_cave:6_0" type="replace" x="800" y="352" width="32" height="32">
+  <object id="26" name="final_cave:6_0" type="replace" x="800" y="320" width="32" height="32">
    <properties>
     <property name="Above" value="Above_0"/>
     <property name="requireId" value="final_cave"/>

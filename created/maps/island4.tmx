@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="12">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="14" nextobjectid="29">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -195,20 +195,25 @@
  </layer>
  <layer id="2" name="Objects" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztlblOw0AQhlcpkEhonCKJEU8ANAiSF8hR0SCOijJQUPAIvBR1ChoSOoRQIo4YCSEuBYJooWBG3sHj8fgIFUV+aeVk15pv/5nZtTG6WmVjvsvR+RPHf147wVy9YMwN+//m+s8rNrcK78xVjGlDzKoSN4m7UgjHIjULflyS5wZs0ias54G7AKMWw12D+X3BRSaOnuW2i2FWnf1+d6NzqMeSMcsJXPQ6D+uFSjA3trwOxLwvBh66TpQxsn753F3OZ25B7GYCl7z2WV43bJyR4zO5eK4598DucS6FKbmkJ8u/nAl7QJH/uuD+vuf4e8Ke2iv79crKRQ2B8zATMC9K4XXiYq+fib5qMlZL4fKeIh+aBxTFrto4m6LG2F+eG/QZ7UmT1lOnTlBbTchbz0XnPcbGPT/HMImr5ThNu4I7Bs4H8xvnk3MXwesXPAf2XbqLZhVPSfJErmkvmhrA24HxCj3zIvrGFdxD8Z/6G73J+vI6d2LYLZvnXklfJx3lwjwSxr1VmF4Mj0SeMd9LdnB1U2qFkrmVfZ3GJg1jattje9D88X6uJpyJJDbemZ9wpo8Vv7Ke0ue5G71bJ2HjXUJnucbiUC+hL/lETcIktWLOs7xLeJ9qHNl/acpS63xKTGL2M/RkElvy55WzPFAY+C3cnvA+1PLNvx2aiEMj6fsbp4aIkWX8hTPVVFP9b/0AsuSuBw==
+   eJztlb1OAkEQxzcUJAoxOQrwiE+gNkbxBRAqG4NaWaqFhY/gS1kaChvFzsJAVDgTY/wKfsRWC2dyO97c3NweWlnwTzYLu5f57X9ndtcYXc2KMV+V5PixF/ZXXjRWLxhzzf6/+GF/ycYW4ZvitDHbELOmxHVxFwrxWKRGIYxLCvyITWrB/CRwZ6Atp3CXYHxXcJGJrWO526U4q85+v/rJMdR92Zh5Bxe9VmG+MB2NvVleG2LeliIPp16SMbR++dhNLmSuQ+yGg0teu2xf12ycoRcyufhec+6eXWMxgym5pAfLv8jHPaDIf11wf77zwjVhTe1UwnyNykUNgHOXj5j9qfg8cbHWz0RdNRirqXB5TZEPzQOKYtdsnJbIMdZX4Ed1RmvSpNXUiRflVhPyVnPJ8YCxcc2PKUziole5h1naEtw34Lwzv1nxkDsLXj+h79n10V00oXhyKRB7TWvRtAK8TWjPcMafyvE5X3D3xX+qb8yhzC/PczuF3bS13Cnr86SDXJxHwrh9hRmk8EjkGfd7zjauU0d9oDCXcm9lXWexSYOU3HbYGjR/vJ5rjjPhYuOd+QFn+lDxK/MpfZ77ybv1N2y8S+gsL7M4VEvoS/ao3zBJzZS7XN4lRyx/GkfWX5ZGyfVkRkxidjNqMost+VXlLPcUBr6FG463UJO23/zt0EQcaq73N00rIsYo7S+cscYa63/rG5orr9o=
   </data>
  </layer>
  <layer id="3" name="Above" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztlb8OgjAQxhsW44gDyb2Ej+Ij+JBuxj8xYdQ44MCC4OSE8gbGNrRyloOQenXiSwhQ2vvxHdxViN9VhELEUX1dghCZPK7QPD+GDBBCOG4G9JxczrlE/OyXjltqrvGr8mB4MSMXezBxcZ7VWKLHEyauYn5Y0u8GaC6HJkFzjb0o7aHxv9bcu/7285kbz/5HcWyjM7RzTa3jVh5259WVnaJa2RExYuufLeScm2efFLeC71pWfn28i82l+oeP7xwPrFFudhfPzu3Dg2dcO0bUPTczl8dTn22fB6h7tw+/WJTPe099D5XqhxWxr24JP8Yn7ueuUutXBPcE9f6Qam/Tnn7uInv9ImjPURxA41z7INaS4PrgjBo1atS/9Qb3VGgy
+   eJztlb8OgjAQxhsX44gDyb2Ej+Ij+JBuxj8xYdQ46OCC4MSE8gbGXmjlLKeBejjxJQ1Q2v74rtxVqd+VBkpFYXmfg1Kxbheo3u8CAQgjum4M/JhEjzmF8uyHWTc3XOsX42B5kSCXerDr0jhj39H0H4W4yHyxtN8l8FwJDQfVPfWC2kDlf2G4mdn7ydiP5/6jKDduB6jHmpsnrST4HFdf9pnkyppZI3L+2VSPuXqwTi3nuNwC3nMZ/fp+SxsuVz+62OeoYY5Ksz/x3NjeOvBMc8eKe5ZmJrrdzdX1uYWydnfhl4rzmX3J76bCelgw5+qK8WN90nruK5w/Z7h7KM+Hs/E2+lLPfeTOnw7qY5ADpF/qHKSaMdwuOL169er1bz0B5yxpNA==
   </data>
  </layer>
- <layer id="4" name="Walkable" width="30" height="30" visible="0">
+ <layer id="9" name="Top" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztzjERAAAIBKCvYf8UtvMsoQskIAFW1/cAAABuDRfGANM=
+  </data>
+ </layer>
+ <layer id="4" name="Walkable" width="30" height="30">
   <data encoding="base64" compression="zlib">
    eJztk1EOgDAIQ3cK73+F3dDfhRQoHfPHkTQmG/Ko4HzGmI5QoPM1H9WI7hkue47y0D3DzXKQN3vOcD1PGdeyv+B682TqqFzrLdojtl7kB3GRT8WHx6rsLMP1+ou8MP+AymXU6Zdlsrub3XX6ZZgK1+Z2sbP5s31WfTDcyizUXVGZVVnG+jzJ7uIqPSLuTu+n3vVi93uzcWrnrq6u/qUXaZkIKg==
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents" visible="0">
+ <objectgroup id="5" name="Mapevents">
   <object id="1" name="north1" type="mapchange" x="224" y="0" width="160" height="32">
    <properties>
     <property name="map" value="island1"/>
@@ -251,6 +256,43 @@
     <property name="place" value="south5"/>
    </properties>
   </object>
+  <object id="28" name="final_cave_init" type="script" x="448" y="224" width="32" height="64"/>
+ </objectgroup>
+ <objectgroup id="10" name="lae_fc1_1">
+  <properties>
+   <property name="active" value="false"/>
+  </properties>
+  <object id="12" name="lae_fc1_4e1" type="container" x="672" y="416" width="32" height="32"/>
+  <object id="13" name="lae_fc1_4g1" type="container" x="480" y="192" width="32" height="32"/>
+  <object id="14" name="lae_fc1_4x1" type="container" x="832" y="288" width="32" height="32"/>
+  <object id="15" name="lae_fc1_4y1" type="container" x="192" y="288" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup id="11" name="lae_fc1_2">
+  <properties>
+   <property name="active" value="false"/>
+  </properties>
+  <object id="16" name="lae_fc1_4g2" type="container" x="672" y="416" width="32" height="32"/>
+  <object id="17" name="lae_fc1_4x2" type="container" x="480" y="192" width="32" height="32"/>
+  <object id="18" name="lae_fc1_4e2" type="container" x="832" y="288" width="32" height="32"/>
+  <object id="19" name="lae_fc1_4y2" type="container" x="192" y="288" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup id="12" name="lae_fc1_3">
+  <properties>
+   <property name="active" value="false"/>
+  </properties>
+  <object id="20" name="lae_fc1_4x3" type="container" x="672" y="416" width="32" height="32"/>
+  <object id="21" name="lae_fc1_4e3" type="container" x="480" y="192" width="32" height="32"/>
+  <object id="22" name="lae_fc1_4y3" type="container" x="832" y="288" width="32" height="32"/>
+  <object id="23" name="lae_fc1_4g3" type="container" x="192" y="288" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup id="13" name="lae_fc1_4">
+  <properties>
+   <property name="active" value="false"/>
+  </properties>
+  <object id="24" name="lae_fc1_4x4" type="container" x="672" y="416" width="32" height="32"/>
+  <object id="25" name="lae_fc1_4y4" type="container" x="480" y="192" width="32" height="32"/>
+  <object id="26" name="lae_fc1_4g4" type="container" x="832" y="288" width="32" height="32"/>
+  <object id="27" name="lae_fc1_4e4" type="container" x="192" y="288" width="32" height="32"/>
  </objectgroup>
  <objectgroup id="6" name="Spawn" visible="0">
   <object id="8" name="beach_crawler_1" type="spawn" x="256" y="448" width="160" height="224">
