@@ -440,6 +440,10 @@
                 "logText":"11: Andor talk"
             },
             {
+                "progress":12,
+                "logText":"12: Algangro/Jhaeld talk"
+            },
+            {
                 "progress":99,
                 "logText":"x"
             }

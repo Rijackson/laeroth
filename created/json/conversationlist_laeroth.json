@@ -7580,13 +7580,41 @@
         "rewards":[
             {
                 "rewardType":"spawnAll",
-                "rewardID":"lae_jhael2",
+                "rewardID":"lae_jhaeld2",
                 "mapName":"final_cave1"
             }
         ]
     },
     {
         "id":"final_cave_init",
+        "replies":[
+            {
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"final_cave",
+                        "value":12
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"final_cave_init_j",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"algangror",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"final_cave_init_a"
+            }
+        ]
+	},
+    {
+        "id":"final_cave_init_a",
         "rewards":[
             {
                 "rewardType":"removeQuestProgress",
@@ -7596,6 +7624,21 @@
             {
                 "rewardType":"spawnAll",
                 "rewardID":"lae_algangror1",
+                "mapName":"island_4_cave1"
+            }
+        ]
+    },
+    {
+        "id":"final_cave_init_j",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"final_cave",
+                "value":10
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"lae_jhaeld1",
                 "mapName":"island_4_cave1"
             }
         ]
@@ -7635,6 +7678,16 @@
                 "rewardType":"questProgress",
                 "rewardID":"final_cave",
                 "value":11
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"lae_algangror1",
+                "mapName":"island_4_cave1"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"lae_jhaeld1",
+                "mapName":"island_4_cave1"
             }
         ]
     },
@@ -7899,9 +7952,11 @@
     },
     {
         "id":"lae_jhaeld1",
+        "message":"$playername - good that you are here!",
         "replies":[
             {
-                "nextPhraseID":"lae_algangror1"
+                "text":"Why? Don't coming around on your own anymore?",
+                "nextPhraseID":"lae_algangror1_20"
             }
         ]
     },

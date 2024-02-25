@@ -903,11 +903,63 @@
         ]
     },
     {
+        "id":"lae_fc1_4g1",
+        "items":[
+            {
+                "itemID":"rock",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"lae_fc1_4g2",
+        "items":[
+            {
+                "itemID":"rock",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"lae_fc1_4g3",
+        "items":[
+            {
+                "itemID":"rock",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"lae_fc1_4g4",
+        "items":[
+            {
+                "itemID":"rock",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
         "id":"lae_fc1_1x1",
         "items":[
             {
                 "itemID":"gem1",
-                "chance":"33",
+                "chance":"100",
                 "quantity":{
                     "min":1,
                     "max":1
@@ -915,30 +967,6 @@
             },
             {
                 "itemID":"gem2",
-                "chance":"33",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"gem3",
-                "chance":"33",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"gem4",
-                "chance":"33",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"gem5",
                 "chance":"33",
                 "quantity":{
                     "min":1,
@@ -951,16 +979,8 @@
         "id":"lae_fc1_1x2",
         "items":[
             {
-                "itemID":"gem1",
-                "chance":"33",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
                 "itemID":"gem2",
-                "chance":"33",
+                "chance":"100",
                 "quantity":{
                     "min":1,
                     "max":1
@@ -968,22 +988,6 @@
             },
             {
                 "itemID":"gem3",
-                "chance":"33",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"gem4",
-                "chance":"33",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"gem5",
                 "chance":"33",
                 "quantity":{
                     "min":1,
@@ -996,24 +1000,8 @@
         "id":"lae_fc1_1x3",
         "items":[
             {
-                "itemID":"gem1",
-                "chance":"33",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"gem2",
-                "chance":"33",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
                 "itemID":"gem3",
-                "chance":"33",
+                "chance":"100",
                 "quantity":{
                     "min":1,
                     "max":1
@@ -1021,14 +1009,6 @@
             },
             {
                 "itemID":"gem4",
-                "chance":"33",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"gem5",
                 "chance":"33",
                 "quantity":{
                     "min":1,
@@ -1041,32 +1021,8 @@
         "id":"lae_fc1_1x4",
         "items":[
             {
-                "itemID":"gem1",
-                "chance":"33",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"gem2",
-                "chance":"33",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"gem3",
-                "chance":"33",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
                 "itemID":"gem4",
-                "chance":"33",
+                "chance":"100",
                 "quantity":{
                     "min":1,
                     "max":1
@@ -1087,7 +1043,7 @@
         "items":[
             {
                 "itemID":"gem1",
-                "chance":"33",
+                "chance":"100",
                 "quantity":{
                     "min":1,
                     "max":1
@@ -1095,30 +1051,6 @@
             },
             {
                 "itemID":"gem2",
-                "chance":"33",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"gem3",
-                "chance":"33",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"gem4",
-                "chance":"33",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"gem5",
                 "chance":"33",
                 "quantity":{
                     "min":1,
@@ -1131,16 +1063,8 @@
         "id":"lae_fc1_2x2",
         "items":[
             {
-                "itemID":"gem1",
-                "chance":"33",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
                 "itemID":"gem2",
-                "chance":"33",
+                "chance":"100",
                 "quantity":{
                     "min":1,
                     "max":1
@@ -1148,22 +1072,6 @@
             },
             {
                 "itemID":"gem3",
-                "chance":"33",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"gem4",
-                "chance":"33",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"gem5",
                 "chance":"33",
                 "quantity":{
                     "min":1,
@@ -1176,24 +1084,8 @@
         "id":"lae_fc1_2x3",
         "items":[
             {
-                "itemID":"gem1",
-                "chance":"33",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"gem2",
-                "chance":"33",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
                 "itemID":"gem3",
-                "chance":"33",
+                "chance":"100",
                 "quantity":{
                     "min":1,
                     "max":1
@@ -1201,14 +1093,6 @@
             },
             {
                 "itemID":"gem4",
-                "chance":"33",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"gem5",
                 "chance":"33",
                 "quantity":{
                     "min":1,
@@ -1221,32 +1105,8 @@
         "id":"lae_fc1_2x4",
         "items":[
             {
-                "itemID":"gem1",
-                "chance":"33",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"gem2",
-                "chance":"33",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"gem3",
-                "chance":"33",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
                 "itemID":"gem4",
-                "chance":"33",
+                "chance":"100",
                 "quantity":{
                     "min":1,
                     "max":1
@@ -1267,7 +1127,7 @@
         "items":[
             {
                 "itemID":"gem1",
-                "chance":"33",
+                "chance":"100",
                 "quantity":{
                     "min":1,
                     "max":1
@@ -1275,30 +1135,6 @@
             },
             {
                 "itemID":"gem2",
-                "chance":"33",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"gem3",
-                "chance":"33",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"gem4",
-                "chance":"33",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"gem5",
                 "chance":"33",
                 "quantity":{
                     "min":1,
@@ -1311,16 +1147,8 @@
         "id":"lae_fc1_3x2",
         "items":[
             {
-                "itemID":"gem1",
-                "chance":"33",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
                 "itemID":"gem2",
-                "chance":"33",
+                "chance":"100",
                 "quantity":{
                     "min":1,
                     "max":1
@@ -1328,22 +1156,6 @@
             },
             {
                 "itemID":"gem3",
-                "chance":"33",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"gem4",
-                "chance":"33",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"gem5",
                 "chance":"33",
                 "quantity":{
                     "min":1,
@@ -1356,24 +1168,8 @@
         "id":"lae_fc1_3x3",
         "items":[
             {
-                "itemID":"gem1",
-                "chance":"33",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"gem2",
-                "chance":"33",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
                 "itemID":"gem3",
-                "chance":"33",
+                "chance":"100",
                 "quantity":{
                     "min":1,
                     "max":1
@@ -1381,14 +1177,6 @@
             },
             {
                 "itemID":"gem4",
-                "chance":"33",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"gem5",
                 "chance":"33",
                 "quantity":{
                     "min":1,
@@ -1401,32 +1189,8 @@
         "id":"lae_fc1_3x4",
         "items":[
             {
-                "itemID":"gem1",
-                "chance":"33",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"gem2",
-                "chance":"33",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"gem3",
-                "chance":"33",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
                 "itemID":"gem4",
-                "chance":"33",
+                "chance":"100",
                 "quantity":{
                     "min":1,
                     "max":1
@@ -1447,7 +1211,7 @@
         "items":[
             {
                 "itemID":"gem1",
-                "chance":"33",
+                "chance":"100",
                 "quantity":{
                     "min":1,
                     "max":1
@@ -1455,30 +1219,6 @@
             },
             {
                 "itemID":"gem2",
-                "chance":"33",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"gem3",
-                "chance":"33",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"gem4",
-                "chance":"33",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"gem5",
                 "chance":"33",
                 "quantity":{
                     "min":1,
@@ -1491,16 +1231,8 @@
         "id":"lae_fc1_4x2",
         "items":[
             {
-                "itemID":"gem1",
-                "chance":"33",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
                 "itemID":"gem2",
-                "chance":"33",
+                "chance":"100",
                 "quantity":{
                     "min":1,
                     "max":1
@@ -1508,22 +1240,6 @@
             },
             {
                 "itemID":"gem3",
-                "chance":"33",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"gem4",
-                "chance":"33",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"gem5",
                 "chance":"33",
                 "quantity":{
                     "min":1,
@@ -1536,24 +1252,8 @@
         "id":"lae_fc1_4x3",
         "items":[
             {
-                "itemID":"gem1",
-                "chance":"33",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"gem2",
-                "chance":"33",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
                 "itemID":"gem3",
-                "chance":"33",
+                "chance":"100",
                 "quantity":{
                     "min":1,
                     "max":1
@@ -1561,14 +1261,6 @@
             },
             {
                 "itemID":"gem4",
-                "chance":"33",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"gem5",
                 "chance":"33",
                 "quantity":{
                     "min":1,
@@ -1581,32 +1273,8 @@
         "id":"lae_fc1_4x4",
         "items":[
             {
-                "itemID":"gem1",
-                "chance":"33",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"gem2",
-                "chance":"33",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"gem3",
-                "chance":"33",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
                 "itemID":"gem4",
-                "chance":"33",
+                "chance":"100",
                 "quantity":{
                     "min":1,
                     "max":1
@@ -1627,7 +1295,7 @@
         "items":[
             {
                 "itemID":"gem1",
-                "chance":"33",
+                "chance":"100",
                 "quantity":{
                     "min":1,
                     "max":1
@@ -1643,22 +1311,6 @@
             },
             {
                 "itemID":"gem3",
-                "chance":"33",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"gem4",
-                "chance":"33",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"gem5",
                 "chance":"33",
                 "quantity":{
                     "min":1,
@@ -1672,7 +1324,7 @@
         "items":[
             {
                 "itemID":"gem1",
-                "chance":"33",
+                "chance":"100",
                 "quantity":{
                     "min":1,
                     "max":1
@@ -1688,22 +1340,6 @@
             },
             {
                 "itemID":"gem3",
-                "chance":"33",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"gem4",
-                "chance":"33",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"gem5",
                 "chance":"33",
                 "quantity":{
                     "min":1,
@@ -1717,7 +1353,7 @@
         "items":[
             {
                 "itemID":"gem1",
-                "chance":"33",
+                "chance":"100",
                 "quantity":{
                     "min":1,
                     "max":1
@@ -1733,22 +1369,6 @@
             },
             {
                 "itemID":"gem3",
-                "chance":"33",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"gem4",
-                "chance":"33",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"gem5",
                 "chance":"33",
                 "quantity":{
                     "min":1,
@@ -1762,7 +1382,7 @@
         "items":[
             {
                 "itemID":"gem1",
-                "chance":"33",
+                "chance":"100",
                 "quantity":{
                     "min":1,
                     "max":1
@@ -1778,22 +1398,6 @@
             },
             {
                 "itemID":"gem3",
-                "chance":"33",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"gem4",
-                "chance":"33",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"gem5",
                 "chance":"33",
                 "quantity":{
                     "min":1,
@@ -1806,15 +1410,15 @@
         "id":"lae_fc1_2y1",
         "items":[
             {
-                "itemID":"gem1",
-                "chance":"33",
+                "itemID":"gem4",
+                "chance":"100",
                 "quantity":{
                     "min":1,
                     "max":1
                 }
             },
             {
-                "itemID":"gem2",
+                "itemID":"gem5",
                 "chance":"33",
                 "quantity":{
                     "min":1,
@@ -1823,22 +1427,6 @@
             },
             {
                 "itemID":"gem3",
-                "chance":"33",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"gem4",
-                "chance":"33",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"gem5",
                 "chance":"33",
                 "quantity":{
                     "min":1,
@@ -1851,15 +1439,15 @@
         "id":"lae_fc1_2y2",
         "items":[
             {
-                "itemID":"gem1",
-                "chance":"33",
+                "itemID":"gem4",
+                "chance":"100",
                 "quantity":{
                     "min":1,
                     "max":1
                 }
             },
             {
-                "itemID":"gem2",
+                "itemID":"gem5",
                 "chance":"33",
                 "quantity":{
                     "min":1,
@@ -1868,22 +1456,6 @@
             },
             {
                 "itemID":"gem3",
-                "chance":"33",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"gem4",
-                "chance":"33",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"gem5",
                 "chance":"33",
                 "quantity":{
                     "min":1,
@@ -1896,15 +1468,15 @@
         "id":"lae_fc1_2y3",
         "items":[
             {
-                "itemID":"gem1",
-                "chance":"33",
+                "itemID":"gem4",
+                "chance":"100",
                 "quantity":{
                     "min":1,
                     "max":1
                 }
             },
             {
-                "itemID":"gem2",
+                "itemID":"gem5",
                 "chance":"33",
                 "quantity":{
                     "min":1,
@@ -1913,22 +1485,6 @@
             },
             {
                 "itemID":"gem3",
-                "chance":"33",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"gem4",
-                "chance":"33",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"gem5",
                 "chance":"33",
                 "quantity":{
                     "min":1,
@@ -1941,32 +1497,8 @@
         "id":"lae_fc1_2y4",
         "items":[
             {
-                "itemID":"gem1",
-                "chance":"33",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"gem2",
-                "chance":"33",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"gem3",
-                "chance":"33",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
                 "itemID":"gem4",
-                "chance":"33",
+                "chance":"100",
                 "quantity":{
                     "min":1,
                     "max":1
@@ -1979,27 +1511,6 @@
                     "min":1,
                     "max":1
                 }
-            }
-        ]
-    },
-    {
-        "id":"lae_fc1_3y1",
-        "items":[
-            {
-                "itemID":"gem1",
-                "chance":"33",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"gem2",
-                "chance":"33",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
             },
             {
                 "itemID":"gem3",
@@ -2008,10 +1519,15 @@
                     "min":1,
                     "max":1
                 }
-            },
+            }
+        ]
+    },
+    {
+        "id":"lae_fc1_3y1",
+        "items":[
             {
-                "itemID":"gem4",
-                "chance":"33",
+                "itemID":"gem2",
+                "chance":"100",
                 "quantity":{
                     "min":1,
                     "max":1
@@ -2031,32 +1547,8 @@
         "id":"lae_fc1_3y2",
         "items":[
             {
-                "itemID":"gem1",
-                "chance":"33",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
                 "itemID":"gem2",
-                "chance":"33",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"gem3",
-                "chance":"33",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"gem4",
-                "chance":"33",
+                "chance":"100",
                 "quantity":{
                     "min":1,
                     "max":1
@@ -2076,32 +1568,8 @@
         "id":"lae_fc1_3y3",
         "items":[
             {
-                "itemID":"gem1",
-                "chance":"33",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
                 "itemID":"gem2",
-                "chance":"33",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"gem3",
-                "chance":"33",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"gem4",
-                "chance":"33",
+                "chance":"100",
                 "quantity":{
                     "min":1,
                     "max":1
@@ -2121,32 +1589,8 @@
         "id":"lae_fc1_3y4",
         "items":[
             {
-                "itemID":"gem1",
-                "chance":"33",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
                 "itemID":"gem2",
-                "chance":"33",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"gem3",
-                "chance":"33",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"gem4",
-                "chance":"33",
+                "chance":"100",
                 "quantity":{
                     "min":1,
                     "max":1
@@ -2166,32 +1610,8 @@
         "id":"lae_fc1_4y1",
         "items":[
             {
-                "itemID":"gem1",
-                "chance":"33",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
                 "itemID":"gem2",
-                "chance":"33",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"gem3",
-                "chance":"33",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"gem4",
-                "chance":"33",
+                "chance":"100",
                 "quantity":{
                     "min":1,
                     "max":1
@@ -2211,16 +1631,8 @@
         "id":"lae_fc1_4y2",
         "items":[
             {
-                "itemID":"gem1",
-                "chance":"33",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"gem2",
-                "chance":"33",
+                "itemID":"gem4",
+                "chance":"100",
                 "quantity":{
                     "min":1,
                     "max":1
@@ -2228,22 +1640,6 @@
             },
             {
                 "itemID":"gem3",
-                "chance":"33",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"gem4",
-                "chance":"33",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"gem5",
                 "chance":"33",
                 "quantity":{
                     "min":1,
@@ -2256,16 +1652,8 @@
         "id":"lae_fc1_4y3",
         "items":[
             {
-                "itemID":"gem1",
-                "chance":"33",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"gem2",
-                "chance":"33",
+                "itemID":"gem4",
+                "chance":"100",
                 "quantity":{
                     "min":1,
                     "max":1
@@ -2273,22 +1661,6 @@
             },
             {
                 "itemID":"gem3",
-                "chance":"33",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"gem4",
-                "chance":"33",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"gem5",
                 "chance":"33",
                 "quantity":{
                     "min":1,
@@ -2301,16 +1673,8 @@
         "id":"lae_fc1_4y4",
         "items":[
             {
-                "itemID":"gem1",
-                "chance":"33",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"gem2",
-                "chance":"33",
+                "itemID":"gem4",
+                "chance":"100",
                 "quantity":{
                     "min":1,
                     "max":1
@@ -2318,22 +1682,6 @@
             },
             {
                 "itemID":"gem3",
-                "chance":"33",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"gem4",
-                "chance":"33",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"gem5",
                 "chance":"33",
                 "quantity":{
                     "min":1,
