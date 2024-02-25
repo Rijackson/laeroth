@@ -816,5 +816,33 @@
         "attackChance":80,
         "blockChance":90,
         "damageResistance":9
+    },
+    {
+        "id":"rooster",
+        "name":"Rooster",
+        "iconID":"monsters_newb_1:1329",
+        "monsterClass":"animal"
+    },
+    {
+        "id":"chicken",
+        "name":"Chicken",
+        "iconID":"monsters_newb_1:1328",
+        "monsterClass":"animal"
+    },
+    {
+        "id":"guard_dog",
+        "name":"Guard dog",
+        "iconID":"monsters_newb_1:304",
+        "monsterClass":"animal",
+        "movementAggressionType":"protectSpawn",
+        "phraseID":"guard_dog"
+    },
+    {
+        "id":"isolated_man",
+        "name":"Isolated man",
+        "iconID":"monsters_ld2:52",
+        "unique":1,
+        "monsterClass":"humanoid",
+        "phraseID":"waterway_forest_isolated_man"
     }
 ]
