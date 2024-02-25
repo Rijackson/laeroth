@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="33" nextobjectid="37">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="33" nextobjectid="38">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -200,7 +200,7 @@
  </layer>
  <layer id="15" name="Ground_1" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJztlE0OgjAQhZu0G34SYGOirtT7n0M9AnoE686NGkGadkKpHZ0CcdWXfAuHmXkEX4axqKj/6MQ1Zz6s154aVq95v4cqyTVX7q8rj1uiqZHeC+/7qWqQXS+unykOBvjdIr5NgG8p9JzrWwj9zEclPn3VfOnUv0l9P5iD76nYdDu2CDsx7LXnp/qGMNZXzuArA32llRXfznvG2MPwzHRNpMMeyGBInlveZ8Xnm+SMpYYs9/dABl8BvhWSFWDZea0Ma8QXMlgE5BnzGwtV2Lz7H1LIF9N9qbjvRxXcvqOTib11H118vbCHKuz2hdxJu5cq+/bZ+nUnsd6oqKioOfQGPPfNAg==
+   eJztlD0OwjAMhSMlS3+ktgsSMFHufw7gCIUjUDYWQLQQJVbdEINDEVM+6Q04th+CJwsRifyHvTQ6yHG98dSoeiOHPVxaaXSS/rr2OCdGDdF7lEM/l47YdZfmTWtrBZ97wrcL8C2VmXN9C2XefKrUq6+eL536O2rkC7+n1kqZN5/WatwL83WAL57Du0KE57ngrEzxbQN9W5QV385LJsTV6paZmkrHPZDBkDz3csiKzzfJhUitstzfAxm8B/hWRFZA86fXwmpJ+EIGi4BcUX7figs17/6HHOWz6b5cud+PC9y+nZOJDbqPrny9sIcLdftC7iTu5YJvH+bTnaR6I5FI5Bc8APFByzM=
   </data>
  </layer>
  <layer id="2" name="Objects" width="30" height="30">
@@ -215,7 +215,7 @@
  </layer>
  <layer id="14" name="Objects_1" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYBgF9AQZYqTrWclCfTvEmAirWYFkLzHqR8EooDcA5Y1vAgi+syADw38h/HoEhBkYePgRfBdBBPurAHH5bQWamhxW/OrR808P0P5FSHoOi2GaiU8/DCwmYC8pgJQ8/g4a5r38qOJcwLDkFsRUj6yHEvAIGrdz+fGroxb4AnRzKjCMY6DhvJYO9i5khdiJC9CqLN4jBMFHgfgYgTxETXCYjDpxFAxuQE47ZzDaMQqGDhhto1IOAFr1GhE=
+   eJxjYBgF9AQZYqTrWclCfTvEmAirWYFkLzHqR8HIBs8EqGfWUyLNAuWNb0hqnQUZGP4L4dcjIMzAwMOP4LsIIthfBYjLbyvQ1OSw4lePnn96gPYvQtJzWAzTTHz6YWAxAXtJAaTk8XfQMO/lRxXnAoYltyCmemQ9lIBH0Lidy49fHbXAF6CbU4FhHAMN57V0sHchK8ROXIBWZfEeIQg+CsTHCOQhaoLDZNSJo2BwA3LaOYPRjlEwdMBoG5VyAADOExv8
   </data>
  </layer>
  <layer id="3" name="Above" width="30" height="30">
@@ -245,7 +245,7 @@
  </layer>
  <layer id="16" name="Top_1" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2DkgMtitFFLCBwmwSxS1FLTrEtY1JIbBpT6gVz9o/bSFsDSA7a0QkvwRIC+9o2CkQUek5CeSVE7CkbBKBgFQwUAAEO7ENU=
+   eJxjYBgFo2DkgMtitFFLCBwmwSxS1FLTrEtY1JIbBpT6gVz9Q9VecgG97YWlB2xphZbgiQB97RsFIws8JiE9k6J2FIyCUTAKhgoAAAggD/w=
   </data>
  </layer>
  <layer id="4" name="Walkable" width="30" height="30" visible="0">
@@ -263,7 +263,7 @@
    eJxjYBgFo4A+YKMYAmMTx6WeGDMosRdZnBS11LAXGx61l3x7SdFHqf6hai+6GZTYS2xepsTduPIpKYBW/iXWHFLVkxuvlABqpCtK7cXnnuFYXtHT3lEwCkbBKMAHAOyCe5o=
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents" visible="0">
+ <objectgroup id="5" name="Mapevents">
   <object id="1" name="up" type="mapchange" x="64" y="768" width="32" height="32">
    <properties>
     <property name="map" value="final_cave_labyrinth"/>
@@ -279,12 +279,18 @@
   </object>
   <object id="4" name="map_exit" type="mapchange" x="736" y="832" width="64" height="32"/>
   <object id="33" name="final_cave_s9" type="script" x="288" y="320" width="448" height="256"/>
-  <object id="36" name="final_cave_andor1" type="script" x="448" y="768" width="64" height="32"/>
+  <object id="36" name="lae_andor1" type="script" x="448" y="768" width="64" height="32"/>
+  <object id="37" name="down" type="mapchange" x="768" y="512" width="32" height="32">
+   <properties>
+    <property name="map" value="final_cave2"/>
+    <property name="place" value="up"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup id="6" name="Spawn">
-  <object id="5" name="lae_andor" type="spawn" x="320" y="352" width="352" height="192">
+  <object id="5" name="lae_andor2" type="spawn" x="320" y="352" width="352" height="192">
    <properties>
-    <property name="spawngroup" value="lae_andor"/>
+    <property name="spawngroup" value="lae_andor2"/>
    </properties>
   </object>
   <object id="34" name="lae_algangror2" type="spawn" x="320" y="352" width="352" height="192">

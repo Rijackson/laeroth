@@ -576,12 +576,12 @@
         "phraseID":"brute_fisherman"
     },
     {
-        "id":"lae_andor",
+        "id":"lae_andor2",
         "name":"Andor",
         "iconID":"monsters_maksiu1:1",
         "monsterClass":"humanoid",
-        "spawnGroup":"lae_andor",
-        "phraseID":"lae_andor"
+        "spawnGroup":"lae_andor2",
+        "phraseID":"lae_andor2"
     },
     {
         "id":"lae_algangror1",
@@ -614,6 +614,30 @@
         "monsterClass":"humanoid",
         "spawnGroup":"lae_jhaeld2",
         "phraseID":"lae_jhaeld2"
+    },
+    {
+        "id":"lae_island_boss",
+        "name":"Dorhantarh",
+        "iconID":"monsters_demon1:0",
+        "monsterClass":"humanoid",
+        "spawnGroup":"lae_island_boss",
+        "phraseID":"lae_island_boss",
+        "maxHP":297,
+        "moveCost":6,
+        "unique":1,
+        "monsterClass":"animal",
+        "movementAggressionType":"wholeMap",
+        "attackDamage":{
+            "min":24,
+            "max":50
+        },
+        "droplistID":"lae_island_boss",
+        "attackCost":4,
+        "attackChance":165,
+        "criticalSkill":3,
+        "criticalMultiplier":3.0,
+        "blockChance":127
+
     },
     {
         "id":"gylew_henchman_aggresive",

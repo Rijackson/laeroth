@@ -5439,32 +5439,20 @@
         "message":"Step forward to have a better view of the map."
     },
     {
-        "id":"final_cave_map_b",
-        "message":"Blue crystal"
-    },
-    {
-        "id":"final_cave_map_g",
-        "message":"Green crystal"
-    },
-    {
-        "id":"final_cave_map_r",
-        "message":"Red crystal"
-    },
-    {
         "id":"final_cave_map_f",
-        "message":"Scroll of elements - Fire"
+        "message":"F i r e"
     },
     {
         "id":"final_cave_map_w",
-        "message":"Scroll of elements - Water"
+        "message":"W a t e r"
     },
     {
         "id":"final_cave_map_e",
-        "message":"Scroll of elements - Earth"
+        "message":"E a r t h"
     },
     {
         "id":"final_cave_map_a",
-        "message":"Scroll of elements - Air"
+        "message":"A i r"
     },
     {
         "id":"final_cave_k1",
@@ -7414,6 +7402,16 @@
                 "nextPhraseID":"final_cave_kx_open",
                 "requires":[
                     {
+                        "requireType":"killedMonster",
+                        "requireID":"lae_island_boss",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"final_cave_kx_open",
+                "requires":[
+                    {
                         "requireType":"questProgress",
                         "requireID":"final_cave",
                         "value":9,
@@ -7539,7 +7537,17 @@
         "id":"final_cave_s9",
         "replies":[
             {
-                "nextPhraseID":"final_cave_s9_11"
+                "nextPhraseID":"final_cave_s9_11",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"final_cave",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"final_cave_s9_10"
             }
         ],
         "rewards":[
@@ -7644,33 +7652,234 @@
         ]
     },
     {
-        "id":"final_cave_andor1_10",
-        "message":"Who is there? Declare yourself!",
-        "switchToNPC":"lae_andor",
+        "id":"lae_andor1",
         "replies":[
             {
-                "text":"I know that voice ... Andor, is it really you?",
-                "nextPhraseID":"final_cave_andor1_20"
+                "nextPhraseID":"lae_andor1_10",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"lae_andor2",
+						"value":"1",
+						"negate":true
+                    }
+                ]
             }
         ]
     },
     {
-        "id":"final_cave_andor1_20",
+        "id":"lae_andor1_10",
+        "message":"Who is there? Declare yourself!",
+        "switchToNPC":"lae_andor2",
+        "replies":[
+            {
+                "text":"I know that voice ... Andor, is it really you?",
+                "nextPhraseID":"lae_andor1_20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"final_cave",
+						"value":"11",
+						"negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Calm down, Andor. It's me.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"final_cave",
+						"value":"11"
+                    }
+                ]
+            },
+            {
+                "text":"Please tell me again, what I should do.",
+                "nextPhraseID":"lae_andor1_50",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"final_cave",
+						"value":"11"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"lae_andor1_20",
+        "replies":[
+            {
+                "nextPhraseID":"lae_andor1_21",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"25"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"lae_andor1_22",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"33"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"lae_andor1_23",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"50"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"lae_andor1_24"
+            }
+        ]
+    },
+    {
+        "id":"lae_andor1_21",
+        "replies":[
+            {
+                "nextPhraseID":"lae_andor1_30"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"lae_fc1_1",
+                "mapName":"island1"
+            },
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"lae_fc1_1",
+                "mapName":"island2"
+            },
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"lae_fc1_1",
+                "mapName":"island3"
+            },
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"lae_fc1_1",
+                "mapName":"island4"
+            }
+        ]
+    },
+    {
+        "id":"lae_andor1_22",
+        "replies":[
+            {
+                "nextPhraseID":"lae_andor1_30"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"lae_fc1_2",
+                "mapName":"island1"
+            },
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"lae_fc1_2",
+                "mapName":"island2"
+            },
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"lae_fc1_2",
+                "mapName":"island3"
+            },
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"lae_fc1_2",
+                "mapName":"island4"
+            }
+        ]
+    },
+    {
+        "id":"lae_andor1_23",
+        "replies":[
+            {
+                "nextPhraseID":"lae_andor1_30"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"lae_fc1_3",
+                "mapName":"island1"
+            },
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"lae_fc1_3",
+                "mapName":"island2"
+            },
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"lae_fc1_3",
+                "mapName":"island3"
+            },
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"lae_fc1_3",
+                "mapName":"island4"
+            }
+        ]
+    },
+    {
+        "id":"lae_andor1_24",
+        "replies":[
+            {
+                "nextPhraseID":"lae_andor1_30"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"lae_fc1_4",
+                "mapName":"island1"
+            },
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"lae_fc1_4",
+                "mapName":"island2"
+            },
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"lae_fc1_4",
+                "mapName":"island3"
+            },
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"lae_fc1_4",
+                "mapName":"island4"
+            }
+        ]
+    },
+    {
+        "id":"lae_andor1_30",
         "message":"At last, $playername. What kept you so long?",
         "replies":[
             {
                 "text":"What?! ",
-                "nextPhraseID":"final_cave_andor1_40"
+                "nextPhraseID":"lae_andor1_40"
             }
         ]
     },
     {
-        "id":"final_cave_andor1_40",
+        "id":"lae_andor1_40",
         "message":"OK. We have no time for that. Let's come to business.",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"final_cave_andor1_50"
+                "nextPhraseID":"lae_andor1_50"
             }
         ],
         "rewards":[
@@ -7692,213 +7901,62 @@
         ]
     },
     {
-        "id":"final_cave_andor1_50",
+        "id":"lae_andor1_50",
         "message":"Open the wall and come here.",
         "replies":[
             {
                 "text":"How can I do this? The wall looks rather massive.",
-                "nextPhraseID":"final_cave_andor1_50_sel"
+                "nextPhraseID":"lae_andor1_52"
             }
         ]
     },
     {
-        "id":"final_cave_andor1_50_sel",
-        "replies":[
-            {
-                "nextPhraseID":"final_cave_andor1_50_sel1",
-                "requires":[
-                    {
-                        "requireType":"random",
-                        "requireID":"25"
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"final_cave_andor1_50_sel2",
-                "requires":[
-                    {
-                        "requireType":"random",
-                        "requireID":"33"
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"final_cave_andor1_50_sel3",
-                "requires":[
-                    {
-                        "requireType":"random",
-                        "requireID":"50"
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"final_cave_andor1_50_sel4"
-            }
-        ]
-    },
-    {
-        "id":"final_cave_andor1_50_sel1",
-        "replies":[
-            {
-                "nextPhraseID":"final_cave_andor1_52"
-            }
-        ],
-        "rewards":[
-            {
-                "rewardType":"activateMapObjectGroup",
-                "rewardID":"lae_fc1_1",
-                "mapName":"island1"
-            },
-            {
-                "rewardType":"activateMapObjectGroup",
-                "rewardID":"lae_fc1_1",
-                "mapName":"island2"
-            },
-            {
-                "rewardType":"activateMapObjectGroup",
-                "rewardID":"lae_fc1_1",
-                "mapName":"island3"
-            },
-            {
-                "rewardType":"activateMapObjectGroup",
-                "rewardID":"lae_fc1_1",
-                "mapName":"island4"
-            }
-        ]
-    },
-    {
-        "id":"final_cave_andor1_50_sel2",
-        "replies":[
-            {
-                "nextPhraseID":"final_cave_andor1_52"
-            }
-        ],
-        "rewards":[
-            {
-                "rewardType":"activateMapObjectGroup",
-                "rewardID":"lae_fc1_2",
-                "mapName":"island1"
-            },
-            {
-                "rewardType":"activateMapObjectGroup",
-                "rewardID":"lae_fc1_2",
-                "mapName":"island2"
-            },
-            {
-                "rewardType":"activateMapObjectGroup",
-                "rewardID":"lae_fc1_2",
-                "mapName":"island3"
-            },
-            {
-                "rewardType":"activateMapObjectGroup",
-                "rewardID":"lae_fc1_2",
-                "mapName":"island4"
-            }
-        ]
-    },
-    {
-        "id":"final_cave_andor1_50_sel3",
-        "replies":[
-            {
-                "nextPhraseID":"final_cave_andor1_52"
-            }
-        ],
-        "rewards":[
-            {
-                "rewardType":"activateMapObjectGroup",
-                "rewardID":"lae_fc1_3",
-                "mapName":"island1"
-            },
-            {
-                "rewardType":"activateMapObjectGroup",
-                "rewardID":"lae_fc1_3",
-                "mapName":"island2"
-            },
-            {
-                "rewardType":"activateMapObjectGroup",
-                "rewardID":"lae_fc1_3",
-                "mapName":"island3"
-            },
-            {
-                "rewardType":"activateMapObjectGroup",
-                "rewardID":"lae_fc1_3",
-                "mapName":"island4"
-            }
-        ]
-    },
-    {
-        "id":"final_cave_andor1_50_sel4",
-        "replies":[
-            {
-                "nextPhraseID":"final_cave_andor1_52"
-            }
-        ],
-        "rewards":[
-            {
-                "rewardType":"activateMapObjectGroup",
-                "rewardID":"lae_fc1_4",
-                "mapName":"island1"
-            },
-            {
-                "rewardType":"activateMapObjectGroup",
-                "rewardID":"lae_fc1_4",
-                "mapName":"island2"
-            },
-            {
-                "rewardType":"activateMapObjectGroup",
-                "rewardID":"lae_fc1_4",
-                "mapName":"island3"
-            },
-            {
-                "rewardType":"activateMapObjectGroup",
-                "rewardID":"lae_fc1_4",
-                "mapName":"island4"
-            }
-        ]
-    },
-    {
-        "id":"final_cave_andor1_52",
-        "message":"You have to find the books of the elements and the colored globes. Somebody must have stolen and hidden them all over the island.",
+        "id":"lae_andor1_52",
+        "message":"You have to find the elemtal scrolls and the colored globes. Somebody must have taken them and hidden them all over the island.",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"final_cave_andor1_54"
+                "nextPhraseID":"lae_andor1_54"
             }
         ]
     },
     {
-        "id":"final_cave_andor1_54",
-        "message":"There are four books and 3 globes of course. Get them here and place them around this room in the right order.",
+        "id":"lae_andor1_54",
+        "message":"There are four scrolls and three globes of course. Get them here and place them around this room.",
         "replies":[
             {
                 "text":"???",
-                "nextPhraseID":"final_cave_andor1_60"
+                "nextPhraseID":"lae_andor1_60"
             }
         ]
     },
     {
-        "id":"final_cave_andor1_60",
+        "id":"lae_andor1_60",
         "message":"You will certainly find out the correct order.",
         "replies":[
             {
                 "text":"Sure.",
-                "nextPhraseID":"final_cave_andor1_62"
+                "nextPhraseID":"lae_andor1_62"
             }
         ]
     },
     {
-        "id":"final_cave_andor1_62",
+        "id":"lae_andor1_62",
         "message":"I remember there's even a placement order map somewhere.",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"final_cave_andor1_70"
+                "nextPhraseID":"lae_andor1_70"
             }
         ]
     },
     {
-        "id":"final_cave_andor1_70",
+        "id":"lae_andor1_70",
         "message":"Hurry now! And bring something to eat!"
+    },
+    {
+        "id":"island_4_cave1_key",
+        "message":"You feel somebody staring at your back."
     },
     {
         "id":"lae_algangror1",
@@ -7948,6 +8006,13 @@
                 "text":"Well, first I am going downstairs to talk to our friend.",
                 "nextPhraseID":"X"
             }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"final_cave",
+                "value":12
+            }
         ]
     },
     {
@@ -7973,24 +8038,10 @@
         ]
     },
     {
-        "id":"lae_andor",
-        "message":"OK. You have found me.\n\n***  G A M E    O V E R  ***\n",
+        "id":"lae_andor1_999_maybe_obsolete",
         "replies":[
             {
-                "text":"What? Just like that??",
-                "nextPhraseID":"lae_andor_10"
-            }
-        ]
-    },
-    {
-        "id":"lae_andor_10",
-        "message":"No - just kidding...\n Feygard and Nor City are still missing after all ...\n;)"
-    },
-    {
-        "id":"final_cave_andor1",
-        "replies":[
-            {
-                "nextPhraseID":"final_cave_andor1_10"
+                "nextPhraseID":"lae_andor2_10"
             }
         ],
         "rewards":[
@@ -8003,6 +8054,38 @@
                 "rewardType":"alignmentSet",
                 "rewardID":"final_cave_e",
                 "value":0
+            }
+        ]
+    },
+    {
+        "id":"lae_andor2",
+        "message":"OK. You have found me.\n\n***  G A M E    O V E R  ***\n",
+        "replies":[
+            {
+                "text":"What? Just like that??",
+                "nextPhraseID":"lae_andor2_10"
+            }
+        ]
+    },
+    {
+        "id":"lae_andor2_10",
+        "message":"No - just kidding...\n Feygard and Nor City are still missing after all ...\n;)"
+    },
+    {
+        "id":"lae_plant",
+        "message":"Crap, the plant didn't grow tall enough."
+    },
+    {
+        "id":"lae_fc1_key",
+        "message":"You see nothing special."
+    },
+    {
+        "id":"lae_island_boss",
+        "message":"Ah, my dinner at last. ...todo: much to explain...",
+        "replies":[
+            {
+                "text":"Attack!",
+				"nextPhraseID":"F"
             }
         ]
     },

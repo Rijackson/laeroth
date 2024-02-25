@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="14" nextobjectid="30">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="14" nextobjectid="35">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -198,7 +198,7 @@
  </layer>
  <layer id="3" name="Objects" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztlTtLA0EQx5doFw3eRY0XrKw1IoqNlYhaaOOr1kYLG21EP4CgX8dGEBGLFGqlWKj4CliIRYIiqSSFM9wNNxk2m9t4EAX/MNze7eM3szs7p9S//poS6eZwXQO36MbP+4x5zZ/u23WD/uC+xR2LSb8hP5ahvdIEPzaAuWngxnEONrk+lDT3D4t+Gi+/2wjXGBM+nnhhO1fD/0PHfx55+n4TT+qlgX2+iMgdySi1CjZusUdLgT/5IMZ7x8431FRGH1e5o/Z7b9Y3nbgPprxEbrZHqW0YsyPGDcAaObBBEc+tE3LXYU4LtFvBriz2eA2sArYH8/cZVxfvWcCneDE2zLk0tDvBusCKAdtURynWJNiuYdyDiPdcvNucL48VdSfmvtVYa0HkH+Ujfk901+fyWFFzMK9g8BtzTzJpHn13I3Ip1seU8F2z55J5KnKokFCqz4LLa7S8w3RuE5o4LxkXmeT7a52zJm6ejSPuDOTlLLufnIuMgwbqhOSibpxqLgnv43Q25CKT6xnmPYlvNlwScTG/+N3APUTmfIRzN0neIRT6jdySyBeKldd73bknI8TN7xD9l7eC57HnM97BPrxwbV7DqY19lFNfsGY/rDcq9lByK5r/AdYsWXt0uYy1sBT4RHe+DZiLsOZkBK6UrIeosludT8ikuozcduhPuT6XYv0G3kh2mQ==
+   eJztlTtLA0EQx5doFw3eRY0XrKw1IoqNlYhaaOOr1kYLG21EP4CgX8dGEBGLFGqlWKj4CliIRYIiqSSFM9wNNxk2m9t4EAX/MNze7eM3szs7p9S//poS6eZwXQO36MbP+4x5zZ/u23WD/uC+xR2LSb8hP5ahvdIEPzaAuWngxnEONrk+lDT3D4t+Gi+/2wjXGBM+nnhhO1fD/0PHfx55+n4TT+qlgX2+iMgdySi1CjZusUdLgT/5IMZ7x8431FRGH1e5o/Z7b9Y3nbgPprxEbrZHqW0YsyPGDcAaObBBEc+tE3LXYU4LtFvBriz2eA2sArYH8/cZVxfvWcCneDE2zLk0tDvBusCKAdtURynWJNiuYdyDiPdcvNucL48VdSfmvtVYa0HkH+Ujfk901+fyWFFzMK9g8BtzjzNPvXAefXcjcinWx5TwXbPnMs5LkUOFhFJ9Flxeo+UdpnOb0NxtzkUm+f5a56yJm2fjiDsDeTnL7ifnIuOggTohuagbp5pLwvs4nQ25yOR6hnlP4psNl0RczC9+N3APkTkf4dxNkncIhX4jtyTyhWLl9V537skIcfM7RP/lreB57PmMd7APL1yb13BqYx/l1Bes2Q/rjYo9lNyK5n+ANUvWHl0uYy0sBT7RnW8D5iKsORmBKyXrIarsVucTMqkuI7cd+lOuz6VYvwHDC3eB
   </data>
  </layer>
  <layer id="4" name="Above" width="30" height="30">
@@ -213,10 +213,10 @@
  </layer>
  <layer id="6" name="Walkable" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztU1sKwDAI6yl2/yv0hvsdEqsxFvahENgzMTbuZ609GAwGg3Zkyvte0URc2brh8c+6rDb617uPelUzlenLy4eimfGr5jeaG1OMx8reVmeM+BQfVV1FE51/tj/Vq+qX2alqlpHuiZOdA+sX8aPq0I08dehaH1H2vGLPO8MRcdt37IxPut7O2Wff6xe5Vvrk
+   eJztk8sNwDAIQzNF918hG/ZaITuYT6QeQEJq0sYPU7Kftfbk5OTkZHsqwb6vMJGWGjc8/pkbZaOzbO3VWp0ppS42HxWm4rc6v17fIhHxmLm32R4jPZWJGFluxCfbU9jIQ5arMtV5RXqnejr67J3p5jJ9FB1cz1MH1/rwZo9F9H8rGp62fRft8YnL7o3d+z6/uQX4jw==
   </data>
  </layer>
- <objectgroup id="7" name="Mapevents" visible="0">
+ <objectgroup id="7" name="Mapevents">
   <object id="1" name="south1" type="mapchange" x="224" y="928" width="160" height="32">
    <properties>
     <property name="map" value="island4"/>
@@ -252,6 +252,9 @@
     <property name="map" value="island4"/>
     <property name="place" value="north5"/>
    </properties>
+  </object>
+  <object id="30" name="lae_plant" type="sign" x="736" y="640" width="32" height="32">
+   <polygon points="0,0 32,0 32,32 0,32"/>
   </object>
  </objectgroup>
  <objectgroup id="10" name="lae_fc1_1">
@@ -291,5 +294,38 @@
   <object id="29" name="lae_fc1_1e4" type="container" x="832" y="864" width="32" height="32"/>
  </objectgroup>
  <objectgroup id="8" name="Spawn"/>
- <objectgroup id="9" name="Keys"/>
+ <objectgroup id="9" name="Keys">
+  <object id="31" name="lae_fc1_key1" type="key" x="864" y="704" width="32" height="32">
+   <properties>
+    <property name="phrase" value="lae_fc1_key"/>
+    <property name="requireId" value="final_cave"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="11"/>
+   </properties>
+  </object>
+  <object id="32" name="lae_fc1_key2" type="key" x="320" y="672" width="32" height="32">
+   <properties>
+    <property name="phrase" value="lae_fc1_key"/>
+    <property name="requireId" value="final_cave"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="11"/>
+   </properties>
+  </object>
+  <object id="33" name="lae_fc1_key3" type="key" x="576" y="800" width="32" height="32">
+   <properties>
+    <property name="phrase" value="lae_fc1_key"/>
+    <property name="requireId" value="final_cave"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="11"/>
+   </properties>
+  </object>
+  <object id="34" name="lae_fc1_key4" type="key" x="832" y="864" width="32" height="32">
+   <properties>
+    <property name="phrase" value="lae_fc1_key"/>
+    <property name="requireId" value="final_cave"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="11"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

@@ -195,7 +195,7 @@
  </layer>
  <layer id="2" name="Objects" width="15" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYEAFzkwIdroggs0OFJcE4u/iDAwaEgwMP8QZcAKYPmT9IMApAaF/4tCLrh7FfqBeCSDmkECIBTMxEATEqAEBZyLVgYC7IKYYJxb95oKoZmPThw/A9IP0oWNc6tExNiBJpF9hfsLmN0Lm4Qp3C6CbfrJBaGLMRgYeQD2c7BAaGwCZJceFwITcEgJMh6FQHIYnPWMDZkD1Jzgh2A1NryzQPnE0O2H+lAHSKUD1qVCcBsQAGYMWgg==
+   eJyNkkkOwjAMRa0uKFlmlVSCPScA9pWAPcMJGM4FHAE4AsONoDt+lEZJSkLypSdblr9jVyXyVRc2P3Cbl6hX4C2IRpLoIygq43P9Skzq2ES83X7vfXgl6EtbWxaUVE6PUp3ZpzTnvzUW8E+4Pzvk+yfjVz6XlMclpCrzVnNT6LbUvNh3n2KnpqdjzmxXC3hYqWNIatYRnMDZmRvbZYX/cN2yARf0XcEtY6cx+l9MM0N+h+cBnmAIRGeGuXOAuEX/rmUPvnjQG9A=
   </data>
  </layer>
  <layer id="3" name="Above" width="15" height="15">
@@ -224,9 +224,6 @@
   <object id="6" name="final_cave_map_a" type="script" x="384" y="0" width="96" height="96"/>
   <object id="7" name="final_cave_map_e" type="script" x="0" y="384" width="96" height="96"/>
   <object id="8" name="final_cave_map_w" type="script" x="384" y="384" width="96" height="96"/>
-  <object id="9" name="final_cave_map_r" type="script" x="384" y="160" width="96" height="96"/>
-  <object id="10" name="final_cave_map_g" type="script" x="0" y="160" width="96" height="96"/>
-  <object id="11" name="final_cave_map_b" type="script" x="192" y="0" width="96" height="64"/>
  </objectgroup>
  <objectgroup id="6" name="Spawn"/>
  <objectgroup id="7" name="Keys"/>

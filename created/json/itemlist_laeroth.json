@@ -587,28 +587,28 @@
     },
     {
         "id":"final_cave_f",
-        "iconID":"items_japozero:421",
+        "iconID":"items_japozero:238",
         "name":"Scroll of fire",
         "displaytype":"quest",
         "category":"other"
     },
     {
         "id":"final_cave_w",
-        "iconID":"items_japozero:421",
+        "iconID":"items_japozero:238",
         "name":"Scroll of water",
         "displaytype":"quest",
         "category":"other"
     },
     {
         "id":"final_cave_e",
-        "iconID":"items_japozero:421",
+        "iconID":"items_japozero:238",
         "name":"Scroll of earth",
         "displaytype":"quest",
         "category":"other"
     },
     {
         "id":"final_cave_a",
-        "iconID":"items_japozero:421",
+        "iconID":"items_japozero:238",
         "name":"Scroll of wind",
         "displaytype":"quest",
         "category":"other"

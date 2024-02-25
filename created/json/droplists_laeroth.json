@@ -1691,6 +1691,19 @@
         ]
     },
     {
+        "id":"lae_island_boss",
+        "items":[
+            {
+                "itemID":"gold",
+                "chance":"100",
+                "quantity":{
+                    "min":100,
+                    "max":1000
+                }
+            }
+        ]
+    },
+    {
         "id":"vahram",
         "items":[
             {
