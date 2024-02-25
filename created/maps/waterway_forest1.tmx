@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="30" height="18" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="10">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="30" height="18" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="15">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -201,17 +201,17 @@
  </layer>
  <layer id="3" name="Objects" width="30" height="18">
   <data encoding="base64" compression="zlib">
-   eJxjYMAEx8UYGE6IYZGAAlkhBgY5ID4sycDwBojfYqFB4DIOcWzgGdC+1wTspTaA2XkLiH/S2N4XYgiMbme9HANDgxzt7AbZ9QOKkf15UpCB4R6BeMEHKoFursLhbphdJwQRYjB7QHa+I9NOQuCUOAPDGXFUO0H+JDYd4vMTPvCGRv4hFWDzI6l+IqT+DQn5mtqAnnYNBKgGhnsNUthTWjbUAvXWkagfX1omN38QCwY6fskJL2IAcrjB7KBV2YsP0Du/ogMA7VVPcg==
+   eJytVU1PwzAM9V8Ih0490P/JN38NOJAhDpWQQPSw4zYY2xlu2FKtue5zWiSeFKVKHD/72UmJxnisiHIFNnqcnhA1PB5qoi8eezALXsD6e8I+18y3K/CuzbmV4ejM+pvzHdl5zo7HT1U+q/HL+qHGMQqs3d7Ybavj8Jw3DdFtE3MgbQUfLqdIY+H67odytmyzTMc4UdxIM+v7jGM+b4b7bb+vXNnYq98ovyltPTYgvqcF0fNiyLlMYw1f05BbZ5+T1SOncQ1sDhHueO8e7HutfS0QpuqDaik5dS5f1Rpp7zVAZ6KeLNUyeiusj+je6Wy5pmxLWtk+nuq/v9jO7WVfa50vWPdLo72+DUg/RQ56WXDFZ6/d+VJsn2nYy1unG7rzFrvgfY9it9rKN+p7tWln/APm/hsiWL0EeUbtS7pqzFY35VjV5T6169E7he7SoR7/f6Ie+a+32MervryPX/ZCFvc=
   </data>
  </layer>
  <layer id="4" name="Above" width="30" height="18">
   <data encoding="base64" compression="zlib">
-   eJztlEsKwCAMRHMNN96r/x7c3qVxERiktSaFSKFvo4hxMlFD9CNskWiPfbRTIDqCLXbgnMfGvFEnGfW0oA7Oa341nkqtfK6XN6H0IjngutbT035vj4j1rX6Fies+Q+3f9oaFY1dlfO1+rf+jld73a6lXC1g30fDqvUjPv6sFe+rViHvu5jKeDwgwyA==
+   eJytVMsNQyEMyxpc3l79d8V2HrpLuUSyIocY9HwBkb9JYraP3sx+7Tw9xbY3zaeqh3gdZu8jt+1wV2KvwGOpMRCXkfP1WIvj9yiLOmegCxzG91gT+wuWI+PR8Rlv34kN85HxEGVRD+39xJoi14x7xkFVY6bLZJhnrKPq/dlfMP/qnshyXtVd2ROMg9vg/Q7c+25A366bxUb5Y9g+k7+f5ZZhZear3BjU+a/mcBfIF/PNYii8Im8eo5r3bGfiTGc9r/Tnbi0Z2F5X+5S9x1pYbdXdzz/pk6dT
   </data>
  </layer>
- <layer id="5" name="Walkable" width="30" height="18">
+ <layer id="5" name="Walkable" width="30" height="18" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsBELxgewqcemH5+5pNpJLTAQdqLbi0tuIAAldpOiF1u6oAXAlsaQ2YTsJtdtgyEtE8prpJpLir30AgOVT+gFKI07QuZRqofW8T2Q5SCMpoUbcJV/9Ch7KQWk1PW42DAMADU1VYM=
+   eJy1k8ENwDAIAzNF918hG+aPDJxJitRHhY0J4P2ttcVXhcIrvpujQfEKRzVj3uVV/I7zQptGp63wkevoKN70Dpz+6GyzfPZP3tBxSA3yphtPOvuZ3uorbTq/bo507i7W9SrZ1VTb4cc6bq6KaoddbeKdm/6q+1O4v3w74VBfZr12N0Y1KPYACrHfGg==
   </data>
  </layer>
  <objectgroup id="6" name="Mapevents">
@@ -244,27 +244,58 @@
     <property name="place" value="west"/>
    </properties>
   </object>
+  <object id="6" name="south" type="mapchange" x="160" y="544" width="32" height="32">
+   <properties>
+    <property name="map" value="waterway_forest2"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup id="7" name="Spawn">
-  <object id="6" name="erumen_4_1" type="spawn" x="96" y="288" width="64" height="32">
+  <object id="7" name="erumen_4_1" type="spawn" x="224" y="448" width="32" height="64">
    <properties>
+    <property name="quantity" value="2"/>
     <property name="spawngroup" value="erumen_4"/>
    </properties>
   </object>
-  <object id="7" name="izthiel_2_1" type="spawn" x="192" y="64" width="32" height="32">
+  <object id="8" name="izthiel_2_spawn" type="spawn" x="352" y="64" width="544" height="192">
    <properties>
+    <property name="quantity" value="6"/>
     <property name="spawngroup" value="izthiel_2"/>
    </properties>
   </object>
-  <object id="8" name="izthiel_1" type="spawn" x="288" y="64" width="32" height="32">
+  <object id="9" name="izthiel_1" type="spawn" x="64" y="64" width="224" height="192">
    <properties>
+    <property name="quantity" value="3"/>
     <property name="spawngroup" value="izthiel_1"/>
    </properties>
   </object>
-  <object id="9" name="erumen_2" type="spawn" x="256" y="288" width="192" height="32">
+  <object id="10" name="erumen_spawn" type="spawn" x="800" y="320" width="96" height="32">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="erumen_2"/>
+   </properties>
+  </object>
+  <object id="11" name="izthiel_2_spawn2" type="spawn" x="32" y="288" width="320" height="160">
    <properties>
     <property name="quantity" value="3"/>
+    <property name="spawngroup" value="izthiel_2"/>
+   </properties>
+  </object>
+  <object id="12" name="erumen_2_spawn2" type="spawn" x="352" y="416" width="32" height="32">
+   <properties>
     <property name="spawngroup" value="erumen_2"/>
+   </properties>
+  </object>
+  <object id="13" name="erumen_2_spawn3" type="spawn" x="896" y="352" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="erumen_2"/>
+   </properties>
+  </object>
+  <object id="14" name="izthiel_2_spawn3" type="spawn" x="416" y="320" width="448" height="192">
+   <properties>
+    <property name="quantity" value="4"/>
+    <property name="spawngroup" value="izthiel_2"/>
    </properties>
   </object>
  </objectgroup>
