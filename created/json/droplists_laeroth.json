@@ -538,210 +538,1810 @@
             }
         ]
     },
-
-    { "id":"lae_fc1_1e1", "items":[{ "itemID":"final_cave_f", "chance":"100", "quantity":{ "min":1, "max":1 }}] },
-    { "id":"lae_fc1_1e2", "items":[{ "itemID":"final_cave_f", "chance":"100", "quantity":{ "min":1, "max":1 }}] },
-    { "id":"lae_fc1_1e3", "items":[{ "itemID":"final_cave_f", "chance":"100", "quantity":{ "min":1, "max":1 }}] },
-    { "id":"lae_fc1_1e4", "items":[{ "itemID":"final_cave_f", "chance":"100", "quantity":{ "min":1, "max":1 }}] },
-
-    { "id":"lae_fc1_2e1", "items":[{ "itemID":"final_cave_w", "chance":"100", "quantity":{ "min":1, "max":1 }}] },
-    { "id":"lae_fc1_2e2", "items":[{ "itemID":"final_cave_w", "chance":"100", "quantity":{ "min":1, "max":1 }}] },
-    { "id":"lae_fc1_2e3", "items":[{ "itemID":"final_cave_w", "chance":"100", "quantity":{ "min":1, "max":1 }}] },
-    { "id":"lae_fc1_2e4", "items":[{ "itemID":"final_cave_w", "chance":"100", "quantity":{ "min":1, "max":1 }}] },
-
-    { "id":"lae_fc1_3e1", "items":[{ "itemID":"final_cave_e", "chance":"100", "quantity":{ "min":1, "max":1 }}] },
-    { "id":"lae_fc1_3e2", "items":[{ "itemID":"final_cave_e", "chance":"100", "quantity":{ "min":1, "max":1 }}] },
-    { "id":"lae_fc1_3e3", "items":[{ "itemID":"final_cave_e", "chance":"100", "quantity":{ "min":1, "max":1 }}] },
-    { "id":"lae_fc1_3e4", "items":[{ "itemID":"final_cave_e", "chance":"100", "quantity":{ "min":1, "max":1 }}] },
-
-    { "id":"lae_fc1_4e1", "items":[{ "itemID":"final_cave_a", "chance":"100", "quantity":{ "min":1, "max":1 }}] },
-    { "id":"lae_fc1_4e2", "items":[{ "itemID":"final_cave_a", "chance":"100", "quantity":{ "min":1, "max":1 }}] },
-    { "id":"lae_fc1_4e3", "items":[{ "itemID":"final_cave_a", "chance":"100", "quantity":{ "min":1, "max":1 }}] },
-    { "id":"lae_fc1_4e4", "items":[{ "itemID":"final_cave_a", "chance":"100", "quantity":{ "min":1, "max":1 }}] },
-
-    { "id":"lae_fc1_1g1", "items":[{ "itemID":"final_cave_b", "chance":"100", "quantity":{ "min":1, "max":1 }}] },
-    { "id":"lae_fc1_1g2", "items":[{ "itemID":"final_cave_b", "chance":"100", "quantity":{ "min":1, "max":1 }}] },
-    { "id":"lae_fc1_1g3", "items":[{ "itemID":"final_cave_b", "chance":"100", "quantity":{ "min":1, "max":1 }}] },
-    { "id":"lae_fc1_1g4", "items":[{ "itemID":"final_cave_b", "chance":"100", "quantity":{ "min":1, "max":1 }}] },
-
-    { "id":"lae_fc1_2g1", "items":[{ "itemID":"final_cave_g", "chance":"100", "quantity":{ "min":1, "max":1 }}] },
-    { "id":"lae_fc1_2g2", "items":[{ "itemID":"final_cave_g", "chance":"100", "quantity":{ "min":1, "max":1 }}] },
-    { "id":"lae_fc1_2g3", "items":[{ "itemID":"final_cave_g", "chance":"100", "quantity":{ "min":1, "max":1 }}] },
-    { "id":"lae_fc1_2g4", "items":[{ "itemID":"final_cave_g", "chance":"100", "quantity":{ "min":1, "max":1 }}] },
-
-    { "id":"lae_fc1_3g1", "items":[{ "itemID":"final_cave_r", "chance":"100", "quantity":{ "min":1, "max":1 }}] },
-    { "id":"lae_fc1_3g2", "items":[{ "itemID":"final_cave_r", "chance":"100", "quantity":{ "min":1, "max":1 }}] },
-    { "id":"lae_fc1_3g3", "items":[{ "itemID":"final_cave_r", "chance":"100", "quantity":{ "min":1, "max":1 }}] },
-    { "id":"lae_fc1_3g4", "items":[{ "itemID":"final_cave_r", "chance":"100", "quantity":{ "min":1, "max":1 }}] },
-
-    { "id":"lae_fc1_1x1", "items":[{ "itemID":"gem1", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem2", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem3", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem4", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem5", "chance":"33", "quantity":{ "min":1, "max":1 }}] },
-    { "id":"lae_fc1_1x2", "items":[{ "itemID":"gem1", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem2", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem3", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem4", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem5", "chance":"33", "quantity":{ "min":1, "max":1 }}] },
-    { "id":"lae_fc1_1x3", "items":[{ "itemID":"gem1", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem2", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem3", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem4", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem5", "chance":"33", "quantity":{ "min":1, "max":1 }}] },
-    { "id":"lae_fc1_1x4", "items":[{ "itemID":"gem1", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem2", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem3", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem4", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem5", "chance":"33", "quantity":{ "min":1, "max":1 }}] },
-
-    { "id":"lae_fc1_2x1", "items":[{ "itemID":"gem1", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem2", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem3", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem4", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem5", "chance":"33", "quantity":{ "min":1, "max":1 }}] },
-    { "id":"lae_fc1_2x2", "items":[{ "itemID":"gem1", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem2", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem3", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem4", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem5", "chance":"33", "quantity":{ "min":1, "max":1 }}] },
-    { "id":"lae_fc1_2x3", "items":[{ "itemID":"gem1", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem2", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem3", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem4", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem5", "chance":"33", "quantity":{ "min":1, "max":1 }}] },
-    { "id":"lae_fc1_2x4", "items":[{ "itemID":"gem1", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem2", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem3", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem4", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem5", "chance":"33", "quantity":{ "min":1, "max":1 }}] },
-
-    { "id":"lae_fc1_3x1", "items":[{ "itemID":"gem1", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem2", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem3", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem4", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem5", "chance":"33", "quantity":{ "min":1, "max":1 }}] },
-    { "id":"lae_fc1_3x2", "items":[{ "itemID":"gem1", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem2", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem3", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem4", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem5", "chance":"33", "quantity":{ "min":1, "max":1 }}] },
-    { "id":"lae_fc1_3x3", "items":[{ "itemID":"gem1", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem2", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem3", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem4", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem5", "chance":"33", "quantity":{ "min":1, "max":1 }}] },
-    { "id":"lae_fc1_3x4", "items":[{ "itemID":"gem1", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem2", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem3", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem4", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem5", "chance":"33", "quantity":{ "min":1, "max":1 }}] },
-
-    { "id":"lae_fc1_4x1", "items":[{ "itemID":"gem1", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem2", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem3", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem4", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem5", "chance":"33", "quantity":{ "min":1, "max":1 }}] },
-    { "id":"lae_fc1_4x2", "items":[{ "itemID":"gem1", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem2", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem3", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem4", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem5", "chance":"33", "quantity":{ "min":1, "max":1 }}] },
-    { "id":"lae_fc1_4x3", "items":[{ "itemID":"gem1", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem2", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem3", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem4", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem5", "chance":"33", "quantity":{ "min":1, "max":1 }}] },
-    { "id":"lae_fc1_4x4", "items":[{ "itemID":"gem1", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem2", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem3", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem4", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem5", "chance":"33", "quantity":{ "min":1, "max":1 }}] },
-
-    { "id":"lae_fc1_1y1", "items":[{ "itemID":"gem1", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem2", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem3", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem4", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem5", "chance":"33", "quantity":{ "min":1, "max":1 }}] },
-    { "id":"lae_fc1_1y2", "items":[{ "itemID":"gem1", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem2", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem3", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem4", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem5", "chance":"33", "quantity":{ "min":1, "max":1 }}] },
-    { "id":"lae_fc1_1y3", "items":[{ "itemID":"gem1", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem2", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem3", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem4", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem5", "chance":"33", "quantity":{ "min":1, "max":1 }}] },
-    { "id":"lae_fc1_1y4", "items":[{ "itemID":"gem1", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem2", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem3", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem4", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem5", "chance":"33", "quantity":{ "min":1, "max":1 }}] },
-
-    { "id":"lae_fc1_2y1", "items":[{ "itemID":"gem1", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem2", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem3", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem4", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem5", "chance":"33", "quantity":{ "min":1, "max":1 }}] },
-    { "id":"lae_fc1_2y2", "items":[{ "itemID":"gem1", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem2", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem3", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem4", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem5", "chance":"33", "quantity":{ "min":1, "max":1 }}] },
-    { "id":"lae_fc1_2y3", "items":[{ "itemID":"gem1", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem2", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem3", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem4", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem5", "chance":"33", "quantity":{ "min":1, "max":1 }}] },
-    { "id":"lae_fc1_2y4", "items":[{ "itemID":"gem1", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem2", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem3", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem4", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem5", "chance":"33", "quantity":{ "min":1, "max":1 }}] },
-
-    { "id":"lae_fc1_3y1", "items":[{ "itemID":"gem1", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem2", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem3", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem4", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem5", "chance":"33", "quantity":{ "min":1, "max":1 }}] },
-    { "id":"lae_fc1_3y2", "items":[{ "itemID":"gem1", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem2", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem3", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem4", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem5", "chance":"33", "quantity":{ "min":1, "max":1 }}] },
-    { "id":"lae_fc1_3y3", "items":[{ "itemID":"gem1", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem2", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem3", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem4", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem5", "chance":"33", "quantity":{ "min":1, "max":1 }}] },
-    { "id":"lae_fc1_3y4", "items":[{ "itemID":"gem1", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem2", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem3", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem4", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem5", "chance":"33", "quantity":{ "min":1, "max":1 }}] },
-
-    { "id":"lae_fc1_4y1", "items":[{ "itemID":"gem1", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem2", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem3", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem4", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem5", "chance":"33", "quantity":{ "min":1, "max":1 }}] },
-    { "id":"lae_fc1_4y2", "items":[{ "itemID":"gem1", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem2", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem3", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem4", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem5", "chance":"33", "quantity":{ "min":1, "max":1 }}] },
-    { "id":"lae_fc1_4y3", "items":[{ "itemID":"gem1", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem2", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem3", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem4", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem5", "chance":"33", "quantity":{ "min":1, "max":1 }}] },
-    { "id":"lae_fc1_4y4", "items":[{ "itemID":"gem1", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem2", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem3", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem4", "chance":"33", "quantity":{ "min":1, "max":1 }},
-								   { "itemID":"gem5", "chance":"33", "quantity":{ "min":1, "max":1 }}] },
-
+    {
+        "id":"lae_fc1_1e1",
+        "items":[
+            {
+                "itemID":"final_cave_f",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"lae_fc1_1e2",
+        "items":[
+            {
+                "itemID":"final_cave_f",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"lae_fc1_1e3",
+        "items":[
+            {
+                "itemID":"final_cave_f",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"lae_fc1_1e4",
+        "items":[
+            {
+                "itemID":"final_cave_f",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"lae_fc1_2e1",
+        "items":[
+            {
+                "itemID":"final_cave_w",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"lae_fc1_2e2",
+        "items":[
+            {
+                "itemID":"final_cave_w",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"lae_fc1_2e3",
+        "items":[
+            {
+                "itemID":"final_cave_w",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"lae_fc1_2e4",
+        "items":[
+            {
+                "itemID":"final_cave_w",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"lae_fc1_3e1",
+        "items":[
+            {
+                "itemID":"final_cave_e",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"lae_fc1_3e2",
+        "items":[
+            {
+                "itemID":"final_cave_e",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"lae_fc1_3e3",
+        "items":[
+            {
+                "itemID":"final_cave_e",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"lae_fc1_3e4",
+        "items":[
+            {
+                "itemID":"final_cave_e",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"lae_fc1_4e1",
+        "items":[
+            {
+                "itemID":"final_cave_a",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"lae_fc1_4e2",
+        "items":[
+            {
+                "itemID":"final_cave_a",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"lae_fc1_4e3",
+        "items":[
+            {
+                "itemID":"final_cave_a",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"lae_fc1_4e4",
+        "items":[
+            {
+                "itemID":"final_cave_a",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"lae_fc1_1g1",
+        "items":[
+            {
+                "itemID":"final_cave_b",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"lae_fc1_1g2",
+        "items":[
+            {
+                "itemID":"final_cave_b",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"lae_fc1_1g3",
+        "items":[
+            {
+                "itemID":"final_cave_b",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"lae_fc1_1g4",
+        "items":[
+            {
+                "itemID":"final_cave_b",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"lae_fc1_2g1",
+        "items":[
+            {
+                "itemID":"final_cave_g",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"lae_fc1_2g2",
+        "items":[
+            {
+                "itemID":"final_cave_g",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"lae_fc1_2g3",
+        "items":[
+            {
+                "itemID":"final_cave_g",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"lae_fc1_2g4",
+        "items":[
+            {
+                "itemID":"final_cave_g",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"lae_fc1_3g1",
+        "items":[
+            {
+                "itemID":"final_cave_r",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"lae_fc1_3g2",
+        "items":[
+            {
+                "itemID":"final_cave_r",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"lae_fc1_3g3",
+        "items":[
+            {
+                "itemID":"final_cave_r",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"lae_fc1_3g4",
+        "items":[
+            {
+                "itemID":"final_cave_r",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"lae_fc1_1x1",
+        "items":[
+            {
+                "itemID":"gem1",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem2",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem3",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem4",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem5",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"lae_fc1_1x2",
+        "items":[
+            {
+                "itemID":"gem1",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem2",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem3",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem4",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem5",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"lae_fc1_1x3",
+        "items":[
+            {
+                "itemID":"gem1",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem2",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem3",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem4",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem5",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"lae_fc1_1x4",
+        "items":[
+            {
+                "itemID":"gem1",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem2",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem3",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem4",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem5",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"lae_fc1_2x1",
+        "items":[
+            {
+                "itemID":"gem1",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem2",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem3",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem4",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem5",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"lae_fc1_2x2",
+        "items":[
+            {
+                "itemID":"gem1",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem2",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem3",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem4",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem5",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"lae_fc1_2x3",
+        "items":[
+            {
+                "itemID":"gem1",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem2",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem3",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem4",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem5",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"lae_fc1_2x4",
+        "items":[
+            {
+                "itemID":"gem1",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem2",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem3",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem4",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem5",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"lae_fc1_3x1",
+        "items":[
+            {
+                "itemID":"gem1",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem2",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem3",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem4",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem5",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"lae_fc1_3x2",
+        "items":[
+            {
+                "itemID":"gem1",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem2",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem3",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem4",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem5",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"lae_fc1_3x3",
+        "items":[
+            {
+                "itemID":"gem1",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem2",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem3",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem4",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem5",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"lae_fc1_3x4",
+        "items":[
+            {
+                "itemID":"gem1",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem2",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem3",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem4",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem5",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"lae_fc1_4x1",
+        "items":[
+            {
+                "itemID":"gem1",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem2",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem3",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem4",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem5",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"lae_fc1_4x2",
+        "items":[
+            {
+                "itemID":"gem1",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem2",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem3",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem4",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem5",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"lae_fc1_4x3",
+        "items":[
+            {
+                "itemID":"gem1",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem2",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem3",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem4",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem5",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"lae_fc1_4x4",
+        "items":[
+            {
+                "itemID":"gem1",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem2",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem3",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem4",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem5",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"lae_fc1_1y1",
+        "items":[
+            {
+                "itemID":"gem1",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem2",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem3",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem4",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem5",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"lae_fc1_1y2",
+        "items":[
+            {
+                "itemID":"gem1",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem2",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem3",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem4",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem5",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"lae_fc1_1y3",
+        "items":[
+            {
+                "itemID":"gem1",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem2",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem3",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem4",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem5",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"lae_fc1_1y4",
+        "items":[
+            {
+                "itemID":"gem1",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem2",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem3",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem4",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem5",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"lae_fc1_2y1",
+        "items":[
+            {
+                "itemID":"gem1",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem2",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem3",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem4",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem5",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"lae_fc1_2y2",
+        "items":[
+            {
+                "itemID":"gem1",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem2",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem3",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem4",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem5",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"lae_fc1_2y3",
+        "items":[
+            {
+                "itemID":"gem1",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem2",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem3",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem4",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem5",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"lae_fc1_2y4",
+        "items":[
+            {
+                "itemID":"gem1",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem2",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem3",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem4",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem5",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"lae_fc1_3y1",
+        "items":[
+            {
+                "itemID":"gem1",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem2",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem3",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem4",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem5",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"lae_fc1_3y2",
+        "items":[
+            {
+                "itemID":"gem1",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem2",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem3",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem4",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem5",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"lae_fc1_3y3",
+        "items":[
+            {
+                "itemID":"gem1",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem2",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem3",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem4",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem5",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"lae_fc1_3y4",
+        "items":[
+            {
+                "itemID":"gem1",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem2",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem3",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem4",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem5",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"lae_fc1_4y1",
+        "items":[
+            {
+                "itemID":"gem1",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem2",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem3",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem4",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem5",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"lae_fc1_4y2",
+        "items":[
+            {
+                "itemID":"gem1",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem2",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem3",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem4",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem5",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"lae_fc1_4y3",
+        "items":[
+            {
+                "itemID":"gem1",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem2",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem3",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem4",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem5",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"lae_fc1_4y4",
+        "items":[
+            {
+                "itemID":"gem1",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem2",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem3",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem4",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem5",
+                "chance":"33",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
     {
         "id":"vahram",
         "items":[
