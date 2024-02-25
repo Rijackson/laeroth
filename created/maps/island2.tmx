@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="5">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="14" nextobjectid="21">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -195,7 +195,7 @@
  </layer>
  <layer id="2" name="Objects" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztlb1KA0EQx5coBA0Wm1PDBhR8AUGCvoBYWkjSihZJtFKbqJWVX434FvoQeYI0FunU5AIp1MT4gb3gDLnlNpPdzV4CNvqH5Y6dzPwyM3uzjP3rL6uTNNti3mixt8B/O0IMyUuOyN0H/4MIMZBXtdRBatR6DCu1Hl8O/5Pqt//3UiJ8LwvGMgm9jSpjsNnOKI33CLxX0X1fDWx5g//1pDmuTSYmPtsi5FLdQB9uI/aiFuRSFuFeEfJpKUx8TiW73BfO2DOsJ1ht3hurGdQBf2eqtVQHYr4JvU3NV6cK18dHrqk2g0TzRSVmQ3tByc3EXU65scbSjI3DeuD9bJOyCrfCe7krA7gfEPcTlgfMaVgz6dDWImeLsnRy4aq9feD99tPgjJmYjRhjV8r3k0u65yuFMXmcsY0g9p3Q54Ysm6JyUQvx/r0CfJtFL2SWBszaqFyZRz3Wu1cC5qHjXGjw4fKVmoOc5oO8zoB5TriLlpxduLJ/E5qerSt7O8Dd9cLe25SNkK/QcDeVvSNgHpOc9yznC7n5lHl2mM7mPfmmLoB56fX2/oT4VmGe1UU3ZsbrztBBOWP98Pul8/qb8Lmlr37gK+8n11rj3YS+75a5SCVnTYf44d2UdeBi/aSvL/R3lG6eqdL5DZsvzccnT8psKn3APrtw1dhS8s6oaZg+qQ+tRw6YawbuDxagk60=
+   eJztlc1KAzEQx0MVRItCumpJQcEXEKToC4hHD6VeRQ9t9aReqp48+XUR30Ifok/Qi4ferLWFHtTW+oF3wQmbsNnZJM224EX/EHZJOvPrP5OdEPKvv6xeyryW8IbLvQXx2zFySF5qSO4+xB/EyMF5Ncs+SA27H4NK3Y8vh/+J9dv/eykZvFcYIdmkfg0ra1iznVGc7wF4r8x/XxVrBUP89YQ5r00mJn92mc9tTEXjbqAOtzFr0RBeKiyYK4GfjsLkz8mUz32hhDzDeILRpeFcbbEP/HemvZbqQc43Fp3nvlS/OlWpPj/nrvbhmoT9ciVng/Wi4s3EXU67sUYyhIzCqNMo26S8wq3SMHelD/cD8n7C8IA5DWMmE6x10NnCLJ1cuGpt6zS6firOmInZShBypXw/Gyl3v1I8Jx0jJCdy3zG9N86yKS6Xa2EsOleEb7PkBcxyn14blyt9PCbCc2VgHjr2hRYdzK/UHHiaF77OgHmOuIsWzy5cWb9xTc3Wlbkd4O56Qe1tysfwyzTcTWXuCJjHyPOe5XxxbiFt7h2ms3mPvqkLYF564dqfoNga9LNH5ufMen4P7ec5J+4a3K+/EZ9a6toUsfJ+ct1rfjfx2HdLX8SSvaYn4uQ9ye+mvAOX75+MbTL9HaXrZ6p0cYP6xX6a6ImZbaUOvM4uXDW3lLwzGhpmE+0P3o8NYK4ZuD+trZZq
   </data>
  </layer>
  <layer id="3" name="Above" width="30" height="30">
@@ -208,7 +208,7 @@
    eJxjYBgFo2AUjIJRMAqGLzgsNrLsHSqAWuFDqjmj8UIeGGnhNlD+vTTCwnkUDA4AAFDnBtg=
   </data>
  </layer>
- <layer id="5" name="Walkable" width="30" height="30" visible="0">
+ <layer id="5" name="Walkable" width="30" height="30">
   <data encoding="base64" compression="zlib">
    eJztk1EKwCAMQz3F7n8Fbzj2MRCxsW0i/rQQEGf30mr701ovlUolkcZA31bBsMb8f+0NBXNXp6c/1r8yeah+Jj9yB1Gu1y86x3LnvdNc5AftM9zdbCAvbL0Ww9MPj9/ITDE9UnMjoZojNTejG0zkQ+EfvXUVd5WbiehMsG/I8nuLrWBm7oep94TXTy/3u/iP
   </data>
@@ -238,6 +238,42 @@
     <property name="place" value="south"/>
    </properties>
   </object>
+ </objectgroup>
+ <objectgroup id="10" name="lae_fc1_1" visible="0">
+  <properties>
+   <property name="active" value="false"/>
+  </properties>
+  <object id="5" name="lae_fc1_2e1" type="container" x="96" y="800" width="32" height="32"/>
+  <object id="6" name="lae_fc1_2g1" type="container" x="192" y="416" width="32" height="32"/>
+  <object id="7" name="lae_fc1_2x1" type="container" x="384" y="352" width="32" height="32"/>
+  <object id="8" name="lae_fc1_2y1" type="container" x="640" y="832" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup id="11" name="lae_fc1_2" visible="0">
+  <properties>
+   <property name="active" value="false"/>
+  </properties>
+  <object id="9" name="lae_fc1_2g2" type="container" x="288" y="704" width="32" height="32"/>
+  <object id="10" name="lae_fc1_2x2" type="container" x="384" y="864" width="32" height="32"/>
+  <object id="11" name="lae_fc1_2e2" type="container" x="864" y="352" width="32" height="32"/>
+  <object id="12" name="lae_fc1_2y2" type="container" x="864" y="704" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup id="12" name="lae_fc1_3" visible="0">
+  <properties>
+   <property name="active" value="false"/>
+  </properties>
+  <object id="13" name="lae_fc1_2x3" type="container" x="288" y="704" width="32" height="32"/>
+  <object id="14" name="lae_fc1_2e3" type="container" x="384" y="864" width="32" height="32"/>
+  <object id="15" name="lae_fc1_2y3" type="container" x="864" y="352" width="32" height="32"/>
+  <object id="16" name="lae_fc1_2g3" type="container" x="864" y="704" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup id="13" name="lae_fc1_4" visible="0">
+  <properties>
+   <property name="active" value="false"/>
+  </properties>
+  <object id="17" name="lae_fc1_2x4" type="container" x="288" y="704" width="32" height="32"/>
+  <object id="18" name="lae_fc1_2y4" type="container" x="384" y="864" width="32" height="32"/>
+  <object id="19" name="lae_fc1_2g4" type="container" x="864" y="352" width="32" height="32"/>
+  <object id="20" name="lae_fc1_2e4" type="container" x="864" y="704" width="32" height="32"/>
  </objectgroup>
  <objectgroup id="7" name="Spawn"/>
  <objectgroup id="8" name="Keys"/>
