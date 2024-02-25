@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="14" nextobjectid="28">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="14" nextobjectid="29">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -256,8 +256,9 @@
     <property name="place" value="south5"/>
    </properties>
   </object>
+  <object id="28" name="final_cave_init" type="script" x="448" y="224" width="32" height="64"/>
  </objectgroup>
- <objectgroup id="10" name="lae_fc1_1" visible="0">
+ <objectgroup id="10" name="lae_fc1_1">
   <properties>
    <property name="active" value="false"/>
   </properties>
@@ -266,7 +267,7 @@
   <object id="14" name="lae_fc1_4x1" type="container" x="832" y="288" width="32" height="32"/>
   <object id="15" name="lae_fc1_4y1" type="container" x="192" y="288" width="32" height="32"/>
  </objectgroup>
- <objectgroup id="11" name="lae_fc1_2" visible="0">
+ <objectgroup id="11" name="lae_fc1_2">
   <properties>
    <property name="active" value="false"/>
   </properties>
@@ -275,7 +276,7 @@
   <object id="18" name="lae_fc1_4e2" type="container" x="832" y="288" width="32" height="32"/>
   <object id="19" name="lae_fc1_4y2" type="container" x="192" y="288" width="32" height="32"/>
  </objectgroup>
- <objectgroup id="12" name="lae_fc1_3" visible="0">
+ <objectgroup id="12" name="lae_fc1_3">
   <properties>
    <property name="active" value="false"/>
   </properties>
@@ -284,7 +285,7 @@
   <object id="22" name="lae_fc1_4y3" type="container" x="832" y="288" width="32" height="32"/>
   <object id="23" name="lae_fc1_4g3" type="container" x="192" y="288" width="32" height="32"/>
  </objectgroup>
- <objectgroup id="13" name="lae_fc1_4" visible="0">
+ <objectgroup id="13" name="lae_fc1_4">
   <properties>
    <property name="active" value="false"/>
   </properties>
