@@ -7620,7 +7620,7 @@
                 "nextPhraseID":"final_cave_init_a"
             }
         ]
-	},
+    },
     {
         "id":"final_cave_init_a",
         "rewards":[
@@ -7660,8 +7660,8 @@
                     {
                         "requireType":"killedMonster",
                         "requireID":"lae_andor2",
-						"value":"1",
-						"negate":true
+                        "value":1,
+                        "negate":true
                     }
                 ]
             }
@@ -7679,8 +7679,8 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"final_cave",
-						"value":"11",
-						"negate":true
+                        "value":11,
+                        "negate":true
                     }
                 ]
             },
@@ -7691,7 +7691,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"final_cave",
-						"value":"11"
+                        "value":11
                     }
                 ]
             },
@@ -7702,7 +7702,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"final_cave",
-						"value":"11"
+                        "value":11
                     }
                 ]
             }
@@ -8085,7 +8085,7 @@
         "replies":[
             {
                 "text":"Attack!",
-				"nextPhraseID":"F"
+                "nextPhraseID":"F"
             }
         ]
     },
@@ -9441,6 +9441,83 @@
     },
     {
         "id":"waterway_forest_isolated_man",
-        "message":"Who are you?! What do you want?!"
+        "message":"What were you doing in my house!",
+        "replies":[
+            {
+                "text":"I've come a long distance in the persuit of my brother Andor. So I peeked inside to see if he was in there.",
+                "nextPhraseID":"waterway_forest_isolated_man_5"
+            },
+            {
+                "text":"I am looking for someone that could explain why that land over there [pointing west] is poisoned.",
+                "nextPhraseID":"waterway_forest_isolated_man_5"
+            },
+            {
+                "text":"I was looking for help in getting into that cave just west of here.",
+                "nextPhraseID":"waterway_forest_isolated_man_5",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":65,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"waterway_forest2_house_vacant_selector",
+        "replies":[
+            {
+                "nextPhraseID":"waterway_forest2_house_vacant",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nondisplay",
+                        "value":52,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"waterway_forest2_house_vacant",
+        "rewards":[
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"isolated_man_spawn",
+                "mapName":"waterway_forest2"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"nondisplay",
+                "value":52
+            }
+        ]
+    },
+    {
+        "id":"waterway_forest_isolated_man_5",
+        "message":"Do you really think that I believe that? Who are you?! What do you really want?!",
+        "replies":[
+            {
+                "text":"I don't care what you don't believe because that's the truth.",
+                "nextPhraseID":"waterway_forest_isolated_man_dog"
+            },
+            {
+                "text":"Can you just answer my question now or I will go back in your house?",
+                "nextPhraseID":"waterway_forest_isolated_man_dog"
+            }
+        ]
+    },
+    {
+        "id":"waterway_forest_isolated_man_dog",
+        "message":"Well, with that attitude, you better get out of here now before I unleash my hounds on you.",
+        "replies":[
+            {
+                "text":"OK, calm down. I'm leaving.",
+                "nextPhraseID":"X"
+            }
+        ]
     }
 ]

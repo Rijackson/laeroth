@@ -147,6 +147,10 @@
             {
                 "progress":51,
                 "logText":"Met a talking pig at the Wood Settlement."
+            },
+            {
+                "progress":52,
+                "logText":"waterway_forest2_house - PC discovers that nobody is home."
             }
         ]
     }
