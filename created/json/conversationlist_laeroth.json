@@ -9306,7 +9306,7 @@
         "id":"hungry_pig_selector",
         "replies":[
             {
-                "nextPhraseID":"hungry_pig_fight",
+                "nextPhraseID":"hungry_pig_sick",
                 "requires":[
                     {
                         "requireType":"factionScoreEquals",
@@ -9383,12 +9383,12 @@
         ]
     },
     {
-        "id":"hungry_pig_fight",
+        "id":"hungry_pig_sick",
         "message":"[Squeal]",
         "replies":[
             {
-                "text":"What?! You're going to attack me now?",
-                "nextPhraseID":"F"
+                "text":"Are you OK?",
+                "nextPhraseID":"hungry_pig_dies"
             }
         ],
         "rewards":[
@@ -9517,6 +9517,22 @@
             {
                 "text":"OK, calm down. I'm leaving.",
                 "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"hungry_pig_dies",
+        "message":"[The hungry pig dies do to the rotten meat.]",
+        "rewards":[
+            {
+                "rewardType":"deactivateSpawnArea",
+                "rewardID":"hungry_pig_spawn",
+                "mapName":"gapfillerhole"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"achievements",
+                "value":130
             }
         ]
     }
