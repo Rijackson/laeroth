@@ -619,9 +619,6 @@
         "id":"lae_island_boss",
         "name":"Dorhantarh",
         "iconID":"monsters_demon1:0",
-        "monsterClass":"humanoid",
-        "spawnGroup":"lae_island_boss",
-        "phraseID":"lae_island_boss",
         "maxHP":297,
         "moveCost":6,
         "unique":1,
@@ -631,13 +628,14 @@
             "min":24,
             "max":50
         },
+        "spawnGroup":"lae_island_boss",
+        "phraseID":"lae_island_boss",
         "droplistID":"lae_island_boss",
         "attackCost":4,
         "attackChance":165,
         "criticalSkill":3,
         "criticalMultiplier":3.0,
         "blockChance":127
-
     },
     {
         "id":"gylew_henchman_aggresive",
@@ -868,5 +866,90 @@
         "unique":1,
         "monsterClass":"humanoid",
         "phraseID":"waterway_forest_isolated_man"
+    },
+    {
+        "id":"young_church_dweller",
+        "name":"Young church dweller",
+        "iconID":"monsters_newb_1:524",
+        "maxHP":93,
+        "moveCost":4,
+        "monsterClass":"insect",
+        "attackDamage":{
+            "min":8,
+            "max":11
+        },
+        "droplistID":"young_church_dweller_dl",
+        "attackCost":4,
+        "attackChance":81,
+        "blockChance":89,
+        "damageResistance":2
+    },
+    {
+        "id":"adult_church_dweller",
+        "name":"Adult church dweller",
+        "iconID":"monsters_newb_1:523",
+        "maxHP":102,
+        "moveCost":4,
+        "monsterClass":"insect",
+        "movementAggressionType":"helpOthers",
+        "attackDamage":{
+            "min":11,
+            "max":14
+        },
+        "droplistID":"adult_church_dweller_dl",
+        "attackCost":4,
+        "attackChance":87,
+        "blockChance":91,
+        "damageResistance":5
+    },
+    {
+        "id":"church_dweller",
+        "name":"Church dweller",
+        "iconID":"monsters_newb_1:525",
+        "maxHP":98,
+        "moveCost":4,
+        "monsterClass":"insect",
+        "movementAggressionType":"protectSpawn",
+        "attackDamage":{
+            "min":9,
+            "max":12
+        },
+        "droplistID":"church_dweller_dl",
+        "attackCost":4,
+        "attackChance":84,
+        "blockChance":92,
+        "damageResistance":3
+    },
+    {
+        "id":"brown_church_rat",
+        "name":"Brown church rat",
+        "iconID":"monsters_rltiles2:148",
+        "maxHP":86,
+        "moveCost":3,
+        "monsterClass":"animal",
+        "attackDamage":{
+            "min":7,
+            "max":9
+        },
+        "droplistID":"brown_church_rat_dl",
+        "attackCost":3,
+        "attackChance":79,
+        "blockChance":86
+    },
+    {
+        "id":"young_church_rat",
+        "name":"Pup rat",
+        "iconID":"monsters_rltiles2:146",
+        "maxHP":77,
+        "moveCost":3,
+        "monsterClass":"animal",
+        "attackDamage":{
+            "min":5,
+            "max":7
+        },
+        "droplistID":"young_church_rat_dl",
+        "attackCost":3,
+        "attackChance":71,
+        "blockChance":81
     }
 ]
