@@ -8513,7 +8513,7 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"lae_fc2_s1_10"
+                "nextPhraseID":"lae_fc2_s1_12"
             }
         ],
         "rewards":[
@@ -8540,7 +8540,7 @@
         ]
     },
     {
-        "id":"lae_fc2_s1_10",
+        "id":"lae_fc2_s1_12",
         "message":"But something is very wrong here."
     },
     {
