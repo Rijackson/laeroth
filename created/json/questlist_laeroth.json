@@ -464,5 +464,60 @@
                 "finishesQuest":1
             }
         ]
+    },
+    {
+        "id":"lae_centaurs",
+        "name":"Not Pony Island",
+        "showInLog":1,
+        "stages":[
+            {
+                "progress":110,
+                "logText":"In a cave on the hills of Llaeroth Island, I have met Algangror, who asked you for help."
+            },
+            {
+                "progress":112,
+                "logText":"In a cave on the hills of Llaeroth Island, I have met Jhaeld of Remgard, who asked you for help."
+            },
+            {
+                "progress":120,
+                "logText":"A common friend would be trapped deeper in the cave and I should free him."
+            },
+            {
+                "progress":130,
+                "logText":"Unten in der Höhle fand ich meinen Bruder Andor, eingesperrt in einem Raum ohne Türen oder sonstige Zugänge."
+            },
+            {
+                "progress":140,
+                "logText":"To open an entrance I would have to find the four scrolls of elements and the three colored globes. These were hidden all over the island.\nThe scrolls and globes would need to be properly placed around this space."
+            },
+            {
+                "progress":150,
+                "logText":"The wall opened and gave access to the interior of the room."
+            },
+            {
+                "progress":160,
+                "logText":"With an intense sound, the wall built up again. You've been locked up!"
+            },
+            {
+                "progress":170,
+                "logText":"The only way out was down a staircase, which, however, seemed to be magically secured."
+            },
+            {
+                "progress":180,
+                "logText":"The only way out was down a staircase, which, however, seemed to be magically secured."
+            },
+            {
+                "progress":190,
+                "logText":"It was no problem going downstairs, but something was wrong there."
+            },
+            {
+                "progress":200,
+                "logText":"The whole thing was just a big scam to lure you into this cave to serve Dorhantarh as dinner."
+            },
+            {
+                "progress":210,
+                "logText":"Now that Dorhantarh was dead, the walls above opened up again."
+            }
+        ]
     }
 ]

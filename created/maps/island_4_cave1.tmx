@@ -233,7 +233,6 @@
    <properties>
     <property name="phrase" value="island_4_cave1_key"/>
     <property name="requireId" value="final_cave"/>
-    <property name="requireNegation" value="true"/>
     <property name="requireType" value="questProgress"/>
     <property name="requireValue" value="12"/>
    </properties>

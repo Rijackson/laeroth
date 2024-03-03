@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="12" height="14" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="4">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="12" height="14" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="8">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -192,22 +192,22 @@
  </layer>
  <layer id="2" name="Objects" width="12" height="14">
   <data encoding="base64" compression="zlib">
-   eJxjYGBg4GRiIAokE6mOGiCchXi1e/gZGFpJUD9YgDM0PP+IUt9sd2h4FALt4CUi3hpJCD93LGotyAx/SQJuAwDmFgVq
+   eJxjYGBg4GRiIAokE6mOGiCchXi1e/gZGFpJUE9r4CzIwHBRjAh10PD8I0p9892h4VEItIOXiHhrJCH83LGotSAx/C9D3S9JwG0AvfcIyQ==
   </data>
  </layer>
  <layer id="3" name="Above" width="12" height="14">
   <data encoding="base64" compression="zlib">
-   eJxjYKA9uCRGmvrDI0w9qWCwuZ+W/gUAStUIig==
+   eJxjYCAPXBYjTe0lEtQfJkEtPdQbCw5t8webehC4xUycOgARRgro
   </data>
  </layer>
  <layer id="4" name="Top" width="12" height="14">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo4AycJuZdmYDAFJlAN8=
+   eJxjYBgFhMBhsaFtPq3BbWbamQ0AhS8CkQ==
   </data>
  </layer>
- <layer id="5" name="Walkable" width="12" height="14">
+ <layer id="5" name="Walkable" width="12" height="14" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsHEQYkIAXS0peogFI0k9KWFPjh5y0wEAyfs5hw==
+   eJzbKMbAsHEQYkIAXS0peogF5KonVs9gMp9Us0nVQ246AACDdTsV
   </data>
  </layer>
  <objectgroup id="6" name="Mapevents">
@@ -217,11 +217,31 @@
     <property name="place" value="down"/>
    </properties>
   </object>
+  <object id="4" name="lae_fc2_s1" type="script" x="64" y="224" width="32" height="96"/>
  </objectgroup>
  <objectgroup id="7" name="Spawn">
   <object id="3" name="lae_island_boss" type="spawn" x="256" y="96" width="96" height="128">
    <properties>
     <property name="spawngroup" value="lae_island_boss"/>
+   </properties>
+  </object>
+  <object id="5" name="lae_algangror3" type="spawn" x="32" y="256" width="32" height="32">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="ignoreAreas" value="true"/>
+    <property name="spawngroup" value="lae_algangror3"/>
+   </properties>
+  </object>
+  <object id="6" name="lae_jhaeld3" type="spawn" x="32" y="256" width="32" height="32">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="ignoreAreas" value="true"/>
+    <property name="spawngroup" value="lae_jhaeld3"/>
+   </properties>
+  </object>
+  <object id="7" name="lae_andor3" type="spawn" x="32" y="192" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="lae_andor3"/>
    </properties>
   </object>
  </objectgroup>

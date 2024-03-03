@@ -7399,7 +7399,7 @@
         "id":"final_cave_kx",
         "replies":[
             {
-                "nextPhraseID":"final_cave_kx_open",
+                "nextPhraseID":"X",
                 "requires":[
                     {
                         "requireType":"killedMonster",
@@ -7508,6 +7508,39 @@
                         "value":9
                     }
                 ]
+            },
+            {
+                "nextPhraseID":"final_cave_kx_hint1",
+                "requires":[
+                    {
+                        "requireType":"factionScoreEquals",
+                        "requireID":"final_cave_hint",
+                        "value":20
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"final_cave_kx_hint2",
+                "requires":[
+                    {
+                        "requireType":"factionScoreEquals",
+                        "requireID":"final_cave_hint",
+                        "value":40
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"final_cave_kx_hint3",
+                "requires":[
+                    {
+                        "requireType":"factionScoreEquals",
+                        "requireID":"final_cave_hint",
+                        "value":60
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"final_cave_kx_nohint"
             }
         ]
     },
@@ -7517,8 +7550,18 @@
         "rewards":[
             {
                 "rewardType":"questProgress",
+                "rewardID":"lae_centaurs",
+                "value":150
+            },
+            {
+                "rewardType":"questProgress",
                 "rewardID":"final_cave",
                 "value":9
+            },
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"final_cave_hint",
+                "value":999
             }
         ]
     },
@@ -7530,6 +7573,59 @@
                 "rewardType":"removeQuestProgress",
                 "rewardID":"final_cave",
                 "value":9
+            }
+        ]
+    },
+    {
+        "id":"final_cave_kx_hint1",
+        "message":"Maybe I have to find out the correct order?",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"final_cave_kx_hint1_2"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"alignmentChange",
+                "rewardID":"final_cave_hint",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"final_cave_kx_hint1_2",
+        "message":"I wish there would be a placement order map somewhere here."
+    },
+    {
+        "id":"final_cave_kx_hint2",
+        "message":"I am sure there is a placement order map somewhere here.",
+        "rewards":[
+            {
+                "rewardType":"alignmentChange",
+                "rewardID":"final_cave_hint",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"final_cave_kx_hint3",
+        "message":"I even think I have already seen that order map down here.",
+        "rewards":[
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"final_cave_hint",
+                "value":0
+            }
+        ]
+    },
+    {
+        "id":"final_cave_kx_nohint",
+        "rewards":[
+            {
+                "rewardType":"alignmentChange",
+                "rewardID":"final_cave_hint",
+                "value":1
             }
         ]
     },
@@ -7555,6 +7651,11 @@
                 "rewardType":"removeQuestProgress",
                 "rewardID":"final_cave",
                 "value":1
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"lae_centaurs",
+                "value":160
             },
             {
                 "rewardType":"alignmentSet",
@@ -7648,6 +7749,276 @@
                 "rewardType":"spawnAll",
                 "rewardID":"lae_jhaeld1",
                 "mapName":"island_4_cave1"
+            }
+        ]
+    },
+    {
+        "id":"island_4_cave1_key",
+        "message":"You feel somebody staring at your back."
+    },
+    {
+        "id":"lae_algangror1",
+        "message":"$playername - good that you are here! I need your help urgently.",
+        "replies":[
+            {
+                "text":"Why? Do you have a little problem in your basement again?",
+                "nextPhraseID":"lae_algangror1_10"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"lae_centaurs",
+                "value":110
+            }
+        ]
+    },
+    {
+        "id":"lae_algangror1_10",
+        "message":"Iiiek! Don't remind me!",
+        "replies":[
+            {
+                "text":"So how can I help you?",
+                "nextPhraseID":"lae_algangror1_20"
+            }
+        ]
+    },
+    {
+        "id":"lae_algangror1_20",
+        "message":"A friend of mine is captured, here, deep in the cave.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"lae_algangror1_22"
+            }
+        ]
+    },
+    {
+        "id":"lae_algangror1_22",
+        "message":"You know him very well by the way. We have to help him!",
+        "replies":[
+            {
+                "text":"Of course I'm happy to help.",
+                "nextPhraseID":"lae_algangror1_30"
+            },
+            {
+                "text":"Who is this friend?",
+                "nextPhraseID":"lae_algangror1_30"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"final_cave",
+                "value":120
+            }
+        ]
+    },
+    {
+        "id":"lae_algangror1_30",
+        "message":"To free him I would need to go for some items all over the isle. But these nasty centaurs wouldn't let me.",
+        "replies":[
+            {
+                "text":"Well, first I am going downstairs to talk to our friend and find out who he is.",
+                "nextPhraseID":"lae_algangror1_40"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"final_cave",
+                "value":12
+            }
+        ]
+    },
+    {
+        "id":"lae_algangror1_40",
+        "message":"Do that. But hurry."
+    },
+    {
+        "id":"lae_jhaeld1",
+        "message":"$playername - good that you are here! I need your help urgently.",
+        "replies":[
+            {
+                "text":"Why? Don't coming around on your own anymore?",
+                "nextPhraseID":"lae_algangror1_20"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"lae_centaurs",
+                "value":112
+            }
+        ]
+    },
+    {
+        "id":"lae_algangror2",
+        "message":"$playername, what have you done?",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"lae_algangror2_10"
+            }
+        ]
+    },
+    {
+        "id":"lae_algangror2_10",
+        "message":"Now we are all locked in here! We will all starve to death!",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"lae_algangror2_20"
+            }
+        ]
+    },
+    {
+        "id":"lae_algangror2_20",
+        "message":"It is all your fault!",
+        "replies":[
+            {
+                "text":"Hey - I did nothing!",
+                "nextPhraseID":"lae_algangror2_30"
+            }
+        ]
+    },
+    {
+        "id":"lae_algangror2_30",
+        "message":"Our only chance of survival lies in that stairway over there.",
+        "replies":[
+            {
+                "text":"What is down there?",
+                "nextPhraseID":"lae_algangror2_50"
+            },
+            {
+                "text":"You didn't try it yourself yet?",
+                "nextPhraseID":"lae_algangror2_50"
+            }
+        ]
+    },
+    {
+        "id":"lae_algangror2_50",
+        "message":"We couldn't. Some invisible force held us back. But maybe you can do it?",
+        "replies":[
+            {
+                "text":"OK you weaklings - I'll show you.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Well, I could at least try.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"lae_centaurs",
+                "value":170
+            }
+        ]
+    },
+    {
+        "id":"lae_jhaeld2",
+        "replies":[
+            {
+                "nextPhraseID":"lae_algangror2"
+            }
+        ]
+    },
+    {
+        "id":"lae_algangror3",
+        "message":"Surprised to see me here?",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"lae_algangror3_10"
+            }
+        ]
+    },
+    {
+        "id":"lae_algangror3_10",
+        "message":"You should see your face! Hahaha!",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"lae_algangror3_20"
+            }
+        ]
+    },
+    {
+        "id":"lae_algangror3_20",
+        "message":"Of course we are not what you think you see. Ever heard of posers?\nYou were great, that was really fun.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"lae_algangror3_30"
+            }
+        ]
+    },
+    {
+        "id":"lae_algangror3_30",
+        "message":"We just wanted to lure you down here to our master Dorhantarh without you becoming suspicious.\nGo ahead, you'll be a tasty dinner for him.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"lae_algangror3_40"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"lae_centaurs",
+                "value":200
+            }
+        ]
+    },
+    {
+        "id":"lae_algangror3_40",
+        "message":"You're so speechless. Hahaha! Go now.",
+        "replies":[
+            {
+                "text":"Well wait - attack!",
+                "nextPhraseID":"lae_algangror3_50"
+            }
+        ]
+    },
+    {
+        "id":"lae_algangror3_50",
+        "message":"No no no. It is not proper to draw a weapon in the presence of our Master."
+    },
+    {
+        "id":"lae_jhaeld3",
+        "replies":[
+            {
+                "nextPhraseID":"lae_algangror3"
+            }
+        ]
+    },
+    {
+        "id":"lae_andor2",
+        "replies":[
+            {
+                "nextPhraseID":"lae_algangror2"
+            }
+        ]
+    },
+    {
+        "id":"lae_andor1_999_maybe_obsolete",
+        "replies":[
+            {
+                "nextPhraseID":"lae_andor2"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"final_cave",
+                "value":1
+            },
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"final_cave_e",
+                "value":0
             }
         ]
     },
@@ -7879,10 +8250,25 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"lae_andor1_50"
+                "nextPhraseID":"lae_andor1_42"
+            }
+        ]
+    },
+    {
+        "id":"lae_andor1_42",
+        "message":"I entered this room to find a powerful weapon against the enemy, when suddenly the walls closed around me.",
+        "replies":[
+            {
+                "text":"Too curious again?",
+                "nextPhraseID":"lae_andor1_44"
             }
         ],
         "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"lae_centaurs",
+                "value":130
+            },
             {
                 "rewardType":"questProgress",
                 "rewardID":"final_cave",
@@ -7901,48 +8287,65 @@
         ]
     },
     {
-        "id":"lae_andor1_50",
-        "message":"Open the wall and come here.",
+        "id":"lae_andor1_44",
+        "message":"Oh, shut up.",
         "replies":[
             {
-                "text":"How can I do this? The wall looks rather massive.",
+                "text":"Who is locked up here - you or me?",
+                "nextPhraseID":"lae_andor1_50"
+            }
+        ]
+    },
+    {
+        "id":"lae_andor1_50",
+        "message":"Sigh. Open the wall and come here.",
+        "replies":[
+            {
+                "text":"How can I do this? The walls look rather massive.",
                 "nextPhraseID":"lae_andor1_52"
             }
         ]
     },
     {
         "id":"lae_andor1_52",
-        "message":"You have to find the elemtal scrolls and the colored globes. Somebody must have taken them and hidden them all over the island.",
+        "message":"It's very easy.",
         "replies":[
             {
-                "text":"N",
+                "text":"Oh dear. You always said that when things got tricky.",
                 "nextPhraseID":"lae_andor1_54"
             }
         ]
     },
     {
         "id":"lae_andor1_54",
-        "message":"There are four scrolls and three globes of course. Get them here and place them around this room.",
+        "message":"You just have to find the elemental scrolls and the colored globes. Somebody must have taken them and hidden them all over the island.",
         "replies":[
             {
-                "text":"???",
+                "text":"Can you be a little more specific?",
                 "nextPhraseID":"lae_andor1_60"
             }
         ]
     },
     {
         "id":"lae_andor1_60",
-        "message":"You will certainly find out the correct order.",
+        "message":"There are four scrolls and three globes. Get them here and place them around this room.",
         "replies":[
             {
-                "text":"Sure.",
+                "text":"Around this room?",
                 "nextPhraseID":"lae_andor1_62"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"lae_centaurs",
+                "value":140
             }
         ]
     },
     {
         "id":"lae_andor1_62",
-        "message":"I remember there's even a placement order map somewhere.",
+        "message":"Of course around this room. Don't always be so stupid.",
         "replies":[
             {
                 "text":"N",
@@ -7955,123 +8358,6 @@
         "message":"Hurry now! And bring something to eat!"
     },
     {
-        "id":"island_4_cave1_key",
-        "message":"You feel somebody staring at your back."
-    },
-    {
-        "id":"lae_algangror1",
-        "message":"$playername - good that you are here!",
-        "replies":[
-            {
-                "text":"Why? Do you have a little problem in your basement again?",
-                "nextPhraseID":"lae_algangror1_10"
-            }
-        ]
-    },
-    {
-        "id":"lae_algangror1_10",
-        "message":"Iiiek! Don't remind me!",
-        "replies":[
-            {
-                "text":"So how can I help you?",
-                "nextPhraseID":"lae_algangror1_20"
-            }
-        ]
-    },
-    {
-        "id":"lae_algangror1_20",
-        "message":"A friend of mine is captured, here, deep in the cave.",
-        "replies":[
-            {
-                "text":"N",
-                "nextPhraseID":"lae_algangror1_22"
-            }
-        ]
-    },
-    {
-        "id":"lae_algangror1_22",
-        "message":"You know him very well by the way.",
-        "replies":[
-            {
-                "text":"N",
-                "nextPhraseID":"lae_algangror1_30"
-            }
-        ]
-    },
-    {
-        "id":"lae_algangror1_30",
-        "message":"To free him I would need to go for some items all lover the isle. But these nasty centaurs wouldn't let me.",
-        "replies":[
-            {
-                "text":"Well, first I am going downstairs to talk to our friend.",
-                "nextPhraseID":"X"
-            }
-        ],
-        "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"final_cave",
-                "value":12
-            }
-        ]
-    },
-    {
-        "id":"lae_jhaeld1",
-        "message":"$playername - good that you are here!",
-        "replies":[
-            {
-                "text":"Why? Don't coming around on your own anymore?",
-                "nextPhraseID":"lae_algangror1_20"
-            }
-        ]
-    },
-    {
-        "id":"lae_algangror2",
-        "message":"Surprised to see me here?"
-    },
-    {
-        "id":"lae_jhaeld2",
-        "replies":[
-            {
-                "nextPhraseID":"lae_algangror2"
-            }
-        ]
-    },
-    {
-        "id":"lae_andor1_999_maybe_obsolete",
-        "replies":[
-            {
-                "nextPhraseID":"lae_andor2_10"
-            }
-        ],
-        "rewards":[
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"final_cave",
-                "value":1
-            },
-            {
-                "rewardType":"alignmentSet",
-                "rewardID":"final_cave_e",
-                "value":0
-            }
-        ]
-    },
-    {
-        "id":"lae_andor2",
-        "message":"OK. You have found me.\n\n***  G A M E    O V E R  ***\n",
-        "replies":[
-            {
-                "text":"What? Just like that??",
-                "nextPhraseID":"lae_andor2_10"
-            }
-        ]
-    },
-    {
-        "id":"lae_andor2_10",
-        "message":"No - just kidding...\n Feygard and Nor City are still missing after all ...\n;)"
-    },
-    {
         "id":"lae_plant",
         "message":"Crap, the plant didn't grow tall enough."
     },
@@ -8080,8 +8366,139 @@
         "message":"You see nothing special."
     },
     {
+        "id":"lae_fc2_s1",
+        "replies":[
+            {
+                "nextPhraseID":"lae_fc2_s1_6",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"lae_island_boss",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lae_centaurs",
+                        "value":210,
+						"negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lae_centaurs",
+                        "value":190
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"lae_fc2_s1_4",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"final_cave",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"lae_fc2_s1_2"
+            }
+        ]
+    },
+    {
+        "id":"lae_fc2_s1_2",
+        "replies":[
+            {
+                "nextPhraseID":"lae_fc2_s1_10"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"lae_algangror3",
+                "mapName":"final_cave2"
+            }
+        ]
+    },
+    {
+        "id":"lae_fc2_s1_4",
+        "replies":[
+            {
+                "nextPhraseID":"lae_fc2_s1_10"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"lae_jhaeld3",
+                "mapName":"final_cave2"
+            }
+        ]
+    },
+    {
+        "id":"lae_fc2_s1_6",
+        "message":"You hear a loud rumbling from above. Seems to be the walls are opened up again.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"lae_centaurs",
+                "value":210
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"final_cave",
+                "value":9
+            },
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"final_cave_hint",
+                "value":999
+            }
+        ]
+    },
+    {
+        "id":"lae_fc2_s1_10",
+        "message":"You call back upstairs that there was no problem going down.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"lae_fc2_s1_10"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"lae_centaurs",
+                "value":190
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"lae_algangror2",
+                "mapName":"final_cave1"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"lae_jhaeld2",
+                "mapName":"final_cave1"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"lae_andor2",
+                "mapName":"final_cave1"
+            }
+        ]
+    },
+    {
+        "id":"lae_fc2_s1_10",
+        "message":"But something is very wrong here."
+    },
+    {
         "id":"lae_island_boss",
-        "message":"Ah, my dinner at last. ...todo: much to explain...",
+        "message":"Ah, my dinner at last. ...todo: some more text...",
         "replies":[
             {
                 "text":"Attack!",
