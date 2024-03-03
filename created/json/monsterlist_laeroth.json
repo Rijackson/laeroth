@@ -588,8 +588,18 @@
         "name":"Andor",
         "iconID":"monsters_maksiu1:1",
         "monsterClass":"humanoid",
+        "movementAggressionType":"wholeMap",
+        "attackDamage":{
+            "min":10,
+            "max":22
+        },
         "spawnGroup":"lae_andor3",
-        "phraseID":"lae_andor3"
+        "droplistID":"lae_andor3",
+        "attackCost":4,
+        "attackChance":70,
+        "criticalSkill":30,
+        "criticalMultiplier":2.0,
+        "blockChance":50
     },
     {
         "id":"lae_algangror1",

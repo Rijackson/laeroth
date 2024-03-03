@@ -1691,6 +1691,19 @@
         ]
     },
     {
+        "id":"lae_andor3",
+        "items":[
+            {
+                "itemID":"gold",
+                "chance":"100",
+                "quantity":{
+                    "min":10,
+                    "max":100
+                }
+            }
+        ]
+    },
+    {
         "id":"lae_island_boss",
         "items":[
             {

@@ -7898,7 +7898,7 @@
     },
     {
         "id":"lae_algangror2_50",
-        "message":"We couldn't. Some invisible force held us back. But maybe you can do it?",
+        "message":"We can't use those stairs. Some invisible force holds us back. But maybe you can do it?",
         "replies":[
             {
                 "text":"OK you weaklings - I'll show you.",
@@ -7927,16 +7927,44 @@
     },
     {
         "id":"lae_algangror3",
-        "message":"Surprised to see me here?",
         "replies":[
             {
-                "text":"N",
+                "nextPhraseID":"lae_algangror3_100",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"lae_island_boss",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"lae_algangror3_12",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lae_centaurs",
+                        "value":200
+                    }
+                ]
+            },
+            {
                 "nextPhraseID":"lae_algangror3_10"
             }
         ]
     },
     {
         "id":"lae_algangror3_10",
+        "message":"Surprised to see me here?",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"lae_algangror3_12"
+            }
+        ]
+    },
+    {
+        "id":"lae_algangror3_12",
         "message":"You should see your face! Hahaha!",
         "replies":[
             {
@@ -7985,6 +8013,15 @@
     {
         "id":"lae_algangror3_50",
         "message":"No no no. It is not proper to draw a weapon in the presence of our Master."
+    },
+    {
+        "id":"lae_algangror3_100",
+        "message":"What have you done to our master?!",
+        "replies":[
+            {
+                "nextPhraseID":"F"
+            }
+        ]
     },
     {
         "id":"lae_jhaeld3",
@@ -8355,7 +8392,17 @@
     },
     {
         "id":"lae_andor1_70",
-        "message":"Hurry now! And bring something to eat!"
+        "message":"Hurry now!",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"lae_andor1_72"
+            }
+        ]
+    },
+    {
+        "id":"lae_andor1_72",
+        "message":"And bring something to eat!"
     },
     {
         "id":"lae_plant",
