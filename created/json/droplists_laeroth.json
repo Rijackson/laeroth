@@ -1691,6 +1691,45 @@
         ]
     },
     {
+        "id":"final_cave_loot1",
+        "items":[
+            {
+                "itemID":"rock",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":2
+                }
+            }
+        ]
+    },
+    {
+        "id":"final_cave_loot2",
+        "items":[
+            {
+                "itemID":"spider",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"final_cave_loot3",
+        "items":[
+            {
+                "itemID":"meat2",
+                "chance":"100",
+                "quantity":{
+                    "min":10,
+                    "max":20
+                }
+            }
+        ]
+    },
+    {
         "id":"lae_andor3",
         "items":[
             {
@@ -1706,6 +1745,14 @@
     {
         "id":"lae_island_boss",
         "items":[
+            {
+                "itemID":"lae_island_boss_heart",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
             {
                 "itemID":"gold",
                 "chance":"100",

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="12" height="14" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="8">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="12" height="14" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="9">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -182,7 +182,7 @@
  </tileset>
  <layer id="1" name="Base" width="12" height="14">
   <data encoding="base64" compression="zlib">
-   eJxjYKAtuMw5ikcx+RgANUR7wQ==
+   eJxjYKAtuMxJPVwpxsBQBcXVYoTVzwSqmQXFs4lQP4oHHwYAt0h54Q==
   </data>
  </layer>
  <layer id="9" name="Ground" width="12" height="14">
@@ -192,12 +192,12 @@
  </layer>
  <layer id="2" name="Objects" width="12" height="14">
   <data encoding="base64" compression="zlib">
-   eJxjYGBg4GRiIAokE6mOGiCchXi1e/gZGFpJUE9r4CzIwHBRjAh10PD8I0p9892h4VEItIOXiHhrJCH83LGotSAx/C9D3S9JwG0AvfcIyQ==
+   eJxjYGBg4GRiIAokI6lTF4bQufzE6YWBWqj6HXwQuoKFgaGSBVNdOFTsvxCEPgFV3wEU70RTvwdoZisWMwYKOAsyMCShhak6lnByhqr5I0q6+RfF8Ktxh4ZHIdAOXjS3iGGJ70bk8BMmbDYfmhoLEsP/MtT9kgTSHgAEBA7J
   </data>
  </layer>
  <layer id="3" name="Above" width="12" height="14">
   <data encoding="base64" compression="zlib">
-   eJxjYCAPXBYjTe0lEtQfJkEtPdQbCw5t8webehC4xUycOgARRgro
+   eJxjYCAPXBYjTe0lEtQfJkEtPdQbCw5t86mt/iMfaeoZ+THFbjET5xYAgH0L9w==
   </data>
  </layer>
  <layer id="4" name="Top" width="12" height="14">
@@ -207,7 +207,7 @@
  </layer>
  <layer id="5" name="Walkable" width="12" height="14" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsHEQYkIAXS0peogF5KonVs9gMp9Us0nVQ246AACDdTsV
+   eJzbKMbAsHEQYnQAE8OlFpsebGYQo45S9cTqo8R8UtRT22xscUGs2aRiAIynP78=
   </data>
  </layer>
  <objectgroup id="6" name="Mapevents">
@@ -219,8 +219,8 @@
   </object>
   <object id="4" name="lae_fc2_s1" type="script" x="64" y="224" width="32" height="96"/>
  </objectgroup>
- <objectgroup id="7" name="Spawn">
-  <object id="3" name="lae_island_boss" type="spawn" x="256" y="96" width="96" height="128">
+ <objectgroup id="7" name="Spawn" visible="0">
+  <object id="3" name="lae_island_boss" type="spawn" x="256" y="128" width="96" height="64">
    <properties>
     <property name="spawngroup" value="lae_island_boss"/>
    </properties>
@@ -245,5 +245,14 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="8" name="Keys"/>
+ <objectgroup id="8" name="Keys">
+  <object id="8" name="dummy_key" type="key" x="64" y="224" width="64" height="96">
+   <properties>
+    <property name="phrase" value="dummy_key"/>
+    <property name="requireId" value="andor"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

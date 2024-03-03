@@ -472,23 +472,23 @@
         "stages":[
             {
                 "progress":110,
-                "logText":"In a cave on the hills of Llaeroth Island, I have met Algangror, who asked you for help."
+                "logText":"In a cave on the hills of Llaeroth Island, you have met Algangror, who asked you for help."
             },
             {
                 "progress":112,
-                "logText":"In a cave on the hills of Llaeroth Island, I have met Jhaeld of Remgard, who asked you for help."
+                "logText":"In a cave on the hills of Llaeroth Island, you have met Jhaeld of Remgard, who asked you for help."
             },
             {
                 "progress":120,
-                "logText":"A common friend would be trapped deeper in the cave and I should free him."
+                "logText":"A common friend would be trapped deeper in the cave and you should free him."
             },
             {
                 "progress":130,
-                "logText":"Unten in der Höhle fand ich meinen Bruder Andor, eingesperrt in einem Raum ohne Türen oder sonstige Zugänge."
+                "logText":"Down in the cave you found my brother Andor, locked in a room with no doors or other entrances."
             },
             {
                 "progress":140,
-                "logText":"To open an entrance I would have to find the four scrolls of elements and the three colored globes. These were hidden all over the island.\nThe scrolls and globes would need to be properly placed around this space."
+                "logText":"To open an entrance you would have to find the four scrolls of elements and the three colored globes. These were hidden all over the island.\nThe scrolls and globes would need to be properly placed around Andor's golden prison."
             },
             {
                 "progress":150,

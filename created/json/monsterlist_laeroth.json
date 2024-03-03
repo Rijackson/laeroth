@@ -587,6 +587,9 @@
         "id":"lae_andor3",
         "name":"Andor",
         "iconID":"monsters_maksiu1:1",
+        "maxHP":200,
+        "moveCost":4,
+        "unique":1,
         "monsterClass":"humanoid",
         "movementAggressionType":"wholeMap",
         "attackDamage":{
@@ -597,9 +600,9 @@
         "droplistID":"lae_andor3",
         "attackCost":4,
         "attackChance":70,
-        "criticalSkill":30,
-        "criticalMultiplier":2.0,
-        "blockChance":50
+        "blockChance":50,
+        "phraseID":"lae_andor3",
+		"faction":"lae_andor3"
     },
     {
         "id":"lae_algangror1",
@@ -621,8 +624,18 @@
         "id":"lae_algangror3",
         "name":"Algangror",
         "iconID":"monsters_rltiles1:68",
+        "maxHP":200,
+        "moveCost":4,
+        "unique":1,
         "monsterClass":"humanoid",
+        "attackDamage":{
+            "min":10,
+            "max":22
+        },
         "spawnGroup":"lae_algangror3",
+        "attackCost":4,
+        "attackChance":70,
+        "blockChance":50,
         "phraseID":"lae_algangror3"
     },
     {
@@ -645,8 +658,18 @@
         "id":"lae_jhaeld3",
         "name":"Jhaeld",
         "iconID":"monsters_mage:0",
+        "maxHP":200,
+        "moveCost":4,
+        "unique":1,
         "monsterClass":"humanoid",
+        "attackDamage":{
+            "min":10,
+            "max":22
+        },
         "spawnGroup":"lae_jhaeld3",
+        "attackCost":4,
+        "attackChance":70,
+        "blockChance":50,
         "phraseID":"lae_jhaeld3"
     },
     {

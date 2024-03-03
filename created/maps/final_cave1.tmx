@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="33" nextobjectid="38">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="33" nextobjectid="41">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -250,17 +250,17 @@
  </layer>
  <layer id="4" name="Walkable" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJztk1EKACEIRDvF3v8K3XDZj4U+Mh0braABCcLmqVV9Sqk30uLTv1qE5Lb5PW6GJK51NiOv0ZkZLjMf9fG8n8u1vTmrvN7ZXG1GM2yJoXGluq39otzWa4d+PWxkj6GZfldwWbEbN5It+WeJ9VcQXo/Lmhvjzk/lIjnWe0L2tBqiFfVHT4gXYzvC7A==
+   eJztk90JwCAMhJ2i+6/ghqUPBRGTXH5bwYMgSLwvJtqv1vqJsnj0rog0uWP+ilshiov2hvPizni4kflaH8v7OVzszaGyenuYFq7UIw+bYkhcqm70vlru6FV137lOrSzcSHnm+wU3Kv7GzWRT/lXi/kwWb8WN6lvEzHflanLQOWn2pBqylfVHd4gbJkrAlw==
   </data>
  </layer>
  <layer id="32" name="Walkable_0" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJztk1EKACEIRDvF3v8K3XDZj4U+Mh0braABCcLmpVZ9Sqk30uLTv1qE5Lb5PW6GJK61NyOv0ZkZLjMf9fG8n8u1vTmrvN7ZXK1HM2yJoXGle1uZKLf12qFeDxvZY2im3hVcVuzGjWRL/lli/RWE1+Oy+saY+alcJMc6J2RPu0O0ov7oCfECR4vDsw==
+   eJztk0sKwCAMRD1F738Fb1i6KGRh/pO0ggNBkDhPkzivMeaJtnj0rhZ5cmn+itshjmutjeQlnclwkflen8j8HK5t5qyKemeYEa5WowybY2hc7t5WppdLvbreS3mo+dL2kMr09wsuKv7GrWRz/l2S/kwVb8VF1Q3R8125nhxrnzx72h2qVfVHd4gbCprBXg==
   </data>
  </layer>
  <layer id="13" name="Walkable_1" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo4A+YKMYAmMTx6WeGDMosRdZnBS11LAXGx61l3x7SdFHqf6hai+6GZTYS2xepsTduPIpKYBW/iXWHFLVkxuvlABqpCtK7cXnnuFYXtHT3lEwCkbBKMAHAOyCe5o=
+   eJztlLENACAIBJ3C/VdwQ0sp1AD/Upi/hIaARwG2JkQNo6/Y5U/1njcQr81HahneXcib90b60H7EyfIy3IjXe8vI3Kc7jYB4rS+7Xy/rWTD2CvXe5vnxv6r0CiHEjQmvkXlF
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
@@ -286,6 +286,9 @@
     <property name="place" value="up"/>
    </properties>
   </object>
+  <object id="38" name="final_cave_loot1" type="container" x="224" y="480" width="32" height="32"/>
+  <object id="39" name="final_cave_loot2" type="container" x="192" y="512" width="32" height="32"/>
+  <object id="40" name="final_cave_loot3" type="container" x="256" y="352" width="32" height="32"/>
  </objectgroup>
  <objectgroup id="6" name="Spawn">
   <object id="5" name="lae_andor2" type="spawn" x="320" y="352" width="352" height="192">
