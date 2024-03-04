@@ -8477,7 +8477,7 @@
                         "requireType":"questProgress",
                         "requireID":"lae_centaurs",
                         "value":210,
-						"negate":true
+                        "negate":true
                     }
                 ]
             },
@@ -9971,8 +9971,8 @@
                 "requires":[
                     {
                         "requireType":"questProgress",
-                        "requireID":"odd_coin_collector",
-                        "value":65,
+                        "requireID":"nondisplay",
+                        "value":46,
                         "negate":true
                     }
                 ]
