@@ -9857,7 +9857,26 @@
         "replies":[
             {
                 "text":"What? You can talk?",
-                "nextPhraseID":"hungry_pig_upset_stomach_2"
+                "nextPhraseID":"hungry_pig_upset_stomach_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nondisplay",
+                        "value":51,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"More eating and less talking.",
+                "nextPhraseID":"hungry_pig_upset_stomach_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nondisplay",
+                        "value":51
+                    }
+                ]
             }
         ]
     },
@@ -10036,10 +10055,10 @@
     },
     {
         "id":"hungry_pig_dies",
-        "message":"[The hungry pig dies do to the rotten meat.]",
+        "message":"[The hungry pig dies due to the rotten meat.]",
         "rewards":[
             {
-                "rewardType":"deactivateSpawnArea",
+                "rewardType":"removeSpawnArea",
                 "rewardID":"hungry_pig_spawn",
                 "mapName":"gapfillerhole"
             },
