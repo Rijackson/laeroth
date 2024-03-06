@@ -9858,6 +9858,17 @@
                         "value":1
                     }
                 ]
+            },
+            {
+                "nextPhraseID":"hungry_pig_grunt",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"meat2",
+                        "value":1,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },
@@ -10078,5 +10089,9 @@
                 "value":130
             }
         ]
+    },
+    {
+        "id":"hungry_pig_grunt",
+        "message":"[Grunt]"
     }
 ]
