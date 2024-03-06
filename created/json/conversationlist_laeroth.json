@@ -6,6 +6,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"laeroth_nondisplay",
                 "value":1
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"laeroth_nondisplay",
+                "value":2
             }
         ]
     },
@@ -16,6 +21,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"laeroth_nondisplay",
                 "value":2
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"laeroth_nondisplay",
+                "value":1
             }
         ]
     },
