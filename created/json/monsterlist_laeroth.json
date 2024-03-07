@@ -1013,12 +1013,38 @@
         "id":"drakthorn",
         "name":"Drakthorn",
         "iconID":"monsters_rltiles4:13",
-        "monsterClass":"reptile"
+        "maxHP":143,
+        "moveCost":3,
+        "monsterClass":"reptile",
+        "movementAggressionType":"helpOthers",
+        "attackDamage":{
+            "min":15,
+            "max":16
+        },
+        "attackCost":4,
+        "attackChance":93,
+        "criticalSkill":2,
+        "criticalMultiplier":1.7,
+        "blockChance":84,
+        "damageResistance":2
     },
     {
         "id":"drakthorn_warrior",
         "name":"Drakthorn warrior",
         "iconID":"monsters_rltiles4:14",
-        "monsterClass":"reptile"
+        "maxHP":146,
+        "moveCost":3,
+        "monsterClass":"reptile",
+        "movementAggressionType":"helpOthers",
+        "attackDamage":{
+            "min":15,
+            "max":17
+        },
+        "attackCost":4,
+        "attackChance":97,
+        "criticalSkill":2,
+        "criticalMultiplier":18.0,
+        "blockChance":88,
+        "damageResistance":3
     }
 ]
