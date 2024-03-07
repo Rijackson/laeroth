@@ -2099,5 +2099,63 @@
                 }
             }
         ]
+    },
+    {
+        "id":"drakthorn_dl",
+        "items":[
+            {
+                "itemID":"gold",
+                "chance":"15",
+                "quantity":{
+                    "min":2,
+                    "max":6
+                }
+            },
+            {
+                "itemID":"fauchard_steel",
+                "chance":"7",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"health",
+                "chance":"12",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"drakthorn_warrior_dl",
+        "items":[
+            {
+                "itemID":"gold",
+                "chance":"15",
+                "quantity":{
+                    "min":3,
+                    "max":6
+                }
+            },
+            {
+                "itemID":"health",
+                "chance":"12",
+                "quantity":{
+                    "min":1,
+                    "max":2
+                }
+            },
+            {
+                "itemID":"shortsword2",
+                "chance":"8",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
     }
 ]

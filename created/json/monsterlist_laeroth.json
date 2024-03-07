@@ -1021,6 +1021,7 @@
             "min":15,
             "max":16
         },
+        "droplistID":"drakthorn_dl",
         "attackCost":4,
         "attackChance":93,
         "criticalSkill":2,
@@ -1040,6 +1041,7 @@
             "min":15,
             "max":17
         },
+        "droplistID":"drakthorn_warrior_dl",
         "attackCost":4,
         "attackChance":97,
         "criticalSkill":2,
