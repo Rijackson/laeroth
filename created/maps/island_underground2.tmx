@@ -204,9 +204,9 @@
    eJydlk1uwjAQhSOFTRcWtAvuQlu6p/zsKb1Af47XG/QIHCN01TWlGeEnXl4msQPSE0pszzdjz0w8GRXFZIBuaz2Hi8YD15uqsijCaJiYO4/coTaM+5ehQ9RP2eQuI7eK47l2bH7uvmDN9/Qs5sKnXDu53GP099QR7zGO6Tpvf8E9OFLfkTvG/LopigVx7Xkcx/r2iXl9XLMHMXdWszaRu671EC5cXmO6hvtY2/sMbVuL0KyjpTMHwvlAHpfH7axWHfaUi5gxPqNnrW3mgqO9AVyzc0+2OAbsDce8kD2YjNr7jnzG2fCc17h2W/8/SQ6x/ykuZOfGXJ2j8fXFYOt/7871jDHzcxea+22y/Tv0cLVGumKA/1XZrgHkPK/RvOYxL7/3U5+7Cu35iFt9V5vMtZpBziC/T2V3vOAeZa7H9eqY7SFn7Kf9qYurvSyXy/U3lAs713C1z6a43lnwXK+PpriQ/TTHU77x3HmsedjO5Xq9Ufsh+8a1irmbyN8Fv097XK4JPa+3Wu9RH6Fdq9Y3XqJ2iT7dJdSG9kqO1+szKnCRg31c3KW6ehb2BNx17K8srZPU91f7D7ip+fvp5fuo+6Pfo777H/egbQaX13k1r/H23dE5X/WewP98J7N1Ka6ytAdxvnIv5hrGfZK/kUO5fCeF33xnxXs+D+9eh+8wv4PfVdl8j9xjG6hHtTFEOCfO62ttsbiXsFBPegcw7j994f+f
   </data>
  </layer>
- <layer name="Objects" width="30" height="30" visible="0">
+ <layer name="Objects" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJy1V0tOwzAQrdKsC6ao+zQcgIsAJwDOSMUFqgqJLV1QpdwAVRyBj6UMeZnMx0naJ1lK7fH8/GbsTianx3zRnVvm/YYEb0+06+l4D8eLk4DxPiXoX867c6/T7uhjdyikPGo54nmWcJml2S3Z/kLRR9gFP94V+M15QOeyNXRoHCxhz+dFew//jShqPTxWXNfWCG+Gfgn87Ko/Hu1hfDi8ukk4vxSZPoh5uM/82icZL2e34N91nb+ZUHMWPDsHlucYw0PW+F8l5jvKHeohrVlnp8W0rn3bKXVc1Xqe2fq3wDXsZ1JfkvrUZtGWT+llFiReaDxBeUtGwtdIP/sA+WPZRQ5E8D7JeYiwepNn9xSgfhjtUn1p/qNvvBatmI/p2xDsp91B81YvGHoWdyN78RC7MT+PzO7LrPnmvKM7iXM55V6SepIHr+dyaD4UTg9ZCTyM3DwX+vIGZL26RJBs316GCII/qXf4D8tJSl/935O35+gOx9rC98oavsOIeK/YXu0elBDYG/Asb+akN6v2X4RksS4sSLpL4y0+BsjrX5qEamE=
+   eJy1V0tOwzAQrdKsC6Go+zQcoBcpnAA4AUfgUFRcoKqQuoUFVcoNUMUR+FjKkJfJfJykfZKl1B7Pz2/G7mh0ekxn7bl52m1I8PYEu56O9+x4cRIw3qcI/fNpe247bo8udvtCyqOWI55nCZdJnN2C7c8VfYRd5se7Ar85D+hc3gwdGgcL2PN50dzDfyPySg+PFde1NcKroV8CP7vyj0d7GB8Orx4izi9GpgtCHh4Tv/ZJxsvZNfi3qPI3EWrOgmfnwPIcYrhLav/LyHwHuUM1pDXr7LSY1pVvO6WOy0rPM1v/FriG/UzqS1Kf2sya8jG9zILEC40nKG/JSPga6GcXIH8su8iBAN4nOQ8RVm/y7J4C1A+DXaovzX/0jdeiFfMxfeuD/bg9aN7qBX3P4mZgL+5jN+Tnntl9mdTfnHd0J3Eux9xLUk/y4PVcDs2H3OkhK4GHgZvnQl/egKxXlwiS7drLEJngzzKSNz8sJzF99X9P2pwL+26TZm3he2UN39mAeK/YXu0elJCxN+BZWs9Jb1btvwjJYl1YkHQXxlt8CJDXv2vPauE=
   </data>
  </layer>
  <layer name="Objects1" width="30" height="30">
@@ -249,7 +249,7 @@
    eJztk2EKgDAIhXeK7n+F3TD6EQxR35vTFpEwqNz83nPWj9Z68bqimvFz38W9Y3zO1GfVtCKb6+nRuDMatBrWeY/Lftd8sVxtj/WewWU4Vi3EldrY+0cekE5vrpic9U8gnajPO7lM7it+vbzkonmv5MpgGRl+tf1RrhWszgh3pQ8VWma5bL/Y/kfuYtXvyEV8qWMnN8LWtEstmrbMGfdqo1wGn72Xp7ha76t9zq4TZvYIKg==
   </data>
  </layer>
- <layer name="Walkable2" width="30" height="30">
+ <layer name="Walkable2" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
    eJzbKMbAsHEEYVIBrcygxFxizSHHXkrMI9VeasfpqL2j9g5We4nNv/jUUVIW4FNLyEx6gcHiX2R11E5PxKSrUXuHrr3o6YoQoKb92Pw+0PYSEw+UhjcxYT/c7KUnHrV35GAAD0MuQQ==
   </data>
@@ -290,6 +290,133 @@
    <properties>
     <property name="quantity" value="2"/>
     <property name="spawngroup" value="adult_church_dweller"/>
+   </properties>
+  </object>
+  <object name="poison_vine_top_spawn1" type="spawn" x="768" y="256" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="poison_vine_top"/>
+   </properties>
+  </object>
+  <object name="poison_vine_bottom_spawn1" type="spawn" x="768" y="288" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="poison_vine_bottom"/>
+   </properties>
+  </object>
+  <object name="drakthorn_spawn1" type="spawn" x="64" y="64" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="drakthorn"/>
+   </properties>
+  </object>
+  <object name="drakthorn_spawn2" type="spawn" x="608" y="544" width="192" height="160">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="drakthorn"/>
+   </properties>
+  </object>
+  <object name="adult_church_dweller_spawn3" type="spawn" x="864" y="96" width="64" height="480">
+   <properties>
+    <property name="quantity" value="4"/>
+    <property name="spawngroup" value="adult_church_dweller"/>
+   </properties>
+  </object>
+  <object name="drakthorn_spawn3" type="spawn" x="672" y="800" width="192" height="128">
+   <properties>
+    <property name="spawngroup" value="drakthorn"/>
+   </properties>
+  </object>
+  <object name="drakthorn_warrior_spawn1" type="spawn" x="384" y="96" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="drakthorn_warrior"/>
+   </properties>
+  </object>
+  <object name="drakthorn_warrior_spawn2" type="spawn" x="480" y="480" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="drakthorn_warrior"/>
+   </properties>
+  </object>
+  <object name="drakthorn_warrior_spawn3" type="spawn" x="256" y="416" width="224" height="32">
+   <properties>
+    <property name="spawngroup" value="drakthorn_warrior"/>
+   </properties>
+  </object>
+  <object name="drakthorn_spawn4" type="spawn" x="448" y="576" width="32" height="128">
+   <properties>
+    <property name="spawngroup" value="drakthorn"/>
+   </properties>
+  </object>
+  <object name="drakthorn_spawn5" type="spawn" x="416" y="704" width="192" height="128">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="drakthorn"/>
+   </properties>
+  </object>
+  <object name="drakthorn_warrior_spawn4" type="spawn" x="448" y="256" width="64" height="64">
+   <properties>
+    <property name="spawngroup" value="drakthorn_warrior"/>
+   </properties>
+  </object>
+  <object name="drakthorn_spawn6" type="spawn" x="224" y="256" width="160" height="128">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="drakthorn"/>
+   </properties>
+  </object>
+  <object name="drakthorn_spawn7" type="spawn" x="64" y="512" width="320" height="128">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="drakthorn"/>
+   </properties>
+  </object>
+  <object name="drakthorn_warrior_spawn5" type="spawn" x="256" y="672" width="64" height="128">
+   <properties>
+    <property name="spawngroup" value="drakthorn_warrior"/>
+   </properties>
+  </object>
+  <object name="cave_bat_spawn1" type="spawn" x="32" y="384" width="64" height="96">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="cavebat4"/>
+   </properties>
+  </object>
+  <object name="drakthorn_warrior_spawn6" type="spawn" x="32" y="160" width="128" height="128">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="drakthorn_warrior"/>
+   </properties>
+  </object>
+  <object name="drakthorn_warrior_spawn7" type="spawn" x="608" y="416" width="192" height="32">
+   <properties>
+    <property name="spawngroup" value="drakthorn_warrior"/>
+   </properties>
+  </object>
+  <object name="drakthorn_warrior_spawn8" type="spawn" x="160" y="384" width="32" height="416">
+   <properties>
+    <property name="quantity" value="4"/>
+    <property name="spawngroup" value="drakthorn_warrior"/>
+   </properties>
+  </object>
+  <object name="drakthorn_warrior_spawn9" type="spawn" x="64" y="640" width="64" height="160">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="drakthorn_warrior"/>
+   </properties>
+  </object>
+  <object name="cavebat4_spawn2" type="spawn" x="608" y="224" width="128" height="192">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="cavebat4"/>
+   </properties>
+  </object>
+  <object name="cavebat4_spawn3" type="spawn" x="544" y="352" width="32" height="128">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="cavebat4"/>
+   </properties>
+  </object>
+  <object name="cavebat4_spawn4" type="spawn" x="832" y="352" width="96" height="288">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="cavebat4"/>
    </properties>
   </object>
  </objectgroup>

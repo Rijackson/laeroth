@@ -597,12 +597,12 @@
             "max":22
         },
         "spawnGroup":"lae_andor3",
+        "faction":"lae_andor3",
+        "phraseID":"lae_andor3",
         "droplistID":"lae_andor3",
         "attackCost":4,
         "attackChance":70,
-        "blockChance":50,
-        "phraseID":"lae_andor3",
-		"faction":"lae_andor3"
+        "blockChance":50
     },
     {
         "id":"lae_algangror1",
@@ -633,10 +633,10 @@
             "max":22
         },
         "spawnGroup":"lae_algangror3",
+        "phraseID":"lae_algangror3",
         "attackCost":4,
         "attackChance":70,
-        "blockChance":50,
-        "phraseID":"lae_algangror3"
+        "blockChance":50
     },
     {
         "id":"lae_jhaeld1",
@@ -667,18 +667,15 @@
             "max":22
         },
         "spawnGroup":"lae_jhaeld3",
+        "phraseID":"lae_jhaeld3",
         "attackCost":4,
         "attackChance":70,
-        "blockChance":50,
-        "phraseID":"lae_jhaeld3"
+        "blockChance":50
     },
     {
         "id":"lae_island_boss",
         "name":"Dorhantarh",
         "iconID":"monsters_demon1:0",
-        "monsterClass":"humanoid",
-        "spawnGroup":"lae_island_boss",
-        "phraseID":"lae_island_boss",
         "maxHP":297,
         "moveCost":6,
         "unique":1,
@@ -1011,5 +1008,17 @@
         "attackCost":3,
         "attackChance":71,
         "blockChance":81
+    },
+    {
+        "id":"drakthorn",
+        "name":"Drakthorn",
+        "iconID":"monsters_rltiles4:13",
+        "monsterClass":"reptile"
+    },
+    {
+        "id":"drakthorn_warrior",
+        "name":"Drakthorn warrior",
+        "iconID":"monsters_rltiles4:14",
+        "monsterClass":"reptile"
     }
 ]
