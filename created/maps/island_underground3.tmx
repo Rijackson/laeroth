@@ -254,6 +254,86 @@
     <property name="spawngroup" value="poison_vine_bottom"/>
    </properties>
   </object>
+  <object name="cavebat4_spawn1" type="spawn" x="32" y="832" width="544" height="64">
+   <properties>
+    <property name="quantity" value="4"/>
+    <property name="spawngroup" value="cavebat4"/>
+   </properties>
+  </object>
+  <object name="cavebat4-spawn2" type="spawn" x="32" y="544" width="544" height="192">
+   <properties>
+    <property name="quantity" value="5"/>
+    <property name="spawngroup" value="cavebat4"/>
+   </properties>
+  </object>
+  <object name="cavebat4_spawn3" type="spawn" x="416" y="256" width="512" height="256">
+   <properties>
+    <property name="quantity" value="4"/>
+    <property name="spawngroup" value="cavebat4"/>
+   </properties>
+  </object>
+  <object name="drakthorn_warrior_spawn1" type="spawn" x="160" y="64" width="736" height="32">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="drakthorn_warrior"/>
+   </properties>
+  </object>
+  <object name="drakthorn_warrior_spawn2" type="spawn" x="192" y="160" width="672" height="32">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="drakthorn_warrior"/>
+   </properties>
+  </object>
+  <object name="drakthorn_spawn1" type="spawn" x="768" y="608" width="128" height="160">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="drakthorn"/>
+   </properties>
+  </object>
+  <object name="drakthorn_spawn2" type="spawn" x="448" y="256" width="384" height="64">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="drakthorn"/>
+   </properties>
+  </object>
+  <object name="drakthorn_spawn3" type="spawn" x="800" y="384" width="96" height="128">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="drakthorn"/>
+   </properties>
+  </object>
+  <object name="drakthorn_warrior_spawn3" type="spawn" x="576" y="576" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="drakthorn_warrior"/>
+   </properties>
+  </object>
+  <object name="drakthorn_warrior_spawn4" type="spawn" x="32" y="320" width="32" height="192">
+   <properties>
+    <property name="spawngroup" value="drakthorn_warrior"/>
+   </properties>
+  </object>
+  <object name="drakthorn_warrior_spawn5" type="spawn" x="256" y="384" width="224" height="64">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="drakthorn_warrior"/>
+   </properties>
+  </object>
+  <object name="drakthorn_spawn4" type="spawn" x="128" y="768" width="32" height="64">
+   <properties>
+    <property name="spawngroup" value="drakthorn"/>
+   </properties>
+  </object>
+  <object name="drakthorn_warrior_spawn6" type="spawn" x="416" y="704" width="96" height="32">
+   <properties>
+    <property name="spawngroup" value="drakthorn_warrior"/>
+   </properties>
+  </object>
+  <object name="drakthorn_spawn6" type="spawn" x="608" y="736" width="128" height="96">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="drakthorn"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Keys"/>
 </map>
