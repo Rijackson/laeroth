@@ -370,10 +370,10 @@
     <map id="laerothisland1" x="743" y="73"/>
     <map area="laeroth_area" id="laerothisland2" x="710" y="68"/>
     <map id="laerothisland3" x="710" y="99"/>
-    <map id="island3" x="546" y="32"/>
-    <map id="island2" x="546" y="1"/>
-    <map id="island1" x="515" y="1"/>
-    <map id="island4" x="515" y="32"/>
+    <map id="island3" x="555" y="102"/>
+    <map id="island2" x="555" y="71"/>
+    <map id="island1" x="524" y="71"/>
+    <map id="island4" x="524" y="102"/>
     <map id="korhald_cave_outdoor1" x="550" y="278"/>
     <map id="remgard2a" x="702" y="114"/>
     <map id="waterway_forest1" x="581" y="259"/>

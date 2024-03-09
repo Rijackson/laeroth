@@ -8,14 +8,15 @@
     <map id="laerothtomb0" x="268" y="160"/>
     <map id="laerothtomb1" x="260" y="144"/>
   </segment>
-  <segment id="island_caves" x="23" y="35">
+  <segment id="island_caves" x="23" y="67">
     <map id="island_underground1" x="100" y="100"/>
     <map id="island_underground3" x="45" y="131"/>
     <map id="island_underground4" x="23" y="100"/>
     <map id="island_underground2" x="76" y="131"/>
     <map id="island_underground4a" x="47" y="67"/>
-    <map id="island_underground4b" x="71" y="36"/>
-    <map id="island_underground5" x="50" y="34"/>
+    <map id="island_underground4b" x="80" y="67"/>
+    <map id="island_underground4c" x="80" y="98"/>
+    <map id="island_underground5" x="59" y="104"/>
   </segment>
   <segment id="island_cave_2" x="-20" y="-43">
     <map id="island_4_cave1" x="11" y="3"/>
