@@ -361,9 +361,8 @@
     <property name="spawngroup" value="drakthorn"/>
    </properties>
   </object>
-  <object name="drakthorn_spawn7" type="spawn" x="64" y="512" width="320" height="128">
+  <object name="drakthorn_spawn7" type="spawn" x="64" y="512" width="96" height="128">
    <properties>
-    <property name="quantity" value="3"/>
     <property name="spawngroup" value="drakthorn"/>
    </properties>
   </object>
@@ -417,6 +416,12 @@
    <properties>
     <property name="quantity" value="3"/>
     <property name="spawngroup" value="cavebat4"/>
+   </properties>
+  </object>
+  <object name="drakthorn_spawn8" type="spawn" x="256" y="480" width="128" height="160">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="drakthorn"/>
    </properties>
   </object>
  </objectgroup>

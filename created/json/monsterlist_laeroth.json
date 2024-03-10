@@ -1014,12 +1014,12 @@
         "name":"Drakthorn",
         "iconID":"monsters_rltiles4:13",
         "maxHP":143,
-        "moveCost":3,
+        "moveCost":4,
         "monsterClass":"reptile",
         "movementAggressionType":"helpOthers",
         "attackDamage":{
-            "min":15,
-            "max":16
+            "min":8,
+            "max":20
         },
         "droplistID":"drakthorn_dl",
         "attackCost":4,
@@ -1034,12 +1034,12 @@
         "name":"Drakthorn warrior",
         "iconID":"monsters_rltiles4:14",
         "maxHP":146,
-        "moveCost":3,
+        "moveCost":4,
         "monsterClass":"reptile",
         "movementAggressionType":"helpOthers",
         "attackDamage":{
-            "min":15,
-            "max":17
+            "min":10,
+            "max":21
         },
         "droplistID":"drakthorn_warrior_dl",
         "attackCost":4,
