@@ -5064,7 +5064,13 @@
         "switchToNPC":"brute_creator"
     },
     {
+        "id":"brute_creator_key2",
+        "message":"Stop! You must not go in there while the lightning is active!",
+        "switchToNPC":"brute_creator"
+    },
+    {
         "id":"brute_creator_in",
+        "message":"Hey, I'm on the inside!",
         "rewards":[
             {
                 "rewardType":"deactivateMapObjectGroup",
@@ -5183,11 +5189,20 @@
         "id":"brute_origin1a",
         "replies":[
             {
+                "nextPhraseID":"brute_origin1a_5",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"20"
+                    }
+                ]
+            },
+            {
                 "nextPhraseID":"brute_origin1a_4",
                 "requires":[
                     {
                         "requireType":"random",
-                        "requireID":"10"
+                        "requireID":"25"
                     }
                 ]
             },
@@ -5229,6 +5244,10 @@
     {
         "id":"brute_origin1a_4",
         "message":"The cake is a lie."
+    },
+    {
+        "id":"brute_origin1a_5",
+        "message":"I don't hate you."
     },
     {
         "id":"brute_creator_flash",
@@ -5280,7 +5299,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"laeroth_nondisplay",
-                        "requireID":"200"
+                        "value":200
                     }
                 ]
             }
@@ -5322,7 +5341,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"laeroth_nondisplay",
-                        "requireID":"200"
+                        "value":200
                     }
                 ]
             }

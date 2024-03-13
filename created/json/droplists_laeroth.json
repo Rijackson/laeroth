@@ -1743,6 +1743,32 @@
         ]
     },
     {
+        "id":"brute_creator_l2",
+        "items":[
+            {
+                "itemID":"gold",
+                "chance":"100",
+                "quantity":{
+                    "min":10,
+                    "max":1000
+                }
+            }
+        ]
+    },
+    {
+        "id":"brute_creator_l3",
+        "items":[
+            {
+                "itemID":"gem2",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":3
+                }
+            }
+        ]
+    },
+    {
         "id":"lae_andor3",
         "items":[
             {
