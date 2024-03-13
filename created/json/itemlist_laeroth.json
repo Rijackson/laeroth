@@ -644,6 +644,13 @@
         "category":"other"
     },
     {
+        "id":"lae_cube",
+        "iconID":"items_newb:330",
+        "name":"Cube",
+        "displaytype":"extraordinary",
+        "category":"other"
+    },
+    {
         "id":"korhald_kettle",
         "iconID":"items_newb:71",
         "name":"Korhald's kettle",

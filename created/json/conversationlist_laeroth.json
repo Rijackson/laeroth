@@ -5064,6 +5064,36 @@
         "switchToNPC":"brute_creator"
     },
     {
+        "id":"brute_creator_in",
+        "rewards":[
+            {
+                "rewardType":"deactivateMapObjectGroup",
+                "rewardID":"Keys2",
+                "mapName":"mountainlake8_cave"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"laeroth_nondisplay",
+                "value":200
+            }
+        ]
+    },
+    {
+        "id":"brute_creator_out",
+        "rewards":[
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"Keys2",
+                "mapName":"mountainlake8_cave"
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"laeroth_nondisplay",
+                "value":200
+            }
+        ]
+    },
+    {
         "id":"brute_creator_chair",
         "message":"This is my chair if you please.",
         "switchToNPC":"brute_creator"
@@ -5233,11 +5263,28 @@
                 "rewardType":"alignmentSet",
                 "rewardID":"brute_creator_flash",
                 "value":0
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"laeroth_nondisplay",
+                "value":201
             }
         ]
     },
     {
         "id":"brute_creator_flash_1",
+        "replies":[
+            {
+                "nextPhraseID":"brute_creator_flash_1b",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"laeroth_nondisplay",
+                        "requireID":"200"
+                    }
+                ]
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"alignmentSet",
@@ -5248,11 +5295,38 @@
                 "rewardType":"questProgress",
                 "rewardID":"brute_creator",
                 "value":30
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"laeroth_nondisplay",
+                "value":201
+            }
+        ]
+    },
+    {
+        "id":"brute_creator_flash_1b",
+        "rewards":[
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"fire",
+                "value":3
             }
         ]
     },
     {
         "id":"brute_creator_flash_2",
+        "replies":[
+            {
+                "nextPhraseID":"brute_creator_flash_1b",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"laeroth_nondisplay",
+                        "requireID":"200"
+                    }
+                ]
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"alignmentSet",
@@ -5263,6 +5337,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"brute_creator",
                 "value":30
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"laeroth_nondisplay",
+                "value":201
             }
         ]
     },

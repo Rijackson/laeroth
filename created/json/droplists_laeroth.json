@@ -1730,6 +1730,19 @@
         ]
     },
     {
+        "id":"brute_creator_l1",
+        "items":[
+            {
+                "itemID":"lae_cube",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
         "id":"lae_andor3",
         "items":[
             {

@@ -95,6 +95,14 @@
             {
                 "progress":140,
                 "logText":"Looted Adakin's chest."
+            },
+            {
+                "progress":200,
+                "logText":"brute_creator_in"
+            },
+            {
+                "progress":201,
+                "logText":"brute_creator_key"
             }
         ]
     },
