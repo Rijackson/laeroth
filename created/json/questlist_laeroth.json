@@ -525,26 +525,6 @@
             {
                 "progress":210,
                 "logText":"Now that Dorhantarh was dead, the walls above opened up again."
-            },
-            {
-                "progress":42,
-                "logText":"42=mit text"
-            },
-            {
-                "progress":43,
-                "logText":"43=key open"
-            },
-            {
-                "progress":44,
-                "logText":"44=pre"
-            },
-            {
-                "progress":45,
-                "logText":"45=post"
-            },
-            {
-                "progress":46,
-                "logText":"46=post2"
             }
         ]
     }
