@@ -1,0 +1,61 @@
+[
+    {
+        "id":"arcir_books_1",
+        "message":"I find great pleasure in my books. They contain the accumulated knowledge of past generations.",
+        "replies":[
+            {
+                "text":"Do you have a book called 'Calomyran Secrets'?",
+                "nextPhraseID":"arcir_calomyran_select",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"calomyran",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "text":"OK.",
+                "nextPhraseID":"arcir_anythingelse"
+            },
+            {
+                "text":"I have found some valuable looking map. Want to have a look?",
+                "nextPhraseID":"arcir_books_rares_map",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"inspiring_snake_master_map",
+                        "value":1
+                    },
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"ewmondold_snake_master",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"I have found a strange book about slavery. Interested?",
+                "nextPhraseID":"arcir_books_rares_book1",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"ratdom_book",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"I have got a book about world history. Interested?",
+                "nextPhraseID":"arcir_books_rares_book2",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"book_world_history",
+                        "value":1
+                    }
+                ]
+            }
+        ]
+    }
+]

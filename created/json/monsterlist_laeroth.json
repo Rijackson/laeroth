@@ -675,7 +675,7 @@
     {
         "id":"lae_island_boss",
         "name":"Dorhantarh",
-        "iconID":"monsters_demon1:0",
+        "iconID":"monsters_newb_3:2",
         "maxHP":297,
         "moveCost":6,
         "unique":1,
