@@ -692,6 +692,17 @@
         "id":"laerothbasement2_chest_examine",
         "replies":[
             {
+                "nextPhraseID":"laerothbasement2_cannot_examine_chest",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":20,
+                        "negate":true
+                    }
+                ]
+            },
+            {
                 "nextPhraseID":"laerothbasement2_korhald_notice_sign",
                 "requires":[
                     {
@@ -10191,5 +10202,9 @@
     {
         "id":"hungry_pig_grunt",
         "message":"[Grunt]"
+    },
+    {
+        "id":"laerothbasement2_cannot_examine_chest",
+        "message":"As you approach these crates, you quickly develop an appreciation for their age. You also notice the vast amount of nasty cobwebs surrounding them. Outside of all that, you are bored and decide that it's time to move on."
     }
 ]
