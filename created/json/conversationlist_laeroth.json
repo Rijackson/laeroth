@@ -8723,6 +8723,10 @@
         ]
     },
     {
+        "id":"centaur",
+        "message":"You are not wanted here."
+    },
+    {
         "id":"verigil_seal_found_test_nut",
         "message":"You found a seal with \"V\" engraved on it. This should work.\nBut it still must be coded properly (nut).",
         "rewards":[
