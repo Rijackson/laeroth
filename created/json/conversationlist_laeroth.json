@@ -655,6 +655,17 @@
         "id":"laerothbasement2_korhald_sign_selector",
         "replies":[
             {
+                "nextPhraseID":"laerothbasement2_korhald_sign_nope",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":20,
+                        "negate":true
+                    }
+                ]
+            },
+            {
                 "nextPhraseID":"laerothbasement2_korhald_sign_10",
                 "requires":[
                     {
@@ -9016,7 +9027,7 @@
     },
     {
         "id":"laerothbasement2_korhald_sign_10",
-        "message":"Not paying attention, you fall flat on your face. Damaging your chin and forehead..",
+        "message":"Not paying attention, you fall flat on your face. Damaging your chin and forehead.",
         "replies":[
             {
                 "text":"Oops, that's really going to cost me.",
@@ -10210,5 +10221,15 @@
     {
         "id":"laerothbasement2_cannot_examine_chest",
         "message":"As you approach these crates, you quickly develop an appreciation for their age. You also notice the vast amount of nasty cobwebs surrounding them. Outside of all that, you are bored and decide that it's time to move on."
+    },
+    {
+        "id":"laerothbasement2_korhald_sign_nope",
+        "message":"Not paying attention, you fall flat on your face. Damaging your chin and forehead.",
+        "replies":[
+            {
+                "text":"Oops, that's really going to cost me.",
+                "nextPhraseID":"X"
+            }
+        ]
     }
 ]
