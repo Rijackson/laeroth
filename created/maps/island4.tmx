@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="14" nextobjectid="33">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="14" nextobjectid="33">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -183,6 +183,9 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
+ <tileset firstgid="7577" name="map_guynmart" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_guynmart.png" width="512" height="256"/>
+ </tileset>
  <layer id="8" name="Base" width="30" height="30">
   <data encoding="base64" compression="zlib">
    eJxjYCANbOTEFPsjjl89DA9FgOx+ZD9g8/NBMcrt8xSHYFyAkL3khjPIzp1M+NWgm40v3kmxlxDAZg+laYpce5HBZk4Ipra9tACE4nYUjAJKwZkBSmMDZS+peX8UjIJRMApGwSgYrAAA0xcYXw==
@@ -195,12 +198,12 @@
  </layer>
  <layer id="2" name="Objects" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztlb1OAkEQxzcUJAoxOQrwiE+gNkbxBRAqG4NaWaqFhY/gS1kaChvFzsJAVDgTY/wKfsRWC2dyO97c3NweWlnwTzYLu5f57X9ndtcYXc2KMV+V5PixF/ZXXjRWLxhzzf6/+GF/ycYW4ZvitDHbELOmxHVxFwrxWKRGIYxLCvyITWrB/CRwZ6Atp3CXYHxXcJGJrWO526U4q85+v/rJMdR92Zh5Bxe9VmG+MB2NvVleG2LeliIPp16SMbR++dhNLmSuQ+yGg0teu2xf12ycoRcyufhec+6eXWMxgym5pAfLv8jHPaDIf11wf77zwjVhTe1UwnyNykUNgHOXj5j9qfg8cbHWz0RdNRirqXB5TZEPzQOKYtdsnJbIMdZX4Ed1RmvSpNXUiRflVhPyVnPJ8YCxcc2PKUziole5h1naEtw34Lwzv1nxkDsLXj+h79n10V00oXhyKRB7TWvRtAK8TWjPcMafyvE5X3D3xX+qb8yhzC/PczuF3bS13Cnr86SDXJxHwrh9hRmk8EjkGfd7zjauU0d9oDCXcm9lXWexSYOU3HbYGjR/vJ5rjjPhYuOd+QFn+lDxK/MpfZ77ybv1N2y8S+gsL7M4VEvoS/ao3zBJzZS7XN4lRyx/GkfWX5ZGyfVkRkxidjNqMost+VXlLPcUBr6FG463UJO23/zt0EQcaq73N00rIsYo7S+cscYa63/rG5orr9o=
+   eJztlr1KA0EQx5cUgokIl0DiBZ9AbUTjC8SkspGolaBFtLBQn8CXshQLG42dhST4dYKIX0Qjtlo4w+14c3Nzd7ERFP+wbG73Mr+dndnZM0ZXvWTMRyk6fuD4/bkTjFVzxlyw52fX78/Y2BS8MzRiTBNsVhS7SdzJXNgWqZbz7ZI8N2CTGjCfBe4otJkY7jSMrwsuMrG1LLeZD7Oq7PeLGx1D3RWNmWDclYIxq4Wwr2WYz40EYz3L2webN/nAhyMnyuhaf/nYdcZnLoDtmuVuAXNbcMnXNtvXeWun6/hMLr7XnLth1zgkmJq02N5b/ulA2AcU+V8V3K/3HH9NmFNrJT9e/XJRV8C5HQiYl8PheeJirh+LvKoxVl3h8pwiPzQfUGS7Yu00RIwxvzw3yDNakyYtpw6dILaakDeXiY57jI1rfohhEhd9lXuYpmXB7QHnlfmbZg+5Y+DrO/Qduz6qRYOKT0nyxF7TWjTNAm8J2hOc8cdieM4V3E3xTPmNMZTx5XHej2HXbS63ivo8aScT5pHQ7qXC9GJ4JPIZ93vcNq6jhPxAYSzl3sq8RmUK0f8Sm3QVE9sWW4PmH8/nijgTeYWrsbFmvsGZ3lX8lfGUfp640doascHqhWRjLaGzPMPsUC6hX7JHpTE11WNquawleyx+GkfmX5r6iXU2xSYx2yk5mcaW/LJyljsKA+/CxYS7EKV9D0jxu0MTcagl3b8k+T0wK2z00/rh/Ov3Sau9PyGt9srzwfXddXZTzhGXPB9ccXfEX9EnsqW4Qg==
   </data>
  </layer>
  <layer id="3" name="Above" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztlb8OgjAQxhsX44gDyb2Ej+Ij+JBuxj8xYdQ46OCC4MSE8gbGXmjlLKeBejjxJQ1Q2v74rtxVqd+VBkpFYXmfg1Kxbheo3u8CAQgjum4M/JhEjzmF8uyHWTc3XOsX42B5kSCXerDr0jhj39H0H4W4yHyxtN8l8FwJDQfVPfWC2kDlf2G4mdn7ydiP5/6jKDduB6jHmpsnrST4HFdf9pnkyppZI3L+2VSPuXqwTi3nuNwC3nMZ/fp+SxsuVz+62OeoYY5Ksz/x3NjeOvBMc8eKe5ZmJrrdzdX1uYWydnfhl4rzmX3J76bCelgw5+qK8WN90nruK5w/Z7h7KM+Hs/E2+lLPfeTOnw7qY5ADpF/qHKSaMdwuOL169er1bz0B5yxpNA==
+   eJztljsOwjAMhiMWxFgGkAeuwFHYWDkkG+IhpI4gBpBggcLExOMGiFhNqAluAZMsqL8UUULij9+N3Sr1u/aRUnEjvT6BUls9dpD9Pos8QBjRuFvg1yR6zarhn30zcU+Ga/1iHiwv9silHmxcmmecW5r5pcPtNtMhYT5Y2u8QeK4PVSvZNfWCmkDmf2C4R3Pv23UZzz2jKDdvC3jNNbfPt5IoP69S9obUypiJETtndq/XHASs1Zd7XO4VnmsZ/Ur/yzdcrn+EuM9xTo2GZufx3NyeA3imtWPFfffNTPS4mE/X5xTS3k39SnrkO3E+jwX1jVq33sfFfnhlnqsjJo/WJ+3nUuH+PsOdQ/p82BhvtYJ+LpG7v1N5XYMcIPO/Mjn1GG4ITkhJ3wdKlQql0Ofxk55qVVQf/143d641buY=
   </data>
  </layer>
  <layer id="9" name="Top" width="30" height="30">
@@ -208,7 +211,7 @@
    eJztzjERAAAIBKCvYf8UtvMsoQskIAFW1/cAAABuDRfGANM=
   </data>
  </layer>
- <layer id="4" name="Walkable" width="30" height="30">
+ <layer id="4" name="Walkable" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
    eJztk1EOgDAIQ3cK73+F3dDfhRQoHfPHkTQmG/Ko4HzGmI5QoPM1H9WI7hkue47y0D3DzXKQN3vOcD1PGdeyv+B682TqqFzrLdojtl7kB3GRT8WHx6rsLMP1+ou8MP+AymXU6Zdlsrub3XX6ZZgK1+Z2sbP5s31WfTDcyizUXVGZVVnG+jzJ7uIqPSLuTu+n3vVi93uzcWrnrq6u/qUXaZkIKg==
   </data>
