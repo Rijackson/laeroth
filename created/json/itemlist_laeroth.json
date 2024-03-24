@@ -678,5 +678,37 @@
         "name":"Insect claw",
         "displaytype":"ordinary",
         "category":"animal"
+    },
+    {
+        "id":"raiders_reach",
+        "iconID":"items_newb:493",
+        "name":"Raider's reach",
+        "displaytype":"rare",
+        "baseMarketCost":6700,
+        "category":"whip",
+        "description":"",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":1,
+                "max":3
+            },
+            "increaseMaxHP":3,
+            "increaseAttackCost":5,
+            "increaseAttackChance":6,
+            "increaseCriticalSkill":2,
+            "increaseBlockChance":6,
+            "setCriticalMultiplier":1.5,
+            "setNonWeaponDamageModifier":127
+        },
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"sting_minor",
+                    "magnitude":1,
+                    "duration":2,
+                    "chance":"10"
+                }
+            ]
+        }
     }
 ]

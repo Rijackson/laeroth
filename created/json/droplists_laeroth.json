@@ -1799,6 +1799,14 @@
                     "min":100,
                     "max":1000
                 }
+            },
+            {
+                "itemID":"raiders_reach",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
             }
         ]
     },
