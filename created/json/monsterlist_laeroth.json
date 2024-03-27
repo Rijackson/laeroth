@@ -1049,5 +1049,25 @@
         "criticalMultiplier":18.0,
         "blockChance":88,
         "damageResistance":3
+    },
+    {
+        "id":"drakthorn_warrior_captain",
+        "name":"Drakthorn warrior captain",
+        "iconID":"monsters_rltiles4:15",
+        "maxHP":154,
+        "moveCost":4,
+        "monsterClass":"reptile",
+        "movementAggressionType":"helpOthers",
+        "attackDamage":{
+            "min":12,
+            "max":23
+        },
+        "droplistID":"drakthorn_warrior_captain_dl",
+        "attackCost":4,
+        "attackChance":101,
+        "criticalSkill":2,
+        "criticalMultiplier":18.0,
+        "blockChance":91,
+        "damageResistance":3
     }
 ]

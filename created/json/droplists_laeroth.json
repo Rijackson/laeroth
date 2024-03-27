@@ -2204,5 +2204,34 @@
                 }
             }
         ]
+    },
+    {
+        "id":"drakthorn_warrior_captain_dl",
+        "items":[
+            {
+                "itemID":"gold",
+                "chance":"17",
+                "quantity":{
+                    "min":4,
+                    "max":8
+                }
+            },
+            {
+                "itemID":"health_major2",
+                "chance":"8",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"heavy_club",
+                "chance":"5",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
     }
 ]
