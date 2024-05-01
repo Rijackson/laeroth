@@ -268,6 +268,7 @@
   </object>
   <object id="12" name="brute_fisherman" type="spawn" x="800" y="704" width="32" height="32">
    <properties>
+    <property name="active" value="false"/>
     <property name="quantity" value="1"/>
     <property name="spawngroup" value="brute_fisherman"/>
    </properties>
