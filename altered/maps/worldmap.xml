@@ -331,7 +331,6 @@
     <map id="haunted_forest25" x="382" y="484"/>
     <map id="haunted_cemetery1" x="440" y="482"/>
     <map id="haunted_cemetery2" x="429" y="482"/>
-    <map id="ratdom_bwm1" x="137" y="355"/>
     <map id="lake_shore_road_0" x="147" y="480"/>
     <map id="lake_shore_road_1" x="168" y="480"/>
     <map id="lake_shore_road_2" x="147" y="503"/>
@@ -365,6 +364,15 @@
     <map id="rat_mountain_6" x="152" y="562"/>
     <map id="rat_mountain_7" x="126" y="562"/>
     <map id="rat_mountain_8" x="126" y="586"/>
+    <map id="ratdom_bwm1" x="137" y="355"/>
+    <map id="bwmfill1" x="148" y="321"/>
+    <map id="bwmfill2" x="107" y="337"/>
+    <map id="bwmfill4" x="107" y="386"/>
+    <map id="bwmfill5" x="114" y="386"/>
+    <map id="bwmfill6" x="137" y="386"/>
+    <map id="bwmfill7" x="145" y="407"/>
+    <map id="bwmfill8" x="145" y="428"/>
+    <map id="bwmfill3" x="107" y="355"/>
     <map id="laerothcave0" x="787" y="125"/>
     <map id="laerothisland0" x="743" y="52"/>
     <map id="laerothisland1" x="743" y="73"/>
