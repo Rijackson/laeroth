@@ -1,5 +1,33 @@
 {
     "maps": [
+        {
+            "fileName": "created/maps/island4.tmx",
+            "height": 960,
+            "width": 960,
+            "x": -32,
+            "y": 0
+        },
+        {
+            "fileName": "created/maps/island3.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 960,
+            "y": 0
+        },
+        {
+            "fileName": "created/maps/island2.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 960,
+            "y": -992
+        },
+        {
+            "fileName": "created/maps/island1.tmx",
+            "height": 960,
+            "width": 960,
+            "x": -32,
+            "y": -992
+        }
     ],
     "onlyShowAdjacentMaps": false,
     "type": "world"
