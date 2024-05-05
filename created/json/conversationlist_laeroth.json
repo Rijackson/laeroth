@@ -8827,20 +8827,30 @@
         "replies":[
             {
 				"text":"Fine. Lead the way.",
-                "nextPhraseID":"lae_centaur1_4"
+                "nextPhraseID":"lae_centaur1_5"
 			},
             {
 				"text":"And if I refuse?",
-                "nextPhraseID":"lae_centaur1_3a"
+                "nextPhraseID":"lae_centaur1_4"
 			}
         ]
     },
     {
-        "id":"lae_centaur1_3a",
+        "id":"lae_centaur1_4",
         "message":"Then you'll regret it. Trust me, you don't want to anger our leader.",
         "replies":[
             {
 				"text":"It's okay, calm down. Where is this leader?",
+                "nextPhraseID":"lae_centaur1_8"
+			}
+        ]
+    },
+    {
+        "id":"lae_centaur1_5",
+        "message":"I have better things to do than play tour guide to useless intruders.",
+        "replies":[
+            {
+				"text":"Then just tell me where he is.",
                 "nextPhraseID":"lae_centaur1_8"
 			}
         ]
@@ -9459,9 +9469,23 @@
         "replies":[
             {
 				"text":"Yes. I'll go free him now.",
-                "nextPhraseID":"lae_centaur9_112"
+                "nextPhraseID":"lae_centaur9_132"
 			}
         ]
+    },
+    {
+        "id":"lae_centaur9_132",
+        "message":"Do that if you must. But you will vouch for him.",
+        "replies":[
+            {
+				"text":"N",
+                "nextPhraseID":"lae_centaur9_134"
+			}
+        ]
+    },
+    {
+        "id":"lae_centaur9_134",
+        "message":"After all, humans are a useless nuisance to centaur society."
     },
     {
         "id":"lae_centaur9_300",
