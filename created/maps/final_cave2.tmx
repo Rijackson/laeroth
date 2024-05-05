@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="12" height="14" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="9">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="12" height="14" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="13">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -219,7 +219,7 @@
   </object>
   <object id="4" name="lae_fc2_s1" type="script" x="64" y="224" width="32" height="96"/>
  </objectgroup>
- <objectgroup id="7" name="Spawn" visible="0">
+ <objectgroup id="7" name="Spawn">
   <object id="3" name="lae_island_boss" type="spawn" x="256" y="128" width="96" height="64">
    <properties>
     <property name="spawngroup" value="lae_island_boss"/>
@@ -246,12 +246,28 @@
   </object>
  </objectgroup>
  <objectgroup id="8" name="Keys">
-  <object id="8" name="dummy_key" type="key" x="64" y="224" width="64" height="96">
+  <object id="9" name="final_cave2_k" type="key" x="64" y="288" width="32" height="32">
    <properties>
-    <property name="phrase" value="dummy_key"/>
-    <property name="requireId" value="andor"/>
+    <property name="phrase" value="final_cave2_k"/>
+    <property name="requireId" value="lae_centaurs"/>
     <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="1"/>
+    <property name="requireValue" value="200"/>
+   </properties>
+  </object>
+  <object id="11" name="final_cave2_k" type="key" x="96" y="224" width="32" height="96">
+   <properties>
+    <property name="phrase" value="final_cave2_k"/>
+    <property name="requireId" value="lae_centaurs"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="200"/>
+   </properties>
+  </object>
+  <object id="12" name="final_cave2_k" type="key" x="64" y="224" width="32" height="32">
+   <properties>
+    <property name="phrase" value="final_cave2_k"/>
+    <property name="requireId" value="lae_centaurs"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="200"/>
    </properties>
   </object>
  </objectgroup>
