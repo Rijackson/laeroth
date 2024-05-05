@@ -25,17 +25,46 @@
         }
     },
     {
-        "id":"centaur",
+        "id":"lae_centaur",
         "name":"Centaur",
         "iconID":"monsters_ld1:42",
         "monsterClass":"humanoid",
-        "phraseID":"centaur"
+        "phraseID":"lae_centaur"
     },
     {
-        "id":"centaur_leader",
-        "name":"Centaur leader",
+        "id":"lae_centaur1",
+        "name":"Orion, the centaur",
+        "iconID":"monsters_ld1:42",
+        "monsterClass":"humanoid",
+        "phraseID":"lae_centaur1"
+    },
+    {
+        "id":"lae_centaur2",
+        "name":"Callista, the centaur",
+        "iconID":"monsters_ld1:42",
+        "monsterClass":"humanoid",
+        "phraseID":"lae_centaur2"
+    },
+    {
+        "id":"lae_centaur3",
+        "name":"Silvanus, the centaur",
+        "iconID":"monsters_ld1:42",
+        "monsterClass":"humanoid",
+        "phraseID":"lae_centaur3"
+    },
+    {
+        "id":"lae_centaur8",
+        "name":"Lyra, the centaur",
+        "iconID":"monsters_ld1:42",
+        "monsterClass":"humanoid",
+        "phraseID":"lae_centaur8"
+    },
+    {
+        "id":"lae_centaur9",
+        "name":"Thalos, the centaur",
         "iconID":"monsters_ld2:194",
-        "monsterClass":"humanoid"
+        "monsterClass":"humanoid",
+        "phraseID":"lae_centaur9"
     },
     {
         "id":"spit_serpent_1",

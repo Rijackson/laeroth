@@ -8734,8 +8734,786 @@
         ]
     },
     {
-        "id":"centaur",
+        "id":"lae_centaur",
+        "replies":[
+            {
+                "nextPhraseID":"lae_centaur8",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lae_centaurs",
+                        "value":300
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"lae_centaur_20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lae_centaurs",
+                        "value":30
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"lae_centaur_10"
+            }
+        ]
+    },
+    {
+        "id":"lae_centaur_10",
         "message":"You are not wanted here."
+    },
+    {
+        "id":"lae_centaur_20",
+        "message":"We have an eye on you."
+    },
+    {
+        "id":"lae_centaur1",
+        "replies":[
+            {
+                "nextPhraseID":"lae_centaur",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lae_centaurs",
+                        "value":30
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"lae_centaur1_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"laeroth_nondisplay",
+                        "value":211
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"lae_centaur1_1"
+            }
+        ]
+    },
+    {
+        "id":"lae_centaur1_1",
+        "message":"You there, human.",
+        "replies":[
+            {
+				"text":"What do you want?",
+                "nextPhraseID":"lae_centaur1_2"
+			}
+        ]
+    },
+    {
+        "id":"lae_centaur1_2",
+        "message":"Our leader wants to see you. Now.",
+        "replies":[
+            {
+				"text":"Why?",
+                "nextPhraseID":"lae_centaur1_3"
+			},
+            {
+				"text":"Who is your leader?",
+                "nextPhraseID":"lae_centaur1_3"
+			}
+        ]
+    },
+    {
+        "id":"lae_centaur1_3",
+        "message":"Don't ask questions. Just do as you're told.",
+        "replies":[
+            {
+				"text":"Fine. Lead the way.",
+                "nextPhraseID":"lae_centaur1_4"
+			},
+            {
+				"text":"And if I refuse?",
+                "nextPhraseID":"lae_centaur1_3a"
+			}
+        ]
+    },
+    {
+        "id":"lae_centaur1_3a",
+        "message":"Then you'll regret it. Trust me, you don't want to anger our leader.",
+        "replies":[
+            {
+				"text":"It's okay, calm down. Where is this leader?",
+                "nextPhraseID":"lae_centaur1_8"
+			}
+        ]
+    },
+    {
+        "id":"lae_centaur1_8",
+        "message":"Thales, our wise guide, is currently in the northwest of the island.",
+        "replies":[
+            {
+				"text":"Fine, I'll go see him.",
+                "nextPhraseID":"lae_centaur1_10"
+			},
+            {
+				"text":"Hopefully this Thales will be a little more accommodating.",
+                "nextPhraseID":"lae_centaur1_10"
+			}
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"lae_centaurs",
+                "value":10
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"laeroth_nondisplay",
+                "value":211
+            }
+        ]
+    },
+    {
+        "id":"lae_centaur1_10",
+        "message":"Hurry up now. And don't try anything stupid."
+    },
+    {
+        "id":"lae_centaur1_10",
+        "message":"You are not wanted here."
+    },
+    {
+        "id":"lae_centaur2",
+        "replies":[
+            {
+                "nextPhraseID":"lae_centaur",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lae_centaurs",
+                        "value":30
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"lae_centaur2_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"laeroth_nondisplay",
+                        "value":212
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"lae_centaur2_1"
+            }
+        ]
+    },
+    {
+        "id":"lae_centaur2_1",
+        "message":"What brings a human like you to our island?",
+        "replies":[
+            {
+				"text":"Just passing through. No need to get defensive.",
+                "nextPhraseID":"lae_centaur2_2"
+			}
+        ]
+    },
+    {
+        "id":"lae_centaur2_2",
+        "message":"Defensive? Ha! We have every right to be wary of your kind. Humans have brought nothing but trouble to our land.",
+        "replies":[
+            {
+				"text":"I'm not here to cause trouble.",
+                "nextPhraseID":"lae_centaur2_3"
+			},
+            {
+				"text":"I'm just looking for...",
+                "nextPhraseID":"lae_centaur2_3"
+			}
+        ]
+    },
+    {
+        "id":"lae_centaur2_3",
+        "message":"That's what they all say. But mark my words, human, if you step out of line, you'll regret it.",
+        "replies":[
+            {
+				"text":"I assure you, I have no intentions of causing any harm.",
+                "nextPhraseID":"lae_centaur2_4"
+			}
+        ]
+    },
+    {
+        "id":"lae_centaur2_4",
+        "message":"We'll see about that. Just remember, you're not welcome here.",
+        "replies":[
+            {
+				"text":"N",
+                "nextPhraseID":"lae_centaur2_5"
+			}
+        ]
+    },
+    {
+        "id":"lae_centaur2_5",
+        "message":"We will have to decide what happens to you. You must therefore go to our leader now.",
+        "replies":[
+            {
+				"text":"Fine, I'll go see him.",
+                "nextPhraseID":"lae_centaur2_8"
+			},
+            {
+				"text":"It's okay, calm down. Where is this leader?",
+                "nextPhraseID":"lae_centaur2_8"
+			}
+        ]
+    },
+    {
+        "id":"lae_centaur2_8",
+        "message":"Thales, our wise guide, is currently in the northwest of the island.",
+        "replies":[
+            {
+				"text":"Fine, I'll go see him.",
+                "nextPhraseID":"lae_centaur2_10"
+			},
+            {
+				"text":"Hopefully this Thales will be a little more accommodating.",
+                "nextPhraseID":"lae_centaur2_10"
+			}
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"lae_centaurs",
+                "value":10
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"laeroth_nondisplay",
+                "value":212
+            }
+        ]
+    },
+    {
+        "id":"lae_centaur2_10",
+        "message":"Don't think about trying anything funny. We'll be watching you."
+    },
+    {
+        "id":"lae_centaur2_10",
+        "message":"You are not wanted here."
+    },
+    {
+        "id":"lae_centaur3",
+        "replies":[
+            {
+                "nextPhraseID":"lae_centaur",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lae_centaurs",
+                        "value":30
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"lae_centaur3_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"laeroth_nondisplay",
+                        "value":213
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"lae_centaur3_1"
+            }
+        ]
+    },
+    {
+        "id":"lae_centaur3_1",
+        "message":"What do you want, human?",
+        "replies":[
+            {
+				"text":"Just passing through. No need to be hostile.",
+                "nextPhraseID":"lae_centaur3_2"
+			}
+        ]
+    },
+    {
+        "id":"lae_centaur3_2",
+        "message":"We don't take kindly to your kind here. You humans always cause trouble.",
+        "replies":[
+            {
+				"text":"I'm not looking for trouble. Just trying to explore.",
+                "nextPhraseID":"lae_centaur3_3"
+			},
+            {
+				"text":"I'm just looking for...",
+                "nextPhraseID":"lae_centaur3_3"
+			}
+        ]
+    },
+    {
+        "id":"lae_centaur3_3",
+        "message":"Well, you're not welcome here. Keep moving before you cause any problems.",
+        "replies":[
+            {
+				"text":"I don't mean any harm. Can't we just talk?",
+                "nextPhraseID":"lae_centaur3_4"
+			}
+        ]
+    },
+    {
+        "id":"lae_centaur3_4",
+        "message":"Talking won't change anything. You humans are all the same. You should have just left us alone.",
+        "replies":[
+            {
+				"text":"Fine. I'll go. But I won't forget how unwelcoming you've been.",
+                "nextPhraseID":"lae_centaur3_5"
+			},
+            {
+				"text":"Enough now. I want to speak to your boss.",
+                "nextPhraseID":"lae_centaur3_8"
+			}
+        ]
+    },
+    {
+        "id":"lae_centaur3_5",
+        "message":"We don't care what you think. Just leave our island and never come back."
+    },
+    {
+        "id":"lae_centaur3_8",
+        "message":"Thales, our wise guide, is currently in the northwest of the island.",
+        "replies":[
+            {
+				"text":"Fine, I'll go see him.",
+                "nextPhraseID":"lae_centaur3_10"
+			},
+            {
+				"text":"Hopefully this Thales will be a little more accommodating.",
+                "nextPhraseID":"lae_centaur3_10"
+			}
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"lae_centaurs",
+                "value":10
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"laeroth_nondisplay",
+                "value":213
+            }
+        ]
+    },
+    {
+        "id":"lae_centaur3_10",
+        "message":"Go talk to Thalos. Although I'd rather you just disappear altogether."
+    },
+    {
+        "id":"lae_centaur8",
+        "message":"The stars are bright tonight."
+    },
+	{
+        "id":"lae_centaur9",
+        "replies":[
+            {
+                "nextPhraseID":"lae_centaur9_310",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lae_centaurs",
+                        "value":310
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"lae_centaur9_100",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lae_centaurs",
+                        "value":120
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"lae_centaur9_30",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lae_centaurs",
+                        "value":30
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"lae_centaur9_1"
+            }
+        ]
+    },
+    {
+        "id":"lae_centaur9_1",
+        "message":"I am Thalos. Human, you are not welcome here.",
+        "replies":[
+            {
+				"text":"I know by now.",
+                "nextPhraseID":"lae_centaur9_1a"
+            },
+            {
+				"text":"I am just looking for my brother, Andor. Have you perhaps seen him?",
+                "nextPhraseID":"lae_centaur9_2"
+            },
+            {
+				"text":"I mean no harm. I come in peace, seeking to understand your ways.",
+                "nextPhraseID":"lae_centaur9_1b"
+            },
+            {
+				"text":"May I try riding one of your centaurs?",
+                "nextPhraseID":"lae_centaur9_1z"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"lae_centaurs",
+                "value":20
+            }
+        ]
+    },
+    {
+        "id":"lae_centaur9_1a",
+        "message":"What business do you have on our island?",
+        "replies":[
+            {
+				"text":"I am just looking for my brother, Andor. Have you perhaps seen him?",
+                "nextPhraseID":"lae_centaur9_2"
+            },
+            {
+				"text":"I mean no harm. I come in peace, seeking to understand your ways.",
+                "nextPhraseID":"lae_centaur9_1b"
+            },
+            {
+				"text":"May I try riding one of your centaurs?",
+                "nextPhraseID":"lae_centaur9_1z"
+            }
+        ]
+    },
+    {
+        "id":"lae_centaur9_1b",
+        "message":"Understand our ways? Humans have never cared to understand us. They see us as nothing more than beasts of burden.",
+        "replies":[
+            {
+				"text":"Half breads you mean.",
+                "nextPhraseID":"lae_centaur9_1z"
+            },
+            {
+				"text":"I'm not like other humans. I respect your kind and wish to prove it.",
+                "nextPhraseID":"lae_centaur9_8"
+            }
+        ]
+    },
+    {
+        "id":"lae_centaur9_1z",
+        "message":"You better leave now."
+    },
+    {
+        "id":"lae_centaur9_2",
+        "message":"This Andor, does he look a bit like you?",
+        "replies":[
+            {
+				"text":"Yes, yes. Have you seen him? Where is he? When?",
+                "nextPhraseID":"lae_centaur9_2a"
+			}
+        ]
+    },
+    {
+        "id":"lae_centaur9_2a",
+        "message":"Who can be sure?",
+        "replies":[
+            {
+				"text":"What?",
+                "nextPhraseID":"lae_centaur9_2b"
+			}
+        ]
+    },
+    {
+        "id":"lae_centaur9_2b",
+        "message":"The stars are bright tonight.",
+        "replies":[
+            {
+				"text":"Never, ever try to elicit a straight answer from a centaur.",
+                "nextPhraseID":"X"
+			}
+        ]
+    },
+    {
+        "id":"lae_centaur9_8",
+        "message":"Words are cheap. Actions speak louder.",
+        "replies":[
+            {
+				"text":"N",
+                "nextPhraseID":"lae_centaur9_10"
+			}
+        ]
+    },
+    {
+        "id":"lae_centaur9_10",
+        "message":"If you truly wish to prove yourself, you must complete a task for us.",
+        "replies":[
+            {
+				"text":"What task do you require of me?",
+                "nextPhraseID":"lae_centaur9_12"
+			},
+            {
+				"text":"I won't clean out your stable.",
+                "nextPhraseID":"lae_centaur9_1z"
+			}
+        ]
+    },
+    {
+        "id":"lae_centaur9_12",
+        "message":"There is a foul creature that lurks in the cave to the east. It resembles a human but is far more savage.",
+        "replies":[
+            {
+				"text":"N",
+                "nextPhraseID":"lae_centaur9_12a"
+			}
+        ]
+    },
+    {
+        "id":"lae_centaur9_12a",
+        "message":"It attacks my people and threatens our way of life.",
+        "replies":[
+            {
+				"text":"N",
+                "nextPhraseID":"lae_centaur9_12b"
+			}
+        ]
+    },
+    {
+        "id":"lae_centaur9_12b",
+        "message":"[with ominous voice] It is deadly.",
+        "replies":[
+            {
+				"text":"It is deadly? Then I'll make sure it's dead.",
+                "nextPhraseID":"lae_centaur9_30"
+			},
+            {
+				"text":"Nice.",
+                "nextPhraseID":"lae_centaur9_30"
+			},
+            {
+				"text":"Eh, well - I'm out.",
+                "nextPhraseID":"lae_centaur9_1z"
+			}
+        ]
+    },
+    {
+        "id":"lae_centaur9_30",
+        "message":"Go and slay this beast. Then I will reconsider your intentions.",
+        "replies":[
+            {
+				"text":"N",
+                "nextPhraseID":"lae_centaur9_32"
+			}
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"lae_centaurs",
+                "value":30
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"lae_centaur8",
+                "mapName":"island4"
+            }
+        ]
+    },
+    {
+        "id":"lae_centaur9_32",
+        "message":"We centaurs have difficulty walking up stairs and fighting monsters in caves.",
+        "replies":[
+            {
+				"text":"N",
+                "nextPhraseID":"lae_centaur9_34"
+			}
+        ]
+    },
+    {
+        "id":"lae_centaur9_34",
+        "message":"Here you humans are exceptionally advantageous.",
+        "replies":[
+            {
+				"text":"N",
+                "nextPhraseID":"lae_centaur9_35"
+			}
+        ]
+    },
+    {
+        "id":"lae_centaur9_35",
+        "message":"Go and free us from the bane of all centaurs.",
+        "replies":[
+            {
+				"text":"Consider it done. I will rid your island of this threat.",
+                "nextPhraseID":"lae_centaur9_36"
+			}
+        ]
+    },
+    {
+        "id":"lae_centaur9_36",
+        "message":"Do not underestimate the danger, human. This creature is formidable.",
+        "replies":[
+            {
+				"text":"N",
+                "nextPhraseID":"lae_centaur9_38"
+			}
+        ]
+    },
+    {
+        "id":"lae_centaur9_38",
+        "message":"But if you succeed, your efforts will be rewarded."
+    },
+    {
+        "id":"lae_centaur9_100",
+        "message":"What news do you bring?",
+        "replies":[
+            {
+				"text":"I met acquaintances in the entrance to the cave.",
+                "nextPhraseID":"lae_centaur9_110",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lae_centaurs",
+                        "value":130,
+						"negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lae_centaurs",
+                        "value":120
+                    }
+                ]
+            },
+            {
+				"text":"I have found my brother Andor, locked in a room down in that cave.",
+                "nextPhraseID":"lae_centaur9_130",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lae_centaurs",
+                        "value":200,
+						"negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lae_centaurs",
+                        "value":130
+                    }
+                ]
+            },
+            {
+				"text":"The creature has been slain. Your island is safe once more.",
+                "nextPhraseID":"lae_centaur9_300",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"lae_island_boss",
+                        "value":1
+                    }
+                ]
+            },
+            {
+				"text":"I am still searching.",
+                "nextPhraseID":"lae_centaur9_34"
+            }
+        ]
+    },
+    {
+        "id":"lae_centaur9_300",
+        "message":"Impressive, human.",
+        "replies":[
+            {
+				"text":"N",
+                "nextPhraseID":"lae_centaur9_310"
+			}
+        ]
+    },
+    {
+        "id":"lae_centaur9_110",
+        "message":"Even more people. Terrible - does it never end?",
+        "replies":[
+            {
+				"text":"I'll continue looking for the monster",
+                "nextPhraseID":"lae_centaur9_112"
+			}
+        ]
+    },
+    {
+        "id":"lae_centaur9_112",
+        "message":"Do that."
+    },
+    {
+        "id":"lae_centaur9_130",
+        "message":"Is that so?",
+        "replies":[
+            {
+				"text":"Yes. I'll go free him now.",
+                "nextPhraseID":"lae_centaur9_112"
+			}
+        ]
+    },
+    {
+        "id":"lae_centaur9_300",
+        "message":"Impressive, human. Yes, I can feel it. A great burden is lifted from my heart.",
+        "replies":[
+            {
+				"text":"N",
+                "nextPhraseID":"lae_centaur9_310"
+			}
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"lae_centaurs",
+                "value":300
+            }
+        ]
+    },
+    {
+        "id":"lae_centaur9_310",
+        "message":"You have proven yourself to be more than just another ignorant outsider. You have earned our gratitude.",
+        "replies":[
+            {
+				"text":"Very good.",
+                "nextPhraseID":"lae_centaur9_390"
+			},
+            {
+				"text":"At last.",
+                "nextPhraseID":"lae_centaur9_390"
+			}
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"lae_centaurs",
+                "value":310
+            }
+        ]
+    },
+    {
+        "id":"lae_centaur9_390",
+        "message":"You have earned our gratitude.",
+        "replies":[
+            {
+				"text":"N",
+                "nextPhraseID":"lae_centaur9_392"
+			}
+        ]
+    },
+    {
+        "id":"lae_centaur9_392",
+        "message":"You are free to roam our island as you please. And know that you will always have a friend in the centaurs."
     },
     {
         "id":"verigil_seal_found_test_nut",

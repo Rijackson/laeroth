@@ -103,6 +103,18 @@
             {
                 "progress":201,
                 "logText":"brute_creator_key"
+            },
+            {
+                "progress":211,
+                "logText":"centaur1 heard"
+            },
+            {
+                "progress":212,
+                "logText":"centaur2 heard"
+            },
+            {
+                "progress":213,
+                "logText":"centaur3 heard"
             }
         ]
     },
@@ -478,13 +490,25 @@
         "name":"Not Pony Island",
         "showInLog":1,
         "stages":[
+			{
+				"progress":10,
+				"logText":"The island west of Remgard was inhabited by centaurs who were very angry about your visit. They told you to seek out their leader, Thalos."
+			},
+			{
+				"progress":20,
+				"logText":"I met Thalos."
+			},
+			{
+				"progress":30,
+				"logText":"He asked me to slay a foul creature that lives in a cave in the east of the island."
+			},
             {
                 "progress":110,
-                "logText":"In a cave on the hills of Llaeroth Island, you have met Algangror, who asked you for help."
+                "logText":"In a cave on the hills of Laeroth Island, you have met Algangror, who asked you for help."
             },
             {
                 "progress":112,
-                "logText":"In a cave on the hills of Llaeroth Island, you have met Jhaeld of Remgard, who asked you for help."
+                "logText":"In a cave on the hills of Laeroth Island, you have met Jhaeld of Remgard, who asked you for help."
             },
             {
                 "progress":120,
@@ -525,7 +549,17 @@
             {
                 "progress":210,
                 "logText":"Now that Dorhantarh was dead, the walls above opened up again."
-            }
+            },
+			{
+				"progress":300,
+				"logText":"You reported to Thalos that the danger has been averted. He was impressed and relieved at the same time."
+			},
+			{
+				"progress":310,
+				"logText":"Since then I have been a welcome guest of the centaurs.",
+                "rewardExperience":10000,
+				"finishesQuest":1
+			}
         ]
     }
 ]

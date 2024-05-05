@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="14" nextobjectid="33">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="14" nextobjectid="35">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -211,12 +211,12 @@
    eJztzjERAAAIBKCvYf8UtvMsoQskIAFW1/cAAABuDRfGANM=
   </data>
  </layer>
- <layer id="4" name="Walkable" width="30" height="30" visible="0">
+ <layer id="4" name="Walkable" width="30" height="30">
   <data encoding="base64" compression="zlib">
    eJztk1EOgDAIQ3cK73+F3dDfhRQoHfPHkTQmG/Ko4HzGmI5QoPM1H9WI7hkue47y0D3DzXKQN3vOcD1PGdeyv+B682TqqFzrLdojtl7kB3GRT8WHx6rsLMP1+ou8MP+AymXU6Zdlsrub3XX6ZZgK1+Z2sbP5s31WfTDcyizUXVGZVVnG+jzJ7uIqPSLuTu+n3vVi93uzcWrnrq6u/qUXaZkIKg==
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents">
+ <objectgroup id="5" name="Mapevents" visible="0">
   <object id="1" name="north1" type="mapchange" x="224" y="0" width="160" height="32">
    <properties>
     <property name="map" value="island1"/>
@@ -297,7 +297,7 @@
   <object id="26" name="lae_fc1_4g4" type="container" x="832" y="288" width="32" height="32"/>
   <object id="27" name="lae_fc1_4e4" type="container" x="192" y="288" width="32" height="32"/>
  </objectgroup>
- <objectgroup id="6" name="Spawn" visible="0">
+ <objectgroup id="6" name="Spawn">
   <object id="8" name="beach_crawler_1" type="spawn" x="256" y="448" width="160" height="224">
    <properties>
     <property name="quantity" value="2"/>
@@ -310,8 +310,20 @@
     <property name="spawngroup" value="beach_crawler_1"/>
    </properties>
   </object>
+  <object id="33" name="lae_centaur" type="spawn" x="512" y="32" width="288" height="576">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="lae_centaur"/>
+   </properties>
+  </object>
+  <object id="34" name="lae_centaur8" type="spawn" x="416" y="224" width="32" height="32">
+   <properties>
+    <property name="quantity" value="1"/>
+    <property name="spawngroup" value="lae_centaur8"/>
+   </properties>
+  </object>
  </objectgroup>
- <objectgroup id="7" name="Keys">
+ <objectgroup id="7" name="Keys" visible="0">
   <object id="29" name="lae_fc1_key1" type="key" x="480" y="192" width="32" height="32">
    <properties>
     <property name="phrase" value="lae_fc1_key"/>
