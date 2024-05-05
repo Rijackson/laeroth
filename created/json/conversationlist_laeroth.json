@@ -7949,7 +7949,7 @@
         "rewards":[
             {
                 "rewardType":"questProgress",
-                "rewardID":"final_cave",
+                "rewardID":"lae_centaurs",
                 "value":120
             }
         ]
@@ -9127,12 +9127,22 @@
                 ]
             },
             {
-                "nextPhraseID":"lae_centaur9_100",
+                "nextPhraseID":"lae_centaur9_300",
                 "requires":[
                     {
                         "requireType":"questProgress",
                         "requireID":"lae_centaurs",
-                        "value":120
+                        "value":300
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"lae_centaur9_100",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"final_cave",
+                        "value":12
                     }
                 ]
             },
@@ -9430,16 +9440,6 @@
         ]
     },
     {
-        "id":"lae_centaur9_300",
-        "message":"Impressive, human.",
-        "replies":[
-            {
-				"text":"N",
-                "nextPhraseID":"lae_centaur9_310"
-			}
-        ]
-    },
-    {
         "id":"lae_centaur9_110",
         "message":"Even more people. Terrible - does it never end?",
         "replies":[
@@ -9465,7 +9465,17 @@
     },
     {
         "id":"lae_centaur9_300",
-        "message":"Impressive, human. Yes, I can feel it. A great burden is lifted from my heart.",
+        "message":"Impressive, human. Yes, I can feel it.",
+        "replies":[
+            {
+				"text":"N",
+                "nextPhraseID":"lae_centaur9_302"
+			}
+        ]
+    },
+    {
+        "id":"lae_centaur9_302",
+        "message":"That foul creature is no more. A great burden is lifted from my heart.",
         "replies":[
             {
 				"text":"N",
@@ -9482,7 +9492,7 @@
     },
     {
         "id":"lae_centaur9_310",
-        "message":"You have proven yourself to be more than just another ignorant outsider. You have earned our gratitude.",
+        "message":"You have proven yourself to be more than just another ignorant human.",
         "replies":[
             {
 				"text":"Very good.",
@@ -9503,7 +9513,7 @@
     },
     {
         "id":"lae_centaur9_390",
-        "message":"You have earned our gratitude.",
+        "message":"Alas, you have earned our gratitude.",
         "replies":[
             {
 				"text":"N",

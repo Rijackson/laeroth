@@ -492,35 +492,35 @@
         "stages":[
 			{
 				"progress":10,
-				"logText":"The island west of Remgard was inhabited by centaurs who were very angry about your visit. They told you to seek out their leader, Thalos."
+				"logText":"The island west of Remgard was inhabited by centaurs who were very angry about your visit. They told me to seek out their leader, Thalos."
 			},
 			{
 				"progress":20,
-				"logText":"I met Thalos."
+				"logText":"I have met Thalos."
 			},
 			{
 				"progress":30,
-				"logText":"He asked me to slay a foul creature that lives in a cave in the east of the island."
+				"logText":"He ordered me to slay a foul creature that hides in a cave on the hills of Laeroth Island, because the centaurs can't enter it."
 			},
             {
                 "progress":110,
-                "logText":"In a cave on the hills of Laeroth Island, you have met Algangror, who asked you for help."
+                "logText":"In the cave entrance I have met Algangror, who asked for help."
             },
             {
                 "progress":112,
-                "logText":"In a cave on the hills of Laeroth Island, you have met Jhaeld of Remgard, who asked you for help."
+                "logText":"In a cave entrance I have met Jhaeld of Remgard, who asked for help."
             },
             {
                 "progress":120,
-                "logText":"A common friend would be trapped deeper in the cave and you should free him."
+                "logText":"A common friend would be trapped deeper in the cave and I should free him."
             },
             {
                 "progress":130,
-                "logText":"Down in the cave you found my brother Andor, locked in a room with no doors or other entrances."
+                "logText":"Down in the cave I have found my brother Andor, locked in a room with no doors or other entrances."
             },
             {
                 "progress":140,
-                "logText":"To open an entrance you would have to find the four scrolls of elements and the three colored globes. These were hidden all over the island.\nThe scrolls and globes would need to be properly placed around Andor's golden prison."
+                "logText":"To open an entrance I had to find the four scrolls of elements and the three color globes. These were hidden all over the island.\nThe scrolls and globes would need to be properly placed around Andor's golden prison."
             },
             {
                 "progress":150,
@@ -528,7 +528,7 @@
             },
             {
                 "progress":160,
-                "logText":"With an intense sound, the wall built up again. You've been locked up!"
+                "logText":"With an intense sound, the wall built up again. I've been locked up!"
             },
             {
                 "progress":170,
@@ -544,7 +544,7 @@
             },
             {
                 "progress":200,
-                "logText":"The whole thing was just a big scam to lure you into this cave to serve Dorhantarh as dinner."
+                "logText":"The whole thing was just a big scam to lure me into this cave to serve Dorhantarh as dinner."
             },
             {
                 "progress":210,
@@ -552,7 +552,7 @@
             },
 			{
 				"progress":300,
-				"logText":"You reported to Thalos that the danger has been averted. He was impressed and relieved at the same time."
+				"logText":"I got back to Thalos and told him that the danger has been averted. He was impressed and relieved at the same time."
 			},
 			{
 				"progress":310,
