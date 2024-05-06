@@ -8076,14 +8076,6 @@
         ]
     },
     {
-        "id":"lae_jhaeld2",
-        "replies":[
-            {
-                "nextPhraseID":"lae_algangror2"
-            }
-        ]
-    },
-    {
         "id":"lae_algangror3",
         "replies":[
             {
@@ -8097,7 +8089,7 @@
                 ]
             },
             {
-                "nextPhraseID":"lae_algangror3_12",
+                "nextPhraseID":"lae_algangror3_40",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -8147,17 +8139,77 @@
         "replies":[
             {
                 "text":"N",
+                "nextPhraseID":"lae_algangror3_24"
+            }
+        ]
+    },
+    {
+        "id":"lae_algangror3_24",
+        "message":"Making rocks look like piles of gold and stuff like that.",
+        "replies":[
+            {
+                "text":"And the walls? The element scrolls and the globes?",
+                "nextPhraseID":"lae_algangror3_26"
+            }
+        ]
+    },
+    {
+        "id":"lae_algangror3_26",
+        "message":"The point of all this was just to lure you down here to our master Dorhantarh without you becoming suspicious.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"lae_algangror3_28"
+            }
+        ]
+    },
+    {
+        "id":"lae_algangror3_28",
+        "message":"So it couldn't be too easy for you. That's why I came up with the idea of the scrolls and glass balls.",
+        "replies":[
+            {
+                "text":"Does that mean this complex mechanism doesn't work at all?",
                 "nextPhraseID":"lae_algangror3_30"
             }
         ]
     },
     {
         "id":"lae_algangror3_30",
-        "message":"The point of all this was just to lure you down here to our master Dorhantarh without you becoming suspicious.\nNow go ahead, you'll be a tasty dinner for him tonight.",
+        "message":"Oh yes, of course it works. Why do you think the wall closed again?",
+        "replies":[
+            {
+                "text":"Yes, why did it?",
+                "nextPhraseID":"lae_algangror3_32"
+            }
+        ]
+    },
+    {
+        "id":"lae_algangror3_32",
+        "message":"Well, because I brought a scroll from the table here with me. That's why.",
+        "replies":[
+            {
+                "text":"What?! You ...",
+                "nextPhraseID":"lae_algangror3_34"
+            }
+        ]
+    },
+    {
+        "id":"lae_algangror3_34",
+        "message":"Hahaha!",
         "replies":[
             {
                 "text":"N",
                 "nextPhraseID":"lae_algangror3_40"
+            }
+        ]
+    },
+    {
+        "id":"lae_algangror3_40",
+        "message":"Now go ahead, you'll be a tasty dinner for our master Dorhantarh tonight.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"lae_algangror3_42"
             }
         ],
         "rewards":[
@@ -8169,7 +8221,7 @@
         ]
     },
     {
-        "id":"lae_algangror3_40",
+        "id":"lae_algangror3_42",
         "message":"You're so speechless. Hahaha! Go now.",
         "replies":[
             {
@@ -8184,19 +8236,11 @@
     },
     {
         "id":"lae_algangror3_100",
-        "message":"What have you done to our master?!",
+        "message":"NO! What have you done to our master?!",
         "replies":[
             {
                 "text":"The same that I'll do to you now.",
                 "nextPhraseID":"F"
-            }
-        ]
-    },
-    {
-        "id":"lae_jhaeld3",
-        "replies":[
-            {
-                "nextPhraseID":"lae_algangror3"
             }
         ]
     },
@@ -8241,8 +8285,64 @@
                         "negate":true
                     }
                 ]
+            },
+            {
+                "nextPhraseID":"lae_andor1_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lae_centaurs",
+                        "value":190
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lae_centaurs",
+                        "value":210,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"lae_andor1_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lae_centaurs",
+                        "value":160
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lae_centaurs",
+                        "value":210,
+                        "negate":true
+                    }
+                ]
             }
         ]
+    },
+    {
+        "id":"lae_andor1_1",
+        "message":"Are you trying to get out of the affair by faking death? Shame on you!",
+        "switchToNPC":"lae_andor2",
+        "rewards":[
+			{ 
+				"rewardType":"mapchange", 
+				"rewardID":"beam_after_death", 
+				"mapName":"final_cave1" 
+			} 
+		]
+    },
+    {
+        "id":"lae_andor1_2",
+        "message":"Are you trying to get out of the affair by faking death? Shame on you!",
+        "switchToNPC":"lae_andor3",
+        "rewards":[
+			{ 
+				"rewardType":"mapchange", 
+				"rewardID":"beam_after_death", 
+				"mapName":"final_cave2" 
+			} 
+		]
     },
     {
         "id":"lae_andor1_10",
@@ -8594,6 +8694,123 @@
         ]
     },
     {
+        "id":"final_cave2_k1_10",
+        "message":"Which elemental scroll do you want to put here?",
+        "replies":[
+            {
+                "text":"The scroll of fire",
+                "nextPhraseID":"final_cave2_k1_10_f",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"final_cave_f",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"None",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"final_cave2_k1_10_f",
+        "message":"A loud rumbling fills the air! - At the same time the scroll of fire explodes.",
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"final_cave",
+                "value":1
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"final_cave",
+                "value":2
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"final_cave",
+                "value":3
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"final_cave",
+                "value":4
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"final_cave",
+                "value":5
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"final_cave",
+                "value":6
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"final_cave",
+                "value":7
+            },
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"final_cave_e",
+                "value":0
+            },
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"final_cave_g",
+                "value":0
+            },
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"final_cave_f",
+                "value":0
+            },
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"final_cave_b",
+                "value":0
+            },
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"final_cave_a",
+                "value":0
+            },
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"final_cave_r",
+                "value":0
+            },
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"final_cave_w",
+                "value":0
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"lae_centaurs",
+                "value":210
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"final_cave",
+                "value":9
+            },
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"final_cave_hint",
+                "value":999
+            },
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"bleeding_wound",
+                "value":3
+            }
+        ]
+    },
+    {
         "id":"lae_plant",
         "message":"Crap, the plant didn't grow tall enough."
     },
@@ -8610,7 +8827,7 @@
                     {
                         "requireType":"killedMonster",
                         "requireID":"lae_island_boss",
-                        "value":1
+                        "value":123
                     },
                     {
                         "requireType":"questProgress",
@@ -8734,10 +8951,20 @@
     },
     {
         "id":"lae_island_boss",
-        "message":"Ah, my dinner at last. ...todo: some more text...",
+        "message":"Ah, my dinner at last.",
         "replies":[
             {
-                "text":"Attack!",
+                "text":"N",
+                "nextPhraseID":"lae_island_boss_10"
+            }
+        ]
+    },
+    {
+        "id":"lae_island_boss_10",
+        "message":"And no horse meat this time. My servants promised me a delicious surprise tonight.",
+        "replies":[
+            {
+                "text":"We'll see. Attack!",
                 "nextPhraseID":"F"
             }
         ]
@@ -9470,7 +9697,7 @@
     },
     {
         "id":"lae_centaur9_112",
-        "message":"Do that."
+        "message":"Do that"
     },
     {
         "id":"lae_centaur9_130",
@@ -9484,7 +9711,7 @@
     },
     {
         "id":"lae_centaur9_132",
-        "message":"Do that if you must. But you will vouch for him.",
+        "message":"Do that if you must. Although I am not glad with even more humans on our island.",
         "replies":[
             {
 				"text":"N",
@@ -9501,8 +9728,27 @@
         "message":"Impressive, human. Yes, I can feel it.",
         "replies":[
             {
-				"text":"N",
-                "nextPhraseID":"lae_centaur9_302"
+				"text":"And this heart does proove it.",
+                "nextPhraseID":"lae_centaur9_302",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"lae_island_boss_heart",
+                        "value":1
+                    }
+                ]
+			},
+            {
+				"text":"I wanted to proove it with the monster's heart, but I seem to have lost it. Just a minute ...",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"lae_island_boss_heart",
+                        "value":1,
+						"negate":true
+                    }
+                ]
 			}
         ]
     },

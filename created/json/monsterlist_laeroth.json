@@ -655,6 +655,7 @@
         "name":"Algangror",
         "iconID":"monsters_rltiles1:68",
         "maxHP":200,
+        "droplistID":"lae_algangror3",
         "moveCost":4,
         "unique":1,
         "monsterClass":"humanoid",
@@ -682,13 +683,14 @@
         "iconID":"monsters_mage:0",
         "monsterClass":"humanoid",
         "spawnGroup":"lae_jhaeld2",
-        "phraseID":"lae_jhaeld2"
+        "phraseID":"lae_algangror2"
     },
     {
         "id":"lae_jhaeld3",
         "name":"Jhaeld",
         "iconID":"monsters_mage:0",
         "maxHP":200,
+        "droplistID":"lae_algangror3",
         "moveCost":4,
         "unique":1,
         "monsterClass":"humanoid",
@@ -697,7 +699,7 @@
             "max":22
         },
         "spawnGroup":"lae_jhaeld3",
-        "phraseID":"lae_jhaeld3",
+        "phraseID":"lae_algangror2",
         "attackCost":4,
         "attackChance":70,
         "blockChance":50

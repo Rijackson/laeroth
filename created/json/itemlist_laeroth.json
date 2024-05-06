@@ -686,7 +686,6 @@
         "displaytype":"rare",
         "baseMarketCost":6700,
         "category":"whip",
-        "description":"",
         "equipEffect":{
             "increaseAttackDamage":{
                 "min":1,
