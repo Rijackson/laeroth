@@ -184,7 +184,7 @@
   <image source="../drawable/map_items_japozero.png" width="512" height="1184"/>
  </tileset>
  <tileset firstgid="8169" name="map_guynmart" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../../../../../feygard_1/ATCS/feygard_1/created/drawable/map_guynmart.png" width="512" height="256"/>
+  <image source="../drawable/map_guynmart.png" width="512" height="256"/>
  </tileset>
  <layer id="22" name="Base" width="30" height="30">
   <data encoding="base64" compression="zlib">
