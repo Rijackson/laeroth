@@ -9365,7 +9365,7 @@
                 ]
             },
             {
-                "nextPhraseID":"lae_centaur9_300",
+                "nextPhraseID":"lae_centaur9_302",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -9720,7 +9720,7 @@
         "message":"Impressive, human. Yes, I can feel it.",
         "replies":[
             {
-				"text":"And this heart does proove it.",
+				"text":"And this heart does prove it.",
                 "nextPhraseID":"lae_centaur9_302",
                 "requires":[
                     {
@@ -9731,7 +9731,7 @@
                 ]
 			},
             {
-				"text":"I wanted to proove it with the monster's heart, but I seem to have lost it. Just a minute ...",
+				"text":"I wanted to prove it with the monster's heart, but I seem to have lost it. Just a minute ...",
                 "nextPhraseID":"X",
                 "requires":[
                     {
