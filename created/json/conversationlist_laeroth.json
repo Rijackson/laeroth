@@ -2144,7 +2144,7 @@
     },
     {
         "id":"laeroth_tower_west",
-        "message":"To the west, you see a town on an island. It looks prosperous. In the far disatnce, somewhat to the north, it looks like there is another island, but you can't make out any details. "
+        "message":"To the west, you see a town on an island. It looks prosperous. In the far disatnce, somewhat to the north, it looks like there is another island, but you can't make out any details."
     },
     {
         "id":"forenza_brimhaven_5",
@@ -2362,7 +2362,7 @@
     },
     {
         "id":"moriath_caretaker_1",
-        "message":"I am Moriath, the caretaker for this manor. ",
+        "message":"I am Moriath, the caretaker for this manor.",
         "replies":[
             {
                 "text":"What is this place?",
@@ -2421,7 +2421,7 @@
     },
     {
         "id":"moriath_caretaker_3",
-        "message":"It is a matter of honor. The Lord of the manor saved my great-great grandfather from certain death many years ago. In return my great-great grandfather vowed that his family would always look after the manor. ",
+        "message":"It is a matter of honor. The Lord of the manor saved my great-great grandfather from certain death many years ago. In return my great-great grandfather vowed that his family would always look after the manor.",
         "replies":[
             {
                 "text":"He should not have made a vow that bound his family for generations!",
@@ -2456,7 +2456,7 @@
     },
     {
         "id":"moriath_history_3",
-        "message":"Many years ago, this island was used as a refuge in times of danger by communities that lived on the lakeshore. There was little here other than a small fortification, but being an island, that was enough for protection. ",
+        "message":"Many years ago, this island was used as a refuge in times of danger by communities that lived on the lakeshore. There was little here other than a small fortification, but being an island, that was enough for protection.",
         "replies":[
             {
                 "text":"N",
@@ -2524,7 +2524,7 @@
     },
     {
         "id":"moriath_caretaker_5",
-        "message":"The only thing that would help is for me to be released from the oath. ",
+        "message":"The only thing that would help is for me to be released from the oath.",
         "replies":[
             {
                 "text":"Who can do that?",
@@ -2534,7 +2534,7 @@
     },
     {
         "id":"moriath_caretaker_6",
-        "message":"The current lord, of course. But he has gone. I do not know his whereabouts, or even if he is still alive. If I knew he was deceased I would consider the oath void, but I do not know that. ",
+        "message":"The current lord, of course. But he has gone. I do not know his whereabouts, or even if he is still alive. If I knew he was deceased I would consider the oath void, but I do not know that.",
         "replies":[
             {
                 "text":"There is nobody else?",
@@ -2588,7 +2588,7 @@
     },
     {
         "id":"book_found_1",
-        "message":"You look through the shelves, and one book catches your eye. \"A Treatise on Ghosts and Other Undead\". Maybe this has the information you seek. ",
+        "message":"You look through the shelves, and one book catches your eye. \"A Treatise on Ghosts and Other Undead\". Maybe this has the information you seek.",
         "replies":[
             {
                 "text":"N",
@@ -2645,7 +2645,7 @@
     },
     {
         "id":"book_found_6",
-        "message":"\"The raising of the spirits of the dead is best left to priests that have been trained in how to both raise them, and send them back. Preists of The Shadow can do this with ease, but they are sworn to secrecy about their methods.\"",
+        "message":"\"The raising of the spirits of the dead is best left to priests that have been trained in how to both raise them, and send them back. Priests of The Shadow can do this with ease, but they are sworn to secrecy about their methods.\"",
         "replies":[
             {
                 "text":"N",
@@ -2696,7 +2696,7 @@
     },
     {
         "id":"moriath_caretaker_8",
-        "message":"I have no idea. I am a caretaker, not a preist. The manor has an extensive library. Maybe you should look there. ",
+        "message":"I have no idea. I am a caretaker, not a priest. The manor has an extensive library. Maybe you should look there.",
         "replies":[
             {
                 "text":"I'll take a look.",
@@ -2738,7 +2738,7 @@
         "message":"Hello again.",
         "replies":[
             {
-                "text":"Finally, success. I had to raise the spirits of many family members, but Jerelin said he would release you from the oath. There is one condition though. You must move his grave away from that of his wife. They don't seem to get along very well. ",
+                "text":"Finally, success. I had to raise the spirits of many family members, but Jerelin said he would release you from the oath. There is one condition though. You must move his grave away from that of his wife. They don't seem to get along very well.",
                 "nextPhraseID":"moriath_3_1",
                 "requires":[
                     {
@@ -2760,7 +2760,7 @@
                 ]
             },
             {
-                "text":"I have found how to raise a spirit and talk to it. However, I need a personal item from the deceased. ",
+                "text":"I have found how to raise a spirit and talk to it. However, I need a personal item from the deceased.",
                 "nextPhraseID":"moriath_1_1",
                 "requires":[
                     {
@@ -2809,7 +2809,7 @@
     },
     {
         "id":"moriath_2_1",
-        "message":"There are items from all the generations scattered around. They were fond of putting their intials on them. A mixture of vanity and possessiveness I think. So see if you can find something with \"E\" marked on it. ",
+        "message":"There are items from all the generations scattered around. They were fond of putting their intials on them. A mixture of vanity and possessiveness I think. So see if you can find something with \"E\" marked on it.",
         "replies":[
             {
                 "text":"Thanks. Will do!",
@@ -2908,7 +2908,7 @@
     },
     {
         "id":"nightstand_search_2",
-        "message":"I have found a smalled jeweled key that looks like it will fit Adakin's diary. ",
+        "message":"I have found a smalled jeweled key that looks like it will fit Adakin's diary.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -3099,7 +3099,7 @@
     },
     {
         "id":"chest_search_1",
-        "message":"This chest looks like it is used to strore important items. ",
+        "message":"This chest looks like it is used to strore important items.",
         "replies":[
             {
                 "text":"Take a look in the chest.",
@@ -3888,7 +3888,7 @@
         "switchToNPC":"jerelin",
         "replies":[
             {
-                "text":"I spoke to Audela. She said to tell you that she insists you do this. She even made some kind of threat about reaching into your grave if you don't. ",
+                "text":"I spoke to Audela. She said to tell you that she insists you do this. She even made some kind of threat about reaching into your grave if you don't.",
                 "nextPhraseID":"jerelin_b_3"
             }
         ],
@@ -4236,11 +4236,11 @@
     },
     {
         "id":"laerothtomb0_3",
-        "message":"There is no epitaph on this grave. Strange. "
+        "message":"There is no epitaph on this grave. Strange."
     },
     {
         "id":"laerothtomb0_4",
-        "message":"Here lies Athonnaith. "
+        "message":"Here lies Athonnaith."
     },
     {
         "id":"Jenoel_grave",
@@ -4272,10 +4272,10 @@
     },
     {
         "id":"eraep_2",
-        "message":"I came here for the solitude. I wish to be a playwright. So I am writing my first play. I hope that someday I will be famous. ",
+        "message":"I came here for the solitude. I wish to be a playwright. So I am writing my first play. I hope that someday I will be famous.",
         "replies":[
             {
-                "text":"Best of luck. Sounds like a boring thing to do to me. ",
+                "text":"Best of luck. Sounds like a boring thing to do to me.",
                 "nextPhraseID":"X"
             },
             {
@@ -4289,7 +4289,7 @@
         "message":"It is set in a very small village. So I called it \"Hamlet\". An old Dhayavarian word for a very small village.  ",
         "replies":[
             {
-                "text":"Life in a small village? I come from one. It must be a very boring play. ",
+                "text":"Life in a small village? I come from one. It must be a very boring play.",
                 "nextPhraseID":"eraep_4"
             }
         ]
@@ -4527,7 +4527,7 @@
     },
     {
         "id":"adakin_chest_2",
-        "message":"The key works, and the chest is open! Here is his diary. It has its own lock though, so now I need a key for this!\n\nThere's some other nice looking stuff in here too. ",
+        "message":"The key works, and the chest is open! Here is his diary. It has its own lock though, so now I need a key for this!\n\nThere's some other nice looking stuff in here too.",
         "replies":[
             {
                 "text":"Maybe I should loot the chest. After all, Adakin is not here anymore.",

@@ -256,7 +256,7 @@
             },
             {
                 "progress":15,
-                "logText":"The caretaker said that he feels honor bound by a pledge that his great-great grandfather made many years ago. "
+                "logText":"The caretaker said that he feels honor bound by a pledge that his great-great grandfather made many years ago."
             },
             {
                 "progress":17,
@@ -316,7 +316,7 @@
             },
             {
                 "progress":140,
-                "logText":"I have found a key in the bedroom. "
+                "logText":"I have found a key in the bedroom."
             },
             {
                 "progress":150,
@@ -375,7 +375,7 @@
             },
             {
                 "progress":70,
-                "logText":"The key unlocked the diary. The final entry did not really give an answer, except that he intended to go to either Nor City or Feygard, but had yet to decide which. Perhaps I will meet him some day. ",
+                "logText":"The key unlocked the diary. The final entry did not really give an answer, except that he intended to go to either Nor City or Feygard, but had yet to decide which. Perhaps I will meet him some day.",
                 "rewardExperience":1000,
                 "finishesQuest":1
             }
@@ -480,7 +480,7 @@
             },
             {
                 "progress":20,
-                "logText":"I delined to help  the spirits in the prison be free of the prison torturer.",
+                "logText":"I declined to help  the spirits in the prison be free of the prison torturer.",
                 "finishesQuest":1
             }
         ]

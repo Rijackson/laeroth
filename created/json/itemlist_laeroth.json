@@ -201,7 +201,7 @@
         "hasManualPrice":1,
         "baseMarketCost":1600,
         "category":"staff",
-        "description":"This quarterstaff is made of very dense wood, and has metal endcaps with intricate engravings. ",
+        "description":"This quarterstaff is made of very dense wood, and has metal endcaps with intricate engravings.",
         "equipEffect":{
             "increaseAttackDamage":{
                 "min":5,
@@ -339,7 +339,7 @@
         "hasManualPrice":1,
         "baseMarketCost":1000,
         "category":"gem",
-        "description":"It looks like black glass. "
+        "description":"It looks like black glass."
     },
     {
         "id":"obsidian_dagger",
@@ -490,7 +490,7 @@
         "name":"Letter from Adakin",
         "displaytype":"quest",
         "category":"other",
-        "description":"My dear Moriath. I wish to thank you for your service over the years. However, I realize there is no future for me here at the manor, so I must leave to find my path in life. I wish you all the best, and perhaps we will meet again somewhere. I have secured the things that are valuable to me but I cannot carry, including my diary, in a chest downstairs. Perhaps one day I will be able to collect them. Signed, Adakin. "
+        "description":"My dear Moriath. I wish to thank you for your service over the years. However, I realize there is no future for me here at the manor, so I must leave to find my path in life. I wish you all the best, and perhaps we will meet again somewhere. I have secured the things that are valuable to me but I cannot carry, including my diary, in a chest downstairs. Perhaps one day I will be able to collect them. Signed, Adakin."
     },
     {
         "id":"adakin_chest_key",
