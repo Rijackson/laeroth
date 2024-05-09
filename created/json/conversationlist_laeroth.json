@@ -2749,8 +2749,8 @@
                 ]
             },
             {
-                "text":"Audela will help me with her husband Jerelin. I think I don't need any item again. Jerelin's seal should do the trick still.",
-                "nextPhraseID":"moriath_6_1",
+                "text":"Audela told me to talk again to her husband Jerelin. I think I don't need another of Jerelin's items again. His seal should still be enough.",
+                "nextPhraseID":"moriath_7_1",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -2766,7 +2766,24 @@
                 ]
             },
             {
-                "text":"Jerelin was not helpful. In fact, he just ignored me. That's why Cuned sent me to his mother Audela. Where are Audela's item?",
+                "text":"Cuned now sent me to his mother Audela. Where are Audela's item?",
+                "nextPhraseID":"moriath_6_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"laeroth_caretaker",
+                        "value":120
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"laeroth_caretaker",
+                        "value":130,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Jerelin was not helpful. In fact, he just ignored me.",
                 "nextPhraseID":"moriath_5_1",
                 "requires":[
                     {
@@ -2777,7 +2794,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"laeroth_caretaker",
-                        "value":130,
+                        "value":120,
                         "negate":true
                     }
                 ]
@@ -2914,10 +2931,20 @@
     },
     {
         "id":"moriath_5_1",
-        "message":"Audela has always an \"A\" as intials on her personal items. They should be easy to find."
+        "message":"Maybe it helps if you talk to Cuned again?",
+        "replies":[
+            {
+                "text":"Hmm, I could try that.",
+                "nextPhraseID":"X"
+            }
+        ]
     },
     {
         "id":"moriath_6_1",
+        "message":"Audela has always an \"A\" as intials on her personal items. They should be easy to find."
+    },
+    {
+        "id":"moriath_7_1",
         "message":"Yes, probably you are right."
     },
     {
@@ -3097,7 +3124,7 @@
     },
     {
         "id":"verigil_script_2a",
-        "message":"[You place an oegyth crystal and Verigil's signet ring on the tomb, and chant \"iseray iritspay\"]",
+        "message":"You place an oegyth crystal and Verigil's signet ring on the tomb, and chant \"iseray iritspay\"",
         "replies":[
             {
                 "text":"N",
@@ -3209,7 +3236,7 @@
     },
     {
         "id":"chest_search_2",
-        "message":"[You rummage around in the contents. Then a high quality candlestick catches your eye. It has \"E\" engraved on it! This should work!]",
+        "message":"You rummage around in the contents. Then a high quality candlestick catches your eye. It has \"E\" engraved on it! This should work!",
         "rewards":[
             {
                 "rewardType":"giveItem",
@@ -3324,7 +3351,7 @@
     },
     {
         "id":"eyvipa_script_2a",
-        "message":"[You place the slightly diminished oegyth crystal and Eyvipa's candlestick on the tomb, and chant \"iseray iritspay\"]",
+        "message":"You place the slightly diminished oegyth crystal and Eyvipa's candlestick on the tomb, and chant \"iseray iritspay\"",
         "replies":[
             {
                 "text":"N",
@@ -3407,14 +3434,27 @@
                 "nextPhraseID":"X"
             },
             {
+                "text":"Estay imgrey earcepay!",
+                "nextPhraseID":"X"
+            },
+            {
                 "text":"Estray inyay eacepay!",
                 "nextPhraseID":"eyvipa_4b"
+            },
+            {
+                "text":"Esay intray eaceplay!",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Espray inpray eatnpay!",
+                "nextPhraseID":"X"
             }
         ]
     },
     {
         "id":"eyvipa_4b",
-        "message":"[The ghost of Eyvipa vanishes. You feel great relief that the chant worked. You take back the oegyth crystal, although it seems to be losing some of its luster].",
+		"switchToNPC":"none",
+        "message":"The ghost of Eyvipa vanishes. You feel great relief that the chant worked. You take back the oegyth crystal, although it seems to be losing some of its luster.",
         "rewards":[
             {
                 "rewardType":"removeSpawnArea",
@@ -3617,7 +3657,7 @@
     },
     {
         "id":"cuned_script_2a",
-        "message":"[You place the diminished oegyth crystal and Cuned's diary on the tomb, and chant \"iseray iritspay\"]",
+        "message":"You place the diminished oegyth crystal and Cuned's diary on the tomb, and chant \"iseray iritspay\"",
         "replies":[
             {
                 "text":"N",
@@ -3687,7 +3727,7 @@
     },
     {
         "id":"cuned_script_b_2a",
-        "message":"[You place the heavily diminished oegyth crystal on the tomb, and chant \"iseray iritspay\"]",
+        "message":"You place the heavily diminished oegyth crystal on the tomb, and chant \"iseray iritspay\"",
         "replies":[
             {
                 "text":"N",
@@ -3947,7 +3987,7 @@
     },
     {
         "id":"jerelin_script_2a",
-        "message":"[You place the very diminished oegyth crystal and Jerelin's seal on the tomb, and chant \"iseray iritspay\"]",
+        "message":"You place the very diminished oegyth crystal and Jerelin's seal on the tomb, and chant \"iseray iritspay\"",
         "replies":[
             {
                 "text":"N",
@@ -4014,7 +4054,7 @@
     },
     {
         "id":"jerelin_script_b_2a",
-        "message":"[You place the nearly depleted oegyth crystal on the tomb, and chant \"iseray iritspay\"]",
+        "message":"You place the nearly depleted oegyth crystal on the tomb, and chant \"iseray iritspay\"",
         "replies":[
             {
                 "text":"N",
@@ -4282,7 +4322,7 @@
     },
     {
         "id":"audela_script_2a",
-        "message":"[You place the very heavily diminished oegyth crystal and Audela's necklace on the tomb, and chant \"iseray iritspay\"]",
+        "message":"You place the very heavily diminished oegyth crystal and Audela's necklace on the tomb, and chant \"iseray iritspay\"",
         "replies":[
             {
                 "text":"N",
@@ -11392,7 +11432,8 @@
     },
     {
         "id":"hungry_pig_dies",
-        "message":"[The hungry pig dies due to the rotten meat.]",
+		"switchToNPC":"none",
+        "message":"The hungry pig dies due to the rotten meat.",
         "rewards":[
             {
                 "rewardType":"removeSpawnArea",
