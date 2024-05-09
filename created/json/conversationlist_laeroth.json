@@ -4742,7 +4742,7 @@
     },
     {
         "id":"adakin_chest_3a",
-        "message":"There are some nice items here. I'll just help myself to a few of them.",
+        "message":"There are some nice items here. Let's see: I'll take 3 of these health potions, the sword and this ring.",
         "rewards":[
             {
                 "rewardType":"giveItem",
@@ -4800,13 +4800,12 @@
     },
     {
         "id":"last_lord_final_0a",
-        "message":"You open the diary and go to the last pages. It reads: \n\n\"I need to go and find my destiny. It is not here at the manor, so I must strike out and find what lies ahead for me. I will go south to the fabled Duleian road. What then? I will make a decision when I get there. North west to Feygard, or south east to Nor city? Perhaps I will visit both, and make a final decision only then. I hope fate will show me the right way. Farewell Laeroth.\" \n\nI will return the diary to the chest before I leave here.",
-        "rewards":[
+        "message":"You open the diary and go to the last pages. It reads: \n\n\"I need to go and find my destiny. It is not here at the manor, so I must strike out and find what lies ahead for me. I will go south to the fabled Duleian road. What then? I will make a decision when I get there. North west to Feygard, or south east to Nor city? Perhaps I will visit both, and make a final decision only then. I hope fate will show me the right way.\nFarewell Laeroth.\"",
+        "replies":[
             {
-                "rewardType":"questProgress",
-                "rewardID":"last_lord",
-                "value":70
-            }
+                "text":"I will return the diary to the chest before I leave here.",
+                "nextPhraseID":"X"
+			}
         ]
     },
     {
