@@ -208,10 +208,5 @@
     <property name="place" value="arch"/>
    </properties>
   </object>
-  <object name="verigil_seal_found_test_nut" type="script" x="32" y="352" width="32" height="32">
-   <properties>
-    <property name="when" value="enter"/>
-   </properties>
-  </object>
  </objectgroup>
 </map>

@@ -2739,12 +2739,80 @@
         "replies":[
             {
                 "text":"Finally, success. I had to raise the spirits of many family members, but Jerelin said he would release you from the oath. There is one condition though. You must move his grave away from that of his wife. They don't seem to get along very well.",
-                "nextPhraseID":"moriath_3_1",
+                "nextPhraseID":"moriath_9_1",
                 "requires":[
                     {
                         "requireType":"questProgress",
                         "requireID":"laeroth_caretaker",
                         "value":170
+                    }
+                ]
+            },
+            {
+                "text":"Audela will help me with her husband Jerelin. I think I don't need any item again. Jerelin's seal should do the trick still.",
+                "nextPhraseID":"moriath_6_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"laeroth_caretaker",
+                        "value":160
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"laeroth_caretaker",
+                        "value":170,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Jerelin was not helpful. In fact, he just ignored me. That's why Cuned sent me to his mother Audela. Where are Audela's item?",
+                "nextPhraseID":"moriath_5_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"laeroth_caretaker",
+                        "value":110
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"laeroth_caretaker",
+                        "value":130,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Cuned has sent me to talk to his father Jerelin. Now I need a personal item of him",
+                "nextPhraseID":"moriath_4_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"laeroth_caretaker",
+                        "value":90
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"laeroth_caretaker",
+                        "value":110,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"I spoke to the spirit of Eyvipa. Even now he was extremely displeased at being passed over in favor of Cuned in the line of succession. Do you know where I might find a personal item of him?",
+                "nextPhraseID":"moriath_3_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"laeroth_caretaker",
+                        "value":70
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"laeroth_caretaker",
+                        "value":90,
+                        "negate":true
                     }
                 ]
             },
@@ -2756,6 +2824,12 @@
                         "requireType":"questProgress",
                         "requireID":"laeroth_caretaker",
                         "value":40
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"laeroth_caretaker",
+                        "value":70,
+                        "negate":true
                     }
                 ]
             },
@@ -2826,6 +2900,28 @@
     },
     {
         "id":"moriath_3_1",
+        "message":"Cuned has put a \"C\" as intials on his personal items. Please look for it yourself.",
+        "replies":[
+            {
+                "text":"Thanks. Will do!",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"moriath_4_1",
+        "message":"Jerelin has put a \"J\" as intials on his personal items. Please look for it yourself."
+    },
+    {
+        "id":"moriath_5_1",
+        "message":"Audela has always an \"A\" as intials on her personal items. They should be easy to find."
+    },
+    {
+        "id":"moriath_6_1",
+        "message":"Yes, probably you are right."
+    },
+    {
+        "id":"moriath_9_1",
         "message":"Thank you. I will do that if it releases me from the oath. I will do it immediately. Farewell, and thanks again.",
         "replies":[
             {
@@ -3099,7 +3195,7 @@
     },
     {
         "id":"chest_search_1",
-        "message":"This chest looks like it is used to strore important items.",
+        "message":"This chest looks like it is used to store important items.",
         "replies":[
             {
                 "text":"Take a look in the chest.",
@@ -3646,6 +3742,62 @@
                 "rewardType":"questProgress",
                 "rewardID":"laeroth_caretaker",
                 "value":120
+            }
+        ]
+    },
+    {
+        "id":"jerelin_chest_search_0",
+        "replies":[
+            {
+                "nextPhraseID":"jerelin_chest_search_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"laeroth_caretaker",
+                        "value":90
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"laeroth_caretaker",
+                        "value":100,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"jerelin_chest_search_1",
+        "message":"This chest looks pretty old. Is it worth taking a look?",
+        "replies":[
+            {
+                "text":"The chest will probably crumble if you touch it.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"You rummage around in the clutter in the chest.",
+                "nextPhraseID":"jerelin_chest_search_2"
+            }
+        ]
+    },
+    {
+        "id":"jerelin_chest_search_2",
+        "message":"You find a ring that apparently served as a seal for Jerelin, as it had a large \"J\" on it. You take the seal.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"laeroth_caretaker",
+                "value":100
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"seal_jerelin",
+                "value":1
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"laeroth_nondisplay",
+                "value":9
             }
         ]
     },
@@ -9795,22 +9947,6 @@
     {
         "id":"lae_centaur9_392",
         "message":"You are free to roam our island as you please. And know that you will always have a friend in the centaurs."
-    },
-    {
-        "id":"verigil_seal_found_test_nut",
-        "message":"You found a seal with \"V\" engraved on it. This should work.\nBut it still must be coded properly (nut).",
-        "rewards":[
-            {
-                "rewardType":"giveItem",
-                "rewardID":"seal_jerelin",
-                "value":1
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"laeroth_nondisplay",
-                "value":9
-            }
-        ]
     },
     {
         "id":"gylew4a",
