@@ -4485,6 +4485,12 @@
                     },
                     {
                         "requireType":"questProgress",
+                        "requireID":"last_lord",
+                        "value":15,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
                         "requireID":"laeroth_caretaker",
                         "value":180
                     }
@@ -4494,11 +4500,11 @@
     },
     {
         "id":"laeroth_exit_1a",
-        "message":"Before I leave Laeroth, Perhaps I should try to find out where the last Lord went. Maybe there are clues somewhere in the manor.",
+        "message":"As you are about to leave Laeroth Manor, you think of the last lord. Where did he go?",
         "replies":[
             {
-                "text":"N",
-                "nextPhraseID":"laeroth_exit_1b",
+                "text":"Perhaps I should try to find out more.",
+                "nextPhraseID":"laeroth_exit_1c",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -4509,20 +4515,26 @@
                 ]
             },
             {
-                "nextPhraseID":"laeroth_exit_1c"
-            }
-        ],
-        "rewards":[
+                "text":"Maybe there are clues somewhere in the manor.",
+                "nextPhraseID":"laeroth_exit_1c",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"last_lord",
+                        "value":15,
+                        "negate":true
+                    }
+                ]
+            },
             {
-                "rewardType":"questProgress",
-                "rewardID":"last_lord",
-                "value":10
+                "text":"I am just wasting time here. Time to leave.",
+                "nextPhraseID":"laeroth_exit_1b"
             }
         ]
     },
     {
         "id":"laeroth_exit_1b",
-        "message":"I am just wasting time here. It doesn't matter where the last lord went. Time to leave.",
+        "message":"It doesn't matter where the last lord went.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -4533,27 +4545,12 @@
     },
     {
         "id":"laeroth_exit_1c",
-        "message":"I will look around. The main quarters are probably a good place to start."
-    },
-    {
-        "id":"laeroth_exit_2",
-        "replies":[
+        "message":"I will look around. The main quarters are probably a good place to start.",
+        "rewards":[
             {
-                "text":"N",
-                "nextPhraseID":"laeroth_exit_1a",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"last_lord",
-                        "value":10,
-                        "negate":true
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"laeroth_caretaker",
-                        "value":180
-                    }
-                ]
+                "rewardType":"questProgress",
+                "rewardID":"last_lord",
+                "value":10
             }
         ]
     },

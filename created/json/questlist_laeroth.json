@@ -345,11 +345,11 @@
         "stages":[
             {
                 "progress":10,
-                "logText":"Before I leave Laeroth, Perhaps I should try to find out where the last Lord went. Maybe there are clues somewhere in the manor."
+                "logText":"Before I leave Laeroth, perhaps I should try to find out where the last Lord went. Maybe there are clues somewhere in the manor."
             },
             {
                 "progress":15,
-                "logText":"Perhaps I don't really care about where the last lord went. I'm leaving this place, and whatever happened to him doesn't make any difference to me.",
+                "logText":"I didn't really care about where the last lord went. I left this place, and whatever happened to him didn't make any difference to me.",
                 "rewardExperience":1,
                 "finishesQuest":1
             },

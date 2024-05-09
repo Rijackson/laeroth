@@ -176,7 +176,7 @@
     <property name="place" value="east"/>
    </properties>
   </object>
-  <object name="laeroth_exit_2" type="script" x="352" y="64" width="32" height="32">
+  <object name="laeroth_exit_1" type="script" x="352" y="64" width="32" height="32">
    <properties>
     <property name="when" value="step"/>
    </properties>
