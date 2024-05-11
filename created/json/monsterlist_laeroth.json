@@ -883,6 +883,42 @@
         }
     },
     {
+        "id":"lae_demon",
+        "name":"Dark watch",
+        "iconID":"monsters_ld2:238",
+        "maxHP":180,
+        "moveCost":5,
+        "monsterClass":"demon",
+        "movementAggressionType":"wholeMap",
+        "attackDamage":{
+            "min":3,
+            "max":20
+        },
+        "droplistID":"lae_demon",
+        "attackCost":3,
+        "attackChance":90,
+        "criticalSkill":15,
+        "criticalMultiplier":1.5,
+        "blockChance":75,
+        "damageResistance":2,
+        "hitEffect":{
+            "increaseCurrentHP":{
+                "min":2,
+                "max":2
+            }
+        },
+        "hitReceivedEffect":{
+            "increaseCurrentHP":{
+                "min":2,
+                "max":2
+            },
+            "increaseAttackerCurrentHP":{
+                "min":-2,
+                "max":-2
+            }
+        }
+    },
+    {
         "id":"lae_prisoner1",
         "name":"Laeroth prisoner",
         "iconID":"monsters_ld2:175",

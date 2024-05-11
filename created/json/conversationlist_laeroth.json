@@ -11198,6 +11198,111 @@
         ]
     },
     {
+        "id":"lae_demon_call",
+        "message":"An icy cold breeze hits your face.",
+        "replies":[
+            {
+                "text":"Let's throw an oegyth crystal down there.",
+                "nextPhraseID":"lae_demon_call_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lae_torturer",
+                        "value":50,
+						"negate":true
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"oegyth",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"I would like to throw an oegyth crystal down there, if I only had one.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lae_torturer",
+                        "value":50,
+						"negate":true
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"oegyth",
+                        "value":1,
+						"negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Let's try to throw a rock.",
+                "nextPhraseID":"lae_demon_call_1",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"rock",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"What an eery place. I better leave this alone.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"lae_demon_call_1",
+        "message":"Nothing.",
+        "replies":[
+            {
+                "text":"Let's throw an oegyth crystal down there.",
+                "nextPhraseID":"lae_demon_call_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lae_torturer",
+                        "value":50,
+						"negate":true
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"oegyth",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"I better leave this alone.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"lae_demon_call_10",
+        "message":"You hear an uproar from far away. But coming nearer and nearer.",
+        "replies":[
+            {
+                "text":"Well, let's hurry from here - now.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"lae_torturer",
+                "value":50
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"lae_demon",
+                "mapName":"laerothprison7"
+            }
+        ]
+    },
+    {
         "id":"hungry_pig_selector",
         "replies":[
             {

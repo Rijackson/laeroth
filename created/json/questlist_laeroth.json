@@ -482,6 +482,10 @@
                 "progress":20,
                 "logText":"I declined to help  the spirits in the prison be free of the prison torturer.",
                 "finishesQuest":1
+            },
+            {
+                "progress":50,
+                "logText":"I have thrown an oegyth crystal down into the abyss to call for the dark watch."
             }
         ]
     },
