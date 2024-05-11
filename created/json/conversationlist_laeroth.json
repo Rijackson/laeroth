@@ -2873,17 +2873,33 @@
             },
             {
                 "text":"Can you tell me again why you are still here?",
-                "nextPhraseID":"moriath_caretaker_2"
+                "nextPhraseID":"moriath_caretaker_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"laeroth_caretaker",
+                        "value":30,
+                        "negate":true
+                    }
+                ]
             },
             {
                 "text":"I have to leave to look for my brother.",
-                "nextPhraseID":"X"
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"laeroth_caretaker",
+                        "value":20,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },
     {
         "id":"moriath_1_1",
-        "message":"Well, the previous lord was Verigil. His son, Simaca, did not take any of his fathers possesions when he left. You might find something in the master bedroom.",
+        "message":"Well, the previous lord was Verigil. His son, Adakin, did not take any of his fathers possesions when he left. You might find something in the master bedroom.",
         "replies":[
             {
                 "text":"Thanks!",

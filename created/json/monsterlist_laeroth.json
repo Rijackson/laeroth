@@ -326,9 +326,8 @@
         "name":"Eyvipa",
         "iconID":"monsters_gisons:11",
         "monsterClass":"undead",
-        "movementAggressionType":"none",
-        "spawnGroup":"eyvipa",
-        "phraseID":"eyvipa_0"
+        "movementAggressionType":"wholeMap",
+        "spawnGroup":"eyvipa"
     },
     {
         "id":"cuned",
