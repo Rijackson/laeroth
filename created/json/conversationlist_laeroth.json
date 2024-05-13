@@ -11147,7 +11147,34 @@
     },
     {
         "id":"lae_prison_02",
-        "message":"The prison torturer died, but he took the life force of the prisoners in the hope to live again. It didn't work, because we had so little life left anyway. But now we cannot rest in peace, because he is still here, somewhere in the lower caves. He needs to be destroyed, but we cannot do it because he has control over us.",
+        "message":"The prison torturer died, but he took the life force of the prisoners in the hope to live again.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"lae_prison_02b"
+            }
+        ]
+    },
+    {
+        "id":"lae_prison_02b",
+        "message":"It didn't work, because we had so little life left anyway.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"lae_prison_02c"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"lae_torturer",
+                "value":5
+            }
+        ]
+    },
+    {
+        "id":"lae_prison_02c",
+        "message":"But now we cannot rest in peace, because he is still here, somewhere in the lower caves. He needs to be destroyed, but we cannot do it because he has control over us.",
         "replies":[
             {
                 "text":"OK. I'll do it. I am not afraid of a few monsters!",
@@ -11198,12 +11225,500 @@
         ]
     },
     {
+        "id":"lae_prison_end",
+        "replies":[
+            {
+                "nextPhraseID":"lae_prison_end_10",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"kotheses",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lae_torturer",
+                        "value":80,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"lae_prison_3a",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lae_torturer",
+                        "value":25
+                    },
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"kotheses",
+                        "value":1,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"lae_prison_end_10",
+        "message":"Oh, the kid is back. Just look!",
+        "replies":[
+            {
+                "text":"You can finally find peace. Kotheses, the torturer is dead.",
+				"nextPhraseID":"lae_prison_end_20"
+            }
+        ]
+    },
+    {
+        "id":"lae_prison_end_20",
+        "message":"Ooooh! We are eternally grateful!",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"lae_torturer",
+                "value":80
+            }
+        ]
+    },
+    {
+        "id":"lae_torturer",
+        "replies":[
+            {
+                "nextPhraseID":"lae_torturer_110",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lae_torturer",
+                        "value":110
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"lae_torturer_100",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lae_torturer",
+                        "value":100
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"lae_torturer_10"
+            }
+        ]
+    },
+    {
+        "id":"lae_torturer_key",
+		"switchToNPC":"kotheses",
+        "message":"Stop, kid! Not a step further!"
+    },
+    {
+        "id":"lae_torturer_10",
+		"message":"Hello child. Would you like to learn the trade of a torturer?",
+        "replies":[
+            {
+                "text":"I'm sorry, I don't have time for that. I have to look for my brother. Do you perhaps know where he is? He looks something like me.",
+				"nextPhraseID":"lae_torturer_12"
+            },
+            {
+                "text":"You stole the life force of your captives.",
+				"nextPhraseID":"lae_torturer_18"
+            },
+            {
+                "text":"Would be something different, OK.",
+				"nextPhraseID":"lae_torturer_30"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"lae_torturer",
+                "value":25
+            }
+        ]
+    },
+    {
+        "id":"lae_torturer_12",
+		"message":"No, I don't know where Andor is now.",
+        "replies":[
+            {
+                "text":"Oh, how do you know his name?",
+				"nextPhraseID":"lae_torturer_14"
+            }
+        ]
+    },
+    {
+        "id":"lae_torturer_14",
+		"message":"Well, he was here a while ago and was shown a few tricks.",
+        "replies":[
+            {
+                "text":"So he was here too?",
+				"nextPhraseID":"lae_torturer_16"
+            }
+        ]
+    },
+    {
+        "id":"lae_torturer_16",
+		"message":"Andor was a very eager student. It's a shame he didn't stay.",
+        "replies":[
+            {
+                "text":"N",
+				"nextPhraseID":"lae_torturer_20"
+            }
+        ]
+    },
+    {
+        "id":"lae_torturer_18",
+		"message":"Yes. So?",
+        "replies":[
+            {
+                "text":"Nothing.",
+				"nextPhraseID":"lae_torturer_20"
+            }
+        ]
+    },
+    {
+        "id":"lae_torturer_20",
+		"message":"You are sure you don't want to learn the art of a torturer?",
+        "replies":[
+            {
+                "text":"That is no job for me.",
+				"nextPhraseID":"lae_torturer_60",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lae_torturer",
+                        "value":30,
+						"negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Well, I could try at least.",
+				"nextPhraseID":"lae_torturer_30",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lae_torturer",
+                        "value":60,
+						"negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"lae_torturer_30",
+		"message":"OK, let's start on the spot. This is a very important job, you know?",
+        "replies":[
+            {
+                "text":"Why?",
+				"nextPhraseID":"lae_torturer_32"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"lae_torturer",
+                "value":30
+            }
+        ]
+    },
+    {
+        "id":"lae_torturer_32",
+		"message":"You get people to tell you the truth you want to hear.",
+        "replies":[
+            {
+                "text":"Oh, OK.",
+				"nextPhraseID":"lae_torturer_34"
+            }
+        ]
+    },
+    {
+        "id":"lae_torturer_34",
+		"message":"Like these dangerous captives in the cells above. They all confessed. Luckily they are in safe custody.",
+        "replies":[
+            {
+                "text":"Eh ...",
+				"nextPhraseID":"lae_torturer_36"
+            }
+        ]
+    },
+    {
+        "id":"lae_torturer_36",
+		"message":"What?",
+        "replies":[
+            {
+                "text":"I opened the cells and released them.",
+				"nextPhraseID":"lae_torturer_40"
+            }
+        ]
+    },
+    {
+        "id":"lae_torturer_40",
+		"message":"Not again! We need to wake up the Demon Guard and send them upstairs. You will quickly get the problem under control.",
+        "replies":[
+            {
+                "text":"Demons? That doesn't sound safe.",
+				"nextPhraseID":"lae_torturer_42"
+            }
+        ]
+    },
+    {
+        "id":"lae_torturer_42",
+		"message":"You screwed up, you have to fix it.",
+        "replies":[
+            {
+                "text":"Sigh.",
+				"nextPhraseID":"lae_torturer_44",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lae_torturer",
+                        "value":35,
+						"negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Sigh. I know.",
+				"nextPhraseID":"lae_torturer_45",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lae_torturer",
+                        "value":35
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"lae_torturer_44",
+		"message":"Here take this Oegyth crystal.",
+        "replies":[
+            {
+                "text":"N",
+				"nextPhraseID":"lae_torturer_45"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"oegyth",
+                "value":1
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"lae_torturer",
+                "value":35
+            }
+        ]
+    },
+    {
+        "id":"lae_torturer_45",
+		"message":"Take this precious Oegyth crystal to that small room to the south and continue through the corridor.",
+        "replies":[
+            {
+                "text":"N",
+				"nextPhraseID":"lae_torturer_46"
+            }
+        ]
+    },
+    {
+        "id":"lae_torturer_46",
+		"message":"Then throw the crystal with all your might into the dark abyss.",
+        "replies":[
+            {
+                "text":"What?!",
+				"nextPhraseID":"lae_torturer_48"
+            }
+        ]
+    },
+    {
+        "id":"lae_torturer_48",
+		"message":"Do it. Then run for your life back here to me.",
+        "replies":[
+            {
+                "text":"N",
+				"nextPhraseID":"lae_torturer_50"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"lae_torturer",
+                "value":40
+            }
+        ]
+    },
+    {
+        "id":"lae_torturer_50",
+		"message":"You hear me? Don't wait for the demons. They are deadly.",
+        "replies":[
+            {
+                "text":"N",
+				"nextPhraseID":"lae_torturer_52"
+            }
+        ]
+    },
+    {
+        "id":"lae_torturer_52",
+		"message":"Now. Move."
+    },
+    {
+        "id":"lae_torturer_60",
+		"message":"What a pity. At least let me warn you about the captives above.",
+        "replies":[
+            {
+                "text":"What is with them?",
+				"nextPhraseID":"lae_torturer_62"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"lae_torturer",
+                "value":60
+            }
+        ]
+    },
+    {
+        "id":"lae_torturer_62",
+		"message":"They are devious. They are highly dangerous.",
+        "replies":[
+            {
+                "text":"N",
+				"nextPhraseID":"lae_torturer_64"
+            }
+        ]
+    },
+    {
+        "id":"lae_torturer_64",
+		"message":"They must be imprisoned for all reasons.",
+        "replies":[
+            {
+                "text":"Why?",
+				"nextPhraseID":"lae_torturer_66"
+            }
+        ]
+    },
+    {
+        "id":"lae_torturer_66",
+		"message":"Their lies influence you to have mercy. But turn your back to them they pierce you cruelly.",
+        "replies":[
+            {
+                "text":"N",
+				"nextPhraseID":"lae_torturer_70"
+            }
+        ]
+    },
+    {
+        "id":"lae_torturer_70",
+		"message":"Believe it or not.",
+        "replies":[
+            {
+                "text":"Not.",
+				"nextPhraseID":"lae_torturer_74"
+            }
+        ]
+    },
+    {
+        "id":"lae_torturer_74",
+		"message":"At least I attack fairly. I'm announcing it, not in ambush.",
+        "replies":[
+            {
+                "text":"OK ...",
+				"nextPhraseID":"lae_torturer_76"
+            }
+        ]
+    },
+    {
+        "id":"lae_torturer_76",
+		"message":"... which is now!",
+        "replies":[
+            {
+                "text":"How gross.",
+				"nextPhraseID":"F"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"lae_torturer",
+                "value":-100
+            }
+        ]
+    },
+    {
+        "id":"lae_torturer_100",
+		"message":"Now you can talk to the demons. To all of them. Tell them what they have to do."
+    },
+    {
+        "id":"lae_torturer_110",
+		"message":"I see it in your eyes - you want to leave too. Like your brother.",
+        "replies":[
+            {
+                "text":"Yes. Thank you for your lessons.",
+				"nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"lae_torturer",
+                "value":120
+            }
+        ]
+    },
+    {
+        "id":"lae_demon_safe",
+        "replies":[
+            {
+				"nextPhraseID":"lae_demon_safe_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lae_torturer",
+                        "value":30
+                    }
+                ]
+            },
+            {
+				"nextPhraseID":"lae_demon_safe_1"
+            }
+        ]
+    },
+    {
+        "id":"lae_demon_safe_1",
+        "rewards":[
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"lae_demon",
+                "value":-100
+            }
+        ]
+    },
+    {
+        "id":"lae_demon_safe_2",
+        "rewards":[
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"lae_demon",
+                "value":100
+            }
+        ]
+    },
+    {
         "id":"lae_demon_call",
         "message":"An icy cold breeze hits your face.",
         "replies":[
             {
                 "text":"Let's throw an oegyth crystal down there.",
-                "nextPhraseID":"lae_demon_call_10",
+                "nextPhraseID":"lae_demon_call_20",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -11238,7 +11753,7 @@
             },
             {
                 "text":"Let's try to throw a rock.",
-                "nextPhraseID":"lae_demon_call_1",
+                "nextPhraseID":"lae_demon_call_10",
                 "requires":[
                     {
                         "requireType":"inventoryRemove",
@@ -11251,15 +11766,22 @@
                 "text":"What an eery place. I better leave this alone.",
                 "nextPhraseID":"X"
             }
+        ],
+        "rewards":[
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"lae_demon",
+                "value":-100
+            }
         ]
     },
     {
-        "id":"lae_demon_call_1",
+        "id":"lae_demon_call_10",
         "message":"Nothing.",
         "replies":[
             {
                 "text":"Let's throw an oegyth crystal down there.",
-                "nextPhraseID":"lae_demon_call_10",
+                "nextPhraseID":"lae_demon_call_20",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -11281,7 +11803,7 @@
         ]
     },
     {
-        "id":"lae_demon_call_10",
+        "id":"lae_demon_call_20",
         "message":"You hear an uproar from far away. But coming nearer and nearer.",
         "replies":[
             {
@@ -11297,10 +11819,146 @@
             },
             {
                 "rewardType":"spawnAll",
-                "rewardID":"lae_demon",
+                "rewardID":"lae_demon9",
+                "mapName":"laerothprison7"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"lae_demon7",
+                "mapName":"laerothprison7"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"lae_demon4",
+                "mapName":"laerothprison7"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"lae_demon5",
+                "mapName":"laerothprison7"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"lae_demon4b",
                 "mapName":"laerothprison7"
             }
         ]
+    },
+    {
+        "id":"lae_demon4",
+        "message":"Command us!",
+        "replies":[
+            {
+                "text":"You go and watch over the captives in the cells.",
+                "nextPhraseID":"lae_demon4_10"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"lae_demon4",
+                "mapName":"laerothprison7"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"lae_demon4b",
+                "mapName":"laerothprison7"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"lae_demon4_safe",
+                "mapName":"laerothprison4"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"lae_demon4b_safe",
+                "mapName":"laerothprison4"
+            }
+        ]
+    },
+    {
+        "id":"lae_demon4_10",
+        "message":"As you wish."
+    },
+    {
+        "id":"lae_demon5",
+        "message":"Command us!",
+        "replies":[
+            {
+                "text":"Stands guard on the floor below the cell block.",
+                "nextPhraseID":"lae_demon4_10"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"lae_demon5",
+                "mapName":"laerothprison7"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"lae_demon5_safe",
+                "mapName":"laerothprison5"
+            }
+        ]
+    },
+    {
+        "id":"lae_demon7",
+        "message":"Command us!",
+        "replies":[
+            {
+                "text":"You guard Kotheses.",
+                "nextPhraseID":"lae_demon4_10"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"lae_demon7",
+                "mapName":"laerothprison7"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"lae_demon7_safe",
+                "mapName":"laerothprison7"
+            }
+        ]
+    },
+    {
+        "id":"lae_demon9",
+        "message":"[hollow voice] Take back your glass ball, brave little human.",
+        "replies":[
+            {
+                "text":"Th ... thanks.",
+                "nextPhraseID":"lae_demon"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"oegyth",
+                "value":1
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"lae_torturer",
+                "value":110
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"lae_demon9",
+                "mapName":"laerothprison7"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"lae_demon9_safe",
+                "mapName":"laerothprison7"
+            }
+        ]
+    },
+    {
+        "id":"lae_demon",
+        "message":"We are legion. Fear us."
     },
     {
         "id":"hungry_pig_selector",

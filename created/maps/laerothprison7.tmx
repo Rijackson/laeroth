@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="25" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="18">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="25" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="28">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -123,32 +123,35 @@
  <tileset firstgid="5045" name="map_transition_5" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_transition_5.png" width="512" height="256"/>
  </tileset>
+ <tileset firstgid="5173" name="map_guynmart" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_guynmart.png" width="512" height="256"/>
+ </tileset>
  <layer id="1" name="Ground" width="25" height="30">
   <data encoding="base64" compression="zlib">
-   eJy1lssRwjAMRCEHzhSQFhLogM+Fc4ASaA46gAooi2jGmtkskuxAwsxezFovli3ZbbVYtEn7pDYQenJe1qHXOWnnxEXP0fFG8S+9bkldmstx0XM1vF4eNmnuezVUZ8RlD3u9PGyCuVFcy8t5QE5pnDESTkOcOmlKDjPm4EUMPGtzMbyzNlbRGqKz9u8asJ7Fd1/29Zw0BYPrWeKf1t8MGX8UMJmh+dcaktgqZUhc5YpyHK/WMQYzeDzH4RpUxnMk45VZi8X4Zx1W3fKe/LIO5VjfG+0Jcl5wdi2+ymPwnhzgP4ln5Vo5/PPiYL5Ke9PdYUQ9qBnZm3Qd2+r7O70e1DjjOQ4ydjMwdB7uK74Z2Bv12OieknnyQw72OvR597l3D9cwhgwRv12svsvfWaIon9adoTlrquF7LKfaEHvw7SWMczW98O2FeZ1SH5ASaC0=
+   eJy1lkFywjAMRakXrDlArpCEGwDddB3KEbhceoNygh6LaMaa+f1IcgwmM3+BkfViyZIypM1myDpmDYHQpmTLOi06Zx0cv2jz6dhG/r8XXbOmvJf9os3FsPXiMOa9f9v/mgy/bMO2XhzGYG/k17LlOCBnrZ8aCacnTpfVksOMd/AiBt61dzG8u1ar6AzRXXv1DFjPYjd/LPWc1YLB9Sz+v3aPDFn/WcFkhsZfa0h8q5QhfpUrKnG8WkcfzOD1EodrUBm/lYxb4SwW45VzWHXLOXnmHMqx3jfKCXJucHdxnR9knJKfE/xP/FmxVo7HsPpDD/7X9I7ZYUT9oa/sTXqOfXp8zxKjpkcIBxk8y1swdB/mFWc5xyTqsdGckn3y6G+c5WznzXNvDnewhoxSjVuctd99EcOaGRqznnJYUmdoIBvMlzDOqb04X9fUXnd362jQ
   </data>
  </layer>
  <layer id="2" name="Objects" width="25" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFpAIdJgRbm4mwmjQm/Grx6UW3B5scNrUbeRgYNgHxZh7sasIFiHMLLrCImYHhINDsQ0B8mIew32SJ9DshQGwYclPJPmoAUFiRC4iJb1xAmgi9lJg/WMF8RuqbSatwwmVuHw38gA7mkWkHsXmQWICcTvGVE/jKLFrE+VAClMSJHJJeYsoMGCA1TwSyQjA+c+S5yTcfH1jESz2zcAHk9IkvHPGld3R9YTjSPLo6SutzZHtw2QkCMPeSkk5GAfUBAPtnEgs=
+   eJxjYGBg+MTIgBMU8OKWwwfKidB3GY+9h/HI0RJgszcXzS86TAi2NpTdyYhbTRoTqloY6MLhRx0mTDGQXpB6bHLY1G7kYWDYBMSbebCrCRcgbA4+sIiZgeEg0OxDQHyYB9Nv6ECWCHcTA2D2oKcd9HTKTSX7qAFAYYWPjw8QE9+4gDSSXlh+RE/flJhPT0BMeQID82lQdlAznJDzPS5z++hQ/s0j0w5CeZ1UAEunoDyMr5zAV2ZRI87JreuQAb46jZaAkjiRQ9IrjWYOvnRPap4IZIVgEEDOz5OR2PLc5Js/c4DCHhtAD0dccujpHV1fGDDNTwCGzwIgTufFrQ5b3iClzCQWwNyLz3/o+SgM6rZJeNwDaj/hy38Dla8GKwAA38skCw==
   </data>
  </layer>
  <layer id="3" name="Above" width="25" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYKAvSBcgTQ0x6tH1puHQg2wWsppwEuzAZz66ucSIYwOkuIdcIMtEezuGOwClhVQaxhWhtEYtO2gNaJWeceVnapqPz1xqhB2hsKFG2A0XOwiVWaSW489YcMvhAqSW499w2EGsW90FUDGx5pBSduCzA5c55JRNYQIQjA5w+YGcNDOQdnDjSJ/k2KHPBLEjGYuZ14Qxxcipz2F2oNujw4Tdf+QCmB3YMC4wlOsletgBAPwQJHc=
+   eJxjYKAvSBcgTQ0x6tH1puHQg2wWsppwEuzAZz66ucSIYwOkuIdcIMtEezuGOwClhVQaxhWhtEYtO2gNaJWeceVnapqPz1xqhB2hsKFG2A0XOwiVWaSW489YcMvhAsjpwV0AFWNzzzccdhDrVnx2EKrriM0T+OzA5U5yyqYwAQhGB7jsICfNDKQdIIAt7ZBjhz4TxKxktDR/TRiC0QE59TnIjnABhH/QMbUAOXYM5XqJHnYAAPKIKD4=
   </data>
  </layer>
  <layer id="8" name="Top" width="25" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMApGwUgEckwItjQTbnWUgnQB2pkNA+F0sEOWhmE0HAGu8KJlWhvuAAA68gF3
+   eJxjYBgFo2AUjIJRMApGwUgEckwItjQTbnWUgnQB2pkNA+E47OCmor9kaRhGyCAMi190gHZ7iNDWDmoDXOFFy7Q23AEA/MAC2g==
   </data>
  </layer>
- <layer id="4" name="Walkable" width="25" height="30">
+ <layer id="4" name="Walkable" width="25" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJztk9ENwCAIRB2hS7n/Sv1q0hjxuEOpJiXhR4HngdSrlPo77Y95Y1CsldvjIFMZjEV6lsXN4HhrrWZ8UZ9hZOh471mbu0IHq1HZF7aXuzFQTu+O5ai6RzOMvsnbW6vX6Dz6F9scb51shtcQA8UzHIth3VnskXbEYOekzHXWvqF+zmAofjLjBkfVoQo=
+   eJztk0sKgDAMRHsEL9X7X8mVIBIzH02oYKCL0iSvM2nnNsb8l7yOYHNQ7l1txEHhMpR44lkXt4PD9or21TpW8qlDx9nXa22FDlWj819UL1djoJroTOW4urMZMvnIF8Zb1IthZDqycPpUMJgalqPqUAPNltHA+psx1Dmhd5hpffO/sXd0GM6dvsrYAbpYoGA=
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents" visible="0">
+ <objectgroup id="5" name="Mapevents">
   <object id="1" name="south" type="mapchange" x="96" y="928" width="32" height="32">
    <properties>
     <property name="map" value="laerothprison6"/>
@@ -156,26 +159,27 @@
    </properties>
   </object>
   <object id="8" name="lae_demon_call" type="script" x="448" y="672" width="64" height="32"/>
+  <object id="23" name="lae_demon_safe" type="script" x="544" y="160" width="192" height="128"/>
  </objectgroup>
- <objectgroup id="6" name="Spawn" visible="0">
+ <objectgroup id="6" name="Spawn">
   <object id="2" name="kotheses" type="spawn" x="608" y="192" width="32" height="32">
    <properties>
-    <property name="spawngroup" value="wight_boss"/>
+    <property name="spawngroup" value="kotheses"/>
    </properties>
   </object>
-  <object id="3" name="wight1" type="spawn" x="256" y="224" width="448" height="128">
+  <object id="3" name="wight1" type="spawn" x="256" y="288" width="448" height="96">
    <properties>
     <property name="quantity" value="5"/>
     <property name="spawngroup" value="wight_greater"/>
    </properties>
   </object>
-  <object id="4" name="wight2" type="spawn" x="32" y="96" width="512" height="128">
+  <object id="4" name="wight2" type="spawn" x="32" y="96" width="512" height="192">
    <properties>
     <property name="quantity" value="4"/>
     <property name="spawngroup" value="wight_greater"/>
    </properties>
   </object>
-  <object id="5" name="wight3" type="spawn" x="256" y="352" width="480" height="256">
+  <object id="5" name="wight3" type="spawn" x="256" y="352" width="480" height="224">
    <properties>
     <property name="quantity" value="3"/>
     <property name="spawngroup" value="wight_greater"/>
@@ -187,46 +191,76 @@
     <property name="spawngroup" value="wight_greater"/>
    </properties>
   </object>
-  <object id="17" name="lae_demon" type="spawn" x="416" y="608" width="128" height="64">
+  <object id="19" name="lae_demon4" type="spawn" x="448" y="608" width="96" height="32">
    <properties>
     <property name="active" value="false"/>
     <property name="ignoreAreas" value="true"/>
-    <property name="quantity" value="8"/>
-    <property name="spawngroup" value="lae_demon"/>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="lae_demon4"/>
+   </properties>
+  </object>
+  <object id="21" name="lae_demon4b" type="spawn" x="448" y="576" width="64" height="32">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="ignoreAreas" value="true"/>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="4"/>
+   </properties>
+  </object>
+  <object id="20" name="lae_demon5" type="spawn" x="416" y="576" width="32" height="64">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="ignoreAreas" value="true"/>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="lae_demon5"/>
+   </properties>
+  </object>
+  <object id="17" name="lae_demon7" type="spawn" x="448" y="640" width="64" height="32">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="ignoreAreas" value="true"/>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="lae_demon7"/>
+   </properties>
+  </object>
+  <object id="22" name="lae_demon9" type="spawn" x="448" y="576" width="64" height="32">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="ignoreAreas" value="true"/>
+    <property name="quantity" value="1"/>
+    <property name="spawngroup" value="lae_demon9"/>
+   </properties>
+  </object>
+  <object id="24" name="lae_demon7_safe" type="spawn" x="576" y="256" width="96" height="32">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="lae_demon7_safe"/>
+   </properties>
+  </object>
+  <object id="25" name="lae_demon9_safe" type="spawn" x="544" y="192" width="32" height="64">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="quantity" value="1"/>
+    <property name="spawngroup" value="lae_demon9_safe"/>
    </properties>
   </object>
  </objectgroup>
  <objectgroup id="7" name="Keys" visible="0">
-  <object id="9" name="dummy_key1" type="key" x="448" y="736" width="32" height="96">
-   <properties>
-    <property name="phrase" value="dummy_key"/>
-    <property name="requireId" value="base_nondisplay"/>
-    <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="2"/>
-   </properties>
-  </object>
-  <object id="10" name="dummy_key2" type="key" x="448" y="832" width="96" height="32">
-   <properties>
-    <property name="phrase" value="dummy_key"/>
-    <property name="requireId" value="base_nondisplay"/>
-    <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="2"/>
-   </properties>
-  </object>
-  <object id="12" name="dummy_key4" type="key" x="672" y="832" width="32" height="32">
-   <properties>
-    <property name="phrase" value="dummy_key"/>
-    <property name="requireId" value="base_nondisplay"/>
-    <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="2"/>
-   </properties>
-  </object>
   <object id="16" name="dummy_key5" type="key" x="416" y="640" width="128" height="32">
    <properties>
     <property name="phrase" value="dummy_key"/>
     <property name="requireId" value="base_nondisplay"/>
     <property name="requireType" value="questProgress"/>
     <property name="requireValue" value="2"/>
+   </properties>
+  </object>
+  <object id="27" name="lae_torturer_key" type="key" x="672" y="576" width="32" height="32">
+   <properties>
+    <property name="phrase" value="lae_torturer_key"/>
+    <property name="requireId" value="lae_torturer"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="25"/>
    </properties>
   </object>
  </objectgroup>
