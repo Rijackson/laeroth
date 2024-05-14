@@ -11136,12 +11136,299 @@
         "message":"Please help us!"
     },
     {
+        "id":"lae_prison_cell1",
+        "message":"The door is locked.",
+        "replies":[
+            {
+                "text":"Unlock.",
+                "nextPhraseID":"lae_prison_cell1_unlock",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"lae_prison_key",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lae_torturer",
+                        "value":110,
+						"negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Unfortunately the lock is now broken.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"lae_prison_key",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lae_torturer",
+                        "value":110
+                    }
+                ]
+            },
+            {
+                "text":"You have no matching key.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"lae_prison_key",
+                        "value":1,
+						"negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"lae_prison_cell1_unlock",
+        "message":"Click.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"laeroth_nondisplay",
+                "value":31
+            }
+        ]
+    },
+    {
+        "id":"lae_prison_cell2",
+        "message":"The door is locked.",
+        "replies":[
+            {
+                "text":"Unlock.",
+                "nextPhraseID":"lae_prison_cell2_unlock",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"lae_prison_key",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lae_torturer",
+                        "value":110,
+						"negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Unfortunately the lock is now broken.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"lae_prison_key",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lae_torturer",
+                        "value":110
+                    }
+                ]
+            },
+            {
+                "text":"You have no matching key.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"lae_prison_key",
+                        "value":1,
+						"negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"lae_prison_cell2_unlock",
+        "message":"Click.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"laeroth_nondisplay",
+                "value":32
+            }
+        ]
+    },
+    {
+        "id":"lae_prison_cell3",
+        "message":"The door is locked.",
+        "replies":[
+            {
+                "text":"Unlock.",
+                "nextPhraseID":"lae_prison_cell3_unlock",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"lae_prison_key",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lae_torturer",
+                        "value":110,
+						"negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Unfortunately the lock is now broken.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"lae_prison_key",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lae_torturer",
+                        "value":110
+                    }
+                ]
+            },
+            {
+                "text":"You have no matching key.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"lae_prison_key",
+                        "value":1,
+						"negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"lae_prison_cell3_unlock",
+        "message":"Click.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"laeroth_nondisplay",
+                "value":33
+            }
+        ]
+    },
+    {
+        "id":"lae_prison_cell4",
+        "message":"The door is locked.",
+        "replies":[
+            {
+                "text":"Unlock.",
+                "nextPhraseID":"lae_prison_cell4_unlock",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"lae_prison_key",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lae_torturer",
+                        "value":110,
+						"negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Unfortunately the lock is now broken.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"lae_prison_key",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lae_torturer",
+                        "value":110
+                    }
+                ]
+            },
+            {
+                "text":"You have no matching key.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"lae_prison_key",
+                        "value":1,
+						"negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"lae_prison_cell4_unlock",
+        "message":"Click.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"laeroth_nondisplay",
+                "value":34
+            }
+        ]
+    },
+    {
         "id":"lae_prison_01",
+        "replies":[
+            {
+                "nextPhraseID":"lae_prison_02",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"laeroth_nondisplay",
+                        "value":31
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"laeroth_nondisplay",
+                        "value":33,
+						"negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"laeroth_nondisplay",
+                        "value":34
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"lae_prison_01a"
+            }
+        ]
+    },
+    {
+        "id":"lae_prison_01a",
         "message":"Please, can you help us?",
         "replies":[
             {
-                "text":"what sort of help?",
-                "nextPhraseID":"lae_prison_02"
+                "text":"What sort of help?",
+                "nextPhraseID":"lae_prison_01b"
+            }
+        ]
+    },
+    {
+        "id":"lae_prison_01b",
+        "message":"Please open the other cells and free us all! Hurry! Then come back to me.",
+        "replies":[
+            {
+                "text":"OK, just a second ...",
+                "nextPhraseID":"X"
             }
         ]
     },
@@ -11169,6 +11456,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"lae_torturer",
                 "value":5
+            },
+            {
+                "rewardType":"deactivateMapObjectGroup",
+                "rewardID":"Keys",
+                "mapName":"laerothprison4"
             }
         ]
     },
@@ -11317,8 +11609,22 @@
     },
     {
         "id":"lae_torturer_10",
-		"message":"Hello child. Would you like to learn the trade of a torturer?",
+		"message":"Hello, child.",
         "replies":[
+            {
+                "text":"N",
+				"nextPhraseID":"lae_torturer_10a"
+            }
+        ]
+    },
+    {
+        "id":"lae_torturer_10a",
+		"message":"Would you like to learn the trade of a torturer?",
+        "replies":[
+            {
+                "text":"Tell me more about it.",
+				"nextPhraseID":"lae_torturer_11"
+            },
             {
                 "text":"I'm sorry, I don't have time for that. I have to look for my brother. Do you perhaps know where he is? He looks something like me.",
 				"nextPhraseID":"lae_torturer_12"
@@ -11337,6 +11643,105 @@
                 "rewardType":"questProgress",
                 "rewardID":"lae_torturer",
                 "value":25
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"lae_prisoner2i",
+                "mapName":"laerothprison4"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"lae_prisoner3i",
+                "mapName":"laerothprison4"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"lae_prisoner4i",
+                "mapName":"laerothprison4"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"lae_prisoner2a",
+                "mapName":"laerothprison4"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"lae_prisoner3a",
+                "mapName":"laerothprison4"
+            }
+        ]
+    },
+    {
+        "id":"lae_torturer_11",
+		"message":"I seek a young apprentice to train in our essential duties.",
+        "replies":[
+            {
+                "text":"N",
+				"nextPhraseID":"lae_torturer_11a"
+            }
+        ]
+    },
+    {
+        "id":"lae_torturer_11a",
+		"message":"You will start by observing and assisting me during interrogations, learning the delicate balance of inflicting pain.",
+        "replies":[
+            {
+                "text":"N",
+				"nextPhraseID":"lae_torturer_11b"
+            }
+        ]
+    },
+    {
+        "id":"lae_torturer_11b",
+		"message":"While keeping the prisoner alive, of course.",
+        "replies":[
+            {
+                "text":"Oh, makes sense.",
+				"nextPhraseID":"lae_torturer_11c"
+            }
+        ]
+    },
+    {
+        "id":"lae_torturer_11c",
+		"message":"Your education will include mastering various torture devices and understanding their effects.",
+        "replies":[
+            {
+                "text":"N",
+				"nextPhraseID":"lae_torturer_11d"
+            }
+        ]
+    },
+    {
+        "id":"lae_torturer_11d",
+		"message":"Over the years, you will gradually take on more responsibility, eventually conducting interrogations on your own once you have proven your skill and steadiness.",
+        "replies":[
+            {
+                "text":"Interrogations you call it?",
+				"nextPhraseID":"lae_torturer_11e"
+            }
+        ]
+    },
+    {
+        "id":"lae_torturer_11e",
+		"message":"Sure. We only want want the thruth. Nothing more. It is a very prestigious work.",
+        "replies":[
+            {
+                "text":"If you say so.",
+				"nextPhraseID":"lae_torturer_10a"
+            },
+            {
+                "text":"Then why do you wear a mask at public executions?",
+				"nextPhraseID":"lae_torturer_11f"
+            }
+        ]
+    },
+    {
+        "id":"lae_torturer_11f",
+		"message":"Enough questions.",
+        "replies":[
+            {
+                "text":"N",
+				"nextPhraseID":"lae_torturer_10a"
             }
         ]
     },
@@ -11412,7 +11817,7 @@
     },
     {
         "id":"lae_torturer_30",
-		"message":"OK, let's start on the spot. This is a very important job, you know?",
+		"message":"Okay, then let's get started. This is a very important job, you know?",
         "replies":[
             {
                 "text":"Why?",
@@ -11540,7 +11945,7 @@
     },
     {
         "id":"lae_torturer_48",
-		"message":"Do it. Then run for your life back here to me.",
+		"message":"Do it. Then run for your life back to me so that I can protect you from them.",
         "replies":[
             {
                 "text":"N",
@@ -11571,7 +11976,7 @@
     },
     {
         "id":"lae_torturer_60",
-		"message":"What a pity. At least let me warn you about the captives above.",
+		"message":"What a pity. At least let me warn you about the prisoners above.",
         "replies":[
             {
                 "text":"What is with them?",
@@ -11655,7 +12060,17 @@
     },
     {
         "id":"lae_torturer_100",
-		"message":"Now you can talk to the demons. To all of them. Tell them what they have to do."
+		"message":"Now you can talk to the demons. To all of them. Tell them what they have to do.",
+        "replies":[
+            {
+                "text":"N",
+				"nextPhraseID":"lae_torturer_102"
+            }
+        ]
+    },
+    {
+        "id":"lae_torturer_102",
+		"message":"But stay close to me."
     },
     {
         "id":"lae_torturer_110",
@@ -11678,7 +12093,7 @@
         "id":"lae_demon_safe",
         "replies":[
             {
-				"nextPhraseID":"lae_demon_safe_2",
+				"nextPhraseID":"lae_demon_safe_1",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -11688,7 +12103,7 @@
                 ]
             },
             {
-				"nextPhraseID":"lae_demon_safe_1"
+				"nextPhraseID":"lae_demon_unsafe"
             }
         ]
     },
@@ -11698,17 +12113,17 @@
             {
                 "rewardType":"alignmentSet",
                 "rewardID":"lae_demon",
-                "value":-100
+                "value":100
             }
         ]
     },
     {
-        "id":"lae_demon_safe_2",
+        "id":"lae_demon_unsafe",
         "rewards":[
             {
                 "rewardType":"alignmentSet",
                 "rewardID":"lae_demon",
-                "value":100
+                "value":-100
             }
         ]
     },
@@ -11723,7 +12138,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"lae_torturer",
-                        "value":50,
+                        "value":100,
 						"negate":true
                     },
                     {
@@ -11740,7 +12155,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"lae_torturer",
-                        "value":50,
+                        "value":100,
 						"negate":true
                     },
                     {
@@ -11786,7 +12201,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"lae_torturer",
-                        "value":50,
+                        "value":100,
 						"negate":true
                     },
                     {
@@ -11815,7 +12230,7 @@
             {
                 "rewardType":"questProgress",
                 "rewardID":"lae_torturer",
-                "value":50
+                "value":100
             },
             {
                 "rewardType":"spawnAll",
@@ -11849,10 +12264,14 @@
         "message":"Command us!",
         "replies":[
             {
-                "text":"You go and watch over the captives in the cells.",
+                "text":"You go and watch over the prisoners in the cells.",
                 "nextPhraseID":"lae_demon4_10"
             }
-        ],
+        ]
+    },
+    {
+        "id":"lae_demon4_10",
+        "message":"As you wish.",
         "rewards":[
             {
                 "rewardType":"removeSpawnArea",
@@ -11873,19 +12292,80 @@
                 "rewardType":"spawnAll",
                 "rewardID":"lae_demon4b_safe",
                 "mapName":"laerothprison4"
+            },
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"Keys",
+                "mapName":"laerothprison4"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"lae_prisoner2",
+                "mapName":"laerothprison4"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"lae_prisoner3",
+                "mapName":"laerothprison4"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"lae_prisoner4",
+                "mapName":"laerothprison4"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"lae_prisoner2a",
+                "mapName":"laerothprison4"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"lae_prisoner3a",
+                "mapName":"laerothprison4"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"lae_prisoner2i",
+                "mapName":"laerothprison4"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"lae_prisoner3i",
+                "mapName":"laerothprison4"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"lae_prisoner4i",
+                "mapName":"laerothprison4"
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"laeroth_nondisplay",
+                "value":31
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"laeroth_nondisplay",
+                "value":32
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"laeroth_nondisplay",
+                "value":33
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"laeroth_nondisplay",
+                "value":34
             }
         ]
-    },
-    {
-        "id":"lae_demon4_10",
-        "message":"As you wish."
     },
     {
         "id":"lae_demon5",
         "message":"Command us!",
         "replies":[
             {
-                "text":"Stands guard on the floor below the cell block.",
+                "text":"You stand guard in the hall under the cell block.",
                 "nextPhraseID":"lae_demon4_10"
             }
         ],
@@ -11907,7 +12387,7 @@
         "message":"Command us!",
         "replies":[
             {
-                "text":"You guard Kotheses.",
+                "text":"You protect Kotheses in case the prisoners get here.",
                 "nextPhraseID":"lae_demon4_10"
             }
         ],

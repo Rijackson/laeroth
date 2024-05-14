@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="13" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="15">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="13" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="34">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -122,22 +122,27 @@
  </tileset>
  <layer id="1" name="Ground" width="30" height="13">
   <data encoding="base64" compression="zlib">
-   eJzTZ2JgOMOGiXWB4g5IWI8Cvh4OPjZ7DYDiQUiYEr49EDsi8XWh9upjsRukLwUJU8IPBOJgJD7MXkcc9lKTjx6H+lC3DIS92OScmKjLJ9beECbq8tHtxZWeaYnxpefBYK8MEwJT015YWL9gxlSjx4SKiQ0bXSZU9yJjdPOQ7UWX12PCXb5hCwtcerH54wfQ3gX8qOGAC2Nzux4OMWwYAGkh1ds=
+   eJzTZ2JgOMOGiXWB4g5IWI8Cvh4OPjZ7DYDiQUiYEr49EDsi8XWh9upjsRukLwUJU8IPBOJgJD7MXkcc9lKTjx6H+lC3DIS92OScmKjLJ9beECbq8tHtxZWeaYnxpefhbC8srF8wY6qRYYJgPShNitkyOLAeEgb5GdledHk9JtzlmwwWN+HSi45B9v4A2ruAHzUccGFsbtfDIYYNAwCJldhi
   </data>
  </layer>
  <layer id="2" name="Objects" width="30" height="13">
   <data encoding="base64" compression="zlib">
-   eJxjYBg4EC4AoTsZUcW38uLXt5MM+e1YxGYyYooNFoAeJviAOpTWZmJg0GFCFSMVkBIm5gTEYG6hJSAUTsjyz1gYGJ4D8QsWCP8pGo0uj85HDlNs4QRLz8jyacAw+AbU/x2If7BA+F+h5n1lwS6PzscWzvQG6mg0ISCNFveyRKYFOTR15mg0DIDCuhUWByzY7UQGD6mY10H2gjA++0AAOT0gq4WFBSH92MA0OpVZAN+aJn4=
+   eJxjYBg4EC4AoTsZUcW38uLXt5MM+e1YxGYyYooNFoAeJviAOpTWZmJg0GFCFSMVkBIm5gTEYG6hNuBjQbAJhRMp4UgIIIcptnCCpWdk+TS0MCCHjy2c6Q3U0WhigRyJaQBdvTkaDQOgsG6FxQE0PUhjsUsWKvaQiukAZC8IY7MPF0BWC3MTKfphYBqdyiwABAwRUg==
   </data>
  </layer>
  <layer id="3" name="Above" width="30" height="13">
   <data encoding="base64" compression="zlib">
-   eJxjYGBgCBdgGBAgy4RdHOaeTkZUPgykA/ntjJjqieXjAjB105Hs7SLCnjk43JlGor34+I9J8C86SMchT4y9nymwF5c8qfE1VOzFlZ7R0wGlfGwAVxzTGgy2sgMboHbYEGseKW4kBoDCupWRsDpqAABa8RjZ
+   eJxjYGBgCBdgGBAgy4RdHOaeTkZUPgykA/ntjJjqieXjAjB105Hs7SLCnjk43JlGor34+I9J8C86SMchT4y9nymwF5c8qfE1VOzFlZ7R0wGlfGwAVxzTGgy2soMegNiwprYbQWHdykhYHTUAAMvGGGI=
   </data>
  </layer>
- <layer id="4" name="Walkable" width="30" height="13" visible="0">
+ <layer id="8" name="Top" width="30" height="13">
   <data encoding="base64" compression="zlib">
-   eJxzFWDAClwF6IOHm72EzMJmL6V8dHuxuYGW9mITp6W9uAAuO7G5i9j4IuQfdP2DxV5qA2LTFTa3keJGXPFNKBwJqSHGXmrmc3S7KY1/SvWRigGqt04I
+   eJxjYBgFo2BkgKcsDAzPWSA0OXxywVeg/u8sEJoc/igYBfQGAO+JFqk=
+  </data>
+ </layer>
+ <layer id="4" name="Walkable" width="30" height="13">
+  <data encoding="base64" compression="zlib">
+   eJxzFWDAClwF6IOHm72EzMJmL6V8dHuxuYGW9mITp6W9uAAuO6llLz6zCYUHNnWk8kmxl9qA2HSFSx+p9hCyFz2cCKkhxl5q5nN0u8nVTy19pGIAov9IDg==
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
@@ -154,49 +159,50 @@
    </properties>
   </object>
   <object id="14" name="lae_prison_end" type="script" x="64" y="288" width="128" height="32"/>
+  <object id="25" name="lae_prison_container" type="container" x="736" y="160" width="32" height="32"/>
  </objectgroup>
- <objectgroup id="6" name="Spawn">
+ <objectgroup id="6" name="Spawn" visible="0">
   <object id="3" name="prisoner1" type="spawn" x="768" y="64" width="32" height="32">
    <properties>
     <property name="spawngroup" value="lae_prisoner1"/>
    </properties>
   </object>
-  <object id="4" name="prisoner2" type="spawn" x="608" y="96" width="96" height="96">
+  <object id="4" name="prisoner2" type="spawn" x="576" y="96" width="160" height="288">
    <properties>
     <property name="spawngroup" value="lae_prisoner2"/>
    </properties>
   </object>
-  <object id="5" name="prisoner3" type="spawn" x="224" y="96" width="96" height="96">
+  <object id="5" name="prisoner3" type="spawn" x="192" y="96" width="160" height="256">
    <properties>
     <property name="spawngroup" value="lae_prisoner2"/>
    </properties>
   </object>
-  <object id="6" name="prisoner4" type="spawn" x="480" y="96" width="96" height="96">
+  <object id="6" name="prisoner4" type="spawn" x="448" y="96" width="160" height="288">
    <properties>
     <property name="spawngroup" value="lae_prisoner3"/>
    </properties>
   </object>
-  <object id="7" name="prisoner5" type="spawn" x="352" y="96" width="96" height="96">
+  <object id="7" name="prisoner5" type="spawn" x="320" y="96" width="160" height="288">
    <properties>
     <property name="spawngroup" value="lae_prisoner4"/>
    </properties>
   </object>
-  <object id="8" name="prisoner6" type="spawn" x="768" y="160" width="160" height="96">
+  <object id="8" name="prisoner6i" type="spawn" x="480" y="96" width="224" height="128">
    <properties>
     <property name="quantity" value="2"/>
-    <property name="spawngroup" value="lae_prisoner2"/>
+    <property name="spawngroup" value="lae_prisoner2i"/>
    </properties>
   </object>
-  <object id="9" name="prisoner7" type="spawn" x="160" y="256" width="736" height="64">
+  <object id="9" name="prisoner7i" type="spawn" x="480" y="96" width="224" height="128">
    <properties>
     <property name="quantity" value="2"/>
-    <property name="spawngroup" value="lae_prisoner3"/>
+    <property name="spawngroup" value="lae_prisoner3i"/>
    </properties>
   </object>
-  <object id="10" name="prisoner8" type="spawn" x="160" y="256" width="736" height="64">
+  <object id="10" name="prisoner8i" type="spawn" x="224" y="96" width="96" height="128">
    <properties>
     <property name="quantity" value="2"/>
-    <property name="spawngroup" value="lae_prisoner2"/>
+    <property name="spawngroup" value="lae_prisoner2i"/>
    </properties>
   </object>
   <object id="12" name="lae_demon4b_safe" type="spawn" x="64" y="64" width="128" height="256">
@@ -213,6 +219,51 @@
     <property name="spawngroup" value="lae_demon4_safe"/>
    </properties>
   </object>
+  <object id="29" name="prisoner2i" type="spawn" x="608" y="96" width="96" height="96">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="lae_prisoner2i"/>
+   </properties>
+  </object>
+  <object id="30" name="prisoner3i" type="spawn" x="224" y="96" width="96" height="96">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="lae_prisoner2i"/>
+   </properties>
+  </object>
+  <object id="31" name="prisoner4i" type="spawn" x="480" y="96" width="96" height="96">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="lae_prisoner3i"/>
+   </properties>
+  </object>
+  <object id="32" name="prisoner5i" type="spawn" x="352" y="96" width="96" height="96">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="lae_prisoner4i"/>
+   </properties>
+  </object>
+  <object id="28" name="prisoner6a" type="spawn" x="768" y="160" width="160" height="96">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="lae_prisoner2a"/>
+   </properties>
+  </object>
+  <object id="26" name="prisoner7a" type="spawn" x="160" y="256" width="736" height="64">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="lae_prisoner3a"/>
+   </properties>
+  </object>
+  <object id="27" name="prisoner8a" type="spawn" x="160" y="256" width="736" height="64">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="lae_prisoner2a"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup id="7" name="Keys">
   <object id="11" name="lae_prison_key" type="key" x="128" y="384" width="32" height="32">
@@ -221,6 +272,80 @@
     <property name="requireId" value="lae_torturer"/>
     <property name="requireType" value="questProgress"/>
     <property name="requireValue" value="5"/>
+   </properties>
+  </object>
+  <object id="16" name="lae_dummy_key" type="key" x="64" y="224" width="864" height="160">
+   <properties>
+    <property name="phrase" value="dummy_key"/>
+    <property name="requireId" value="andor"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+  <object id="17" name="lae_prison_cell1" type="key" x="256" y="224" width="32" height="32">
+   <properties>
+    <property name="phrase" value="lae_prison_cell1"/>
+    <property name="requireId" value="laeroth_nondisplay"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="31"/>
+   </properties>
+  </object>
+  <object id="18" name="lae_prison_cell2" type="key" x="384" y="224" width="32" height="32">
+   <properties>
+    <property name="phrase" value="lae_prison_cell2"/>
+    <property name="requireId" value="laeroth_nondisplay"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="32"/>
+   </properties>
+  </object>
+  <object id="19" name="lae_prison_cell3" type="key" x="512" y="224" width="32" height="32">
+   <properties>
+    <property name="phrase" value="lae_prison_cell3"/>
+    <property name="requireId" value="laeroth_nondisplay"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="33"/>
+   </properties>
+  </object>
+  <object id="20" name="lae_prison_cell4" type="key" x="640" y="224" width="32" height="32">
+   <properties>
+    <property name="phrase" value="lae_prison_cell4"/>
+    <property name="requireId" value="laeroth_nondisplay"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="34"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="9" name="Replace" visible="0">
+  <object id="21" name="lae_prison_cell1" type="replace" x="256" y="192" width="32" height="64">
+   <properties>
+    <property name="Top" value="Walkable"/>
+    <property name="requireId" value="laeroth_nondisplay"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="31"/>
+   </properties>
+  </object>
+  <object id="22" name="lae_prison_cell2" type="replace" x="384" y="192" width="32" height="64">
+   <properties>
+    <property name="Top" value="Walkable"/>
+    <property name="requireId" value="laeroth_nondisplay"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="32"/>
+   </properties>
+  </object>
+  <object id="23" name="lae_prison_cell3" type="replace" x="512" y="192" width="32" height="64">
+   <properties>
+    <property name="Top" value="Walkable"/>
+    <property name="requireId" value="laeroth_nondisplay"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="33"/>
+   </properties>
+  </object>
+  <object id="24" name="lae_prison_cell4" type="replace" x="640" y="192" width="32" height="64">
+   <properties>
+    <property name="Top" value="Walkable"/>
+    <property name="requireId" value="laeroth_nondisplay"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="34"/>
    </properties>
   </object>
  </objectgroup>

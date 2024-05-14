@@ -61,6 +61,22 @@
                 "logText":"Raised Jerelin again"
             },
             {
+                "progress":31,
+                "logText":"Opened cell 1"
+            },
+            {
+                "progress":32,
+                "logText":"Opened cell 2"
+            },
+            {
+                "progress":33,
+                "logText":"Opened cell 3"
+            },
+            {
+                "progress":34,
+                "logText":"Opened cell 4"
+            },
+            {
                 "progress":102,
                 "logText":"Inside the Laeroth barn basement, the PC has found the Mystery Laeroth key."
             },

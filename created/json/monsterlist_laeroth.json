@@ -1025,7 +1025,7 @@
     {
         "id":"lae_demon9",
         "name":"Dark watch",
-        "iconID":"monsters_ld2:238",
+        "iconID":"monsters_ld2:239",
         "maxHP":180,
         "moveCost":5,
         "monsterClass":"demon",
@@ -1034,7 +1034,7 @@
             "min":3,
             "max":20
         },
-        "droplistID":"lae_demon",
+        "droplistID":"lae_demon9",
         "attackCost":3,
         "attackChance":90,
         "criticalSkill":15,
@@ -1083,7 +1083,35 @@
         "phraseID":"lae_prison1"
     },
     {
+        "id":"lae_prisoner2a",
+        "name":"Laeroth prisoner",
+        "iconID":"monsters_newb_1:652",
+        "monsterClass":"undead",
+        "phraseID":"lae_prison1"
+    },
+    {
+        "id":"lae_prisoner2i",
+        "name":"Laeroth prisoner",
+        "iconID":"monsters_newb_1:652",
+        "monsterClass":"undead",
+        "phraseID":"lae_prison1"
+    },
+    {
         "id":"lae_prisoner3",
+        "name":"Laeroth prisoner",
+        "iconID":"monsters_rltiles2:142",
+        "monsterClass":"undead",
+        "phraseID":"lae_prison1"
+    },
+    {
+        "id":"lae_prisoner3a",
+        "name":"Laeroth prisoner",
+        "iconID":"monsters_rltiles2:142",
+        "monsterClass":"undead",
+        "phraseID":"lae_prison1"
+    },
+    {
+        "id":"lae_prisoner3i",
         "name":"Laeroth prisoner",
         "iconID":"monsters_rltiles2:142",
         "monsterClass":"undead",
@@ -1092,7 +1120,21 @@
     {
         "id":"lae_prisoner4",
         "name":"Laeroth prisoner",
-        "iconID":"monsters_rltiles2:142",
+        "iconID":"monsters_rltiles1:75",
+        "monsterClass":"undead",
+        "phraseID":"lae_prison_01"
+    },
+    {
+        "id":"lae_prisoner4a",
+        "name":"Laeroth prisoner",
+        "iconID":"monsters_rltiles1:75",
+        "monsterClass":"undead",
+        "phraseID":"lae_prison_01"
+    },
+    {
+        "id":"lae_prisoner4i",
+        "name":"Laeroth prisoner",
+        "iconID":"monsters_rltiles1:75",
         "monsterClass":"undead",
         "phraseID":"lae_prison_01"
     },
