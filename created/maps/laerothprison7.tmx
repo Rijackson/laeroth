@@ -133,7 +133,7 @@
  </layer>
  <layer id="2" name="Objects" width="25" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYGBg+MTIgBMU8OKWwwfKidB3GY+9h/HI0RJgszcXzS86TAi2NpTdyYhbTRoTqloY6MLhRx0mTDGQXpB6bHLY1G7kYWDYBMSbebCrCRcgbA4+sIiZgeEg0OxDQHyYB9Nv6ECWCHcTA2D2oKcd9HTKTSX7qAFAYYWPjw8QE9+4gDSSXlh+RE/flJhPT0BMeQID82lQdlAznJDzPS5z++hQ/s0j0w5CeZ1UAEunoDyMr5zAV2ZRI87JreuQAb46jZaAkjiRQ9IrjWYOvnRPap4IZIVgEEDOz5OR2PLc5Js/c4DCHhtAD0dccujpHV1fGDDNTwCGzwIgTufFrQ5b3iClzCQWwNyLz3/o+SgM6rZJeNwDaj/hy38Dla8GKwAA38skCw==
+   eJxjYGBg+MTIgBMU8OKWwwfKidB3GY+9h/HI0RJgszcXzS86TAi2NpTdyYhbTRoTqloY6MLhR2S9jxkRekHqdZiw60EGILUbeRgYNgHxZh7sasIFIDS+uEcHH5HULmJmYDgINPsQEB/mwfQbOpAlwt3EAJg96GkHPZ1y47CPmHSJDRATTo9xqAGFFT4+PgCK74dk5gVppDCA+RuUvsuQwoCY9IQOyHUPJYCUeJuPw3244ocYgBxO5JRNyOkHOd/jCv8+OoTxPDLtIJTX0QG+ch4EYOkUlIfxlROwMgsbwBXnpABy6zpkQMivtAKkxgkykEPSK41mDr7yAV2OUBkZyArBIICcnycjseW5ibMbBpDrpJlkhj01yjN0v6OHIy459PSOri8MmOYnQMMHufxCV4ctb5Bb1+EDMPei24/sf/R8FAZ12yQ87gG1n/Dlv4HKV4MVAAAZjzNV
   </data>
  </layer>
  <layer id="3" name="Above" width="25" height="30">
@@ -151,7 +151,7 @@
    eJztk0sKgDAMRHsEL9X7X8mVIBIzH02oYKCL0iSvM2nnNsb8l7yOYHNQ7l1txEHhMpR44lkXt4PD9or21TpW8qlDx9nXa22FDlWj819UL1djoJroTOW4urMZMvnIF8Zb1IthZDqycPpUMJgalqPqUAPNltHA+psx1Dmhd5hpffO/sXd0GM6dvsrYAbpYoGA=
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents">
+ <objectgroup id="5" name="Mapevents" visible="0">
   <object id="1" name="south" type="mapchange" x="96" y="928" width="32" height="32">
    <properties>
     <property name="map" value="laerothprison6"/>
@@ -163,7 +163,7 @@
   <object id="29" name="lae_demon_unsafe" type="script" x="512" y="320" width="192" height="32"/>
   <object id="30" name="lae_demon_unsafe" type="script" x="480" y="96" width="32" height="256"/>
  </objectgroup>
- <objectgroup id="6" name="Spawn">
+ <objectgroup id="6" name="Spawn" visible="0">
   <object id="2" name="kotheses" type="spawn" x="608" y="192" width="32" height="32">
    <properties>
     <property name="spawngroup" value="kotheses"/>
@@ -225,7 +225,7 @@
     <property name="spawngroup" value="lae_demon7"/>
    </properties>
   </object>
-  <object id="22" name="lae_demon9" type="spawn" x="448" y="576" width="64" height="32">
+  <object id="22" name="lae_demon9" type="spawn" x="512" y="576" width="32" height="32">
    <properties>
     <property name="active" value="false"/>
     <property name="ignoreAreas" value="true"/>

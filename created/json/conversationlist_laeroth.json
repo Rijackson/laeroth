@@ -11133,6 +11133,7 @@
     },
     {
         "id":"lae_prison1",
+		"switchToNPC":"lae_prisoner4",
         "message":"Please help us!"
     },
     {
@@ -11387,6 +11388,16 @@
         "id":"lae_prison_01",
         "replies":[
             {
+                "nextPhraseID":"lae_prison_end",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lae_torturer",
+                        "value":25
+                    }
+                ]
+            },
+            {
                 "nextPhraseID":"lae_prison_02",
                 "requires":[
                     {
@@ -11397,8 +11408,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"laeroth_nondisplay",
-                        "value":33,
-						"negate":true
+                        "value":33
                     },
                     {
                         "requireType":"questProgress",
@@ -11434,7 +11444,17 @@
     },
     {
         "id":"lae_prison_02",
-        "message":"The prison torturer died, but he took the life force of the prisoners in the hope to live again.",
+        "message":"Please, can you help us?",
+        "replies":[
+            {
+                "text":"What sort of help?",
+                "nextPhraseID":"lae_prison_02a"
+            }
+        ]
+    },
+    {
+        "id":"lae_prison_02a",
+        "message":"The prison torturer died, but he took the life force of us prisoners in the hope to live again.",
         "replies":[
             {
                 "text":"N",
@@ -11578,6 +11598,101 @@
         "id":"lae_torturer",
         "replies":[
             {
+                "nextPhraseID":"lae_torturer_5",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"lae_demon9",
+                        "value":1,
+						"negate":true
+                    },
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"lae_demon7",
+                        "value":1,
+						"negate":true
+                    },
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"lae_demon5",
+                        "value":1,
+						"negate":true
+                    },
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"lae_demon4",
+                        "value":1,
+						"negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"lae_torturer_5",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lae_torturer",
+                        "value":50
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"lae_torturer_5",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lae_torturer",
+                        "value":30,
+						"negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"lae_torturer_2"
+            }
+        ]
+    },
+    {
+        "id":"lae_torturer_2",
+        "message":"Why do you kill my precious demons?! I told you to stay here beside me!",
+        "replies":[
+            {
+                "text":"They have attacked me!",
+                "nextPhraseID":"lae_torturer_5"
+            }
+		],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"lae_torturer",
+                "value":50
+            }
+        ]
+    },
+    {
+        "id":"lae_torturer_3",
+        "message":"Do as you are told, and there will be no harm.",
+        "replies":[
+            {
+                "text":"[softly] Gna gna gna.",
+                "nextPhraseID":"lae_torturer_4"
+            }
+        ]
+    },
+    {
+        "id":"lae_torturer_4",
+        "message":"What??",
+        "replies":[
+            {
+                "text":"Nothing.",
+                "nextPhraseID":"lae_torturer_5"
+            }
+        ]
+    },
+    {
+        "id":"lae_torturer_5",
+        "replies":[
+            {
                 "nextPhraseID":"lae_torturer_110",
                 "requires":[
                     {
@@ -11634,7 +11749,7 @@
 				"nextPhraseID":"lae_torturer_18"
             },
             {
-                "text":"Would be something different, OK.",
+                "text":"Very gladly. I always like to learn new things.",
 				"nextPhraseID":"lae_torturer_30"
             }
         ],
@@ -12378,6 +12493,16 @@
             {
                 "rewardType":"spawnAll",
                 "rewardID":"lae_demon5_safe",
+                "mapName":"laerothprison5"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"wight_lesser",
+                "mapName":"laerothprison5"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"wight_lesser5",
                 "mapName":"laerothprison5"
             }
         ]

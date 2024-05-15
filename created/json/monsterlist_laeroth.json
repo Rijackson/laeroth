@@ -809,6 +809,74 @@
         }
     },
     {
+        "id":"wight_lesser5",
+        "name":"Lesser wight",
+        "iconID":"monsters_tometik7:13",
+        "maxHP":130,
+        "moveCost":5,
+        "monsterClass":"undead",
+        "movementAggressionType":"helpOthers",
+        "attackDamage":{
+            "min":1,
+            "max":13
+        },
+        "spawnGroup":"wight_lesser5",
+        "droplistID":"wight1",
+        "attackCost":4,
+        "attackChance":65,
+        "blockChance":70,
+        "hitEffect":{
+            "increaseCurrentHP":{
+                "min":0,
+                "max":0
+            }
+        },
+        "hitReceivedEffect":{
+            "increaseCurrentHP":{
+                "min":1,
+                "max":1
+            },
+            "increaseAttackerCurrentHP":{
+                "min":-1,
+                "max":-1
+            }
+        }
+    },
+    {
+        "id":"wight_lesser5b",
+        "name":"Lesser wight",
+        "iconID":"monsters_tometik7:13",
+        "maxHP":130,
+        "moveCost":5,
+        "monsterClass":"undead",
+        "movementAggressionType":"helpOthers",
+        "attackDamage":{
+            "min":1,
+            "max":13
+        },
+        "spawnGroup":"wight_lesser5b",
+        "droplistID":"wight1",
+        "attackCost":4,
+        "attackChance":65,
+        "blockChance":70,
+        "hitEffect":{
+            "increaseCurrentHP":{
+                "min":0,
+                "max":0
+            }
+        },
+        "hitReceivedEffect":{
+            "increaseCurrentHP":{
+                "min":1,
+                "max":1
+            },
+            "increaseAttackerCurrentHP":{
+                "min":-1,
+                "max":-1
+            }
+        }
+    },
+    {
         "id":"wight_greater",
         "name":"Greater wight",
         "iconID":"monsters_tometik7:14",
@@ -1028,6 +1096,7 @@
         "iconID":"monsters_ld2:239",
         "maxHP":180,
         "moveCost":5,
+        "unique":1,
         "monsterClass":"demon",
         "movementAggressionType":"wholeMap",
         "attackDamage":{

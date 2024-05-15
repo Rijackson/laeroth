@@ -500,7 +500,7 @@
             },
             {
                 "progress":20,
-                "logText":"I wouldn't help  the spirits in the prison be free of the prison torturer."
+                "logText":"I didn't want to help  the spirits in the prison be free of the prison torturer."
             },
             {
                 "progress":25,
@@ -517,6 +517,10 @@
             {
                 "progress":40,
                 "logText":"In order to imprison the released prisoners again, I should call the demon guard by throwing an Oegyth Kristal into the abyss."
+            },
+            {
+                "progress":50,
+                "logText":"Kotheses scolded me because I killed his precious demons."
             },
             {
                 "progress":60,

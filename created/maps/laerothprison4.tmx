@@ -132,7 +132,7 @@
  </layer>
  <layer id="3" name="Above" width="30" height="13">
   <data encoding="base64" compression="zlib">
-   eJxjYGBgCBdgGBAgy4RdHOaeTkZUPgykA/ntjJjqieXjAjB105Hs7SLCnjk43JlGor34+I9J8C86SMchT4y9nymwF5c8qfE1VOzFlZ7R0wGlfGwAVxzTGgy2soMegNiwprYbQWHdykhYHTUAAMvGGGI=
+   eJxjYGBgCBdgGBAgy4RdHOaeTkZUPgykA/ntjJjqieXDzMBl73Qke7uIsGcODnem4bGDFPeC+I9J8C86APmVGLdg43+mwF5c8qTG11CxF1d6Rg97SvnYALb0TA8w0GVHqgAqTQ8ACmti7MOVHsgF4UTaSw0AAJGnGwQ=
   </data>
  </layer>
  <layer id="8" name="Top" width="30" height="13">
@@ -140,12 +140,12 @@
    eJxjYBgFo2BkgKcsDAzPWSA0OXxywVeg/u8sEJoc/igYBfQGAO+JFqk=
   </data>
  </layer>
- <layer id="4" name="Walkable" width="30" height="13">
+ <layer id="4" name="Walkable" width="30" height="13" visible="0">
   <data encoding="base64" compression="zlib">
    eJxzFWDAClwF6IOHm72EzMJmL6V8dHuxuYGW9mITp6W9uAAuO6llLz6zCYUHNnWk8kmxl9qA2HSFSx+p9hCyFz2cCKkhxl5q5nN0u8nVTy19pGIAov9IDg==
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents">
+ <objectgroup id="5" name="Mapevents" visible="0">
   <object id="1" name="north" type="mapchange" x="32" y="0" width="160" height="32">
    <properties>
     <property name="map" value="laerothprison3"/>
@@ -265,7 +265,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="7" name="Keys">
+ <objectgroup id="7" name="Keys" visible="0">
   <object id="11" name="lae_prison_key" type="key" x="128" y="384" width="32" height="32">
    <properties>
     <property name="phrase" value="lae_prison1"/>
