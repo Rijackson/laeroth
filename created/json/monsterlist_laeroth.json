@@ -991,7 +991,53 @@
         "phraseID":"lae_demon4"
     },
     {
+        "id":"lae_demon4b",
+        "name":"Dark watch",
+        "iconID":"monsters_ld2:238",
+        "maxHP":180,
+        "moveCost":5,
+        "monsterClass":"demon",
+        "movementAggressionType":"wholeMap",
+        "attackDamage":{
+            "min":3,
+            "max":20
+        },
+        "droplistID":"lae_demon",
+        "attackCost":3,
+        "attackChance":90,
+        "criticalSkill":15,
+        "criticalMultiplier":1.5,
+        "blockChance":75,
+        "damageResistance":2,
+        "hitEffect":{
+            "increaseCurrentHP":{
+                "min":2,
+                "max":2
+            }
+        },
+        "hitReceivedEffect":{
+            "increaseCurrentHP":{
+                "min":2,
+                "max":2
+            },
+            "increaseAttackerCurrentHP":{
+                "min":-2,
+                "max":-2
+            }
+        },
+        "faction":"lae_demon",
+        "phraseID":"lae_demon4"
+    },
+    {
         "id":"lae_demon4_safe",
+        "name":"Dark watch",
+        "iconID":"monsters_ld2:238",
+        "moveCost":5,
+        "monsterClass":"demon",
+        "phraseID":"lae_demon"
+    },
+    {
+        "id":"lae_demon4b_safe",
         "name":"Dark watch",
         "iconID":"monsters_ld2:238",
         "moveCost":5,

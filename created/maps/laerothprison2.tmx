@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="14" height="19" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="3">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="14" height="19" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="6">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -122,25 +122,25 @@
  </tileset>
  <layer id="1" name="Ground" width="14" height="19">
   <data encoding="base64" compression="zlib">
-   eJxTY2dgUCMTnxDEj9HVwPRdF8SP0dXA9J1hw4/R1QwVfchhg4yRzcRm9nUsYQzCMDPRxdDdgB7uMDPRxfC5nRiM7nZ8aQqfPnzpDJ8+fOlsoNMLtrhBx+hqTuCIG3SMrgbE/8pGHEbWB+IDACxxtVw=
+   eJxTY2dgUCMTnxDEj9HVwPRdF8SP0dXA9J1hw4/R1QwVfchhg4yRzcRm9nUsYQzCMDPRxdDdgB7uMDPRxfC5nRiM7nZ8aQqfPnzpDJ8+fOlsoNMLtrhBx+hqTuCIG3SMrgbE/8pGHgYAMjW11w==
   </data>
  </layer>
  <layer id="2" name="Objects" width="14" height="19">
   <data encoding="base64" compression="zlib">
-   eJxjYBgYMJcRlf+cGYFhYA6aGlYWVIxLHwj08yPYoiwIrArV950ZgXEBVRYENmUhzX+4wFU89pEKpjESVtNJQA0sHtDNmkmE2UMRTIf6Cz394QPRSHEWhCf+znBhis2Eqk/Co+8OFn0wUERieoG5NYCbNH2EAACP9RUs
+   eJxjYBgYMJcRlf+cGYFhYA6aGlYWVIxLHwj08yPYoiwIrArV950ZgXEBVRYENmUhzX+4wFU89pEKpjESVtNJQA0sHtDNmkmE2UMRTIf6Cz394QPRSHEWhBZ/l5H4Z7gw9c6Eyieh6XuMxL+DRR8MFOFJL7zcmGIwtwYgyUkA064khekXAAjaFzk=
   </data>
  </layer>
  <layer id="3" name="Above" width="14" height="19">
   <data encoding="base64" compression="zlib">
-   eJxjYCAfpAuQpyacCH3Y1Ax3feiA2LBDV0esm9DF0rCowSZGjNuxAWr6mRg1o/qoF1cA85IO6w==
+   eJxjYCAfpAuQpyacCH3Y1Ax3feiA2LBDV0esm9DF0rCowSZGjNuxAWr6mRg1w00fBwsDAycL5faRAwD5Eg6d
   </data>
  </layer>
  <layer id="4" name="Walkable" width="14" height="19" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxzFWBgcB2iGASwicEALfShq8OmDx+glzuJcTu5+kgF6GYRitPBog+ff7DpIxRepOgjxj5K3EkqBgDMlzTM
+   eJxzFWBgcB2iGASwicEALfShq8OmDx+glzuJcTu5+kgF6GYRitPBog+ff3CZTUgtsfpwmUGOO6mR1wB/sjYg
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents" visible="0">
+ <objectgroup id="5" name="Mapevents">
   <object id="1" name="up" type="mapchange" x="384" y="96" width="32" height="32">
    <properties>
     <property name="map" value="laerothprison0"/>
@@ -153,6 +153,9 @@
     <property name="place" value="west"/>
    </properties>
   </object>
+  <object id="3" name="lae_prison1_l1" type="container" x="128" y="160" width="32" height="32"/>
+  <object id="4" name="lae_prison1_l2" type="container" x="384" y="512" width="32" height="32"/>
+  <object id="5" name="lae_prison1_l3" type="container" x="32" y="544" width="32" height="32"/>
  </objectgroup>
  <objectgroup id="6" name="Spawn"/>
  <objectgroup id="7" name="Keys"/>

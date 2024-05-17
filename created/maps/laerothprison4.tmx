@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="13" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="34">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="13" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="35">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -132,7 +132,7 @@
  </layer>
  <layer id="3" name="Above" width="30" height="13">
   <data encoding="base64" compression="zlib">
-   eJxjYGBgCBdgGBAgy4RdHOaeTkZUPgykA/ntjJjqieXDzMBl73Qke7uIsGcODnem4bGDFPeC+I9J8C86APmVGLdg43+mwF5c8qTG11CxF1d6Rg97SvnYALb0TA8w0GVHqgAqTQ8ACmti7MOVHsgF4UTaSw0AAJGnGwQ=
+   eJxjYGBgCBdgIAj0mAirIRXI4jAT5p5ORlQ+DKQD+e2MmOqJ5cPMwGXvdCR7u4iwZw4Od6bhsYMU94L4j0nwLzoA+ZUYt2Djf6bAXlzypMbXULEXV3pGD3tK+dgAtvRMD0BM2UELAAvrVAFUmh4AFNbE2IcrPZALwom0lxoAAK60GzQ=
   </data>
  </layer>
  <layer id="8" name="Top" width="30" height="13">
@@ -140,9 +140,9 @@
    eJxjYBgFo2BkgKcsDAzPWSA0OXxywVeg/u8sEJoc/igYBfQGAO+JFqk=
   </data>
  </layer>
- <layer id="4" name="Walkable" width="30" height="13" visible="0">
+ <layer id="4" name="Walkable" width="30" height="13">
   <data encoding="base64" compression="zlib">
-   eJxzFWDAClwF6IOHm72EzMJmL6V8dHuxuYGW9mITp6W9uAAuO6llLz6zCYUHNnWk8kmxl9qA2HSFSx+p9hCyFz2cCKkhxl5q5nN0u8nVTy19pGIAov9IDg==
+   eJy1k8ENACAIAx2Bpdh/Jd+SYkELSR8QyiWgbguG2ylUU4hxpzTFZbMQ9zeP3Ox+U1xUn+RmkTFV3Ntstg/U1807XHVU31Xm63IYN+6J9VS4yn8e2a9+la+rDapBR7k=
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents" visible="0">
@@ -161,7 +161,7 @@
   <object id="14" name="lae_prison_end" type="script" x="64" y="288" width="128" height="32"/>
   <object id="25" name="lae_prison_container" type="container" x="736" y="160" width="32" height="32"/>
  </objectgroup>
- <objectgroup id="6" name="Spawn" visible="0">
+ <objectgroup id="6" name="Spawn">
   <object id="3" name="prisoner1" type="spawn" x="768" y="64" width="32" height="32">
    <properties>
     <property name="spawngroup" value="lae_prisoner1"/>
@@ -208,6 +208,7 @@
   <object id="12" name="lae_demon4b_safe" type="spawn" x="64" y="64" width="128" height="256">
    <properties>
     <property name="active" value="false"/>
+    <property name="ignoreAreas" value="true"/>
     <property name="quantity" value="2"/>
     <property name="spawngroup" value="lae_demon4b_safe"/>
    </properties>
@@ -215,6 +216,7 @@
   <object id="13" name="lae_demon4_safe" type="spawn" x="160" y="224" width="768" height="128">
    <properties>
     <property name="active" value="false"/>
+    <property name="ignoreAreas" value="true"/>
     <property name="quantity" value="3"/>
     <property name="spawngroup" value="lae_demon4_safe"/>
    </properties>
@@ -262,6 +264,11 @@
     <property name="active" value="false"/>
     <property name="quantity" value="2"/>
     <property name="spawngroup" value="lae_prisoner2a"/>
+   </properties>
+  </object>
+  <object id="34" name="lae_prisoner" type="spawn" x="320" y="0" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="lae_prisoner"/>
    </properties>
   </object>
  </objectgroup>
@@ -318,32 +325,36 @@
  <objectgroup id="9" name="Replace" visible="0">
   <object id="21" name="lae_prison_cell1" type="replace" x="256" y="192" width="32" height="64">
    <properties>
-    <property name="Top" value="Walkable"/>
+    <property name="Above" value="Top"/>
     <property name="requireId" value="laeroth_nondisplay"/>
+    <property name="requireNegation" value="true"/>
     <property name="requireType" value="questProgress"/>
     <property name="requireValue" value="31"/>
    </properties>
   </object>
   <object id="22" name="lae_prison_cell2" type="replace" x="384" y="192" width="32" height="64">
    <properties>
-    <property name="Top" value="Walkable"/>
+    <property name="Above" value="Top"/>
     <property name="requireId" value="laeroth_nondisplay"/>
+    <property name="requireNegation" value="true"/>
     <property name="requireType" value="questProgress"/>
     <property name="requireValue" value="32"/>
    </properties>
   </object>
   <object id="23" name="lae_prison_cell3" type="replace" x="512" y="192" width="32" height="64">
    <properties>
-    <property name="Top" value="Walkable"/>
+    <property name="Above" value="Top"/>
     <property name="requireId" value="laeroth_nondisplay"/>
+    <property name="requireNegation" value="true"/>
     <property name="requireType" value="questProgress"/>
     <property name="requireValue" value="33"/>
    </properties>
   </object>
   <object id="24" name="lae_prison_cell4" type="replace" x="640" y="192" width="32" height="64">
    <properties>
-    <property name="Top" value="Walkable"/>
+    <property name="Above" value="Top"/>
     <property name="requireId" value="laeroth_nondisplay"/>
+    <property name="requireNegation" value="true"/>
     <property name="requireType" value="questProgress"/>
     <property name="requireValue" value="34"/>
    </properties>

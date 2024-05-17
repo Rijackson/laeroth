@@ -11133,7 +11133,7 @@
     },
     {
         "id":"lae_prison1",
-		"switchToNPC":"lae_prisoner4",
+		"switchToNPC":"lae_prisoner",
         "message":"Please help us!"
     },
     {
@@ -11527,6 +11527,7 @@
     },
     {
         "id":"lae_prison_3a",
+		"switchToNPC":"lae_prisoner",
         "message":"Ohhh! What will become of us?",
         "rewards":[
             {
@@ -11556,6 +11557,32 @@
                 ]
             },
             {
+                "nextPhraseID":"lae_prison_end_20",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"kotheses",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"lae_prison_end_30",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lae_torturer",
+                        "value":114
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lae_torturer",
+                        "value":130,
+                        "negate":true
+                    }
+                ]
+            },
+            {
                 "nextPhraseID":"lae_prison_3a",
                 "requires":[
                     {
@@ -11575,6 +11602,7 @@
     },
     {
         "id":"lae_prison_end_10",
+		"switchToNPC":"lae_prisoner",
         "message":"Oh, the kid is back. Just look!",
         "replies":[
             {
@@ -11585,12 +11613,30 @@
     },
     {
         "id":"lae_prison_end_20",
+		"switchToNPC":"lae_prisoner",
         "message":"Ooooh! We are eternally grateful!",
         "rewards":[
             {
                 "rewardType":"questProgress",
                 "rewardID":"lae_torturer",
                 "value":80
+            }
+        ]
+    },
+    {
+        "id":"lae_prison_end_30",
+        "message":"Everything is in order now. The prisoners are back in their cells, and the Demon guards are on duty again.",
+        "replies":[
+            {
+                "text":"N",
+				"nextPhraseID":"lae_prison_3a"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"lae_torturer",
+                "value":130
             }
         ]
     },
@@ -11738,7 +11784,15 @@
         "replies":[
             {
                 "text":"Tell me more about it.",
-				"nextPhraseID":"lae_torturer_11"
+				"nextPhraseID":"lae_torturer_11",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lae_torturer",
+                        "value":60,
+						"negate":true
+                    }
+                ]
             },
             {
                 "text":"I'm sorry, I don't have time for that. I have to look for my brother. Do you perhaps know where he is? He looks something like me.",
@@ -11750,7 +11804,15 @@
             },
             {
                 "text":"Very gladly. I always like to learn new things.",
-				"nextPhraseID":"lae_torturer_30"
+				"nextPhraseID":"lae_torturer_30",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lae_torturer",
+                        "value":60,
+						"negate":true
+                    }
+                ]
             }
         ],
         "rewards":[
@@ -11979,7 +12041,7 @@
     },
     {
         "id":"lae_torturer_40",
-		"message":"Not again! We need to wake up the Demon Guard and send them upstairs. You will quickly get the problem under control.",
+		"message":"Not again! You need to wake up the Demon Guard and send them upstairs. That way you will quickly get the problem under control.",
         "replies":[
             {
                 "text":"Demons? That doesn't sound safe.",
@@ -12382,12 +12444,13 @@
                 "text":"You go and watch over the prisoners in the cells.",
                 "nextPhraseID":"lae_demon4_10"
             }
-        ]
-    },
-    {
-        "id":"lae_demon4_10",
-        "message":"As you wish.",
+        ],
         "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"lae_torturer",
+                "value":114
+            },
             {
                 "rewardType":"removeSpawnArea",
                 "rewardID":"lae_demon4",
@@ -12476,6 +12539,10 @@
         ]
     },
     {
+        "id":"lae_demon4_10",
+        "message":"As you wish."
+    },
+    {
         "id":"lae_demon5",
         "message":"Command us!",
         "replies":[
@@ -12497,12 +12564,27 @@
             },
             {
                 "rewardType":"removeSpawnArea",
-                "rewardID":"wight_lesser",
+                "rewardID":"spawn1",
+                "mapName":"laerothprison5"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"spawn2",
+                "mapName":"laerothprison5"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"spawn3",
+                "mapName":"laerothprison5"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"spawn4",
                 "mapName":"laerothprison5"
             },
             {
                 "rewardType":"spawnAll",
-                "rewardID":"wight_lesser5",
+                "rewardID":"wight_lesser5b",
                 "mapName":"laerothprison5"
             }
         ]

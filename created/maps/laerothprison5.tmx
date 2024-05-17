@@ -188,7 +188,7 @@
   </object>
   <object id="8" name="wight_lesser5b" type="spawn" x="480" y="128" width="128" height="448">
    <properties>
-    <property name="quantity" value="10"/>
+    <property name="quantity" value="5"/>
     <property name="spawngroup" value="wight_lesser5b"/>
    </properties>
   </object>

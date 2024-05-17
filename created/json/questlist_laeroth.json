@@ -500,7 +500,7 @@
             },
             {
                 "progress":20,
-                "logText":"I didn't want to help  the spirits in the prison be free of the prison torturer."
+                "logText":"I didn't want to help the spirits in the prison be free of the prison torturer."
             },
             {
                 "progress":25,
@@ -544,8 +544,16 @@
                 "logText":"I got back the Oegyth crystal from the chief of the Demon guard."
             },
             {
+                "progress":114,
+                "logText":"I ordered the demons to watch over the prisoners."
+            },
+            {
                 "progress":120,
-                "logText":"I took my leave from Kotheses, who, incidentally, forgot to reclaim his Oegyth crystal.",
+                "logText":"I took my leave from Kotheses, who, incidentally, forgot to reclaim his Oegyth crystal."
+            },
+            {
+                "progress":130,
+                "logText":"Everything was in order now. The prisoners were back in their cells, and the Demon guard were on duty again.",
                 "finishesQuest":1
             }
         ]
