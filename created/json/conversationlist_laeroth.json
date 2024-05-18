@@ -4825,6 +4825,38 @@
         ]
     },
     {
+        "id":"brute_fisherman_check",
+        "replies":[
+            {
+                "nextPhraseID":"brute_fisherman_check_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sisterfight",
+                        "value":55
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brute_creator",
+                        "value":10,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brute_fisherman_check_1",
+        "rewards":[
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"brute_fisherman",
+                "mapName":"mountainlake11"
+
+            }
+        ]
+    },
+    {
         "id":"brute_fisherman",
         "message":"Hush.",
         "replies":[
