@@ -404,11 +404,11 @@
         "stages":[
             {
                 "progress":10,
-                "logText":"I have met Birgo, a fisherman on the long way to Remgard. He wondered why only few people come along nowadays."
+                "logText":"I have met Bidro, a fisherman on the long way to Remgard. He wondered why only few people come along nowadays."
             },
             {
                 "progress":20,
-                "logText":"I told Birgo about the many nasty monsters along the way."
+                "logText":"I told Bidro about the many nasty monsters along the way."
             },
             {
                 "progress":30,
@@ -416,7 +416,7 @@
             },
             {
                 "progress":35,
-                "logText":"Then I have told Birgo about this cave full of brutes."
+                "logText":"Then I have told Bidro about this cave full of brutes."
             },
             {
                 "progress":40,
@@ -424,7 +424,7 @@
             },
             {
                 "progress":90,
-                "logText":"I told Birgo what I have learned from Os. He thanked me for this new story he could tell his wife.",
+                "logText":"I told Bidro what I have learned from Os. He thanked me for this new story he could tell his wife.",
                 "rewardExperience":2000,
                 "finishesQuest":1
             }
