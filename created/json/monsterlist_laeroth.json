@@ -1184,6 +1184,13 @@
         "phraseID":"lae_demon"
     },
     {
+        "id":"lae_prisoner",
+        "name":"Laeroth prisoner",
+        "iconID":"monsters_newb_1:652",
+        "monsterClass":"undead",
+        "phraseID":"lae_prison1"
+    },
+    {
         "id":"lae_prisoner1",
         "name":"Laeroth prisoner",
         "iconID":"monsters_ld2:175",

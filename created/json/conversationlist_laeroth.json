@@ -9321,7 +9321,7 @@
     },
     {
         "id":"lae_centaur1_8",
-        "message":"Thales, our wise guide, is currently in the northwest of the island.",
+        "message":"Thales, our wise guide, is currently in the northeast of the island.",
         "replies":[
             {
 				"text":"Fine, I'll go see him.",
@@ -9441,7 +9441,7 @@
     },
     {
         "id":"lae_centaur2_8",
-        "message":"Thales, our wise guide, is currently in the northwest of the island.",
+        "message":"Thales, our wise guide, is currently in the northeast of the island.",
         "replies":[
             {
 				"text":"Fine, I'll go see him.",
@@ -9555,7 +9555,7 @@
     },
     {
         "id":"lae_centaur3_8",
-        "message":"Thales, our wise guide, is currently in the northwest of the island.",
+        "message":"Thales, our wise guide, is currently in the northeast of the island.",
         "replies":[
             {
 				"text":"Fine, I'll go see him.",
@@ -11165,6 +11165,10 @@
     },
     {
         "id":"lae_prison1",
+        "message":"Please help us!"
+    },
+    {
+        "id":"lae_prison1a",
 		"switchToNPC":"lae_prisoner",
         "message":"Please help us!"
     },
@@ -11982,6 +11986,13 @@
                 "text":"N",
 				"nextPhraseID":"lae_torturer_20"
             }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"andor",
+                "value":120
+            }
         ]
     },
     {
@@ -12242,7 +12253,7 @@
     },
     {
         "id":"lae_torturer_74",
-		"message":"At least I attack fairly. I'm announcing it, not in ambush.",
+		"message":"At least I play fair. I do not come from ambush, but rather announce my attack.",
         "replies":[
             {
                 "text":"OK ...",

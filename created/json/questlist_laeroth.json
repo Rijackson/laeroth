@@ -504,7 +504,7 @@
             },
             {
                 "progress":25,
-                "logText":"Kotheses the torturer offered me to teach his art."
+                "logText":"Kotheses the torturer offered to teach me his art, as he had done for Andor before."
             },
             {
                 "progress":30,
@@ -565,7 +565,7 @@
         "stages":[
 			{
 				"progress":10,
-				"logText":"The island west of Remgard was inhabited by centaurs who were very angry about your visit. They told me to seek out their leader, Thalos."
+				"logText":"The island west of Remgard was inhabited by centaurs who were very angry about your visit. They told me to seek out their leader, Thalos. He should be in the northeast of the island."
 			},
 			{
 				"progress":20,

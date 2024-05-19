@@ -1977,7 +1977,7 @@
         "id":"lae_prison1_l2",
         "items":[
             {
-                "itemID":"wine",
+                "itemID":"mead",
                 "chance":"100",
                 "quantity":{
                     "min":1,
