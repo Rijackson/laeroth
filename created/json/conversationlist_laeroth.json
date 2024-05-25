@@ -1994,7 +1994,22 @@
                 "rewardType":"questProgress",
                 "rewardID":"nondisplay",
                 "value":46
+            }            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"nondisplay",
+                "value":44
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"nondisplay",
+                "value":45
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"nondisplay",
+                "value":48
             }
+
         ]
     },
     {
@@ -10953,7 +10968,43 @@
     },
     {
         "id":"Remgard_jetty_sign",
-        "message":"What a lot of water!"
+        "message":"From this jetty you have an excitingly beautiful view of the mighty Lake Laeroth.",
+        "replies":[
+            {
+                "text":"What a lot of water!",
+                "nextPhraseID":"Remgard_jetty_sign_2"
+            }
+        ]
+    },
+    {
+        "id":"Remgard_jetty_sign_2",
+        "message":"You can clearly see the neighboring group of islands and the old buildings on them.",
+        "replies":[
+            {
+                "text":"That ruin over there will probably be called \"Laeroth Manor\".",
+                "nextPhraseID":"Remgard_jetty_sign_3"
+            }
+        ]
+    },
+    {
+        "id":"Remgard_jetty_sign_3",
+        "message":"You'd like to get over there, but you realize it's not possible from here.",
+        "replies":[
+            {
+                "text":"[Shout] I'll find a way!",
+                "nextPhraseID":"Remgard_jetty_sign_4"
+            }
+        ]
+    },
+    {
+        "id":"Remgard_jetty_sign_4",
+        "message":"You hear the echoes of your call - then silence.",
+        "replies":[
+            {
+                "text":"So close yet so far.",
+                "nextPhraseID":"X"
+            }
+        ]
     },
     {
         "id":"laeroth_barn_basement_spider",
