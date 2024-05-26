@@ -510,7 +510,7 @@
         "id":"adakin_diary",
         "iconID":"items_books:6",
         "name":"Adakin's diary",
-        "displaytype":"ordinary",
+        "displaytype":"quest",
         "category":"other",
         "description":"An ornate diary."
     },
