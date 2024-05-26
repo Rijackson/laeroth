@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="34" height="16" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="16">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="34" height="16" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="16">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -127,15 +127,15 @@
  </layer>
  <layer id="2" name="Objects" width="34" height="16">
   <data encoding="base64" compression="zlib">
-   eJxjYBg8YBsvgt3JCKG382JXSyrYRaY5MxlR+XMZsasjBlCiFxd4ykK8mqnMSIJE6CMEHiP55ysW8zrR/ItNDSngHTN28c9I9mhhsQM9DokBXWh6kNPPPxzuQAZWVAhfEJhFgzRDCvhAhF934slbh4l0/0Oouh1IZhGrFx3MwaLvMpFmfWREmMEBjENOFuL1wsBKAmH2HId8Pz92cQmgGySJTE+klDHfiYjbwQZwpYmPQL98ItM/6OUUMQBXmmAExhMTEXGFzU5yyilKwUDYiRyHAOkZI8g=
+   eJxjYBg8YBsvgt3JCKG382JXCwLhAsSbvQuPOfjATEZU/lxG7OqIAZToxQWeshCvZiozkiAR+giBx0j++YrFvE40/2JTQwp4x4xd/DOSPVpY7ECPQ2JAF5oe5PTzD4c7kIEVFcIXBGbRIM2QAj4Q4dedePLWYSLd/xCqbgeSWcTqRQdzsOi7TKRZHxkRZnAA45CThXi9MLCSQJg9xyHfz49dXALoBkki0xMpZcx3IuJ2sAFcaeIj0C+fyPQPejlFDMCVJhiB8cRERFxhs5OccopSMBB2IschAAkhJC8=
   </data>
  </layer>
  <layer id="3" name="Above" width="34" height="16">
   <data encoding="base64" compression="zlib">
-   eJy9lNENgCAMRPvDP9uxAayrDqCOIokSDSmhRyuX8EPv4EEKRJgWR7RWY3N3LXhwsUpIPmXvnvc9nnG6txa9jgfJSbx/cgTgrDM4osAr8Wg5RmW1x8y3UJQamda8FUftaWXQea2n1WcaDknvov+YJm/FwXkleUlvIRzc/VrfeZHmXVhy9DIcJ8Iu9fY4RnrkW+e8F0IVIH0=
+   eJzNldENgCAMRPvDv9uxAayrDqCOIkaJhtDQo9V4CT9wBw9SgAjT6Iimos3uHPMDOFkhJB+Td0nrrlfb3D0WBh0Pkju8Lf+bHP6x1/ADjhaD1KPl6JXVGl/ehazIZLh+K47Sw2XQfq2HqzMNh6R20XdMk7fiqHkleUltIRy187U+8yzNvbDkaGVqnAi71NvzjyGZmncHQmshWg==
   </data>
  </layer>
- <layer id="4" name="Walkable" width="34" height="16">
+ <layer id="4" name="Walkable" width="34" height="16" visible="0">
   <data encoding="base64" compression="zlib">
    eJxzFWBgcB3FgxITAoTUEzKTFu4gRw21woQYtxLrD0rdQYlbKE0vxLiVUr/S2x3k6BtId+ADhMzDpZ5YM6mRb4nVT4z5xABK3UFO3FIb0MId5IQJNvPJzee0dgcAnb1iSQ==
   </data>

@@ -4834,9 +4834,16 @@
         "message":"You open the diary and go to the last pages. It reads: \n\n\"I need to go and find my destiny. It is not here at the manor, so I must strike out and find what lies ahead for me. I will go south to the fabled Duleian road. What then? I will make a decision when I get there. North west to Feygard, or south east to Nor city? Perhaps I will visit both, and make a final decision only then. I hope fate will show me the right way.\nFarewell Laeroth.\"",
         "replies":[
             {
-                "text":"I will return the diary to the chest before I leave here.",
+                "text":"I will leave the diary here in the manor.",
                 "nextPhraseID":"X"
 			}
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"last_lord",
+                "value":70
+            }
         ]
     },
     {

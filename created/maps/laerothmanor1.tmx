@@ -192,7 +192,7 @@
   </object>
   <object id="9" name="caretaker_chest_0" type="script" x="352" y="128" width="96" height="32">
    <properties>
-    <property name="when" value="step"/>
+    <property name="when" value="enter"/>
    </properties>
   </object>
   <object id="10" name="last_lord_final_0" type="script" x="32" y="320" width="160" height="32">
