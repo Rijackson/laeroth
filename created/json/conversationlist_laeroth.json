@@ -11013,14 +11013,14 @@
         "message":"You'd like to get over there, but you realize it's not possible from here.",
         "replies":[
             {
-                "text":"[Shout] I'll find a way!",
+                "text":"I'LL FIND A WAY!!",
                 "nextPhraseID":"Remgard_jetty_sign_4"
             }
         ]
     },
     {
         "id":"Remgard_jetty_sign_4",
-        "message":"You hear the echoes of your call - then silence.",
+        "message":"You hear the echoes of your shout - then silence.",
         "replies":[
             {
                 "text":"So close yet so far.",
