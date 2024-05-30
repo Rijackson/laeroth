@@ -1030,7 +1030,7 @@
                 "nextPhraseID":"forenza_island_160"
             },
             {
-                "text":"[Sarcasm] I like the 'stories with Grandpa hour'. But seriously, skip the details and tell me where the the other key is.",
+                "text":"[Sarcasm] I like the 'stories with Grandpa hour'. But seriously, skip the details and tell me where the other key is.",
                 "nextPhraseID":"forenza_island_160"
             }
         ]
@@ -1299,7 +1299,7 @@
     },
     {
         "id":"korhald_chest_examine_30",
-        "message":"Well, that is really hard to say. You see [he shows you the map], it is really old and a lot of the landmarks no longer exisit in Dhayavar.",
+        "message":"Well, that is really hard to say. You see [he shows you the map], it is really old and a lot of the landmarks no longer exist in Dhayavar.",
         "replies":[
             {
                 "text":"Yeah, I can see what you mean.",
@@ -2160,7 +2160,7 @@
     },
     {
         "id":"laeroth_tower_west",
-        "message":"To the west, you see a town on an island. It looks prosperous. In the far disatnce, somewhat to the north, it looks like there is another island, but you can't make out any details."
+        "message":"To the west, you see a town on an island. It looks prosperous. In the far distance, somewhat to the north, it looks like there is another island, but you can't make out any details."
     },
     {
         "id":"forenza_brimhaven_5",
@@ -2262,7 +2262,7 @@
     },
     {
         "id":"forenza_korhald_cop_30",
-        "message":"But this coin you have here really gives my pause as I never thought the stories of it's existance was true.  I don't know much about it, but I do know that it has great value. Can I have it? I will reward you for it of course.",
+        "message":"But this coin you have here really gives my pause, as I never believed the stories about its existence were true.  I don't know much about it, but I do know that it has great value. Can I have it? I will reward you for it of course.",
         "replies":[
             {
                 "text":"Reward?! I always love the sound of that. What are we talking here? 10000 gold? 20000 gold?",
@@ -4452,7 +4452,7 @@
     },
     {
         "id":"laearothtomb0_1",
-        "message":"Here lies Breen, a loyal sevant."
+        "message":"Here lies Breen, a loyal servant."
     },
     {
         "id":"laerothtomb0_2",
@@ -4898,7 +4898,7 @@
         "message":"Hush.",
         "replies":[
             {
-                "text":"[low voice] Oh hi, cought anything already?",
+                "text":"[low voice] Oh hi, caught anything already?",
                 "nextPhraseID":"brute_fisherman"
             },
             {
@@ -9284,7 +9284,7 @@
                 ]
             },
             {
-                "nextPhraseID":"lae_centaur1_10",
+                "nextPhraseID":"lae_centaur1_20",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -9358,14 +9358,14 @@
     },
     {
         "id":"lae_centaur1_8",
-        "message":"Thales, our wise guide, is currently in the northeast of the island.",
+        "message":"Thalos, our wise guide, is currently in the northeast of the island.",
         "replies":[
             {
 				"text":"Fine, I'll go see him.",
                 "nextPhraseID":"lae_centaur1_10"
 			},
             {
-				"text":"Hopefully this Thales will be a little more accommodating.",
+				"text":"Hopefully this Thalos will be a little more accommodating.",
                 "nextPhraseID":"lae_centaur1_10"
 			}
         ],
@@ -9387,7 +9387,7 @@
         "message":"Hurry up now. And don't try anything stupid."
     },
     {
-        "id":"lae_centaur1_10",
+        "id":"lae_centaur1_20",
         "message":"You are not wanted here."
     },
     {
@@ -9404,7 +9404,7 @@
                 ]
             },
             {
-                "nextPhraseID":"lae_centaur2_10",
+                "nextPhraseID":"lae_centaur2_20",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -9478,14 +9478,14 @@
     },
     {
         "id":"lae_centaur2_8",
-        "message":"Thales, our wise guide, is currently in the northeast of the island.",
+        "message":"Thalos, our wise guide, is currently in the northeast of the island.",
         "replies":[
             {
 				"text":"Fine, I'll go see him.",
                 "nextPhraseID":"lae_centaur2_10"
 			},
             {
-				"text":"Hopefully this Thales will be a little more accommodating.",
+				"text":"Hopefully this Thalos will be a little more accommodating.",
                 "nextPhraseID":"lae_centaur2_10"
 			}
         ],
@@ -9507,7 +9507,7 @@
         "message":"Don't think about trying anything funny. We'll be watching you."
     },
     {
-        "id":"lae_centaur2_10",
+        "id":"lae_centaur2_20",
         "message":"You are not wanted here."
     },
     {
@@ -9592,14 +9592,14 @@
     },
     {
         "id":"lae_centaur3_8",
-        "message":"Thales, our wise guide, is currently in the northeast of the island.",
+        "message":"Thalos, our wise guide, is currently in the northeast of the island.",
         "replies":[
             {
 				"text":"Fine, I'll go see him.",
                 "nextPhraseID":"lae_centaur3_10"
 			},
             {
-				"text":"Hopefully this Thales will be a little more accommodating.",
+				"text":"Hopefully this Thalos will be a little more accommodating.",
                 "nextPhraseID":"lae_centaur3_10"
 			}
         ],
@@ -12356,10 +12356,33 @@
 		"message":"Now you can talk to the demons. To all of them. Tell them what they have to do.",
         "replies":[
             {
-                "text":"N",
-				"nextPhraseID":"lae_torturer_102"
+                "text":"All of them?",
+				"nextPhraseID":"lae_torturer_101",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lae_torturer",
+                        "value":50
+                    }
+                ]
+            },
+            {
+                "text":"OK.",
+				"nextPhraseID":"lae_torturer_102",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lae_torturer",
+                        "value":50,
+						"negate":true
+                    }
+                ]
             }
         ]
+    },
+    {
+        "id":"lae_torturer_101",
+		"message":"To all of those that you have left alive. But please, stay close to me this time."
     },
     {
         "id":"lae_torturer_102",
