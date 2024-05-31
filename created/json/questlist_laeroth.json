@@ -208,7 +208,7 @@
             },
             {
                 "progress":50,
-                "logText":"I've decided to help Forenza by agreeing to get the second key from Gylew. I should go back to Gylew now."
+                "logText":"I've decided to help Forenza by agreeing to get the second key from Gylew. I should go back to Gylew now. Forenza has left the Manor island and has asked that I meet him outside of Brimhaven after my \"business\" with Gylew is complete."
             },
             {
                 "progress":45,
@@ -563,18 +563,18 @@
         "name":"Not Pony Island",
         "showInLog":1,
         "stages":[
-			{
-				"progress":10,
-				"logText":"The island west of Remgard was inhabited by centaurs who were very angry about your visit. They told me to seek out their leader, Thalos. He should be in the northeast of the island."
-			},
-			{
-				"progress":20,
-				"logText":"I have met Thalos."
-			},
-			{
-				"progress":30,
-				"logText":"He ordered me to slay a foul creature that hides in a cave on the hills of Laeroth Island, because the centaurs can't enter it."
-			},
+            {
+                "progress":10,
+                "logText":"The island west of Remgard was inhabited by centaurs who were very angry about your visit. They told me to seek out their leader, Thalos. He should be in the northeast of the island."
+            },
+            {
+                "progress":20,
+                "logText":"I have met Thalos."
+            },
+            {
+                "progress":30,
+                "logText":"He ordered me to slay a foul creature that hides in a cave on the hills of Laeroth Island, because the centaurs can't enter it."
+            },
             {
                 "progress":110,
                 "logText":"In the cave entrance I have met Algangror, who asked for help."
@@ -623,16 +623,16 @@
                 "progress":210,
                 "logText":"The moment I placed the Scroll of Fire on the table, it exploded. At the same time the wall opened again."
             },
-			{
-				"progress":300,
-				"logText":"I brought the monster's heart to Thalos and told him that the danger has been averted. He was impressed and relieved at the same time."
-			},
-			{
-				"progress":310,
-				"logText":"Since then I have been a welcome guest of the centaurs.",
+            {
+                "progress":300,
+                "logText":"I brought the monster's heart to Thalos and told him that the danger has been averted. He was impressed and relieved at the same time."
+            },
+            {
+                "progress":310,
+                "logText":"Since then I have been a welcome guest of the centaurs.",
                 "rewardExperience":10000,
-				"finishesQuest":1
-			}
+                "finishesQuest":1
+            }
         ]
     }
 ]

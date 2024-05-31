@@ -150,7 +150,7 @@
  </layer>
  <layer id="3" name="Objects" width="29" height="20">
   <data encoding="base64" compression="zlib">
-   eJytVr1KA0EQzgXsbvHCFRYhrY1irVYBo9YimiJ2ophGK/EHjYJYGNHCQkmwTeEL6EuITxAsUia54ANocMbd8ebm9qIGB5bb7O7M9803s3fZVKnUnp/6F7tw4mvvlrW/2Cv492AEJk5XxGu6gzHxPOdVHcCHx+7D/MP8bv4iB46J8xr7XU/wR1489uOo/VwSZ+5r057sme0Rr60R/XxJ8Ksz3WYy0SfFqA3AtGm2LzAn0+Ee1x7XpzMabxbGRFrXmWqJenQ8qI+XjI92Cr09Bb7rad1HhId6PCk7x7IK51+45oysoU1vvpZP6yHtjvHYVfF9wr2EczcCQ+qNmgyqARpiHXnhOIZxyObcHhL4/GTUS7yeHXMve/CsAM6JwVpLqNm4RSt+tgrzHU9rg4a9RHgF4H1mdHhzo/ioMeIfsNwCszeXkC/1fpu9W2S9u2bv1qw7KhpzGzCvGP+ywBoD7i0To2JqsQyxlpwwV6xt1uSYM0/KI680P86L69Vl3NE3cON7hNswMUte1A+tZ35jr907Ws8V+F6s+mEM3kuBwEUrmr2CivMssfk8xFzww/MtwYVyzasotq2Xc6yfUGvC3FChvmg8F+mLfGtO9J72Xa076kQx5fezLfQlq1p6n/fYuYp/3xqs3mjy/iz6Uc7Yjxw3a7lX0vAdh/enw7jY/Ki2RZEv1utaxblJXb79vbCvCGfY/yBJ75Nh7RN5En2s
+   eJydVbFKA0EQvTuwu8ULV1iEtDaKtVoFjFqLaIrYiWIarSQqGgVRMKKFhZJgm8If0J8QvyBYpExywQ/Q4Iy7m5ub2ztiBpbb292Z9+bN7N2usKyKbw3tWlhj240dX/s2rP3HPsG/DyNQcXosXstNx8TzlFcthQ+NPYD5j3pvjZADxcR5nbw3EvyRF439Omk+l8SZ+pq01/ZO9jSvvQn5/EjwaxDdFjLRp45RT8E0aXbEMGedcI9qj+vzGYm3CGPGkXXWtUQ9uh7Ux0vGR7uAXp4D321H9pHGQz3ehJljmfT/H646w2to0puu5R05uD0RHocJdw1xb+HcA8PgeqMmaTVAQ6xTLxxnME7InNrLmHdf9xKtZ1fdyz48q4BzrrC2Emo2bdCKnq3B/MCT2qBhL2m8AvC+VDp8uVF81Bjxj0lugdpbSshX936HfFt4vXtq71Gt2yIacx8w7wj/MsOaAu5tFaOqarEOsdbsMFesbVblmFNPnUdeSH6UF9WrR7ijb+DG9zRuU8UseVE/tL56x157tqWeG/C/2PTDGLSXAoaLVlR7BRHnWSLzZYi54ofn24yLzjUvotimXs6RfkKtNeaOCPVFo7lwX+Rbt6P3dOBK3VEnHbPC/DtMX201Q+/THrsS8f9bk9Qbjd+fVT/KGfuR4mYN94obfuPw/nQJF5Ofrm2R5Yv1uhdxblyXob8X9pXG4WdHtaTvybj2C6RQfj8=
   </data>
  </layer>
  <layer id="4" name="Above" width="29" height="20">
@@ -160,7 +160,7 @@
  </layer>
  <layer id="5" name="Walkable" width="29" height="20" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzllMsNACAIQx3Bpdx/JU/eLNIay0ESLgZ95efoTbLRff4T08lzMxfLWdsqZsX8MHpeabv5O6JYpH8Xn+U6LDufSFvUR5WH7pyYKD7DZphRf9E5U2dFL7LMG8zOoVwV3Tf7quw+4y4O6xNAWIsg
+   eJzllMsNACAIQx3Bpdx/JU9ejMUWYz1IwsWAr/Kx1VLa5IzNOTf9J6aT52YOlrO2r5gv5kfRc0vbyd8RxSL9q3iW6zB2PpG2qI9ZHsrZMVE8w1aYUX/RuVLnjF5kzB3KzqG3ZnSf7Gtm9xV3cVTvPMSMdA==
   </data>
  </layer>
  <objectgroup id="6" name="Mapevents">
@@ -170,7 +170,7 @@
     <property name="place" value="east"/>
    </properties>
   </object>
-  <object id="2" name="north" type="mapchange" x="64" y="0" width="384" height="32">
+  <object id="2" name="north" type="mapchange" x="160" y="0" width="288" height="32">
    <properties>
     <property name="map" value="mountainlake5"/>
     <property name="place" value="south_up"/>
