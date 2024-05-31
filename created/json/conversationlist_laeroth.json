@@ -1995,7 +1995,7 @@
                 "rewardID":"nondisplay",
                 "value":46
             },
-			{
+            {
                 "rewardType":"removeQuestProgress",
                 "rewardID":"nondisplay",
                 "value":44
@@ -2010,7 +2010,6 @@
                 "rewardID":"nondisplay",
                 "value":48
             }
-
         ]
     },
     {
@@ -3485,8 +3484,8 @@
     },
     {
         "id":"eyvipa_4b",
-		"switchToNPC":"none",
         "message":"The ghost of Eyvipa vanishes. You feel great relief that the chant worked. You take back the oegyth crystal, although it seems to be losing some of its luster.",
+        "switchToNPC":"none",
         "rewards":[
             {
                 "rewardType":"removeSpawnArea",
@@ -4428,7 +4427,7 @@
     },
     {
         "id":"caretaker_grave_2",
-        "message":"Here lies Thond, caretaker of Laeroth, son of Gormelyn."
+        "message":"Here lies Leofric, caretaker of Laeroth, son of Gormelyn."
     },
     {
         "id":"caretaker_grave_3",
@@ -4837,7 +4836,7 @@
             {
                 "text":"N",
                 "nextPhraseID":"last_lord_final_0b"
-			}
+            }
         ]
     },
     {
@@ -4847,7 +4846,7 @@
             {
                 "text":"I will leave the diary here in the manor.",
                 "nextPhraseID":"last_lord_final_0c"
-			}
+            }
         ],
         "rewards":[
             {
@@ -4889,7 +4888,6 @@
                 "rewardType":"spawnAll",
                 "rewardID":"brute_fisherman",
                 "mapName":"mountainlake11"
-
             }
         ]
     },
@@ -8590,24 +8588,24 @@
         "message":"Are you trying to get out of the affair by faking death? Shame on you!",
         "switchToNPC":"lae_andor2",
         "rewards":[
-			{ 
-				"rewardType":"mapchange", 
-				"rewardID":"beam_after_death", 
-				"mapName":"final_cave1" 
-			} 
-		]
+            {
+                "rewardType":"mapchange",
+                "rewardID":"beam_after_death",
+                "mapName":"final_cave1"
+            }
+        ]
     },
     {
         "id":"lae_andor1_2",
         "message":"Are you trying to get out of the affair by faking death? Shame on you!",
         "switchToNPC":"lae_andor3",
         "rewards":[
-			{ 
-				"rewardType":"mapchange", 
-				"rewardID":"beam_after_death", 
-				"mapName":"final_cave2" 
-			} 
-		]
+            {
+                "rewardType":"mapchange",
+                "rewardID":"beam_after_death",
+                "mapName":"final_cave2"
+            }
+        ]
     },
     {
         "id":"lae_andor1_10",
@@ -8940,8 +8938,8 @@
     },
     {
         "id":"final_cave_kd",
-		"switchToNPC":"lae_andor2",
-        "message":"Hey, don't run away. Talk to us!"
+        "message":"Hey, don't run away. Talk to us!",
+        "switchToNPC":"lae_andor2"
     },
     {
         "id":"final_cave2_k",
@@ -9303,9 +9301,9 @@
         "message":"You there, human.",
         "replies":[
             {
-				"text":"What do you want?",
+                "text":"What do you want?",
                 "nextPhraseID":"lae_centaur1_2"
-			}
+            }
         ]
     },
     {
@@ -9313,13 +9311,13 @@
         "message":"Our leader wants to see you. Now.",
         "replies":[
             {
-				"text":"Why?",
+                "text":"Why?",
                 "nextPhraseID":"lae_centaur1_3"
-			},
+            },
             {
-				"text":"Who is your leader?",
+                "text":"Who is your leader?",
                 "nextPhraseID":"lae_centaur1_3"
-			}
+            }
         ]
     },
     {
@@ -9327,13 +9325,13 @@
         "message":"Don't ask questions. Just do as you're told.",
         "replies":[
             {
-				"text":"Fine. Lead the way.",
+                "text":"Fine. Lead the way.",
                 "nextPhraseID":"lae_centaur1_5"
-			},
+            },
             {
-				"text":"And if I refuse?",
+                "text":"And if I refuse?",
                 "nextPhraseID":"lae_centaur1_4"
-			}
+            }
         ]
     },
     {
@@ -9341,9 +9339,9 @@
         "message":"Then you'll regret it. Trust me, you don't want to anger our leader.",
         "replies":[
             {
-				"text":"It's okay, calm down. Where is this leader?",
+                "text":"It's okay, calm down. Where is this leader?",
                 "nextPhraseID":"lae_centaur1_8"
-			}
+            }
         ]
     },
     {
@@ -9351,9 +9349,9 @@
         "message":"I have better things to do than play tour guide to useless intruders.",
         "replies":[
             {
-				"text":"Then just tell me where he is.",
+                "text":"Then just tell me where he is.",
                 "nextPhraseID":"lae_centaur1_8"
-			}
+            }
         ]
     },
     {
@@ -9361,13 +9359,13 @@
         "message":"Thalos, our wise guide, is currently in the northeast of the island.",
         "replies":[
             {
-				"text":"Fine, I'll go see him.",
+                "text":"Fine, I'll go see him.",
                 "nextPhraseID":"lae_centaur1_10"
-			},
+            },
             {
-				"text":"Hopefully this Thalos will be a little more accommodating.",
+                "text":"Hopefully this Thalos will be a little more accommodating.",
                 "nextPhraseID":"lae_centaur1_10"
-			}
+            }
         ],
         "rewards":[
             {
@@ -9423,9 +9421,9 @@
         "message":"What brings a human like you to our island?",
         "replies":[
             {
-				"text":"Just passing through. No need to get defensive.",
+                "text":"Just passing through. No need to get defensive.",
                 "nextPhraseID":"lae_centaur2_2"
-			}
+            }
         ]
     },
     {
@@ -9433,13 +9431,13 @@
         "message":"Defensive? Ha! We have every right to be wary of your kind. Humans have brought nothing but trouble to our land.",
         "replies":[
             {
-				"text":"I'm not here to cause trouble.",
+                "text":"I'm not here to cause trouble.",
                 "nextPhraseID":"lae_centaur2_3"
-			},
+            },
             {
-				"text":"I'm just looking for...",
+                "text":"I'm just looking for...",
                 "nextPhraseID":"lae_centaur2_3"
-			}
+            }
         ]
     },
     {
@@ -9447,9 +9445,9 @@
         "message":"That's what they all say. But mark my words, human, if you step out of line, you'll regret it.",
         "replies":[
             {
-				"text":"I assure you, I have no intentions of causing any harm.",
+                "text":"I assure you, I have no intentions of causing any harm.",
                 "nextPhraseID":"lae_centaur2_4"
-			}
+            }
         ]
     },
     {
@@ -9457,9 +9455,9 @@
         "message":"We'll see about that. Just remember, you're not welcome here.",
         "replies":[
             {
-				"text":"N",
+                "text":"N",
                 "nextPhraseID":"lae_centaur2_5"
-			}
+            }
         ]
     },
     {
@@ -9467,13 +9465,13 @@
         "message":"We will have to decide what happens to you. You must therefore go to our leader now.",
         "replies":[
             {
-				"text":"Fine, I'll go see him.",
+                "text":"Fine, I'll go see him.",
                 "nextPhraseID":"lae_centaur2_8"
-			},
+            },
             {
-				"text":"It's okay, calm down. Where is this leader?",
+                "text":"It's okay, calm down. Where is this leader?",
                 "nextPhraseID":"lae_centaur2_8"
-			}
+            }
         ]
     },
     {
@@ -9481,13 +9479,13 @@
         "message":"Thalos, our wise guide, is currently in the northeast of the island.",
         "replies":[
             {
-				"text":"Fine, I'll go see him.",
+                "text":"Fine, I'll go see him.",
                 "nextPhraseID":"lae_centaur2_10"
-			},
+            },
             {
-				"text":"Hopefully this Thalos will be a little more accommodating.",
+                "text":"Hopefully this Thalos will be a little more accommodating.",
                 "nextPhraseID":"lae_centaur2_10"
-			}
+            }
         ],
         "rewards":[
             {
@@ -9543,9 +9541,9 @@
         "message":"What do you want, human?",
         "replies":[
             {
-				"text":"Just passing through. No need to be hostile.",
+                "text":"Just passing through. No need to be hostile.",
                 "nextPhraseID":"lae_centaur3_2"
-			}
+            }
         ]
     },
     {
@@ -9553,13 +9551,13 @@
         "message":"We don't take kindly to your kind here. You humans always cause trouble.",
         "replies":[
             {
-				"text":"I'm not looking for trouble. Just trying to explore.",
+                "text":"I'm not looking for trouble. Just trying to explore.",
                 "nextPhraseID":"lae_centaur3_3"
-			},
+            },
             {
-				"text":"I'm just looking for...",
+                "text":"I'm just looking for...",
                 "nextPhraseID":"lae_centaur3_3"
-			}
+            }
         ]
     },
     {
@@ -9567,9 +9565,9 @@
         "message":"Well, you're not welcome here. Keep moving before you cause any problems.",
         "replies":[
             {
-				"text":"I don't mean any harm. Can't we just talk?",
+                "text":"I don't mean any harm. Can't we just talk?",
                 "nextPhraseID":"lae_centaur3_4"
-			}
+            }
         ]
     },
     {
@@ -9577,13 +9575,13 @@
         "message":"Talking won't change anything. You humans are all the same. You should have just left us alone.",
         "replies":[
             {
-				"text":"Fine. I'll go. But I won't forget how unwelcoming you've been.",
+                "text":"Fine. I'll go. But I won't forget how unwelcoming you've been.",
                 "nextPhraseID":"lae_centaur3_5"
-			},
+            },
             {
-				"text":"Enough now. I want to speak to your boss.",
+                "text":"Enough now. I want to speak to your boss.",
                 "nextPhraseID":"lae_centaur3_8"
-			}
+            }
         ]
     },
     {
@@ -9595,13 +9593,13 @@
         "message":"Thalos, our wise guide, is currently in the northeast of the island.",
         "replies":[
             {
-				"text":"Fine, I'll go see him.",
+                "text":"Fine, I'll go see him.",
                 "nextPhraseID":"lae_centaur3_10"
-			},
+            },
             {
-				"text":"Hopefully this Thalos will be a little more accommodating.",
+                "text":"Hopefully this Thalos will be a little more accommodating.",
                 "nextPhraseID":"lae_centaur3_10"
-			}
+            }
         ],
         "rewards":[
             {
@@ -9624,7 +9622,7 @@
         "id":"lae_centaur8",
         "message":"The stars are bright tonight."
     },
-	{
+    {
         "id":"lae_centaur9",
         "replies":[
             {
@@ -9677,19 +9675,19 @@
         "message":"I am Thalos. Human, you are not welcome here.",
         "replies":[
             {
-				"text":"I know by now.",
+                "text":"I know by now.",
                 "nextPhraseID":"lae_centaur9_1a"
             },
             {
-				"text":"I am just looking for my brother, Andor. Have you perhaps seen him?",
+                "text":"I am just looking for my brother, Andor. Have you perhaps seen him?",
                 "nextPhraseID":"lae_centaur9_2"
             },
             {
-				"text":"I mean no harm. I come in peace, seeking to understand your ways.",
+                "text":"I mean no harm. I come in peace, seeking to understand your ways.",
                 "nextPhraseID":"lae_centaur9_1b"
             },
             {
-				"text":"May I try riding one of your centaurs?",
+                "text":"May I try riding one of your centaurs?",
                 "nextPhraseID":"lae_centaur9_1z"
             }
         ],
@@ -9706,15 +9704,15 @@
         "message":"What business do you have on our island?",
         "replies":[
             {
-				"text":"I am just looking for my brother, Andor. Have you perhaps seen him?",
+                "text":"I am just looking for my brother, Andor. Have you perhaps seen him?",
                 "nextPhraseID":"lae_centaur9_2"
             },
             {
-				"text":"I mean no harm. I come in peace, seeking to understand your ways.",
+                "text":"I mean no harm. I come in peace, seeking to understand your ways.",
                 "nextPhraseID":"lae_centaur9_1b"
             },
             {
-				"text":"May I try riding one of your centaurs?",
+                "text":"May I try riding one of your centaurs?",
                 "nextPhraseID":"lae_centaur9_1z"
             }
         ]
@@ -9724,11 +9722,11 @@
         "message":"Understand our ways? Humans have never cared to understand us. They see us as nothing more than beasts of burden.",
         "replies":[
             {
-				"text":"Half breads you mean.",
+                "text":"Half breads you mean.",
                 "nextPhraseID":"lae_centaur9_1z"
             },
             {
-				"text":"I'm not like other humans. I respect your kind and wish to prove it.",
+                "text":"I'm not like other humans. I respect your kind and wish to prove it.",
                 "nextPhraseID":"lae_centaur9_8"
             }
         ]
@@ -9742,9 +9740,9 @@
         "message":"This Andor, does he look a bit like you?",
         "replies":[
             {
-				"text":"Yes, yes. Have you seen him? Where is he? When?",
+                "text":"Yes, yes. Have you seen him? Where is he? When?",
                 "nextPhraseID":"lae_centaur9_2a"
-			}
+            }
         ]
     },
     {
@@ -9752,9 +9750,9 @@
         "message":"Who can be sure?",
         "replies":[
             {
-				"text":"What?",
+                "text":"What?",
                 "nextPhraseID":"lae_centaur9_2b"
-			}
+            }
         ]
     },
     {
@@ -9762,9 +9760,9 @@
         "message":"The stars are bright tonight.",
         "replies":[
             {
-				"text":"Never, ever try to elicit a straight answer from a centaur.",
+                "text":"Never, ever try to elicit a straight answer from a centaur.",
                 "nextPhraseID":"X"
-			}
+            }
         ]
     },
     {
@@ -9772,9 +9770,9 @@
         "message":"Words are cheap. Actions speak louder.",
         "replies":[
             {
-				"text":"N",
+                "text":"N",
                 "nextPhraseID":"lae_centaur9_10"
-			}
+            }
         ]
     },
     {
@@ -9782,13 +9780,13 @@
         "message":"If you truly wish to prove yourself, you must complete a task for us.",
         "replies":[
             {
-				"text":"What task do you require of me?",
+                "text":"What task do you require of me?",
                 "nextPhraseID":"lae_centaur9_12"
-			},
+            },
             {
-				"text":"I won't clean out your stable.",
+                "text":"I won't clean out your stable.",
                 "nextPhraseID":"lae_centaur9_1z"
-			}
+            }
         ]
     },
     {
@@ -9796,9 +9794,9 @@
         "message":"There is a foul creature that lurks in the cave to the east. It resembles a human but is far more savage.",
         "replies":[
             {
-				"text":"N",
+                "text":"N",
                 "nextPhraseID":"lae_centaur9_12a"
-			}
+            }
         ]
     },
     {
@@ -9806,9 +9804,9 @@
         "message":"It attacks my people and threatens our way of life.",
         "replies":[
             {
-				"text":"N",
+                "text":"N",
                 "nextPhraseID":"lae_centaur9_12b"
-			}
+            }
         ]
     },
     {
@@ -9816,17 +9814,17 @@
         "message":"[with ominous voice] It is deadly.",
         "replies":[
             {
-				"text":"It is deadly? Then I'll make sure it's dead.",
+                "text":"It is deadly? Then I'll make sure it's dead.",
                 "nextPhraseID":"lae_centaur9_30"
-			},
+            },
             {
-				"text":"Nice.",
+                "text":"Nice.",
                 "nextPhraseID":"lae_centaur9_30"
-			},
+            },
             {
-				"text":"Eh, well - I'm out.",
+                "text":"Eh, well - I'm out.",
                 "nextPhraseID":"lae_centaur9_1z"
-			}
+            }
         ]
     },
     {
@@ -9834,9 +9832,9 @@
         "message":"Go and slay this beast. Then I will reconsider your intentions.",
         "replies":[
             {
-				"text":"N",
+                "text":"N",
                 "nextPhraseID":"lae_centaur9_32"
-			}
+            }
         ],
         "rewards":[
             {
@@ -9856,9 +9854,9 @@
         "message":"We centaurs have difficulty walking up stairs and fighting monsters in caves.",
         "replies":[
             {
-				"text":"N",
+                "text":"N",
                 "nextPhraseID":"lae_centaur9_34"
-			}
+            }
         ]
     },
     {
@@ -9866,9 +9864,9 @@
         "message":"Here you humans are exceptionally advantageous.",
         "replies":[
             {
-				"text":"N",
+                "text":"N",
                 "nextPhraseID":"lae_centaur9_35"
-			}
+            }
         ]
     },
     {
@@ -9876,9 +9874,9 @@
         "message":"Go and free us from the bane of all centaurs.",
         "replies":[
             {
-				"text":"Consider it done. I will rid your island of this threat.",
+                "text":"Consider it done. I will rid your island of this threat.",
                 "nextPhraseID":"lae_centaur9_36"
-			}
+            }
         ]
     },
     {
@@ -9886,9 +9884,9 @@
         "message":"Do not underestimate the danger, human. This creature is formidable.",
         "replies":[
             {
-				"text":"N",
+                "text":"N",
                 "nextPhraseID":"lae_centaur9_38"
-			}
+            }
         ]
     },
     {
@@ -9900,14 +9898,14 @@
         "message":"What news do you bring?",
         "replies":[
             {
-				"text":"I met acquaintances in the entrance to the cave.",
+                "text":"I met acquaintances in the entrance to the cave.",
                 "nextPhraseID":"lae_centaur9_110",
                 "requires":[
                     {
                         "requireType":"questProgress",
                         "requireID":"lae_centaurs",
                         "value":130,
-						"negate":true
+                        "negate":true
                     },
                     {
                         "requireType":"questProgress",
@@ -9917,14 +9915,14 @@
                 ]
             },
             {
-				"text":"I have found my brother Andor, locked in a room down in that cave.",
+                "text":"I have found my brother Andor, locked in a room down in that cave.",
                 "nextPhraseID":"lae_centaur9_130",
                 "requires":[
                     {
                         "requireType":"questProgress",
                         "requireID":"lae_centaurs",
                         "value":200,
-						"negate":true
+                        "negate":true
                     },
                     {
                         "requireType":"questProgress",
@@ -9934,7 +9932,7 @@
                 ]
             },
             {
-				"text":"The creature has been slain. Your island is safe once more.",
+                "text":"The creature has been slain. Your island is safe once more.",
                 "nextPhraseID":"lae_centaur9_300",
                 "requires":[
                     {
@@ -9945,7 +9943,7 @@
                 ]
             },
             {
-				"text":"I am still searching.",
+                "text":"I am still searching.",
                 "nextPhraseID":"lae_centaur9_34"
             }
         ]
@@ -9955,9 +9953,9 @@
         "message":"Even more people. Terrible - does it never end?",
         "replies":[
             {
-				"text":"I'll continue looking for the monster",
+                "text":"I'll continue looking for the monster",
                 "nextPhraseID":"lae_centaur9_112"
-			}
+            }
         ]
     },
     {
@@ -9969,9 +9967,9 @@
         "message":"Is that so?",
         "replies":[
             {
-				"text":"Yes. I'll go free him now.",
+                "text":"Yes. I'll go free him now.",
                 "nextPhraseID":"lae_centaur9_132"
-			}
+            }
         ]
     },
     {
@@ -9979,9 +9977,9 @@
         "message":"Do that if you must. Although I am not glad with even more humans on our island.",
         "replies":[
             {
-				"text":"N",
+                "text":"N",
                 "nextPhraseID":"lae_centaur9_134"
-			}
+            }
         ]
     },
     {
@@ -9993,7 +9991,7 @@
         "message":"Impressive, human. Yes, I can feel it.",
         "replies":[
             {
-				"text":"And this heart does prove it.",
+                "text":"And this heart does prove it.",
                 "nextPhraseID":"lae_centaur9_302",
                 "requires":[
                     {
@@ -10002,19 +10000,19 @@
                         "value":1
                     }
                 ]
-			},
+            },
             {
-				"text":"I wanted to prove it with the monster's heart, but I seem to have lost it. Just a minute ...",
+                "text":"I wanted to prove it with the monster's heart, but I seem to have lost it. Just a minute ...",
                 "nextPhraseID":"X",
                 "requires":[
                     {
                         "requireType":"inventoryKeep",
                         "requireID":"lae_island_boss_heart",
                         "value":1,
-						"negate":true
+                        "negate":true
                     }
                 ]
-			}
+            }
         ]
     },
     {
@@ -10022,9 +10020,9 @@
         "message":"That foul creature is no more. A great burden is lifted from my heart.",
         "replies":[
             {
-				"text":"N",
+                "text":"N",
                 "nextPhraseID":"lae_centaur9_310"
-			}
+            }
         ],
         "rewards":[
             {
@@ -10039,13 +10037,13 @@
         "message":"You have proven yourself to be more than just another ignorant human.",
         "replies":[
             {
-				"text":"Very good.",
+                "text":"Very good.",
                 "nextPhraseID":"lae_centaur9_390"
-			},
+            },
             {
-				"text":"At last.",
+                "text":"At last.",
                 "nextPhraseID":"lae_centaur9_390"
-			}
+            }
         ],
         "rewards":[
             {
@@ -10060,9 +10058,9 @@
         "message":"Alas, you have earned our gratitude.",
         "replies":[
             {
-				"text":"N",
+                "text":"N",
                 "nextPhraseID":"lae_centaur9_392"
-			}
+            }
         ]
     },
     {
@@ -11242,8 +11240,8 @@
     },
     {
         "id":"lae_prison1a",
-		"switchToNPC":"lae_prisoner",
-        "message":"Please help us!"
+        "message":"Please help us!",
+        "switchToNPC":"lae_prisoner"
     },
     {
         "id":"lae_prison_cell1",
@@ -11262,7 +11260,7 @@
                         "requireType":"questProgress",
                         "requireID":"lae_torturer",
                         "value":110,
-						"negate":true
+                        "negate":true
                     }
                 ]
             },
@@ -11290,7 +11288,7 @@
                         "requireType":"inventoryKeep",
                         "requireID":"lae_prison_key",
                         "value":1,
-						"negate":true
+                        "negate":true
                     }
                 ]
             }
@@ -11324,7 +11322,7 @@
                         "requireType":"questProgress",
                         "requireID":"lae_torturer",
                         "value":110,
-						"negate":true
+                        "negate":true
                     }
                 ]
             },
@@ -11352,7 +11350,7 @@
                         "requireType":"inventoryKeep",
                         "requireID":"lae_prison_key",
                         "value":1,
-						"negate":true
+                        "negate":true
                     }
                 ]
             }
@@ -11386,7 +11384,7 @@
                         "requireType":"questProgress",
                         "requireID":"lae_torturer",
                         "value":110,
-						"negate":true
+                        "negate":true
                     }
                 ]
             },
@@ -11414,7 +11412,7 @@
                         "requireType":"inventoryKeep",
                         "requireID":"lae_prison_key",
                         "value":1,
-						"negate":true
+                        "negate":true
                     }
                 ]
             }
@@ -11448,7 +11446,7 @@
                         "requireType":"questProgress",
                         "requireID":"lae_torturer",
                         "value":110,
-						"negate":true
+                        "negate":true
                     }
                 ]
             },
@@ -11476,7 +11474,7 @@
                         "requireType":"inventoryKeep",
                         "requireID":"lae_prison_key",
                         "value":1,
-						"negate":true
+                        "negate":true
                     }
                 ]
             }
@@ -11636,8 +11634,8 @@
     },
     {
         "id":"lae_prison_3a",
-		"switchToNPC":"lae_prisoner",
         "message":"Ohhh! What will become of us?",
+        "switchToNPC":"lae_prisoner",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -11711,19 +11709,19 @@
     },
     {
         "id":"lae_prison_end_10",
-		"switchToNPC":"lae_prisoner",
         "message":"Oh, the kid is back. Just look!",
+        "switchToNPC":"lae_prisoner",
         "replies":[
             {
                 "text":"You can finally find peace. Kotheses, the torturer is dead.",
-				"nextPhraseID":"lae_prison_end_20"
+                "nextPhraseID":"lae_prison_end_20"
             }
         ]
     },
     {
         "id":"lae_prison_end_20",
-		"switchToNPC":"lae_prisoner",
         "message":"Ooooh! We are eternally grateful!",
+        "switchToNPC":"lae_prisoner",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -11738,7 +11736,7 @@
         "replies":[
             {
                 "text":"N",
-				"nextPhraseID":"lae_prison_3a"
+                "nextPhraseID":"lae_prison_3a"
             }
         ],
         "rewards":[
@@ -11759,25 +11757,25 @@
                         "requireType":"killedMonster",
                         "requireID":"lae_demon9",
                         "value":1,
-						"negate":true
+                        "negate":true
                     },
                     {
                         "requireType":"killedMonster",
                         "requireID":"lae_demon7",
                         "value":1,
-						"negate":true
+                        "negate":true
                     },
                     {
                         "requireType":"killedMonster",
                         "requireID":"lae_demon5",
                         "value":1,
-						"negate":true
+                        "negate":true
                     },
                     {
                         "requireType":"killedMonster",
                         "requireID":"lae_demon4",
                         "value":1,
-						"negate":true
+                        "negate":true
                     }
                 ]
             },
@@ -11798,7 +11796,7 @@
                         "requireType":"questProgress",
                         "requireID":"lae_torturer",
                         "value":30,
-						"negate":true
+                        "negate":true
                     }
                 ]
             },
@@ -11815,7 +11813,7 @@
                 "text":"They have attacked me!",
                 "nextPhraseID":"lae_torturer_5"
             }
-		],
+        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -11874,52 +11872,52 @@
     },
     {
         "id":"lae_torturer_key",
-		"switchToNPC":"kotheses",
-        "message":"Stop, kid! Not a step further!"
+        "message":"Stop, kid! Not a step further!",
+        "switchToNPC":"kotheses"
     },
     {
         "id":"lae_torturer_10",
-		"message":"Hello, child.",
+        "message":"Hello, child.",
         "replies":[
             {
                 "text":"N",
-				"nextPhraseID":"lae_torturer_10a"
+                "nextPhraseID":"lae_torturer_10a"
             }
         ]
     },
     {
         "id":"lae_torturer_10a",
-		"message":"Would you like to learn the trade of a torturer?",
+        "message":"Would you like to learn the trade of a torturer?",
         "replies":[
             {
                 "text":"Tell me more about it.",
-				"nextPhraseID":"lae_torturer_11",
+                "nextPhraseID":"lae_torturer_11",
                 "requires":[
                     {
                         "requireType":"questProgress",
                         "requireID":"lae_torturer",
                         "value":60,
-						"negate":true
+                        "negate":true
                     }
                 ]
             },
             {
                 "text":"I'm sorry, I don't have time for that. I have to look for my brother. Do you perhaps know where he is? He looks something like me.",
-				"nextPhraseID":"lae_torturer_12"
+                "nextPhraseID":"lae_torturer_12"
             },
             {
                 "text":"You stole the life force of your captives.",
-				"nextPhraseID":"lae_torturer_18"
+                "nextPhraseID":"lae_torturer_18"
             },
             {
                 "text":"Very gladly. I always like to learn new things.",
-				"nextPhraseID":"lae_torturer_30",
+                "nextPhraseID":"lae_torturer_30",
                 "requires":[
                     {
                         "requireType":"questProgress",
                         "requireID":"lae_torturer",
                         "value":60,
-						"negate":true
+                        "negate":true
                     }
                 ]
             }
@@ -11959,105 +11957,105 @@
     },
     {
         "id":"lae_torturer_11",
-		"message":"I seek a young apprentice to train in our essential duties.",
+        "message":"I seek a young apprentice to train in our essential duties.",
         "replies":[
             {
                 "text":"N",
-				"nextPhraseID":"lae_torturer_11a"
+                "nextPhraseID":"lae_torturer_11a"
             }
         ]
     },
     {
         "id":"lae_torturer_11a",
-		"message":"You will start by observing and assisting me during interrogations, learning the delicate balance of inflicting pain.",
+        "message":"You will start by observing and assisting me during interrogations, learning the delicate balance of inflicting pain.",
         "replies":[
             {
                 "text":"N",
-				"nextPhraseID":"lae_torturer_11b"
+                "nextPhraseID":"lae_torturer_11b"
             }
         ]
     },
     {
         "id":"lae_torturer_11b",
-		"message":"While keeping the prisoner alive, of course.",
+        "message":"While keeping the prisoner alive, of course.",
         "replies":[
             {
                 "text":"Oh, makes sense.",
-				"nextPhraseID":"lae_torturer_11c"
+                "nextPhraseID":"lae_torturer_11c"
             }
         ]
     },
     {
         "id":"lae_torturer_11c",
-		"message":"Your education will include mastering various torture devices and understanding their effects.",
+        "message":"Your education will include mastering various torture devices and understanding their effects.",
         "replies":[
             {
                 "text":"N",
-				"nextPhraseID":"lae_torturer_11d"
+                "nextPhraseID":"lae_torturer_11d"
             }
         ]
     },
     {
         "id":"lae_torturer_11d",
-		"message":"Over the years, you will gradually take on more responsibility, eventually conducting interrogations on your own once you have proven your skill and steadiness.",
+        "message":"Over the years, you will gradually take on more responsibility, eventually conducting interrogations on your own once you have proven your skill and steadiness.",
         "replies":[
             {
                 "text":"Interrogations you call it?",
-				"nextPhraseID":"lae_torturer_11e"
+                "nextPhraseID":"lae_torturer_11e"
             }
         ]
     },
     {
         "id":"lae_torturer_11e",
-		"message":"Sure. We only want want the thruth. Nothing more. It is a very prestigious work.",
+        "message":"Sure. We only want want the thruth. Nothing more. It is a very prestigious work.",
         "replies":[
             {
                 "text":"If you say so.",
-				"nextPhraseID":"lae_torturer_10a"
+                "nextPhraseID":"lae_torturer_10a"
             },
             {
                 "text":"Then why do you wear a mask at public executions?",
-				"nextPhraseID":"lae_torturer_11f"
+                "nextPhraseID":"lae_torturer_11f"
             }
         ]
     },
     {
         "id":"lae_torturer_11f",
-		"message":"Enough questions.",
+        "message":"Enough questions.",
         "replies":[
             {
                 "text":"N",
-				"nextPhraseID":"lae_torturer_10a"
+                "nextPhraseID":"lae_torturer_10a"
             }
         ]
     },
     {
         "id":"lae_torturer_12",
-		"message":"No, I don't know where Andor is now.",
+        "message":"No, I don't know where Andor is now.",
         "replies":[
             {
                 "text":"Oh, how do you know his name?",
-				"nextPhraseID":"lae_torturer_14"
+                "nextPhraseID":"lae_torturer_14"
             }
         ]
     },
     {
         "id":"lae_torturer_14",
-		"message":"Well, he was here a while ago and was shown a few tricks.",
+        "message":"Well, he was here a while ago and was shown a few tricks.",
         "replies":[
             {
                 "text":"So he was here too?",
-				"nextPhraseID":"lae_torturer_16"
+                "nextPhraseID":"lae_torturer_16"
             }
         ]
     },
     {
         "id":"lae_torturer_16",
-		"message":"Andor was a very eager student. It's a shame he didn't stay.",
+        "message":"Andor was a very eager student. It's a shame he didn't stay.",
         "replies":[
             {
                 "text":"N",
-				"nextPhraseID":"lae_torturer_20"
+                "nextPhraseID":"lae_torturer_20"
             }
         ],
         "rewards":[
@@ -12070,39 +12068,39 @@
     },
     {
         "id":"lae_torturer_18",
-		"message":"Yes. So?",
+        "message":"Yes. So?",
         "replies":[
             {
                 "text":"Nothing.",
-				"nextPhraseID":"lae_torturer_20"
+                "nextPhraseID":"lae_torturer_20"
             }
         ]
     },
     {
         "id":"lae_torturer_20",
-		"message":"You are sure you don't want to learn the art of a torturer?",
+        "message":"You are sure you don't want to learn the art of a torturer?",
         "replies":[
             {
                 "text":"That is no job for me.",
-				"nextPhraseID":"lae_torturer_60",
+                "nextPhraseID":"lae_torturer_60",
                 "requires":[
                     {
                         "requireType":"questProgress",
                         "requireID":"lae_torturer",
                         "value":30,
-						"negate":true
+                        "negate":true
                     }
                 ]
             },
             {
                 "text":"Well, I could try at least.",
-				"nextPhraseID":"lae_torturer_30",
+                "nextPhraseID":"lae_torturer_30",
                 "requires":[
                     {
                         "requireType":"questProgress",
                         "requireID":"lae_torturer",
                         "value":60,
-						"negate":true
+                        "negate":true
                     }
                 ]
             }
@@ -12110,11 +12108,11 @@
     },
     {
         "id":"lae_torturer_30",
-		"message":"Okay, then let's get started. This is a very important job, you know?",
+        "message":"Okay, then let's get started. This is a very important job, you know?",
         "replies":[
             {
                 "text":"Why?",
-				"nextPhraseID":"lae_torturer_32"
+                "nextPhraseID":"lae_torturer_32"
             }
         ],
         "rewards":[
@@ -12127,63 +12125,63 @@
     },
     {
         "id":"lae_torturer_32",
-		"message":"You get people to tell you the truth you want to hear.",
+        "message":"You get people to tell you the truth you want to hear.",
         "replies":[
             {
                 "text":"Oh, OK.",
-				"nextPhraseID":"lae_torturer_34"
+                "nextPhraseID":"lae_torturer_34"
             }
         ]
     },
     {
         "id":"lae_torturer_34",
-		"message":"Like these dangerous captives in the cells above. They all confessed. Luckily they are in safe custody.",
+        "message":"Like these dangerous captives in the cells above. They all confessed. Luckily they are in safe custody.",
         "replies":[
             {
                 "text":"Eh ...",
-				"nextPhraseID":"lae_torturer_36"
+                "nextPhraseID":"lae_torturer_36"
             }
         ]
     },
     {
         "id":"lae_torturer_36",
-		"message":"What?",
+        "message":"What?",
         "replies":[
             {
                 "text":"I opened the cells and released them.",
-				"nextPhraseID":"lae_torturer_40"
+                "nextPhraseID":"lae_torturer_40"
             }
         ]
     },
     {
         "id":"lae_torturer_40",
-		"message":"Not again! You need to wake up the Demon Guard and send them upstairs. That way you will quickly get the problem under control.",
+        "message":"Not again! You need to wake up the Demon Guard and send them upstairs. That way you will quickly get the problem under control.",
         "replies":[
             {
                 "text":"Demons? That doesn't sound safe.",
-				"nextPhraseID":"lae_torturer_42"
+                "nextPhraseID":"lae_torturer_42"
             }
         ]
     },
     {
         "id":"lae_torturer_42",
-		"message":"You screwed up, you have to fix it.",
+        "message":"You screwed up, you have to fix it.",
         "replies":[
             {
                 "text":"Sigh.",
-				"nextPhraseID":"lae_torturer_44",
+                "nextPhraseID":"lae_torturer_44",
                 "requires":[
                     {
                         "requireType":"questProgress",
                         "requireID":"lae_torturer",
                         "value":35,
-						"negate":true
+                        "negate":true
                     }
                 ]
             },
             {
                 "text":"Sigh. I know.",
-				"nextPhraseID":"lae_torturer_45",
+                "nextPhraseID":"lae_torturer_45",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -12196,11 +12194,11 @@
     },
     {
         "id":"lae_torturer_44",
-		"message":"Here take this Oegyth crystal.",
+        "message":"Here take this Oegyth crystal.",
         "replies":[
             {
                 "text":"N",
-				"nextPhraseID":"lae_torturer_45"
+                "nextPhraseID":"lae_torturer_45"
             }
         ],
         "rewards":[
@@ -12218,31 +12216,31 @@
     },
     {
         "id":"lae_torturer_45",
-		"message":"Take this precious Oegyth crystal to that small room to the south and continue through the corridor.",
+        "message":"Take this precious Oegyth crystal to that small room to the south and continue through the corridor.",
         "replies":[
             {
                 "text":"N",
-				"nextPhraseID":"lae_torturer_46"
+                "nextPhraseID":"lae_torturer_46"
             }
         ]
     },
     {
         "id":"lae_torturer_46",
-		"message":"Then throw the crystal with all your might into the dark abyss.",
+        "message":"Then throw the crystal with all your might into the dark abyss.",
         "replies":[
             {
                 "text":"What?!",
-				"nextPhraseID":"lae_torturer_48"
+                "nextPhraseID":"lae_torturer_48"
             }
         ]
     },
     {
         "id":"lae_torturer_48",
-		"message":"Do it. Then run for your life back to me so that I can protect you from them.",
+        "message":"Do it. Then run for your life back to me so that I can protect you from them.",
         "replies":[
             {
                 "text":"N",
-				"nextPhraseID":"lae_torturer_50"
+                "nextPhraseID":"lae_torturer_50"
             }
         ],
         "rewards":[
@@ -12255,25 +12253,25 @@
     },
     {
         "id":"lae_torturer_50",
-		"message":"You hear me? Don't wait for the demons. They are deadly.",
+        "message":"You hear me? Don't wait for the demons. They are deadly.",
         "replies":[
             {
                 "text":"N",
-				"nextPhraseID":"lae_torturer_52"
+                "nextPhraseID":"lae_torturer_52"
             }
         ]
     },
     {
         "id":"lae_torturer_52",
-		"message":"Now. Move."
+        "message":"Now. Move."
     },
     {
         "id":"lae_torturer_60",
-		"message":"What a pity. At least let me warn you about the prisoners above.",
+        "message":"What a pity. At least let me warn you about the prisoners above.",
         "replies":[
             {
                 "text":"What is with them?",
-				"nextPhraseID":"lae_torturer_62"
+                "nextPhraseID":"lae_torturer_62"
             }
         ],
         "rewards":[
@@ -12286,61 +12284,61 @@
     },
     {
         "id":"lae_torturer_62",
-		"message":"They are devious. They are highly dangerous.",
+        "message":"They are devious. They are highly dangerous.",
         "replies":[
             {
                 "text":"N",
-				"nextPhraseID":"lae_torturer_64"
+                "nextPhraseID":"lae_torturer_64"
             }
         ]
     },
     {
         "id":"lae_torturer_64",
-		"message":"They must be imprisoned for all reasons.",
+        "message":"They must be imprisoned for all reasons.",
         "replies":[
             {
                 "text":"Why?",
-				"nextPhraseID":"lae_torturer_66"
+                "nextPhraseID":"lae_torturer_66"
             }
         ]
     },
     {
         "id":"lae_torturer_66",
-		"message":"Their lies influence you to have mercy. But turn your back to them they pierce you cruelly.",
+        "message":"Their lies influence you to have mercy. But turn your back to them they pierce you cruelly.",
         "replies":[
             {
                 "text":"N",
-				"nextPhraseID":"lae_torturer_70"
+                "nextPhraseID":"lae_torturer_70"
             }
         ]
     },
     {
         "id":"lae_torturer_70",
-		"message":"Believe it or not.",
+        "message":"Believe it or not.",
         "replies":[
             {
                 "text":"Not.",
-				"nextPhraseID":"lae_torturer_74"
+                "nextPhraseID":"lae_torturer_74"
             }
         ]
     },
     {
         "id":"lae_torturer_74",
-		"message":"At least I play fair. I do not come from ambush, but rather announce my attack.",
+        "message":"At least I play fair. I do not come from ambush, but rather announce my attack.",
         "replies":[
             {
                 "text":"OK ...",
-				"nextPhraseID":"lae_torturer_76"
+                "nextPhraseID":"lae_torturer_76"
             }
         ]
     },
     {
         "id":"lae_torturer_76",
-		"message":"... which is now!",
+        "message":"... which is now!",
         "replies":[
             {
                 "text":"How gross.",
-				"nextPhraseID":"F"
+                "nextPhraseID":"F"
             }
         ],
         "rewards":[
@@ -12353,11 +12351,11 @@
     },
     {
         "id":"lae_torturer_100",
-		"message":"Now you can talk to the demons. To all of them. Tell them what they have to do.",
+        "message":"Now you can talk to the demons. To all of them. Tell them what they have to do.",
         "replies":[
             {
                 "text":"All of them?",
-				"nextPhraseID":"lae_torturer_101",
+                "nextPhraseID":"lae_torturer_101",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -12368,13 +12366,13 @@
             },
             {
                 "text":"OK.",
-				"nextPhraseID":"lae_torturer_102",
+                "nextPhraseID":"lae_torturer_102",
                 "requires":[
                     {
                         "requireType":"questProgress",
                         "requireID":"lae_torturer",
                         "value":50,
-						"negate":true
+                        "negate":true
                     }
                 ]
             }
@@ -12382,19 +12380,19 @@
     },
     {
         "id":"lae_torturer_101",
-		"message":"To all of those that you have left alive. But please, stay close to me this time."
+        "message":"To all of those that you have left alive. But please, stay close to me this time."
     },
     {
         "id":"lae_torturer_102",
-		"message":"But stay close to me."
+        "message":"But stay close to me."
     },
     {
         "id":"lae_torturer_110",
-		"message":"I see it in your eyes - you want to leave too. Like your brother.",
+        "message":"I see it in your eyes - you want to leave too. Like your brother.",
         "replies":[
             {
                 "text":"Yes. Thank you for your lessons.",
-				"nextPhraseID":"X"
+                "nextPhraseID":"X"
             }
         ],
         "rewards":[
@@ -12409,7 +12407,7 @@
         "id":"lae_demon_safe",
         "replies":[
             {
-				"nextPhraseID":"lae_demon_safe_1",
+                "nextPhraseID":"lae_demon_safe_1",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -12419,7 +12417,7 @@
                 ]
             },
             {
-				"nextPhraseID":"lae_demon_unsafe"
+                "nextPhraseID":"lae_demon_unsafe"
             }
         ]
     },
@@ -12455,7 +12453,7 @@
                         "requireType":"questProgress",
                         "requireID":"lae_torturer",
                         "value":100,
-						"negate":true
+                        "negate":true
                     },
                     {
                         "requireType":"inventoryRemove",
@@ -12472,13 +12470,13 @@
                         "requireType":"questProgress",
                         "requireID":"lae_torturer",
                         "value":100,
-						"negate":true
+                        "negate":true
                     },
                     {
                         "requireType":"inventoryKeep",
                         "requireID":"oegyth",
                         "value":1,
-						"negate":true
+                        "negate":true
                     }
                 ]
             },
@@ -12518,7 +12516,7 @@
                         "requireType":"questProgress",
                         "requireID":"lae_torturer",
                         "value":100,
-						"negate":true
+                        "negate":true
                     },
                     {
                         "requireType":"inventoryRemove",
@@ -13036,8 +13034,8 @@
     },
     {
         "id":"hungry_pig_dies",
-		"switchToNPC":"none",
         "message":"The hungry pig dies due to the rotten meat.",
+        "switchToNPC":"none",
         "rewards":[
             {
                 "rewardType":"removeSpawnArea",
