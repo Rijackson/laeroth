@@ -4878,6 +4878,22 @@
                         "negate":true
                     }
                 ]
+            },
+            {
+                "nextPhraseID":"brute_fisherman_check_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sisterfight",
+                        "value":60
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brute_creator",
+                        "value":10,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },
