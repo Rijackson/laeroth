@@ -63,11 +63,12 @@
         "iconID":"actorconditions_1:60",
         "name":"Environmental poisoning",
         "category":"physical",
+        "isStacking":1,
         "roundEffect":{
             "visualEffectID":"greenSplash",
             "increaseCurrentHP":{
-                "min":-2,
-                "max":-3
+                "min":0,
+                "max":-1
             }
         }
     }
