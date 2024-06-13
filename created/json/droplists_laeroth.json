@@ -452,6 +452,19 @@
         ]
     },
     {
+        "id":"laerothisland3_2",
+        "items":[
+            {
+                "itemID":"mead",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":2
+                }
+            }
+        ]
+    },
+    {
         "id":"lae_underground5_loot",
         "items":[
             {
