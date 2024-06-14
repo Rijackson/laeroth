@@ -4108,7 +4108,7 @@
     {
         "id":"jerelin_b_2a",
         "message":"Again? I told you I don't like being disturbed!",
-        "switchToNPC":"jerelin",
+        "switchToNPC":"jerelin_b",
         "replies":[
             {
                 "text":"I spoke to Audela. She said to tell you that she insists you do this. She even made some kind of threat about reaching into your grave if you don't.",

@@ -127,12 +127,12 @@
  </layer>
  <layer id="2" name="Objects" width="30" height="13">
   <data encoding="base64" compression="zlib">
-   eJxjYBg4EC4AoTsZUcW38uLXt5MM+e1YxGYyYooNFoAeJviAOpTWZmJg0GFCFSMVkBIm5gTEYG6hNuBjQbAJhRMp4UgIIIcptnCCpWdk+TS0MCCHjy2c6Q3U0WhigRyJaQBdvTkaDQOgsG6FxQE0PUhjsUsWKvaQiukAZC8IY7MPF0BWC3MTKfphYBqdyiwABAwRUg==
+   eJxjYBg4EC4AoTsZUcW38uLXt5MM+e1YxGYyYooNFoAeJo/xuFUdSmszMTDoMKGK4QPYzEQPk09Y1MDcZo7FTGQxmFuoDfhYMN2CCxCSJwbMgZqBHKbY0g4sPSPLp6GFATl8bOFMb6CORhML5EhMA+jqzdFoGACFdSssDqDpQRqLXbJQsYdUzOsge0EYm324ALJamJtI0Q8D0+hUZgEATowVNA==
   </data>
  </layer>
  <layer id="3" name="Above" width="30" height="13">
   <data encoding="base64" compression="zlib">
-   eJxjYGBgCBdgIAj0mAirIRXI4jAT5p5ORlQ+DKQD+e2MmOqJ5cPMwGXvdCR7u4iwZw4Od6bhsYMU94L4j0nwLzoA+ZUYt2Djf6bAXlzypMbXULEXV3pGD3tK+dgAtvRMD0BM2UELAAvrVAFUmh4AFNbE2IcrPZALwom0lxoAAK60GzQ=
+   eJxjYGBgCBdgIAj0mAirIRXI4jAT5p5ORlQ+DKQD+e2MmOqJ5cPMwGXvdCR7u4iwZw4Od6bhsYMU95LjP2QA8isxbqG2vbjkh6u9uNIzethTyscGsKVnegBiyg5aAFhYpwqg0vQAoLAmxj5c6YFcEE6kvdQAAPIeGVw=
   </data>
  </layer>
  <layer id="8" name="Top" width="30" height="13">
@@ -161,7 +161,7 @@
   <object id="14" name="lae_prison_end" type="script" x="64" y="288" width="128" height="32"/>
   <object id="25" name="lae_prison_container" type="container" x="736" y="160" width="32" height="32"/>
  </objectgroup>
- <objectgroup id="6" name="Spawn">
+ <objectgroup id="6" name="Spawn" visible="0">
   <object id="3" name="prisoner1" type="spawn" x="768" y="64" width="32" height="32">
    <properties>
     <property name="spawngroup" value="lae_prisoner1"/>
